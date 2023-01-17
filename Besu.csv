@@ -1,0 +1,205 @@
+Issue Type,Issue key,Issue id,Created,Summary,Assignee,Reporter,Priority,Status,Resolution,Updated,Due Date,Security Level,Component/s
+Task,BESU-122,43387,20/Nov/19 1:01 PM,Update eth_getLogs so large calls do not cause Besu to stop running,,madelinemurray,Highest,Done,Done,12/Feb/20 11:14 PM,,,
+Bug,BESU-183,44134,25/Jan/20 3:23 AM,Performance issues when Besu node starts searching events,,eum602,High,Done,Done,25/Mar/20 10:59 PM,,,
+Bug,BESU-160,43739,17/Dec/19 3:45 AM,Error syncing with mainnet on Besu 1.3.7 node - MerkleTrieException,ratanraisur,faraggi,High,Done,Done,25/Mar/20 10:49 PM,,,
+Bug,BESU-181,44108,23/Jan/20 8:05 AM,On-chain permissioning nodes can't peer when using a non-validator bootnode,,jframe,High,Done,Done,23/Mar/20 6:23 AM,,,
+Task,BESU-131,43451,26/Nov/19 1:45 PM,Validate privateFrom before executing private transaction ,madelinemurray,madelinemurray,High,Done,Done,18/Mar/20 1:37 PM,,,besu-privacy
+Bug,BESU-176,43965,14/Jan/20 4:49 PM,JRPC response to eth_getTransactionCount is different from other node implementations,,E.alcazar,High,Done,Done,12/Feb/20 11:12 PM,,,
+Bug,BESU-157,43717,14/Dec/19 1:15 AM,stop processing private tx when enclave is down,antonydenyer,antonydenyer,High,Done,Done,28/Jan/20 9:13 AM,,,besu-privacy
+Bug,BESU-138,43511,03/Dec/19 1:18 AM,Orion nodes do not work properly,lucassaldanha,eum602,High,Done,Done,27/Dec/19 8:06 AM,,,besu-privacy
+Task,BESU-142,43522,03/Dec/19 1:27 PM,Segment private state storage,madelinemurray,madelinemurray,Medium,Done,Done,27/Mar/20 6:36 AM,,,besu-privacy
+Improvement,BESU-80,43203,07/Nov/19 1:32 PM,Modify Besu to use TLS connect to Orion,,arash009,Medium,Done,Done,26/Mar/20 6:56 AM,,,
+Improvement,BESU-119,43365,18/Nov/19 10:32 PM,Create recording of Prometheus service,MohamedAbdulaziz,MohamedAbdulaziz,Medium,Done,Done,25/Mar/20 11:32 PM,,,besu-docs
+Epic,BESU-32,43137,06/Nov/19 8:28 AM,TLS for Besu endpoints,,arash009,Medium,Done,Done,25/Mar/20 11:01 PM,,,
+Improvement,BESU-151,43621,06/Dec/19 6:49 PM,Add Quorum IBFT 1.0 to Besu architecture overview figure,,MohamedAbdulaziz,Medium,Done,Done,25/Mar/20 11:00 PM,,,besu-docs
+Bug,BESU-203,44465,29/Feb/20 1:26 AM,Besu node not handling error when chain head arrives but fast sync fails,,eum602,Medium,Done,Done,25/Mar/20 10:59 PM,,,
+Bug,BESU-69,43177,06/Nov/19 11:05 PM,Besu should error out if full sync is requested when fast sync is incomplete,oyincode,timbeiko,Medium,Done,Done,25/Mar/20 10:56 PM,,,
+Bug,BESU-178,44007,17/Jan/20 7:11 AM,1.4.0-Beta1 Gorli testnet issue,,arash009,Medium,Done,Done,24/Mar/20 12:26 AM,,,
+Improvement,BESU-197,44260,04/Feb/20 7:56 PM,Fix generation of legacy privacy group IDs ,madelinemurray,madelinemurray,Medium,Done,Done,23/Mar/20 11:02 PM,,,besu-privacy
+Task,BESU-180,44028,20/Jan/20 1:09 PM,Check TLS performance of Besu on Caliper,,arash009,Medium,Done,Done,23/Mar/20 11:01 PM,,,
+Improvement,BESU-106,43287,12/Nov/19 3:51 PM,Define behaviour of admin_addPeer regarding PeerTable,,arash009,Medium,Done,Done,23/Mar/20 10:59 PM,,,
+Epic,BESU-84,43225,08/Nov/19 3:02 PM,Fork on an IBFT2.0 network,,arash009,Medium,Done,Done,23/Mar/20 1:19 PM,,,
+Improvement,BESU-105,43286,12/Nov/19 3:28 PM,Modify Besu to accept TLS connections on graphql interface,,arash009,Medium,Done,Done,23/Mar/20 8:09 AM,,,
+Improvement,BESU-104,43285,12/Nov/19 3:23 PM,Modify Besu to accept TLS connections on ws JSON RPC interface,,arash009,Medium,Done,Done,23/Mar/20 8:08 AM,,,
+Task,BESU-93,43255,11/Nov/19 1:51 PM,Suggestion to add reference to configuring free gas network,,madelinemurray,Medium,Done,Done,23/Mar/20 6:21 AM,,,besu-docs
+Bug,BESU-188,44198,31/Jan/20 12:05 PM,Misleading error message when Besu cannot create parent directories ,,madelinemurray,Medium,Done,Done,23/Mar/20 6:21 AM,,,
+Task,BESU-186,44151,28/Jan/20 12:40 PM,Doc priv_getCode,,madelinemurray,Medium,Done,Done,23/Mar/20 6:16 AM,,,besu-docs
+Task,BESU-123,43388,20/Nov/19 2:32 PM,Doc NAT options ,,madelinemurray,Medium,Done,Done,23/Mar/20 6:16 AM,,,besu-docs
+Bug,BESU-150,43601,05/Dec/19 6:54 PM,Error in Truffle's Petshop Privacy tutorial: Truffle wallet won't install,faraggi,faraggi,Medium,Done,Done,23/Mar/20 6:15 AM,,,besu-docs
+Task,BESU-34,43139,06/Nov/19 11:42 AM,Doc --identity CLI option ,,madelinemurray,Medium,Done,Done,23/Mar/20 6:02 AM,,,besu-docs
+Task,BESU-94,43256,11/Nov/19 1:53 PM,Have higher gas limit in examples and remove coinbase param,,madelinemurray,Medium,Done,Done,23/Mar/20 6:02 AM,,,besu-docs
+New Feature,BESU-162,43745,17/Dec/19 6:46 PM,Implement admin_reloadPlugin JSON RPC endpoint,abdelhamidbakhta,abdelhamidbakhta,Medium,Done,Done,23/Mar/20 3:23 AM,,,
+Task,BESU-96,43258,11/Nov/19 1:56 PM,"Mention ""pantheon public-key export-address"" in IBFT doc",,madelinemurray,Medium,Done,Done,22/Mar/20 2:31 PM,,,besu-docs
+Task,BESU-99,43261,11/Nov/19 2:06 PM,Remove all unwanted characters from code blocks as we have the copy button now,,madelinemurray,Medium,Done,Done,22/Mar/20 2:30 PM,,,besu-docs
+Task,BESU-98,43260,11/Nov/19 2:00 PM,Doc: have different chain id for clique and IBFT tutorials,,madelinemurray,Medium,Done,Done,22/Mar/20 2:14 PM,,,besu-docs
+Task,BESU-97,43259,11/Nov/19 1:59 PM,Clique tutorial extraData value and how to use it is not clear,,madelinemurray,Medium,Done,Done,22/Mar/20 2:13 PM,,,besu-docs
+Task,BESU-95,43257,11/Nov/19 1:54 PM,Remove reference to Truffle for gas limit on freeGas doc,,madelinemurray,Medium,Done,Done,22/Mar/20 2:12 PM,,,besu-docs
+Task,BESU-92,43254,11/Nov/19 1:17 PM,Doc privacy not support with pruning or fast-sync,,madelinemurray,Medium,Done,Done,22/Mar/20 2:09 PM,,,besu-docs
+New Feature,BESU-90,43252,11/Nov/19 12:54 PM,Clarify data field for eth_sendRawTransaction after priv_sendRawTransaction,madelinemurray,madelinemurray,Medium,Done,Done,22/Mar/20 2:09 PM,,,besu-docs
+New Feature,BESU-89,43251,11/Nov/19 12:52 PM,Add a Why Besu page to the docs ,,madelinemurray,Medium,Done,Done,22/Mar/20 2:04 PM,,,besu-docs
+New Feature,BESU-88,43250,11/Nov/19 12:49 PM,"Add info on creating signed, EEA-compliant signed transaction",NicolasMassart,madelinemurray,Medium,Done,Done,22/Mar/20 2:03 PM,,,besu-docs
+Improvement,BESU-85,43234,08/Nov/19 11:31 PM,Indicate that it is the node public key displayed in the log,AnilSingh,timbeiko,Medium,Done,Done,22/Mar/20 1:50 PM,,,
+Task,BESU-112,43344,15/Nov/19 2:32 PM,Run mainnet privacy on Ropsten,lucassaldanha,madelinemurray,Medium,Done,Done,22/Mar/20 1:41 PM,,,besu-privacy
+Task,BESU-117,43360,18/Nov/19 5:40 AM,Doc `--network=classic` and `--network=kotti` options ,,madelinemurray,Medium,Done,Done,22/Mar/20 1:41 PM,,,besu-docs
+Improvement,BESU-115,43352,16/Nov/19 7:25 AM,Add an 'Account Address' section to 'Node Keys' concepts,MohamedAbdulaziz,MohamedAbdulaziz,Medium,Done,Done,22/Mar/20 1:38 PM,,,besu-docs
+Task,BESU-140,43520,03/Dec/19 1:15 PM,Migration to new private state storage ,iikirilov,madelinemurray,Medium,Done,Done,22/Mar/20 1:35 PM,,,besu-privacy
+Task,BESU-144,43524,03/Dec/19 1:50 PM,Initial Privacy management contracts for on-chain privacy,iikirilov,madelinemurray,Medium,Done,Done,22/Mar/20 1:35 PM,,,besu-privacy
+Task,BESU-100,43262,11/Nov/19 3:54 PM,Make web3.js and web3j samples easier to find,,madelinemurray,Medium,Done,Done,22/Mar/20 1:34 PM,,,besu-docs
+Improvement,BESU-152,43624,06/Dec/19 8:04 PM,Change Pantheon to Besu in figure,,MohamedAbdulaziz,Medium,Done,Done,22/Mar/20 1:27 PM,,,besu-docs
+New Feature,BESU-83,43224,08/Nov/19 10:22 AM,Add priv_getCode,madelinemurray,madelinemurray,Medium,Done,Done,22/Mar/20 11:45 AM,,,besu-privacy
+Task,BESU-153,43661,10/Dec/19 7:51 PM,Test full sync option for migrating of private state storage ,madelinemurray,madelinemurray,Medium,Done,Done,22/Mar/20 11:43 AM,,,besu-privacy
+Task,BESU-161,43744,17/Dec/19 6:05 PM,Investigate options for offchain/onchain privacy groups in 1.4 ,madelinemurray,madelinemurray,Medium,Done,Done,22/Mar/20 11:43 AM,,,besu-privacy
+Task,BESU-166,43763,18/Dec/19 5:47 PM,Doc that processing of private txns stops if enclave is down ,madelinemurray,madelinemurray,Medium,Done,Done,22/Mar/20 11:40 AM,,,besu-docs
+Task,BESU-164,43761,18/Dec/19 5:41 PM,Doc how to create index for log queries ,,madelinemurray,Medium,Done,Done,22/Mar/20 11:40 AM,,,besu-docs
+Task,BESU-173,43829,07/Jan/20 6:11 PM,Write migration ,madelinemurray,madelinemurray,Medium,Done,Done,22/Mar/20 11:34 AM,,,besu-privacy
+Bug,BESU-124,43396,21/Nov/19 12:33 AM,"Print the ""address"" of the node on startup",,shemnon,Medium,Done,Done,22/Mar/20 11:32 AM,,,
+Improvement,BESU-187,44183,30/Jan/20 6:42 PM,Make database corruption issue more explicit in Besu logs at startup,,NicolasMassart,Medium,Done,Done,22/Mar/20 11:26 AM,,,
+Task,BESU-158,43732,16/Dec/19 7:51 PM,Doc multi-tenancy ,,madelinemurray,Medium,Done,Done,22/Mar/20 11:14 AM,,,besu-docs
+New Feature,BESU-91,43253,11/Nov/19 1:02 PM,Doc plugin API and how to build a API for Besu,,madelinemurray,Medium,Done,Done,22/Mar/20 11:14 AM,,,besu-docs
+Task,BESU-167,43764,18/Dec/19 5:49 PM,Doc dynamic reload mechanism for Besu plugins ,,madelinemurray,Medium,Done,Done,22/Mar/20 11:14 AM,,,besu-docs
+Task,BESU-165,43762,18/Dec/19 5:45 PM,Doc priv_call,,madelinemurray,Medium,Done,Done,22/Mar/20 11:13 AM,,,besu-docs
+Bug,BESU-201,44336,13/Feb/20 11:42 AM,Flaky test mustReturn0xUsingInvalidContractAddress - org.hyperledger.besu.tests.web3j.privacy.PrivCallAcceptanceTest,,madelinemurray,Medium,Done,Done,22/Mar/20 11:13 AM,,,
+Task,BESU-71,43179,07/Nov/19 12:09 AM,Make pruning hidden options conform to --X style,ratanraisur,ratanraisur,Medium,Done,Done,22/Mar/20 4:46 AM,,,
+Task,BESU-130,43432,23/Nov/19 2:41 AM,Add conceptual information about full sync and fast sync,,sgregg,Medium,Done,Done,21/Mar/20 5:05 AM,,,besu-docs
+Improvement,BESU-45,43153,06/Nov/19 10:42 PM,Update colors and formatting of CLI help screen,,timbeiko,Medium,Done,Done,21/Mar/20 5:05 AM,,,
+Improvement,BESU-51,43159,06/Nov/19 10:47 PM,Support customer private key file with public-key export subcommand,,timbeiko,Medium,Done,Done,21/Mar/20 5:05 AM,,,
+Improvement,BESU-40,43148,06/Nov/19 10:39 PM,Add groupings to help screen,,timbeiko,Medium,Done,Done,21/Mar/20 5:04 AM,,,
+Improvement,BESU-52,43160,06/Nov/19 10:47 PM,Add JSON-RPC method to set target block gas limit ,aditya177,timbeiko,Medium,Done,Done,21/Mar/20 5:04 AM,,,
+Improvement,BESU-49,43157,06/Nov/19 10:44 PM,Support the EVMC interface,,timbeiko,Medium,Done,Done,21/Mar/20 5:04 AM,,,
+Improvement,BESU-53,43161,06/Nov/19 10:48 PM,Track pending state changes and expose the currently mined block to JSON-RPC,,timbeiko,Medium,Done,Done,21/Mar/20 5:03 AM,,,
+Improvement,BESU-47,43155,06/Nov/19 10:43 PM,Add formatting and color to logging in CLI,,timbeiko,Medium,Done,Done,21/Mar/20 4:59 AM,,,
+Improvement,BESU-46,43154,06/Nov/19 10:43 PM,Update warning and error language in logs,,timbeiko,Medium,Done,Done,21/Mar/20 4:58 AM,,,
+Improvement,BESU-44,43152,06/Nov/19 10:42 PM,Allow users to turn off color in the CLI,,timbeiko,Medium,Done,Done,21/Mar/20 4:56 AM,,,
+Improvement,BESU-43,43151,06/Nov/19 10:41 PM,Add color and formatting to input warnings and errors,,timbeiko,Medium,Done,Done,21/Mar/20 4:56 AM,,,
+Improvement,BESU-42,43150,06/Nov/19 10:40 PM,Add support for tab completion in the CLI,,timbeiko,Medium,Done,Done,21/Mar/20 4:54 AM,,,
+Improvement,BESU-41,43149,06/Nov/19 10:40 PM,Update input warning and error text,,timbeiko,Medium,Done,Done,21/Mar/20 4:53 AM,,,
+Improvement,BESU-48,43156,06/Nov/19 10:44 PM,Add the ability to prompt in the CLI,,timbeiko,Medium,Done,Done,21/Mar/20 4:18 AM,,,
+Improvement,BESU-50,43158,06/Nov/19 10:46 PM,Support IPC transport for JSON-RPC APIs,,timbeiko,Medium,Done,Done,21/Mar/20 3:55 AM,,,
+Epic,BESU-18,43119,06/Nov/19 12:59 AM,[Meta] CLI,,timbeiko,Medium,Done,Done,21/Mar/20 3:53 AM,,,
+Improvement,BESU-38,43146,06/Nov/19 10:36 PM,Plugins directory should be configurable from CLI,,timbeiko,Medium,Done,Done,21/Mar/20 3:52 AM,,,
+New Feature,BESU-191,44213,01/Feb/20 11:30 AM,Create embedded ethnetstats helper for besu,,atoulme,Medium,Done,Done,21/Mar/20 3:49 AM,,,
+Epic,BESU-17,43118,06/Nov/19 12:57 AM,[Meta] Performance,,timbeiko,Medium,Done,Done,21/Mar/20 3:45 AM,,,
+Improvement,BESU-169,43804,27/Dec/19 11:48 PM,Index logs automatically without the need to send requests to admin_generatelogbloomcache,abdelhamidbakhta,NicolasMassart,Medium,Done,Done,21/Mar/20 3:43 AM,,,
+Task,BESU-190,44212,01/Feb/20 9:49 AM,Investigate blind auction failure,madelinemurray,madelinemurray,Medium,Done,Done,18/Mar/20 1:51 PM,,,besu-privacy
+New Feature,BESU-189,44211,01/Feb/20 9:47 AM,Create proxy contract for privacy group management contract,,madelinemurray,Medium,Done,Done,18/Mar/20 1:49 PM,,,besu-privacy
+Task,BESU-172,43828,07/Jan/20 5:38 PM,Describe Orion keys vs Ethereum Accounts vs privacy group ownership,madelinemurray,madelinemurray,Medium,Done,Done,18/Mar/20 1:47 PM,,,besu-privacy
+Task,BESU-143,43523,03/Dec/19 1:29 PM,Refactor privacynode.getTransactionSigningKey,madelinemurray,madelinemurray,Medium,Done,Done,18/Mar/20 1:46 PM,,,besu-privacy
+Task,BESU-171,43822,06/Jan/20 10:28 AM,Automated tests of 1.3 privacy with 1.4+ versions of Besu ,madelinemurray,madelinemurray,Medium,Done,Done,18/Mar/20 1:41 PM,,,besu-privacy
+Task,BESU-79,43202,07/Nov/19 12:47 PM,Add priv_* filter methods,madelinemurray,madelinemurray,Medium,Done,Done,18/Mar/20 4:57 AM,,,besu-privacy
+Bug,BESU-192,44214,03/Feb/20 4:05 PM,Private transactions with IBFT logs nonce error,,jframe,Medium,Done,Done,18/Mar/20 4:55 AM,,,besu-privacy
+Task,BESU-73,43196,07/Nov/19 12:00 PM,Low gas limit causes root mismatch with private transactions,,madelinemurray,Medium,Done,Done,18/Mar/20 4:52 AM,,,besu-privacy
+Task,BESU-75,43198,07/Nov/19 12:13 PM,Fix the gas limit of PMT in eeajs/web3j-eea and pantheon,,madelinemurray,Medium,Done,Done,18/Mar/20 4:50 AM,,,besu-privacy
+Bug,BESU-200,44334,13/Feb/20 7:29 AM,Xpruning-blocks-retained should accept an integer in the config,abdelhamidbakhta,ajsutton,Medium,Done,Done,18/Mar/20 12:44 AM,,,
+Task,BESU-19,43120,06/Nov/19 1:02 AM,Besu Wiki Article Explaining Release Philosophy,,timbeiko,Medium,Done,Done,17/Mar/20 7:53 PM,,,
+Task,BESU-163,43758,18/Dec/19 6:22 AM,Doc end to end TLS ,,madelinemurray,Medium,Done,Done,17/Mar/20 7:51 PM,,,besu-docs
+Story,BESU-202,44378,20/Feb/20 7:26 PM,On-chain privacy group management,iikirilov,iikirilov,Medium,Done,Done,17/Mar/20 7:51 PM,,,
+Improvement,BESU-155,43680,12/Dec/19 1:16 PM,Improve the error when failing to submit a Private Marker Transaction,,cjhare,Medium,Done,Done,17/Mar/20 7:51 PM,,,
+Task,BESU-141,43521,03/Dec/19 1:25 PM,Support web3js contract API ,madelinemurray,madelinemurray,Medium,Done,Done,17/Mar/20 7:45 PM,,,besu-privacy
+Task,BESU-74,43197,07/Nov/19 12:09 PM,Besu behaviour when Orion not available to process a private transaction,trent.mohay,madelinemurray,Medium,Done,Done,17/Mar/20 7:42 PM,,,besu-privacy
+Improvement,BESU-86,43248,11/Nov/19 12:27 PM,Not specific message for invalid path on privacy-public-key-file option,,arash009,Medium,Done,Done,17/Mar/20 7:42 PM,,,
+Improvement,BESU-137,43505,02/Dec/19 8:58 PM,Improvement behaviour like other eth clients in `eth_call` (verifications too stricted),,helderjnpinto,Medium,Done,Done,17/Mar/20 7:40 PM,,,
+New Feature,BESU-136,43498,30/Nov/19 5:45 AM,Doc using specific enclave public key configuration in auth file,,madelinemurray,Medium,Done,Done,17/Mar/20 7:37 PM,,,besu-docs
+Task,BESU-135,43493,29/Nov/19 9:09 AM,Add Web3j Example to Besu docs,,bgravenorst,Medium,Done,Done,17/Mar/20 7:36 PM,,,besu-docs
+Bug,BESU-132,43452,26/Nov/19 6:18 PM,Private transaction failing due to insufficient intrinsic gas,lucassaldanha,madelinemurray,Medium,Done,Done,17/Mar/20 7:35 PM,,,besu-privacy
+Task,BESU-113,43345,15/Nov/19 2:39 PM,Doc privacy on networks with non-final consensus protocols ,,madelinemurray,Medium,Done,Done,17/Mar/20 7:32 PM,,,besu-docs
+Task,BESU-9,43088,04/Nov/19 10:29 AM,Doc Stratum implementation ,,madelinemurray,Medium,Done,Done,17/Mar/20 7:31 PM,,,besu-docs
+Task,BESU-121,43375,19/Nov/19 4:47 PM,Doc private txn receipt updates,,madelinemurray,Medium,Done,Done,17/Mar/20 7:31 PM,,,besu-docs
+Epic,BESU-14,43113,06/Nov/19 12:44 AM,Pruning,,timbeiko,Medium,Done,Done,17/Mar/20 7:29 PM,,,
+Epic,BESU-16,43117,06/Nov/19 12:56 AM,[Meta] Peer Management,,timbeiko,Medium,Done,Done,17/Mar/20 7:29 PM,,,
+Epic,BESU-15,43114,06/Nov/19 12:46 AM,1.4 Performance,,timbeiko,Medium,Done,Done,17/Mar/20 7:29 PM,,,
+Improvement,BESU-12,43091,04/Nov/19 10:38 AM,Add eea web3j support to privacy doc,,madelinemurray,Medium,Done,Done,17/Mar/20 7:14 PM,,,besu-docs
+Improvement,BESU-8,43087,04/Nov/19 9:38 AM,Add diagram showing private state stored per privacy group ,,madelinemurray,Medium,Done,Done,17/Mar/20 7:14 PM,,,besu-docs
+Improvement,BESU-7,43086,04/Nov/19 9:32 AM,Review permissioning content flow ,,madelinemurray,Medium,Done,Done,17/Mar/20 7:14 PM,,,besu-docs
+Improvement,BESU-6,43085,04/Nov/19 9:17 AM,Clarify return values for JSON-RPC methods miner_start and miner_stop,,madelinemurray,Medium,Done,Done,17/Mar/20 7:13 PM,,,besu-docs
+Task,BESU-5,43084,04/Nov/19 9:02 AM,Explain what network ID and chain ID are,,madelinemurray,Medium,Done,Done,17/Mar/20 6:57 PM,,,besu-docs
+New Feature,BESU-4,43083,04/Nov/19 8:50 AM,Doc using privacy on mainnet,,madelinemurray,Medium,Done,Done,17/Mar/20 6:53 PM,,,besu-docs
+New Feature,BESU-3,43082,04/Nov/19 8:48 AM,Update doc for priv_getTransactionReceipt,,madelinemurray,Medium,Done,Done,17/Mar/20 6:53 PM,,,besu-docs
+New Feature,BESU-2,43081,04/Nov/19 8:46 AM,Default sync mode changed to fast,,madelinemurray,Medium,Done,Done,17/Mar/20 6:52 PM,,,besu-docs
+Task,BESU-193,44238,04/Feb/20 4:26 AM,Make Fast Sync & Pruning Defaults on Named Networks,,timbeiko,Medium,Done,Done,17/Mar/20 6:05 AM,,,
+Bug,BESU-174,43863,09/Jan/20 1:02 AM,"Issue with getBlockByNumber(""pending"")",,timbeiko,Medium,Done,Done,17/Mar/20 6:03 AM,,,
+Improvement,BESU-70,43178,06/Nov/19 11:05 PM,Leverage `couldMatch` in blockchain log listener,,timbeiko,Medium,Done,Done,17/Mar/20 6:02 AM,,,
+Task,BESU-68,43176,06/Nov/19 11:04 PM,Create non-fork block event listener and flesh out fork block events,,timbeiko,Medium,Done,Done,17/Mar/20 6:01 AM,,,
+Task,BESU-67,43175,06/Nov/19 11:04 PM,Improve debug-level Logging ,,timbeiko,Medium,Done,Done,17/Mar/20 6:00 AM,,,
+Task,BESU-66,43174,06/Nov/19 11:03 PM,Eventually remove support for database dir metadata file after allowing migrations to happen,,timbeiko,Medium,Done,Done,17/Mar/20 5:59 AM,,,
+Task,BESU-63,43171,06/Nov/19 10:56 PM,Evaluate Blockchain Fork Tracking,,timbeiko,Medium,Done,Done,17/Mar/20 5:59 AM,,,
+Task,BESU-61,43169,06/Nov/19 10:54 PM,eth_estimateGas values are too low when calling other contracts,,timbeiko,Medium,Done,Done,17/Mar/20 5:57 AM,,,
+Improvement,BESU-55,43163,06/Nov/19 10:49 PM,Remove `removed` field from LogWithMetadata,,timbeiko,Medium,Done,Done,17/Mar/20 5:56 AM,,,
+New Feature,BESU-39,43147,06/Nov/19 10:37 PM,Implement eth_submitHashrate JSON RPC API,,timbeiko,Medium,Done,Done,17/Mar/20 5:44 AM,,,
+Task,BESU-36,43144,06/Nov/19 10:33 PM,"[Spike] Reconsider SynchornizerConfig, EthNetworkConfig, and other config objects",,timbeiko,Medium,Done,Done,17/Mar/20 5:41 AM,,,
+Task,BESU-35,43143,06/Nov/19 10:33 PM,[SPIKE] Investigate Periodically Committing State ,,timbeiko,Medium,Done,Done,17/Mar/20 5:41 AM,,,
+Task,BESU-31,43132,06/Nov/19 1:18 AM,Don't persist TransactionReceipt.bloomFilter in local DB,,timbeiko,Medium,Done,Done,17/Mar/20 5:38 AM,,,
+Task,BESU-194,44241,04/Feb/20 4:29 AM,Move Fast Sync fallback to Full Sync to a CLI flag,,timbeiko,Medium,Done,Done,17/Mar/20 5:36 AM,,,
+New Feature,BESU-126,43398,21/Nov/19 12:40 AM,EVM Evolution EIP (EIP-2348),shemnon,timbeiko,Medium,Done,Done,17/Mar/20 5:36 AM,,,
+Task,BESU-29,43130,06/Nov/19 1:15 AM,Improve LoadLocalDataStep performance,,timbeiko,Medium,Done,Done,17/Mar/20 5:35 AM,,,
+Task,BESU-28,43129,06/Nov/19 1:14 AM,Reduce the number of times trie nodes are serialised,,timbeiko,Medium,Done,Done,17/Mar/20 5:34 AM,,,
+Task,BESU-27,43128,06/Nov/19 1:13 AM,Profile Validation Code,,timbeiko,Medium,Done,Done,17/Mar/20 5:32 AM,,,
+Task,BESU-26,43127,06/Nov/19 1:12 AM,Investigate using column families for various Blockchain data types,,timbeiko,Medium,Done,Done,17/Mar/20 5:31 AM,,,
+Task,BESU-24,43125,06/Nov/19 1:11 AM,Refactor gas calculator to move oparations and precompiled costs out,,timbeiko,Medium,Done,Done,17/Mar/20 5:31 AM,,,
+Task,BESU-23,43124,06/Nov/19 1:11 AM,Investigate UpnpManager StreamServer message,,timbeiko,Medium,Done,Done,17/Mar/20 5:29 AM,,,
+Task,BESU-129,43419,22/Nov/19 3:38 AM,Ice Age Implementation ,shemnon,timbeiko,Medium,Done,Done,14/Mar/20 4:48 AM,,,
+Task,BESU-78,43201,07/Nov/19 12:45 PM,Add priv_call,pinges,madelinemurray,Medium,Done,Done,13/Mar/20 3:25 PM,,,besu-privacy
+Task,BESU-198,44265,05/Feb/20 2:58 PM,"Testing Jira Sync, simple version",,EdJoJob,Medium,Done,Done,04/Mar/20 2:38 PM,,,
+Task,BESU-109,43303,13/Nov/19 7:55 PM,"Remove parentHash, number, and gasUsed fields",,madelinemurray,Medium,Done,Done,03/Mar/20 12:15 PM,,,besu-docs
+Task,BESU-25,43126,06/Nov/19 1:12 AM,Support DevP2P Version 5,,timbeiko,Medium,Done,Done,18/Feb/20 2:50 AM,,,
+New Feature,BESU-37,43145,06/Nov/19 10:35 PM,Review EIP 2124,,timbeiko,Medium,Done,Done,17/Feb/20 11:40 PM,,,
+Task,BESU-145,43552,05/Dec/19 4:10 AM,Migration approach and compatibility matrix ,madelinemurray,madelinemurray,Medium,Done,Done,17/Feb/20 3:29 PM,,,besu-privacy
+New Feature,BESU-139,43518,03/Dec/19 10:47 AM,Mainnet privacy ,iikirilov,madelinemurray,Medium,Done,Done,17/Feb/20 2:38 PM,,,besu-privacy
+Improvement,BESU-58,43166,06/Nov/19 10:52 PM,Make GraphQL endpoint root path redirect to /graphql,anthonybuckle,timbeiko,Medium,Done,Done,16/Feb/20 8:35 PM,,,
+New Feature,BESU-87,43249,11/Nov/19 12:46 PM,Make Postman collection available as downloadable file,,madelinemurray,Medium,Done,Done,15/Feb/20 1:20 AM,,,besu-docs
+Bug,BESU-62,43170,06/Nov/19 10:55 PM,BESU metrics do not include rocksdb metrics,,timbeiko,Medium,Done,Done,14/Feb/20 2:06 PM,,,
+Bug,BESU-148,43561,05/Dec/19 9:48 AM,Flaky Acceptance Tests in pubsub,,EdJoJob,Medium,Done,Done,14/Feb/20 2:04 PM,,,
+Bug,BESU-11,43090,04/Nov/19 10:34 AM,Missing information in the Ansible topic,,madelinemurray,Medium,Done,Done,14/Feb/20 1:45 PM,,,besu-docs
+Bug,BESU-81,43206,07/Nov/19 4:34 PM,Besu won't start with KVSTORE_ROCKSDB metrics category and privacy enabled,,madelinemurray,Medium,Done,Done,14/Feb/20 12:51 PM,,,
+Task,BESU-56,43164,06/Nov/19 10:51 PM,Document custom errorprone checks,atoulme,timbeiko,Medium,Done,Done,13/Feb/20 11:44 PM,,,
+Task,BESU-20,43121,06/Nov/19 1:03 AM,Add GraphQL support for logs,,timbeiko,Medium,Done,Done,13/Feb/20 4:23 AM,,,
+Bug,BESU-156,43708,13/Dec/19 9:24 AM,Validate private transaction before sending to enclave,jframe,jframe,Medium,Done,Done,11/Feb/20 1:52 PM,,,
+Improvement,BESU-196,44258,04/Feb/20 3:58 PM,Testing the synchronisation of Jira,,bretthenderson,Medium,Done,Done,05/Feb/20 2:57 PM,,,
+Task,BESU-184,44149,28/Jan/20 6:06 AM,update the version of picocli in Besu,PaulHarris 1,PaulHarris 1,Medium,Done,Done,03/Feb/20 2:34 PM,,,
+Task,BESU-168,43765,18/Dec/19 5:51 PM,Doc logs index RPC API ,,madelinemurray,Medium,Done,Done,01/Feb/20 9:46 AM,,,besu-docs
+Improvement,BESU-185,44150,28/Jan/20 12:07 PM,Enable client authentication mode on Json RPC,usmansaleem,arash009,Medium,Done,Done,31/Jan/20 8:37 AM,,,
+Bug,BESU-179,44027,20/Jan/20 6:31 AM,clique_getSignerMetrics doesn't return missing signers,,madelinemurray,Medium,Done,Done,31/Jan/20 7:03 AM,,,
+Task,BESU-182,44129,24/Jan/20 12:19 PM,Add unit tests to show FilterParameter topics being loaded from json objects,PaulHarris 1,PaulHarris 1,Medium,Done,Done,28/Jan/20 1:20 PM,,,
+Bug,BESU-64,43172,06/Nov/19 11:02 PM,Log Filter performance too slow in 2mi blocks chain,,timbeiko,Medium,Done,Done,25/Jan/20 3:55 AM,,,
+Bug,BESU-175,43964,14/Jan/20 11:52 AM,Bootnode as a non-validator does not work in an IBFT2.0 network with Permissioning,,arash009,Medium,Done,Done,23/Jan/20 9:48 AM,,,
+Improvement,BESU-77,43200,07/Nov/19 12:32 PM,Modify Besu to accept TLS connections on rpc-http interface from EthSigner and/or other clients,usmansaleem,arash009,Medium,Done,Done,13/Jan/20 8:17 PM,,,
+Task,BESU-154,43673,11/Dec/19 4:14 PM,Enable user to access privateFrom in the EVM ,madelinemurray,madelinemurray,Medium,Done,Done,07/Jan/20 5:29 PM,,,besu-privacy
+Task,BESU-159,43733,16/Dec/19 8:03 PM,Update quickstart doc to match updated quickstart ,,madelinemurray,Medium,Done,Done,31/Dec/19 1:58 PM,,,besu-docs
+Task,BESU-111,43319,14/Nov/19 11:09 AM,Doc use of ELK stack for monitoring logs ,,madelinemurray,Medium,Done,Done,31/Dec/19 1:15 PM,,,besu-docs
+Task,BESU-120,43374,19/Nov/19 4:34 PM,Doc using external JWT public key in authenticated APIs ,,madelinemurray,Medium,Done,Done,31/Dec/19 12:58 PM,,,besu-docs
+Task,BESU-108,43302,13/Nov/19 7:49 PM,Doc how to fork IBFT validators at a given block,,madelinemurray,Medium,Done,Done,31/Dec/19 12:57 PM,,,besu-docs
+Task,BESU-133,43477,27/Nov/19 9:36 AM,Create privacy group and add member design breakdown ,pinges,madelinemurray,Medium,Done,Done,11/Dec/19 12:28 PM,,,besu-privacy
+Improvement,BESU-54,43162,06/Nov/19 10:48 PM,Validate number of parameters on RPC request,sweexordious,timbeiko,Medium,Done,Done,07/Dec/19 1:31 AM,,,
+Bug,BESU-116,43354,16/Nov/19 1:52 PM,Classic network fails to fast sync,mackcom,shemnon,Medium,Done,Done,05/Dec/19 6:17 AM,,,
+Task,BESU-21,43122,06/Nov/19 1:03 AM,Measure Pantheon TPS For Token Transfers,,timbeiko,Medium,Done,Done,05/Dec/19 12:37 AM,,,
+New Feature,BESU-13,43110,05/Nov/19 8:40 PM,[Design] Create network fork on IBFT2.0 network,,arash009,Medium,Done,Done,04/Dec/19 1:54 PM,,,
+Task,BESU-103,43265,11/Nov/19 6:50 PM,Migrate Orion payloads,lucassaldanha,madelinemurray,Medium,Done,Done,03/Dec/19 1:39 PM,,,besu-privacy
+Task,BESU-102,43264,11/Nov/19 6:37 PM,Initalize privacy group,madelinemurray,madelinemurray,Medium,Done,Done,03/Dec/19 10:41 AM,,,besu-privacy
+Task,BESU-101,43263,11/Nov/19 6:35 PM,Create privacy group Precompile/genesis ,madelinemurray,madelinemurray,Medium,Done,Done,03/Dec/19 10:41 AM,,,besu-privacy
+Task,BESU-118,43361,18/Nov/19 9:07 AM,Define how to build up the data when adding a participant to a group,pinges,madelinemurray,Medium,Done,Done,03/Dec/19 10:40 AM,,,besu-privacy
+Task,BESU-127,43409,21/Nov/19 11:43 AM,Test migration of privacy state ,pinges,madelinemurray,Medium,Done,Done,03/Dec/19 10:39 AM,,,besu-privacy
+Bug,BESU-110,43315,14/Nov/19 7:01 AM,Fix broken links on Changelog page,sweexordious,MohamedAbdulaziz,Medium,Done,Done,02/Dec/19 9:33 AM,,,
+Bug,BESU-134,43490,28/Nov/19 4:15 PM,Disable EEA and PRIV APIs if privacy is disabled ,lucassaldanha,madelinemurray,Medium,Done,Done,29/Nov/19 1:52 PM,,,besu-privacy
+Task,BESU-107,43288,12/Nov/19 3:53 PM,Update export address command to remove reference to public key address,MohamedAbdulaziz,madelinemurray,Medium,Done,Done,29/Nov/19 12:51 AM,,,
+Improvement,BESU-33,43138,06/Nov/19 8:29 AM,Refactor Besu <> Orion communication to use Vertx HttpClient,,arash009,Medium,Done,Done,28/Nov/19 8:06 PM,,,
+Bug,BESU-72,43183,07/Nov/19 4:49 AM,Update RocksDB version,shemnon,shemnon,Medium,Done,Done,26/Nov/19 4:20 AM,,,
+Bug,BESU-128,43412,22/Nov/19 12:26 AM,PING/PONG frames handling in Websocket services is not implemented,lucassaldanha,NicolasMassart,Medium,Done,Done,22/Nov/19 9:31 AM,,,
+Task,BESU-65,43173,06/Nov/19 11:03 PM,Remove unused genesis file items ,sweexordious,timbeiko,Medium,Done,Done,20/Nov/19 12:20 AM,,,
+Bug,BESU-114,43348,15/Nov/19 7:29 PM,"Duplicated content on doc 'Creating and sending private transactions""
+",MohamedAbdulaziz,NicolasMassart,Medium,Done,Done,18/Nov/19 4:21 PM,,,besu-docs
+Improvement,BESU-10,43089,04/Nov/19 10:31 AM,Make doc on using web3j and web3js with Besu findable ,,madelinemurray,Medium,Done,Done,11/Nov/19 4:26 PM,,,besu-docs
+Task,BESU-76,43199,07/Nov/19 12:31 PM,Update so only Besu privacy groups visible to user ,madelinemurray,madelinemurray,Medium,Done,Done,07/Nov/19 12:46 PM,,,besu-privacy
+Task,BESU-22,43123,06/Nov/19 1:04 AM,Disregard this issue.,,timbeiko,Medium,Done,Done,06/Nov/19 1:06 AM,,,
+Bug,BESU-170,43809,30/Dec/19 5:51 PM,"Acceptance tests run lots of JVMs in parallel, causing spurious timeouts",,hmijail,Low,Done,Done,27/Mar/20 9:28 AM,,,
+Bug,BESU-146,43555,05/Dec/19 5:37 AM,Gas estimate much higher than expected on value transfer calls,,jimthematrix,Low,Done,Done,27/Mar/20 6:38 AM,,,
+New Feature,BESU-1,43080,04/Nov/19 6:48 AM,Update JSON-RPC over HTTP error responses to return 200 status code,,arash009,Low,Done,Done,22/Mar/20 1:53 PM,,,
+Bug,BESU-177,43993,15/Jan/20 2:11 AM,Move away from binary '.bin' blobs in tracing testing,shemnon,shemnon,Low,Done,Done,17/Mar/20 11:42 PM,,,
+Bug,BESU-82,43216,08/Nov/19 2:29 AM,Enforce option dependencies for experimental options,,ratanraisur,Low,Done,Done,17/Mar/20 11:02 PM,,,
+Bug,BESU-60,43168,06/Nov/19 10:53 PM,Flaky Acceptance Test EthGetWorkAcceptanceTest.shouldReturnSuccessResponseWhenMining,,timbeiko,Low,Done,Done,17/Mar/20 10:21 PM,,,
+Bug,BESU-59,43167,06/Nov/19 10:53 PM,Flakey Test failure in https://jenkins.pegasys.tech/job/Besu/job/master/71/,,timbeiko,Low,Done,Done,17/Mar/20 10:21 PM,,,
+Bug,BESU-147,43556,05/Dec/19 7:04 AM,Besu README still links to Pegasys PAN dashboard ,,NicolasMassart,Low,Done,Done,17/Mar/20 6:45 PM,,,
+Bug,BESU-149,43600,05/Dec/19 6:51 PM,Besu docs contain links to Pantheon Jira,faraggi,faraggi,Low,Done,Done,17/Mar/20 6:45 PM,,,besu-docs
+Bug,BESU-57,43165,06/Nov/19 10:51 PM,Deframer error flooding log,,timbeiko,Low,Done,Done,17/Mar/20 5:57 AM,,,
+Bug,BESU-125,43397,21/Nov/19 12:37 AM,Test failure on Master Build for p2p,,timbeiko,Low,Done,Done,17/Mar/20 5:56 AM,,,
+Bug,BESU-30,43131,06/Nov/19 1:16 AM,Performance degrades over time,,timbeiko,Low,Done,Done,17/Mar/20 5:35 AM,,,
+Task,BESU-195,44257,04/Feb/20 2:51 PM,Test Ticket for Synchronisation,bretthenderson,bretthenderson,Lowest,Done,Done,04/Mar/20 2:38 PM,,,
+Improvement,BESU-199,44279,07/Feb/20 4:03 AM,Test Ticket for Synchronisation,,pegasys-proxy-user,Lowest,Done,Done,04/Mar/20 2:38 PM,,,

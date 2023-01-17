@@ -1,0 +1,191 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Due Date,Votes,Labels,Labels,Labels,Description,Environment,Watchers,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Attachment,Attachment,Custom field (Business Value),Custom field (Commit Levels),Custom field (Current Status),Custom field (Design),Custom field (Design Status),Custom field (Documentation Impact),Custom field (Documentation Status),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Executed),Custom field (Found in Commit),Custom field (Function Test Status),Custom field (Must Fix),Custom field (Original story points),Custom field (Parent Link),Custom field (Rank),Custom field (Release Note),Custom field (Release Note Required),Custom field (Root Cause Analysis),Custom field (SDK Impact),Custom field (Sample/Tutorial),Custom field (Steps to Reproduce),Custom field (Story Points),Custom field (System Test Impact),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Test Plan),Custom field (Test Result),Custom field (Test Result Details),Custom field (Test Type),Custom field (Triaged),Custom field (Usage),Custom field (Watchers),Custom field (Workaround),Custom field (gitCommitsReferenced),Comment,Comment
+ModuleNotFoundError: No module named 'crypto',AV-4,44049,Bug,Done,AV,Avalon,software,s02,,,High,Done,,danintel,danintel,22/Jan/20 4:19 AM,29/Jan/20 8:31 AM,14/Jan/23 5:50 AM,29/Jan/20 8:31 AM,,0,,,,"Starting Avalon after following the directions in BUILD.md results in a 
+{{ModuleNotFoundError: No module named 'crypto'}}
+
+This has happened on multiple systems, with or without SGX, running Ubuntu 18.04.
+Other people have also reported this problem.  Here is the output:
+
+{{(_dev) glacier scripts (master) $ ./tcs_startup.sh                               
+Starting Avalon Enclave Manager 0.4.0 ...
+Avalon Enclave Manager started
+Traceback (most recent call last):
+  File ""/home/dano/git/tcf/examples/enclave_manager/tcf_enclave_manager/enclave_manager.py"", line 25, in <module>
+    import sgx_work_order_request as work_order_request
+  File ""/home/dano/git/tcf/examples/enclave_manager/tcf_enclave_manager/sgx_work_order_request.py"", line 18, in <module>
+    import crypto.crypto as crypto
+ModuleNotFoundError: No module named 'crypto'
+
+Starting Avalon Listener 0.4.0 ...
+Avalon Listener started
+If you wish to exit the program, press y and enter
+ 
+If you wish to exit the program, press y and enter
+Traceback (most recent call last):
+  File ""/home/dano/git/tcf/examples/common/python/connectors/direct/tcs_listener/tcs_listener.py"", line 32, in <module>
+    from twisted.web import server, resource, http
+ModuleNotFoundError: No module named 'twisted'
+^CTCS successfully ended.
+(_dev) glacier scripts (master) $ }}
+
+"," $ uname -a
+Linux glacier 5.0.0-37-generic #40~18.04.1-Ubuntu SMP Thu Nov 14 12:06:39 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+$ lsb_release -a
+
+This error occurs with SGX_MODE=SW, but also occus with SGX_MODE=HW.",danintel,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i0158o:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),danintel,,,"23/Jan/20 2:03 AM;danintel;*Workaround:* 
+ Instead (or in addition to) running {{make}} in directory {{tools/build/}} 
+ run {{rebuild.sh}} in directory {{tools/}};;;","29/Jan/20 8:30 AM;danintel;The root cause seems to be build artifacts (files) left over from previous build attempts. These cause make to not rebuild everything completely.  The workaround seems to be to run `clean.sh` and `rebuild.sh` in the parent directory. If that doesn't work, start with a clean repository with all binary build files removed.
+
+Closing this issue.;;;"
+Error : getHistoryForKey() method in hyperledger chaincode to get history for a key (java language),AV-7,46470,Story,To Do,AV,Avalon,software,s02,,,Medium,,,sirajchaudhary,sirajchaudhary,08/Jan/21 1:03 AM,08/Jan/21 1:12 AM,14/Jan/23 5:48 AM,,,0,,,,"*I have written following method into my hyperledger chaincode (smart contract) to get history (all transaction data) based on a key,*
+
+@Transaction(intent = Transaction.TYPE.EVALUATE)
+public ArrayList<String> queryProductHistory(final Context ctx, final String productNumber) {
+    if (productNumber == null) {
+        throw new RuntimeException(""No ID given"");
+    }
+
+    ChaincodeStub stub = ctx.getStub();
+    ArrayList<String> results = new ArrayList<>();
+
+    try {
+        QueryResultsIterator<KeyModification> history = stub.getHistoryForKey(productNumber);
+
+        if (history == null) {
+            String errorMessage = String.format(""Product %s does not exist"", productNumber);
+            System.out.println(errorMessage);
+            throw new ChaincodeException(errorMessage, MySmartContractErrors.PRODUCT_NOT_FOUND.toString());
+        }
+
+        Iterator<KeyModification> iter = history.iterator();
+        while (iter.hasNext()) {
+            results.add(iter.next().getStringValue());
+        }
+
+    } catch (Exception e) {
+        results.add(e.getMessage());
+        results.add(e.getCause().getMessage());
+        results.add(e.getStackTrace().toString());
+    }
+
+    return results;
+}
+ 
+
+ 
+
+*{{I have also written one API for above method,}}*
+
+@RequestMapping(value = ""find-product-history"", method = RequestMethod.GET)
+public String queryProductHistory(@RequestParam(value=""channelName"") String channelName, @RequestParam(value=""productNumber"") String productNumber) throws Exception {
+
+    // Load a file system based wallet for managing identities.
+    Path walletPath = Paths.get(""wallet"");
+    Wallet wallet = Wallets.newFileSystemWallet(walletPath);
+
+    // load a CCP
+    Path networkConfigPath = Paths.get(""/home"", ""ubuntu"", ""fabric-samples"", ""test-network"", ""organizations"", ""peerOrganizations"", ""org1.example.com"", ""connection-org1.yaml"");
+    Gateway.Builder builder = Gateway.createBuilder();
+    builder.identity(wallet, ""appUser"").networkConfig(networkConfigPath).discovery(true);
+
+    // create a gateway connection
+    try (Gateway gateway = builder.connect()) {
+
+        // get the network and contract
+        Network network = gateway.getNetwork(channelName);
+        Contract contract = network.getContract(""my-blockchain-smart-contract"");
+        byte[] result;
+        result = contract.evaluateTransaction(""queryProductHistory"", productNumber);
+        System.out.println(new String(result));
+        return result.toString();
+    }
+} 
+
+ 
+
+*I am getting following error. What's wrong here?***
+
+*{{org.hyperledger.fabric.gateway.ContractException: error in simulation: transaction returned with failure: Unexpected error
+ at org.hyperledger.fabric.gateway.impl.query.SingleQueryHandler.evaluate(SingleQueryHandler.java:50) ~[fabric-gateway-java-2.1.1.jar:na]
+ at org.hyperledger.fabric.gateway.impl.TransactionImpl.evaluate(TransactionImpl.java:207) ~[fabric-gateway-java-2.1.1.jar:na]
+ at org.hyperledger.fabric.gateway.impl.ContractImpl.evaluateTransaction(ContractImpl.java:55) ~[fabric-gateway-java-2.1.1.jar:na]
+ at com.my.blockchain.api.controller.BlockchainAPIController.queryProductHistory(BlockchainAPIController.java:137) ~[classes/:na]
+ at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_275]
+ at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_275]
+ at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_275]
+ at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_275]
+ at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.2.jar:5.3.2]
+ at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.2.jar:5.3.2]
+ at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.2.jar:5.3.2]
+ at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.2.jar:5.3.2]
+ at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.2.jar:5.3.2]
+ at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.2.jar:5.3.2]
+ at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061) ~[spring-webmvc-5.3.2.jar:5.3.2]
+ at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961) ~[spring-webmvc-5.3.2.jar:5.3.2]
+ at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.2.jar:5.3.2]
+ at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.2.jar:5.3.2]
+ at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+ at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.2.jar:5.3.2]
+ at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+ at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.41.jar:9.0.41]
+ at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.2.jar:5.3.2]
+ at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+ at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.2.jar:5.3.2]
+ at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+ at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.2.jar:5.3.2]
+ at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+ at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888) [tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597) [tomcat-embed-core-9.0.41.jar:9.0.41]
+ at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.41.jar:9.0.41]
+ at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_275]
+ at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_275]
+ at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.41.jar:9.0.41]
+ at java.lang.Thread.run(Thread.java:748) [na:1.8.0_275]}}*
+
+ 
+
+ 
+
+*_Note : I have done {{enableHistoryDatabase: true}} in the core.xml as well_{{}}*",,sirajchaudhary,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01hyr:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),sirajchaudhary,,,,
+"Enclave manager is shutting down when submit work order request with wrong parameter ""dataEncryptionAlgorithm"" and call work order receipt request",AV-5,44315,Bug,To Do,AV,Avalon,software,s02,,,Medium,,rkrish82,shresthi,shresthi,11/Feb/20 1:21 PM,11/Feb/20 1:21 PM,14/Jan/23 5:50 AM,,,0,common-components,help-wanted,quality,"*Defect_ID* – test_work_order_receipt_wrong_dataEncryptionAlgorithm
+
+*Version* - 0.5.0
+
+*Steps* – 
+ 1. Submit worker API, 
+ 2. Submit worker order API with wrong dataEncryptionAlgorithm as AES-GCM-625. ( expected AES-GCM-256) 
+ 3. Create receipt API and 
+ 4. Call get result API 
+ 5. Observe. Avalon listener run in infinite loop (with error message ""Error while processing work-order; shutting down enclave manager"").
+
+*Reference*- reference to the documents attached. Without receipt request, received proper response with error code (2) and message (Unsupported dataEncryptionAlgorithm found in the request).","Ubuntu Version - 18.04
+Avalon Version - 0.5.0",shresthi,,,,,,,,,"11/Feb/20 1:20 PM;shresthi;work_order_receipt_client_different_data_algorithm.txt;https://jira.hyperledger.org/secure/attachment/18129/work_order_receipt_client_different_data_algorithm.txt","11/Feb/20 1:20 PM;shresthi;work_order_receipt_enclave_different_data_algorithm.txt;https://jira.hyperledger.org/secure/attachment/18130/work_order_receipt_enclave_different_data_algorithm.txt",,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i0192j:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),shresthi,,,,
+Expected behavior not seen with create work order receipt API parameter “create status” for initialized status completed or processed,AV-3,43495,Bug,To Do,AV,Avalon,software,s02,,,Medium,,rkrish82,shresthi,shresthi,29/Nov/19 11:45 PM,29/Nov/19 11:45 PM,14/Jan/23 5:50 AM,,,0,common-components,help-wanted,quality,"Set receipt status to completed or processed. Work order receipt retrieve API response initialized with completed for ""create status"" parameter without listing work order id of completed or processed work order.
+
+",,shresthi,,,,,,,,,"29/Nov/19 11:41 PM;shresthi;Client_ReceiptCreateStatus_completed.txt;https://jira.hyperledger.org/secure/attachment/17977/Client_ReceiptCreateStatus_completed.txt","29/Nov/19 11:41 PM;shresthi;Encalve_ReceiptCreateStatus_completed_.txt;https://jira.hyperledger.org/secure/attachment/17978/Encalve_ReceiptCreateStatus_completed_.txt",,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i015ib:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),shresthi,,,,
+work order create receipt is failing to process response for missing worker service id parameter,AV-2,43491,Bug,To Do,AV,Avalon,software,s02,,,Medium,,rkrish82,shresthi,shresthi,28/Nov/19 6:28 PM,28/Nov/19 6:28 PM,14/Jan/23 5:50 AM,,,0,common-components,help-wanted,quality,"Enclave side work order create receipt is failing to process response for missing worker service id parameter. Removed workerServiceId parameter from work order create receipt and request is failing with Type error '*args': (""int() can't convert non-string with explicit base* and pointing to tcs_workorder_receipt_handler.py line number 82 and 121. No type error observed when removes workOrderId and other parameters from work order create receipt request.
+
+Please find attachment in logs: 
+
+Enclave and client side logs and modified generic client.","x86_64 GNU/Linux
+
+ ",shresthi,,,,,,,,,"28/Nov/19 6:19 PM;shresthi;client_reciept_without_workerserviceid.txt;https://jira.hyperledger.org/secure/attachment/17974/client_reciept_without_workerserviceid.txt","28/Nov/19 6:15 PM;shresthi;enclave_receipt_without_workerserviceid.txt;https://jira.hyperledger.org/secure/attachment/17975/enclave_receipt_without_workerserviceid.txt","28/Nov/19 6:19 PM;shresthi;generic_client.py;https://jira.hyperledger.org/secure/attachment/17973/generic_client.py",,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i0158w:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),shresthi,,,,
+Test issue,AV-1,43443,Story,To Do,AV,Avalon,software,s02,,,Medium,,s02,dan.middleton@intel.com,dan.middleton@intel.com,25/Nov/19 4:25 PM,25/Nov/19 4:25 PM,14/Jan/23 5:50 AM,,,0,,,,Initialize backlog,,dan.middleton@intel.com,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i0158z:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),dan.middleton@intel.com,,,,

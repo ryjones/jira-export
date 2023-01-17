@@ -1,0 +1,174 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Due Date,Votes,Labels,Labels,Labels,Labels,Labels,Description,Environment,Watchers,Log Work,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Attachment,Attachment,Attachment,Custom field (Business Value),Custom field (Commit Levels),Custom field (Current Status),Custom field (Design),Custom field (Design Status),Custom field (Documentation Impact),Custom field (Documentation Status),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Executed),Custom field (Found in Commit),Custom field (Function Test Status),Custom field (Must Fix),Custom field (Original story points),Custom field (Parent Link),Custom field (Rank),Custom field (Release Note),Custom field (Release Note Required),Custom field (Root Cause Analysis),Custom field (SDK Impact),Custom field (Sample/Tutorial),Custom field (Steps to Reproduce),Custom field (Story Points),Custom field (System Test Impact),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Test Plan),Custom field (Test Result),Custom field (Test Result Details),Custom field (Test Type),Custom field (Triaged),Custom field (Usage),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Workaround),Custom field (gitCommitsReferenced),Comment,Comment
+startFabric.sh Problem,COM-10,40750,Bug,To Do,COM,Composer,software,ryjones,,,High,,,hdamar,hdamar,22/Jun/19 6:26 AM,10/Jul/19 11:48 PM,14/Jan/23 5:52 AM,,,0,help-wanted,,,,,"Fabric not starting with startFabric.sh script.
+
+!composer_ss_01.png|width=790,height=495!
+
+ 
+
+I attached ""docker ps"", ""docker ps -a"" and peer0 container logs result.","*O/S Info:*
+{code:java}
+Distributor ID: Ubuntu
+Description: Ubuntu 18.04.2 LTS
+Release: 18.04
+Codename: bionic{code}
+ 
+
+*Docker Versions:* 
+{code:java}
+Client:
+ Version:           18.09.6
+ API version:       1.38 (downgraded from 1.39)
+ Go version:        go1.10.8
+ Git commit:        481bc77
+ Built:             Sat May  4 02:35:57 2019
+ OS/Arch:           linux/amd64
+ Experimental:      false
+Server:
+ Engine:
+  Version:          18.06.1-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.4
+  Git commit:       e68fc7a
+  Built:            Tue May  7 17:57:34 2019
+  OS/Arch:          linux/amd64
+  Experimental:     false
+
+{code}
+ 
+
+*Docker Compose Version:*
+{code:java}
+docker-compose version 1.13.0, build 1719ceb
+docker-py version: 2.2.1
+CPython version: 2.7.13
+OpenSSL version: OpenSSL 1.0.1t  3 May 2016
+{code}
+ 
+
+*Node Version:*  v8.16.0
+
+*NPM Version:*  6.4.1
+
+*Python Version:*  Python 2.7.15+
+
+*Git Version:* 2.22.0",,,,,,,,,,,"22/Jun/19 6:27 AM;hdamar;composer_ss_01.png;https://jira.hyperledger.org/secure/attachment/17333/composer_ss_01.png","22/Jun/19 6:27 AM;hdamar;composer_ss_02.png;https://jira.hyperledger.org/secure/attachment/17334/composer_ss_02.png","22/Jun/19 6:27 AM;hdamar;composer_ss_03.png;https://jira.hyperledger.org/secure/attachment/17335/composer_ss_03.png","22/Jun/19 6:27 AM;hdamar;docker_peer0_logs.txt;https://jira.hyperledger.org/secure/attachment/17336/docker_peer0_logs.txt",,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i00sc4:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),hdamar,,,,,,
+Possible security vulnerability (lodash),COM-7,32687,Task,Complete,COM,Composer,software,ryjones,,,High,Done,rameshbabu79,tijohnson,tijohnson,09/Aug/18 7:48 AM,04/Sep/18 5:47 PM,14/Jan/23 5:53 AM,04/Sep/18 5:47 PM,,0,,,,,,"GitHub found a potential security vulnerability in the composer repository.
+
+Known  *high severity* security vulnerability detected in {{lodash <4.17.5}} defined in: package.jason
+
+Update suggested: lodash -> 4.17.5
+
+==> (master) find . -name package.json | xargs grep lodash
+./packages/composer-tests-integration/package.json: ""lodash-match-pattern"": ""2.0.1"",
+./packages/composer-documentation/package.json: ""lodash"": ""4.17.4"",
+./packages/composer-documentation/package.json: ""lodash.clonedeep"": ""4.5.0"",
+./packages/composer-rest-server/package.json: ""lodash"": ""4.17.4"",
+./packages/composer-common/package.json: ""lodash.clonedeep"": ""4.5.0"",
+./packages/composer-common/package.json: ""lodash.padstart"": ""4.5.0"",
+./packages/composer-playground/package.json: ""@types/lodash"": ""4.14.76"",
+./packages/composer-playground/package.json: ""lodash"": ""4.17.4"",
+./packages/composer-connector-hlfv1/package.json: ""lodash"": ""4.17.4"",
+
+ ",,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzzm4v:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),davidkel,tijohnson,,,,"04/Sep/18 5:47 PM;davidkel;Any issues should be raised at https://github.com/hyperledger/composer/issues;;;",
+Common connection profile certs inclusion,COM-2,28383,Bug,Complete,COM,Composer,software,ryjones,,,High,Done,,tongliofcary,tongliofcary,10/Mar/18 8:07 AM,14/Apr/18 3:16 PM,14/Jan/23 5:53 AM,14/Apr/18 3:16 PM,,0,common-components,Security,,,,"next gen common connection profile includes many certs, this creates some rather big problems:
+
+1. embed many certs in a json file makes json file not readable which is against common usage of json file which is to make the file human readable.
+2. certs are required to be altered (insert new line escape) to satisfy json validation, doing this is painful and error prone.
+
+I would suggest to do the following:
+
+1. Use a compressed file instead of a single json file as a connection profile
+2. The json file should be at the root of the package
+3. The json file use url to locate various certificates
+4. Url can be remote or local, if it is local, then the cert should be inside of the package relative to the json file, if it is remote, then cert get retrieved over https or http.
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzz0lj:",,,,,,,,,,,,,,,,,,,sstone1,tongliofcary,,,,"14/Apr/18 3:16 PM;sstone1;All Hyperledger Composer issues should be raised as GitHub issues:
+
+https://github.com/hyperledger/composer/issues;;;",
+DockerHub repos have not been updated in three years. Consider deleting them.,COM-11,44283,Task,Complete,COM,Composer,software,ryjones,,,Medium,Done,ryjones,ryjones,ryjones,07/Feb/20 8:06 AM,15/Feb/20 3:21 AM,14/Jan/23 5:53 AM,15/Feb/20 3:21 AM,,0,,,,,,"https://hub.docker.com/repository/docker/hyperledger/vehicle-lifecycle-car-builder/tags?page=1
+https://hub.docker.com/repository/docker/hyperledger/vehicle-lifecycle-manufacturing/tags?page=1
+https://hub.docker.com/repository/docker/hyperledger/vehicle-lifecycle-vda/tags?page=1
+https://hub.docker.com/repository/docker/hyperledger/vehicle-manufacture-car-builder/tags?page=1
+https://hub.docker.com/repository/docker/hyperledger/vehicle-manufacture-manufacturing/tags?page=1
+https://hub.docker.com/repository/docker/hyperledger/vehicle-manufacture-vda/tags?page=1
+https://hub.docker.com/repository/docker/hyperledger/letters-of-credit/tags?page=1
+https://hub.docker.com/repository/docker/hyperledger/composer-cli/tags?page=1
+https://hub.docker.com/repository/docker/hyperledger/composer-playground/tags?page=1
+https://hub.docker.com/repository/docker/hyperledger/composer-rest-server/tags?page=1
+",,ryjones,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i018yj:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),ryjones,,,,,"15/Feb/20 3:21 AM;ryjones;Per conversation with [~simonstone1] - deleted tags;;;",
+2019-03 license scanning results,COM-9,39413,Bug,To Do,COM,Composer,software,ryjones,,,Medium,,,dhuseby,dhuseby,20/Apr/19 4:14 AM,20/Apr/19 4:14 AM,14/Jan/23 5:53 AM,,,0,license,,,,,"Issues to address from the latest software license scan. The attached .txt file has the notes, the attached .xls has the details, the attached .spdx file is for scripts to chew on.",,,,,,,,,,,Not a security issue,"20/Apr/19 4:14 AM;dhuseby;composer-2019-03-29.spdx;https://jira.hyperledger.org/secure/attachment/17134/composer-2019-03-29.spdx","20/Apr/19 4:14 AM;dhuseby;composer-2019-03-29.xlsx;https://jira.hyperledger.org/secure/attachment/17133/composer-2019-03-29.xlsx","20/Apr/19 4:14 AM;dhuseby;composer-notes-2019-03-29.txt;https://jira.hyperledger.org/secure/attachment/17132/composer-notes-2019-03-29.txt",,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i00lkf:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),dhuseby,,,,,,
+Possible security vulnerability (debug),COM-8,32710,Task,Complete,COM,Composer,software,ryjones,,,Medium,Done,,tijohnson,tijohnson,10/Aug/18 8:33 AM,04/Sep/18 5:47 PM,14/Jan/23 5:53 AM,04/Sep/18 5:47 PM,,0,,,,,,"GitHub found a potential security vulnerability in the composer repository.
+
+Known  *low severity* security vulnerability detected in {{debug < 2.6.9}} defined in package.json.
+
+ 
+
+Some of the dependencies defined in these manifest files have known security vulnerabilities and should be updated:
+
+…/composer-connector-hlfv1/package.json 1 vulnerability found
+…/composer-playground/package.json 1 vulnerability found
+…/composer-rest-server/package.json 1 vulnerability found
+…/composer-common/package.json 1 vulnerability found
+…/composer-runtime-embedded/package.json 1 vulnerability found
+…/composer-runtime-pouchdb/package.json 1 vulnerability found
+…/composer-runtime/package.json 1 vulnerability found
+Only users who have been granted access to vulnerability alerts for this repository can see this message.
+Learn more about vulnerability alerts",,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzzm7j:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),davidkel,tijohnson,,,,"04/Sep/18 5:47 PM;davidkel;Any issues should be raised at https://github.com/hyperledger/composer/issues;;;",
+"Fail to create MongoDB Docker Image; Dockerfile parse error line 1: unknown instruction: {\RTF1\ANSI\ANSICPG1252\COCOARTF1561\COCOASUBRTF400",COM-6,31670,Bug,Complete,COM,Composer,software,ryjones,,,Medium,Done,,fedez,fedez,05/Jul/18 8:42 PM,04/Sep/18 5:46 PM,14/Jan/23 5:53 AM,04/Sep/18 5:46 PM,,0,api,daemon,loopback,Mongodb,REST,"Fail to create MongoDB Docker Image. After having successfully installed:                                  {{npm install -g loopback-connector-mongodb}}
+
+From tutorial at: [https://sstone1.github.io/composer/integrating/deploying-the-rest-server.html]
+ # Creating Dockerfile (with no extension):                                                                          {{FROM hyperledger/composer-rest-server                              }}{{RUN npm install --production loopback-connector-mongodb passport-github && \ npm cache clean && \ ln -s node_modules .node_modules}}
+ # {{Running: docker build -t myorg/my-composer-rest-server .}}
+ # Getting the following ERROR:
+
+Sending build context to Docker daemon  9.728kB
+
+Error response from daemon: Dockerfile parse error line 1: unknown instruction: \{\RTF1\ANSI\ANSICPG1252\COCOARTF1561\COCOASUBRTF400",Mac OS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzzhuf:",,,,,,,,,,,,,,,,,,,davidkel,fedez,,,,"04/Sep/18 5:46 PM;davidkel;For setup problems, please use RocketChat or Stackoverflow.
+
+;;;",
+The composer network start command doesn't run,COM-5,31542,Bug,Complete,COM,Composer,software,ryjones,,,Medium,Done,Soriano_LI,fedez,fedez,02/Jul/18 11:51 PM,04/Sep/18 5:46 PM,14/Jan/23 5:53 AM,05/Jul/18 8:29 PM,,0,,,,,,"I have seen several versions of this command to deploy a network and a business card. This one seems to be the most up to date however the network name is not recognized.
+
+1. I run the install command: 
+
+composer network install -a dist/iot-perishable-network.bna -c PeerAdmin@
+
+2. I try to run the start command --> unsuccessfully
+
+composer network start –-networkName iot-perishable-network -V 0.1.12 -c PeerAdmin@hlfv1 -A admin –S adminpw –a dist/iot-perishable-network.bna –f networkadmin.card
+
+ ERROR: Missing required argument: networkName
+
+I Have specified the network name, but it seems like it does not recognize it. Is it me doing something wrong or some problems with installed version, flags, environment set-up?
+
+ 
+
+Thank you",Mac OS,,"Research issue, testing.;05/Jul/18 12:00 AM;Soriano_LI;3600",,0,3600,,,0,3600,,,,,,,,,,,,,,,,,,,,,,,"1|hzzgxb:",,,,,,,,,,,,,,,,,,,davidkel,fedez,Soriano_LI,,,"05/Jul/18 12:03 AM;Soriano_LI;Need to have first a admin card. You can create with the script ./createPeeradmincard.
+
+Next:
+
+1.
+
+composer network install --card PeerAdmin@hlfv1 --archiveFile <name>@0.0.1.bna
+
+2.
+ composer network start --networkName networkname --networkAdmin admin --networkAdminEnrollSecret adminpw --card PeerAdmin@hlfv1 --file networkadmin.card --networkVersion 0.0.1
+
+ 
+
+""networkname"" is the name you created before;;;","04/Sep/18 5:46 PM;davidkel;For user problems you should use RocketChat or Stackoverflow.;;;"
+REST-server stop working after some time,COM-4,30738,Bug,Complete,COM,Composer,software,ryjones,,,Medium,Done,,VadimInshakov,VadimInshakov,30/May/18 7:51 PM,04/Sep/18 5:44 PM,14/Jan/23 5:53 AM,04/Sep/18 5:44 PM,,0,Composer,REST,,,,"Why does the REST-server stop working after some time? I just go to bed, and when I wake up, I see that the server is not available. I have to start it again. What is it?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzzdaf:",,,,,,,,,,,,,,,,,,,davidkel,VadimInshakov,,,,"04/Sep/18 5:44 PM;davidkel;All composer issues should be raised at https://github.com/hyperledger/composer/issues;;;",
+Document errors,COM-1,28192,Bug,Complete,COM,Composer,software,ryjones,,,Medium,Done,,tongliofcary,tongliofcary,03/Mar/18 12:22 AM,14/Apr/18 3:16 PM,14/Jan/23 5:53 AM,14/Apr/18 3:16 PM,,0,,,,,,"In document Deploying a Hyperledger Composer blockchain business network to Hyperledger Fabric (multiple organizations)
+link here https://hyperledger.github.io/composer/latest/tutorials/deploy-to-fabric-multi-org
+I think that the connection profiles in the example peers section all refers to the ca cert file, I think it should be the peer's cert instead of peer's ca cert file.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzyzqv:",,,,,,,,,,,,,,,,,,,sstone1,tongliofcary,,,,"14/Apr/18 3:16 PM;sstone1;All Hyperledger Composer issues should be raised as GitHub issues:
+
+https://github.com/hyperledger/composer/issues;;;",
+Composer:chaincode container logs shows errors in successful bna deployment cases,COM-3,29035,Bug,Complete,COM,Composer,software,ryjones,,,Medium,Done,,susmita,susmita,31/Mar/18 12:58 AM,14/Apr/18 3:16 PM,14/Jan/23 5:53 AM,14/Apr/18 3:15 PM,,0,Composer,quality,,,,"Followed the steps in 
+
+[https://hyperledger.github.io/composer/next/tutorials/deploy-to-fabric-multi-org]
+
+Successfully deployed bna file
+
+But able to see errors in logs in chaincode containers.","Fabric Images : 1.1.0-rc1
+
+Composer-cli : 0.18.1",,,,,,,,,,,"31/Mar/18 12:51 AM;susmita;logs.txt;https://jira.hyperledger.org/secure/attachment/14833/logs.txt",,,,,,,,,,,,,,,,,,,,,"1|hzz3u7:",,,,,,,,,,,,,,,,,,,sstone1,susmita,,,,"14/Apr/18 3:16 PM;sstone1;All Hyperledger Composer issues should be raised as GitHub issues:
+
+https://github.com/hyperledger/composer/issues;;;",
