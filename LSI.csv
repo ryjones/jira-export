@@ -1,0 +1,450 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Due Date,Votes,Description,Environment,Watchers,Watchers,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Inward issue link (Blocks),Custom field (Business Value),Custom field (Commit Levels),Custom field (Current Status),Custom field (Design),Custom field (Design Status),Custom field (Documentation Impact),Custom field (Documentation Status),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Executed),Custom field (Found in Commit),Custom field (Function Test Status),Custom field (Must Fix),Custom field (Original story points),Custom field (Parent Link),Custom field (Rank),Custom field (Release Note),Custom field (Release Note Required),Custom field (Root Cause Analysis),Custom field (SDK Impact),Custom field (Sample/Tutorial),Custom field (Steps to Reproduce),Custom field (Story Points),Custom field (System Test Impact),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Test Plan),Custom field (Test Result),Custom field (Test Result Details),Custom field (Test Type),Custom field (Triaged),Custom field (Usage),Custom field (Watchers),Custom field (Watchers),Custom field (Workaround),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitCommitsReferenced),Comment,Comment,Comment,Comment,Comment,Comment
+caliper: non-OSS license (Nucleo icons),LSI-11,44242,Task,Done,LSI,LSI,business,swinslow,,,Highest,Won't Do,swinslow,swinslow,swinslow,2/4/20 04:38,5/20/20 03:28,1/19/23 04:06,5/20/20 03:28,,0,"
+This file's license URL links to the Nucleo icons license, which is a proprietary / non-open source license. This file (and any other Nucleo icons or fonts) should be removed and should not be used by Hyperledger repos.
+
+
+Files:
+ * caliper/packages/caliper-gui-dashboard/src/assets/scss/paper-dashboard/_nucleo-outline.scss
+ * caliper/packages/caliper-gui-dashboard/src/assets/scss/paper-dashboard/react/custom/_nucleo-outline.scss
+
+-----
+
+Based on license scan of repo snapshot taken 2020-02-03. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,ryjones,swinslow,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018qz:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),ryjones,swinslow,,,,,"28/Apr/20 12:46 AM;swinslow;Update from license scan of repo snapshot taken 2020-04-16: issue still detected; file list unchanged
+;;;",29/Apr/20 12:31 AM;ryjones;https://github.com/hyperledger/caliper/pull/820;;;,29/Apr/20 11:24 PM;ryjones;https://github.com/hyperledger/caliper/pull/741 was merged;;;,"20/May/20 3:28 AM;swinslow;Resolved, no longer found in 2020-05 scan; closing ticket;;;",,
+indy: GPL-3.0 code in repo,LSI-16,44247,Task,Done,LSI,LSI,business,swinslow,,,Highest,Won't Do,swinslow,swinslow,swinslow,2/4/20 04:39,5/20/20 03:27,1/19/23 04:06,5/20/20 03:27,,0,"
+This file is under GPL-3.0, a strong copyleft license which is not understood to be compatible with Apache-2.0, and should be removed from the repo.
+
+
+Files:
+ * indy-agent/python/view/res/qrious.min.js
+ * indy-agent/python/view/res/qrious.min.js.map
+
+-----
+
+Based on license scan of repo snapshot taken 2020-02-03. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,ryjones,swinslow,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018s3:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),ryjones,swinslow,,,,,"28/Apr/20 12:48 AM;swinslow;Update from license scan of repo snapshot taken 2020-04-16: issue still detected; file list unchanged
+;;;","28/Apr/20 10:47 PM;ryjones;This is an archived repo - how do you want to handle it? It isn't used any more.
+
+https://github.com/hyperledger/indy-agent;;;","28/Apr/20 11:02 PM;swinslow;Hi [~ryjones], I see that the repo hasn't yet been set as read only within the GitHub settings (or at least, I don't see GitHub's ""archived"" banner across the top).
+
+Before it is, if it isn't intended to be used any more anyway, would it be possible to just submit and merge a PR to remove those two files?
+
+After that, once it is archived I can remove it from the repos that I scan on a regular basis.;;;",29/Apr/20 12:27 AM;ryjones;https://github.com/hyperledger/indy-agent/pull/132;;;,"20/May/20 3:27 AM;swinslow;Resolved, no longer found in 2020-05 scan; closing ticket;;;",
+sample issue created through Python + API,LSI-2,44019,Task,Done,LSI,LSI,business,swinslow,,,Highest,Won't Do,,swinslow,swinslow,1/18/20 03:56,1/31/20 09:55,1/19/23 04:06,1/31/20 09:55,,0,auto-created issue,,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i017vv:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,,,,,,
+aries: Custom license grant language in CONTRIBUTING file,LSI-30,47202,Task,To Do,LSI,LSI,business,swinslow,,,High,,ryjones,swinslow,swinslow,9/30/21 06:34,10/1/21 02:26,1/19/23 04:06,,,0,"
+These CONTRIBUTING files appear to contain custom language regarding a license grant for contributions, which may differ from Hyperledger's IP policy. Instead of this custom language, could it be removed and replaced with the following?
+""Contributions are made pursuant to the Developer's Certificate of Origin, available at <a href=""https://developercertificate.org"">https://developercertificate.org</a>, and licensed under the Apache License, version 2.0 (Apache-2.0).""
+
+
+Files:
+ * aries-acapy-controllers/CONTRIBUTING.md
+ * aries-acapy-plugin-toolbox/CONTRIBUTING.md
+ * aries-agent-test-harness/CONTRIBUTING.md
+ * aries-askar/CONTRIBUTING.md
+ * aries-cloudagent-python/CONTRIBUTING.md
+ * aries-framework-javascript-ext/CONTRIBUTING.md
+ * aries-framework-javascript/CONTRIBUTING.md
+ * aries-staticagent-python/CONTRIBUTING.md
+
+-----
+
+Based on license scan of repo snapshot taken 2021-09-28. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,ryjones,swinslow,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i01kz7:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),ryjones,swinslow,,,,,"01/Oct/21 2:26 AM;ryjones;https://github.com/hyperledger/aries-acapy-controllers/commit/fed2d47180480b7daac080a03ef52a0e371db291
+
+https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/97
+https://github.com/hyperledger/aries-agent-test-harness/pull/354 
+
+https://github.com/hyperledger/aries-askar/commit/4eee05a48d71286bc4ee4719226d35061cb05513
+
+https://github.com/hyperledger/aries-cloudagent-python/pull/1428
+https://github.com/hyperledger/aries-framework-javascript-ext/pull/37
+https://github.com/hyperledger/aries-framework-javascript/pull/476
+https://github.com/hyperledger/aries-staticagent-python/pull/74;;;",,,,,
+cello: binary files in source code repo,LSI-32,47204,Task,To Do,LSI,LSI,business,swinslow,,,High,,ryjones,swinslow,swinslow,9/30/21 06:35,10/1/21 01:30,1/19/23 04:06,,,0,"
+This appears to contain, or be part of, a binary / compiled object code file. The Hyperledger source code repos should not contain binary / object code, so this file (or the archive containing it) should be removed.
+
+
+Files:
+ * cello/fabric_tools/2.2.0/bins/configtxgen
+ * cello/fabric_tools/2.2.0/bins/configtxlator
+ * cello/fabric_tools/2.2.0/bins/cryptogen
+ * cello/fabric_tools/2.2.0/bins/discover
+ * cello/fabric_tools/2.2.0/bins/idemixgen
+ * cello/fabric_tools/2.2.0/bins/orderer
+ * cello/fabric_tools/2.2.0/bins/peer
+
+-----
+
+Based on license scan of repo snapshot taken 2021-09-28. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,ryjones,swinslow,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i01kzn:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),ryjones,swinslow,,,,,01/Oct/21 1:30 AM;ryjones;[LSI-32: Compiled code must not be in source repos by ryjones · Pull Request #336 · hyperledger/cello (github.com)|https://github.com/hyperledger/cello/pull/336];;;,,,,,
+firefly: package.json incorrectly listed as UNLICENSED,LSI-28,47200,Task,To Do,LSI,LSI,business,swinslow,,,High,,ryjones,swinslow,swinslow,9/29/21 22:27,10/1/21 01:08,1/19/23 04:06,,,0,"
+Some package.json files incorrectly list the project's license as ""UNLICENSED"", implying that there is no license granted. These should be corrected by the original contributor to ""Apache-2.0""
+
+
+Files:
+ * firefly-tokens-erc1155/package.json
+
+-----
+
+Based on license scan of repo snapshot taken 2021-09-28. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i01kyr:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,,,,,,
+indy: LGPL-3.0 metadata file (libzmq / libzmq-pw),LSI-17,44248,Task,To Do,LSI,LSI,business,swinslow,,,High,,ryjones,swinslow,swinslow,2/4/20 04:40,10/1/21 01:03,1/19/23 04:06,,,0,"
+This metadata file indicates it is for components under LGPL-3.0, libzmq / libzmq-pw. Are these two components used by indy, and/or is their code contained anywhere in the repo?
+
+
+Files:
+ * indy-sdk/Specs/libzmq-pw/4.2.2/libzmq-pw.podspec.json
+ * indy-sdk/Specs/libzmq/4.2.3/libzmq.podspec.json
+
+-----
+
+Based on license scan of repo snapshot taken 2020-02-03. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018sb:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,"28/Apr/20 12:48 AM;swinslow;Update from license scan of repo snapshot taken 2020-04-16: issue still detected; file list unchanged
+;;;","20/May/20 2:13 AM;swinslow;Update from license scan of repo snapshot taken 2020-05-19: issue still detected; file list unchanged
+;;;","01/Oct/20 2:08 AM;swinslow;Update from license scan of repo snapshot taken 2020-09-01: issue still detected; file list unchanged
+;;;","30/Sep/21 6:36 AM;swinslow;Update from license scan of repo snapshot taken 2021-09-28: issue still detected; file list unchanged
+;;;",,
+cactus: LGPL-3.0 license in repo,LSI-27,46173,Task,Done,LSI,LSI,business,swinslow,,,High,Won't Do,swinslow,swinslow,swinslow,10/1/20 02:06,10/3/20 02:21,1/19/23 04:06,10/3/20 02:21,,0,"
+The repo contains vendored code from <a href=""https://github.com/ethereum/go-ethereum"">https://github.com/ethereum/go-ethereum</a> with an LGPL-3.0 license notice. This is a copyleft-style license that Hyperledger tries to avoid using.
+However, the only code in the vendored directory appears to be the crypto/secp256k1 library and libsecp256k1, which contain separate BSD-3-Clause and MIT licenses.
+Can this secp256k1 code be pulled in from a different upstream source, so that it does not involve or include the LGPL-3.0 license?
+
+
+Files:
+ * cactus/contribs/Accenture-BIF/core/examples/simple-asset-transfer/fabric/contracts/src/mycc/vendor/github.com/ethereum/go-ethereum/COPYING
+ * cactus/contribs/Accenture-BIF/core/src/plugins/contracts/fabric/src/mycc/vendor/github.com/ethereum/go-ethereum/COPYING
+ * cactus/contribs/Accenture-BIF/core/examples/simple-asset-transfer/fabric/contracts/src/mycc/vendor/github.com/ethereum/go-ethereum/COPYING.LESSER
+ * cactus/contribs/Accenture-BIF/core/src/plugins/contracts/fabric/src/mycc/vendor/github.com/ethereum/go-ethereum/COPYING.LESSER
+
+-----
+
+Based on license scan of repo snapshot taken 2020-09-01. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,ryjones,swinslow,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i01gob:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),ryjones,swinslow,,,,,"03/Oct/20 1:00 AM;ryjones;This replacement is in progress.
+https://github.com/hyperledger/cactus/issues/300
+;;;",03/Oct/20 2:21 AM;swinslow;Fixed in https://github.com/hyperledger/cactus/pull/301;;;,,,,
+iroha: binary files in source code repo,LSI-21,44252,Task,Done,LSI,LSI,business,swinslow,,,High,Won't Do,swinslow,swinslow,swinslow,2/4/20 04:40,5/20/20 03:29,1/19/23 04:06,5/20/20 03:29,,0,"
+This appears to contain, or be part of, a binary / compiled object code file. The Hyperledger source code repos should not contain binary / object code, so this file (or the archive containing it) should be removed.
+
+
+Files:
+ * iroha-android/gradle/wrapper/gradle-wrapper.jar/org/gradle/cli/AbstractCommandLineConverter.class
+ * iroha-android/iroha-android-bindings/src/main/jniLibs/arm64-v8a/libirohajava.so
+ * iroha-android/iroha-android-bindings/src/main/jniLibs/armeabi-v7a/libirohajava.so
+ * iroha-android/iroha-android-bindings/src/main/jniLibs/armeabi/libirohajava.so
+ * iroha-android/iroha-android-bindings/src/main/jniLibs/x86/libirohajava.so
+ * iroha-android/iroha-android-bindings/src/main/jniLibs/x86_64/libirohajava.so
+
+-----
+
+Based on license scan of repo snapshot taken 2020-02-03. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,ryjones,swinslow,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018t7:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),ryjones,swinslow,,master,,TRUE,"28/Apr/20 12:48 AM;swinslow;Update from license scan of repo snapshot taken 2020-04-16: issue still detected; file list unchanged
+;;;",29/Apr/20 1:22 AM;ryjones;https://github.com/hyperledger/iroha-android/pull/150;;;,05/May/20 2:31 AM;ryjones;this is merged;;;,"20/May/20 3:29 AM;swinslow;Resolved, no longer found in 2020-05 scan; closing ticket;;;",,
+sawtooth: binary files in source code repo,LSI-23,44254,Task,Done,LSI,LSI,business,swinslow,,,High,Won't Do,,swinslow,swinslow,2/4/20 04:41,4/28/20 00:50,1/19/23 04:06,4/28/20 00:50,,0,"
+This appears to contain, or be part of, a binary / compiled object code file. The Hyperledger source code repos should not contain binary / object code, so this file (or the archive containing it) should be removed.
+
+
+Files:
+ * sawtooth-next-directory/windows-dependencies/secp256k1-0.13.2-py3.7.egg-info.tar.gz/secp256k1-0.13.2-py3.7.egg-info.tar/secp256k1-0.13.2-py3.7.egg-info/installed-files.txt
+
+-----
+
+Based on license scan of repo snapshot taken 2020-02-03. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018tn:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,28/Apr/20 12:50 AM;swinslow;no longer seen in 2020-04 scan; resolving issue;;;,,,,,
+besu: binary files in source code repo,LSI-10,44240,Task,Done,LSI,LSI,business,swinslow,,,High,Won't Do,,swinslow,swinslow,2/4/20 04:28,4/28/20 00:49,1/19/23 04:06,4/28/20 00:49,,0,"
+This appears to contain, or be part of, a binary / compiled object code file. The Hyperledger source code repos should not contain binary / object code, so this file (or the archive containing it) should be removed.
+
+
+Files:
+ * besu/docker/tests/goss-linux-amd64
+
+-----
+
+Based on license scan of repo snapshot taken 2020-02-03. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018qj:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,28/Apr/20 12:49 AM;swinslow;fixed as of 2020-04 scan; resolving issue;;;,,,,,
+spdx-some: Sleepycat files,LSI-7,44201,Task,Done,LSI,LSI,business,swinslow,,,High,Won't Do,,swinslow,swinslow,1/31/20 12:48,2/4/20 04:30,1/19/23 04:06,2/4/20 04:30,,0,"
+This license looks like it is a BSD-style license but it is not, it is a lie
+
+
+Files:
+ * testrepo/file2.txt
+ * testrepo/xyz/something.txt
+
+-----
+
+Based on license scan of repo snapshot taken 2020-01-30. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018kj:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,,,,,,
+spdx-some: evil files,LSI-4,44197,Task,Done,LSI,LSI,business,swinslow,,,High,Won't Do,,swinslow,swinslow,1/31/20 09:55,2/4/20 04:30,1/19/23 04:06,2/4/20 04:30,,0,"(manually created for testing)
+
+These files are evil and should be deleted immediately
+
+Files:
+ * testrepo/def/ghi/test3.txt
+
+-----
+
+Based on license scan of repo snapshot taken 2020-01-30. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.",,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018jn:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,"31/Jan/20 12:42 PM;swinslow;Update from license scan of repo snapshot taken 2020-01-30: issue still detected; updated file list:
+ * testrepo/def/ghi/test3.txt
+ * testrepo/README.md
+;;;",,,,,
+sample issue created through web ui,LSI-1,44018,Task,Done,LSI,LSI,business,swinslow,,,High,Won't Do,,swinslow,swinslow,1/18/20 03:20,1/31/20 09:55,1/19/23 04:06,1/31/20 09:55,,0,"description of issue
+
+applicable files:
+ * /file1.txt
+ * /file2.txt
+ * /dir1/file3.txt
+
+ 
+
+Added 2020-01-17: additional text from Python + API",,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i017vn:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,18/Jan/20 3:20 AM;swinslow;comment added through web ui;;;,18/Jan/20 3:50 AM;swinslow;new comment added through Python + API;;;,,,,
+fabric: Incomplete license statement,LSI-33,47205,Task,To Do,LSI,LSI,business,swinslow,,,Medium,,denyeart,swinslow,swinslow,9/30/21 06:35,10/1/21 01:19,1/19/23 04:06,,,0,"
+In this JSON metadata file, there is a ""license"" section but it only includes a copyright notice, not a license statement. Suggest adding an explicit statement that the license is ""Apache-2.0""
+
+
+Files:
+ * fabric/swagger/swagger-fabric.json
+
+-----
+
+Based on license scan of repo snapshot taken 2021-09-28. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i01kzv:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,,,,,,
+ursa: review documentation license for rfcs repo,LSI-24,44255,Task,In Progress,LSI,LSI,business,swinslow,,,Medium,,ryjones,swinslow,swinslow,2/4/20 04:41,10/1/21 01:09,1/19/23 04:06,,,0,"
+In this repo, this file states that the repository is licensed under Apache-2.0. However, it appears that it is intended to be primarily a documentation repository -- is that correct? If so, the repo's project license should likely be Creative Commons Attribution 4.0, also called CC-BY-4.0, rather than Apache-2.0.
+
+
+Files:
+ * ursa-rfcs/README.md
+
+-----
+
+Based on license scan of repo snapshot taken 2020-02-03. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,ryjones,swinslow,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018tv:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),ryjones,swinslow,,,,,20/May/20 8:49 AM;ryjones;https://github.com/hyperledger/ursa-docs/pull/14 (merged);;;,20/May/20 9:01 AM;ryjones;https://github.com/hyperledger/ursa-rfcs/pull/24;;;,"01/Oct/20 3:41 AM;swinslow;On hold, I'll circle back with more feedback on this one.;;;",,,
+firefly: package.json incorrectly listed as ISC,LSI-29,47201,Task,To Do,LSI,LSI,business,swinslow,,,Medium,,ryjones,swinslow,swinslow,9/29/21 22:27,10/1/21 01:09,1/19/23 04:06,,,0,"
+Some package.json files incorrectly list the project's license as ""ISC"". These should be corrected to ""Apache-2.0""
+
+
+Files:
+ * firefly-dataexchange-https/package-lock.json
+ * firefly-dataexchange-https/package.json
+
+-----
+
+Based on license scan of repo snapshot taken 2021-09-28. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i01kyz:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,,,,,,
+aries: package.json incorrectly listed as ISC,LSI-31,47203,Task,To Do,LSI,LSI,business,swinslow,,,Medium,,ryjones,swinslow,swinslow,9/30/21 06:34,10/1/21 01:08,1/19/23 04:06,,,0,"
+Some package.json files incorrectly list the project's license as ""ISC"". These should be corrected to ""Apache-2.0""
+
+
+Files:
+ * aries-agent-test-harness/aries-backchannels/verity/package.json
+
+-----
+
+Based on license scan of repo snapshot taken 2021-09-28. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i01kzf:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,,,,,,
+indy: OpenSSL license,LSI-19,44250,Task,To Do,LSI,LSI,business,swinslow,,,Medium,,ryjones,swinslow,swinslow,2/4/20 04:40,10/1/21 01:08,1/19/23 04:06,,,0,"
+This file states it is under the OpenSSL license at http://www.openssl.org/source/license.html. If possible, recommend either removing this file, or alternatively upgrading it to a version that originates from OpenSSL 3.0.0 or later (since OpenSSL 3.0.0 and later are licensed Apache-2.0)
+
+
+Files:
+ * indy-sdk/vcx/libvcx/build_scripts/android/openssl/make_openssl.sh
+
+-----
+
+Based on license scan of repo snapshot taken 2020-02-03. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018sr:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,"28/Apr/20 12:48 AM;swinslow;Update from license scan of repo snapshot taken 2020-04-16: issue still detected; file list unchanged
+;;;","20/May/20 2:13 AM;swinslow;Update from license scan of repo snapshot taken 2020-05-19: issue still detected; file list unchanged
+;;;","01/Oct/20 2:08 AM;swinslow;Update from license scan of repo snapshot taken 2020-09-01: issue still detected; file list unchanged
+;;;","30/Sep/21 6:36 AM;swinslow;Update from license scan of repo snapshot taken 2021-09-28: issue still detected; file list unchanged
+;;;",,
+indy: review documentation license for rfcs repo,LSI-18,44249,Task,To Do,LSI,LSI,business,swinslow,,,Medium,,swinslow,swinslow,swinslow,2/4/20 04:40,10/6/20 00:03,1/19/23 04:06,,,0,"
+In this repo, this file states that the repository is licensed under Apache-2.0. However, it appears that it is intended to be primarily a documentation repository -- is that correct? If so, the repo's project license should likely be Creative Commons Attribution 4.0, also called CC-BY-4.0, rather than Apache-2.0.
+
+
+Files:
+ * indy-hipe/README.md
+ * indy-hipe/contributing.md
+
+-----
+
+Based on license scan of repo snapshot taken 2020-02-03. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,ryjones,swinslow,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018sj:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),ryjones,swinslow,,,,,"28/Apr/20 12:48 AM;swinslow;Update from license scan of repo snapshot taken 2020-04-16: issue still detected; file list unchanged
+;;;","20/May/20 2:13 AM;swinslow;Update from license scan of repo snapshot taken 2020-05-19: issue still detected; file list unchanged
+;;;",20/May/20 8:49 AM;ryjones;https://github.com/hyperledger/indy-docs/pull/8;;;,20/May/20 8:56 AM;ryjones;https://github.com/hyperledger/indy-hipe/pull/159;;;,"01/Oct/20 2:08 AM;swinslow;Update from license scan of repo snapshot taken 2020-09-01: issue still detected; file list unchanged
+;;;","01/Oct/20 3:41 AM;swinslow;On hold, I'll circle back with more feedback on this one.;;;"
+grid: review documentation license for rfcs repo,LSI-15,44246,Task,To Do,LSI,LSI,business,swinslow,,,Medium,,ryjones,swinslow,swinslow,2/4/20 04:39,10/1/20 03:41,1/19/23 04:06,,,0,"
+In this repo, this file states that the repository is licensed under Apache-2.0. However, it appears that it is intended to be primarily a documentation repository -- is that correct? If so, the repo's project license should likely be Creative Commons Attribution 4.0, also called CC-BY-4.0, rather than Apache-2.0.
+
+
+Files:
+ * grid-rfcs/README.md
+ * grid-rfcs/text/0008-grid-governance.md
+
+-----
+
+Based on license scan of repo snapshot taken 2020-02-03. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018rv:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,"28/Apr/20 12:47 AM;swinslow;Update from license scan of repo snapshot taken 2020-04-16: issue still detected; file list unchanged
+;;;","20/May/20 2:13 AM;swinslow;Update from license scan of repo snapshot taken 2020-05-07: issue still detected; file list unchanged
+;;;","01/Oct/20 2:08 AM;swinslow;Update from license scan of repo snapshot taken 2020-09-01: issue still detected; file list unchanged
+;;;","01/Oct/20 3:41 AM;swinslow;On hold, I'll circle back with more feedback on this one.;;;",,
+caliper: package.json incorrectly listed as ISC,LSI-25,44955,Task,Done,LSI,LSI,business,swinslow,,,Medium,Won't Do,swinslow,swinslow,swinslow,4/28/20 00:46,5/20/20 03:32,1/19/23 04:06,5/20/20 03:32,,0,"
+Some package.json files incorrectly list the project's license as ""ISC"". These should be corrected to ""Apache-2.0""
+
+
+Files:
+ * caliper/packages/caliper-tests-integration/fabric_docker_distributed_tests/package.json
+ * caliper/packages/caliper-tests-integration/fabric_docker_local_tests/package.json
+
+-----
+
+Based on license scan of repo snapshot taken 2020-04-16. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,ryjones,swinslow,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i01bhn:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),ryjones,swinslow,,,,,29/Apr/20 12:42 AM;ryjones;https://github.com/hyperledger/caliper/pull/821;;;,"20/May/20 3:32 AM;swinslow;Resolved, no longer found in 2020-05 scan; closing ticket;;;",,,,
+indy: MPL-2.0 code in repo,LSI-20,44251,Task,Done,LSI,LSI,business,swinslow,,,Medium,Won't Do,swinslow,swinslow,swinslow,2/4/20 04:40,5/20/20 03:31,1/19/23 04:06,5/20/20 03:31,,0,"
+Is it possible to replace this MPL-2.0 licensed component with a more permissive alternative? (e.g., another library with similar functionality that is under Apache-2.0 or an MIT or BSD-style license, for example?)
+
+
+Files:
+ * indy-agent/browser-extension/lib/browser-polyfill-0.4.0.js
+
+-----
+
+Based on license scan of repo snapshot taken 2020-02-03. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,ryjones,swinslow,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018sz:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),ryjones,swinslow,,,,,"28/Apr/20 12:48 AM;swinslow;Update from license scan of repo snapshot taken 2020-04-16: issue still detected; file list unchanged
+;;;",28/Apr/20 10:48 PM;ryjones;This is an archived repo - please see LSI-16;;;,"28/Apr/20 11:06 PM;swinslow;Got it – I think same comment here as in LSI-16 then, since the repo isn't marked as archived/read-only yet, if it's possible to remove this file before doing so then that would be great.;;;",29/Apr/20 1:27 AM;ryjones;added this to https://github.com/hyperledger/indy-agent/pull/132;;;,"08/May/20 2:42 AM;ryjones;merged, archived;;;","20/May/20 3:31 AM;swinslow;Resolved, no longer found in 2020-05 scan; closing ticket;;;"
+iroha: package.json incorrectly listed as MIT,LSI-22,44253,Task,Done,LSI,LSI,business,swinslow,,,Medium,Won't Do,swinslow,swinslow,swinslow,2/4/20 04:40,4/29/20 10:41,1/19/23 04:06,4/29/20 10:41,,0,"
+Some package metadata files incorrectly list the project's license as ""MIT"". These should be corrected to ""Apache-2.0""
+
+
+Files:
+ * iroha-ios/IrohaCommunication.podspec
+
+-----
+
+Based on license scan of repo snapshot taken 2020-02-03. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,ryjones,swinslow,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018tf:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),ryjones,swinslow,,develop,master,TRUE,"28/Apr/20 12:48 AM;swinslow;Update from license scan of repo snapshot taken 2020-04-16: issue still detected; file list unchanged
+;;;",29/Apr/20 1:35 AM;ryjones;https://github.com/hyperledger/iroha-ios/pull/121;;;,,,,
+aries: package.json incorrectly listed as MIT,LSI-9,44239,Task,Done,LSI,LSI,business,swinslow,,,Medium,Won't Do,,swinslow,swinslow,2/4/20 04:28,4/28/20 00:48,1/19/23 04:06,4/28/20 00:48,,0,"
+Some package metadata files incorrectly list the project's license as ""MIT"". These should be corrected to ""Apache-2.0""
+
+
+Files:
+ * aries-framework-javascript/package.json
+
+-----
+
+Based on license scan of repo snapshot taken 2020-02-03. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018qb:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,28/Apr/20 12:48 AM;swinslow;fixed as of 2020-04 scan; resolving issue;;;,,,,,
+explorer: WTFPL pseudo-license statement,LSI-12,44243,Task,Done,LSI,LSI,business,swinslow,,,Medium,Won't Do,,swinslow,swinslow,2/4/20 04:38,4/28/20 00:47,1/19/23 04:06,4/28/20 00:47,,0,"
+This appears to be an earlier version of BurntSushi/toml, which was previously licensed under WTFPL, a vague pseudo-license statement. BurntSushi/toml was subsequently upgraded to MIT, a common permissive open source license (see https://github.com/BurntSushi/toml/issues/183). Recommend upgrading to a more current version of BurntSushi/toml that uses MIT instad of WTFPL.
+
+
+Files:
+ * /app/platform/fabric/e2e-test/chaincodes/shim-vendored/plob-1.0-shim/chaincode/vendor.zip/vendor/github.com/BurntSushi/toml/COPYING
+ * /app/platform/fabric/e2e-test/chaincodes/shim-vendored/plob-1.1-shim/chaincode/vendor.zip/vendor/github.com/BurntSushi/toml/COPYING
+
+-----
+
+Based on license scan of repo snapshot taken 2020-02-03. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018r7:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,28/Apr/20 12:47 AM;swinslow;no longer seen in 2020-04 scan; resolving issue;;;,,,,,
+spdx-some: package.json incorrectly listed as ISC,LSI-3,44196,Task,Done,LSI,LSI,business,swinslow,,,Medium,Won't Do,,swinslow,swinslow,1/31/20 09:54,2/4/20 04:29,1/19/23 04:06,2/4/20 04:29,,0,"(manually added for testing)
+
+Some files incorrectly list the project's license as ""ISC"". These should be corrected to ""Apache-2.0""
+
+Files:
+ * testrepo/file1.txt
+
+-----
+
+Based on license scan of repo snapshot taken 2020-01-30. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.",,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018jf:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,"31/Jan/20 12:42 PM;swinslow;Update from license scan of repo snapshot taken 2020-01-30: issue still detected; file list unchanged
+;;;",,,,,
+fabric: Clarify Apache version in README file,LSI-34,47206,Task,To Do,LSI,LSI,business,swinslow,,,Low,,denyeart,swinslow,swinslow,9/30/21 06:35,10/1/21 01:19,1/19/23 04:06,,,0,"
+A minor note -- consider clarifying in this README file which version of the Apache License the software is under, e.g. ""Apache License, version 2.0"" or ""Apache-2.0"".
+
+
+Files:
+ * fabric/images/peer/README.md
+
+-----
+
+Based on license scan of repo snapshot taken 2021-09-28. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i01l03:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,,,,,,
+fabric: Fix SPDX short-form statement,LSI-35,47207,Task,To Do,LSI,LSI,business,swinslow,,,Low,,denyeart,swinslow,swinslow,9/30/21 06:35,10/1/21 01:19,1/18/23 06:27,,,0,"
+A very minor point: for SPDX short-form identifiers, for scanners to pick them up appropriately, the format that is expected is to use identifiers from the <a href=""https://spdx.org/licenses"">SPDX License List</a>. Recommend updating this to:
+<code>SPDX-License-Identifier: Apache-2.0</code>
+More information can be found at <a href=""https://spdx.dev/ids"">https://spdx.dev/ids</a>.
+
+
+Files:
+ * fabric-chaincode-java/examples/fabric-contract-example-external/src/test/java/org/example/MyAssetContractTest.java
+
+-----
+
+Based on license scan of repo snapshot taken 2021-09-28. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i01l0b:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,,,,,,
+fabric: ASF headers for Hyperledger code,LSI-26,44956,Task,Done,LSI,LSI,business,swinslow,,,Low,Won't Do,swinslow,swinslow,swinslow,4/28/20 00:47,10/1/20 03:42,1/19/23 04:06,10/1/20 03:41,,0,"
+Some files appear to be original to Hyperledger, but contain license headers indicating that they were contributed to the Apache Software Foundation under a CLA. If these files are in fact original to Hyperledger, then this header should be replaced with either the standard Apache-2.0 license notice, and/or with a short-form ID:
+SPDX-License-Identifier: Apache-2.0
+
+
+Files:
+ * fabric-chaintool/examples/example02/app/src/chaincode/chaincode_example02.go
+ * fabric-chaintool/examples/invoker/src/chaincode/chaincode.go
+ * fabric-chaintool/examples/parameterless/src/chaincode/main.go
+ * fabric-chaintool/examples/sample_syscc/sample_syscc.go
+ * fabric-samples/chaincode/fabcar/external/fabcar.go
+ * fabric-samples/chaincode/fabcar/go/fabcar.go
+ * fabric-sdk-node/test/scenario/chaincode/fabcar/go/fabcar.go
+
+-----
+
+Based on license scan of repo snapshot taken 2020-04-16. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,swinslow,,,,,,,,,,FAB-17930,FABCT-65,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i01bhv:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,"20/May/20 2:12 AM;swinslow;Update from license scan of repo snapshot taken 2020-05-07: issue still detected; updated file list:
+ * fabric-chaintool/examples/example02/app/src/chaincode/chaincode_example02.go
+ * fabric-chaintool/examples/invoker/src/chaincode/chaincode.go
+ * fabric-chaintool/examples/parameterless/src/chaincode/main.go
+ * fabric-chaintool/examples/sample_syscc/sample_syscc.go
+ * fabric-samples/chaincode/fabcar/external/fabcar.go
+ * fabric-samples/chaincode/fabcar/go/fabcar.go
+;;;","01/Oct/20 3:42 AM;swinslow;closing, no longer seeing in latest scans.;;;",,,,
+fabric: incomplete Apache-2.0 license notice,LSI-14,44245,Task,Done,LSI,LSI,business,swinslow,,,Low,Won't Do,swinslow,swinslow,swinslow,2/4/20 04:39,4/28/20 23:24,1/19/23 04:06,4/28/20 23:24,,0,"
+This file is missing most of the Apache-2.0 license notice (including any reference to Apache-2.0). It should be replaced with either the full standard Apache-2.0 license notice, or with a short-form ID:
+SPDX-License-Identifier: Apache-2.0
+
+
+Files:
+ * fabric-sdk-py/hfc/fabric/channel/__init__.py
+
+-----
+
+Based on license scan of repo snapshot taken 2020-02-03. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,ryjones,swinslow,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018rn:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),ryjones,swinslow,,master,,TRUE,"28/Apr/20 12:47 AM;swinslow;Update from license scan of repo snapshot taken 2020-04-16: issue still detected; file list unchanged
+;;;",28/Apr/20 10:39 PM;ryjones;https://github.com/hyperledger/fabric-sdk-py/pull/73/commits/843d21e9364bee942ce9cf88ea3b500a25211897;;;,"28/Apr/20 11:04 PM;swinslow;Looks good, thanks [~ryjones]!;;;",28/Apr/20 11:04 PM;swinslow;I'll close this after the PR is merged. I gave it a +1 on the PR thread.;;;,"28/Apr/20 11:08 PM;ryjones;even though it was merged, I'll save clicking the ""closed"" button for you :);;;","28/Apr/20 11:24 PM;swinslow;Oh haha, sorry, I hadn't seen it was merged already  :)  Thanks!;;;"
+explorer: ASF headers for Hyperledger code,LSI-13,44244,Task,Done,LSI,LSI,business,swinslow,,,Low,Won't Do,,swinslow,swinslow,2/4/20 04:39,4/28/20 00:47,1/19/23 04:06,4/28/20 00:47,,0,"
+Some files appear to be original to Hyperledger, but contain license headers indicating that they were contributed to the Apache Software Foundation under a CLA. If these files are in fact original to Hyperledger, then this header should be replaced with either the standard Apache-2.0 license notice, and/or with a short-form ID:
+SPDX-License-Identifier: Apache-2.0
+
+
+Files:
+ * /app/platform/fabric/e2e-test/chaincodes/marbles02_private/marbles_chaincode.go
+ * /app/platform/fabric/e2e-test/chaincodes/shim-vendored/plob-1.0-shim/chaincode/plob.go
+ * /app/platform/fabric/e2e-test/chaincodes/shim-vendored/plob-1.1-shim/chaincode/plob.go
+ * /app/platform/fabric/e2e-test/fabric-samples/chaincode/fabcar/go/fabcar.go
+
+-----
+
+Based on license scan of repo snapshot taken 2020-02-03. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018rf:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,28/Apr/20 12:47 AM;swinslow;no longer seen in 2020-04 scan; resolving issue;;;,,,,,
+peridot: Files with no license,LSI-8,44202,Task,Done,LSI,LSI,business,swinslow,,,Low,Won't Do,,swinslow,swinslow,1/31/20 12:48,2/4/20 04:29,1/19/23 04:06,2/4/20 04:29,,0,"
+These files do not contain license information. Consider adding an SPDX short-form identifier
+
+
+Files:
+ * peridot-api/api/handlers/handlers_jobs_test.go
+ * peridot-api/docker-compose.yml
+ * peridot-jobrunner/pkg/agent/agent.pb.go
+ * peridot-jobrunner/pkg/status/status.pb.go
+
+-----
+
+Based on license scan of repo snapshot taken 2020-01-30. Please contact Steve Winslow at [swinslow@linuxfoundation.org|mailto:swinslow@linuxfoundation.org] with any questions about the license scan findings.
+",,swinslow,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,1|i018kr:,,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),swinslow,,,,,,,,,,,

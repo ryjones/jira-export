@@ -1,0 +1,225 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Fix Version/s,Due Date,Votes,Labels,Labels,Labels,Description,Environment,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Relates),Inward issue link (Relates),Outward issue link (Relates),Custom field (Business Value),Custom field (Commit Levels),Custom field (Current Status),Custom field (Design),Custom field (Design Status),Custom field (Documentation Impact),Custom field (Documentation Status),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Executed),Custom field (Found in Commit),Custom field (Function Test Status),Custom field (Must Fix),Custom field (Original story points),Custom field (Parent Link),Custom field (Rank),Custom field (Release Note),Custom field (Release Note Required),Custom field (Root Cause Analysis),Custom field (SDK Impact),Custom field (Sample/Tutorial),Sprint,Sprint,Sprint,Sprint,Sprint,Sprint,Sprint,Custom field (Steps to Reproduce),Custom field (Story Points),Custom field (System Test Impact),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Test Plan),Custom field (Test Result),Custom field (Test Result Details),Custom field (Test Type),Custom field (Triaged),Custom field (Usage),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Workaround),Custom field (gitCommitsReferenced),Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment
+CWE-379 in fabric-sdk-rest/blob/master/packages/fabric-rest/fabric-rest-server script results in arbitrary file overwrite,FABR-10,46288,Bug,Closed,FABR,Fabric SDK REST,software,ChristopherFerris,,,Medium,Won't Do,mastersingh24,dhuseby,dhuseby,05/Nov/20 3:53 AM,07/Jan/21 1:42 AM,19/Jan/23 4:11 AM,26/Dec/20 7:23 PM,,,0,,,,"h1. Start the server
+
+node . ${cliOptions} &
+ printf ""$!"" >| /tmp/.fabric-rest-server.pid
+
+which makes it trivial for an attacker with local access to cause a file overwrite as the user executing the script. Simply:
+
+ln -s /target/file /tmp/.fabric-rest-server.pid
+
+and then when the startup script is executed the /target/file will be overwritten as the user executing the script.
+
+A simple fix would be to use the /var/run/ directory as per the Filesystem Hierarchy Standard or alternatively if an untrusted user is being used to start the server it would generally be recommended to place the file in the users home directory.
+h2. Impact
+
+An attacker can cause a file to be overwritten with the PID (process ID) as the user running the fabric-sdk-rest/blob/master/packages/fabric-rest/fabric-rest-server script.",,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01h3n:",,,,Unset,Unset,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),denyeart,dhuseby,kurtseifried,mastersingh24,,,,,,,,,,,,,,,,,,,"05/Nov/20 3:59 AM;dhuseby;[~mastersingh24] can you triage this? I'm thinking that this is a low severity bug because it requires privileged access to the machine running the fabric-rest-server. This should be fixed but it isn't a super high priority. I just want your opinion as well before assigning a bounty.;;;","05/Nov/20 4:47 AM;denyeart;I moved to FABR project, FABR-10.
+
+Fabric SDK REST project is archived and is no longer maintained or recommended for use, as mentioned at https://github.com/hyperledger-archives/fabric-sdk-rest;;;","26/Dec/20 7:23 PM;mastersingh24;Project has been archived;;;","07/Jan/21 1:42 AM;kurtseifried;So can I go public with this? I assume closing as informative means you're not interested in it?;;;",,,,,,,,
+Need API to request the runtime configuration of nodes,FABR-9,43709,Story,Backlog,FABR,Fabric SDK REST,software,ChristopherFerris,,,Medium,,,suneel18,suneel18,13/Dec/19 6:20 PM,27/Dec/19 3:21 PM,19/Jan/23 4:11 AM,,,,0,configuration,couchdb,hyperledger-fabric,"Hello Team,
+
+ 
+
+Recently I was trying to use couchdb for my network and was successful in doing so, but there was no way I could confirm if my peer's are using couchdb or not apart from login to DB server and checking the data which according to me is a not feasible option for most of secured implementations.
+
+ 
+
+So request you to please provide some APIs that we can use to confirm the currently running configuration(e.g. environment variable properties used while running containers).
+
+ 
+
+Thanks,
+
+Sunil Suseelan
+
+ ",,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Yes,Unset,,,,,No,,Unset,No,,,"1|i016c3:",,,,Unset,Unset,,,,,,,,(Please add steps to reproduce),,No,,,,,,Unset,,Unset,,(Please add usage information),suneel18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Configure CI pipeline for fabric-sdk-rest project,FABR-8,36403,Task,Closed,FABR,Fabric SDK REST,software,ChristopherFerris,,,Medium,Won't Do,,rameshthoomu,rameshthoomu,26/Dec/18 4:25 AM,24/Apr/19 11:26 PM,19/Jan/23 4:11 AM,24/Apr/19 11:26 PM,,,0,,,,Configure CI pipeline script for fabric-sdk-rest project.,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i004hb:",,,,Unset,Unset,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),rameshthoomu,,,,,,,,,,,,,,,,,,,,,,"24/Apr/19 11:26 PM;rameshthoomu;This project is no longer maintained. Withdraw this task.;;;",,,,,,,,,,,
+Create a REST wrapper around SDK,FABR-4,12455,Story,Closed,FABR,Fabric SDK REST,software,ChristopherFerris,,,Medium,Won't Do,MartinC,angrbrd,angrbrd,18/Aug/16 3:16 AM,28/Feb/19 6:24 AM,19/Jan/23 4:11 AM,28/Feb/19 6:24 AM,Future,,2,fabric-sdk-rest,node-SDK,,"This feature will implement a REST API on top of the Node.js SDK. This will make the SDK functionality more accessible for quick testing and experimentation through the REST interface.
+
+The REST APIs have been removed form the Peers. The main reason is that the Peer (where the REST APIs were hosted) was really not in the ideal position to be performing the tasks, namely deploy, transaction invoke or query, because all of these requests must be done under an enrolled user identity.
+
+a Peer’s role should be a stateless transaction processing engine. it shouldn’t be required to maintain an arbitrary number of user identities
+
+that should be separated out to the application layer
+
+node.js SDK should make it really simple to write a web application that hosts REST APIs for chaincode deploy, transaction invocation and queries.
+
+Assuming this will be implemented as [https://loopback.io/doc/en/lb3/LoopBack-core-concepts.html#data-sources-and-connectors] based on the popular Strongloop server extension architecture, this is what we want the application developers to do to consume it:
+- install strongloop: npm install -g strongloop
+- create app: slc loopback (or git clone a skeleton app we publish)
+- install ""hyperledger fabric connector"": cd <newapp> & npm install hfc-rest --save
+- define the data source to initialize the connector and connect to a fabric chain: slc loopback:datasource (when prompted for the type of connector to use, select ""hfc-rest"")
+- <what's the best way to define the static list of models, aka REST resources, without requiring users to define each individually?>
+- start the app: node .",,,,,,,,,,FABN-667,FABR-2,FAB-5774,,,,,,Unset,,,,,,,,,,,,"1|hzx753:",,,,Unset,,Sprint 7 - nodeSDK,Sprint 8 - nodeSDK,Sprint 9 - nodeSDK,Sprint 10 - nodeSDK,Sprint 12 - SDK node,Sprint 13 - SDK node,Sprint 14 - SDK node,,,Unset,,,,,,,,,,,akuma921,angrbrd,AshishkumarLakshmanan,chrispoole,daijianw,elisafla,gskerry,Hangyu_FJH,ianj_mitchell@uk.ibm.com,ishihara.shun,jexek,jimthematrix,kosullivan_sita,MartinC,mastersingh24,nemes1s,petroccoC,qiang0723,wutongtree,xixuejia,,,"18/Aug/16 6:18 PM;mastersingh24;Let's please use something like Strongloop here to build out the REST APIs.  No need for us to reinvent the wheel plus it will be trivial to for people to customize the security, etc.
+
+It should not be hard to create a connector based on the hfc and then simply expose that using the built-in Strongloop capabilities;;;","10/Jan/17 8:44 AM;jimthematrix;hi [~angrbrd] do you have a changeset implementing the initial (small) set of APIs ready yet for review as we discussed?;;;","18/Mar/17 5:06 AM;jimthematrix;I think it'll be easier to start with a list of resources that should be exposed via REST, rather than using the SDK functions API as reference.
+
+For instance, Channel should obviously be a resource, and the APIs around this resource could be something like the following:
+
+Create:
+POST /channels
+  - input: id, channelTemplate, ordererEndpoint
+  - output: channelConfigBlock (json deserialization of config block protobuf)
+
+Retrieve:
+GET /channels/id
+  - input: ordererEndpoint
+  - output: channelConfigBlock
+
+Update:
+PUT /channels/id
+  - input: channelTemplate, ordererEndpoint
+  - output: channelConfigBlock
+
+Delete:
+DELETE /channels/id (not implemented)
+
+Loopback makes it pretty easy to use a model definition to get the CRUD interface automatically.
+
+For security, the REST server should expect the calls to have an accessToken that allows it to map the incoming request to a user identity saved in the persistence store (which contains the user enrollment and pointer to the private key in the keystore). Strongloop has a built-in basic user management mechanism: https://docs.strongloop.com/display/public/LB/Introduction+to+User+model+authentication. Once the REST server loads the corresponding user identity from persistence, it can use it to sign requests to the fabric backend.;;;","03/Apr/17 7:49 PM;MartinC;[~jimthematrix] I've been working on a design doc for this. It is not finished but at a stage where visibility to the wider community for input would be good. Where should I put it?;;;","18/Apr/17 9:18 PM;ianj_mitchell@uk.ibm.com;[~MartinC], [~chrispoole] Ready to point watchers of this work item to the googledoc?;;;","18/Apr/17 9:48 PM;MartinC;[~ianj_mitchell@uk.ibm.com] Yes, the design doc is here, https://docs.google.com/document/d/1C-HG9qhg6Ya_S1qqBpWHFOMueEWkNI70zzzFDQSXMdI/edit?usp=sharing
+
+It is not finished but at a point where feedback from interested parties is welcome. ;;;","19/Apr/17 12:25 AM;ianj_mitchell@uk.ibm.com;I've made some comments to the doc but I've been flipping back and forth about endorsement requests being POSTs (as is suggested), GETs (as I commented originally until [~MartinC] reminded me that endorsement is going to require a lot of stuff in the body of the request), or (as I have now commented) should be PUTs as PUTs are for idempotent requests… which I’m arguing a request for endorsement should be (as endorsement should have no state-changing effect on the peer);;;","27/Apr/17 7:35 PM;MartinC;[~chrispoole] and I have published a new version of the draft design, it can be found here: https://docs.google.com/document/d/1Kafw06IwtBbKFrUm8Hnwk8XYW7SyuqVbWad5VrPmvb8/edit?usp=sharing  This replaces the previous published version.
+
+We will look to update the google doc inline from now on to make it easier to respond to comments.
+
+We will be sending a request for input to the mailing list as well as requesting feedback from rocketchat.;;;","30/May/17 5:32 PM;MartinC;I have updated the design to take into account the comments that have been made by the community. The design is in the same place: [https://docs.google.com/document/d/1Kafw06IwtBbKFrUm8Hnwk8XYW7SyuqVbWad5VrPmvb8/edit?usp=sharing] 
+
+I posted to RocketChat last week to mention that the design has been updated.;;;","08/Jul/17 1:24 PM;akuma921;is the dev started on this?;;;","10/Jul/17 4:41 PM;MartinC;Yes the dev has started on this, but privately, whilst waiting for consensus from the community on where it should be delivered. The proposed option is a new repo but there hasn't been much feedback on it, I suspect because of a focus on the beta levels and release candidate for v1.0.
+
+See https://jira.hyperledger.org/browse/FAB-3978 for the proposal, the comments in there are mostly on the design rather than delivery location.;;;","21/Jul/17 12:59 AM;MartinC;Whilst waiting for a decision to be made by the community on accepting the contribution and which repo this work belongs in [~chrispoole] and I will continue to develop this in a personal public github repo.
+
+For those interested it is here: https://github.com/MartinCocks/fabric-sdk-rest;;;"
+"How to mount CLI for the ""balance-transfer"" sample app?",FABR-7,35266,Story,Backlog,FABR,Fabric SDK REST,software,ChristopherFerris,,,Medium,,,aspring,aspring,11/Nov/18 2:25 AM,11/Nov/18 6:28 PM,19/Jan/23 4:11 AM,,,,0,,,,"Unlike the ""first-network"" sample app, currently the ""balance-transfer"" sample app does not mount CLI container, how can we mount it?
+
+Simply copy/paste from the docker-compose-cli.yaml file from the ""first-network"" to append to the docker-compose.yaml file in the ""balance-transfer"" won't suffice.
+
+It seems to impact Orderer env parameters and the volumes mapping for the new CLI.
+
+Please advise.
+
+Thanks.",,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzzyd3:",,,,Unset,Unset,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),aspring,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Update fabric-sdk-rest to use fabric-sdk-node configured with the common connection profile.,FABR-5,20494,Story,To Do,FABR,Fabric SDK REST,software,ChristopherFerris,,,Medium,,MartinC,MartinC,MartinC,29/Aug/17 7:03 PM,21/Jul/18 4:17 AM,19/Jan/23 4:11 AM,,,,0,fabric-sdk-rest,,,"Update fabric-sdk-rest to use fabric-sdk-node configured with the common connection profile once the sdk implementation is in a release.
+
+Doing this will simplify the REST server implementation as it will no longer need to configure Peers and Channels for each caller.
+
+ ",,,,,,,,,,FABN-808,,,,,,,,Unset,,,,,,,,,,,,"1|hzyepr:",,,,Unset,,,,,,,,,,,Unset,,,,,,,,,,,chrispoole,elisafla,MartinC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Scan fabric-sdk-rest commits pushed to refs/for/dev for unexpected licenses e.g. GPL,FABR-1,28971,Story,To Do,FABR,Fabric SDK REST,software,ChristopherFerris,,,Medium,,chrispoole,MartinC,MartinC,29/Mar/18 7:03 PM,21/Jul/18 4:17 AM,19/Jan/23 4:11 AM,,,,0,,,,"All contributions to fabric-sdk-rest are expected to be signed by the commiter and under the Apache 2.0 license and so far all contributers have followed this. However it is possible for anyone to push a commit to refs/for/dev that contains code or files that are licensed in a different way.
+
+If a maintainer were to review code that was under a different license, such as GPL, that maintainer may become ""contaminated"" and be unable to work on similar capability for this or other projects. Therefore to reduce the risk of contamination occurring it would be useful for the verify CI jobs to also scan the code for license headers such as the GPL.",,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzz3k7:",,,,Unset,,,,,,,,,,,Unset,,,,,,,,,,,chrispoole,MartinC,,,,,,,,,,,,,,,,,,,,,"29/Mar/18 9:54 PM;chrispoole;Work required: deliver, then test with sandbox: https://github.com/hyperledger/ci-management/blob/master/Sandbox_Setup.md;;;","29/Mar/18 10:23 PM;chrispoole;[~rameshthoomu] says:
+
+> In fabric we have a make target to check this [https://github.com/hyperledger/fabric/blob/release-1.1/scripts/check_license.sh]
+
+ 
+
+File extensions to consider are:
+
+ 
+
+```
+
+❯ find . -type f | grep -E '\.[a-z]+$' | rev | cut -d'.' -f1 | rev | sort | uniq
+
+block
+
+crt
+
+env
+
+gitignore
+
+gitkeep
+
+go
+
+gz
+
+idx
+
+js
+
+json
+
+key
+
+md
+
+pack
+
+pem
+
+py
+
+sample
+
+sh
+
+template
+
+tx
+
+yaml
+
+yml
+
+```
+
+ 
+
+So I suggest we ignore `block`, `crt`, `env`, `gitignore`, `gitkeep`, `gz`, `idx`, `key`, `pack`, `pem`, `sample`, `tx`.;;;","29/Mar/18 10:33 PM;MartinC;That looks like a sensible first set to try with.;;;",,,,,,,,,
+Provide other authentication mechanisms,FABR-2,20389,Story,In Progress,FABR,Fabric SDK REST,software,ChristopherFerris,,,Medium,,chrispoole,chrispoole,chrispoole,24/Aug/17 11:46 PM,21/Jul/18 4:17 AM,19/Jan/23 4:11 AM,,,,0,fabric-sdk-rest,,,"It's desirable for the server to be able to authenticate those who access the endpoints using LDAP, client certs, OAuth, etc. HTTP basic auth is currently supported.
+
+My suggestion is that we continue using PassportJS, adding support for the extra desired strategies. Basic auth can be kept as a fallback, and otherwise the authentication mechanism should be easy for the user to configure, similar to [Hyperledger Composer](https://hyperledger.github.io/composer/managing/github-oauth.html).",,,,,,,,,,,,FABR-4,,,,,,Unset,,,,,,,,,,,,"1|hzye47:",,,,Unset,,,,,,,,,,,Unset,,,,,,,,,,,chrispoole,MartinC,yoheiueda,,,,,,,,,,,,,,,,,,,,"24/Aug/17 11:52 PM;chrispoole;I'm working on this now. Basic auth is the fallback, and the out of the box default (currently) mechanism for the server.
+
+If a user specifies a Passport auth strategy, e.g., LDAP, this will be used instead of basic auth. I've confirmed that LDAP works with the correct configuration, and we'll document how to set this up, similar to Hyperledger Composer.
+
+Additionally, I'm integrating the wallet functionality from Composer, to the REST API server. (Ultimately with a consistent, shared basis.) This will provide the mapping from an external authenticated user ID, to a blockchain user ID, and store the keys etc. for the blockchain user.;;;",,,,,,,,,,,
+Add command line options when starting fabric-sdk-rest,FABR-3,21201,Story,To Do,FABR,Fabric SDK REST,software,ChristopherFerris,,,Medium,,MartinC,MartinC,MartinC,02/Oct/17 5:58 PM,21/Jul/18 4:16 AM,19/Jan/23 4:11 AM,,,,0,fabric-sdk-rest,,,"Add command line options to allow the SDK REST server to be started with more dynamic options than reading from the file system.
+
+Options under consideration
+ * -h, –help, Display command line help
+ * -p=<nnnn>, --port, Listen on port <nnnn>
+ * --https, Require TLS connections to the server
+ * --tls_cert=<dddd>, Directory containing TLS certs to identify the SDK REST server to clients.
+ * --strategy=<ffff>, File path or content to the passport.js strategy configuration.
+ * ---loopbackExplorer, Enable the LoopBack Explorer for the REST API.-
+ ** Disabled using environment variable NODE_ENV=production and config specific to that environment.
+ * -p, --connectionProfile=<ffff>, File path or content to the connection profile document (prereqs fabric-sdk-node v1.1)
+ * Further configuration options like, fabric user credentials, wallet location, key store.
+
+As the various Node.js modules used to provide some capabilities each have their own configuration files, consider providing a cli-defaults.json file to contain all the defaults.
+
+Search order for determining what setting to use would be:
+ # Command line parameter
+ # cli-defaults.json
+ # Standard location for the capability (datasources.json, private/*.pem, etc)
+
+ 
+
+For reference we should aim to be consistent with Hyperledger Composer's REST server CLI where it makes sense.
+
+{color:#654982}Usage: composer-rest-server [options]{color}
+
+{color:#654982}Options:{color}
+{color:#654982} -p, --connectionProfileName The connection profile name [string]{color}
+{color:#654982} -n, --businessNetworkName The business network identifier [string]{color}
+{color:#654982} -i, --enrollId The enrollment ID of the user [string]{color}
+{color:#654982} -s, --enrollSecret The enrollment secret of the user [string]{color}
+{color:#654982} -N, --namespaces Use namespaces if conflicting types exist [string] [choices: ""always"", ""required"", ""never""] [default: ""always""]{color}
+{color:#654982} -P, --port The port to serve the REST API on [number]{color}
+{color:#654982} -a, --authentication Enable authentication for the REST API using Passport [boolean] [default: false]{color}
+{color:#654982} -m, --multiuser Enable multiple user and identity management using wallets (implies -a) [boolean] [default: false]{color}
+{color:#654982} -w, --websockets Enable event publication over WebSockets [boolean] [default: true]{color}
+{color:#654982} -t, --tls Enable TLS security for the REST API [boolean] [default: false]{color}
+{color:#654982} -c, --tlscert File containing the TLS certificate [string] [default: ""/usr/lib/node_modules/composer-rest-server/cert.pem""]{color}
+{color:#654982} -k, --tlskey File containing the TLS private key [string] [default: ""/usr/lib/node_modules/composer-rest-server/key.pem""]{color}
+{color:#654982} -h, --help Show help [boolean]{color}
+{color:#654982} -v, --version Show version number [boolean]{color}",,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzyhwf:",,,,Unset,,,,,,,,,,,Unset,,,,,,,,,,,chrispoole,MartinC,,,,,,,,,,,,,,,,,,,,,"02/Oct/17 6:15 PM;chrispoole;{{Sounds good to me. We obviously already have --p|-port and s|https. Ideally we'd have a one-letter shortcut for each longer command, as is usual.}};;;",,,,,,,,,,,
+Easily configure which REST endpoints are available for fabric-sdk-rest,FABR-6,21203,Story,To Do,FABR,Fabric SDK REST,software,ChristopherFerris,,,Low,,MartinC,MartinC,MartinC,02/Oct/17 6:21 PM,21/Jul/18 4:17 AM,19/Jan/23 4:11 AM,,,,0,fabric-sdk-rest,,,"In some deployments it may be desirable to only provide a subset of the REST endpoints that fabric-sdk-rest provides, this could be to simplify the client experience or to improve auditability of access. It is possible for a deployment to change that today by manually modifying the model that defines which endpoints are exposed, however this is potentially error prone and would make upgrades harder if the model files changed.
+
+A REST endpoint configuration option would allow:
+ * Query only
+ * Query and invoke
+ * Channel administration
+ * All
+
+Low priority for now as no community request for the capability yet.",,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzyhwv:",,,,Unset,,,,,,,,,,,Unset,,,,,,,,,,,chrispoole,MartinC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

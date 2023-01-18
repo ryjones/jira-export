@@ -1,0 +1,179 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Due Date,Votes,Description,Environment,Watchers,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Custom field (Business Value),Custom field (Commit Levels),Custom field (Current Status),Custom field (Design),Custom field (Design Status),Custom field (Documentation Impact),Custom field (Documentation Status),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Executed),Custom field (Found in Commit),Custom field (Function Test Status),Custom field (Must Fix),Custom field (Original story points),Custom field (Parent Link),Custom field (Rank),Custom field (Release Note),Custom field (Release Note Required),Custom field (Root Cause Analysis),Custom field (SDK Impact),Custom field (Sample/Tutorial),Custom field (Steps to Reproduce),Custom field (Story Points),Custom field (System Test Impact),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Test Plan),Custom field (Test Result),Custom field (Test Result Details),Custom field (Test Type),Custom field (Triaged),Custom field (Usage),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Workaround),Custom field (gitCommitsReferenced),Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment
+Integration,ARIES-7,46468,Bug,To Do,ARIES,Hyperledger Aries,software,nage,,,Medium,,,Q1Blue,Q1Blue,07/Jan/21 12:38 PM,07/Jan/21 12:38 PM,19/Jan/23 4:14 AM,,,0,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01hyb:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),ayushraj8271,Q1Blue,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Add uni-directional http tests to the Agent Test Suite,ARIES-4,37928,Task,To Do,ARIES,Hyperledger Aries,software,nage,,,Medium,,,esplinr,esplinr,23/Feb/19 7:11 AM,07/Jan/21 12:35 PM,19/Jan/23 4:14 AM,,,0,We believe that the agent test framework only supports agents that can receive new HTTP connections. Evernym agents initiate HTTP connections and expect a reply on the same channel instead of receiving a new connection. The agent test framework also needs to support these types of connections.,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzwwds:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),esplinr,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+game out vulnerabilities in universal resolver layer,ARIES-5,40260,Task,To Do,ARIES,Hyperledger Aries,software,nage,,,Medium,,Q1Blue,danielhardman,danielhardman,01/Jun/19 5:57 AM,06/Nov/20 10:56 PM,19/Jan/23 4:14 AM,,,0,"This is actually a better ticket for Aries than for Indy, but I'm temporarily logging it in Indy SDK until Aries infrastructure is fully functional. Then we can move it.
+
+Aries needs a Rust implementation that's similar to the Universal Resolver concept popularized at DIF. However, one of the ways to commit fraud with credentials (as well as fraud with all other aspects of DIDComm) is to subvert the DID resolution mechanism–and this is a troubling aspect of the existing Universal Resolver approach. Because each resolver plugin is a web service, the resolver and/or individual plugins can easily be subverted to return malicious results, without the overall resolver mechanism being aware. This is somewhat mitigated if all the code runs on a single box, but that is not guaranteed.
+
+Aries will have a pluggable DID resolver mechanism that is similar in concept to the one offered by the Universal Resolver, but it will use plugins that are static or dynamic libraries. All will be loaded into the same process space. This will eliminate many attack surfaces.
+
+As part of an analysis of how to commit fraud with credentials, this ticket requests that we do some thinking and exploratory coding to understand what vulnerabilities remain, and how they could be mitigated pragmatically. For example, Indy includes the concept of a state proof, so a malicious party cannot lie about the state of the ledger. Does this eliminate all risk, or are there timestamp-related issues that remain (e.g., a malicious party could just return old results)? Do we need to ask two different nodes for their state proofs before we are confident? How could we get some of the benefits of state proofs for other blockchains that don't support them?
+
+The task will involve writing code or pseudocode that demonstrates a vulnerability. It may involve writing a malicious resolver plugin for the current Universal Resolver as a demonstration as well. It also involves imagining the interface between a Rust resolver harness and a Rust resolver plugin, such that appropriate guarantees flow across the boundary. The product of the ticket will be a definition of those Rust interfaces, plus sample code and/or pseudocode demonstrating vulnerabilities, plus notes or a doc that explains what's been studied and learned, and what needs further attention in the future.",,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzwwdw:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),danielhardman,Q1Blue,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Create new Aries repo for Aries Verifiable Credential Registry (fka Indy Catalyst),ARIES-6,43834,Task,Done,ARIES,Hyperledger Aries,software,nage,,,Medium,Done,swcurran,swcurran,swcurran,08/Jan/20 3:28 AM,17/Jan/20 7:01 AM,19/Jan/23 4:14 AM,17/Jan/20 7:01 AM,,0,"As the BC Gov VON Team has been refining Indy Catalyst (a Verifiable Credential Registry) and making it work with Aries protocols for both the Issuer and the Holder/Prover/Credential Registry, we've realized that the Indy moniker is probably not appropriate. For the same reasons that ""Indy Agents"" have become ""Aries Agents"", we think it is more appropriate to have the Credential Registry moved from the Indy project to the Aries Project. As such, we are proposing to move the project to Aries and use the name ""Aries Verifiable Credential Registry"" (Aries VCR) in place of Indy Catalyst.
+
+This ticket is a request for community approval to create the aries-verifiable-credential-registry repo as part of the Aries project to house the product formerly known as Indy Catalyst.",,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i0170b:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),esplinr,sebastillar,swcurran,,,,,,,,,"08/Jan/20 5:52 AM;esplinr;I am in favor of moving Indy Catalyst to Aries.
+
+I really like the Catalyst name, but I guess calling a VC Registry is accurate.;;;","08/Jan/20 7:39 AM;sebastillar;I think the change is appropriate and I agree with Richard's comments.;;;","17/Jan/20 7:01 AM;swcurran;Closing this issue with the action to go ahead with the rename. Contribution to Hyperledger to begin soon.;;;",,,,,,,,,,,,,,,,
+Create Aries repos for shared libraries,ARIES-3,42366,Task,Done,ARIES,Hyperledger Aries,software,nage,,,Medium,Done,ryjones,esplinr,esplinr,16/Sep/19 11:23 PM,30/Oct/19 8:15 AM,19/Jan/23 4:14 AM,30/Oct/19 6:33 AM,,0,"Create the repositories necessary for shared Aries libraries.
+
+Each repo should contain a README.md explaining the purpose of the repo, and other open source scaffolding (license, maintainers, etc).
+
+Repositories we will create:
+* aries-ams: containing a generic interface for all wallet plugins (based on RFC 50 as implemented in the Indy wallet)
+* aries-ams-postgres: containing the postgres wallet plugin
+* aries-ams-sqlite: containing the sqlite wallet plugin
+* aries-core: containing pack/unpack,
+* aries-dri (data registry interface)
+* aries-dri-peer
+* indy-dri-aries
+
+Notes:
+* Migration of code will be tracked in a separate issue. We won't worry about moving the Git history, as it is available in the Indy-SDK repo.
+* CI / CD for the new repos will be managed as separate issues after they are moved into the official GitHub org.",,ryjones,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzwrhj:910sx0900009eoak",,,,Unset,Unset,(Please add steps to reproduce),5.0,Unset,,,,,,Unset,,Unset,,(Please add usage information),ajayjadhav,brentzundel,cam-parra,danielhardman,esplinr,george.aristy,ryjones,swcurran,TelegramSam,,,"10/Oct/19 12:10 AM;cam-parra;aries-ams is not needed. We can just rename aries-wallet.  The maintainers here should stay.  I will contact Ry Jones to have the repo renamed if I don't hear any complainsin the next few hours.;;;","10/Oct/19 12:38 AM;george.aristy;What is the scope proposed for aries-dri?;;;","10/Oct/19 5:33 AM;brentzundel;[~george.aristy] aries-dri is a more accurately named aries-resolver interface.
+
+Where a resolver provides read access to data, a data registry interface provides read/write access, so we went with ""aries data registry interface.""
+
+Some folks felt like that was a bit of a mouthful, so it was shortened to aries-dri.;;;","10/Oct/19 5:41 AM;TelegramSam;I'll revise my comment after I have a chance to listen to the morning call recording.....
+
+But at this point, I think this is WAY too many repos, and we should have three: core, postgres storage, an indy resolver.
+
+But I'll update this after I listen.;;;","10/Oct/19 5:59 AM;danielhardman;If aries-wallet contains the postgres wallet, then it is not the same thing as aries-ams at all; it is a *storage plugin*, not an AMS.
+
+AMS is a plugin host--the thing that lets storage impls plug in. It says to layers above it: ""Here is how you can interface with agent-managed storage; I'll take care of the details of the particular storage you've chosen to use. If you swap out storage, your experience won't change."" It says to the storage plugins below it, ""Here is the interface you must implement to plug into my harness and be usable as backing storage by the AMS."" A wallet application should link against an Aries AMS library PLUS one or more storage plugins that suit its needs, and should initialize AMS by telling it which plugins to activate. AMS by itself lacks any backing storage.
+
+It looks to me like the current aries-wallet repo is just a stub that copies the indy wallet .rs interface and .h, with no impl at all. I don't notice any plugin capabilities, so I can't tell if it is intended to be more like a plugin, or a plugin host. Which kind of thing did you want to be a maintainer for, [~cam-parra]?
+
+I want to create storage plugins, but I wouldn't use ""ams"" in their name without also using ""plugin"". It isn't ""an implementation of AMS for postgres"" – it's a plugin to the one and only AMS library, that provides backing storage via postres. So viable names might be aries-ams-plugin-postrgres, etc.
+
+The minimal set of repos we need is one plugin host for each component type (a plugin host for data registries, a plugin host for a credential impls, a plugin host for AMS) – plus one repo for a plugin to exercise that host.;;;","12/Oct/19 8:36 AM;TelegramSam;OK, I listened to the meeting. 
+
+My main concern is the large number of repos. I didn't pick up the reasons via the call, and I suspect I missed a conversation somewhere.
+
+My initial preference (without hearing those deeper reasons) would be to have one repo for the sdk that contains all of the 'batteries included' components including the sqllite storage and the peer DID component.
+
+Even with a single repo, we can build individual components as output to allow for the use of individual components.
+
+I think that would look something like this:
+
+
+ * aries-sdk: contains the following
+ ** pack/unpack
+ ** ams interfaces
+ ** ams-sqlite (batteries included)
+ ** dri interfaces
+ ** dri-peer (batteries included)
+ * aries-ams-postgres: containing the postgres wallet plugin
+ * indy-dri-aries: the indy DRI module
+
+This feels more sane.
+
+What goals and points am I missing that led everyone to the many-repos direction?;;;","12/Oct/19 9:24 AM;danielhardman;[~TelegramSam]: History repeats itself itself. :) We didn't discuss the repo breakdown question on the call or anytime around it, but we did have exactly this discussion when we argued about what should be included with the Indy SDK, 2.5 years ago.
+
+There is a tension. It is true that complexity rears its ugly head when you create separate repos, but the same amount of complexity manifests in different ways under a single repo strategy. You have to pick your poison. There is no answer that decreases the apparent complexity in a way that is clearly superior to the alternatives.
+
+If you put everything in a single repo, then:
+ * What if you want to release one subdir of functionality on a different schedule from the others?
+ * How do you divvy up and enforce maintainer duties by directory? What process do you use to evaluate PRs that cross directory boundaries?
+ * How do you divide github issues?
+ * Anybody who builds/contributes to the SDK has a lot of compile- and test-time dependencies, many of which may be irrelevant to them, because they're working on a fat, batteries-included package (e.g., the coder working on peer DIDs has to have a bunch of crypto suites installed, plus maybe different versions of Ursa artifacts for all the cred impls that the SDK supports).
+ * The machines running your CI/CD pipeline have to be fatter. They have to have all the compilers and tools and crypto suites and crates installed for the big, unified SDK.
+ * There's a greater contributor learning curve due to the more complex package they're contributing too, and due to the fact that the package includes more things that don't intersect with their interest and expertise.
+
+The above list is NOT an argument against single repos, because I could make an equivalent list of drawbacks to the multi-repo strategy (how do you glue a bunch of stuff together instead of how do you divide it up).
+
+It's worth noting that you can document, test, release, version, and package a composite batteries-included SDK under either strategy. How you do it is different, but the observable output from the perspective of a consumer of the SDK is not (apt install aries-sdk). Therefore, {color:#ff0000}_we shouldn't make a decision about repo structure based upon claims about how it will be tested, released, versioned, or packaged. We should make it based on our judgments about the relative advantages or disadvantages to the maintainers/contributors._{color}
+
+Slava and the rest of the Indy SDK team originally wanted a multi-repo strategy, and I pushed them into a single repo strategy instead. The reason that felt compelling to me was that, at the time, the community for the SDK didn't yet exist, and I thought it would be easier for them to coalesce around a single repo. I still think that was the right tradeoff, then. I know it has chafed them. They've ended up testing stuff (e.g., wrappers) that they didn't want to maintain, which has slowed them down at times and which has made it harder to get PRs merged. But the output has been more cohesive as a result. They've had a hard time getting contributors up to speed, and some contributors have expressed frustration at the learning curve when they wanted to do something simple that should have been self-contained.
+
+I don't think the argument about the community needing a single place to coalesce is as compelling for Aries as it was for Indy. Times have changed, the community knows more, has lots of divergent opinions, and is well down the road on writing code that sits above the SDK. So I don't have a super strong opinion about the right answer now; I just wanted to document the tradeoffs, and challenge the simple view that single-repo is sane and multi-repo is crazy complex. I think it's closer to six of one, half dozen of the other.;;;","16/Oct/19 6:15 AM;brentzundel;I don't feel really strongly about this, but have seen firsthand some of the issues [~danielhardman] has pointed out that came from too much being put in the indy-sdk repo.
+
+ 
+
+I really like consensus, and feel that if everyone can agree on a course of action that improves the possibility that the course of action is a good one. My concern is that if we don't make a decision and move forward, everyone is going to end up doing their own thing.
+
+ 
+
+Can we create the repos as described above? Then we can start putting code into place.
+
+What is the decision mechanism here? Do we vote? Make proposals and ask for opposition? Just do things and revisit them when the screaming grows too loud?;;;","16/Oct/19 6:55 AM;danielhardman;We said on the last Aries call that we would let this ticket serve as a proposal, and that we'd accumulate feedback via the comment stream. If there was no strong opposition, we'd move ahead.
+
+Since the ticket, we've had strong opposition. [~cam-parra] feels that the aries-wallet component should stay (possibly renamed, but not harmonized against a larger strategy). [~TelegramSam] feels that it's not appropriate to be so granular.
+
+So I think we're at stalemate again.;;;","16/Oct/19 6:56 AM;TelegramSam;Daniel's points are good, though I feel like the proposed solution swings the pendulum all the way to the other side of the spectrum. My counter-proposal was intended to be somewhat in the middle.
+
+The point of it being primarily fit to the needs of the maintainers is the one I think we should push on. I was planning on discussing this during the Aries call tomorrow, though I realize not everybody makes that call. What forum should we use to discuss this?
+
+If the desire is to push forward without further discussion, I propose we create the minimum number of repos necessary to move work forward and add only as needed. Extra repos create confusion and increases CI/CD requirements.;;;","17/Oct/19 12:12 AM;cam-parra;I agree with Sam that we should have less repos but aries-wallet should just be renamed and we can sort out the maintainers.
+h3. Proposed
+ * aries-wallet => aries-ams--
+ * Directory structure and files that exist may be changed as needed. A base API was provided by locker in one of the repos branches.  That can be accepted or another API may be brought in.
+
+ 
+ * 
+||Maintainers||Organization||
+|[~cam-parra]|Kiva|
+|[~TelegramSam]|Sovrin|
+|[~sergey.minaev]|Evernym|
+Other Maintainers from different organizations should be brought in as they contribute to the repo to continue a maintainer diversity;;;","17/Oct/19 4:49 AM;TelegramSam;Discussed in Aries WG call:
+
+ 
+
+aries-core (new repo)  [kyle?, cam, sergey, sam, andrew]
+ * pack/unpack
+ * data registery interface (dri)
+ * peer did
+
+aries-ams (agent managed storage) (rename from aries-wallet) [cam, sergey, ian?, mikelodder]
+ * ams & storage interfaces
+ * sqllite
+ * memory?
+
+aries-ams-postgres [ian-bcgov?]
+
+ ;;;","17/Oct/19 5:53 AM;danielhardman;I renamed aries-wallet to aries-ams, but lack privileges to do the operation of updating membership in the aries-wallet-maintainers group, or of creating new repos and associated membership groups. Need Ry's help for that.;;;","17/Oct/19 11:54 AM;ryjones;I've created all of the blank repos.
+ * aries-ams-postgres
+
+ * aries-ams-sqlite
+
+ * aries-core
+
+ * aries-dri
+
+ * aries-dri-peer
+
+ * indy-dri-aries
+
+I created committer groups and added [~kdenhartog] and [~danielhardman] as maintainers. [~danielhardman] and [~kdenhartog] are also members of aries-admins and have admin access;;;","20/Oct/19 5:19 AM;swcurran;[~troyronda] had asked a question on the call about the term ""dri"" and I incorrectly answered that it is the term used by W3C for the source of verification data (""keys and other relevant data"" per the spec) for verifiable credentials – aka the ledger.  The correct W3C term is ""Verifiable Data Registry"".  See this [section|https://www.w3.org/TR/vc-data-model/#ecosystem-overview] of the verifiable credentials spec.
+
+I suggest that we change the ""dri"" acronyms to be ""vdri"" to align with the W3C verifiable credential data model spec.
+
+As a side note, I also suggest that we stick to github issues for everything Aries.;;;","20/Oct/19 5:34 AM;ryjones;I think you you have permissions to rename the repos as you like. If [~swcurran] should be added to the admin group - let me know;;;","22/Oct/19 12:38 AM;danielhardman;Yes, I can rename repos, so I will take care of this. Thank you for creating the repos, [~ryjones]. I think your part on this is done.;;;","23/Oct/19 2:34 AM;ryjones;[~swcurran] -Using Jira is likely to become a requirement for going active status, unless the TSC changes before then.-
+
+ 
+
+With the exception of security bugs, which must go in Jira right now, projects may choose to use GitHub issues or Jira.;;;","30/Oct/19 6:33 AM;esplinr;Thank you for the discussion, and for creating the repositories so that we can move forward.
+
+Now that GitHub supports private vulnerability reports, I have no objection to using GitHub issues for work items that can be cleanly assigned to a single repo. 
+
+The issues I have been creating in this Jira project are either:
+ * Migrations of issues already in the Indy SDK Jira (and I'm lazy)
+ * Or, don't have a clear home in a single GitHub repository.
+
+I suspect we will always have some items in the second category that we need to track somewhere.;;;"
+CLI: Revocation transactions support,ARIES-2,27365,Story,To Do,ARIES,Hyperledger Aries,software,nage,,,Medium,,,sergey.minaev,sergey.minaev,02/Feb/18 8:10 PM,08/Oct/19 10:50 PM,19/Jan/23 4:14 AM,,,0,A transaction builder for revocation transactions.,,,,,,,,,,,IS-464,,,,,,,,,ARIES-1,,,,,,,,,"1|hzwwdr:",,,,,,,3.0,,,,,,,,,,,,sergey.minaev,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CLI for credential exchange,ARIES-1,33251,Epic,To Do,ARIES,Hyperledger Aries,software,nage,,,Medium,,,esplinr,esplinr,27/Aug/18 11:49 PM,08/Oct/19 10:50 PM,19/Jan/23 4:14 AM,,,0,"*Story*
+As an administrator of an Aries solution, I want to be able to easily create and exchange credentials using a command line interface so that I directly solve problems faced by the users of my agency.
+
+*Acceptance Criteria*
+* Create credentials
+* Exchange credentials
+* Revoke credentials
+* Create proofs
+* Verify proofs
+
+*Note*
+* Other personas that will benefit from this tool include developers, QA engineers, and advanced users.",,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,ghx-label-3,,Credential CLI,To Do,No,,Unset,No,,,"1|hzzofb:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),esplinr,,,,,,,,,,,"08/Oct/19 10:49 PM;esplinr;Some in the Aries community think an administrative web GUI would be more useful than a CLI. For an example, see:
+
+https://github.com/TelegramSam/aries-toolbox
+;;;",,,,,,,,,,,,,,,,,,

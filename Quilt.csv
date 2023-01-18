@@ -1,0 +1,24 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Due Date,Votes,Labels,Description,Environment,Watchers,Watchers,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Attachment,Attachment,Custom field (Business Value),Custom field (Commit Levels),Custom field (Current Status),Custom field (Design),Custom field (Design Status),Custom field (Documentation Impact),Custom field (Documentation Status),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Executed),Custom field (Found in Commit),Custom field (Function Test Status),Custom field (Must Fix),Custom field (Original story points),Custom field (Parent Link),Custom field (Rank),Custom field (Release Note),Custom field (Release Note Required),Custom field (Root Cause Analysis),Custom field (SDK Impact),Custom field (Sample/Tutorial),Custom field (Steps to Reproduce),Custom field (Story Points),Custom field (System Test Impact),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Test Plan),Custom field (Test Result),Custom field (Test Result Details),Custom field (Test Type),Custom field (Triaged),Custom field (Usage),Custom field (Watchers),Custom field (Watchers),Custom field (Workaround),Custom field (gitCommitsReferenced)
+2019-03 license scanning results,QUIL-2,39407,Bug,In Progress,QUIL,Quilt,software,ryjones,,,Medium,,,dhuseby,dhuseby,20/Apr/19 4:05 AM,01/May/19 7:40 PM,19/Jan/23 4:13 AM,,,0,license,"Issues to address from the latest software license scan. The attached .txt file has the notes, the attached .xls has the details, the attached .spdx file is for scripts to chew on.",,dhuseby,,,,,,,,,,"20/Apr/19 4:05 AM;dhuseby;quilt-2019-03-27.spdx;https://jira.hyperledger.org/secure/attachment/17115/quilt-2019-03-27.spdx","20/Apr/19 4:05 AM;dhuseby;quilt-2019-03-27.xlsx;https://jira.hyperledger.org/secure/attachment/17116/quilt-2019-03-27.xlsx","20/Apr/19 4:05 AM;dhuseby;quilt-notes-2019-03-27.txt;https://jira.hyperledger.org/secure/attachment/17114/quilt-notes-2019-03-27.txt",,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i00lj3:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),dhuseby,,,
+issues migrate from Github,QUIL-1,28266,Improvement,To Do,QUIL,Quilt,software,ryjones,,,Medium,,nathanaw,davidkhala,davidkhala,07/Mar/18 11:16 PM,07/Mar/18 11:18 PM,19/Jan/23 4:13 AM,,,0,should,"I saw some issues reported on GitHub, should they all be put here instead?",,davidkhala,VinayChaudharyOfficial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzz04f:",,,,,,,,,,,,,,,,,,,davidkhala,VinayChaudharyOfficial,,
+UnitTest Failed on org.interledger.core.asn.codecs.AsnInterledgerAddressPrefixCodecTest,QUIL-3,41933,Bug,Complete,QUIL,Quilt,software,ryjones,,,Low,Done,,kukgini,kukgini,21/Aug/19 6:59 PM,05/Sep/19 2:21 PM,19/Jan/23 4:13 AM,05/Sep/19 2:20 PM,,0,,"`mvn test` got following error:
+{code:java}
+[INFO] Running org.interledger.core.asn.codecs.AsnInterledgerAddressPrefixCodecTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.interledger.core.asn.codecs.AsnInterledgerAddressPrefixCodecTest
+[INFO]
+[INFO] Results:
+[INFO]
+[ERROR] Failures:
+[ERROR]   InterledgerPreparePacketOerSerializerTests.testIndividualRead:109
+Expected: is <InterledgerPreparePacket{, amount=100, expiresAt=2019-08-21T07:16:35.249634Z, executionCondition=Condition{hash=jZpOuD5XJ10AM8WjWywRoLWgGxhhEcLuvWO+uTd0LnY=}, destination=InterledgerAddress{value=test3.foo.bar}, data=}>
+     but: was <InterledgerPreparePacket{, amount=100, expiresAt=2019-08-21T07:16:35.249Z, executionCondition=Condition{hash=jZpOuD5XJ10AM8WjWywRoLWgGxhhEcLuvWO+uTd0LnY=}, destination=InterledgerAddress{value=test3.foo.bar}, data=}>{code}
+It seems like `expiresAt` date format is slightly diffrent.
+
+Environment:
+
+commit 98ce1a00c2d4037ae9e7875eb13f9247401589ba
+
+Mac OS X 10.14.6
+
+Java(TM) SE Runtime Environment (build 12.0.1+12)
+ Java HotSpot(TM) 64-Bit Server VM (build 12.0.1+12, mixed mode, sharing)",,kukgini,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i00xqb:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),kukgini,,,
