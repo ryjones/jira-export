@@ -1,0 +1,58 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Due Date,Votes,Labels,Description,Environment,Watchers,Watchers,Watchers,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Inward issue link (Relates),Custom field (Business Value),Custom field (Commit Levels),Custom field (Current Status),Custom field (Design),Custom field (Design Status),Custom field (Documentation Impact),Custom field (Documentation Status),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Executed),Custom field (Found in Commit),Custom field (Function Test Status),Custom field (Must Fix),Custom field (Original story points),Custom field (Parent Link),Custom field (Rank),Custom field (Release Note),Custom field (Release Note Required),Custom field (Root Cause Analysis),Custom field (SDK Impact),Custom field (Sample/Tutorial),Custom field (Steps to Reproduce),Custom field (Story Points),Custom field (System Test Impact),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Test Plan),Custom field (Test Result),Custom field (Test Result Details),Custom field (Test Type),Custom field (Triaged),Custom field (Usage),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Workaround),Custom field (gitCommitsReferenced),Comment,Comment
+"As a fabric developer, I need a common component to use for exposing health checks",FABLG-1,34791,Story,Closed,FABLG,Fabric Lib Go,software,sykesm,,,High,Done,mastersingh24,mastersingh24,mastersingh24,19/Oct/18 8:37 PM,06/Nov/18 1:16 AM,28/Oct/23 2:27 AM,06/Nov/18 1:16 AM,,0,,"Given the orderer and peer (and later the fabric-ca) all need to provide a REST endpoint for health checks, it makes sense to create a common component for this.
+
+The common component will include:
+- HTTP handler for `healthz` endpoint
+- structs for the API
+- ability to register health check functions which adhere to a specified interface",,mastersingh24,,,,,,,,,,,FAB-12358,FAB-12359,FABC-743,,,,,(Please add high level design or a link to the design),Unset,Yes,Unset,,FAB-10851,,,No,,Unset,No,,,"1|hzzvsv:",,,,No,Unset,(Please add steps to reproduce),,Yes,,,,,,Unset,,Unset,,(Please add usage information),mastersingh24,,,,,"23/Oct/18 7:28 AM;mastersingh24;https://gerrit.hyperledger.org/r/27150;;;",
+HealthCheck() should simply return error,FABLG-2,35337,Task,Closed,FABLG,Fabric Lib Go,software,sykesm,,,Medium,Done,mastersingh24,mastersingh24,mastersingh24,14/Nov/18 8:48 PM,17/Nov/18 8:28 PM,28/Oct/23 2:27 AM,17/Nov/18 8:28 PM,,0,,"The current interface for health checks is
+
+{code:java}
+type HealthChecker interface {
+	HealthCheck() (message string, ok bool)
+}
+{code}
+
+To simply things, it should be changed to 
+{code:java}
+type HealthChecker interface {
+	HealthCheck() error
+}
+{code}",,mastersingh24,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzzyrj:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),mastersingh24,,,,,"14/Nov/18 9:42 PM;mastersingh24;https://gerrit.hyperledger.org/r/27541;;;",
+No response body written when request to healthz times out,FABLG-3,36633,Bug,Unverified,FABLG,Fabric Lib Go,software,sykesm,,,Medium,,,skarim,skarim,10/Jan/19 11:48 AM,01/Mar/19 1:03 AM,28/Oct/23 2:27 AM,,,0,,"When a request to  healthz times out, there is no response body written",,skarim,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i005tr:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),skarim,,,,,,
+Vet errors on checker_test.go file,FABLG-4,37518,Bug,Closed,FABLG,Fabric Lib Go,software,sykesm,,,Medium,Invalid: Environment Issue,,rameshthoomu,rameshthoomu,08/Feb/19 7:19 AM,13/Feb/19 7:00 AM,28/Oct/23 2:27 AM,13/Feb/19 7:00 AM,,0,ipm,"Observed below error while running vet checks on fabric-lib-go
+{code:java}
+Running go vet ...
+YOU MUST FIX THE FOLLOWING GO VET PROBLEMS:
+healthz/checker_test.go:260: the cancel function returned by context.WithTimeout should be called, not discarded, to avoid a context leak
+make: *** [vet] Error 1{code}",,rameshthoomu,sykesm,,,,,,,,,,,,,FAB-13792,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i00b9g:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),rameshthoomu,sykesm,,,,"13/Feb/19 7:00 AM;sykesm;As usual, none of the pre-canned resolutions are appropriate.
+
+This was fixed in FAB-13792 where the vet checks were added.;;;",
+readme enhance,FABLG-5,38638,Documentation,Closed,FABLG,Fabric Lib Go,software,sykesm,,,Low,Invalid,davidkhala,davidkhala,davidkhala,21/Mar/19 7:27 PM,05/Mar/20 11:15 AM,28/Oct/23 2:27 AM,05/Mar/20 11:15 AM,,0,,Add motivation section,,davidkhala,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i00h3z:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),davidkhala,,,,,"21/Mar/19 7:30 PM;davidkhala; https://gerrit.hyperledger.org/r/30272 ;;;",
+fabric-lib-go fails due to command line error in Jenkinsfile,FABLG-6,39722,Bug,Closed,FABLG,Fabric Lib Go,software,sykesm,,,Medium,Done,btl5037,sambhavdutt,sambhavdutt,09/May/19 3:19 AM,12/Jun/19 11:49 PM,28/Oct/23 2:27 AM,12/Jun/19 11:49 PM,,0,ci-failure,"The fabric-lib-go-merge job failed as there was a syntax/command error in Jenkinsfile, the test fails in the beginning before the tests defined in the fabric-lib-go execute.
+
+*Branch:* master
+
+*Error Log:*
+
+{code:java}
+Running in Durability level: MAX_SURVIVABILITY
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+WorkflowScript: 12: illegal string body character after dollar sign;
+   solution: either escape a literal dollar sign ""\$5"" or bracket the value expression ""${5}"" @ line 12, column 16.
+       def ARCH=""$(uname -m | sed 's/x86_64/amd64/g')""
+                  ^
+1 error 
+{code}
+
+*Build Log*
+
+https://jenkins.hyperledger.org/sandbox/view/All/job/fabric-lib-go-merge-x86_64/1/console",,btl5037,sambhavdutt,vijaypunugubati,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,860a1271290aeb5a0c95275fe4d60895e107af9e,Unset,No,,,"1|i00n7b:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),btl5037,sambhavdutt,vijaypunugubati,,,"11/Jun/19 11:13 PM;vijaypunugubati;The merge job is running as expected, nothing to do now for the above issue,  it's fixed I guess and i request [~btl5037] to update the CR link here for reference and close it.;;;","12/Jun/19 11:49 PM;btl5037;https://gerrit.hyperledger.org/r/c/fabric-lib-go/+/31290;;;"
+Flake in TestServeHTTP_Timeout in CI,FABLG-7,39776,Task,Closed,FABLG,Fabric Lib Go,software,sykesm,,,Medium,Done,,btl5037,btl5037,10/May/19 11:44 PM,17/May/19 10:42 PM,28/Oct/23 2:27 AM,17/May/19 10:42 PM,,0,,,,btl5037,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i00niv:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),btl5037,,,,,"17/May/19 10:42 PM;btl5037;https://gerrit.hyperledger.org/r/c/31323/;;;",
+Disable AnsiColor wrappers,FABLG-8,42168,Task,Closed,FABLG,Fabric Lib Go,software,sykesm,,,Medium,Done,btl5037,btl5037,btl5037,03/Sep/19 9:22 AM,13/Jan/20 1:45 PM,28/Oct/23 2:27 AM,13/Jan/20 1:45 PM,,0,,,,btl5037,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i00z6r:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),btl5037,,,,,,
+Create AZP YAML File,FABLG-9,43298,Task,Closed,FABLG,Fabric Lib Go,software,sykesm,,,Medium,Done,btl5037,btl5037,btl5037,13/Nov/19 8:24 AM,13/Jan/20 1:45 PM,28/Oct/23 2:27 AM,13/Jan/20 1:45 PM,,0,,,,btl5037,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i014ij:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),btl5037,,,,,,
+Fabric not resolving environment variables for ( deliverService and endorserService ) ,FABLG-10,46886,Bug,Closed,FABLG,Fabric Lib Go,software,sykesm,,,Medium,Invalid: Environment Issue,,yasser_mas,yasser_mas,01/Jun/21 10:34 PM,03/Jun/21 12:29 AM,28/Oct/23 2:27 AM,03/Jun/21 12:29 AM,,0,,"Fabric peer not resolving the following ENV variables ( {color:#de350b}CORE_PEER_LIMITS_CONCURRENCY_ENDORSERSERVICE{color}  and {color:#de350b}CORE_PEER_LIMITS_CONCURRENCY_DELIVERSERVICE{color} ) on passing it to peer docker containers 
+
+ 
+
+ ",,yasser_mas,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01jw3:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),yasser_mas,,,,,,

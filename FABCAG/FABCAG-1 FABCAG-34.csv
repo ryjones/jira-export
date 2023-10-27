@@ -1,0 +1,391 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Due Date,Votes,Labels,Labels,Labels,Description,Environment,Watchers,Watchers,Watchers,Watchers,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Relates),Inward issue link (Relates),Attachment,Custom field (Business Value),Custom field (Commit Levels),Custom field (Current Status),Custom field (Design),Custom field (Design Status),Custom field (Documentation Impact),Custom field (Documentation Status),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Executed),Custom field (Found in Commit),Custom field (Function Test Status),Custom field (Must Fix),Custom field (Original story points),Custom field (Parent Link),Custom field (Rank),Custom field (Release Note),Custom field (Release Note Required),Custom field (Root Cause Analysis),Custom field (SDK Impact),Custom field (Sample/Tutorial),Sprint,Sprint,Sprint,Sprint,Sprint,Sprint,Sprint,Sprint,Custom field (Steps to Reproduce),Custom field (Story Points),Custom field (System Test Impact),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Test Plan),Custom field (Test Result),Custom field (Test Result Details),Custom field (Test Type),Custom field (Triaged),Custom field (Usage),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Workaround),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitCommitsReferenced),Comment,Comment,Comment
+Programming model - Go chaincode contract APIs,FABCAG-1,42402,Epic,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,High,Done,awjh-ibm,heatherp,heatherp,19/Sep/19 12:58 AM,10/Feb/20 10:08 PM,28/Oct/23 2:26 AM,10/Feb/20 10:08 PM,,1,cc-triaged,,,"An introduction to the new programming model is here, including a detailed tutorial: [https://hyperledger-fabric.readthedocs.io/en/release-1.4/whatsnew.html?highlight=new%20programming%20model#improved-programming-model-for-developing-applications] 
+
+This epic adds the new programming model that was introduced for both node and java chaincode, to Go chaincode.  All concepts should be consistent with node and java, subject to differences in language idioms.
+
+A well-documented working prototype exists here: https://github.com/awjh-ibm/fabric-go-developer-api
+
+This is to be discussed at a Fabric Maintainers call - TBC",,heatherp,MHBauer,muralisr,silliman,,,,,,,,,,,"14/Nov/19 1:26 AM;awjh-ibm;contract-programming-model-go-update.pdf;https://jira.hyperledger.org/secure/attachment/17927/contract-programming-model-go-update.pdf",,,,(Please add high level design or a link to the design),Required,Unset,Required,ghx-label-1,,Programming model - Go chaincode,To Do,No,,Required,No,,,"1|i010d7:",,,,No,Required,,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),heatherp,MHBauer,muralisr,silliman,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fabric contract API Go repo should contain community information,FABCAG-2,43503,Documentation,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Done,awjh-ibm,awjh-ibm,awjh-ibm,02/Dec/19 8:09 PM,02/Dec/19 8:54 PM,28/Oct/23 2:26 AM,02/Dec/19 8:54 PM,,0,,,,Github reccomended community standards suggest that projects have a contributor guide and code of conduct. Currently the repo lacks this.,,awjh-ibm,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i015k3:",,,,Unset,Unset,,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),awjh-ibm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Changelog script does not match new JIRA format,FABCAG-3,43504,Bug,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Done,awjh-ibm,awjh-ibm,awjh-ibm,02/Dec/19 8:18 PM,02/Dec/19 10:14 PM,28/Oct/23 2:26 AM,02/Dec/19 10:14 PM,,0,,,,Formerly the Jira structure was that all fabric repos were components of fabric. Now that they are each their own project on Jira the changelog script should pick up on commits related to FABCAG rather than FAB. Since this repo is new and we have no commits tagged FAB we do not need to plan for handling the previous format,,awjh-ibm,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i015kb:",,,,Unset,Unset,,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),awjh-ibm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Release build will fail on beta release due to lack of changelog,FABCAG-4,43681,Bug,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,High,Done,awjh-ibm,awjh-ibm,awjh-ibm,12/Dec/19 7:45 PM,12/Dec/19 8:25 PM,28/Oct/23 2:26 AM,12/Dec/19 8:25 PM,,0,,,,The release build checks whether the changelog contains the tagged version. For beta releases we will not fill out the changelog and therefore those releases will fail.,,awjh-ibm,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01663:",,,,Unset,Unset,,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),awjh-ibm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fabric contract API go should contain tutorials ,FABCAG-5,43737,Task,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,High,Done,awjh-ibm,awjh-ibm,awjh-ibm,16/Dec/19 11:31 PM,10/Jan/20 6:22 PM,28/Oct/23 2:26 AM,10/Jan/20 6:22 PM,,0,cc-triaged,,,A tutorial describing how to use the contract API components should be created to ease the process of a new user writing a smart contract,,awjh-ibm,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABCAG-1,,,No,,Unset,No,,,"1|i016hf:",,,,Unset,Unset,,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),awjh-ibm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ledger API,FABCAG-6,43833,Epic,Backlog,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,High,,awjh-ibm,heatherp,heatherp,08/Jan/20 3:04 AM,10/Jan/20 12:55 AM,28/Oct/23 2:26 AM,,,0,cc-triaged,,,"This epic connects all child work items related to delivering a new ledger-api in the fabric-chaincode-node repository.
+
+A short introduction is included below, with a much more detailed design explanation is included in the ""Design"" section.
+
+We're currently thinking this will exist as a separate package, i.e. in addition to fabric-shim and fabric-contract-api and therefore will live in a top level directory alongside those other apis. However the placement of this work may be reviewed as we iteratively deliver new functionality and test importing it, from a user's perspective.
+
+Introduction
+
+-------------
+
+A typical sequence is for an application to connect to a peer (the 'gateway' into the network channel), and obtain a reference to a smart contract. The Network-shared transaction logic in the Smart Contract is then be invoked by name, and with optional data arguments and return values. The data arguments can include transient data if needed. The logic in the Smart Contract will typical reference and update the shared transaction data, subject of course to exactly how the code is written.
+
+The 'Ledger' is, therefore, a primary abstraction in a blockchain system, including in Hyperledger Fabric; this abstraction allows the concepts of states, world state, collections, transactions, blocks etc. to be tied together and formalised.",,heatherp,,,,,,,,,,,,FABCJ-3,FABCN-358,,,,,"A very good high-level design summary is here:
+
+https://github.com/hyperledger/fabric-rfcs/pull/16
+",Reviewed,Unset,Unset,ghx-label-7,,Go ledger-api,To Do,No,,Unset,No,,,"1|i01703:",,,,No,Unset,,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),heatherp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"As a smart contract developer, I want to use a ledger object",FABCAG-7,43903,Story,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Invalid,awjh-ibm,heatherp,heatherp,10/Jan/20 12:45 AM,18/Nov/20 7:40 PM,28/Oct/23 2:26 AM,18/Nov/20 7:40 PM,,0,cc-triaged,,,"*As a* smart contract developer
+ *I want* to get a ledger object
+ *So that* I can get default and private collections objects from it
+
+Conceptual APIs to include:
+|get-collection-default (worldstate)|
+|get-collection-private-name|
+|bootstrap-ledger-api|
+
+Definition of Done includes:
+ * interfaces and implementation
+ * full unit tests
+ * corresponding api docs for the apis added
+ * integration tests satisfying this user outcome",,heatherp,lesleyannj,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABCAG-6,,,No,,Unset,No,,,"1|hzwrnx:c",,,,Unset,Unset,31st-7th Feb 2020,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),heatherp,lesleyannj,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"18/Nov/20 7:40 PM;lesleyannj;Closing as no current work taking place.  Please reopen if considered valid when work is started.;;;",,
+"As a smart contract developer, I want to use a state object",FABCAG-8,43904,Story,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Invalid,,heatherp,heatherp,10/Jan/20 12:45 AM,18/Nov/20 7:41 PM,28/Oct/23 2:26 AM,18/Nov/20 7:41 PM,,0,cc-triaged,,,"*As a* smart contract developer
+ *I want* to get a state object
+ *So that* I can get keys and values
+
+Conceptual APIs to include:
+|create-composite-key|
+|split-composite-key|
+|get-value|
+|get-key|
+|get-key-level-endorsement|
+|set-key-level-endorsement|
+|get-private-data-hash|
+|get-policy (precise meaning TBD)|
+|get-historic-states-for-key|
+
+Definition of Done includes:
+ * interfaces and implementation
+ * full unit tests
+ * corresponding api docs for the apis added
+ * integration tests satisfying this user outcome",,heatherp,lesleyannj,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABCAG-6,,,No,,Unset,No,,,"1|hzwrnx:6",,,,Unset,Unset,,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),heatherp,lesleyannj,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"18/Nov/20 7:41 PM;lesleyannj;Closing as no current work taking place.  Please reopen if considered valid when work is started.;;;",,
+"As a smart contract developer, I want to use a collection object",FABCAG-9,43905,Story,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Invalid,,heatherp,heatherp,10/Jan/20 12:46 AM,18/Nov/20 7:40 PM,28/Oct/23 2:26 AM,18/Nov/20 7:40 PM,,0,cc-triaged,,,"*As a* smart contract developer
+ *I want* to get a collection object
+ *So that* I can access the state from it
+
+Conceptual APIs to include:
+  
+|get-state|
+|put-state|
+|delete-state|
+|current-ledger-state-query|
+
+Definition of Done includes:
+ * interfaces and implementation
+ * full unit tests
+ * corresponding api docs for the apis added
+ * integration tests satisfying this user outcome",,heatherp,lesleyannj,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABCAG-6,,,No,,Unset,No,,,"1|hzwrnx:9",,,,Unset,Unset,31st-7th Feb 2020,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),heatherp,lesleyannj,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"18/Nov/20 7:40 PM;lesleyannj;Closing as no current work taking place.  Please reopen if considered valid when work is started.;;;",,
+"As a smart contract developer, I want to use a state iterator",FABCAG-10,43907,Story,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Invalid,,heatherp,heatherp,10/Jan/20 12:47 AM,18/Nov/20 7:41 PM,28/Oct/23 2:26 AM,18/Nov/20 7:41 PM,,0,cc-triaged,,,"*As a* smart contract developer
+ *I want* to use a state iterator
+ *So that* I can iterate through states
+
+Conceptual APIs to include:
+  
+|next-state|
+|has-next-state|
+|close-iterable|
+
+Definition of Done includes:
+ * interfaces and implementation
+ * full unit tests
+ * corresponding api docs for the apis added
+ * integration tests satisfying this user outcome",,heatherp,lesleyannj,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABCAG-6,,,No,,Unset,No,,,"1|hzwrnx:2",,,,Unset,Unset,,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),heatherp,lesleyannj,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"18/Nov/20 7:41 PM;lesleyannj;Closing as no current work taking place.  Please reopen if considered valid when work is started.;;;",,
+"As a smart contract developer, I want to use a query handler",FABCAG-11,43906,Story,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Invalid,,heatherp,heatherp,10/Jan/20 12:46 AM,18/Nov/20 7:43 PM,28/Oct/23 2:26 AM,18/Nov/20 7:43 PM,,0,cc-triaged,,,"*As a* smart contract developer
+ *I want* to use a query handler 
+ *So that* I can access keys
+
+Conceptual APIs to include:
+  
+|query-by-key-range|
+|query-by-partial-key|
+|query-from-key|
+|query-to-key|
+|query-selector (existing rich query)|
+
+Definition of Done includes:
+ * interfaces and implementation
+ * full unit tests
+ * corresponding api docs for the apis added
+ * integration tests satisfying this user outcome",,heatherp,lesleyannj,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABCAG-6,,,No,,Unset,No,,,"1|hzwrnx:4",,,,Unset,Unset,,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),heatherp,lesleyannj,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"18/Nov/20 7:43 PM;lesleyannj;Closing as no current work taking place.  Please reopen if considered valid when work is started.;;;",,
+"As a smart contract developer, I want to use a state history object and historic state iterator",FABCAG-12,43908,Story,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Invalid,,heatherp,heatherp,10/Jan/20 12:50 AM,18/Nov/20 7:43 PM,28/Oct/23 2:26 AM,18/Nov/20 7:43 PM,,0,cc-triaged,,,"*As a* smart contract developer
+ *I want* to get a state history object and historic state iterator
+ *So that* I can get keys, values and transaction ids from it and so that I can iterate through historic states
+
+Conceptual APIs to include:
+  
+|get-value|
+|get-key|
+|get-tx-id|
+|get-timestamp|
+|get-is-delete|
+|next-historic-state|
+|has-next-historic-state|
+|close-iterable |
+
+Definition of Done includes:
+ * interfaces and implementation
+ * full unit tests
+ * corresponding api docs for the apis added
+ * integration tests satisfying this user outcome",,heatherp,lesleyannj,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABCAG-6,,,No,,Unset,No,,,"1|i017fv:",,,,Unset,Unset,,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),heatherp,lesleyannj,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"18/Nov/20 7:43 PM;lesleyannj;Closing as no current work taking place.  Please reopen if considered valid when work is started.;;;",,
+"As a smart contract developer, I want to use fabric-samples and the ledger-api",FABCAG-13,43909,Story,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Invalid,,heatherp,heatherp,10/Jan/20 12:50 AM,18/Nov/20 7:44 PM,28/Oct/23 2:26 AM,18/Nov/20 7:44 PM,,0,cc-triaged,,,"*As a* smart contract developer
+ *I want* to use the fabcar and commercial paper fabric samples and the ledger-api
+ *So that* I can learn how to use the ledger-api in my smart contract, by example
+
+*Note: this is dependent on when the majority of major ledger-api stories (i.e. FABCAG-7 to 12) are closed out.*
+
+We may decide to use a working fabcar sample as a milestone for a beta-release. However, both commercial paper and fabcar should be updated to include using the ledger-api before a proper release.
+
+Matthew's notes: Update existing, add in additional and query",,heatherp,lesleyannj,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABCAG-6,,,No,,Unset,No,,,"1|i017g3:",,,,Unset,Unset,,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),heatherp,lesleyannj,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"18/Nov/20 7:44 PM;lesleyannj;Closing as no current work taking place.  Please reopen if considered valid when work is started.;;;",,
+"As a smart contract developer, I want to use ledger-api docs and tutorials ",FABCAG-14,43910,Story,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Invalid,,heatherp,heatherp,10/Jan/20 12:52 AM,18/Nov/20 7:44 PM,28/Oct/23 2:26 AM,18/Nov/20 7:44 PM,,0,cc-triaged,,,"*As a* smart contract developer
+ *I want* formal documentation and tutorials regarding the ledger-api
+ *So that* I can learn how to use the ledger-api in my smart contract
+
+*Note: this is dependent on when the majority of major ledger-api stories (i.e. FABCAG-7 to 12) are closed out.*
+
+This is different from the API docs, I'm thinking most likely readTheDocs docs updates. We may only choose to have one location for formal documentation and tutorials, but it should provide examples for all languages",,heatherp,lesleyannj,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABCAG-6,,,No,,Unset,No,,,"1|i017gb:",,,,Unset,Unset,,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),heatherp,lesleyannj,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"18/Nov/20 7:44 PM;lesleyannj;Closing as no current work taking place.  Please reopen if considered valid when work is started.;;;",,
+"As a smart contract developer, I want to check the performance of my smart contract written using the ledger-api",FABCAG-15,43912,Story,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Invalid,,heatherp,heatherp,10/Jan/20 12:53 AM,18/Nov/20 7:44 PM,28/Oct/23 2:26 AM,18/Nov/20 7:44 PM,,0,cc-triaged,,,"*As a* smart contract developer
+ *I want* to be able to run performance benchmarks against my smart contract written using the ledger-api
+ *So that* I can understand it's performance
+
+At the time of writing this we aren't too concerned by regressions as fabric-shim isn't going away or being re-written.
+
+I think this will include updates to caliper.",,heatherp,lesleyannj,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABCAG-6,,,No,,Unset,No,,,"1|i017gr:",,,,Unset,Unset,,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),heatherp,lesleyannj,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"18/Nov/20 7:44 PM;lesleyannj;Closing as no current work taking place.  Please reopen if considered valid when work is started.;;;",,
+Setup integration tests in the CI build,FABCAG-16,44039,Task,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Done,,awjh-ibm,awjh-ibm,21/Jan/20 6:37 PM,05/Feb/20 8:50 PM,28/Oct/23 2:26 AM,05/Feb/20 8:50 PM,,0,cc-triaged,,,"The fabric-test repo contains a chaincode-integration tool which provides a number of cucumber tests for integration testing a chaincode language implementation.
+
+Work needed:
+- Run the tool as part of azure-pipeline build
+- Create contracts required by the tool",,awjh-ibm,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzx33q:s704",,,,Unset,Unset,31st-7th Feb 2020,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),awjh-ibm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Investigate using GoSec for security dependency auditing,FABCAG-17,44052,Task,Backlog,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Low,,,heatherp,heatherp,22/Jan/20 6:58 PM,18/Nov/20 7:29 PM,28/Oct/23 2:26 AM,,,0,cc-triaged,community-help-wanted,,"[https://github.com/securego/gosec]
+
+I've heard fabric use it too, but I've also heard that it audits all the code of your dependencies too, which might be more strict than we are willing to put up with.
+
+I think it would be good to investigate putting this in as a build step at least",,heatherp,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i017gw:",,,,Unset,Unset,,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),heatherp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Error should be clearer when chaincodes fail to start if their contract has no public functions,FABCAG-18,44111,Task,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Done,awjh-ibm,awjh-ibm,awjh-ibm,23/Jan/20 7:33 PM,28/Jan/20 7:31 PM,28/Oct/23 2:26 AM,28/Jan/20 7:31 PM,,0,cc-triaged,,,"The error message for a chaincode failing to start due to having no public functions is currently:
+
+Invalid type. Expected: array, given: null
+
+An error that occurs in the metadata production. A clearer message is required to let the developer know that they need to have at least one public function on their contract.",,awjh-ibm,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01843:",,,,Unset,Unset,,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),awjh-ibm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Incorrect information contained in tutorial,FABCAG-19,44141,Bug,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Done,awjh-ibm,awjh-ibm,awjh-ibm,27/Jan/20 6:45 PM,27/Jan/20 7:51 PM,28/Oct/23 2:26 AM,27/Jan/20 7:51 PM,,0,cc-triaged,,,"The tutorial for contract-api-go contains the following errors:
+
+- Getting started:
+   - Full example contract uses an asterix on transaction context in functions
+
+- Using advanced features:
+   - Paragraph on GetEvaluateTransactions refers to SimpleChaincode not SimpleContract
+   - getMetadata function uses lowercase 'g', other languages do not have case agnostic first characters and use an uppercase 'g'
+
+- Managing objects:
+   - Complex contract does not include GetEvaluateTransactions but probably should since we are trying to push people to best practice",,awjh-ibm,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01897:",,,,Unset,Unset,,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),awjh-ibm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Metadata does not indicate which contract in the chaincode is the default,FABCAG-20,44160,Bug,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Done,awjh-ibm,awjh-ibm,awjh-ibm,28/Jan/20 11:25 PM,03/Feb/20 8:09 PM,28/Oct/23 2:26 AM,30/Jan/20 11:40 PM,,0,cc-triaged,,,The metadata produced does not contain a default: true on the contract in the metadata which is marked as the default in the chaincode,,awjh-ibm,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzx33q:s976",,,,Unset,Unset,24-31st Jan 2020,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),awjh-ibm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Update tutorials based on user feedback,FABCAG-21,44167,Task,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,High,Done,awjh-ibm,awjh-ibm,awjh-ibm,29/Jan/20 8:25 PM,03/Feb/20 8:09 PM,28/Oct/23 2:26 AM,30/Jan/20 11:40 PM,,0,cc-triaged,,,Following a user session of the tutorials feedback was recieved. The tutorials should be updated to reflect this feedback.,,awjh-ibm,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzx33q:s974",,,,Unset,Unset,24-31st Jan 2020,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),awjh-ibm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Create compatibility matrix for contract API Go,FABCAG-22,44188,Task,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Done,awjh-ibm,awjh-ibm,awjh-ibm,30/Jan/20 8:02 PM,05/Feb/20 8:18 PM,28/Oct/23 2:26 AM,05/Feb/20 8:18 PM,,0,cc-triaged,,,"Create a file defining which versions of fabric the contract API Go repo uses and the Go version it requires.
+
+Base on what already exists for chaincode node and java",,awjh-ibm,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzx33q:s702",,,,Unset,Unset,31st-7th Feb 2020,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),awjh-ibm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Structs with properties that are arrays, slices or maps of another struct cause a chaincode to error",FABCAG-23,44267,Bug,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Highest,Done,awjh-ibm,awjh-ibm,awjh-ibm,05/Feb/20 7:07 PM,06/Feb/20 12:21 AM,28/Oct/23 2:26 AM,06/Feb/20 12:21 AM,,0,,,,"If a struct has a property which is an array, slice or map of another struct then the metadata produced will not reference the other struct as a component using justs its name but the full component path '#/components/schema/<StructName>'. This causes the validation of the schema to fail.
+
+The issue arises as in schema.go in the metadata package a boolean is passed to mark whether we're referencing a component from a component, the array, slice and map schema builders do not use this.",,awjh-ibm,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzx33q:s7qi",,,,Unset,Unset,31st-7th Feb 2020,,,,,,,,"Build a chaincode from this:
+
+```
+package main
+
+import (
+	""fmt""
+
+	""github.com/hyperledger/fabric-contract-api-go/contractapi""
+)
+
+// SmartContract my contract
+type SmartContract struct {
+	contractapi.Contract
+}
+
+// Struct1 a struct
+type Struct1 struct {
+	Foo []*Struct2
+}
+
+// Struct2 another struct
+type Struct2 struct {
+	Bar string
+}
+
+// Test do something
+func (s *SmartContract) Test(ctx contractapi.TransactionContextInterface) Struct1 {
+	struct1 := new(Struct1)
+	struct1.Foo = make([]*Struct2, 0)
+	struct2 := new(Struct2)
+	struct2.Bar = ""test""
+	// struct1.Foo = append(struct1.Foo, struct2)
+	return *struct1
+}
+
+func main() {
+	chaincode, err := contractapi.NewChaincode(new(SmartContract))
+	if err != nil {
+		panic(fmt.Sprintf(""Error creating chaincode: %s"", err.Error()))
+	}
+	if err := chaincode.Start(); err != nil {
+		panic(fmt.Sprintf(""Error starting fisherman chaincode: %s"", err.Error()))
+	}
+}
+```",,Unset,,,,,,Unset,,Unset,,(Please add usage information),awjh-ibm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Functional tests failing due to GODOG move,FABCAG-24,44294,Bug,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,High,Done,awjh-ibm,awjh-ibm,awjh-ibm,07/Feb/20 7:42 PM,10/Feb/20 10:19 PM,28/Oct/23 2:26 AM,07/Feb/20 10:09 PM,,0,cc-triaged,,,The godog package used to run the functional tests has moved URL. We need to make changes to reflect this,,awjh-ibm,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzx33q:s7021",,,,Unset,Unset,7-14th Feb 2020,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),awjh-ibm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+It is not clear in the repo where to raise issues,FABCAG-25,44309,Task,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Done,awjh-ibm,awjh-ibm,awjh-ibm,10/Feb/20 10:05 PM,11/Feb/20 6:43 PM,28/Oct/23 2:26 AM,10/Feb/20 11:13 PM,,0,cc-triaged,,,"Since we have issues turned off in GitHub which is where a user would usually raise a bug/feature request and instead use Jira it should be clear to a user where they need to head.
+
+The README should therefore contain a link and description of what to do with Jira.",,awjh-ibm,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzx33q:s70bi",,,,Unset,Unset,7-14th Feb 2020,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),awjh-ibm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Link in final tutorial to prereqs doesn't work,FABCAG-26,44317,Documentation,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Done,awjh-ibm,awjh-ibm,awjh-ibm,11/Feb/20 6:26 PM,13/Feb/20 12:34 AM,28/Oct/23 2:26 AM,11/Feb/20 6:44 PM,,0,cc-triaged,,,,,awjh-ibm,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzx33q:s70br",,,,Unset,Unset,7-14th Feb 2020,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),awjh-ibm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Release v1.1.0,FABCAG-27,44659,Task,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Done,heatherp,heatherp,heatherp,26/Mar/20 7:56 PM,01/May/20 11:12 PM,28/Oct/23 2:26 AM,01/May/20 11:12 PM,,0,cc-triaged,,,"Fabric v2.1.0 is due mid-April, potentially earlier. So we need to think about a v2.1.0 release. Thoughts:
+ - make these changes into master
+
+Tasks:
+ * -ensure we're running against fabric v2.1 - do this by updating the version being tested by the chaincode-test-integration tool (should be pulling *2.1*, not *2.1.0*)-
+ * -update commit of chaincode-go that we're depending on-
+ * -Update docs, references to v2.0.0 etc-
+
+*Above covered by PR #31*
+ * -Release, usual stuff: release notes, version number change etc (?)-
+ * -(Probably) update fabric-samples to use our 2.1.0 version:- https://github.com/hyperledger/fabric-samples/blob/master/chaincode/fabcar/go/go.mod",,heatherp,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01b8a:i",,,,Unset,Unset,27-1st May 20,1 May to 8 May,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),heatherp,,,,,dependabot/go_modules/chaincodes/marbles02_private/go/golang.org/x/crypto-0.1.0,dependabot/go_modules/tools/operator/k8s.io/client-go-0.20.0,dependabot/go_modules/regression/smoke/golang.org/x/net-0.7.0,dependabot/go_modules/tools/chaincode-integration/resources/chaincode/simple-go/golang.org/x/net-0.7.0,dependabot/npm_and_yarn/asset-transfer-basic/rest-api-typescript/grpc/grpc-js-1.8.17,dependabot/go_modules/regression/barebones/golang.org/x/net-0.7.0,dependabot/go_modules/tools/operator/golang.org/x/crypto-0.1.0,dependabot/go_modules/regression/publish/github.com/opencontainers/runc-1.1.5,dependabot/go_modules/regression/smoke/golang.org/x/text-0.3.8,release-2.5,lindluni-patch-1,dependabot/go_modules/regression/barebones/github.com/opencontainers/runc-1.1.5,release-2.4,dependabot/go_modules/regression/basicnetwork/k8s.io/client-go-0.20.0,dependabot/npm_and_yarn/asset-transfer-basic/rest-api-typescript/protobufjs-and-fabric-network-7.2.4,dependabot/go_modules/regression/publish/golang.org/x/net-0.7.0,dependabot/go_modules/regression/basicnetwork/golang.org/x/crypto-0.1.0,dependabot/go_modules/regression/barebones/github.com/docker/docker-20.10.24incompatible,dependabot/go_modules/regression/smoke/golang.org/x/sys-0.1.0,dependabot/go_modules/regression/barebones/golang.org/x/text-0.3.8,dependabot/go_modules/high-throughput/application-go/google.golang.org/grpc-1.53.0,revert-342-mergify/bp/main/pr-340,dependabot/go_modules/regression/basicnetwork/golang.org/x/sys-0.1.0,dependabot/go_modules/regression/publish/github.com/docker/docker-20.10.24incompatible,dependabot/go_modules/regression/smoke/k8s.io/client-go-0.20.0,dependabot/go_modules/tools/operator/golang.org/x/net-0.7.0,dependabot/go_modules/regression/smoke/golang.org/x/crypto-0.1.0,dependabot/go_modules/regression/basicnetwork/golang.org/x/text-0.3.8,dependabot/npm_and_yarn/asset-transfer-basic/rest-api-typescript/semver-6.3.1,dependabot/go_modules/regression/barebones/k8s.io/client-go-0.20.0,dependabot/npm_and_yarn/asset-transfer-basic/rest-api-typescript/protobufjs-6.11.4,dependabot/go_modules/regression/publish/golang.org/x/sys-0.1.0,dependabot/npm_and_yarn/asset-transfer-basic/rest-api-typescript/tough-cookie-4.1.3,dependabot/go_modules/tools/gotools/golang.org/x/sys-0.1.0,dependabot/go_modules/regression/smoke/github.com/docker/docker-20.10.24incompatible,dependabot/go_modules/asset-transfer-basic/application-go/google.golang.org/grpc-1.53.0,dependabot/go_modules/regression/smoke/github.com/opencontainers/runc-1.1.5,dependabot/go_modules/regression/publish/golang.org/x/text-0.3.8,dependabot/go_modules/regression/publish/k8s.io/client-go-0.20.0,dependabot/go_modules/tools/chaincode-integration/resources/chaincode/simple-go/golang.org/x/text-0.3.8,dependabot/go_modules/regression/publish/golang.org/x/crypto-0.1.0,dependabot/go_modules/regression/basicnetwork/golang.org/x/net-0.7.0,dependabot/go_modules/tools/operator/golang.org/x/sys-0.1.0,dependabot/go_modules/regression/basicnetwork/github.com/opencontainers/runc-1.1.5,dependabot/npm_and_yarn/asset-transfer-basic/rest-api-typescript/word-wrap-1.2.4,dependabot/go_modules/regression/basicnetwork/github.com/docker/docker-20.10.24incompatible,dependabot/go_modules/tools/operator/golang.org/x/text-0.3.8,dependabot/go_modules/regression/barebones/golang.org/x/crypto-0.1.0,dependabot/go_modules/regression/barebones/golang.org/x/sys-0.1.0,dependabot/go_modules/tools/operator/github.com/opencontainers/runc-1.1.5,dependabot/go_modules/chaincodes/marbles02_private/go/golang.org/x/net-0.7.0,dependabot/go_modules/tools/operator/github.com/docker/docker-20.10.24incompatible,true,,,
+"Update Fabric Chaincode vendoring docs to include usage of ""go mod vendor""",FABCAG-28,39878,Documentation,Backlog,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,,mbwhite,medikent,medikent,17/May/19 5:14 AM,18/Nov/20 8:12 PM,28/Oct/23 2:26 AM,,,0,cc-triaged,external,,"The existing docs do not state that *go mod vendor* is a way to vendor dependencies for projects running on go1.11+. I suggest adding language like the following:
+
+
+
+*_Go mod vendor_* is the simplest way to vendor dependencies for a given chaincode when you need to use a Go library not a part of the standard Golang libraries nor a part of the Hyperledger Fabric standard libraries. The *fabric-tools* container image typically used to install chaincode on a Fabric network comes packaged with the Golang standard libraries and the Hyperledger Fabric standard libraries available on the GOPATH. Since no other dependencies are available by default in the *fabric-tools* image then vendoring dependencies must be done in order to use the *fabric-tools* image to build chaincode depending on libraries not present by default in the *fabric-tools* image.
+
+When using Golang 1.11+ follow this simple process to vendor dependencies for chaincode:
+ # Write chaincode that uses libraries requiring vendoring
+ # Run _*go mod init*_ __ in the directory. This should create the *go.mod* and *go.sum* files.
+ # Run _*go mod vendor*_ __ in the directory. This should create the *vendor* directory with a copy of all the versions of packages the chaincode depends on which correspond to the versions contained in the *go.sum* file.
+ # Mount the entire directory into a *fabric-tools* container and run _*peer chaincode install ...*_ __ with the appropriate command line options.",,lesleyannj,medikent,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzwrme:i009",,,,Unset,Unset,5 June to 12 June,15 June to 19 June,19 June to 26 June,29 Jun to 6 Jul,3 Jul to 10 Jul,10 Jul to 24 Jul,23 Jul to 7 Aug,7 Aug to 14 Aug,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),lesleyannj,medikent,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"08/Jun/20 10:15 PM;lesleyannj;[~senthilkumarr] or you actively working on this ticket?  We are about to re-assign to be worked on.;;;",,
+Add build status badge ,FABCAG-29,45252,Documentation,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Lowest,Done,AjeethT,davidkhala,davidkhala,13/Jun/20 2:38 PM,03/Nov/20 6:26 PM,28/Oct/23 2:26 AM,03/Nov/20 6:26 PM,,0,cc-triaged,good-first-issue,,"Now that we have configured azure pipeline, add a status badge on readme.md
+ ",,AjeethT,davidkhala,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01czn:",,,,Unset,Unset,,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),AjeethT,davidkhala,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"17/Sep/20 2:12 PM;AjeethT;Hey [~davidkhala], I am new to contribution. Can you help me with this how I add badges for the azure pipeline.
+
+ ;;;","17/Sep/20 3:21 PM;AjeethT;can you share the azure pipeline url;;;","17/Sep/20 10:23 PM;davidkhala;Welcome to contribute!
+Here is the exact markdown. You could add it to your 'good first' PR.
+
+[![Build Status](https://dev.azure.com/Hyperledger/Fabric-Contract-API-Go/_apis/build/status/Fabric-Contract-API-Go?branchName=master)](https://dev.azure.com/Hyperledger/Fabric-Contract-API-Go/_build/latest?definitionId=48&branchName=master)
+;;;"
+Document release process,FABCAG-30,45550,Story,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,Done,jtonline,jtonline,jtonline,03/Jul/20 11:02 PM,22/Oct/20 12:44 AM,28/Oct/23 2:26 AM,22/Oct/20 12:44 AM,,0,cc-triaged,,,Add {{RELEASING.md}} file in root of repo documenting the current release process,,jtonline,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01ge9:qys",,,,Unset,Unset,3 Jul to 10 Jul,10 Jul to 24 Jul,23 Jul to 7 Aug,7 Aug to 14 Aug,16Oct-23Oct,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),jtonline,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"22/Oct/20 12:44 AM;jtonline;https://github.com/hyperledger/fabric-contract-api-go/pull/43;;;",,
+Supplying additional valid data in json tag of struct property causes schema to fail,FABCAG-31,46222,Bug,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,High,Done,awjh-ibm,awjh-ibm,awjh-ibm,21/Oct/20 1:22 AM,26/Oct/20 6:27 PM,28/Oct/23 2:26 AM,26/Oct/20 6:27 PM,,0,cc-triaged,,,"Supplying additional valid data in json tag of struct property causes schema to fail. This is as the schema.go file uses the entire tag value and not just its first bit to be the name for use in the metadata. This means that an object as such:
+
+
+
+```
+// TestObject test object
+type TestObject struct {
+ Chickens []string `json:""chickens,omitempty"" metadata:"",optional""`
+ Duck string
+}
+
+```
+
+ 
+
+Will have a property in its metadata of chickens,omitempty rather than just chicken. The current work around is to use the metadata tag to override the JSON but this isn't what a user would expect.
+
+ 
+
+This is causing issues for users particularly around slices as they need to omit nil slice values as the metadata expects an array not to be null.",,awjh-ibm,jtonline,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01ge9:qyzc",,,,Unset,Unset,23Oct to 30Oct,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),awjh-ibm,jtonline,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"22/Oct/20 12:04 AM;jtonline;Merged https://github.com/hyperledger/fabric-contract-api-go/pull/42;;;",,
+ValidateAgainstSchema when required stringArray is null,FABCAG-32,46393,Epic,Backlog,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,,,labikoki,labikoki,07/Dec/20 4:44 PM,21/Jan/21 7:17 PM,28/Oct/23 2:26 AM,,,0,external,,,"when i use decimal.Decimal in my chaincode，metadata tell me that reqired must has at least one item. so i found that metadata use [http://json-schema.org/draft-04] that stringArray is ""minItems"": 1, and [http://json-schema.org/draft-07|http://json-schema.org/draft-04] dont has.
+
+So can i set metadata or file-path myself ?",,labikoki,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Not Required,Unset,Not Required,ghx-label-4,,metadata ValidateAgainstSchema,To Do,No,,Not Required,No,,,"1|i01hmj:",,,,Yes,Not Required,,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),labikoki,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Skip uneccessary fields on types when validating struct type,FABCAG-33,46464,Task,Closed,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Low,Done,,awjh-ibm,awjh-ibm,04/Jan/21 7:15 PM,04/Jan/21 8:11 PM,28/Oct/23 2:26 AM,04/Jan/21 8:11 PM,,0,,,,"The struct type currently validates all fields even if they don't make it to the metadata. These should be skipped.
+
+There are three main reasons why it would be preferable to skip the uneccessary fields:
+ * Since they don't have any role in the public interface of the contract, we might as well ignore them in the validation
+ * Recursively descending into structs can be costly, skipping fields would reduce the number of iterations
+ * One might want to use third party structs as return type (protobuf generated ones for instance), which is currently prevented by the failing validation of unexported fields.",,awjh-ibm,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01hxf:",,,,Unset,Unset,,,,,,,,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),awjh-ibm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Error when using field with byte array type,FABCAG-34,46536,Bug,Unverified,FABCAG,Fabric Contract API Go,software,awjh-ibm,,,Medium,,,rangar.by,rangar.by,04/Feb/21 6:49 PM,09/Feb/21 12:44 AM,28/Oct/23 2:26 AM,,,1,cc-triaged,community-help-wanted,external,"I work with fabric-contract-api in Go and want to use struct with field with byte array type ( for example, I need it to use UUID type). 
+ I have next code:
+{code:java}
+import (
+ ""encoding/json""
+ ""fmt""
+
+ ""github.com/hyperledger/fabric-contract-api-go/contractapi""
+)
+
+type SmartContract struct {
+ contractapi.Contract
+}
+
+type Asset struct {
+ ID string
+ B []byte
+}
+
+func (s *SmartContract) Add(ctx contractapi.TransactionContextInterface, ID string) error {
+ a := Asset{
+ ID: ID,
+ B: []byte{'1'},
+ }
+
+ data, err := json.Marshal(a)
+ if err != nil {
+ return fmt.Errorf(""can not marshal: %w"", err)
+ }
+ return ctx.GetStub().PutState(ID, data)
+}
+
+func (s *SmartContract) Get(ctx contractapi.TransactionContextInterface, ID string) (*Asset, error) {
+ data, err := ctx.GetStub().GetState(ID)
+ if err != nil {
+ return nil, fmt.Errorf(""failed to read from world state: %w"", err)
+ }
+
+ if data == nil {
+ return nil, fmt.Errorf(""%s does not exist"", ID)
+ }
+ a := new(Asset)
+ err = json.Unmarshal(data, a)
+ if err != nil {
+ return nil, fmt.Errorf(""can not unmarshal: %v"", err)
+ }
+ return a, nil
+}{code}
+I can successfully add new asset to chaincode, but when I try to read from chaincode with
+{code:java}
+peer chaincode query -C mychannel -n fabcar -c '{""Args"":[""Get,""1""]}'{code}
+I get next error
+{code:java}
+Error: endorsement failure during query. response: status:500 message:""Error handling success response. Value did not match schema:\n1. return.B: Invalid type. Expected: array, given: string""
+
+
+{code}
+But if I replace type of B to string array or int array, I don`t get such error. So it looks like that there is unnecessary conversion of byte array to string.
+
+Is there a way to fix it without replacing type from byte array? Or it is some bug with conversion?  
+ My hyperledger version:
+{code:java}
+$peer version
+peer:
+ Version: 2.2.0
+ Commit SHA: 5ea85bc
+ Go version: go1.14.4
+ OS/Arch: linux/amd64
+ Chaincode:
+ Base Docker Label: org.hyperledger.fabric
+ Docker Namespace: hyperledger{code}
+
+
+PS. I make minimal possible error case. If I add such function to contract
+{code:java}
+func (s *SmartContract) Test(ctx contractapi.TransactionContextInterface) []byte {
+    return []byte{'1', '2'}
+}{code}
+
+and call it on the peer
+{code:java}
+$peer chaincode query -C mychannel -n fabcar -c '{""Args"":[""Test""]}'
+{code}
+then I get error on the peer 
+{code:java}
+Error: endorsement failure during query. response: status:500 message:""Error handling success response. Value did not match schema:\n1. return: Invalid type. Expected: array, given: string""
+{code}
+ ",,calanais,rangar.by,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01ib7:",,,,Unset,Unset,,,,,,,,,"1. Write contract with struct with byte array field`s type
+2. Use contract to write struct to ledger
+3. Try to read struct from ledger.",,Unset,,,,,,Unset,,Unset,,(Please add usage information),calanais,rangar.by,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"08/Feb/21 8:45 PM;calanais;Please read the summary at [https://stackoverflow.com/questions/65993532/hyperledger-error-when-trying-to-query-the-state-database-after-installing-the-c/66100010#66100010]
+
+ ;;;","09/Feb/21 12:44 AM;rangar.by;I got same solution, with replacing []byte to string.
+
+But I think it is a bug, because now we have that []byte is invalid type.;;;",

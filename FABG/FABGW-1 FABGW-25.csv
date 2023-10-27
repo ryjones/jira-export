@@ -1,0 +1,303 @@
+Summary,Issue key,Issue id,Parent id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Due Date,Votes,Labels,Description,Environment,Watchers,Watchers,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Relates),Attachment,Custom field (Business Value),Custom field (Commit Levels),Custom field (Current Status),Custom field (Design),Custom field (Design Status),Custom field (Documentation Impact),Custom field (Documentation Status),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Executed),Custom field (Found in Commit),Custom field (Function Test Status),Custom field (Must Fix),Custom field (Original story points),Custom field (Parent Link),Custom field (Rank),Custom field (Release Note),Custom field (Release Note Required),Custom field (Root Cause Analysis),Custom field (SDK Impact),Custom field (Sample/Tutorial),Sprint,Custom field (Steps to Reproduce),Custom field (Story Points),Custom field (System Test Impact),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Test Plan),Custom field (Test Result),Custom field (Test Result Details),Custom field (Test Type),Custom field (Triaged),Custom field (Usage),Custom field (Watchers),Custom field (Watchers),Custom field (Workaround),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitCommitsReferenced),Comment,Comment,Comment
+Fabric Gateway service,FABGW-1,46171,,Epic,In Progress,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,,andrew-coleman,bestbeforetoday,bestbeforetoday,01/Oct/20 1:00 AM,24/Jun/21 6:59 PM,28/Oct/23 2:26 AM,,,0,sdk-triaged,"Provide a Fabric Gateway service embedded in a peer that allows client applications to submit and evaluate transactions using a single endpoint, and requiring no client-side knowledge of the Fabric network topology or the mechanics of transaction invocation.
+
+RFC: [https://github.com/hyperledger/fabric-rfcs/blob/master/text/0000-fabric-gateway.md]",,bestbeforetoday,,,,,,,,,,,,,"01/Oct/20 1:00 AM;bestbeforetoday;Fabric Gateway - contributors call 2020-09-30.pptx;https://jira.hyperledger.org/secure/attachment/18822/Fabric+Gateway+-+contributors+call+2020-09-30.pptx",,,,(Please add high level design or a link to the design),Unset,Unset,Unset,ghx-label-1,,Fabric Gateway,To Do,No,,Unset,No,,,"1|i01gnv:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),bestbeforetoday,,,dependabot/bundler/docs/nokogiri-1.14.3,0.2.x,dependabot/bundler/docs/activesupport-6.0.6.1,dependabot/go_modules/bindings/go-apiv1/golang.org/x/text-0.3.8,0.1.x,main,dependabot/go_modules/golang.org/x/net-0.7.0,dependabot/go_modules/golang.org/x/text-0.3.8,dependabot/go_modules/bindings/go-apiv1/golang.org/x/net-0.7.0,dependabot/bundler/docs/commonmarker-0.23.9,dependabot/go_modules/bindings/go-apiv2/golang.org/x/net-0.7.0,release-2.2,dependabot/go_modules/bindings/go-apiv2/golang.org/x/text-0.3.8,release-2.5,release-2.4,github-settings,dependabot/go_modules/bindings/go-apiv2/golang.org/x/sys-0.1.0,dependabot/go_modules/golang.org/x/sys-0.1.0,mergify/bp/release-2.5/pr-3782,mergify/bp/release-2.4/pr-3646,dependabot/go_modules/bindings/go-apiv1/golang.org/x/sys-0.1.0,true,,,
+Scenario test and CI framework,FABGW-2,46394,,Story,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,,andrew-coleman,andrew-coleman,07/Dec/20 11:24 PM,08/Dec/20 11:30 PM,28/Oct/23 2:26 AM,08/Dec/20 11:30 PM,,0,sdk-triaged,"The first story sets up a continuous integration framework comprising the following:
+ * Cucumber 'feature' files derived from the existing 'gateway' SDKs that describe a basic end-to-end transaction submission and evaluation scenario.
+ * Basic two peer, two organisation, single orderer network for running scenario tests.
+ * Skeleton SDKs and associated Cucumber 'step' files for running scenario tests using the three supported client languages: Go, Node (Typescript/Javascript) and Java.
+ * Unit tests for all code
+ * Azure pipelines config",,andrew-coleman,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01ge9:qyzzrf6q",,,,Unset,Unset,7Dec-14Dec,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),andrew-coleman,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Standalone gateway in Docker image,FABGW-3,46395,,Story,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,,andrew-coleman,andrew-coleman,07/Dec/20 11:28 PM,08/Dec/20 11:31 PM,28/Oct/23 2:26 AM,08/Dec/20 11:31 PM,,0,sdk-triaged,"Add to CI framework the Gateway as a stand alone process:
+ * Creation of 'gateway' command line application
+ * Dockerfile to package gateway command as a Docker image
+ * Modification of test fixtures to add gateway container to the Fabric network",,andrew-coleman,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01ge9:qyzzrf6qi",,,,Unset,Unset,7Dec-14Dec,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),andrew-coleman,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Transaction submit without commit wait (use all peers for endorsement),FABGW-4,46396,,Story,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,,andrew-coleman,andrew-coleman,07/Dec/20 11:32 PM,08/Dec/20 11:31 PM,28/Oct/23 2:26 AM,08/Dec/20 11:31 PM,,0,sdk-triaged,"Implement basic SubmitTransaction function in the gateway server and all three client SDKs.
+
+Note the following restrictions for this story (will be implemented in future stories):
+ * No discovery results will be used to determine endorsing peers. All available peers will be used.
+ * No events will be used to determine when transaction commit has occurred.",,andrew-coleman,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01ge9:qyzzrf6qr",,,,Unset,Unset,7Dec-14Dec,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),andrew-coleman,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Simple transaction evaluate (not reading previously updated ledger state),FABGW-5,46397,,Story,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,bestbeforetoday,andrew-coleman,andrew-coleman,07/Dec/20 11:36 PM,12/Jan/21 10:35 PM,28/Oct/23 2:26 AM,12/Jan/21 10:35 PM,,0,sdk-triaged,"Implement basic EvaluateTransaction function in the gateway server and all three client SDKs.
+
+Note the following restrictions for this story (will be implemented in future stories):
+ * No discovery results will be used to determine peer(s) to target. Any available peer will be used.
+ * Block height will not be used to determine which peer is most likely to give the correct result (assuming a previous SubmitTransaction has updated the ledger)",,andrew-coleman,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01ge9:qyzzrf6kzzzzw",,,,Unset,Unset,11Jan to 18Jan,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),andrew-coleman,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Use discovery for endorsement,FABGW-6,46398,,Story,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,andrew-coleman,andrew-coleman,andrew-coleman,07/Dec/20 11:41 PM,15/Mar/21 7:39 PM,28/Oct/23 2:26 AM,15/Mar/21 7:39 PM,,0,sdk-triaged,"For the case of a single chaincode invocation (SubmitTransaction), use discovery to determine which endorsing peers to target.
+
+Implement appropriate caching of discovery results
+
+Enhance scenario tests to assert correct behaviour
+
+Note, no client SDK changes should be required for this story.",,andrew-coleman,lesleyannj,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01ge9:qyzzrf6kzzzzzzy",,,,Unset,Unset,8Feb to 15Feb,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),andrew-coleman,lesleyannj,,release-2.5,release-2.4,main,mergify/bp/release-2.5/pr-3782,mergify/bp/release-2.4/pr-3646,,,,,,,,,,,,,,,,,true,"04/Mar/21 10:52 PM;lesleyannj;Status update 4 Mar - PR in for concurrency work.  Continue refactoring of comms package.;;;","05/Mar/21 11:09 PM;lesleyannj;Status update 5 Mar - Concurrent PR merged. Refactoring of comms package with Fabric dev.  Work started on error handling on grpc boundaries and better returns/message when multiple endorsements fail. ;;;","09/Mar/21 9:07 PM;lesleyannj;Status update 8 Mar - PR submitted for adding details to Gateway protobuf - to allow delivery of better return message when multiple endorsements fail.;;;"
+Transaction evaluate/submit with offline signing,FABGW-7,46399,,Story,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,bestbeforetoday,andrew-coleman,andrew-coleman,07/Dec/20 11:43 PM,15/Jan/21 8:14 PM,28/Oct/23 2:26 AM,15/Jan/21 8:14 PM,,0,sdk-triaged,"Enhance client SDKs to support offline signing of transaction proposals.
+h2. TODO
+ * -Unit tests and implementation (refactor) for Java client.-
+ * -Scenario tests.-",,andrew-coleman,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01ge9:qyzzrf6kzzzzi",,,,Unset,Unset,11Jan to 18Jan,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),andrew-coleman,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Transaction submit with commit wait ,FABGW-8,46400,,Story,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,bestbeforetoday,andrew-coleman,andrew-coleman,07/Dec/20 11:46 PM,26/Mar/21 11:11 PM,28/Oct/23 2:26 AM,26/Mar/21 11:11 PM,,0,sdk-triaged,"Enhance the TransactionSubmit function to optionally wait until the transaction has been committed to the ledger.  Requires Gateway to receive events from org peers for a standalone implementation, or monitor ledger updates for the local peer for an embedded implementation.
+
+Commit failures need to be communicated back to the client with appropriate information to help diagnose the reason and cause of the failure. This should be at least the transaction status (validation code) and probably the whole transaction envelope too.
+
+TODO:
+ * -Go client basic implementation-
+ * Node client basic implementation
+ * Java client basic implementation
+ * Retry obtaining commit status on connection error – _could be deferred to async commit wait story_",,andrew-coleman,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01iz7:",,,,Unset,Unset,22Mar to 4Apr,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),andrew-coleman,,,release-2.5,release-2.4,main,mergify/bp/release-2.5/pr-3782,mergify/bp/release-2.4/pr-3646,,,,,,,,,,,,,,,,,true,,,
+Transaction evaluate following ledger update,FABGW-9,46401,,Story,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,andrew-coleman,andrew-coleman,andrew-coleman,07/Dec/20 11:50 PM,25/Mar/21 11:04 PM,28/Oct/23 2:26 AM,25/Mar/21 11:04 PM,,0,sdk-triaged,"Enhance the peer targeting logic within the Evaluate function to target the org's peer with the highest block height.  
+
+Add to scenario tests the case where a SubmitTransaction is immediately followed by a EvaluateTransaction to assert the latest change is read back.
+
+ ",,andrew-coleman,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01iyz:",,,,Unset,Unset,22Mar to 4Apr,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),andrew-coleman,,,release-2.5,release-2.4,main,mergify/bp/release-2.5/pr-3782,mergify/bp/release-2.4/pr-3646,,,,,,,,,,,,,,,,,true,,,
+Transaction submit with async commit wait,FABGW-10,46402,,Story,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,jtonline,andrew-coleman,andrew-coleman,07/Dec/20 11:53 PM,29/Apr/21 3:52 PM,28/Oct/23 2:26 AM,29/Apr/21 3:52 PM,,0,sdk-triaged,"Enhance client SDKs to support non-blocking transaction submission to allow other application logic to continue in parallel with the ordering/validation.
+
+Each client SDK will implement this using an idiom that's appropriate to the language",,andrew-coleman,lesleyannj,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01b8a:jyzzhjziu",,,,Unset,Unset,NEXT TODO ITEMS,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),andrew-coleman,lesleyannj,,,,,,,,,,,,,,,,,,,,,,,,"04/Mar/21 10:52 PM;lesleyannj;Status update - 4 Mar 21 - Continue investigation of protobufs.;;;",,
+Transaction submit without commit wait (fire-and-forget),FABGW-11,46403,,Story,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,andrew-coleman,andrew-coleman,andrew-coleman,07/Dec/20 11:55 PM,29/Apr/21 3:52 PM,28/Oct/23 2:26 AM,29/Apr/21 3:52 PM,,0,sdk-triaged,Add to each client SDK the ability to submit a transaction without the requirement for commit wait or notification,,andrew-coleman,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01b8a:jyzzhjzis",,,,Unset,Unset,NEXT TODO ITEMS,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),andrew-coleman,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TLS connection from Gateway to nodes,FABGW-12,46404,,Story,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,andrew-coleman,andrew-coleman,andrew-coleman,07/Dec/20 11:57 PM,22/Mar/21 10:56 PM,28/Oct/23 2:26 AM,22/Mar/21 10:56 PM,,0,sdk-triaged,Support for Gateway to connect to other Fabric nodes via TLS,,andrew-coleman,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01izf:",,,,Unset,Unset,22Mar to 4Apr,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),andrew-coleman,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Client connection to Gateway ,FABGW-13,46405,,Story,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,andrew-coleman,andrew-coleman,andrew-coleman,07/Dec/20 11:59 PM,23/Apr/21 12:49 AM,28/Oct/23 2:26 AM,23/Apr/21 12:49 AM,,0,sdk-triaged,"Support for mTLS between client application and the Gateway.
+
+Requires support added to client SDKs.  TLS v1.3 for all client languages.",,andrew-coleman,lesleyannj,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01b8a:jyzzhjziw",,,,Unset,Unset,NEXT TODO ITEMS,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),andrew-coleman,lesleyannj,,,,,,,,,,,,,,,,,,,,,,,,"16/Mar/21 11:46 PM;lesleyannj;With the move to Embedded Peer, this work is now around updates for docs, tutorial, sample for SDK connecting to embedded Gateway.;;;",,
+Use cucumber-java for Java scenario tests,FABGW-14,46409,,Story,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,bestbeforetoday,bestbeforetoday,bestbeforetoday,10/Dec/20 2:44 AM,20/Jan/21 6:44 PM,28/Oct/23 2:26 AM,20/Jan/21 6:44 PM,,0,sdk-triaged,"*As a* maintainer
+ *I want* to use _cucumber-java_ instead of _cucumber-java8_ for Java scenario tests
+ *So that* we are using an implementation that is not scheduled for deprecation / removal
+
+cucumber-java8 is planned for deprecation / removal: [https://github.com/cucumber/cucumber-jvm/issues/2174]",,bestbeforetoday,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01ge9:qyzzrf6kzzzzzzr",,,,Unset,Unset,18Jan to 25Jan,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),bestbeforetoday,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Implement Node scenario tests in TypeScript,FABGW-15,46410,,Story,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,bestbeforetoday,bestbeforetoday,bestbeforetoday,10/Dec/20 2:52 AM,22/Jan/21 10:31 PM,28/Oct/23 2:27 AM,22/Jan/21 10:31 PM,,0,sdk-triaged,"*As a* maintainer
+*I want* Node scenario tests to be implemented in TypeScript
+*So that* scenario testing is verifying the TypeScript as well as the JavaScript implementation
+
+Plain JavaScript implementation of the scenario test steps does not exercise the TypeScript API and exported members. It is also error-prone and is an inhibitor to rapid development progress.",,bestbeforetoday,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01ge9:qyzzrf6kzzzzzzw",,,,Unset,Unset,18Jan to 25Jan,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),bestbeforetoday,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Move from master to main as the default branch,FABGW-16,46628,,Task,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,,lesleyannj,lesleyannj,09/Mar/21 8:32 PM,26/Mar/21 6:56 PM,28/Oct/23 2:27 AM,22/Mar/21 11:04 PM,,0,,"Move from master to main as the default branch
+https://wiki.hyperledger.org/display/TSC/Projects+have+two+quarters+to+comply+with+common+repo+structure",,lesleyannj,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01itn:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),lesleyannj,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Publish Gateway SDKs and doc,FABGW-17,46656,,Story,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,jtonline,jtonline,jtonline,19/Mar/21 11:59 PM,23/Apr/21 9:45 PM,28/Oct/23 2:27 AM,23/Apr/21 9:45 PM,,0,sdk-triaged,"Publish nightly builds of Java and Node to Artifactory, and Go to fabric-gateway-go GitHub repository
+
+Publish tagged builds of Java to Artifactory, Node to npmjs, and Go to fabric-gateway-go GitHub repository
+
+Publish Java and Node API docs to GitHub pages, and Go docs to https://pkg.go.dev/github.com/hyperledger/fabric-gateway",,jtonline,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01b8a:jyzzhjzir",,,,Unset,Unset,NEXT TODO ITEMS,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),jtonline,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Intermittent test failure from TestFinder/returns_error_when_notification_supplier_falis,FABGW-18,46678,,Bug,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Low,Done,bestbeforetoday,sykesm,sykesm,26/Mar/21 4:09 AM,19/May/21 1:07 AM,28/Oct/23 2:27 AM,19/May/21 1:07 AM,,0,,"Hit a test failure locally. Can be recreated by running the test in a loop.
+
+{{go test -race -count 100 -run TestFinder/returns_error_when_notification_supplier_fails ./internal/pkg/gateway/commit}}
+
+{code:java}
+--- FAIL: TestFinder (0.00s)
+    --- FAIL: TestFinder/returns_error_when_notification_supplier_fails (0.00s)
+panic: assignment to entry in nil map [recovered]
+        panic: assignment to entry in nil mapgoroutine 109 [running]:
+testing.tRunner.func1.2(0xdb78c0, 0xf58ed0)
+        /usr/local/go/src/testing/testing.go:1144 +0x49f
+testing.tRunner.func1(0xc000336900)
+        /usr/local/go/src/testing/testing.go:1147 +0x695
+panic(0xdb78c0, 0xf58ed0)
+        /usr/local/go/src/runtime/panic.go:971 +0x499
+github.com/hyperledger/fabric/internal/pkg/gateway/commit.(*channelLevelNotifier).registerListener(0xc0003acdb0, 0xc0004846c0, 0xe8afda, 0x5, 0x0)
+        /home/sykesm/fabric/internal/pkg/gateway/commit/channelnotifier.go:109 +0x2c5
+github.com/hyperledger/fabric/internal/pkg/gateway/commit.(*Notifier).notify(0xc0003a4980, 0xc0004846c0, 0xe8cb21, 0x7, 0xe8afda, 0x5, 0x4293eb, 0x4293eb, 0xd011b0)
+        /home/sykesm/fabric/internal/pkg/gateway/commit/notifier.go:54 +0xd1
+github.com/hyperledger/fabric/internal/pkg/gateway/commit.(*Finder).TransactionStatus(0xc000285ea8, 0xf6f370, 0xc0000360e8, 0xe8cb21, 0x7, 0xe8afda, 0x5, 0x0, 0x0, 0x0)
+        /home/sykesm/fabric/internal/pkg/gateway/commit/finder.go:37 +0x125
+github.com/hyperledger/fabric/internal/pkg/gateway/commit.TestFinder.func9(0xc000336900)
+        /home/sykesm/fabric/internal/pkg/gateway/commit/finder_test.go:169 +0x3e5
+testing.tRunner(0xc000336900, 0xeb8050)
+        /usr/local/go/src/testing/testing.go:1194 +0x203
+created by testing.(*T).Run
+        /usr/local/go/src/testing/testing.go:1239 +0x5d8
+FAIL    github.com/hyperledger/fabric/internal/pkg/gateway/commit       0.239s
+ {code}",,bestbeforetoday,sykesm,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01j6z:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),bestbeforetoday,sykesm,,release-2.5,release-2.4,main,mergify/bp/release-2.5/pr-3782,mergify/bp/release-2.4/pr-3646,,,,,,,,,,,,,,,,,true,"18/May/21 10:19 PM;bestbeforetoday;I am not seeing this issue running the command above locally today. Unless this re-appears, I assume it was fixed by this commit on 24 March: [https://github.com/hyperledger/fabric/commit/576d186581cc8acb39e21ffbc56d96de9f7ec9eb]
+
+Please reopen if the issue occurs again.;;;","18/May/21 10:23 PM;bestbeforetoday;Scratch that. Running a few more times and with larger counts, I am seeing the same error:
+{noformat}
+--- FAIL: TestFinder (0.00s)
+    --- FAIL: TestFinder/returns_error_when_notification_supplier_fails (0.00s)
+panic: assignment to entry in nil map [recovered]
+	panic: assignment to entry in nil map
+
+
+goroutine 759 [running]:
+testing.tRunner.func1.2(0x49de6a0, 0x4b80330)
+	/usr/local/go/src/testing/testing.go:1143 +0x49f
+testing.tRunner.func1(0xc0004b7080)
+	/usr/local/go/src/testing/testing.go:1146 +0x695
+panic(0x49de6a0, 0x4b80330)
+	/usr/local/go/src/runtime/panic.go:971 +0x499
+github.com/hyperledger/fabric/internal/pkg/gateway/commit.(*channelLevelNotifier).registerListener(0xc0003e6000, 0xc0001913e0, 0x4ab1de2, 0x5, 0x0)
+	/Users/mark/src/fabric/internal/pkg/gateway/commit/channelnotifier.go:109 +0x2c5
+github.com/hyperledger/fabric/internal/pkg/gateway/commit.(*Notifier).notify(0xc000044100, 0xc0001913e0, 0x4ab38f6, 0x7, 0x4ab1de2, 0x5, 0x40117cb, 0x40117cb, 0x4909860)
+	/Users/mark/src/fabric/internal/pkg/gateway/commit/notifier.go:54 +0xd1
+github.com/hyperledger/fabric/internal/pkg/gateway/commit.(*Finder).TransactionStatus(0xc000421ea8, 0x4b96a70, 0xc0001a4008, 0x4ab38f6, 0x7, 0x4ab1de2, 0x5, 0x100000000, 0x0, 0x0)
+	/Users/mark/src/fabric/internal/pkg/gateway/commit/finder.go:37 +0x125
+github.com/hyperledger/fabric/internal/pkg/gateway/commit.TestFinder.func9(0xc0004b7080)
+	/Users/mark/src/fabric/internal/pkg/gateway/commit/finder_test.go:169 +0x3e5
+testing.tRunner(0xc0004b7080, 0x4adea10)
+	/usr/local/go/src/testing/testing.go:1193 +0x203
+created by testing.(*T).Run
+	/usr/local/go/src/testing/testing.go:1238 +0x5d8{noformat}
+ ;;;",
+Secure CommitStatus gRPC service,FABGW-19,46802,,Story,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,bestbeforetoday,bestbeforetoday,bestbeforetoday,21/Apr/21 10:10 PM,20/May/21 6:26 PM,28/Oct/23 2:27 AM,18/May/21 10:11 PM,,0,,"The {{CommitStatusRequest}} currently does not contain any client identity information and can be invoked by any client. The request message should follow a similar pattern to the {{SignedSnapshotRequest}} and include the client identity within the embedded signed request. For example:
+
+{code}
+service Gateway {
+    rpc CommitStatus(SignedCommitStatusRequest) returns (CommitStatusResponse);
+}
+message SignedCommitStatusRequest {
+    bytes request = 1;
+    bytes signature = 2;
+}
+message CommitStatusRequest {
+    // Identifier of the transaction to check.
+    string transaction_id = 1;
+    // Identifier of the channel this request is bound for.
+    string channel_id = 2;
+    // Client requestor identity
+    bytes identity = 3;
+}
+{code}
+
+The CommitStatus service implementation should verify the signature and ensure that the identity contained in the signature header has permission to access the channel.",,bestbeforetoday,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01b8a:jyzzhjziv",,,,Unset,Unset,NEXT TODO ITEMS,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),bestbeforetoday,,,dependabot/bundler/docs/nokogiri-1.14.3,0.2.x,dependabot/bundler/docs/activesupport-6.0.6.1,dependabot/go_modules/bindings/go-apiv1/golang.org/x/text-0.3.8,0.1.x,main,dependabot/go_modules/golang.org/x/net-0.7.0,dependabot/go_modules/golang.org/x/text-0.3.8,dependabot/go_modules/bindings/go-apiv1/golang.org/x/net-0.7.0,dependabot/bundler/docs/commonmarker-0.23.9,dependabot/go_modules/bindings/go-apiv2/golang.org/x/net-0.7.0,release-2.2,dependabot/go_modules/bindings/go-apiv2/golang.org/x/text-0.3.8,release-2.5,release-2.4,github-settings,dependabot/go_modules/bindings/go-apiv2/golang.org/x/sys-0.1.0,dependabot/go_modules/golang.org/x/sys-0.1.0,mergify/bp/release-2.5/pr-3782,mergify/bp/release-2.4/pr-3646,dependabot/go_modules/bindings/go-apiv1/golang.org/x/sys-0.1.0,true,,,
+Specify endorsing organizations for private data scenarios,FABGW-20,46843,,Story,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,andrew-coleman,andrew-coleman,andrew-coleman,05/May/21 7:16 PM,29/Jun/21 3:51 PM,28/Oct/23 2:27 AM,29/Jun/21 3:51 PM,,0,,"The transaction flow with private data involves sharing the data in the transient field with peers that belong to organisations that are trusted recipients of that data.  From a client SDK perspective, the transaction must be submitted with both the transient data AND the list of orgs that are entitled to receive that data.  Service discovery does not find that list of trusted orgs, it must be provided by the client app.  It must be assumed that the list of orgs given by the client satisfies the endorsement policy of the transaction.  If it doesn't, the process should fail to endorse.  The alternative approach of utilising service discovery to add extra orgs in order to satisfy the endorsement policy could cause a security breach if the org it chooses is not trusted to receive the private data.
+  
+ Each SDK currently has the ability to pass transient data with the transaction proposal.  To make the usage pattern clearer to end users, it is proposed to remove the WithTransient(data map[string][]byte) method (or equivalent for Node & Java) and replace with WithPrivateData(data map[string][]byte, orgs ...string).  This makes it clearer that the data is shared with those orgs rather than having separate functional arguments to specify the data and then the orgs.
+  
+ *E.g. Go SDK*
+  
+
+{code:go}
+ data := make(map[string][]byte)
+ data[""price""] = []byte(""8500"")
+ contract.Submit(
+   ""BuyCar"", 
+   WithStringArguments(""CAR1""), 
+   WithPrivateData(data, ""BuyingOrg"", ""SellingOrg""),
+)
+{code}
+  
+ *E.g. Node SDK*
+  
+{code:javascript}
+contract.submit('BuyCar', {
+   arguments: ['CAR1'],
+   privateData: { 
+      data: { price: '8500' },
+      orgs: ['BuyingOrg', 'SellingOrg']   
+   }
+});
+{code}
+
+  
+ *E.g. Java SDK*
+  
+
+{code:java}
+ Map<String, byte[]> data = new HashMap<String, byte[]>();
+ data.put(""price"", ""8500"".getBytes());
+ contract.newProposal(""BuyCar"") 
+   .addArguments(""CAR1"")
+    .setPrivateData(data, ""BuyingOrg"", ""SellingOrg"")
+    .build()
+    .endorse()
+    .submit();
+{code}
+
+ 
+  
+ *gRPC extension*
+  
+ message EndorseRequest
+
+
+{code:}
+{
+     // The unique identifier for the transaction.
+     string transaction_id = 1;
+     // Identifier of the channel this request is bound for.
+     string channel_id = 2;
+     // The signed proposal ready for endorsement.
+     protos.SignedProposal proposed_transaction = 3;
+     // If targeting the peers of specific organizations (e.g. for private data scenarios),
+     // the list of organizations should be supplied here.
+     repeated string private_data_organizations = 4;
+}
+{code}
+
+ 
+ *Gateway server logic*
+  
+ The SDK creates the SignedProposal protobuf message which contains the transient data.  This get wrapped in an EndorseRequest/EvaluateRequest message which contains the private_data_organizations field.
+  
+ *Endorse() method*
+ In the gateway server, if the EndorseRequest message contains private_data_organizations, then the set of endorsing peers is calculated by invoking the discovery PeersOfChannel method, filtering by allowable orgs and installed chaincode, then select one peer from each org (preferably the one with maximum block height).  Invoke propose on each of these peers and build a proposal response ready for signing and submitting.  Note that no checks have been made at this stage that it satisfies the endorsement policy.
+  
+ *Evaluate() method*
+ Similar to Endorse(), but if the local org is contained in the private_data_organizations field of the EvaluateRequest message, then the highest block height peer from local org is selected; otherwise the highest block height peer from any of the other specified orgs is selected.  Only a single endorser is required to process the proposal (query).
+  
+  ",,andrew-coleman,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01jn7:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),andrew-coleman,,,dependabot/bundler/docs/nokogiri-1.14.3,0.2.x,dependabot/bundler/docs/activesupport-6.0.6.1,dependabot/go_modules/bindings/go-apiv1/golang.org/x/text-0.3.8,0.1.x,main,dependabot/go_modules/golang.org/x/net-0.7.0,dependabot/go_modules/golang.org/x/text-0.3.8,dependabot/go_modules/bindings/go-apiv1/golang.org/x/net-0.7.0,dependabot/bundler/docs/commonmarker-0.23.9,dependabot/go_modules/bindings/go-apiv2/golang.org/x/net-0.7.0,release-2.2,dependabot/go_modules/bindings/go-apiv2/golang.org/x/text-0.3.8,release-2.5,release-2.4,github-settings,dependabot/go_modules/bindings/go-apiv2/golang.org/x/sys-0.1.0,dependabot/go_modules/golang.org/x/sys-0.1.0,mergify/bp/release-2.5/pr-3782,mergify/bp/release-2.4/pr-3646,dependabot/go_modules/bindings/go-apiv1/golang.org/x/sys-0.1.0,true,,,
+Chaincode event listening,FABGW-21,46868,,Story,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,bestbeforetoday,bestbeforetoday,bestbeforetoday,19/May/21 1:33 AM,22/Sep/21 2:39 AM,28/Oct/23 2:27 AM,22/Sep/21 2:39 AM,,0,,"*As an* application developer
+*I want* to receive chaincode events
+*So that* I can trigger business processes in response to committed transactions
+
+Proposed API design is to add an {{AddChaincodeListener}} (and corresponding {{RemoveChaincodeListener}})method to the {{Network}}. This will have similar behaviour to the {{addContractListener}} methods exposed on the {{Contract}} in the existing Fabric programming model. The reason for providing this method on the Network rather than the Contract is that the events received are specific to a chaincode, and may be emitted by any of the contracts deployed within that chaincode.
+
+Proposed implementation is the add a {{ChaincodeEvents}} gRPC service endpoint to Fabric Gateway. The request message may include the Envelope currently used as the request message for the {{Deliver}} service to enable a standalone Fabric Gateway implementation to extract chaincode events from block events using the {{Deliver}} service to handle authentication and authorization of the client identity. However, the embedded Fabric Gateway implementation will obtain chaincode events for committed transactions directly from the ledger.  The response will be a stream of messages including a block number and {{ChaincodeEvent}} protobuf message.
+
+This story explicitly deals only with realtime event listening, so starting with the current block at the point where the listener is connected.",,bestbeforetoday,davidkhala,,,,,,,,,,FABGW-22,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01js3:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),bestbeforetoday,davidkhala,,dependabot/bundler/docs/nokogiri-1.14.3,0.2.x,dependabot/bundler/docs/activesupport-6.0.6.1,dependabot/go_modules/bindings/go-apiv1/golang.org/x/text-0.3.8,0.1.x,main,dependabot/go_modules/golang.org/x/net-0.7.0,dependabot/go_modules/golang.org/x/text-0.3.8,dependabot/go_modules/bindings/go-apiv1/golang.org/x/net-0.7.0,dependabot/bundler/docs/commonmarker-0.23.9,dependabot/go_modules/bindings/go-apiv2/golang.org/x/net-0.7.0,release-2.2,dependabot/go_modules/bindings/go-apiv2/golang.org/x/text-0.3.8,release-2.5,release-2.4,github-settings,dependabot/go_modules/bindings/go-apiv2/golang.org/x/sys-0.1.0,dependabot/go_modules/golang.org/x/sys-0.1.0,mergify/bp/release-2.5/pr-3782,mergify/bp/release-2.4/pr-3646,dependabot/go_modules/bindings/go-apiv1/golang.org/x/sys-0.1.0,true,"28/Jul/21 9:36 PM;davidkhala;Dear Mark, 
+
+For gateway, is it limited to ChaincodeListener? Do we also count tx listener or block listener in?
+;;;","29/Jul/21 6:01 PM;bestbeforetoday;Hi [~davidkhala],
+
+This story is certainly only dealing with chaincode event listening, and the implementation that has been added today I would definitely view as beta, so feedback from the community on how the API currently looks and how it should evolve would be very welcome. Two things I have particularly been trying to consider are:
+
+1. Offloading work in retrieving the required events to the Fabric Gateway server, and having only those events returned rather than the client always having to receive and process entire block events.
+ 2. Giving the client more control of the rate they receive (and if/how they parallelise) events, to avoid issues that can occur with some of the existing SDKs where it is possible for the client to be overwhelmed by the volume of events received, using excessive memory and/or filling buffers and potentially causing client crashes.
+
+Right now the API looks like:
+{code:go}
+// ChaincodeEvents returns a channel from which chaincode events emitted by transaction functions in the specified
+// chaincode can be read.
+func (network *Network) ChaincodeEvents(ctx context.Context, chaincodeID string) (<-chan *ChaincodeEvent, error)
+{code}
+{code:javascript}
+/**
+ * Get chaincode events emitted by transaction functions of a specific chaincode.
+ * @param chaincodeId - A chaincode ID.
+ * @param callback - Event callback function.
+ */
+onChaincodeEvent(chaincodeId: string, callback: ChaincodeEventCallback): Promise<void>;
+
+/**
+ * Get chaincode events emitted by transaction functions of a specific chaincode.
+ * @param chaincodeId - A chaincode ID.
+ * @returns Chaincode events.
+ * @example
+ * ```
+ * const events = await network.getChaincodeEvents(chaincodeId);
+ * for async (const event of events) {
+ *     // Process event
+ * }
+ * ```
+ */
+getChaincodeEvents(chaincodeId: string): Promise<AsyncIterable<ChaincodeEvent>>
+{code}
+{code:java}
+/**
+ * Get events emitted by transaction functions of a specific chaincode. Note that the returned {@link Iterator} may
+ * throw {@link io.grpc.StatusRuntimeException} during iteration if a gRPC connection error occurs.
+ * @param chaincodeId A chaincode ID.
+ * @return Ordered sequence of events.
+ */
+Iterator<ChaincodeEvent> getChaincodeEvents(String chaincodeId);
+{code}
+There has been a requirement mentioned to support listening for all transaction commits directly, without the overhead of having to receive full block events, so I expect this will appear at some point once chaincode event listening is more complete.
+
+There is certainly no technical reason why we couldn’t also implement block listening. I am just trying to get to capabilities that support application business logic first, like chaincode event listening, whereas block listening typically seems to have more technical uses or just supports capabilities like chaincode event listening which we are now providing directly.
+
+It would be good to understand key use cases you see for block listening outside of supporting transaction and chaincode event listening.;;;",
+Chaincode event replay,FABGW-22,46869,,Story,To Do,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,,,bestbeforetoday,bestbeforetoday,19/May/21 2:24 AM,19/May/21 2:25 AM,28/Oct/23 2:27 AM,,,0,,"*As an* application developer
+*I want* to replay chaincode events from a specific block number
+*So that* I can resume event listening without missing any events
+
+Extend chaincode event listening to allow a start block to be specified.",,bestbeforetoday,,,,,,,,,,FABGW-21,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01jsb:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),bestbeforetoday,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Implement scenario tests for private data and state-based endorsement,FABGW-24,46969,46843,Sub-task,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,andrew-coleman,andrew-coleman,andrew-coleman,22/Jun/21 10:48 PM,24/Jun/21 7:00 PM,28/Oct/23 2:27 AM,24/Jun/21 7:00 PM,,0,,"Add cucumber feature files to the gateway SDKs scenario tests to test the following:
+ * Targeting specific orgs for sending private (transient) data
+ * Setting endorsing orgs for SBE",,andrew-coleman,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01kdf:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),andrew-coleman,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Submit private data - gateway derives endorsing orgs from collection config & SBE policies,FABGW-25,46983,,Story,Done,FABGW,Fabric Gateway,software,andrew-coleman,,,Medium,Done,andrew-coleman,andrew-coleman,andrew-coleman,24/Jun/21 6:59 PM,28/Jul/21 9:16 PM,28/Oct/23 2:27 AM,28/Jul/21 12:53 AM,,0,,"This story decouples the need for a client application to need to know up front which private collections are accessed by a particular chaincode invocation.
+
+Currently, when a client application sends private data (in the transient field), it must specify the endorsing orgs in order to ensure that this data is not sent to non-authorised orgs.
+
+This story will implement a mechanism whereby the transaction proposal is endorsed by gateway's org first, then the resulting RWset is traversed to determine which (if any) collections are touched by the transaction.  This information is then passed to dicovery in the ChaincodeInterest to get the list of required endorsers.  The remaining endorsers are then invoked to form the endorsement.",,andrew-coleman,,,,,,,,,,,,FAB-18527,"21/Jul/21 7:51 PM;andrew-coleman;fabric-gateway-collections-sbe-2021-07-21.pdf;https://jira.hyperledger.org/secure/attachment/19031/fabric-gateway-collections-sbe-2021-07-21.pdf",,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,FABGW-1,,,No,,Unset,No,,,"1|i01kgb:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),andrew-coleman,,,dependabot/bundler/docs/nokogiri-1.14.3,0.2.x,dependabot/bundler/docs/activesupport-6.0.6.1,dependabot/go_modules/bindings/go-apiv1/golang.org/x/text-0.3.8,0.1.x,main,dependabot/go_modules/golang.org/x/net-0.7.0,dependabot/go_modules/golang.org/x/text-0.3.8,dependabot/go_modules/bindings/go-apiv1/golang.org/x/net-0.7.0,dependabot/bundler/docs/commonmarker-0.23.9,dependabot/go_modules/bindings/go-apiv2/golang.org/x/net-0.7.0,release-2.2,dependabot/go_modules/bindings/go-apiv2/golang.org/x/text-0.3.8,release-2.5,release-2.4,github-settings,dependabot/go_modules/bindings/go-apiv2/golang.org/x/sys-0.1.0,dependabot/go_modules/golang.org/x/sys-0.1.0,mergify/bp/release-2.5/pr-3782,mergify/bp/release-2.4/pr-3646,dependabot/go_modules/bindings/go-apiv1/golang.org/x/sys-0.1.0,true,,,

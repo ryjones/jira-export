@@ -1,0 +1,609 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Due Date,Votes,Labels,Labels,Description,Environment,Watchers,Watchers,Watchers,Watchers,Log Work,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Outward issue link (Blocks),Attachment,Custom field (Business Value),Custom field (Commit Levels),Custom field (Current Status),Custom field (Design),Custom field (Design Status),Custom field (Documentation Impact),Custom field (Documentation Status),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Executed),Custom field (Found in Commit),Custom field (Function Test Status),Custom field (Must Fix),Custom field (Original story points),Custom field (Parent Link),Custom field (Rank),Custom field (Release Note),Custom field (Release Note Required),Custom field (Root Cause Analysis),Custom field (SDK Impact),Custom field (Sample/Tutorial),Custom field (Steps to Reproduce),Custom field (Story Points),Custom field (System Test Impact),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Test Plan),Custom field (Test Result),Custom field (Test Result Details),Custom field (Test Type),Custom field (Triaged),Custom field (Usage),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Workaround),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitCommitsReferenced),Comment,Comment,Comment,Comment,Comment,Comment,Comment
+"As a Fabric maintainer, I want gofmt to be checked by the fabric-chaincode-go CI jobs.",FABCG-2,43033,Epic,Closed,FABCG,Fabric Chaincode Go,software,sykesm,,,Medium,Done,sykesm,jyellick,jyellick,30/Oct/19 12:55 AM,01/Dec/19 4:16 AM,28/Oct/23 2:24 AM,09/Nov/19 5:57 AM,,0,ipm,,"The CI for fabric-chaincode-go currently only does vet and test, no gofmt.  Rather than requiring reviewers to catch deviations from the gofmt manually, having CI do it would be a better option.
+
+{{gofmt}}  and {{goimports}}; If either would result in a change, the build should fail.
+
+Installing {{goimports}} should make use of the {{tools.go}} pattern to ensure we're installing a known version; Alternatively, use a docker image that has the correct versions of the tools pre-populated. In this case, the Dockerfile required to build the container should be placed in the {{ci}} folder, the image pushed with an appropriately versioned tag, and the pipeline definition updated to point to the build container.  (This is a lot like what's done in fabric-protos for build.)",,jyellick,sykesm,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,Cloud Native,,No,,Unset,No,,,"1|i00n2e:8rvw",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),jyellick,sykesm,,,,release-2.3,release-2.2,dependabot/go_modules/github.com/golang/protobuf-1.5.3,main,dependabot/go_modules/google.golang.org/grpc-1.54.0,,true,"09/Nov/19 5:21 AM;sykesm;https://github.com/hyperledger/fabric-chaincode-go/pull/11/;;;",,,,,,
+create chaincode server (no TLS),FABCG-3,42474,Epic,In Progress,FABCG,Fabric Chaincode Go,software,sykesm,,,Medium,,muralisr,muralisr,muralisr,24/Sep/19 11:50 PM,05/Dec/19 3:07 AM,28/Oct/23 2:24 AM,,,0,,,"Create chancode server and hook it up to shim. On connection establishment, the chaincode server will go through the same handshake process with the peer.",,Matrixik,muralisr,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,Cloud Native,,No,,Unset,No,,,"1|i010qj:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),Matrixik,muralisr,,,,release-2.3,release-2.2,dependabot/go_modules/github.com/golang/protobuf-1.5.3,main,dependabot/go_modules/google.golang.org/grpc-1.54.0,,true,,,,,,,
+prepare shim to be a chaincode server,FABCG-4,42445,Epic,In Progress,FABCG,Fabric Chaincode Go,software,sykesm,,,Medium,,muralisr,muralisr,muralisr,21/Sep/19 1:14 AM,05/Dec/19 3:07 AM,28/Oct/23 2:24 AM,,,0,,,The only difference from gRPC point-of-view between the chaincode-as-client (original) and chaincode-as-server model is the passed in stream does not implement CloseSend for the latter. We adjust the interfaces to accommodate both models.,,muralisr,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,Cloud Native,,No,,Unset,No,,,"1|i010l7:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),muralisr,,,,,release-2.3,release-2.2,dependabot/go_modules/github.com/golang/protobuf-1.5.3,main,dependabot/go_modules/google.golang.org/grpc-1.54.0,,true,,,,,,,
+add TLS support to shim,FABCG-5,42475,Epic,In Progress,FABCG,Fabric Chaincode Go,software,sykesm,,,Medium,,muralisr,muralisr,muralisr,24/Sep/19 11:51 PM,05/Dec/19 3:07 AM,28/Oct/23 2:24 AM,,,0,,,,,muralisr,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,Cloud Native,,No,,Unset,No,,,"1|i010qr:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),muralisr,,,,,release-2.3,release-2.2,dependabot/go_modules/github.com/golang/protobuf-1.5.3,main,dependabot/go_modules/google.golang.org/grpc-1.54.0,,true,"03/Dec/19 12:41 PM;muralisr;This is now done in github https://jira.hyperledger.org/browse/FABCG-5;;;",,,,,,
+pick up latest protos with chaincode server,FABCG-6,42442,Epic,In Progress,FABCG,Fabric Chaincode Go,software,sykesm,,,Medium,,muralisr,muralisr,muralisr,21/Sep/19 12:09 AM,05/Dec/19 3:07 AM,28/Oct/23 2:24 AM,,,0,,,Go chaincode shim would need latest protos to implement the *Chaincode* service interface.,,muralisr,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,Cloud Native,,No,,Unset,No,,,"1|i010kj:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),muralisr,,,,,release-2.3,release-2.2,dependabot/go_modules/github.com/golang/protobuf-1.5.3,main,dependabot/go_modules/google.golang.org/grpc-1.54.0,,true,,,,,,,
+"Addition of  a new key-value pair using gofuzz in byfn tutorial resulting in error, but addition of a key-value pair without gofuzz is running fine  ",FABCG-7,43355,Epic,Backlog,FABCG,Fabric Chaincode Go,software,sykesm,,,High,,,oclewx,oclewx,16/Nov/19 8:29 PM,06/Dec/19 12:19 AM,28/Oct/23 2:24 AM,,,0,chaincode,Documentation,"When running byfn tutorial with modified chaincode_example02.go which is attached,
+
+an Error is occurring  in the section "" Invoke transaction  on peer0.org1 peer0.org2 on channel 'mychannel'""
+
+ 
+
+ 
+
+Error: could not assemble transaction: ProposalResponsePayloads do not match - proposal response: version:1 response:<status:200 > payload:""\n ,\322\203 \234\314\366\271\n\266X\321\272A\025\271N\224\337F&\255\211<\243\257\365\342\235\017\177\234\022s\n_\022\024\n\004lscc\022\014\n\n\n\004mycc\022\002\010\003\022G\n\004mycc\022?\n\007\n\001a\022\002\010\003\n\007\n\001b\022\002\010\003\032\007\n\001a\032\00290\032\010\n\001b\032\003210\032\030\n\001c\032\0232111819089287189408\032\003\010\310\001\""\013\022\004mycc\032\0031.0"" endorsement:<endorser:""\n\007Org1MSP\022\252\006-----BEGIN CERTIFICATE-----\nMIICKTCCAc+gAwIBAgIRANShFtrpCnxc6GkD0vLlME0wCgYIKoZIzj0EAwIwczEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xGTAXBgNVBAoTEG9yZzEuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh\nLm9yZzEuZXhhbXBsZS5jb20wHhcNMTkxMTE2MTEwMTAwWhcNMjkxMTEzMTEwMTAw\nWjBqMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN\nU2FuIEZyYW5jaXNjbzENMAsGA1UECxMEcGVlcjEfMB0GA1UEAxMWcGVlcjAub3Jn\nMS5leGFtcGxlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPnTTx43RxJ4\njaSBnxzylMsaiw0+QcKthyB4CHuuzV51u8PLZBKYRTJRxw7bEaDFcLjtAkhxt/K2\nE9BtLvHaRY6jTTBLMA4GA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMCsGA1Ud\nIwQkMCKAIAEOMuMC+fNacPCI8dc4XEaeBoutl+a2pfI6XVzU6PtmMAoGCCqGSM49\nBAMCA0gAMEUCIQDgnDB/hoFNbSM3oc8n9Qa3q91oExHCTwdNNIdJBu+B3QIgN+sX\nFBFh8m4NCfH/+O+F70kuLCgdRBUA3VRZOXcrqXQ=\n-----END CERTIFICATE-----\n"" signature:""0D\002 \014\0109\302\237\222&\366o\211H\314\362Df0\250\266\325C\341\324\021\246\337@\004\240\242\331\302\370\002 0\253\360\032\301]\243\216\371\276\024g\026l\374\323\223\231\204.\262\352i\215\032\311m\363Y\010\327\255"" >
+
+ 
+
+This error is occurring when we try to add a new key value pair with the help of gofuzz which is a fuzzer by google.
+
+the new key value pair is added in init function successfully, but when the same thing  is tried in invoke section for transaction this error is occuring.
+
+ ",,oclewx,yacovm,,,,,,,,,,,,,"16/Nov/19 8:29 PM;oclewx;chaincode_example02.go;https://jira.hyperledger.org/secure/attachment/17937/chaincode_example02.go",,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,Cloud Native,,No,,Unset,No,,,"1|i014tf:",,,,Unset,Unset,"1. replace file chaincode_example02.go with the attached file.
+2. start the network using    #: ./byfn.sh up
+3. when docker container of cli starts then enter into that container using below command in new terminal
+#: docker exec -it cli bash
+
+4. before tutorial reach to invoke section of transaction add module
+github.com/google/gofuzz into the cli container (which is opened in new terminal) 
+using following command :
+ #: go get github.com/google/gofuzz
+
+5. Now error can be seen as mentioned above",,Unset,,,,,,Unset,,Unset,,(Please add usage information),oclewx,yacovm,,,,,,,,,,,"16/Nov/19 10:21 PM;yacovm;Fuzzing uses random sampling no? You can't have randomized computation in chaincode with an endorsement policy that has more than a single peer. ;;;","06/Dec/19 12:19 AM;oclewx;but why it is working in init phase , i've used the same fuzzing logic in both init and invoke function?;;;",,,,,
+Further fix for Fabric chaincode go cid interface enhancement,FABCG-8,43039,Epic,Backlog,FABCG,Fabric Chaincode Go,software,sykesm,,,Medium,,,SamYuan1990,SamYuan1990,30/Oct/19 3:03 PM,01/Dec/19 4:16 AM,28/Oct/23 2:24 AM,,,0,,,"Pre discussed in https://github.com/hyperledger/fabric-chaincode-go/pull/9
+
+Currently the GetID() interface just handle x509 type MSP.
+Making a one one mapping for identity and ID string.
+
+We need it become this:
+func (c *clientIdentityImpl) GetID() (string, error)
+should return ClientIDUnresolvableError as a general fail case, and handle msp type for both x509 and idemix, making a one one mapping for identity and ID string.
+
+// ClientIDUnresolvableError indicates that the identity provider cannot map the
+// client's identity to a stable ID.  This error is returned by membership service providers
+// such as IdentityMixer which provide unlinkability across invocations.
+var ClientIDUnresolvableError = errors.New(""generating a ClientID is not supported by this identity's membership service provider"")",,SamYuan1990,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,Cloud Native,,No,,Unset,No,,,"1|i0135f:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),SamYuan1990,,,,,,,,,,,,,,,,,,
+Null pointer issues in examples,FABCG-9,43371,Epic,Backlog,FABCG,Fabric Chaincode Go,software,sykesm,,,Medium,,,guardstrike,ryjones,19/Nov/19 2:47 AM,05/Dec/19 4:33 AM,28/Oct/23 2:24 AM,,,0,,,"https://hackerone.com/reports/738781
+https://hackerone.com/reports/738797
+https://hackerone.com/reports/738792
+https://hackerone.com/reports/738784",,denyeart,guardstrike,jyellick,ryjones,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,Cloud Native,,No,,Unset,No,,,"1|i014wb:",,,,Unset,Unset,"https://hackerone.com/reports/738781
+https://hackerone.com/reports/738797
+https://hackerone.com/reports/738792
+https://hackerone.com/reports/738784
+
+
+    using the chaincode in https://github.com/hyperledger/fabric/tree/release-1.4/examples/chaincode/go/example04
+
+    add below testcases to chaincode_test.go
+
+    func TestExample04_Bug1(t *testing.T) {
+    scc := new(SimpleChaincode)
+    stub := shim.NewMockStub(""ex04"", scc)
+    stub.MockInit(""1"", [][]byte{[]byte(""init""), []byte(""a""), []byte(""1"")})
+        //{""Args"":[""query"",""a"","""","""",""""]}
+    stub.MockInvoke(""1"", [][]byte{[]byte(""query""), []byte(""a""), []byte(""""), []byte(""""), []byte("""")})
+    }
+    func TestExample04_Bug2(t *testing.T) {
+    scc := new(SimpleChaincode)
+    stub := shim.NewMockStub(""ex04"", scc)
+    stub.MockInit(""1"", [][]byte{[]byte(""init""), []byte(""a""), []byte(""1"")})
+       //{""Args"":[""invoke"","""","""",""1""]}
+    stub.MockInvoke(""1"", [][]byte{[]byte(""invoke""), []byte(""""), []byte(""""), []byte(""1"")})
+    }
+
+    run go test in example04
+
+    go test
+
+    runtime error occurs
+
+--- FAIL: TestExample04_Bug1 (0.00s)
+panic: runtime error: invalid memory address or nil pointer dereference [recovered]
+    panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x30 pc=0xccea22]
+
+goroutine 7 [running]:
+testing.tRunner.func1(0xc000130700)
+    /usr/lib/go/src/testing/testing.go:830 +0x392
+panic(0xd9bac0, 0x141cc40)
+    /usr/lib/go/src/runtime/panic.go:522 +0x1b5
+github.com/hyperledger/fabric/core/chaincode/shim.(*MockStub).InvokeChaincode(0xc00014ac80, 0x0, 0x0, 0xc0001a8780, 0x2, 0x2, 0x0, 0x0, 0x0, 0x0, ...)
+    /home/go/src/github.com/hyperledger/fabric/core/chaincode/shim/mockstub.go:351 +0xf2
+github.com/hyperledger/fabric/examples/chaincode/go/example04.(*SimpleChaincode).query(0x1486388, 0xf5cd60, 0xc00014ac80, 0xc0000d9d20, 0x4, 0x4, 0x0, 0x0, 0x0, 0x0, ...)
+    /home/go/src/github.com/hyperledger/fabric/examples/chaincode/go/example04/chaincode.go:131 +0x204
+github.com/hyperledger/fabric/examples/chaincode/go/example04.(*SimpleChaincode).Invoke(0x1486388, 0xf5cd60, 0xc00014ac80, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+    /home/go/src/github.com/hyperledger/fabric/examples/chaincode/go/example04/chaincode.go:152 +0x14a
+github.com/hyperledger/fabric/core/chaincode/shim.(*MockStub).MockInvoke(0xc00014ac80, 0xe61587, 0x1, 0xc000100100, 0x5, 0x5, 0x0, 0x0, 0x0, 0x0, ...)
+    /home/go/src/github.com/hyperledger/fabric/core/chaincode/shim/mockstub.go:139 +0x136
+github.com/hyperledger/fabric/examples/chaincode/go/example04.TestExample04_Bug1(0xc000130700)
+    /home/go/src/github.com/hyperledger/fabric/examples/chaincode/go/example04/chaincode_test.go:114 +0x341
+testing.tRunner(0xc000130700, 0xe8cf78)
+    /usr/lib/go/src/testing/testing.go:865 +0xc0
+created by testing.(*T).Run
+    /usr/lib/go/src/testing/testing.go:916 +0x35a
+exit status 2
+FAIL    github.com/hyperledger/fabric/examples/chaincode/go/example04   0.038s
+
+Impact
+
+The chaincode of examples04 is not robust enough, as a chaincode reference for fabric, the example may lead to potential program security risks for new users.
+",,Unset,,,,,,Unset,,Unset,,(Please add usage information),denyeart,guardstrike,jyellick,ryjones,,,,,,,,,"21/Nov/19 4:26 AM;jyellick;This is not a security issue.  It's actually a bug in the MockStub implementation.  You can see here: https://github.com/hyperledger/fabric/blob/2c3282e99bb9e9bf6b65be596c32353feae5c9dc/core/chaincode/shim/mockstub.go#L350
+
+Basically, the mockstub is looking up the chaincode to route to in a map, and not verifying that it actually resolved one.  Since this code is mock, testing code, and is never used in production, this strikes me as a regular bug, not a security issue.
+
+That being said, this chaincode is really a pretty bad example, and could use some attention or removal.  It's bad practice to allow the user to supply the target chaincode to route to, instead, the chaincode should have an explicit whitelist or similar.  Removing the security tag and adding it to the overall backlog.;;;","21/Nov/19 4:53 AM;wlahti;FYI: this chaincode (and all other chaincodes that used to live in the ""examples"" folder) have been removed from fabric master. Also, the shim and this mockstub have moved to the fabric-chaincode-go repo: [https://github.com/hyperledger/fabric-chaincode-go/blob/master/shimtest/mockstub.go.|https://github.com/hyperledger/fabric-chaincode-go/blob/master/shimtest/mockstub.go] Jason's comment above about the mockstub applies there.
+
+ ;;;","21/Nov/19 5:53 AM;ryjones;These issues were reported by @guardstrike on H1. Once they log in to Jira I will set them as the reporter;;;","22/Nov/19 1:05 AM;ryjones;[~guardstrike] there may still be a payout for these issues. We need [~dhuseby] to weigh in. Security issues in samples are explicitly in-bounds.;;;","22/Nov/19 1:38 AM;denyeart;[~ryjones] It's not a security issue in a sample. It is a bug in a utility that people can use to unit test a chaincode, it has nothing to do with a production runtime environment.;;;","02/Dec/19 1:18 PM;guardstrike;[~ryjones], Thanks all of your details explanations. We use mockstub to test those chaincodes lived in ""examples"", and found part of issues are from the mockstub code bug, and some others are from chaincodes. 
+
+Consider a pieces of chaincodes in [https://github.com/hyperledger/fabric/blob/release-1.4/examples/chaincode/go/map/map.go]:
+{code}
+func (t *SimpleChaincode) queryPrivate(stub shim.ChaincodeStubInterface, args []string) pb.Response {
+	collection := args[0]
+	query := args[1]
+	keysIter, err := stub.GetPrivateDataQueryResult(collection, query)
+	if err != nil {
+		return shim.Error(fmt.Sprintf(""query operation on private data failed. Error accessing state: %s"", err))
+	}
+	defer keysIter.Close()
+
+	var keys []string
+	for keysIter.HasNext() {
+		response, iterErr := keysIter.Next()
+		if iterErr != nil {
+			return shim.Error(fmt.Sprintf(""query operation on private data failed. Error accessing state: %s"", err))
+		}
+		keys = append(keys, response.Key)
+	}
+
+	jsonKeys, err := json.Marshal(keys)
+	if err != nil {
+		return shim.Error(fmt.Sprintf(""query operation on private data failed. Error marshaling JSON: %s"", err))
+	}
+
+	return shim.Success(jsonKeys)
+}
+{code}
+There is no args length check while using args[0], this will lead to ""runtime error: index out of range"" issue . The test code is:
+{code}
+package main
+import (
+        ""testing""
+        ""github.com/hyperledger/fabric/core/chaincode/shim""
+)
+func TestExampleMap_Bug5(t *testing.T) {
+        scc := new(SimpleChaincode)
+        stub := shim.NewMockStub(""map"", scc)
+        stub.MockInvoke(""1"", [][]byte{[]byte(""queryPrivate"")}) //{""Args"":[""queryPrivate""]}
+}
+{code}
+BTW, We see that the samples issues are in-bounds, so we submitted the report here :). It is all right if we remove the samples in next release, otherwise we should make the samples codes much better.;;;","05/Dec/19 4:33 AM;jyellick;Agreed that any sample chaincodes should properly check arg lengths before dereferencing.  From a security perspective, such a mistake is mostly a DoS vector, as the chaincode crashing affects the liveness of that chaincode, but it will be restarted.  Fortunately, authorization checks are made well before the chaincode processing begins, so to exploit such a DoS vector requires minimally that the attacker be authorized to invoke the chaincode.;;;"
+Fabric go cid interface enhancement throw nil error/return nil when idemix msp,FABCG-10,43006,Epic,Closed,FABCG,Fabric Chaincode Go,software,sykesm,,,Medium,Done,SamYuan1990,SamYuan1990,SamYuan1990,26/Oct/19 6:05 PM,01/Dec/19 4:16 AM,28/Oct/23 2:24 AM,05/Nov/19 3:22 AM,,0,,,"https://github.com/hyperledger/fabric/blob/release-1.4/core/chaincode/shim/ext/cid/cid.go#L101
+
+When chaincode invoking this function, it depends on cert of user who submit the transaction.
+However, considering in idemix type msp. 
+https://github.com/hyperledger/fabric/blob/release-1.4/core/chaincode/shim/ext/cid/cid.go#L105
+Will raise a nil exception which not handled or been throw.
+Chaincode will exit in error code.
+
+As cid interface having error type in interface definition,  should throw nil error or return nil.
+func (c *clientIdentityImpl) GetID() (string, error) 
+Instead of chaincode exit with error code.",,denyeart,SamYuan1990,ymlbright,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,Cloud Native,,No,,Unset,No,,,"1|hzwqrk:5iwr4xi",,Yes,,Unset,Unset,"setup byfn network
+install a golang chaincode having invoking cid interface.
+invoke the change code with idemix user msp",,Unset,,,,,,Unset,,Unset,,(Please add usage information),denyeart,SamYuan1990,ymlbright,,,release-2.3,release-1.4,release-2.2,dependabot/go_modules/github.com/golang/protobuf-1.5.3,main,dependabot/go_modules/google.golang.org/grpc-1.54.0,true,"26/Oct/19 8:24 PM;SamYuan1990;I had updated fix as here:
+https://gerrit.hyperledger.org/r/#/c/fabric/+/34114/;;;","28/Oct/19 7:28 PM;denyeart;[~SamYuan1990]
+
+Note that for master the function has moved to different repository, you can submit pull request against github directly:
+https://github.com/hyperledger/fabric-chaincode-go/blob/master/pkg/cid/cid.go#L86-L93;;;","28/Oct/19 9:38 PM;SamYuan1990;[~denyeart], I am not sure if I am full understand your point.
+1. fabric-chaincode-go will replace ... so developer will use cid in chaincode-go instead of ext/cid in fabric 1.4 branch.
+2. fabric-chaincode-go is moved to git hub, so I am able to fork and create PR. 
+I am doing the PR now, will keep you update in comments.
+;;;","28/Oct/19 10:02 PM;SamYuan1990;[~denyeart], I did a PR, and well, it pass the check by CICD. But I can't pass UT on my local.
+Please advise, details:
+https://github.com/hyperledger/fabric-chaincode-go/pull/9;;;","28/Oct/19 11:20 PM;SamYuan1990;[~denyeart], btw, the change which I had made is try to make the CID function don't stop chaincode running by un catched exception.
+
+Cloud you please share any information(long term plan?) about what's next for CID interface with idemix?;;;","29/Oct/19 9:48 PM;SamYuan1990;[~denyeart], I got it fixed. here is the pr
+https://github.com/hyperledger/fabric-chaincode-go/pull/9;;;","30/Oct/19 3:21 PM;denyeart;[~SamYuan1990]
+
+PR merged in fabric-chaincode-go using the new approach.
+
+Since the release-1.4 commit had already been merged in fabric using your original approach (via your gerrit CR contribution), please do a second gerrit CR in fabric release-1.4 to match the new approach. Sorry you have to do both a PR and a Gerrit CR to different repos/branch in this case... you got caught in the middle of our transition from Gerrit to Github.;;;"
+TLS Client auth not working for chaincode as server,FABCG-11,43729,Bug,To Do,FABCG,Fabric Chaincode Go,software,sykesm,,,Medium,,muralisr,muralisr,muralisr,15/Dec/19 9:27 AM,24/Jan/20 5:53 AM,28/Oct/23 2:24 AM,,,0,chaincode,,The Gerrit stack for the Chaincode as Service feature had TLS working (as tested by an integration test). In the move to github a bug was introduced and discovered while writing the integration test for chaincode as service where the chaincode server's client root CAs was not set for client authentication.,,muralisr,plachira,,,,,,,,,,,,FAB-17374,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i016fv:",,,,Unset,Unset,discovered while writing integration test,,Unset,,,,,,Unset,,Unset,,(Please add usage information),muralisr,plachira,,,,release-2.3,release-2.2,dependabot/go_modules/github.com/golang/protobuf-1.5.3,main,dependabot/go_modules/google.golang.org/grpc-1.54.0,,true,"17/Dec/19 1:24 AM;muralisr;fixed in [https://github.com/hyperledger/fabric-chaincode-go/pull/15];;;","25/Dec/19 7:43 AM;plachira;This is not working for me. Can you please try [https://github.com/hyperledger/fabric-samples/tree/master/chaincode/abac/go] with this new commit? I am getting ""Error starting Simple chaincode: context deadline exceeded"". No issues till previous commit.;;;","25/Dec/19 11:46 PM;muralisr;[~plachira] can you open a issue and provide exact recreate steps ?
+
+I'll try what I can meanwhile. Couple of things to note
+ * the latest fabric-chaincode-go has _not_ been vendored into fabric. So that side has not changed
+ * this particular change in theory should not affect the prev usage of chaincode;;;","26/Dec/19 12:15 AM;muralisr;[~plachira] it worked for me. Please open an issue and list exact recreate steps.;;;","12/Jan/20 9:04 AM;muralisr;[~plachira] actually there _was_ a problem in that commit with TLS. .. sorry about that.
+
+Reworking this ;;;",,
+Add HasOUValue function to cid library,FABCG-12,43823,Story,Closed,FABCG,Fabric Chaincode Go,software,sykesm,,,Low,Done,braduf,braduf,braduf,06/Jan/20 10:56 AM,10/Jan/20 7:27 AM,28/Oct/23 2:24 AM,10/Jan/20 7:27 AM,,0,,,"Public CAs do not support the inclusion of extra extension attributes like the one used for chaincode access control in Fabric that had OID ""1.2.3.4.5.6.7.8.1"".
+
+This obliges the use of Fabric-CA to be able to use certificate attributes with the cid library. For some organizations it is not allowed by the security department to use Fabric-CA and they prefer to use other CA services.
+
+Access control in the chaincode could also be done by using other fields in the certificates, like for example the OU field of the subject. The advantage of using the OU field is that it is a standard x509 field and that the distinguished name of a x509 certificate subject can have multiple OU values.
+
+The objective of this Jira story is to add a method in the cid library that looks for a specified OU value in the certificate of the transaction sender so the cid library can also be used for access control based on OU values and people do not have to write their custom function for it.
+
+Link to public one pager with more information: [https://docs.google.com/document/d/18QvdmHLXmTgwmjYwawKcWyzJl_vegqh6NgppDV_xmQI/edit?usp=sharing]",,braduf,,,,"Created the Jira story, wrote the one pager, implemented the functionality and unit tests and created a pull request.;06/Jan/20 3:05 PM;braduf;7200",,0,7200,,,0,7200,,,,,,,(Please add high level design or a link to the design),Unset,Yes,Unset,,,,,No,,Unset,No,,,"1|i016y3:",,,,No,Unset,(Please add steps to reproduce),,Yes,,,,,,Unset,,Unset,,(Please add usage information),braduf,,,,,release-2.3,release-2.2,dependabot/go_modules/github.com/golang/protobuf-1.5.3,main,dependabot/go_modules/google.golang.org/grpc-1.54.0,,true,"06/Jan/20 3:04 PM;braduf;HasOUValue function is implemented and a Pull Request has been created that is now waiting for review:
+[https://github.com/hyperledger/fabric-chaincode-go/pull/17];;;","10/Jan/20 7:27 AM;braduf;PR was reviewed by [~sykesm], his change requests were solved and after new reviews it was merged into master.;;;",,,,,
+Support fabric-chaincode-go api for retrieving mspid,FABCG-13,44146,Task,Closed,FABCG,Fabric Chaincode Go,software,sykesm,,,Medium,Done,caod,caod,caod,28/Jan/20 3:49 AM,30/Jan/20 12:18 AM,28/Oct/23 2:24 AM,29/Jan/20 9:54 AM,,0,,,This mirrors the fabric-chaincode-go half of FAB-17439 and exposes a new shim function for returning the env var CORE_PEER_LOCALMSPID set from the peer side in FAB-17439.,,caod,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i018ab:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),caod,,,,,release-2.3,release-2.2,dependabot/go_modules/github.com/golang/protobuf-1.5.3,main,dependabot/go_modules/google.golang.org/grpc-1.54.0,,true,"28/Jan/20 4:15 AM;caod;[https://github.com/hyperledger/fabric-chaincode-go/pull/20];;;",,,,,,
+Chaincode definiation exist but not installed hyperledger fabric 2.2,FABCG-15,46275,Bug,Closed,FABCG,Fabric Chaincode Go,software,sykesm,,,High,Invalid: Environment Issue,,aim8526,aim8526,02/Nov/20 7:12 PM,08/May/21 4:21 AM,28/Oct/23 2:24 AM,08/May/21 4:21 AM,,0,chaincode,node-SDK,"Hi Team,
+
+I have a kubernetes setup of HLF2.2 with Golang Chaincode and Nodejs SDK.
+ I am performing load test on the network, when i try with 250 Concurrent thread, it shows unexpectedly chaincode installation Error. (*Error: Chaincode definiation exist but not found, make sure it's Installed properly*)
+
+Node SDK not able to find any endorsement peer for provided chaincode and throw Exception.
+
+After inspecting I found that
+ * 3 out 4 Peer's ledger were crashed.
+ * Peer disconnects from channel.
+ * It was not showing installed Chain-code. 
+ * unable to Query or Invoke from Cli.
+
+I tried restarting the cluster but no luck.
+
+Then I had to re-Install new version of chaincode on Peer's, and it's working fine now.
+
+I am bit worried about the robustness of HLF network and which is not giving me enough confidence to use it in production.
+
+And *also there is no mechanism to monitor container of Chaincode in kubernetes, as it does not show-up in the pods list.* And even i am not sure how much of load is on Chain-code when performing load test.
+
+I have allocated 4GB RAM and 2-Core CPU to each Peer. is that enough for production level setup.
+How can we ensure that Chain-code's container gets enough resource allocation. Should I increase my peers RAM further.",,aim8526,denyeart,lesleyannj,yacovm,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01h1v:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),aim8526,denyeart,lesleyannj,yacovm,,,,,,,,,"08/May/21 4:21 AM;denyeart;You were probably hitting the issue *FAB-18194* about incorrect chaincode installation message after peers restart that was fixed in v2.2.1.
+
+For the questions about Kubernetes, there is no built-in support in open source Fabric. Some vendors such as IBM blockchain platform have added support in their offering which uses the external chaincode builder to create and manage chaincode containers.;;;",,,,,,
+Invocation failed on chaincode HLF 1.4.9,FABCG-16,46277,Bug,Closed,FABCG,Fabric Chaincode Go,software,sykesm,,,High,Invalid: Environment Issue,,brunop,brunop,03/Nov/20 3:25 AM,16/Nov/20 6:26 PM,28/Oct/23 2:24 AM,16/Nov/20 6:26 PM,,0,node-SDK,,"Hi
+
+ 
+
+I have 2 orgs and 1 chaincode.  The chaincode is written in golang.
+
+The gateway is written with nodejs, when invoke a massive request for the chaincode, on org1 everythings works fine. Instead on org2 I have and error like below:
+
+ 
+
+2020-11-02 18:04:04.457 UTC [endorser] SimulateProposal -> ERRO 272de [mainchannel][1010fd71] failed to invoke chaincode name:""bollettino"" , error: chaincode stream terminated
+github.com/hyperledger/fabric/core/chaincode.(*Handler).Execute
+ /opt/gopath/src/github.com/hyperledger/fabric/core/chaincode/handler.go:1269
+github.com/hyperledger/fabric/core/chaincode.(*ChaincodeSupport).execute
+ /opt/gopath/src/github.com/hyperledger/fabric/core/chaincode/chaincode_support.go:313
+github.com/hyperledger/fabric/core/chaincode.(*ChaincodeSupport).Invoke
+ /opt/gopath/src/github.com/hyperledger/fabric/core/chaincode/chaincode_support.go:302
+github.com/hyperledger/fabric/core/chaincode.(*ChaincodeSupport).Execute
+ /opt/gopath/src/github.com/hyperledger/fabric/core/chaincode/chaincode_support.go:239
+github.com/hyperledger/fabric/core/endorser.(*SupportImpl).Execute
+ /opt/gopath/src/github.com/hyperledger/fabric/core/endorser/support.go:147
+github.com/hyperledger/fabric/core/endorser.(*Endorser).callChaincode
+ /opt/gopath/src/github.com/hyperledger/fabric/core/endorser/endorser.go:146
+github.com/hyperledger/fabric/core/endorser.(*Endorser).SimulateProposal
+ /opt/gopath/src/github.com/hyperledger/fabric/core/endorser/endorser.go:247
+github.com/hyperledger/fabric/core/endorser.(*Endorser).ProcessProposal
+ /opt/gopath/src/github.com/hyperledger/fabric/core/endorser/endorser.go:500
+github.com/hyperledger/fabric/core/handlers/auth/filter.(*expirationCheckFilter).ProcessProposal
+ /opt/gopath/src/github.com/hyperledger/fabric/core/handlers/auth/filter/expiration.go:61
+github.com/hyperledger/fabric/core/handlers/auth/filter.(*filter).ProcessProposal
+ /opt/gopath/src/github.com/hyperledger/fabric/core/handlers/auth/filter/filter.go:32
+github.com/hyperledger/fabric/protos/peer._Endorser_ProcessProposal_Handler.func1
+ /opt/gopath/src/github.com/hyperledger/fabric/protos/peer/peer.pb.go:169
+github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1
+ /opt/gopath/src/github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware/chain.go:31
+github.com/hyperledger/fabric/core/comm.(*Throttle).UnaryServerIntercptor
+ /opt/gopath/src/github.com/hyperledger/fabric/core/comm/throttle.go:54
+github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1
+ /opt/gopath/src/github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware/chain.go:34
+github.com/hyperledger/fabric/common/grpclogging.UnaryServerInterceptor.func1
+ /opt/gopath/src/github.com/hyperledger/fabric/common/grpclogging/server.go:91
+github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1
+ /opt/gopath/src/github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware/chain.go:34
+github.com/hyperledger/fabric/common/grpcmetrics.UnaryServerInterceptor.func1
+ /opt/gopath/src/github.com/hyperledger/fabric/common/grpcmetrics/interceptor.go:30
+github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1
+ /opt/gopath/src/github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware/chain.go:39
+github.com/hyperledger/fabric/protos/peer._Endorser_ProcessProposal_Handler
+ /opt/gopath/src/github.com/hyperledger/fabric/protos/peer/peer.pb.go:171
+github.com/hyperledger/fabric/vendor/google.golang.org/grpc.(*Server).processUnaryRPC
+ /opt/gopath/src/github.com/hyperledger/fabric/vendor/google.golang.org/grpc/server.go:982
+github.com/hyperledger/fabric/vendor/google.golang.org/grpc.(*Server).handleStream
+ /opt/gopath/src/github.com/hyperledger/fabric/vendor/google.golang.org/grpc/server.go:1208
+github.com/hyperledger/fabric/vendor/google.golang.org/grpc.(*Server).serveStreams.func1.1
+ /opt/gopath/src/github.com/hyperledger/fabric/vendor/google.golang.org/grpc/server.go:686
+runtime.goexit
+ /opt/go/src/runtime/asm_amd64.s:1357
+error sending
+failed to execute transaction 1010fd713127848da13cf6fbd5dcc23a846a6904fa224c3dab5f74ca4b3ae34c
+github.com/hyperledger/fabric/core/chaincode.processChaincodeExecutionResult
+ /opt/gopath/src/github.com/hyperledger/fabric/core/chaincode/chaincode_support.go:245
+github.com/hyperledger/fabric/core/chaincode.(*ChaincodeSupport).Execute
+ /opt/gopath/src/github.com/hyperledger/fabric/core/chaincode/chaincode_support.go:240
+github.com/hyperledger/fabric/core/endorser.(*SupportImpl).Execute
+ /opt/gopath/src/github.com/hyperledger/fabric/core/endorser/support.go:147
+github.com/hyperledger/fabric/core/endorser.(*Endorser).callChaincode
+ /opt/gopath/src/github.com/hyperledger/fabric/core/endorser/endorser.go:146
+github.com/hyperledger/fabric/core/endorser.(*Endorser).SimulateProposal
+ /opt/gopath/src/github.com/hyperledger/fabric/core/endorser/endorser.go:247
+github.com/hyperledger/fabric/core/endorser.(*Endorser).ProcessProposal
+ /opt/gopath/src/github.com/hyperledger/fabric/core/endorser/endorser.go:500
+github.com/hyperledger/fabric/core/handlers/auth/filter.(*expirationCheckFilter).ProcessProposal
+ /opt/gopath/src/github.com/hyperledger/fabric/core/handlers/auth/filter/expiration.go:61
+github.com/hyperledger/fabric/core/handlers/auth/filter.(*filter).ProcessProposal
+ /opt/gopath/src/github.com/hyperledger/fabric/core/handlers/auth/filter/filter.go:32
+github.com/hyperledger/fabric/protos/peer._Endorser_ProcessProposal_Handler.func1
+ /opt/gopath/src/github.com/hyperledger/fabric/protos/peer/peer.pb.go:169
+github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1
+ /opt/gopath/src/github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware/chain.go:31
+github.com/hyperledger/fabric/core/comm.(*Throttle).UnaryServerIntercptor
+ /opt/gopath/src/github.com/hyperledger/fabric/core/comm/throttle.go:54
+github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1
+ /opt/gopath/src/github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware/chain.go:34
+github.com/hyperledger/fabric/common/grpclogging.UnaryServerInterceptor.func1
+ /opt/gopath/src/github.com/hyperledger/fabric/common/grpclogging/server.go:91
+github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1
+ /opt/gopath/src/github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware/chain.go:34
+github.com/hyperledger/fabric/common/grpcmetrics.UnaryServerInterceptor.func1
+ /opt/gopath/src/github.com/hyperledger/fabric/common/grpcmetrics/interceptor.go:30
+github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1
+ /opt/gopath/src/github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware/chain.go:39
+github.com/hyperledger/fabric/protos/peer._Endorser_ProcessProposal_Handler
+ /opt/gopath/src/github.com/hyperledger/fabric/protos/peer/peer.pb.go:171
+github.com/hyperledger/fabric/vendor/google.golang.org/grpc.(*Server).processUnaryRPC
+ /opt/gopath/src/github.com/hyperledger/fabric/vendor/google.golang.org/grpc/server.go:982
+github.com/hyperledger/fabric/vendor/google.golang.org/grpc.(*Server).handleStream
+ /opt/gopath/src/github.com/hyperledger/fabric/vendor/google.golang.org/grpc/server.go:1208
+github.com/hyperledger/fabric/vendor/google.golang.org/grpc.(*Server).serveStreams.func1.1
+ /opt/gopath/src/github.com/hyperledger/fabric/vendor/google.golang.org/grpc/server.go:686
+runtime.goexit
+ /opt/go/src/runtime/asm_amd64.s:1357
+2020-11-02 18:04:04.457 UTC [comm.grpc.server] 1 -> INFO 272df unary call completed grpc.service=protos.Endorser grpc.method=ProcessProposal grpc.peer_address=10.95.1.86:45834 grpc.code=OK grpc.call_duration=1.179916857s
+
+ 
+
+ 
+
+Thanks in advance for your help
+
+Paolo Bruno",,brunop,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01h2b:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),brunop,,,,,,,,,,,,,,,,,,
+DelState,FABCG-17,46321,Bug,Closed,FABCG,Fabric Chaincode Go,software,sykesm,,,Medium,Invalid: Works as Expected,,brunop,brunop,16/Nov/20 6:30 PM,07/May/21 9:31 PM,28/Oct/23 2:24 AM,07/May/21 9:31 PM,,0,,,"Hi
+
+I'm trying to use DelState for set isDelete to true to my Asset in blockchain.
+
+The asset key is the field codeline.
+
+The operatione is done without error but, when call stub.GetHistoryForKey for the same key,
+
+I found two transactions:
+
+one with normal Asset and the second one with isDelete to true and value null.
+
+ 
+ {
+     ""response"": ""OK"",
+     ""data"": [
+         {
+             ""TxId"": ""8786d051b8861edb62da197966d720c7ca416b639d725c2ab1b6719ad1a6943a"",
+             ""Value"": 
+
+{                 ""doctype"": ""Bollettino"",                 ""timestamp"": 1605291770132,                 ""codeline"": ""XXXXXXXXXXXXXXXX01"",                 ""tipocreazione"": ""0"",                 ""entemittente"": ""09999"",                 ""datascadenza"": """",                 ""datapagamento"": """",                 ""importo"": 0,                 ""importopagato"": 0,                 ""datavaluta"": """",                 ""datacontabile"": """",                 ""tipobollettino"": """",                 ""cc"": """",                 ""stato"": ""CREATO"",                 ""organization"": ""egl"",                 ""operatore"": ""system"",                 ""sync"": """"             }
+
+,
+             ""Timestamp"": ""2020-11-13 18:22:28.29 +0000 UTC"",
+             ""IsDelete"": ""false""
+         },
+         
+
+{             ""TxId"": ""7755313a0d1c06b633c4726dcf2d7626848b8bd63a18eb58d8fef209cf865a3d"",             ""Value"": null,             ""Timestamp"": ""2020-11-13 18:23:09.44 +0000 UTC"",             ""IsDelete"": ""true""         }
+
+    ]
+ }
+  
+ Why ?
+ Can you help me ?
+  
+ Thanks in advance
+ Paolo Bruno",,brunop,denyeart,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01h8j:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),brunop,denyeart,,,,,,,,,,,"07/May/21 9:31 PM;denyeart;When you delete it is deleted from state database. Both the original transaction and the delete transaction remain on the blockchain however, so that you can see them when you query the history, e.g. for auditing.;;;",,,,,,
+Bug: Deploying Chaincode and Chaincode packaging has failed,FABCG-19,46459,Story,Backlog,FABCG,Fabric Chaincode Go,software,sykesm,,,High,,,k.s.558,k.s.558,29/Dec/20 3:34 AM,29/Dec/20 5:49 AM,28/Oct/23 2:24 AM,,,0,,,"I am struggeling with setting the chaincode in the hyperledger test network.
+
+I did the following linux command:
+
+ 
+{code:java}
+akosua@s:~/fabric-samples/test-network/fabric-samples/test-network$ ./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-go -ccl go
+deploying chaincode on channel 'mychannel'
+executing with the following
+- CHANNEL_NAME: mychannel
+- CC_NAME: basic
+- CC_SRC_PATH: ../asset-transfer-basic/chaincode-go
+- CC_SRC_LANGUAGE: go
+- CC_VERSION: 1.0
+- CC_SEQUENCE: 1
+- CC_END_POLICY: NA
+- CC_COLL_CONFIG: NA
+- CC_INIT_FCN: NA
+- DELAY: 3
+- MAX_RETRY: 5
+- VERBOSE: false
+Vendoring Go dependencies at ../asset-transfer-basic/chaincode-go
+~/fabric-samples/test-network/fabric-samples/asset-transfer-basic/chaincode-go ~/fabric-samples/test-network/fabric-samples/test-network
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: writing go.mod cache: mkdir /home/akosua/go/pkg/mod: permission denied
+go: downloading github.com/hyperledger/fabric-chaincode-go v0.0.0-20200424173110-d7076418f212
+go: downloading github.com/hyperledger/fabric-protos-go v0.0.0-20200424173316-dd554ba3746e
+go: downloading github.com/golang/protobuf v1.3.2
+go: downloading github.com/hyperledger/fabric-contract-api-go v1.1.0
+go: downloading github.com/stretchr/testify v1.5.1
+github.com/hyperledger/fabric-samples/asset-transfer-basic/chaincode-go imports
+ github.com/hyperledger/fabric-contract-api-go/contractapi: mkdir /home/akosua/go/pkg/mod: permission denied
+github.com/hyperledger/fabric-samples/asset-transfer-basic/chaincode-go/chaincode/mocks imports
+ github.com/golang/protobuf/ptypes/timestamp: mkdir /home/akosua/go/pkg/mod: permission denied
+github.com/hyperledger/fabric-samples/asset-transfer-basic/chaincode-go/chaincode/mocks imports
+ github.com/hyperledger/fabric-chaincode-go/pkg/cid: mkdir /home/akosua/go/pkg/mod: permission denied
+github.com/hyperledger/fabric-samples/asset-transfer-basic/chaincode-go/chaincode/mocks imports
+ github.com/hyperledger/fabric-chaincode-go/shim: mkdir /home/akosua/go/pkg/mod: permission denied
+github.com/hyperledger/fabric-samples/asset-transfer-basic/chaincode-go/chaincode/mocks imports
+ github.com/hyperledger/fabric-protos-go/ledger/queryresult: mkdir /home/akosua/go/pkg/mod: permission denied
+github.com/hyperledger/fabric-samples/asset-transfer-basic/chaincode-go/chaincode/mocks imports
+ github.com/hyperledger/fabric-protos-go/peer: mkdir /home/akosua/go/pkg/mod: permission denied
+github.com/hyperledger/fabric-samples/asset-transfer-basic/chaincode-go/chaincode tested by
+ github.com/hyperledger/fabric-samples/asset-transfer-basic/chaincode-go/chaincode.test imports
+ github.com/stretchr/testify/require: mkdir /home/akosua/go/pkg/mod: permission denied
+~/fabric-samples/test-network/fabric-samples/test-network
+Finished vendoring Go dependencies
++ peer lifecycle chaincode package basic.tar.gz --path ../asset-transfer-basic/chaincode-go --lang golang --label basic_1.0
+scripts/deployCC.sh: Zeile 114: log.txt: Keine Berechtigung
++ res=1
+Error: failed to normalize chaincode path: failed to determine module root: exec: ""go"": executable file not found in $PATH
+Chaincode packaging has failed
+Deploying chaincode failed
+ 
+{code}
+ 
+I removed the go lang and downloaded the new version. But this did not had any effect...
+ 
+What do I need to do to set up the chaincode without an error?",,k.s.558,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,No,Unset,,,,,No,,Unset,No,,,"1|i01hwb:",,,,No,Unset,(Please add steps to reproduce),,No,,,,,,Unset,,Unset,,(Please add usage information),k.s.558,,,,,,,,,,,,,,,,,,
+Chaincode build failed in new version of Docker.,FABCG-20,46635,Bug,Unverified,FABCG,Fabric Chaincode Go,software,sykesm,,,Highest,,,zainbhai,zainbhai,11/Mar/21 9:26 PM,14/Mar/21 3:15 PM,28/Oct/23 2:24 AM,,,0,,,"The chainCode build image relies on accessing “/var/run/docker.sock”, which is no longer available:
+
+There is no longer access the docker engine, /var/run/docker.sock, or use Docker-in-Docker (DinD) in latest version of Docker
+
+ 
+
+Is there any other way where peer can build chaincode at runtime.",,silliman,zainbhai,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01iuj:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),silliman,zainbhai,,,,,,,,,,,,,,,,,
+DelPrivateData function in a mockstub.go file not implemented,FABCG-21,46817,Story,Backlog,FABCG,Fabric Chaincode Go,software,sykesm,,,Low,,msedzinski,msedzinski,msedzinski,25/Apr/21 7:15 AM,29/Jul/21 3:15 AM,28/Oct/23 2:24 AM,,,0,,,"{code:java}
+
+// DelPrivateData ...
+func (stub *MockStub) DelPrivateData(collection string, key string) error {	return errors.New(""Not Implemented"")}{code}
+I need this function to make unit tests work. 
+
+ 
+
+Is it ok if I implement it and contribute?
+
+ 
+
+ 
+
+ 
+
+ ",,msedzinski,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01ji3:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),msedzinski,,,,,,,,,,,,,,,,,,
+(CVE ) Vulnerability in fabric-chaincode-go module,FABCG-22,46917,Bug,Unverified,FABCG,Fabric Chaincode Go,software,sykesm,,,High,,denyeart,avinashuttav,avinashuttav,09/Jun/21 4:50 PM,21/Dec/21 2:17 AM,28/Oct/23 2:24 AM,,,0,,,"There is a vulnerability in one of the dependencies of fabric-chaincode-go.
+
+It is in the package golang.org/x/text/ upto version 0.3.3.
+
+Below is the nvd link for the same 
+
+[https://nvd.nist.gov/vuln/detail/CVE-2020-14040]
+
+ 
+
+In go.sum file we can see 0.3.0 version of this package is getting used at 4th or 5th level
+
+golang.org/x/text v0.3.0.
+
+ 
+
+In order to fix this issue, can we update the particular dependency of fabric-chaincode-go which is bringing in this version of golang.org/x/text ?",,avinashuttav,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01k1v:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),avinashuttav,,,,,,,,,,,,,,,,,,
+Unable to get Transaction Details with GetTransactionByID qscc call from another chaincode,FABCG-23,46976,Bug,Unverified,FABCG,Fabric Chaincode Go,software,sykesm,,,Medium,,,KameshPalani,KameshPalani,24/Jun/21 1:55 PM,05/Jul/21 11:32 AM,28/Oct/23 2:24 AM,,,0,,,"We recently upgraded our Fabric version from 1.4 to 2.3. In our Chaincode we have business logic to verify a txnId is present in ledger or not. With Fabric 2.3 upgrade we are getting below error. If this is a limitation from added in 2.x to avoid deadlock situation, can you let us know the approaches to get transaction details for a given transaction ID from a chaincode? 
+
+Code:
+    ~chainCodeArgs := toChaincodeArgs(""GetTransactionByID"", stub.GetChannelID(), tid)~
+     ~response := stub.InvokeChaincode(""qscc"", chainCodeArgs, stub.GetChannelID())~
+Error:
+~{{Rejecting invoke of QSCC from another chaincode because of potential for deadlocks, original invocation for 'testcc'}}~
+ 
+ ",,KameshPalani,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01ker:",,,,Unset,Unset,"Invoke GetTransactionByID from another chaincode as mentioned below. 
+Steps:
+1. Install & instantiate chaincode TestUserCC
+2. Invoke transaction with asset x to call contract A whose transaction ID is 12345
+3. Now, invoke another transaction with asset y by checking x exists via Contract B ( GetTransactionByID qscc call here to check x fails) ",,Unset,,,,,,Unset,,Unset,,(Please add usage information),KameshPalani,,,,,,,,,,,,"05/Jul/21 11:21 AM;KameshPalani;Hi, can you let me know regarding this ticket? ;;;",,,,,,

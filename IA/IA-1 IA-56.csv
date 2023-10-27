@@ -1,0 +1,393 @@
+Summary,Issue key,Issue id,Parent id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Component/s,Due Date,Votes,Labels,Labels,Description,Environment,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Inward issue link (Cloners),Outward issue link (Cloners),Inward issue link (Relates),Inward issue link (Relates),Inward issue link (Relates),Inward issue link (Relates),Inward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Custom field (Business Value),Custom field (Commit Levels),Custom field (Current Status),Custom field (Design),Custom field (Design Status),Custom field (Documentation Impact),Custom field (Documentation Status),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Executed),Custom field (Found in Commit),Custom field (Function Test Status),Custom field (Must Fix),Custom field (Original story points),Custom field (Parent Link),Custom field (Rank),Custom field (Release Note),Custom field (Release Note Required),Custom field (Root Cause Analysis),Custom field (SDK Impact),Custom field (Sample/Tutorial),Sprint,Custom field (Steps to Reproduce),Custom field (Story Points),Custom field (System Test Impact),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Test Plan),Custom field (Test Result),Custom field (Test Result Details),Custom field (Test Type),Custom field (Triaged),Custom field (Usage),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Workaround),Custom field (gitCommitsReferenced),Comment,Comment,Comment,Comment
+Move Indy-Agent issues from INDY and IS projects,IA-1,31274,,Bug,Complete,IA,Indy Agent,software,nage,,,Medium,,burdettadam,nage,nage,22/Jun/18 12:43 AM,29/Jun/18 3:31 PM,28/Oct/23 2:43 AM,,,,0,,,We need to migrate existing agent issues from the indy-sdk and indy-node project JIRA repositories (INDY and IS) into this new location.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzzftb:",,,,,,,,,,,,,,,,,,,,nage,,,,,,,,,
+Create a reference agent,IA-2,30124,,Story,Complete,IA,Indy Agent,software,nage,,,Medium,,dbluhm,dbluhm,dbluhm,11/May/18 8:02 AM,30/Jun/18 5:55 AM,28/Oct/23 2:43 AM,,,,0,,,"This is the main issue to house tasks related to creating the indy-agent. indy-agent will serve as a reference of how to implement an agent using libindy and indy-sdk. It will also be used to test the completeness of the Sovrin protocol.
+
+Discussion about the reference agent will be held on the #indy-agent on Rocket.chat.",,,,,,,,,,,,,,,,,,,,,,,IA-36,INDY-1322,IS-758,IS-759,IS-760,IS-763,IS-767,,,,,,,,,IA-3,,,,,,,,,"1|hzzb6f:",,,,,,,,,,,,,,,,,,,,dbluhm,,,,,,,,,
+Python Reference Agent,IA-3,31422,,Epic,Complete,IA,Indy Agent,software,nage,,,High,Deferred,,burdettadam,burdettadam,28/Jun/18 3:51 AM,19/Sep/19 12:33 AM,28/Oct/23 2:43 AM,19/Sep/19 12:33 AM,,,0,,,"Story: As a Python developer, I want a simple python Indy Agent example that interacts with the Sovrin network, so I can create Apps that are Sovrin Agent compatible. ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ghx-label-6,,Python Reference Agent,To Do,,,,,,,"1|hzzgfb:",,,,,,,,,,,,,,,,,,,,ank13,burdettadam,esplinr,,,,"05/Jun/19 4:47 PM;ank13;[~burdettadam] I am a python developer. I want to work on this issue. Where can I find more details regarding this issue?
+
+ ;;;","19/Sep/19 12:33 AM;esplinr;Work on the Indy Python Reference Agent has been superseded by work on the Aries Cloud Agent Python (ACA-py):
+
+https://github.com/hyperledger/aries-cloudagent-python/;;;",,
+A test suite used for Sovrin network protocol compliant certificates.,IA-4,31432,,Epic,Complete,IA,Indy Agent,software,nage,,,Medium,Deferred,,burdettadam,burdettadam,28/Jun/18 6:53 AM,19/Sep/19 12:28 AM,28/Oct/23 2:43 AM,19/Sep/19 12:28 AM,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ghx-label-7,,Agent Test Suite,To Do,,,,,,,"1|hzzggn:",,,,,,,,,,,,,,,,,,,,burdettadam,esplinr,,,,,"19/Sep/19 12:28 AM;esplinr;Work on the Indy Agent Protocol test suite has migrated to the Aries project. Issues for the Protocol Test Suite are being tracked in GitHub issues:
+
+https://github.com/hyperledger/aries-protocol-test-suite/issues;;;",,,
+Python Agent architecture and design documents,IA-5,31457,,Task,Complete,IA,Indy Agent,software,nage,,,Low,Deferred,,burdettadam,burdettadam,29/Jun/18 2:21 AM,19/Sep/19 12:33 AM,28/Oct/23 2:43 AM,19/Sep/19 12:33 AM,,,0,,,"Story: As a developer, I want well written documentation outlining the design of the python agent, so that I can quickly understand the structure of the project.
+
+This could include a diagram outlining code abstractions such as the security packaging , router handler, modules, UI, and supporting technologies. 
+
+To demo this:
+Have a diagram in the readme with architectural design details including file structure, code abstractions, and used technologies. 
+",,,,,,,,,,IA-36,,,,,,,,,,,,,,,,,,,,,,,,,,,,IA-3,,,,,,,,,"1|hzzypi:i",,,,,,,,2.0,,,,,,,,,,,,burdettadam,esplinr,,,,,"19/Sep/19 12:33 AM;esplinr;Work on the Indy Python Reference Agent has been superseded by work on the Aries Cloud Agent Python (ACA-py):
+
+https://github.com/hyperledger/aries-cloudagent-python/;;;",,,
+Message structure,IA-6,31459,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,,dbluhm,burdettadam,burdettadam,29/Jun/18 2:39 AM,09/Aug/18 12:20 AM,28/Oct/23 2:43 AM,,,,0,,,"The python agent currently stores a DID as a key identifier for a connection. There has been discussion to store a nonce instead. Type is a ambiguous topic currently, but must be stored.
+Message structure should reflect something similar to this.
+\{
+     id :< nonce | DID >,
+
+     type : ,
+
+     message : ,
+}",,,,,,,,,,IA-16,,,,,,,,,,,,,,,,,,,,,,,,,,,,IA-3,,,,,,,,,"1|hzzh2v:",,,,,,,,,,,,,,,,,,,,burdettadam,,,,,,,,,
+User Interface ,IA-7,31460,,Story,Complete,IA,Indy Agent,software,nage,,,Medium,,,burdettadam,burdettadam,29/Jun/18 3:00 AM,03/Nov/18 7:14 AM,28/Oct/23 2:43 AM,,,,0,,,"*This issue is a little too general to be useful; I'm marking it as done for now.*
+
+
+Story: As a user, I want an interactive interface that allows me to: 
+       open a wallet - -IS-768-
+       manage connections - IA-9,
+       manage credentials -
+       manage chat messages -
+ so that I have a working example of sovrin protocols.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IA-3,,,,,,,,,"1|hzyben:",,,,,,,,,,,,,,,,,,,,burdettadam,,,,,,,,,
+Python Agent Backend ,IA-8,31461,,Story,Complete,IA,Indy Agent,software,nage,,,Medium,,,burdettadam,burdettadam,29/Jun/18 3:53 AM,03/Nov/18 7:16 AM,28/Oct/23 2:43 AM,,,,0,,,"Story: As a user, I want an example of a python agent server that has: 
+      security packaging - IA-17
+      routing handler - IA-19
+      modules - IA-20
+so that I have a working agent server example for the sovrin network.
+
+How to demo:
+Show all linked tasks are done.",,,,,,,,,,IA-17,IA-19,IA-20,,,,,,,,,,,,,,,,,,,,,,,,,,IA-3,,,,,,,,,"1|hzzh3b:",,,,,,,,,,,,,,,,,,,,burdettadam,,,,,,,,,
+Agent manage connections,IA-9,31465,,Story,Complete,IA,Indy Agent,software,nage,,,Medium,,trthhrtz,burdettadam,burdettadam,29/Jun/18 5:18 AM,03/Nov/18 6:56 AM,28/Oct/23 2:43 AM,,,,0,,,"Story: As a user, I want to be able to manage my connections (relationships) by: 
+* viewing connections - IA-12 , IA-13 
+* viewing connections active history - IA-11 , IA-10
+* requesting a connection - 
+* accepting/rejecting a connection - IA-14
+ so that my connections are manageable and their state is transparent.
+
+To demo this:
+Show that each referenced task is completed.",,,,,,,,,,,,,,,,,,IA-12,IA-13,IA-11,IA-10,IA-14,,,,,,,,,,,,,,,,IA-3,,,,,,,,,"1|hzybbz:",,,,,,SF Indy-agent 18.4,,,,,,,,,,,,,,burdettadam,,,,,,,,,
+Agent Connection Timeline,IA-10,31466,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,,trthhrtz,burdettadam,burdettadam,29/Jun/18 5:29 AM,03/Nov/18 6:56 AM,28/Oct/23 2:43 AM,,,,0,,,"Story: As a user, I want to be able to view an ordered list of events that have occurred in each of my connections (relationships), so that my connections and their transactions are transparent. 
+
+This could be implemented by updating a histoy/timeline view when a connection is selected. 
+
+How to demo this:
+Show the ability to select each connection individually and have the historic view update accordingly.",,,,,,,,,,,,,,,,,,,,,,,IA-9,,,,,,,,,,,,,,,IA-3,,,,,,,,,"1|hzybbj:",,,,,,SF Indy-agent 18.4,,,,,,,,,,,,,,burdettadam,,,,,,,,,
+Agent create Connection History View,IA-11,31469,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,,trthhrtz,burdettadam,burdettadam,29/Jun/18 6:18 AM,03/Nov/18 6:55 AM,28/Oct/23 2:43 AM,,,,0,,,"Story: As a user I want to view a connections history.
+
+The ui needs a place to display a connections history. This will be used to display a connection's timeline which in the future will include, connection request date, connection accepted date, and an ordered list of messages in plain text with corresponding timestamps.
+
+How to demo this:
+Given an ordered list of events from a connections history, print them on the UIs history view, in historic order, with the ability to scroll.",,,,,,,,,,,,,,,,,,,,,,,IA-9,,,,,,,,,,,,,,,IA-3,,,,,,,,,"1|hzybbb:",,,,,,SF Indy-agent 18.4,,,,,,,,,,,,,,burdettadam,,,,,,,,,
+Agent Connections Display,IA-12,31472,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,,dbluhm,burdettadam,burdettadam,29/Jun/18 7:17 AM,03/Nov/18 6:56 AM,28/Oct/23 2:43 AM,,,,0,,,"Story: As a user, I want to view all my connections.
+
+Python-agent needs a place to list a users connections. 
+
+To demo this:
+Given a list of connections, display them in a designated place on the UI. 
+",,,,,,,,,,,,,,,,,,,,,,,IA-9,,,,,,,,,,,,,,,IA-3,,,,,,,,,"1|hzybdj:",,,,,,SF Indy-agent 18.2,,,,,,,,,,,,,,burdettadam,,,,,,,,,
+Agent Connections Display Status,IA-13,31473,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,,dbluhm,burdettadam,burdettadam,29/Jun/18 7:27 AM,03/Nov/18 6:57 AM,28/Oct/23 2:43 AM,,,,0,,,"Story: As a user I want a visual display of a connections state.
+
+When a connection is displayed there should be a visual representation of its state, this could be a shading for requested and request connections with established connections having no shading. 
+
+To demo this:
+Give a visual indicator of the state/status of a connection in the UI.",,,,,,,,,,,,,,,,,,,,,,,IA-9,,,,,,,,,,,,,,,IA-3,,,,,,,,,"1|hzybdr:",,,,,,SF Indy-agent 18.2,,,,,,,,,,,,,,burdettadam,,,,,,,,,
+Agent Connection Display Buttons,IA-14,31475,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,,dbluhm,burdettadam,burdettadam,29/Jun/18 7:34 AM,03/Nov/18 6:56 AM,28/Oct/23 2:43 AM,,,,0,,,"Story: As a user I want to be able to accept or reject a connection/relationship request.
+
+Each connection has a status, requested, request, established.  When a connection state is request, there should be a button that allows a user to accept that connection, all other connections should have a reject button.
+
+To demo this:
+Correctly display a bottom on all connections that can be pressed.  (This task does not require the button to do anything.) ",,,,,,,,,,,,,,,,,,,,,,,IA-9,,,,,,,,,,,,,,,IA-3,,,,,,,,,"1|hzybdb:",,,,,,SF Indy-agent 18.2,,,,,,,,,,,,,,burdettadam,,,,,,,,,
+Establish protocol and best practice standards for agents.,IA-15,31482,,Epic,Complete,IA,Indy Agent,software,nage,,,Medium,Done,,burdettadam,burdettadam,29/Jun/18 3:49 PM,19/Sep/19 12:30 AM,28/Oct/23 2:43 AM,19/Sep/19 12:30 AM,,,0,,,,,,,,,,,,,,,,IA-23,IA-24,,,,,,,,,,,,,,,,,,,,,,,ghx-label-2,,Agent Protocol,To Do,,,,,,,"1|hzzgnr:",,,,,,,,,,,,,,,,,,,,burdettadam,,,,,,,,,
+Message Structure HIPE,IA-16,31498,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,,dbluhm,burdettadam,burdettadam,30/Jun/18 2:05 AM,09/Aug/18 12:16 AM,28/Oct/23 2:43 AM,,,,0,,,"Story: As a developer I want clear documentation for agent message structure so that I can be Indy agent compatible. 
+
+To demo this:
+Display message structure documentation that was established by accepted HIPE PR.",,,,,,,,,,,,,IA-6,,,,,,,,,,,,,,,,,,,,,,,,,IA-15,,,,,,,,,"1|hzybcn:",,,,,,SF Indy-agent 18.4,,,,,,,,,,,,,,burdettadam,dbluhm,,,,,"09/Aug/18 12:16 AM;dbluhm;This HIPE has entered final comment period and should be merged soon.;;;",,,
+Python Agent Security Packaging,IA-17,31499,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,Invalid,,burdettadam,burdettadam,30/Jun/18 2:13 AM,30/Mar/19 5:45 AM,28/Oct/23 2:43 AM,30/Mar/19 5:45 AM,,,0,,,"Story: As a python developer, I want an example of a security packaging layer that deminstrates massaging decryption , encryption and serialization so that I have example code to build apon.
+
+How to demo:
+Given a message, show that you can encrypt, decrypt and serialize provided message. ",,,,,,,,,,,,,IA-8,,,,,,,,,,,,,,,,,,,,,,,,,IA-3,,,,,,,,,"1|hzzh33:",,,,,,,,,,,,,,,,,,,,burdettadam,,,,,,,,,
+Connection Protocol HIPE,IA-18,31510,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,,RyanWest,burdettadam,burdettadam,30/Jun/18 5:12 AM,03/Nov/18 6:21 AM,28/Oct/23 2:43 AM,,,,0,,,"Story: As a developer, I want to support connection protocol so that I can establish connection with any indy agents.
+
+How to demo:
+Show documentation that's a result from an accepted HIPE PR.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IA-15,,,,,,,,,"1|hzybbr:",,,,,,SF Indy-agent 18.4,,,,,,,,,,,,,,burdettadam,dbluhm,,,,,"09/Aug/18 12:18 AM;dbluhm;This HIPE is undergoing revisions. I've been comunicating with Daniel Hardman to capture all of our ideas from the Agent Summit.;;;",,,
+Python Agent Routing Handler,IA-19,31514,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,,,burdettadam,burdettadam,30/Jun/18 6:06 AM,03/Nov/18 7:16 AM,28/Oct/23 2:43 AM,,,,0,,,"Story: As a python developer, I want an example of a routing handler that demonstrates how to associate handlers with incoming message types so that I have a working example to build from.
+
+How to demo:
+Demonstrate the ability to route a given message to a registered handler.",,,,,,,,,,,,,IA-8,,,,,,,,,,,,,,,,,,,,,,,,,IA-3,,,,,,,,,"1|hzzh3j:",,,,,,,,,,,,,,,,,,,,burdettadam,,,,,,,,,
+Python Agent Modules,IA-20,31516,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,,,burdettadam,burdettadam,30/Jun/18 6:14 AM,03/Nov/18 7:16 AM,28/Oct/23 2:43 AM,,,,0,,,"Story: As a developer I want a working example of an agents applications object level, that is, how to create meaningfull handlers for the message routing layer, so that I have a working example to build apon.
+
+How to demo:
+Demonstrate successfull application features derived from custom created handlers. ",,,,,,,,,,,,,IA-8,,,,,,,,,,,,,,,,,,,,,,,,,IA-3,,,,,,,,,"1|hzzh3r:",,,,,,,,,,,,,,,,,,,,burdettadam,,,,,,,,,
+Example of how an agent could be implemented in NodeJs.,IA-21,31560,,Epic,Complete,IA,Indy Agent,software,nage,,,Medium,Deferred,,burdettadam,burdettadam,03/Jul/18 3:45 AM,19/Sep/19 12:30 AM,28/Oct/23 2:43 AM,19/Sep/19 12:30 AM,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ghx-label-3,,NodeJs Reference Agent,To Do,,,,,,,"1|hzzh13:",,,,,,,,,,,,,,,,,,,,burdettadam,esplinr,,,,,"19/Sep/19 12:30 AM;esplinr;Further work on agents will be done as part of project Aries.;;;",,,
+As a CLI user I should be able to send a connection request to another Identity Owner (institution or individual),IA-23,19850,,Story,Complete,IA,Indy Agent,software,nage,,,Medium,Deferred,danielhardman,avkrishnan,avkrishnan,02/Aug/17 6:27 PM,19/Sep/19 12:26 AM,28/Oct/23 2:43 AM,19/Sep/19 12:26 AM,,,0,4Months,unicorn,"Given I am a CLI user, I should be able to: 1. Sent a connection request to another Identity Owner (either an individual or organization).So that I can start having Sovrin Connections.Examples: -Joe requests to have a connection with Alice-A bank requests having a connection with Alice-Susan sends a connection request to Alice.Alice just a very popular person.*POA*_Assumptions_* Sender knows receiver's endpoint (for example: If Joe want to send connection request to Alice, then Joe already knows endpoint of Alice's agent)_POA Steps_* CLI user can add endpoint, identifier and other information with name to whom it wants to send connection request. Add a command in sovrin cli. In file sovrin/cli/cli.py, add regex to interpret cli command, add it to lexers and completers. Add command action handler.* In add connection name command handler, save data in available connections variable along with endpoint data. This will be used to send invitation to connections available.* Add `send invitation to <connection name>` command. Add a command in sovrin cli. In file sovrin/cli/cli.py, add regex to interpret cli command, add it to lexers and completers. Add command action handler.* In `send invitation` command handler, generate a unique nonce, save this nonce so that once other cli user accepts invitation, we can match it up. Generate an invitation file on runtime and send it to endpoint provided.* Add handler in agent which listens for incoming invitations. Allow CLI to register to this event, so that agent can forward this request to CLI running and CLI can print it out, so that user can take an action.",,,,,,,,,,IA-15,,,,,,,,,,,,,,,,,,,,,,,,,,,,IA-25,,,,,,,,,"1|hzzypi:w",,,,,,,,,,,,,,,,,,,,avkrishnan,esplinr,tylerq,,,,"26/Aug/17 5:36 AM;tylerq;[~nage] We are building this in the consumer team, is there ledger work for furthering this implementation which means we should keep this story? I think it should be closed.;;;","19/Sep/19 12:26 AM;esplinr;Agent work has moved from the Indy project to Aries. There is some question about whether there is a need for a CLI agent, or whether the Agent-Toolbox meets the same need.;;;",,
+As a CLI user I should be able to approve a connection request,IA-24,19849,,Story,Complete,IA,Indy Agent,software,nage,,,Medium,Deferred,avkrishnan,avkrishnan,avkrishnan,02/Aug/17 6:27 PM,19/Sep/19 12:26 AM,28/Oct/23 2:43 AM,19/Sep/19 12:26 AM,,,0,4Months,unicorn,"Given I've received a connection request: 1. I should be able to see that I have a connection request1.1 I should be able to see information about the requester 2. I should be able to approve/accept the connection request3. The requester should be notified that I accepted the connection request. 4. If I ""deny"" the connection request, nothing should happen.5. If I accept the connection request, I should have a secure connection established between me (the CLI user) and the other Identity (could be another CLI user acting as another institution or individual Identity Owner).Suggested text for incoming connection request: ""New connection request from [requester's DID OR user-friendly name for that DID]. Type ""approve"" to approve or ""deny"" to deny. Type ""request connection help"" for more information.""6. Typing ""request connection help"" should show me some more helpful information about what approving or denying a connection does. Some example explaining text: ""Approving a connection request will add the requester to your list of connections. You can message and share verifiable claims and proofs with connections.""""Denying a request will ignore the connection request, and the requester will not be notified.""""You can remove a connection by typing [__________]""*POA*_Assumptions_* Incoming connection request handler add connection request to link in the same way as `load` command adds info to links._POA steps_* Once user sees any incoming connection request in CLI. User can issue an `accept invitation` command.* Check if receiver user is not a SPONSOR, then we can't add incoming identifier on sovrin, in this case use incoming identifier as it is.",,,,,,,,,,IA-15,,,,,,,,,,,,,,,,,,,,,,,,,,,,IA-25,,,,,,,,,"1|hzzypi:r",,,,,,,,,,,,,,,,,,,,avkrishnan,esplinr,,,,,"19/Sep/19 12:26 AM;esplinr;Agent work has moved from the Indy project to Aries. There is some question about whether there is a need for a CLI agent, or whether the Agent-Toolbox meets the same need.;;;",,,
+All work related to CLI agent Identities connecting to each other,IA-25,20426,,Epic,Complete,IA,Indy Agent,software,nage,,,Medium,Deferred,,tylerq,tylerq,26/Aug/17 5:36 AM,19/Sep/19 12:26 AM,28/Oct/23 2:43 AM,19/Sep/19 12:26 AM,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ghx-label-6,,CLI Agent,To Do,,,,,,,"1|hzxx1b:",,,,,,,,,,,,,,,,,,,,esplinr,tylerq,,,,,"19/Sep/19 12:26 AM;esplinr;Agent work has moved from the Indy project to Aries. There is some question about whether there is a need for a CLI agent, or whether the Agent-Toolbox meets the same need.;;;",,,
+Secure Transport Protocol,IA-26,31729,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,Deferred,,burdettadam,burdettadam,07/Jul/18 5:56 AM,30/Mar/19 5:46 AM,28/Oct/23 2:43 AM,30/Mar/19 5:46 AM,,,0,,,"Story: As a developer, I want to support secure transport protocol so that I can communicate with any Indy agents.
+
+How to demo:
+Show documentation that's a result from an accepted HIPE PR.
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IA-15,,,,,,,,,"1|hzybev:",,,,,,,,,,,,,,,,,,,,burdettadam,,,,,,,,,
+Agent Test Source Code,IA-27,31783,,Story,Complete,IA,Indy Agent,software,nage,,,Medium,,dbluhm,burdettadam,burdettadam,12/Jul/18 12:34 AM,09/Aug/18 12:13 AM,28/Oct/23 2:43 AM,,,,0,,,"Story: As an agent developer, I want to be able to test my agents compatibility with Indy protocols, so that other agents can communicate with my agent.
+
+Note: This ticket is only about the existence of the test suite, no functionality.
+
+How to demo: Provide a URL to a GitHub repo that has a readme with instructions on how to use the test suite.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IA-4,,,,,,,,,"1|hzybcv:",,,,,,SF Indy-agent 18.4,,,,,,,,,,,,,,burdettadam,dbluhm,,,,,"09/Aug/18 12:13 AM;dbluhm;https://github.com/hyperledger/indy-agent/tree/master/test-suite;;;",,,
+Test Core Message Structure ,IA-28,31785,,Story,Complete,IA,Indy Agent,software,nage,,,Medium,,,burdettadam,burdettadam,12/Jul/18 12:45 AM,09/Aug/18 12:19 AM,28/Oct/23 2:43 AM,,,,0,,,"Story: As a agent developer, I want to test my agent against this HIPEs (https://github.com/hyperledger/indy-hipe/pull/17) proposal. 
+
+How to demo: New tests that test the proposed functionality.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IA-4,,,,,,,,,"1|hzybd3:",,,,,,SF Indy-agent 18.4,,,,,,,,,,,,,,burdettadam,dbluhm,,,,,"09/Aug/18 12:19 AM;dbluhm;The ""hello world"" test we have in the test suite does essentially this.;;;",,,
+Test Connection Protocol,IA-29,31787,,Story,Complete,IA,Indy Agent,software,nage,,,Medium,Deferred,,burdettadam,burdettadam,12/Jul/18 12:53 AM,19/Sep/19 12:28 AM,28/Oct/23 2:43 AM,19/Sep/19 12:28 AM,,,0,,,"Story: As a agent developer, I want to test my agent against this HIPEs (https://github.com/hyperledger/indy-hipe/pull/18) proposal. 
+
+How to demo: New tests that test the proposed functionality.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IA-4,,,,,,,,,"1|hzzypg:",,,,,,,,,,,,,,,,,,,,burdettadam,esplinr,,,,,"19/Sep/19 12:28 AM;esplinr;Work on the Indy Agent Protocol test suite has migrated to the Aries project. Issues for the Protocol Test Suite are being tracked in GitHub issues:
+
+https://github.com/hyperledger/aries-protocol-test-suite/issues;;;",,,
+Test Suite UI,IA-30,31788,,Story,Complete,IA,Indy Agent,software,nage,,,Low,Deferred,,burdettadam,burdettadam,12/Jul/18 12:59 AM,19/Sep/19 12:28 AM,28/Oct/23 2:43 AM,19/Sep/19 12:28 AM,,,0,,,"Story: As a agency, I want a nice, browser based, UI, so that I can host indy protocol testing on my domain for proposed edge agents. 
+
+How to demo: Demonstrate browser UI interacting with the test suite server.  ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IA-4,,,,,,,,,"1|hzzyph:",,,,,,SF Indy-agent 18.4,,,,,,,,,,,,,,burdettadam,esplinr,,,,,"19/Sep/19 12:28 AM;esplinr;Work on the Indy Agent Protocol test suite has migrated to the Aries project. Issues for the Protocol Test Suite are being tracked in GitHub issues:
+
+https://github.com/hyperledger/aries-protocol-test-suite/issues;;;",,,
+Lite/Thin Agent,IA-31,31790,,Epic,Complete,IA,Indy Agent,software,nage,,,Medium,Deferred,dbluhm,burdettadam,burdettadam,12/Jul/18 1:15 AM,30/Mar/19 5:46 AM,28/Oct/23 2:43 AM,30/Mar/19 5:46 AM,,,0,,,A GUI that communicates state change by message.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ghx-label-4,,Lite/This Agent,To Do,,,,,,,"1|hzzic7:",,,,,,,,,,,,,,,,,,,,burdettadam,,,,,,,,,
+GUI Lite Agent Source Code,IA-32,31792,,Story,Complete,IA,Indy Agent,software,nage,,,Medium,Invalid,,burdettadam,burdettadam,12/Jul/18 1:34 AM,30/Mar/19 5:45 AM,28/Oct/23 2:43 AM,30/Mar/19 5:45 AM,,,0,,,"Story: As Indy agent maintainer's, I want to be able to demonstrate multiple agent implementation using a single GUI, so that a GUI only needs to be written once, as well as a place for focus collaboration.
+
+Note: This ticket is only about the existence of the GUI Lite Agent, no functionality.
+
+How to demo: Provide a URL to a GitHub repo that has a readme with instructions on how to use the GUI given a reference agent.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IA-3,,,,,,,,,"1|hzybdz:",,,,,,,,,,,,,,,,,,,,burdettadam,,,,,,,,,
+Protocol Request Protocol,IA-34,31794,,Task,Complete,IA,Indy Agent,software,nage,,,Low,Done,,burdettadam,burdettadam,12/Jul/18 1:49 AM,18/Sep/19 11:57 PM,28/Oct/23 2:43 AM,18/Sep/19 11:57 PM,,,0,,,"Story: As a agent, I want to know what protocols or APIs a newly discovered agent supports, so that I know how I can communicate with him.
+
+Note: This could be done after a connection has been established and include some sort of protocol certificate.
+
+How to demo: Show documentation that's a result from an accepted HIPE PR.
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IA-15,,,,,,,,,"1|hzzypi:",,,,,,,,,,,,,,,,,,,,burdettadam,esplinr,,,,,"18/Sep/19 11:56 PM;esplinr;See the Aries discovery protocol:
+https://github.com/hyperledger/aries-rfcs/tree/master/features/0031
+
+Work to implement it will be done with the Aries agents.;;;",,,
+GUI Action HIPE,IA-35,31796,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,Invalid,,burdettadam,burdettadam,12/Jul/18 1:57 AM,30/Mar/19 5:45 AM,28/Oct/23 2:43 AM,30/Mar/19 5:45 AM,,,0,,,"Story: As a agent, I want to alert a GUI lite agent of an action that has taken place or be alerted of an action to take, so that a owner using a GUI lite agent can see/cause wallet state changes.
+ 
+Note: This is a very raw idea and needs to be refined. This message type might be helpful for using the test suite. Set up the test suite as a GUI light agent so the test suite can simulate a owner issuing commands.
+
+How to demo: Show documentation that's a result from an accepted HIPE PR.
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IA-15,,,,,,,,,"1|hzybc7:",,,,,,SF Indy-agent 18.4,,,,,,,,,,,,,,burdettadam,,,,,,,,,
+Create design proposal for indy-agent,IA-36,30125,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,,dbluhm,dbluhm,dbluhm,11/May/18 8:05 AM,19/Jul/18 5:53 AM,28/Oct/23 2:43 AM,,,,0,,,Create an official design proposal for indy-agent.,,,,,,,,,,,,,IA-5,,,,,IA-2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzwsfb:",,,,,,EV 18.15 Stability,,3.0,,,,,,,,,,,,burdettadam,dbluhm,,,,,"30/Jun/18 1:49 AM;burdettadam;This now lives as IA-5.;;;",,,
+Do messages to follow HIPE connection protocol,IA-37,33230,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,,trthhrtz,trthhrtz,trthhrtz,26/Aug/18 7:02 PM,27/Nov/18 6:42 AM,28/Oct/23 2:43 AM,,,,0,,,"Python agent messages structure to fit the HIPE connection protocol described here:
+
+[https://github.com/hyperledger/indy-hipe/pull/18/]",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzzobb:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),trthhrtz,,,,,,,,,
+Connection Protocol in Python agent,IA-38,34013,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,,trthhrtz,trthhrtz,trthhrtz,24/Sep/18 11:06 AM,27/Nov/18 6:42 AM,28/Oct/23 2:43 AM,,,,0,,,"Connection Protocol should be implemented according to the following structure:
+{code:java}
+@startuml
+Alice --> Bob : invite
+rnote left
+    * endpoint information
+       endpoint did
+           or
+       endpoint uri
+       endpoint key
+    * connection key (one time use)
+end note
+
+Bob --> Alice: request
+rnote right
+anon_crypted(endpoint_key, {
+    @type: ""did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/routing/1.0/forward_to_key"",
+    key: one time encryption key,
+    content: {
+        @type: ""did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/connections/1.0/request"",
+        key: connection key,
+        content: auth_crypted(connection key, {
+            did: // did on a public ledger
+                or
+            did_doc:
+        })
+    }
+})
+end note
+Alice --> Bob: response
+rnote left
+anon_crypted(endpoint_key, {
+    @type: ""did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/routing/1.0/forward"",
+    to: ""ABC"",
+    content: {
+        @type: ""did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/connections/1.0/response"",
+        to: ""did:sov:ABC"",
+        content: auth_crypted(""123"", {
+            did: // did on a public ledger
+                or
+            did_doc:
+        })
+    }
+})
+end note
+
+Bob --> Alice: future messages
+rnote right
+anon_crypted(endpoint_key, {
+    @type: ""did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/routing/1.0/forward"",
+    to: ""ABC"",
+    content: {
+        @type: ,
+        from: ""did:sov:ABC"",
+        content: auth_crypted( , )
+    }
+})
+end note
+@enduml
+{code}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzzs5r:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),trthhrtz,,,,,,,,,
+Python Agent Docker,IA-39,34533,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,Deferred,TelegramSam,burdettadam,burdettadam,10/Oct/18 5:45 AM,19/Sep/19 12:33 AM,28/Oct/23 2:43 AM,19/Sep/19 12:33 AM,,,0,,,"story: As a developer, I want to be able to use the python agent a with a simple docker container. 
+note: this task includes, wrapping up everything done so far and pack into docker for better user/dev experience working with Python agent.
+
+How to demo: start the python agent in a docker container.",,,,,,,,,,,,,,,,,,,,,,,IA-40,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,IA-3,,,No,,Unset,No,,,"1|hzzh1b:",,,,Unset,Unset,SF Indy-agent 18.22,(Please add steps to reproduce),1.0,Unset,,,,,,Unset,,Unset,,(Please add usage information),burdettadam,dbluhm,esplinr,haggs,,,"03/Nov/18 7:00 AM;dbluhm;[~swcurran] of BC Gov has submitted a PR with a docker setup for the Python ref agent.;;;","03/Nov/18 7:06 AM;dbluhm;On Sam's short list to review [~swcurran]'s PR;;;","19/Sep/19 12:33 AM;esplinr;Work on the Indy Python Reference Agent has been superseded by work on the Aries Cloud Agent Python (ACA-py):
+
+https://github.com/hyperledger/aries-cloudagent-python/;;;",
+Python Agent docker documentation ,IA-40,34534,34533,Sub-task,Complete,IA,Indy Agent,software,nage,,,Medium,Deferred,TelegramSam,burdettadam,burdettadam,10/Oct/18 5:49 AM,19/Sep/19 12:33 AM,28/Oct/23 2:43 AM,19/Sep/19 12:33 AM,,,0,,,"Story: As a developer, I want documentation that provides details on how to launch the Python agent via docker.
+
+ ",,,,,,,,,,,,,,,,,,IA-39,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzzh1r:",,,,Unset,Unset,SF Indy-agent 18.22,(Please add steps to reproduce),1.0,Unset,,,,,,Unset,,Unset,,(Please add usage information),burdettadam,esplinr,,,,,"19/Sep/19 12:33 AM;esplinr;Work on the Indy Python Reference Agent has been superseded by work on the Aries Cloud Agent Python (ACA-py):
+
+https://github.com/hyperledger/aries-cloudagent-python/;;;",,,
+Python Agent documentation ,IA-41,34536,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,,trthhrtz,burdettadam,burdettadam,10/Oct/18 5:55 AM,27/Nov/18 6:59 AM,28/Oct/23 2:43 AM,,,,0,,,"Story: As a developer, I want documentation on how to launch the python agent manually on my local machine. ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,IA-3,,,No,,Unset,No,,,"1|hzzh1j:",,,,Unset,Unset,SF Indy-agent 18.22,(Please add steps to reproduce),1.0,Unset,,,,,,Unset,,Unset,,(Please add usage information),burdettadam,dbluhm,,,,,"03/Nov/18 7:08 AM;dbluhm;We need to update the docs to include what they need to type in in order to actually communicate with another reference agent instance i.e. http://localhost:port/offer and http://localhost:port/indy;;;",,,
+Python Agent connection protocol.,IA-42,34538,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,,trthhrtz,burdettadam,burdettadam,10/Oct/18 5:59 AM,03/Nov/18 7:05 AM,28/Oct/23 2:43 AM,,,,0,,,Task: To implement the 4th step future messages described here https://chat.hyperledger.org/channel/indy-agent?msg=FP87hvzPgWDz8W9sD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,IA-3,,,No,,Unset,No,,,"1|hzzh27:",,,,Unset,Unset,SF Indy-agent 18.22,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),burdettadam,,,,,,,,,
+Allow wallet connection via commandline argument in addition to UI connection.,IA-43,34977,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,,haggs,TelegramSam,TelegramSam,30/Oct/18 10:47 PM,11/Dec/18 1:38 AM,28/Oct/23 2:43 AM,,,,0,,,"Currently, you connect to the wallet via the  Web User Interface. We need a way to specify the same values on the command line so that on launch the agent is already connected to the desired wallet. 
+
+To connect, you need the wallet name and passphrase.
+
+If the wallet connection information is not present on the command line, the UI should still ask for wallet connection information.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,IA-3,,,No,,Unset,No,,,"1|hzzh2f:",,,,Unset,Unset,SF Indy-agent 18.22,(Please add steps to reproduce),2.0,Unset,,,,,,Unset,,Unset,,(Please add usage information),dbluhm,haggs,TelegramSam,,,,"31/Oct/18 1:08 AM;haggs;Taking a first stab at this one myself.  Per some discussion (and for my own mental notes).
+Here's a rough draft of the flow:
+1. Initialize agent with username and password which creates wallet (Alice) 
+2. Initialize a second agent using the same method above^
+3. Send credential offer (message family is state?)`Sending ""\{""type"": ""did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/sovrin.org/ui/1.0/state"", ""content"": {""initialized"": true, ""agent_name"": ""Bob""}}""`
+4. Receive? `{{Received ""\{""type"":""did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/sovrin.org/ui/1.0/state_request"",""id"":""1ea43de7ae0f405b95fa3dca53843d6e"",""content"":null}""}}
+
+{{Also: if you already have the wallet configured, then state should return the proper info. the UI may need minor adjustment to skip that step.}}
+
+{{and }}
+
+also, we should not allow a message to set the wallet if one has already been set up.{{}};;;","07/Nov/18 11:28 PM;haggs;So I've got some hard-coded working versions of this going.  Curious if this approach resonates with [~TelegramSam] or [~dbluhm].   On launch, if a config file with wallet names, agents, and passphrases is present it will automatically load those and skip the login/wallet page. Alternatively this could be done by interacting with the Docker image with a bash script inside of the command line.  Thoughts? Both could be possible as well. Thanks!;;;","16/Nov/18 6:28 AM;dbluhm;As a potential reference, I had similar functionality in the test suite:
+https://github.com/hyperledger/indy-agent/blob/master/test-suite/config.py
+https://github.com/hyperledger/indy-agent/blob/master/test-suite/agent.py#L21;;;","16/Nov/18 9:51 AM;haggs;Those are much nicer than my first pass at this.  Should definitely refactor to that ^^ Thanks for the references
+
+ ;;;"
+Python Agent message permissions stubs,IA-44,35056,,Story,Complete,IA,Indy Agent,software,nage,,,Medium,Deferred,,burdettadam,burdettadam,02/Nov/18 6:33 AM,19/Sep/19 12:33 AM,28/Oct/23 2:43 AM,19/Sep/19 12:33 AM,,,0,,,"Story: 
+As an agent owner, I would like to define what type of messages my agent will acknowledge and execute on each connection. 
+
+Note: 
+This is connection permissions. this will allow an agent owner to prevent his agent from responding to admin type messages from unauthorized connections. this is a future feature, this task only needs empty calls where a permissions check would occur.
+
+How To Demo:
+show exactly where a message permission check will be called and how it will prevent or support message execution. 
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,IA-3,,,No,,Unset,No,,,"1|hzzx93:",,,,Unset,Unset,,(Please add steps to reproduce),2.0,Unset,,,,,,Unset,,Unset,,(Please add usage information),burdettadam,esplinr,,,,,"02/Nov/18 6:37 AM;burdettadam;This should go after unpacking, prior to routing to the handler.
+This should address concerns with who sent it, what the message is, and do I process it or not?
+;;;","19/Sep/19 12:33 AM;esplinr;Work on the Indy Python Reference Agent has been superseded by work on the Aries Cloud Agent Python (ACA-py):
+
+https://github.com/hyperledger/aries-cloudagent-python/;;;",,
+PyRef: Message Persistence,IA-45,35057,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,Deferred,TelegramSam,burdettadam,burdettadam,02/Nov/18 6:50 AM,19/Sep/19 12:33 AM,28/Oct/23 2:43 AM,19/Sep/19 12:33 AM,,,0,,,"Task: 
+As the Agent, I need message persistence. 
+Note:
+This task is to refactor message sending to have an inbox or message queue
+How To Demo:
+handle multiple messages at the same time.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,IA-3,,,No,,Unset,No,,,"1|hzzh1z:",,,,Unset,Unset,SF Indy-agent 18.22,(Please add steps to reproduce),4.0,Unset,,,,,,Unset,,Unset,,(Please add usage information),burdettadam,esplinr,haggs,,,,"19/Sep/19 12:33 AM;esplinr;Work on the Indy Python Reference Agent has been superseded by work on the Aries Cloud Agent Python (ACA-py):
+
+https://github.com/hyperledger/aries-cloudagent-python/;;;",,,
+Python Agent persistent storage,IA-46,35058,,Story,Complete,IA,Indy Agent,software,nage,,,Medium,Deferred,,burdettadam,burdettadam,02/Nov/18 7:02 AM,19/Sep/19 12:33 AM,28/Oct/23 2:43 AM,19/Sep/19 12:33 AM,,,0,,,"Story: 
+As an agent, I need all persistence to be on the server.
+
+Note: 
+This task is for setting up connection data to persist on the server in memory instead of the browser.
+
+How To Demo:
+start up the agent server, open a browser and connect to the agent server, create connections, close browser, open a new browser, connect, and have the same connection that was created in the previous browser. ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,IA-3,,,No,,Unset,No,,,"1|hzzh2n:",,,,Unset,Unset,,(Please add steps to reproduce),4.0,Unset,,,,,,Unset,,Unset,,(Please add usage information),burdettadam,esplinr,TelegramSam,,,,"07/Nov/18 12:44 AM;TelegramSam;For storage, we should use the Indy SDK non-secrets api. This prevents any new dependencies or domain knowledge needed for the reference agent.;;;","19/Sep/19 12:33 AM;esplinr;Work on the Indy Python Reference Agent has been superseded by work on the Aries Cloud Agent Python (ACA-py):
+
+https://github.com/hyperledger/aries-cloudagent-python/;;;",,
+Mock Credentials Interface in Python Ref Agent,IA-47,35236,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,Deferred,haggs,TelegramSam,TelegramSam,09/Nov/18 8:41 AM,19/Sep/19 12:33 AM,28/Oct/23 2:43 AM,19/Sep/19 12:33 AM,,,0,,,"Create UI for credentials management. UI code is in Vue.js
+
+Inspiration can (and should be) taken from the NodeJS Agent, where the UI is written in ReactJS. That code can be found here: [https://github.com/hyperledger/indy-agent/tree/master/nodejs/ui/views]
+
+Interactions will be fake to see the different forms and UI elements. Access to the new ui should be through the currently non-working 'credentials' tab at the top.
+
+ ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzzy6v:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),esplinr,haggs,TelegramSam,,,,"17/Nov/18 5:58 AM;haggs;I'll go ahead and tackle this one for now and give it a go
+
+ ;;;","19/Sep/19 12:33 AM;esplinr;Work on the Indy Python Reference Agent has been superseded by work on the Aries Cloud Agent Python (ACA-py):
+
+https://github.com/hyperledger/aries-cloudagent-python/;;;",,
+Agent manage credentials,IA-48,35327,,Story,Complete,IA,Indy Agent,software,nage,,,Medium,Deferred,nhelmy,nhelmy,nhelmy,14/Nov/18 7:26 AM,19/Sep/19 12:33 AM,28/Oct/23 2:43 AM,19/Sep/19 12:33 AM,,,0,,,"Story: As a user, I want to be able to manage my credentials by:
+ * viewing my credentials and their status - IA-47
+ * send/receive a credential offer - (tasks to be added)
+ * send/receive a credential request - (tasks to be added)
+ * send/receive a credential - (tasks to be added)
+
+Note #1: This is an implementation of Indy's Anoncreds, which allows the Reference Agent to be an Issuer, Prover, and Verifier.
+ [https://github.com/hyperledger/indy-sdk/tree/master/doc/design/002-anoncreds]
+
+Note #2: This module heavily implies the parallel implementation of the Proofs module. The Credentials module outlined here can can cover issuing and holding credentials, but proving and verifying credentials should be handled by the Proofs module. Proofs are essentially a more specific case of Credentials, but the abstraction is still a useful one because of the added functionality needed.
+
+To demo this:
+ Show that each referenced task is completed.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,IA-3,,,No,,Unset,No,,,"1|hzzypb:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),esplinr,haggs,nhelmy,,,,"14/Nov/18 8:26 AM;nhelmy;I have taken an initial stab at stubbing out the functions needed to implement this module. Looking to submit it as a PR at some point but I think it should have the UI component before I do so (although I could be wrong on this–welcome feedback). I have commented out the function calls that will trigger the credentials code so that the agent can run as-is until we can test this code and skeleton the UI.
+
+https://github.com/unveil-social/indy-agent/tree/nader-wip;;;","19/Sep/19 12:33 AM;esplinr;Work on the Indy Python Reference Agent has been superseded by work on the Aries Cloud Agent Python (ACA-py):
+
+https://github.com/hyperledger/aries-cloudagent-python/;;;",,
+Evernym contribute a reference cloud agent,IA-49,35945,,Epic,Complete,IA,Indy Agent,software,nage,,,High,Won't Do,,esplinr,esplinr,07/Dec/18 8:27 AM,18/Sep/19 11:41 PM,28/Oct/23 2:43 AM,18/Sep/19 11:40 PM,Reference Cloud Agent,,0,,,"*Story*
+As a user of a solution in the Indy ecosystem, I need a constantly connected cloud agent to ensure that my mobile edge agent does not miss important notifications.
+
+*Acceptance Criteria*
+* Code is made part of public repositories in the Indy project.
+*  A binary package exists which can be executed with ""java -jar cloudagent.jar""
+* The process runs a single cloud agent which can communicate with an open source edge agent such as the [Sovrin Connector App|https://github.com/sovrin-foundation/connector-app/]
+* It includes manual build scripts sufficient for developers to work on the code base.
+* It runs on Ubuntu Linux 16.04
+* Unit tests are included and can be manually executed by a developer.
+* Unit tests pass.
+* JIRA issues exist that document open issues and key decisions regarding what we did and what we decided not to do.
+* An architectural overview document, including an FAQ, is included in the code repository.
+* A CI / CD pipeline is running on Hyperledger infrastructure that builds and executes the unit tests.
+
+*Notes*
+* The open source cloud agent needs to be sufficient for a technical person to run an agent for themselves on their own equipment.
+* It is expected to be implemented in Scala.
+* When agents are communicating with other agents, it is assumed that a mediator could be routing the messages.
+
+*Excluded*
+These efforts are future work:
+* Removing dependency on Dynamo DB: IA-55
+* Agent to agent protocol compatibility: IA-53",,,,,,,,,,,,,IS-920,IS-933,IS-871,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,ghx-label-14,,Initial Cloud Agent,To Do,No,,Unset,No,,,"1|i0021r:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),esplinr,,,,,,"18/Sep/19 11:40 PM;esplinr;BC.gov contributed their VON agent as the Aries-Cloud-Agent-Python (ACA-py), removing the need for this effort by Evernym.;;;",,,
+Move cloud agent code to the Indy Agent repository,IA-50,35946,,Task,Complete,IA,Indy Agent,software,nage,,,Medium,Won't Do,,esplinr,esplinr,07/Dec/18 8:49 AM,18/Sep/19 11:40 PM,28/Oct/23 2:43 AM,18/Sep/19 11:40 PM,Reference Cloud Agent,,0,,,"The Indy Agent repository should contain a reference cloud agent.
+
+*Acceptance Criteria*
+* Move code from Evernym's Git repository to the Hyperledger repository  for Indy Agent.
+* The code will be contributed as a pull request with proper DCO signatures so it is released under the Apache license.
+* The code will build and unit tests will pass (see IA-49).
+* It contains a README describing the purpose and use of the artifact.
+
+Excluded:
+* Code history is not required.
+* Other tasks beyond contributing the code will be tracked as separate tickets.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,IA-49,,,No,,Unset,No,,,"1|i0021z:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),esplinr,,,,,,"18/Sep/19 11:40 PM;esplinr;BC.gov contributed their VON agent as the Aries-Cloud-Agent-Python (ACA-py), removing the need for this effort by Evernym.;;;",,,
+Document reference cloud agent architecture,IA-51,35947,,Story,Complete,IA,Indy Agent,software,nage,,,Medium,Won't Do,,esplinr,esplinr,07/Dec/18 8:59 AM,18/Sep/19 11:40 PM,28/Oct/23 2:43 AM,18/Sep/19 11:40 PM,Reference Cloud Agent,,0,,,"As a Software Developer building solutions in an Indy ecosystem, I need to understand the architectural of the reference cloud agent so that I can deploy it, maintain it, and contribute to it.
+
+*Acceptance Criteria*
+* A document exists in the Indy Agent code repository describing the Reference Cloud Agent.
+* Document should be in Markdown
+* Define the design trade-offs made in development.
+* Explaining essential alternative approaches that were not approved (anti-patterns and dead-ends in development)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,IA-49,,,No,,Unset,No,,,"1|i00227:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),esplinr,,,,,,"18/Sep/19 11:40 PM;esplinr;BC.gov contributed their VON agent as the Aries-Cloud-Agent-Python (ACA-py), removing the need for this effort by Evernym.;;;",,,
+Work with LibVCX,IA-52,35948,,Story,Complete,IA,Indy Agent,software,nage,,,Medium,Won't Do,,esplinr,esplinr,07/Dec/18 9:07 AM,18/Sep/19 11:40 PM,28/Oct/23 2:43 AM,18/Sep/19 11:40 PM,Reference Cloud Agent,,0,,,"*Story*
+As a developer of solutions in an Indy ecosystem, I want to use LibVCX in the Indy SDK to do claims exchange with agents that use the Reference Cloud Agent so that my solution is compatible with other agents in the ecosystem.
+
+*Acceptance Criteria*
+* LibVCX unit tests can be run with against the Reference Cloud Agent
+
+Excluded:
+* These components don't have to use the Agent 2 Agent protocol. That will be future work (IA-53)",,,,,,,,,,,,,,,,IA-54,,,,,,,IA-53,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,IA-49,,,No,,Unset,No,,,"1|i0022f:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),esplinr,,,,,,"18/Sep/19 11:40 PM;esplinr;BC.gov contributed their VON agent as the Aries-Cloud-Agent-Python (ACA-py), removing the need for this effort by Evernym.;;;",,,
+Cloud agent should use the Agent 2 Agent protocol,IA-53,35949,,Story,Complete,IA,Indy Agent,software,nage,,,Medium,Won't Do,,esplinr,esplinr,07/Dec/18 9:10 AM,18/Sep/19 11:42 PM,28/Oct/23 2:43 AM,18/Sep/19 11:42 PM,Reference Cloud Agent,,0,,,"*Story*
+As a developer of solutions in an Indy ecosystem, I want the reference cloud agent to use the Agent to Agent protocol so that my solution will be compatible with it.
+
+*Notes*
+* The agent to agent protocol is documented in a series of HIPEs: https://github.com/hyperledger/indy-hipe/tree/master/text",,,,,,,,,,,,,,,,,,IA-52,IA-54,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,IA-49,,,No,,Unset,No,,,"1|i0022n:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),esplinr,,,,,,"18/Sep/19 11:42 PM;esplinr;BC.gov contributed their VON agent as the Aries-Cloud-Agent-Python (ACA-py), removing the need for this effort by Evernym.;;;",,,
+Work with Sovrin Connector App,IA-54,35950,,Story,Complete,IA,Indy Agent,software,nage,,,Medium,Won't Do,,esplinr,esplinr,07/Dec/18 9:12 AM,18/Sep/19 11:40 PM,28/Oct/23 2:43 AM,18/Sep/19 11:40 PM,Reference Cloud Agent,,0,,,"*Story*
+As a developer of solutions in an Indy ecosystem, I want to use an open source edge agent to do claims exchange with agents that use the Reference Cloud Agent so that my solution is compatible with other agents in the ecosystem.
+
+The predominant open source mobile edge agent is the Sovrin Connector App: https://github.com/sovrin-foundation/connector-app/
+
+*Acceptance Criteria*
+* The tests of the Sovrin Connector App can be run with against the Reference Cloud Agent
+
+Excluded:
+* These components don't have to use the Agent 2 Agent protocol. That will be future work (IA-53)",,,,,,,,,,,,,,,,,IA-52,,,,,,IA-53,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,IA-49,,,No,,Unset,No,,,"1|i0022v:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),esplinr,,,,,,"18/Sep/19 11:40 PM;esplinr;BC.gov contributed their VON agent as the Aries-Cloud-Agent-Python (ACA-py), removing the need for this effort by Evernym.;;;",,,
+Cloud agent should not depend on Dynamo DB,IA-55,35951,,Story,Complete,IA,Indy Agent,software,nage,,,Medium,Done,,esplinr,esplinr,07/Dec/18 9:16 AM,18/Sep/19 11:42 PM,28/Oct/23 2:43 AM,18/Sep/19 11:42 PM,Reference Cloud Agent,,0,,,"*Story*
+As an administrator maintaining a reference cloud agent, I want to use open source components to administer my deployment rather than having to subscribe to AWS Dynamo DB.
+
+*Acceptance Criteria*
+* The reference cloud agent can be configured to use an open source key-value store, such as Cassandra or MongoDB.
+
+*Notes*
+* An alternative implementation would be for it to manage it's key-value store in the same storage as the wallet, but that likely would take a lot of work.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,IA-49,,,No,,Unset,No,,,"1|i00233:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),esplinr,,,,,,"18/Sep/19 11:42 PM;esplinr;BC.gov contributed their VON agent as the Aries-Cloud-Agent-Python (ACA-py), removing the need for this effort by Evernym.;;;",,,
+Cloud Agent CI / CD pipeline,IA-56,35952,,Story,Complete,IA,Indy Agent,software,nage,,,Medium,Won't Do,,esplinr,esplinr,07/Dec/18 9:39 AM,18/Sep/19 11:40 PM,28/Oct/23 2:43 AM,18/Sep/19 11:40 PM,Reference Cloud Agent,,0,,,"The Reference Cloud Agent should be built and tested as part of the Indy Agent delivery pipeline.
+
+*Acceptance Criteria*
+Each time changes are made to the code repository:
+* A jar is built
+* Unit tests are executed
+* Artifacts are published to Sovrin maven repo",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,IA-49,,,No,,Unset,No,,,"1|i0023b:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),esplinr,,,,,,"18/Sep/19 11:40 PM;esplinr;BC.gov contributed their VON agent as the Aries-Cloud-Agent-Python (ACA-py), removing the need for this effort by Evernym.;;;",,,

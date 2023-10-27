@@ -1,0 +1,334 @@
+Summary,Issue key,Issue id,Parent id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Affects Version/s,Fix Version/s,Fix Version/s,Due Date,Votes,Labels,Labels,Description,Environment,Watchers,Watchers,Watchers,Watchers,Watchers,Watchers,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Cloners),Inward issue link (Duplicate),Inward issue link (Relates),Attachment,Custom field (Business Value),Custom field (Commit Levels),Custom field (Current Status),Custom field (Design),Custom field (Design Status),Custom field (Documentation Impact),Custom field (Documentation Status),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Executed),Custom field (Found in Commit),Custom field (Function Test Status),Custom field (Must Fix),Custom field (Original story points),Custom field (Parent Link),Custom field (Rank),Custom field (Release Note),Custom field (Release Note Required),Custom field (Root Cause Analysis),Custom field (SDK Impact),Custom field (Sample/Tutorial),Sprint,Custom field (Steps to Reproduce),Custom field (Story Points),Custom field (System Test Impact),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Test Plan),Custom field (Test Result),Custom field (Test Result Details),Custom field (Test Type),Custom field (Triaged),Custom field (Usage),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Watchers),Custom field (Workaround),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitCommitsReferenced),Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment
+Publish fabric-chaintool binary to nexus repository,FABCT-1,19309,,Task,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,rameshthoomu,rameshthoomu,rameshthoomu,18/Jul/17 6:36 AM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,25/Jul/17 3:46 AM,,v1.1.0,,,0,build-system,,"publish fabric-chaintool binary to nexus release URL. Follow the below process to trigger the release chaintool binary
+
+-- Trigger fabric-chaintool job after tag is created in fabric-chaintool git repository
+
+-- Check the chaintool version number, if not SNAPSHOT
+
+    – publish chaintool.tar.gz to [https://nexus.hyperledger.org/content/repositories/releases/] URL
+
+    – If SNAPSHOT, publish snapshot version to [https://nexus.hyperledger.org/content/repositories/snapshots/]
+
+ 
+
+ 
+
+ ",,rameshthoomu,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzy3hj:",,,,,,,,,,,,,,,,,,,,rameshthoomu,,,,,,,,,,,,,,,,"25/Jul/17 3:46 AM;rameshthoomu;Patch has been submitted and merged.;;;",,,,,,,
+Release chaintool v1.1.1,FABCT-2,29577,,Task,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,greg.haskins,greg.haskins,21/Apr/18 8:48 PM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,21/Apr/18 10:17 PM,,,,,0,,,"The following fixes have been merged since v1.1.0
+
+-FAB-9420- Protect Init() function
+-FAB-9340- Fix SCC support
+-FAB-9606- Convert indents to TAB in golang.stg
+-FAB-9339- Add dev-helper support to REPL
+-FAB-9327- Support 'build -p' for system chaincode
+-FAB-9098- add metadata support to chaintool
+-FAB-9357- add CODE_OF_CONDUCT.md",,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzz6tr:",,,,,,,,,,,,,,,,,,,,greg.haskins,,,,,,,mergify/bp/release-2.2/pr-4374,release-2.5,release-2.4,release-1.1,main,mergify/bp/release-2.2/pr-3750,mergify/bp/release-2.5/pr-3782,mergify/bp/release-2.4/pr-3646,true,"21/Apr/18 8:55 PM;greg.haskins;https://gerrit.hyperledger.org/r/#/c/20847/;;;",,,,,,,
+update chaintool version and URL in fabric makefile,FABCT-3,19367,,Task,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,rameshthoomu,rameshthoomu,rameshthoomu,20/Jul/17 3:42 AM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,25/Jul/17 3:45 AM,v1.0.0,v1.0.1,v1.1.0,,0,build-system,,"update fabric-chaintool version and URL in fabric makefile to download ""chaintool"" binary from nexus repository.",,rameshthoomu,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzy96f:",,,,,,,,,,,,,,,,,,,,rameshthoomu,,,,,,,mergify/bp/release-2.2/pr-4374,release-2.5,release-2.4,release-1.0,main,mergify/bp/release-2.5/pr-3782,mergify/bp/release-2.2/pr-3750,mergify/bp/release-2.4/pr-3646,true,"25/Jul/17 3:45 AM;rameshthoomu;Patch has been submitted and merged.;;;",,,,,,,
+Release chaintool v1.1.2,FABCT-4,31022,,Task,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,greg.haskins,greg.haskins,13/Jun/18 10:58 AM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,19/Jun/18 7:09 AM,,v1.1.1,v1.2.0,,0,,,Capture bug fixes since v1.1.1,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzzenb:",,,,,,,,,,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,"13/Jun/18 11:02 AM;greg.haskins;https://gerrit.hyperledger.org/r/#/c/23005/;;;",,,,,,,
+V1 Fabric Generation Program,FABCT-5,14738,,Task,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,barath.oct@gmail.com,bmos299,bmos299,11/Feb/17 3:43 AM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,10/Jul/18 3:23 AM,,v1.0.0,,28/Feb/17 12:00 AM,0,quality,,A tool to create all the artifacts needed to spin up a network of n nodes.  This is a tool that is needed for scalability and load testing. ,,barath.oct@gmail.com,bmos299,ChristopherFerris,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzxkpr:",,,,,,Sprint 11 - Quality,,,,,,,,,,,,,,barath.oct@gmail.com,bmos299,ChristopherFerris,,,,,,,,,,,,,,"04/Apr/17 3:33 AM;ChristopherFerris;is this something different than what is already provided and documented here http://hyperledger-fabric.readthedocs.io/en/latest/getting_started.html ? If not, then this probably needs to be closed.
+;;;",,,,,,,
+add changelog.sh to fabric-chaintool,FABCT-6,16698,,Task,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,ChristopherFerris,ChristopherFerris,ChristopherFerris,13/May/17 12:57 AM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,25/May/17 8:40 AM,,v1.0.0-alpha2,,,0,build-system,,add changelog.sh,,ChristopherFerris,Clayton Sims,,,,,3600,3600,,0%,3600,3600,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzxv4v:",,,,,,,,1.0,,,,,,,,,,,,ChristopherFerris,Clayton Sims,,,,,,,,,,,,,,,"13/May/17 1:10 AM;ChristopherFerris;https://gerrit.hyperledger.org/r/#/c/9297/;;;","23/May/17 2:29 AM;Clayton Sims;should this be closed now that it is merged?
+
+ ;;;",,,,,,
+update chaintool download URL and version number in docs/gettingstarted.md,FABCT-7,19437,,Task,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,rameshthoomu,rameshthoomu,rameshthoomu,24/Jul/17 10:56 AM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,25/Jul/17 3:45 AM,v1.0.0,v1.1.0,,,0,,,update chaintool download URL and version number in docs/gettingstarted.md,,rameshthoomu,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzy9hb:",,,,,,,,,,,,,,,,,,,,rameshthoomu,,,,,,,,,,,,,,,,"25/Jul/17 3:45 AM;rameshthoomu;Patch has been submitted and merged.;;;",,,,,,,
+chaintool crash when protoc/protoc-gen-go missing,FABCT-8,19108,,Bug,To Do,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Low,,greg.haskins,greg.haskins,greg.haskins,10/Jul/17 9:23 PM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,,,,,,0,,,"We should not crash, but report a helpful error message.
+
+ 
+
+Possible optimization: We could probably auto-install protoc-gen-go if it is missing (e.g. ""go get ../protoc-gen-go"")",,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzy7l3:",,,,,,,,,,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,
+[SECURITY] Differentiated CA & TLS cert SDK examples & examples/cluster client.config consumption,FABCT-9,18883,,Bug,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Invalid,,mrkiouak,mrkiouak,02/Jul/17 9:19 AM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,19/Jul/18 8:27 AM,,,,,0,security,Security,"The fabric-chaintool examples previously capable of consuming the client.config emitted by fabric/examples/cluster *no longer function*
+
+These examples stopped working after the merge/resolution of --FAB-4626---. The *fabric-chaintool*, or a *fabric-sdk* repo, should be created that is able to consume this client.config and perform install, instantiates and invokes against Hyperledger Fabric v1.0.0-rc1.",,denyeart,inatatsu,JonathanLevi,jyellick,mrkiouak,yoheiueda,,,,,,,,,FAB-4546,,,,FAB-4626,,,,,,,,,,,,,,,,,,,"1|hzy6nb:",,,,,,,,,,,,,,,,,,,,denyeart,inatatsu,JonathanLevi,jyellick,mrkiouak,yoheiueda,,,,,,,,,,,"02/Jul/17 9:40 AM;JonathanLevi;I can't tell yet/right-away if the severity of this is HIGH or MEDIUM. Will appreciate it if others (e.g., [~mastersingh24] and [~jyellick] ) could chime in. That is, given the latest merges to v1.0.0-rc1, how difficult is it to get these examples to work (again?), etc.
+
+Thank you.;;;","27/Nov/17 12:35 PM;denyeart;[~mrkiouak] [~greg.haskins] Is this still an issue?;;;","05/May/18 2:13 AM;jyellick;As there have been no updates since November, closing as invalid.;;;",,,,,
+Example02 BalanceResult protobuf encode/decode crash,FABCT-10,14543,,Bug,To Do,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Lowest,,greg.haskins,greg.haskins,greg.haskins,04/Feb/17 11:05 PM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,,,Future,,,0,,,"h1. Issue
+
+Creating an account with a balance of 0, by init or by transaction, results in a crash when attempting to query the balance.
+
+```
+$ node ./out/example02.js -c deploy -n org.hyperledger.chaincode.example02 --port 5000 --args '{""partyA"":{""entity"":""a"", ""value"":100}, ""partyB"":{""entity"":""b"", ""value"":0}}'
+Running deploy({""partyA"":{""entity"":""a"",""value"":100},""partyB"":{""entity"":""b"",""value"":0}})
+HTTP POST: http://localhost:5000 - {""jsonrpc"":""2.0"",""method"":""deploy"",""params"":{""type"":3,""chaincodeID"":{""name"":""org.hyperledger.chaincode.example02""},""ctorMsg"":{""function"":""init"",""args"":[""CgUKAWEQZBIDCgFi""]}},""id"":""1""}
+Response: {:result {:status OK, :message org.hyperledger.chaincode.example02}}
+$ node ./out/example02.js -n org.hyperledger.chaincode.example02 --port 5000 -c check-balance --args '{""id"":""b""}'
+Running check-balance({""id"":""b""})
+HTTP POST: http://localhost:5000 - {""jsonrpc"":""2.0"",""method"":""query"",""params"":{""type"":3,""chaincodeID"":{""name"":""org.hyperledger.chaincode.example02""},""ctorMsg"":{""function"":""org.hyperledger.chaincode.example02/query/1"",""args"":[""CgFi""]}},""id"":""1""}
+
+/LSEG/chaintool/examples/example02/client/rest/cljs/node_modules/protobufjs/node_modules/bytebuffer/dist/bytebuffer-node.js:346
+            throw TypeError(""Illegal buffer"");
+                  ^
+TypeError: Illegal buffer
+    at TypeError (native)
+    at Function.module.exports.ByteBuffer.wrap (/LSEG/chaintool/examples/example02/client/rest/cljs/node_modules/protobufjs/node_modules/bytebuffer/dist/bytebuffer-node.js:346:19)
+    at Function.Message.decode (/LSEG/chaintool/examples/example02/client/rest/cljs/node_modules/protobufjs/dist/protobuf.js:2930:84)
+    at Message.decode64 (/LSEG/chaintool/examples/example02/client/rest/cljs/node_modules/protobufjs/dist/protobuf.js:2986:36)
+    at /LSEG/chaintool/examples/example02/client/rest/cljs/out/example02/core.cljs:40:69
+    at IncomingMessage.<anonymous> (/LSEG/chaintool/examples/example02/client/rest/cljs/out/example02/rpc.cljs:13:25)
+    at IncomingMessage.emit (events.js:107:17)
+    at IncomingMessage.Readable.read (_stream_readable.js:373:10)
+    at flow (_stream_readable.js:750:26)
+    at resume_ (_stream_readable.js:730:3)
+```
+h1. Discussion:
+
+About the 0 balance issue @jranz303 found, it seems to be a base64 encoding/decoding issue. When I try to initialize with a zero balance, for example: `{""partyA"":{""entity"":""a"", ""value"":100}, ""partyB"":{""entity"":""b"", ""value"":0}}`, the base64 encoded args are: `CgUKAWEQZBIDCgFi` When I decode that, I get something like:
+
+```
+
+ad
+b
+```
+
+The d corresponds to ASCII value 100, which seems like an odd way to encode it but that’s what appears to be happening. ASCII 0 is NULL, so I think what’s happening is on decoding, ByteBuffer is hitting this line for account b’s amount:
+
+```
+if (buffer === null || typeof buffer !== 'object')
+            throw TypeError(""Illegal buffer”);
+```
+
+---
+
+interesting
+what should be happening is a clean pipeline from protobuf->binary->base64 and back out again
+my guess is protobuf elided the entire message structure when the value of zero was presented
+what was the base64 in the case of 0?
+
+---
+
+I’m not exactly sure.
+Args: `{""partyA"":{""entity"":""a"", ""value"":100}}`
+Base64: `CgUKAWEQZA==`
+
+Args: `{""partyA"":{""entity"":""a"", ""value"":0}}`
+Base64: `CgMKAWE=`
+
+---
+
+my guess is whats happening here is something along the lines of `protobuf.encode(BalanceResult{0]).len == 0` and `base64(null) -> decode64` breaks somewhere
+",,andrasfe,greg.haskins,mastersingh24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzxk0v:",,,,,,,,,,,,,,,,,,,,andrasfe,greg.haskins,mastersingh24,,,,,,,,,,,,,,"04/Jul/18 10:15 PM;mastersingh24;Moving to future.  If they actually get done, can assign the fix version then;;;",,,,,,,
+Platform.go decodes chaincode path from spec without validation,FABCT-11,24525,,Bug,Unverified,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,,denyeart,ryjones,dhuseby,29/Nov/17 3:52 AM,01/Oct/21 3:11 AM,28/Oct/23 2:28 AM,,,Future,,,0,chaincode,Security,"Currently, when install/instantiate chaincode, HLF doesn't do any checking on the chaincode path, which is passed in the spec by user request. It can be arbitrary string in theory.
+  
+ At [https://github.com/hyperledger/fabric/blob/master/core/chaincode/platforms/golang/platform.go#L466], the path is decoded directly from spec without any validation.
+
+After that, the code runs the following cmd to build out that chaincode binary:
+
+  ```go
+ ""GOPATH=/chaincode/input:$GOPATH go build -tags \""%s\"" %s -o /chaincode/output/chaincode %s"", gotags, ldflagsOpt, pkgname)
+
+```
+  
+1. Then user may add arbitrary character into the chaincode path. I've tested that the "".."" in path will work, which may allow user to build out a chaincode binary to call with other person's chaincode content.
+
+
+2. A another case is that if users can add ""-"" at the head of the path, there will trigger an instantiation error, as the ""go build"" cmd will trigger the path as an unknown building flag. The error msg look like
+  
+ UTC [chaincode-platform] func1 -> ERRO 032 [0m Failed to generate platform-specific docker build: Error returned from build: 2 ""flag provided but not defined: -testinjection/chaincode_example02",,ChristopherFerris,denyeart,JonathanLevi,mastersingh24,,,,,,,,,,Security issue,,,,,,,,,,,,,,,,,,,,,,,,"1|hzyoe7:",,,,,,,,,,,,,,,,,,,,ChristopherFerris,denyeart,JonathanLevi,mastersingh24,,,,,,,,,,,,,"29/Nov/17 3:57 AM;dhuseby;This needs to be confirmed.  Validating all input is a commandment of secure programming, so this needs to be fixed.  It's severity level seems to be fairly low to me and doesn't warrant an advisory since it is mostly an insider attack vector.;;;","19/Jan/18 5:50 AM;dhuseby;This is a high security bug that hasn't been touched since the end of November.  What's going on with this?;;;","27/Jan/18 3:57 AM;mastersingh24;I thought I had commented on this one - my bad.
+
+I do not believe that this is a high security bug:
+
+1) Installation of chaincode is an administrative action.  Before installing any chaincode, users/admins should actually inspect the contents of the chaincode package.
+
+2) There is a signed chaincode package which should be used for production systems.  This should be used to enforce the inspection workflow.
+
+3) Nothing bad actually happens here.  The result of all of this is that the chaincode will not launch.  And even if people install a bad package, they simply need later install an updated package and upgrade the chaincode to get it running;;;","30/Jan/18 6:57 AM;dhuseby;I'm OK with downgrading this bug per your comment.  My only concern is that with #1 you're basically saying that all operators will have to have the capability of inspecting the chaincode source code and making sense of it.  I could think of a consortium situation where one member recommends installing an updated chaincode and all of the other members just blindly install it.  I guess we can't fix user error.  Maybe we need to make sure the end user is aware of the danger of running un-reviewed chaincode.;;;","30/Jan/18 6:59 AM;dhuseby;Gari, I'm not sure you addressed the bug as described, unless I don't fully grok the report.  It sounds to me like an unvalidated path bug.  Are you saying that the path will have to point to a signed chaincode bundle for anything to actually be installed/run?;;;","23/Mar/18 8:24 AM;dhuseby;Any update on this?;;;",,
+Update stale maintainer emails,FABCT-12,19926,,Bug,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,greg.haskins,greg.haskins,04/Aug/17 12:04 AM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,02/Oct/17 11:55 PM,,,,,0,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzybtj:",,,,,,,,,,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,
+Warnings from golang.stg,FABCT-13,31021,,Bug,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,greg.haskins,greg.haskins,13/Jun/18 6:25 AM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,13/Jun/18 10:55 AM,,,,,0,,,"StringTemplate is returning ugly warnings due to an Emacs file local variable intended to force Mode:golang, such as:
+{code:java}
+golang.stg 1:1: invalid character '<'
+golang.stg 1:1: invalid character '!'
+golang.stg 1:3: invalid character '-'
+golang.stg 1:4: invalid character '*'
+golang.stg 1:5: invalid character '-'
+golang.stg 1:7: garbled template definition starting at 'Mode'
+golang.stg 1:12: garbled template definition starting at 'go'
+{code}",,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzzen3:",,,,,,,,,,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,"13/Jun/18 6:28 AM;greg.haskins;https://gerrit.hyperledger.org/r/#/c/23003/;;;",,,,,,,
+Chaintool based chaincode fails at runtime,FABCT-14,20853,,Bug,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,greg.haskins,greg.haskins,16/Sep/17 12:57 AM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,22/Apr/18 10:49 PM,,v1.2.0,,,0,,,chaincode: error while loading shared libraries: libltdl.so.7: cannot open shared object file: No such file or directory,,ChristopherFerris,denyeart,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzygjj:",,,,,,,,,,,,,,,,,,,,ChristopherFerris,denyeart,greg.haskins,,,,,,,,,,,,,,"16/Sep/17 12:59 AM;greg.haskins;We can mitigate the problem for now by reverting 88e1e191.  Longer term, we should decide how to handle this.  Ideas would include platform conditionals, disabling +pkcs11, etc.;;;","27/Nov/17 1:39 PM;denyeart;[~ecb] Do you intend to work on this one?;;;","06/Apr/18 2:40 AM;ChristopherFerris;removed assignment.;;;",,,,,
+Fabric Logs should not contain Security Sensitive Data,FABCT-15,14952,,Bug,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,,ashutosh_kumar,ashutosh_kumar,21/Feb/17 5:04 AM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,14/Apr/17 8:47 PM,,v0.6,WON'T FIX,,0,,,statement like *user %s is not logged in* or *user %s is logged in* should not appear in the log.,,ashutosh_kumar,ChristopherFerris,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzxllr:",,,,,,,,,,,,,,,,,,,,ashutosh_kumar,ChristopherFerris,,,,,,,,,,,,,,,"14/Apr/17 8:48 PM;ChristopherFerris;could not find any evidence of the referenced code. closing.;;;",,,,,,,
+proto code generator has indent problems,FABCT-16,14542,,Bug,To Do,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Low,,greg.haskins,greg.haskins,greg.haskins,04/Feb/17 11:02 PM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,,,Future,,,0,,,,,ChristopherFerris,greg.haskins,mastersingh24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzxk0n:",,,,,,,,,,,,,,,,,,,,ChristopherFerris,greg.haskins,mastersingh24,,,,,,,,,,,,,,"19/Jan/18 11:11 PM;Clayton Sims;this was marked future a while back,  you ok with this post v1.1?   we are trying to lock down v1.1 ;;;","06/Apr/18 2:16 AM;ChristopherFerris;[~greg.haskins] is this still valid?;;;","06/Apr/18 2:43 AM;greg.haskins;Yeah, im making some other passes through chaintool so lets just mark any outstanding ones as v1.2 and shoot for that.;;;","04/Jul/18 10:15 PM;mastersingh24;Moving to future.  If they actually get done, can assign the fix version then;;;",,,,
+'chaintool build -p' doesnt work for system chaincode,FABCT-17,29120,,Bug,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,greg.haskins,greg.haskins,04/Apr/18 6:02 AM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,21/Apr/18 8:42 PM,,,,,0,,,There is a 'FIXME' in the code noting that a limitation exists w.r.t. running 'chaintool build' for system chaincode outside the CWD of the SCC.  We should fix this to respect the -p flag.,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzz4gf:",,,,,,,,,,,,,,,,,,,,greg.haskins,,,,,,,mergify/bp/release-2.2/pr-4374,release-2.5,release-2.4,release-1.1,main,mergify/bp/release-2.5/pr-3782,mergify/bp/release-2.2/pr-3750,mergify/bp/release-2.4/pr-3646,true,"04/Apr/18 6:03 AM;greg.haskins;https://github.com/hyperledger/fabric-chaintool/blob/f10d88fc05b3ae60be2cda596778979072b9c14f/src/chaintool/platforms/golang/system.clj#L25;;;","04/Apr/18 6:07 AM;greg.haskins;https://gerrit.hyperledger.org/r/#/c/20129/;;;",,,,,,
+"""chaintool build"" fails on OSX",FABCT-18,18129,,Bug,To Do,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,,greg.haskins,greg.haskins,greg.haskins,16/Jun/17 8:07 AM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,,v1.0.0-beta,Future,,,0,,,"{noformat}
+[GO] go build -o /Users/jmcnevin/Source/fabric-chaintool/examples/parameterless/build/bin/org.hyperledger.chaincode.example.parameterless-0.1-SNAPSHOT -ldflags -linkmode external -extldflags '-static' chaincode
+Using GOPATH /Users/jmcnevin/Source/fabric-chaintool/examples/parameterless/build/deps:/Users/jmcnevin/Source/fabric-chaintool/examples/parameterless/build:/Users/jmcnevin/Source/fabric-chaintool/examples/parameterless:/Users/jmcnevin/go
+Error: # chaincode
+/usr/local/Cellar/go/1.8.3/libexec/pkg/tool/darwin_amd64/link: running clang failed: exit status 1
+ld: library not found for -lcrt0.o
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+{noformat}",,denyeart,ecb,greg.haskins,jyellick,mastersingh24,,,,,,,,,Not a security issue,,,,,,,,,,,,,,,,,,,,,,,,"1|hzy3dz:",,,,,,,,,,,,,,,,,,,,denyeart,ecb,greg.haskins,jyellick,mastersingh24,,,,,,,,,,,,"29/Aug/17 1:15 AM;ecb;This is a fundamental limitation of OS X / MacOS (it is *not* a clang thang). The required crt0.o isn't provided by Xcode and friends. Depending on the underlying rational for -static linking we can:
+
+1) Stop doing -static  altogether (probably wisest)
+
+2) Stop doing it on OSX
+
+3) Do a ""partial"" static link on OSX using something like ""{{-static-libgcc -static-libstdc++""}};;;","29/Aug/17 1:38 AM;ecb;addendum:
+
+On OS X the best you can do is ""-static-libstdc++"" Statically linking against libgcc is simply verboten.;;;","02/Oct/17 11:56 PM;greg.haskins;We had to revert this fix due to a problem.  Will revisit;;;","27/Nov/17 12:26 PM;denyeart;[~greg.haskins] Do you intend to revisit in 1.1 timeframe?;;;","27/Nov/17 1:08 PM;greg.haskins;Hi Dave,
+
+It's low priority since we can just build on linux for now.  Lets push to 1.2;;;","05/May/18 2:10 AM;jyellick;Is this still an issue? I seem to recall [~greg.haskins] building chaintool on MacOS not that long ago.;;;","05/May/18 2:35 AM;ecb;Still an issue - it's not building chaintool itself but building chaincode via the 'chaintool build' command. The emitted command sequence is not MacOS friendly
+
+ ;;;","04/Jul/18 10:15 PM;mastersingh24;Moving to future.  If they actually get done, can assign the fix version then;;;"
+cannot instantiate helloworld example car,FABCT-19,18869,,Bug,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Invalid,mrkiouak,hcw,hcw,01/Jul/17 4:36 AM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,19/Jul/18 8:27 AM,v1.0.0-beta,,,,0,,,"$ node client.js instantiate
+info: [EventHub.js]: _connect - options {""grpc.ssl_target_name_override"":""peer1"",""grpc.default_authority"":""peer1""}
+error: [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Timeout expired while starting chaincode mycc:1(networkid:dev,peerid:peer3,tx:8941a08c94223cccfc75fef69bc413441a5abee8c4bb12bc7ec324be4dbf4e4d)
+    at /opt/gopath/src/github.com/hyperledger/fabric-chaintool/examples/example02/client/nodejs/node_modules/grpc/src/node/src/client.js:434:17
+error: [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Timeout expired while starting chaincode mycc:1(networkid:dev,peerid:peer1,tx:8941a08c94223cccfc75fef69bc413441a5abee8c4bb12bc7ec324be4dbf4e4d)
+    at /opt/gopath/src/github.com/hyperledger/fabric-chaintool/examples/example02/client/nodejs/node_modules/grpc/src/node/src/client.js:434:17
+error: [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Timeout expired while starting chaincode mycc:1(networkid:dev,peerid:peer2,tx:8941a08c94223cccfc75fef69bc413441a5abee8c4bb12bc7ec324be4dbf4e4d)
+    at /opt/gopath/src/github.com/hyperledger/fabric-chaintool/examples/example02/client/nodejs/node_modules/grpc/src/node/src/client.js:434:17
+error: [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Timeout expired while starting chaincode mycc:1(networkid:dev,peerid:peer4,tx:8941a08c94223cccfc75fef69bc413441a5abee8c4bb12bc7ec324be4dbf4e4d)
+    at /opt/gopath/src/github.com/hyperledger/fabric-chaintool/examples/example02/client/nodejs/node_modules/grpc/src/node/src/client.js:434:17
+error:bad result:Error: Timeout expired while starting chaincode mycc:1(networkid:dev,peerid:peer1,tx:8941a08c94223cccfc75fef69bc413441a5abee8c4bb12bc7ec324be4dbf4e4d),Error: Timeout expired while starting chaincode mycc:1(networkid:dev,peerid:peer2,tx:8941a08c94223cccfc75fef69bc413441a5abee8c4bb12bc7ec324be4dbf4e4d),Error: Timeout expired while starting chaincode mycc:1(networkid:dev,peerid:peer3,tx:8941a08c94223cccfc75fef69bc413441a5abee8c4bb12bc7ec324be4dbf4e4d),Error: Timeout expired while starting chaincode mycc:1(networkid:dev,peerid:peer4,tx:8941a08c94223cccfc75fef69bc413441a5abee8c4bb12bc7ec324be4dbf4e4d),.protos.Proposal,.common.Header",,denyeart,hcw,jyellick,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzy6l3:",,,,,,,,,,,,,,,,,,,,denyeart,hcw,jyellick,,,,,,,,,,,,,,"27/Nov/17 12:34 PM;denyeart;[~hcw] Is this still an issue?
+[~mrkiouak] Are you working on this one?;;;","05/May/18 2:12 AM;jyellick;As there have been no updates since November, closing as invalid.;;;",,,,,,
+stale chaintool README in fabric-chaintool samples,FABCT-20,28722,,Bug,To Do,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,,ghaskins,muralisr,muralisr,21/Mar/18 11:37 AM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,,,,,,0,,,README under https://github.com/hyperledger/fabric-chaintool/tree/master/examples/example02 appears to be stale.  Probably other samples under https://github.com/hyperledger/fabric-chaintool/tree/master/examples are stale too.,,muralisr,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzz2g7:",,,,,,,,,,,,,,,,,,,,muralisr,,,,,,,,,,,,,,,,,,,,,,,
+Init() function is exposed to clients for chaintool based chaincode,FABCT-21,29272,,Bug,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Highest,Done,greg.haskins,greg.haskins,greg.haskins,09/Apr/18 11:12 AM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,21/Apr/18 8:42 PM,,v1.1.1,v1.2.0,,0,,,"A client could technically invoke the Init() function of a chaincode by crafting a function expression like ""appinit/fcn/1"".   This should not be allowed.",,greg.haskins,jyellick,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzz5cf:",,,,,,,,,,,,,,,,,,,,greg.haskins,jyellick,,,,,,mergify/bp/release-2.2/pr-4374,release-2.5,release-2.4,release-1.1,main,mergify/bp/release-2.5/pr-3782,mergify/bp/release-2.2/pr-3750,mergify/bp/release-2.4/pr-3646,true,,,,,,,,
+add missing CCBY license to all .md and .rst files,FABCT-22,17387,,Bug,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,ChristopherFerris,ChristopherFerris,ChristopherFerris,02/Jun/17 8:04 AM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,03/Jun/17 3:22 AM,v1.0.0-alpha2,v1.0.0-beta,,,0,,,,,ChristopherFerris,,,,,,,,,,,,,Not a security issue,FAB-4212,FAB-4379,FAB-4261,,,,,,,,,,,,,,,,,,,,,"1|hzxy9b:",,,,,,,,,,,,,,,,,,,,ChristopherFerris,,,,,,,,,,,,,,,,"02/Jun/17 8:06 AM;ChristopherFerris;https://gerrit.hyperledger.org/r/#/c/10047/;;;",,,,,,,
+chaintool build fails when comment is above composite type field,FABCT-23,31006,,Bug,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,sheehan,sheehan,12/Jun/18 10:38 PM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,05/Jul/18 11:54 PM,,Future,v1.1.1,,0,,,"Commit: 74de25569deb8e99f1a6c141ce20625094ea8332
+
+Build the following CCI using the 'chaintool build' command.
+{code:java}
+message Foo {}
+
+message Bar {
+
+    // Remove this comment to fix the build bug
+    Foo my_foo = 1;
+
+}
+{code}
+ 
+
+Expected: The CCI should build succeed.
+
+Actual: The build fails with
+{code:java}
+Build using configuration for  ./
+[CCI] parse bug
+Error: Errors parsing /Users/sheehan/dev/temp/cciBug/src/interfaces/bug.cci: line 6: type ""nt"" for field ""my_foo"" is not defined
+{code}
+ 
+
+If the comment is removed, the build will succeed. This only seems to be an issue if the comment is above a composite type field. If the comment is above a scalar type field, the build is successful.",,greg.haskins,sheehan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzzel3:",,,,,,,,,,,,,,,,,,,,greg.haskins,sheehan,,,,,,,,,,,,,,,"13/Jun/18 6:03 AM;greg.haskins;https://gerrit.hyperledger.org/r/#/c/23001/;;;","05/Jul/18 11:15 PM;sheehan;I think this made it into 1.2.
+
+[https://github.com/hyperledger/fabric-chaintool/commit/8e997d5195bfdcfbacbada14732521d1175dcf91]
+
+[~greg.haskins] can you confirm?;;;",,,,,,
+chaintool::package crash if imported package is missing,FABCT-24,20303,,Bug,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,greg.haskins,greg.haskins,20/Aug/17 12:12 PM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,02/Oct/17 11:54 PM,,,,,0,,,"Running ""chaintool package"" on a project with missing imports in the $GOPATH will result in a crash with a very cryptic stack trace.  Instead, we should inform the user what is actually wrong with their project. ",,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzydpb:",,,,,,,,,,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,
+"""chaintool inspect"" does not work on v1.0",FABCT-25,15135,,Bug,To Do,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,,greg.haskins,greg.haskins,greg.haskins,02/Mar/17 1:13 AM,19/Jul/18 8:33 AM,28/Oct/23 2:28 AM,,v1.0.0,Future,,,0,,,"This command relies on the now defunct REST endpoint in the peer.  This needs to be ported to v1.0 facilities, either via raw GRPC or the java-sdk.",,denyeart,greg.haskins,mastersingh24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzxmfz:",,,,,,,,,,,,,,,,,,,,denyeart,greg.haskins,mastersingh24,,,,,,,,,,,,,,"27/Nov/17 12:11 PM;denyeart;[~greg.haskins] What do you want to do with this one?;;;","27/Nov/17 1:10 PM;greg.haskins;Shoot for 1.2?;;;","27/Nov/17 2:45 PM;denyeart;OK, updated Fix Version to 1.2.;;;","04/Jul/18 10:15 PM;mastersingh24;Moving to future.  If they actually get done, can assign the fix version then;;;",,,,
+"add ""chaintool new""",FABCT-26,14541,,Story,To Do,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Lowest,,greg.haskins,greg.haskins,greg.haskins,04/Feb/17 11:01 PM,21/Jul/18 4:17 AM,28/Oct/23 2:28 AM,,,,,,0,,,"Would be nice if the tooling could emit a skeleton project to get things started, similar to ""lein new"".",,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzxk0f:",,,,Unset,,,,,Unset,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,
+Need to support chaincode events,FABCT-27,14545,,Story,To Do,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,,ecb,greg.haskins,greg.haskins,04/Feb/17 11:07 PM,21/Jul/18 4:16 AM,28/Oct/23 2:28 AM,,,,,,0,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzxk1b:",,,,Unset,,,,,Unset,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,
+Upgrade dependencies to latest releases,FABCT-28,17105,,Story,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,greg.haskins,greg.haskins,25/May/17 9:48 PM,21/Jul/18 4:16 AM,28/Oct/23 2:28 AM,30/May/17 8:40 AM,,v1.0.0,,,0,,,Many of the dependencies have been upgraded since our last release.  We should ensure we use the latest where appropriate to pick up any bug fixes.,,greg.haskins,,,,,,,,,,,,,Not a security issue,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzxwvj:",,,,Unset,,,,,Unset,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,"29/May/17 10:10 AM;greg.haskins;Fix submitted: https://gerrit.hyperledger.org/r/#/c/9727/;;;",,,,,,,
+Need to add channel support for chaincode to chaincode interfaces,FABCT-29,14553,,Story,To Do,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,,,greg.haskins,greg.haskins,05/Feb/17 12:02 PM,21/Jul/18 4:16 AM,28/Oct/23 2:28 AM,,,,,,0,,,"as of v0.10.2-SNAPSHOT, we emit channel compliant code but assume that the caller wishes to send a request to another chaincode within the same channel.  This might not always be the case, so we need to think about how to expose channel selection to the caller.",,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzxk2f:",,,,Unset,,,,,Unset,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,
+Support (refresh) operation within REPL,FABCT-30,29149,,Story,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,greg.haskins,greg.haskins,05/Apr/18 3:51 AM,21/Jul/18 4:17 AM,28/Oct/23 2:28 AM,21/Apr/18 8:43 PM,,,,,0,,,"Development iteration within the REPL is easier when we include org.clojure/tools.namespace and user.clj helpers, like (refresh).",,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzz4jb:",,,,Unset,,,,,Unset,,,,,,,,,,,greg.haskins,,,,,,,mergify/bp/release-2.2/pr-4374,release-2.5,release-2.4,release-1.1,main,mergify/bp/release-2.5/pr-3782,mergify/bp/release-2.2/pr-3750,mergify/bp/release-2.4/pr-3646,true,"05/Apr/18 3:52 AM;greg.haskins;https://gerrit.hyperledger.org/r/#/c/20149/;;;",,,,,,,
+Update chaintool dependencies,FABCT-31,28763,,Story,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,greg.haskins,greg.haskins,22/Mar/18 11:57 PM,21/Jul/18 4:17 AM,28/Oct/23 2:28 AM,23/Mar/18 9:26 PM,,,,,0,,,"Running 'lein ancient' indicates there are more updates to our dependencies.
+
+ 
+{code:java}
+$ lein ancient
+[org.clojure/clojure ""1.9.0""] is available but we use ""1.8.0"" (use :check-clojure to upgrade)
+[org.clojure/data.codec ""0.1.1""] is available but we use ""0.1.0""
+[instaparse ""1.4.8""] is available but we use ""1.4.7""
+[commons-io ""2.6""] is available but we use ""2.5""
+[org.tukaani/xz ""1.8""] is available but we use ""1.6""
+[org.apache.commons/commons-compress ""1.16.1""] is available but we use ""1.14""
+[pandect ""0.6.1""] is available but we use ""0.5.4""
+[clj-http ""3.8.0""] is available but we use ""3.7.0""
+
+{code}
+ 
+
+We will update those that do not pose a problem.  For instance, we know that pandect v0.6 requires some steps which are we not yet willing to take.  There may be others that we will evaluate and exclude, TBD
+
+ ",,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzz2mv:",,,,Unset,,,,,Unset,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,
+Port example02 clients to v1.0.0-beta,FABCT-32,17774,,Story,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,greg.haskins,greg.haskins,13/Jun/17 1:13 AM,21/Jul/18 4:17 AM,28/Oct/23 2:28 AM,13/Jun/17 3:21 AM,,,,,0,,,,,greg.haskins,,,,,,,,,,,,,Not a security issue,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzy0an:",,,,Unset,,,,,Unset,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,
+"Add support for proto3 constructs/types, including map",FABCT-33,15967,,Story,To Do,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,,,mrkiouak,mrkiouak,24/Apr/17 11:17 PM,21/Jul/18 4:18 AM,28/Oct/23 2:28 AM,,,,,,0,,,Currently chaintool proto <filename.cci> will fail if using map,,mrkiouak,,,,,,,,,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzxr13:",,,,Unset,,,,,Unset,,,,,,,,,,,mrkiouak,,,,,,,,,,,,,,,,,,,,,,,
+Expose the mapping from function ids to Tx/Query names for the chaincode application to use,FABCT-34,14547,,Story,To Do,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,,,greg.haskins,greg.haskins,04/Feb/17 11:09 PM,21/Jul/18 4:15 AM,28/Oct/23 2:28 AM,,,,,,0,,,"This desire is mostly based around logging. I want (some) log messages from the chaincode to state the chaincode-operation they are a part of. Currently, I can only log stub.GetStringArgs()[0], which looks something like ""com.myorg.chaincode.myapp/txn/1"". I would rather log that the message is coming from a ""MyBusinessProcess"" transaction.
+
+As I understand it chaintool is responsible is mapping function identifiers to function names, so it would be nice if it provided a way for the application to apply that mapping to the introspection data it has access to.",,ecb,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzxk1r:",,,,Unset,,,,,Unset,,,,,,,,,,,ecb,greg.haskins,,,,,,,,,,,,,,,,,,,,,,
+"Add ""chaintool deps"" and remove implicit deps from ""build""",FABCT-35,20462,,Story,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,greg.haskins,greg.haskins,28/Aug/17 11:47 PM,21/Jul/18 4:17 AM,28/Oct/23 2:28 AM,02/Oct/17 11:55 PM,,,,,0,,,"It would be better if we do not implicitly download dependencies during 'chaintool build'.  Therefore, create an explicit 'chaintool deps'",,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzyekv:",,,,Unset,,,,,Unset,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,
+Release chaintool v1.0.1,FABCT-36,20582,,Story,To Do,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,,,greg.haskins,greg.haskins,02/Sep/17 7:40 AM,21/Jul/18 4:17 AM,28/Oct/23 2:28 AM,,,,,,0,,,Create a new release with a rollup of fixes since v1.0.0,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzyf4v:",,,,Unset,,,,,Unset,,,,,,,,,,,greg.haskins,,,,,,,mergify/bp/release-2.2/pr-4374,release-2.5,release-2.4,main,mergify/bp/release-2.2/pr-3750,mergify/bp/release-2.5/pr-3782,mergify/bp/release-2.4/pr-3646,,true,,,,,,,,
+Chaintool - Chaintool Build fails with windows formatted cci files,FABCT-37,15032,,Story,To Do,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Low,,,mrkiouak,mrkiouak,25/Feb/17 3:00 AM,21/Jul/18 4:16 AM,28/Oct/23 2:28 AM,,,,,,0,,,"""chaintool build"" cmd fails with cci files generated on a windows filesystem
+
+Other chaintool commands may also require windows file preprocessing in order to complete succesffully whend ealing with windows OS file encoding.
+
+Attachement is a cci file that demonstrates the break issue.
+
+",,mrkiouak,,,,,,,,,,,,,,,,,,,"25/Feb/17 3:00 AM;mrkiouak;appinit.cci;https://jira.hyperledger.org/secure/attachment/10532/appinit.cci",,,,,,Unset,,,,,,,,,,,,"1|hzxlyv:",,,,Unset,,,,,Unset,,,,,,,,,,,mrkiouak,,,,,,,,,,,,,,,,,,,,,,,
+golang STG template should use consistent TAB for indent,FABCT-38,29537,,Story,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Low,Done,greg.haskins,greg.haskins,greg.haskins,20/Apr/18 11:11 AM,21/Jul/18 4:15 AM,28/Oct/23 2:28 AM,20/Apr/18 10:31 PM,,,,,0,,,"The indent style in the golang.stg generator template is inconsistent.  Since the golang gofmt standard seems to be TAB characters, we should convert the file to be as conforming as possible to the goland standard.",,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzz6nr:",,,,Unset,,,,,Unset,,,,,,,,,,,greg.haskins,,,,,,,mergify/bp/release-2.2/pr-4374,release-2.5,release-2.4,release-1.1,main,mergify/bp/release-2.5/pr-3782,mergify/bp/release-2.2/pr-3750,mergify/bp/release-2.4/pr-3646,true,"20/Apr/18 11:26 AM;greg.haskins;https://gerrit.hyperledger.org/r/#/c/20807/;;;",,,,,,,
+"chaintool: Improve ""getting started"" documentation",FABCT-39,18289,,Story,In CR Review,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,,greg.haskins,greg.haskins,greg.haskins,19/Jun/17 11:38 AM,21/Jul/18 4:16 AM,28/Oct/23 2:28 AM,,,,,,0,,,,,greg.haskins,,,,,,,,,,,,,Not a security issue,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzy4nr:",,,,Unset,,,,,Unset,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,"20/Jun/17 7:22 AM;greg.haskins;https://gerrit.hyperledger.org/r/#/c/10761/;;;",,,,,,,
+Documentation should reference proto3 specification in a clear way,FABCT-40,14546,,Story,To Do,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Low,,,greg.haskins,greg.haskins,04/Feb/17 11:08 PM,21/Jul/18 4:17 AM,28/Oct/23 2:28 AM,,,,,,0,,,"The grammar for CCI closesly models proto3, but this is not called out in a clear manner. We should make sure this is clear and provide reference links, etc.",,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzxk1j:",,,,Unset,,,,,Unset,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,
+Add ability to report dependency licenses to chaintool,FABCT-41,19107,,Story,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Lowest,Done,greg.haskins,greg.haskins,greg.haskins,10/Jul/17 9:11 PM,21/Jul/18 4:15 AM,28/Oct/23 2:28 AM,12/Jul/17 1:58 AM,v1.0.0,,,,0,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzy7kv:",,,,Unset,,,,,Unset,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,
+"Add support for ""oneof"" protobuf type",FABCT-42,28753,,Story,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,High,Done,mrkiouak,greg.haskins,greg.haskins,22/Mar/18 8:42 AM,21/Jul/18 4:16 AM,28/Oct/23 2:28 AM,18/Jun/18 10:19 PM,,,,,0,,,,,greg.haskins,mrkiouak,,,,,,,,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzz2lb:",,,,Unset,,,,,Unset,,,,,,,,,,,greg.haskins,mrkiouak,,,,,,,,,,,,,,,"18/Jun/18 10:19 PM;mrkiouak;[https://gerrit.hyperledger.org/r/#/c/19597/]
+
+ 
+
+Closing this late, see gerrit for actual completion date;;;",,,,,,,
+protobuf generator reorders fields,FABCT-43,14544,,Story,To Do,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Low,,,greg.haskins,greg.haskins,04/Feb/17 11:06 PM,21/Jul/18 4:16 AM,28/Oct/23 2:28 AM,,,,,,0,,,The fields should be emitted in the same order as declared in the CCI,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzxk13:",,,,Unset,,,,,Unset,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,
+Add multi-file support to chaintool proto cmd,FABCT-44,30389,,Story,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Low,Done,mrkiouak,mrkiouak,mrkiouak,18/May/18 11:12 PM,21/Jul/18 4:17 AM,28/Oct/23 2:28 AM,19/May/18 11:10 PM,,,,,0,,,"Currently, fabric chaintool expects a single filename passed to the proto subcommand, and rejects multiple files.
+
+When creating client applications, it is convenient to convert and export the .cci files to .proto format for use in the client application.
+
+chaintool proto should be improved to support this activity with the run of a single command e.g.
+{code:java}
+chaintool proto --output ~/active-projects/fabric-client/protos ./*.cci
+{code}",,mrkiouak,,,,,,3600,3600,,0%,3600,3600,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzzb5z:",,,,Unset,,,,,Unset,,,,,,,,,,,mrkiouak,,,,,,,,,,,,,,,,,,,,,,,
+Add protoc/protoc-gen-go to prerequisites in the documentation,FABCT-45,19109,,Story,In Progress,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Lowest,,greg.haskins,greg.haskins,greg.haskins,10/Jul/17 9:26 PM,21/Jul/18 4:16 AM,28/Oct/23 2:28 AM,,,,,,0,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzy7lb:",,,,Unset,,,,,Unset,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,
+Chaintool proto ... - Refuse to create empty .proto file,FABCT-46,15964,,Story,To Do,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,,,mrkiouak,mrkiouak,24/Apr/17 10:50 PM,21/Jul/18 4:17 AM,28/Oct/23 2:28 AM,,,,,,0,,,,,mrkiouak,,,,,,,,,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzxr0f:",,,,Unset,,,,,Unset,,,,,,,,,,,mrkiouak,,,,,,,,,,,,,,,,,,,,,,,
+Update chaintool to the latest dependencies,FABCT-47,20581,,Story,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,greg.haskins,greg.haskins,02/Sep/17 7:22 AM,21/Jul/18 4:17 AM,28/Oct/23 2:28 AM,02/Oct/17 11:55 PM,,,,,0,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzyf4n:",,,,Unset,,,,,Unset,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,
+Update examples to alpha2 release,FABCT-48,16859,,Epic,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,greg.haskins,greg.haskins,19/May/17 12:02 AM,21/Jul/18 4:12 AM,28/Oct/23 2:28 AM,01/Jun/17 10:21 PM,,v1.0.0,,,0,,,Our examples have fallen out of date with the latest release.  Update them to the new standards.,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,Unset,,Unset,ghx-label-4,,Chaintool v1.0.0-alpha2 examples,To Do,,,Unset,,,,"1|hzxvz3:",,,,Unset,Unset,,,,,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,
+Update nodejs example,FABCT-49,16860,16859,Sub-task,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,greg.haskins,greg.haskins,19/May/17 12:03 AM,19/Jul/18 10:04 PM,28/Oct/23 2:28 AM,29/May/17 10:09 AM,,v1.0.0,,,0,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzxvzb:",,,,,,,,,,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,"19/May/17 1:10 AM;greg.haskins;Fix submitted: https://gerrit.hyperledger.org/r/#/c/9531/;;;",,,,,,,
+Update clojurescript example,FABCT-50,16861,16859,Sub-task,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,greg.haskins,greg.haskins,19/May/17 12:03 AM,19/Jul/18 10:04 PM,28/Oct/23 2:28 AM,30/May/17 8:40 AM,,,,,0,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzxvzj:",,,,,,,,,,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,"29/May/17 10:10 AM;greg.haskins;Fix submitted: https://gerrit.hyperledger.org/r/#/c/9655/;;;",,,,,,,
+Support full proto3 specification,FABCT-51,16793,,Story,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,High,Done,mrkiouak,greg.haskins,greg.haskins,17/May/17 8:36 AM,21/Jul/18 4:16 AM,28/Oct/23 2:28 AM,10/Jul/18 3:23 AM,,v1.0.0,,,0,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,Unset,,,,,,,,,,,,"1|hzxvof:",,,,Unset,,,,,Unset,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,
+Map proto3 support,FABCT-52,18872,16793,Sub-task,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,mrkiouak,mrkiouak,mrkiouak,01/Jul/17 7:09 AM,19/Jul/18 10:04 PM,28/Oct/23 2:28 AM,12/Jul/17 1:57 AM,,,,,0,,,add map proto3 support,,mrkiouak,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzy6lb:",,,,,,,,,,,,,,,,,,,,mrkiouak,,,,,,,,,,,,,,,,,,,,,,,
+Generated code for enum included in message is not correct,FABCT-53,33696,,Bug,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,sheehan,sheehan,12/Sep/18 11:34 PM,18/Oct/18 7:05 AM,28/Oct/23 2:28 AM,15/Sep/18 8:24 AM,v1.1.0,,,,0,,,"{code:java}
+message Foo {
+enum MyEnum { a = 0;}
+}
+
+message Bar {
+Foo.MyEnum my_field = 1;
+}{code}
+
+The problem is that in the generated code, the struct for type Bar has a field MyField of type Foo instead of Foo.MyEnum",,greg.haskins,sheehan,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzzql3:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),greg.haskins,sheehan,,,,,,,,,,,,,,,"15/Sep/18 12:07 AM;greg.haskins;Fix submitted for review:
+
+https://gerrit.hyperledger.org/r/#/c/26313/;;;",,,,,,,
+The invoke process stops committing new transactions after calling it around 900 times ,FABCT-54,34489,,Bug,Unverified,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,,,froyobin,froyobin,09/Oct/18 8:37 AM,24/Oct/18 3:36 AM,28/Oct/23 2:28 AM,,,,,,0,,,"I am running with the fabcar example from fabric-samples, after running the invok for uploading the data to the chain for about 900 times. The chaincode stops putting new data on the chain and never generates any new events.",,froyobin,greg.haskins,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzzu2n:",,,,Unset,Unset,,"1. deploy the fabcar example.
+2. runing the invok.js with different data for about 900 times.
+3. the invoke.js does not get any response from the server and no data can be put on the chain anymore.",,Unset,,,,,,Unset,,Unset,,(Please add usage information),froyobin,greg.haskins,,,,,,,,,,,,,,,"24/Oct/18 3:36 AM;greg.haskins;Hello [~froyobin]: can you confirm if this is happening with a chaintool-based chaincode, or just a regular fabric chaincode?;;;",,,,,,,
+Chaintool throws marshal error when a function returns nil,FABCT-55,34838,,Bug,Unverified,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,,greg.haskins,aambati,aambati,24/Oct/18 2:04 AM,24/Oct/18 3:36 AM,28/Oct/23 2:28 AM,,,,,,0,,,"When a chaincode function returns (nil, nil) , chaintool throws this error:
+
+{quote}Group: 10,
+Code: 500,
+Message: ""protobuf marshal error: proto: Marshal called with nil"",
+Details: [nil, nil],{quote}
+",,aambati,,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|hzzw2n:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),aambati,,,,,,,,,,,,,,,,,,,,,,,
+IV should be passed into NewAES256EncrypterECDSASignerEntity,FABCT-56,35621,,Bug,Unverified,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,,,GingerMoon,GingerMoon,27/Nov/18 11:30 AM,27/Nov/18 11:30 AM,28/Oct/23 2:28 AM,,,,,,0,,,"IV is not in in the NewAES256EncrypterECDSASignerEntity's input parameter list,which leads to the error: 
+
+2018/11/27 02:21:38 Failed to create account: endorsement validation failed: Endorser Client Status Code: (3) ENDORSEMENT_MISMATCH. Description: ProposalResponsePayloads do not match
+
+ 
+
+FYI., the [doc|[http://example.com|https://github.com/hyperledger/fabric/tree/release-1.3/examples/chaincode/go/enccc_example]] mentions:
+
+...This call will encrypt using a random IV. This may be undesirable for instance if the chaincode invocation needs to be endorsed by multiple peers since it would cause the endorsement of conflicting read/write sets. It is possible to encrypt deterministically by specifying the IV, as follows: at first the IV must be created...
+
+ ",,GingerMoon,,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i0009z:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),GingerMoon,,,,,,,,,,,,,,,,,,,,,,,
+Auto-vendoring causes deployment failure in latest chaintool,FABCT-57,20538,,Bug,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,High,Done,greg.haskins,greg.haskins,greg.haskins,31/Aug/17 12:58 PM,27/Nov/19 3:09 AM,28/Oct/23 2:28 AM,08/Jan/18 10:24 PM,,,,,0,,,,,denyeart,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzyewf:",,,,,,,,,,,,,,,,,,,,denyeart,greg.haskins,,,,,,,,,,,,,,,"27/Nov/17 11:22 AM;denyeart;[~greg.haskins] Anything else need to be done for this item?;;;",,,,,,,
+Use ./autodeps instead of ./src/chaincode/vendor,FABCT-58,20539,20538,Sub-task,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,High,Done,greg.haskins,greg.haskins,greg.haskins,31/Aug/17 1:04 PM,27/Nov/19 3:09 AM,28/Oct/23 2:28 AM,16/Sep/17 12:37 AM,,,,,0,,,the problem with ./src/chaincode/vendor is that it makes the resources unavailable to the generated code such as build/src/hyperledger/cci/* .  We can correct this by storing the code in a normal $GOPATH rather than vendoring it under the chaincode.,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzyewn:",,,,,,,,,,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,
+Disregard the GOPATH during 'buildcar' operations,FABCT-59,20540,20538,Sub-task,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,greg.haskins,greg.haskins,31/Aug/17 1:05 PM,27/Nov/19 3:09 AM,28/Oct/23 2:28 AM,16/Sep/17 12:38 AM,,,,,0,,,"We want ""chaintool buildcar"" to only use its encapsulated dependencies, rather than taking anything from the environment.  Therefore, lets disable the GOPATH import during buildcar.",,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzyewv:",,,,,,,,,,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,"16/Sep/17 12:38 AM;greg.haskins;Turns out that this may not be necessary.  The GOPATH has the local versions first, and this seems to suitably eclipse the ccenv provided variants.  Closing for now.;;;",,,,,,,
+Integrate fabric-chaintool SCC support into fabric build,FABCT-60,28938,,Task,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Won't Do,greg.haskins,greg.haskins,greg.haskins,28/Mar/18 2:11 AM,27/Nov/19 3:10 AM,28/Oct/23 2:28 AM,27/Nov/19 3:10 AM,,Future,,,0,,,,,greg.haskins,jyellick,,,,,,,,,,,,,,,,FAB-7219,,,,,,,,,,,,,,,,,,,,"1|hzz3ev:",,,,,,,,,,,,,,,,,,,,greg.haskins,jyellick,,,,,,,,,,,,,,,"05/Apr/18 3:54 AM;greg.haskins;https://gerrit.hyperledger.org/r/#/c/20151/;;;",,,,,,,
+Fix SCC support in chaintool,FABCT-61,29150,28938,Sub-task,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,greg.haskins,greg.haskins,greg.haskins,05/Apr/18 3:56 AM,27/Nov/19 3:10 AM,28/Oct/23 2:28 AM,21/Apr/18 8:43 PM,,v1.2.0,,,0,,,Numerous changes have occurred in SCC since the original SCC support was added to chaintool.  This task will capture the fixes to make chaintool support SCC in v1.2+ code base,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzz4jj:",,,,,,,,,,,,,,,,,,,,greg.haskins,,,,,,,mergify/bp/release-2.2/pr-4374,release-2.5,release-2.4,release-1.1,main,mergify/bp/release-2.5/pr-3782,mergify/bp/release-2.2/pr-3750,mergify/bp/release-2.4/pr-3646,true,"05/Apr/18 11:29 AM;greg.haskins;https://gerrit.hyperledger.org/r/#/c/20151/;;;",,,,,,,
+Add support for compiling SCC code with chaintool,FABCT-62,29151,28938,Sub-task,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Won't Do,greg.haskins,greg.haskins,greg.haskins,05/Apr/18 3:59 AM,27/Nov/19 3:10 AM,28/Oct/23 2:28 AM,27/Nov/19 3:03 AM,,Future,,,0,,,"The ""peer"" target should invoke a pre-compilaton task to run chaintool against any compatible SCCs to generate their interface code prior to running ""go build"".",,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"1|hzz4jr:",,,,,,,,,,,,,,,,,,,,greg.haskins,,,,,,,,,,,,,,,,,,,,,,,
+ Incorrect license in file.,FABCT-63,43652,,Bug,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Medium,Done,ryjones,ryjones,ryjones,10/Dec/19 4:06 AM,08/Feb/20 4:32 AM,28/Oct/23 2:28 AM,08/Feb/20 4:32 AM,,,,,0,,,"package.json says:
+
+  ""license"": ""ISC""
+
+ 
+
+The correct license is Apache 2.
+ * fabric-chaintool/examples/example02/client/nodejs/package.json",,ryjones,,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i0161v:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),ryjones,,,,,,,,,,,,,,,,,,,,,,,
+Some examples need updated license,FABCT-65,45138,,Task,Closed,FABCT,Fabric Chaintool,software,ChristopherFerris,,,Low,Done,swinslow,swinslow,ryjones,27/May/20 3:16 AM,27/May/20 3:42 AM,28/Oct/23 2:28 AM,27/May/20 3:42 AM,,,,,0,,,"Some files appear to be original to Hyperledger, but contain license headers indicating that they were contributed to the Apache Software Foundation under a CLA. If these files are in fact original to Hyperledger, then this header should be replaced with either the standard Apache-2.0 license notice, and/or with a short-form ID:
+SPDX-License-Identifier: Apache-2.0
+
+fabric-chaintool/examples/example02/app/src/chaincode/chaincode_example02.go
+fabric-chaintool/examples/invoker/src/chaincode/chaincode.go
+fabric-chaintool/examples/parameterless/src/chaincode/main.go
+fabric-chaintool/examples/sample_syscc/sample_syscc.go",,ryjones,,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01cff:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),ryjones,,,,,,,,,,,,,,,,"27/May/20 3:41 AM;ryjones;merged https://github.com/hyperledger/fabric-chaintool/commit/48531188668a519b7ecaba3c0e6830247b7cddda;;;",,,,,,,

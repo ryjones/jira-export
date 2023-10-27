@@ -1,0 +1,753 @@
+Summary,Issue key,Issue id,Parent id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Affects Version/s,Due Date,Votes,Labels,Labels,Description,Environment,Watchers,Watchers,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Outward issue link (Blocks),Inward issue link (Duplicate),Attachment,Attachment,Custom field (Business Value),Custom field (Commit Levels),Custom field (Current Status),Custom field (Design),Custom field (Design Status),Custom field (Documentation Impact),Custom field (Documentation Status),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Executed),Custom field (Found in Commit),Custom field (Function Test Status),Custom field (Must Fix),Custom field (Original story points),Custom field (Parent Link),Custom field (Rank),Custom field (Release Note),Custom field (Release Note Required),Custom field (Root Cause Analysis),Custom field (SDK Impact),Custom field (Sample/Tutorial),Custom field (Steps to Reproduce),Custom field (Story Points),Custom field (System Test Impact),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Test Plan),Custom field (Test Result),Custom field (Test Result Details),Custom field (Test Type),Custom field (Triaged),Custom field (Usage),Custom field (Watchers),Custom field (Watchers),Custom field (Workaround),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitBranch),Custom field (gitCommitsReferenced),Comment
+Update to Go 1.14,FABG-1001,45656,,Task,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,troyronda,troyronda,troyronda,21/Jul/20 10:04 PM,21/Jul/20 10:38 PM,28/Oct/23 3:23 AM,21/Jul/20 10:38 PM,,,0,,,,,troyronda,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01esr:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),troyronda,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,main,dependabot/go_modules/golang.org/x/net-0.7.0,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,
+Update dependencies for v2.2,FABG-1002,45662,,Task,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,troyronda,troyronda,troyronda,21/Jul/20 11:19 PM,22/Jul/20 12:05 AM,28/Oct/23 3:23 AM,22/Jul/20 12:05 AM,,,0,,,,,troyronda,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01etv:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),troyronda,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,main,dependabot/go_modules/golang.org/x/net-0.7.0,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,
+Get installed chaincode package,FABG-1003,45667,41721,Sub-task,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,bstasyszyn,bstasyszyn,bstasyszyn,22/Jul/20 4:00 AM,23/Jul/20 5:57 AM,28/Oct/23 3:23 AM,23/Jul/20 5:57 AM,,,0,,,,,bstasyszyn,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01euj:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),bstasyszyn,,,,,,,,,
+Consider blockHeightLagThreshold when validating queryChannelConfig responses,FABG-1004,45705,,Story,To Do,FABG,Fabric SDK Go,software,troyronda,,,High,,bstasyszyn,ahmedsajid,ahmedsajid,25/Jul/20 9:28 PM,28/Jul/20 5:16 AM,28/Oct/23 3:23 AM,,,,1,,,"We end up running into this issue where multiple peers are targeted for queryChannelConfig call and one of them lags behind by 100s of blocks (has old channel config). In this case Currently SDK considers all response valid, tries to match those responses and throws the following error:
+{code:java}
+QueryBlockConfig failed: Endorser Client Status Code: (3) ENDORSEMENT_MISMATCH. Description: payloads for config block do not match{code}
+queryChannelConfig response from the lagging peer shouldn't be considered valid.
+
+fabric-sdk-go has blockHeightLagThreshold option for eventService.
+
+Need similar functionality in queryChannelConfig.
+
+ ",,ahmedsajid,troyronda,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01ey3:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),ahmedsajid,troyronda,,,,,,,,
+chaincoded should use distinct separator,FABG-1005,45706,,Task,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,troyronda,troyronda,troyronda,28/Jul/20 12:13 AM,28/Jul/20 8:29 AM,28/Oct/23 3:23 AM,28/Jul/20 8:29 AM,,,0,,,"Chaincoded removes the last segment of the chaincode ID when detecting the binary name.
+
+The separator is based on `__`, but we should use a more distinct `___fabtest__`.",,troyronda,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01eyb:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),troyronda,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,dependabot/go_modules/golang.org/x/net-0.7.0,main,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,
+"Query committed errors with ""responses from endorsers do not match""",FABG-1006,45721,,Bug,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,bstasyszyn,bstasyszyn,bstasyszyn,30/Jul/20 5:59 AM,30/Jul/20 9:44 PM,28/Oct/23 3:23 AM,30/Jul/20 9:44 PM,,,0,,,"The following error occurs intermittently when querying committed chaincode:
+
+""responses from endorsers do not match""",,bstasyszyn,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01f0r:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),bstasyszyn,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,main,dependabot/go_modules/golang.org/x/net-0.7.0,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,
+Release v1.0.0-beta3,FABG-1007,45936,,Task,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,troyronda,troyronda,troyronda,26/Aug/20 9:13 PM,26/Aug/20 10:34 PM,28/Oct/23 3:23 AM,26/Aug/20 10:34 PM,,,0,,,,,troyronda,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01fvv:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),troyronda,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,main,dependabot/go_modules/golang.org/x/net-0.7.0,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,
+"ecdsakey Bytes() returns a Not supported error, but fabric-sdk-node returns Byte array ",FABG-1008,45950,,Bug,Unverified,FABG,Fabric SDK Go,software,troyronda,,,Medium,,pplavetzki,pplavetzki,pplavetzki,31/Aug/20 7:35 AM,11/Sep/20 3:42 AM,28/Oct/23 3:23 AM,,,,0,,,"While creating a Commercial Paper application using fabric-sdk-go, I cannot retrieve the ecdsakey private key bytes needed to create the x509Identity.  Calling the ```PrivateKey().Bytes()``` method throws a Not implemented error.  However, this same code in the fabric-skd-node happily returns the Byte array of the ecdsakey.  Perhaps this operation isn't allowed for a specific reason, and this isn't a bug at all, but to duplicate the workflow in go that the node application follows, I think that the private key is needed.",,pplavetzki,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,master,Unset,No,,,"1|i01fyr:",,,,Unset,Unset,"The code below will throw the Not implemented error on the ```pk, err := signIdent.PrivateKey().Bytes()```
+
+```
+// EnrollUser enrolls a user
+func EnrollUser(connPath, userName string) error {
+
+	conf := config.FromFile(filepath.Clean(connPath))
+	// Instantiate the SDK
+	sdk, err := fabsdk.New(conf)
+	if err != nil {
+		log.Fatalf(""SDK init failed: %s"", err)
+	}
+	defer sdk.Close()
+
+	ctx := sdk.Context()
+	if err != nil {
+		log.Fatal(err)
+	}
+	mspClient, err := msp.New(ctx)
+	if err != nil {
+		log.Fatal(err)
+	}
+	if err := mspClient.Enroll(userName, msp.WithSecret(""user1pw"")); err != nil {
+		log.Fatal(err)
+	}
+	signIdent, err := mspClient.GetSigningIdentity(userName)
+	if err != nil {
+		return err
+	}
+       // Fails on this line of code
+	pk, err := signIdent.PrivateKey().Bytes()
+	if err != nil {
+		return err
+	}
+	identity := gateway.NewX509Identity(""Org2MSP"", string(signIdent.EnrollmentCertificate()), string(pk))
+
+	walletPath := ""identity/user/isabella/wallet""
+	wallet, err := gateway.NewFileSystemWallet(walletPath)
+	if err != nil {
+		return err
+	}
+
+	err = wallet.Put(userName, identity)
+	if err != nil {
+		return err
+	}
+
+	return nil
+}
+```",,Unset,,,,,,Unset,,Unset,,(Please add usage information),pplavetzki,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,main,dependabot/go_modules/golang.org/x/net-0.7.0,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,
+Fabric selection service not waiting for responses from all peers on transient error,FABG-1009,45958,,Bug,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,bstasyszyn,bstasyszyn,bstasyszyn,01/Sep/20 5:09 AM,01/Sep/20 8:10 AM,28/Oct/23 3:23 AM,01/Sep/20 8:10 AM,,,0,,,"When a transient error is received from a discovery target then the client returns immediately, without waiting for responses from other targets. The transient error could be a result of a peer being behind in block height (e.g. peer has not yet received the chaincode  instantiate block). Another peer may already be up to date and could return a successful response.",,bstasyszyn,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01g0j:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),bstasyszyn,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,main,dependabot/go_modules/golang.org/x/net-0.7.0,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,
+ConnectionFailed should be added to ResMgmtDefaultRetryableCodes,FABG-1010,45960,,Task,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,bstasyszyn,bstasyszyn,bstasyszyn,01/Sep/20 5:25 AM,01/Sep/20 10:20 PM,28/Oct/23 3:23 AM,01/Sep/20 10:18 PM,,,0,,,Currently only ChannelClientRetryableCodes includes ConnectionFailed as a retryable code. It should also be added to ResMgmtDefaultRetryableCodes since the resource management client can also experience connection failures.,,bstasyszyn,,,,,,,,,,,,FABG-919,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01g0r:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),bstasyszyn,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,main,dependabot/go_modules/golang.org/x/net-0.7.0,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,
+is fabric-go-sdk have no updateAnchors function like java or nodejs?,FABG-1011,45968,,Task,Backlog,FABG,Fabric SDK Go,software,troyronda,,,High,,5igm4,csquan,csquan,02/Sep/20 12:03 PM,07/Sep/20 12:09 PM,28/Oct/23 3:23 AM,,,,0,,,"is fabric-go-sdk have no updateAnchors function like java or nodejs?
+
+I had use java-sdk and nodejs-sdk,there are {color:#172b4d}updateAnchors {color}step.
+
+But I do not find in go-sdk.
+
+refer link:
+
+https://github.com/hyperledger/fabric-sdk-go
+
+https://blog.csdn.net/shebao3333/article/details/104958767/
+
+https://www.jianshu.com/p/8abae69d9ea9",,csquan,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01g1v:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),csquan,,,,,,,,,"07/Sep/20 12:07 PM;csquan;Since there is no functions like update anchors,
+
+I had must install chaincode on every peer,
+
+for example,I have 4peers ,so there are 4 cc images ,is there right?;;;"
+Channel client should retry on private data dissemination failure,FABG-1012,46010,,Task,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,bstasyszyn,bstasyszyn,bstasyszyn,09/Sep/20 10:15 PM,29/Sep/20 12:16 AM,28/Oct/23 3:23 AM,29/Sep/20 12:16 AM,,,0,,,The error 'failed to distribute private collection' may be a transient error when a peer is temporarily unavailable or Discovery has not yet been updated on the status of all peers. A retry may succeed.,,bstasyszyn,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01g9v:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),bstasyszyn,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,main,dependabot/go_modules/golang.org/x/net-0.7.0,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,
+Improve SDK load balancing and fail-over for ordering service nodes,FABG-1013,46103,,Task,Backlog,FABG,Fabric SDK Go,software,troyronda,,,Medium,,,lesleyannj,lesleyannj,11/Sep/20 8:52 PM,11/Sep/20 8:52 PM,28/Oct/23 3:23 AM,,,,0,,,"Following enhancement for #FABN-1632 to try for consistency across all SDKs.
+
+Currently, at least for the Node SDK, when using service discovery and selecting which orderer to use when submitting a transaction, the SDK will iterate through the list of available orderers in the same sequence on each transaction.
+
+This is far from ideal since if the orderer(s) at the front of the list are offline, the application will need to wait for those to time out and for the SDK to find a good orderer on each and every transaction. Users are reporting that this causes delays in their application.
+",,lesleyannj,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01gaz:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),lesleyannj,,,,,,,,,
+gateway.GetNetwork throw an error,FABG-1014,46138,,Bug,Unverified,FABG,Fabric SDK Go,software,troyronda,,,Highest,,,kgeonw,kgeonw,23/Sep/20 2:47 PM,23/Sep/20 5:13 PM,28/Oct/23 3:23 AM,,,,0,fabric-sdk-go,,"It throw Error When I perform fabric-samples/asset-transfer-basic/application-go
+
+!image-2020-09-23-14-38-59-166.png!
+
+and Orderer output Error TLS handshake failed
+
+!image-2020-09-23-14-40-07-820.png!
+
+I guess there is a problem with the certificate so wait 1 second after gw.GetNetwork.
+ Because It seemed that the discovery service would need some time to retrieve the certificate.
+ And I solved that but I still don't know the exact reason.",,kgeonw,,,,,,,,,,,,,"23/Sep/20 2:38 PM;kgeonw;image-2020-09-23-14-38-59-166.png;https://jira.hyperledger.org/secure/attachment/18804/image-2020-09-23-14-38-59-166.png","23/Sep/20 2:40 PM;kgeonw;image-2020-09-23-14-40-07-820.png;https://jira.hyperledger.org/secure/attachment/18803/image-2020-09-23-14-40-07-820.png",,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01gib:",,,,Unset,Unset,"1.- bring up the test network with CA 
+  [./ network.sh up createChannel -ca -c mychannel]
+2.- deploy cc 
+  [./network.sh deployCC -ccn basic]
+3.- use asset transfer basic application-go 
+  [./go run assetTransfer.go]
+4.- Error occurred Orderer TLS handshake failed
+5.- add time.Sleep 1 second after GetNetwork
+6.- solved that",,Unset,,,,,,Unset,,Unset,,(Please add usage information),kgeonw,,,,,,,,,
+Add JSON tags to lifecycle response structs,FABG-1015,46179,,Task,Closed,FABG,Fabric SDK Go,software,troyronda,,,Low,Done,bstasyszyn,bstasyszyn,bstasyszyn,02/Oct/20 2:10 AM,02/Oct/20 4:59 AM,28/Oct/23 3:23 AM,02/Oct/20 4:59 AM,,,0,,,JSON tags should be added to the lifecycle responses so that marshalled JSON names are snake-case.,,bstasyszyn,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01goj:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),bstasyszyn,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,main,dependabot/go_modules/golang.org/x/net-0.7.0,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,
+Package ID is not required for lifecycle check commit readiness,FABG-1016,46180,,Bug,Closed,FABG,Fabric SDK Go,software,troyronda,,,Low,Done,bstasyszyn,bstasyszyn,bstasyszyn,03/Oct/20 3:27 AM,03/Oct/20 6:24 AM,28/Oct/23 3:23 AM,03/Oct/20 6:24 AM,,,0,,,The lifecycle LifecycleCheckCCCommitReadinessRequest struct contains a PackageID field which is never used.,,bstasyszyn,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01gor:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),bstasyszyn,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,dependabot/go_modules/golang.org/x/net-0.7.0,main,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,
+PKCS11 resilience: Handle CKR_OPERATION_NOT_INITIALIZED,FABG-1017,46185,,Task,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,sudeshrshetty,sudeshrshetty,sudeshrshetty,06/Oct/20 2:19 AM,07/Jan/21 12:29 AM,28/Oct/23 3:23 AM,07/Jan/21 12:29 AM,,,0,,,"For some HSMs, pkcs11 library may not throw error during failed C_SignInt. In those cases, subsequent call to C_Sign will fail due to CKR_OPERATION_NOT_INITIALIZED.
+
+Fix: do not return sessions back to pool for failed C_SignInt",,sudeshrshetty,troyronda,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01gpf:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),sudeshrshetty,troyronda,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,dependabot/go_modules/golang.org/x/net-0.7.0,main,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,
+SubmitTransaction fails with TRANSIENT_FAILURE,FABG-1018,46186,,Bug,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,andrew-coleman,andrew-coleman,andrew-coleman,06/Oct/20 4:11 PM,18/Nov/20 8:19 PM,28/Oct/23 3:23 AM,07/Oct/20 12:14 AM,,,0,go-gateway,sdk-triaged,"When preparing the Go version of the [asset-transfer-basic|[https://github.com/hyperledger/fabric-samples/blob/master/asset-transfer-basic/application-go/assetTransfer.go]] sample, which uses the gateway package, the following error is thrown:
+
+{{Failed to submit: CreateAndSendTransaction failed: SendTransaction failed: calling orderer 'localhost:7050' failed: Orderer Client Status Code: (2) CONNECTION_FAILED. Description: dialing connection on target [localhost:7050]: connection is in TRANSIENT_FAILURE}}
+
+ 
+
+The orderer log indicates an incorrect TLS certificate from the client.
+
+ 
+
+The Fabcar sample works fine which uses the same test-network and ccp (network-config) file.  The difference is that Fabcar calls EvaluateTransaction() before SubmitTransaction() whereas asset-transfer-basic calls SubmitTransaction() immediately following the initialisation of the channel.  Adding a short sleep before SubmitTransaction fixes the error, suggesting that the discovery of the channel config has not had time to complete. 
+
+ ",,andrew-coleman,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01gpn:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),andrew-coleman,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,dependabot/go_modules/golang.org/x/net-0.7.0,main,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,"07/Oct/20 12:14 AM;andrew-coleman;[https://github.com/hyperledger/fabric-sdk-go/pull/150];;;"
+Gateway Transaction.Evaluate ignores endorsing peers option when set,FABG-1019,46228,,Bug,Unverified,FABG,Fabric SDK Go,software,troyronda,,,Medium,,,bur,bur,22/Oct/20 5:31 AM,22/Oct/20 9:28 PM,28/Oct/23 3:23 AM,,v2.x,,0,,,"Current implementation of `func (txn *Transaction) Evaluate` does not append the `channel.WithTargetEndpoints()` if `txn.endorsingPeer` is set during transaction creation.
+
+See code [here](https://github.com/hyperledger/fabric-sdk-go/blob/master/pkg/gateway/transaction.go#L89) and [here](https://github.com/hyperledger/fabric-sdk-go/blob/master/pkg/gateway/transaction.go#L113).
+
+This prevents the application developer to pick one or more peers and perform a query invocation of a chaincode whereas the Submit behaves as expected.
+
+",,bur,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01gv7:",,,,Unset,Unset,"The following example illustrates the discrepancy.
+
+contract := myContract()
+
+txn, err := contract.CreateTransaction(
+    ""createCar"",
+    WithEndorsingPeers(""peer1.org1.example.com:8051""),
+)
+if err != nil {
+    fmt.Printf(""Failed to create transaction: %s\n"", err)
+    return
+}
+
+result, err := txn.Submit(""CAR10"", ""VW"", ""Polo"", ""Grey"", ""Mary"")
+if err != nil {
+    fmt.Printf(""Failed to submit transaction: %s\n"", err)
+    return
+}
+fmt.Println(string(result))
+// this call indeed invokes the chaincode at peer1.org1.example.com
+
+result, err := txn.Evaluate(""CAR10"", ""VW"", ""Polo"", ""Grey"", ""Mary"")
+if err != nil {
+    fmt.Printf(""Failed to submit transaction: %s\n"", err)
+    return
+}
+fmt.Println(string(result)) 
+// This call, however, is performed at peer1.org1.example.com and peer1.org2.example.com and thereby ignoring the options as set during txn creation.",,Unset,,,,,,Unset,,Unset,,(Please add usage information),bur,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,dependabot/go_modules/golang.org/x/net-0.7.0,main,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,"22/Oct/20 5:59 AM;bur;My proposal to resolve this issue. https://github.com/hyperledger/fabric-sdk-go/pull/153;;;"
+Use camel-case instead of snake-case in JSON lifecycle responses,FABG-1020,46280,,Task,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,bstasyszyn,bstasyszyn,bstasyszyn,04/Nov/20 3:41 AM,04/Nov/20 5:44 AM,28/Oct/23 3:23 AM,04/Nov/20 5:44 AM,,,0,,,Update the lifecycle structs to use camel-case in JSON responses since most style guides recommend using camel-case instead of snake-case.,,bstasyszyn,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01h2r:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),bstasyszyn,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,dependabot/go_modules/golang.org/x/net-0.7.0,main,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,
+Include properties on a discovered peer,FABG-1021,46360,,Story,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,bstasyszyn,bstasyszyn,bstasyszyn,28/Nov/20 6:03 AM,03/Dec/20 5:48 AM,28/Oct/23 3:23 AM,03/Dec/20 5:48 AM,,,0,,,"When using Fabric Discovery, additional information is included for the discovered peer, such as ledger height and deployed chaincodes. This information should be exposed in the SDK interface.
+
+In order to support properties added by the peer in the future, the properties should be exposed in a generic way, i.e. key-value map, so that the SDK doesn't require code changes in order to access these properties.",,bstasyszyn,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01hfv:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),bstasyszyn,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,dependabot/go_modules/golang.org/x/net-0.7.0,main,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,
+Release v1.0.0-rc1,FABG-1022,46379,,Task,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,andrew-coleman,andrew-coleman,andrew-coleman,03/Dec/20 5:21 PM,03/Dec/20 11:07 PM,28/Oct/23 3:23 AM,03/Dec/20 11:07 PM,,,0,,,Release Candidate 1 for fabric-sdk-go,,andrew-coleman,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01hjn:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),andrew-coleman,,,,,,,,,
+Upgrade dependencies for fabric v2.2.1,FABG-1023,46428,,Task,Backlog,FABG,Fabric SDK Go,software,troyronda,,,Medium,,,sudeshrshetty,sudeshrshetty,15/Dec/20 6:03 AM,15/Dec/20 6:03 AM,28/Oct/23 3:23 AM,,,,0,,,,,sudeshrshetty,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01hqj:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),sudeshrshetty,,,,,,,,,
+Segfault using TLS 1.3 Client Certificates,FABG-1024,46446,,Bug,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,davidcorsha,davidcorsha,davidcorsha,24/Dec/20 4:50 AM,29/Dec/20 12:29 AM,28/Oct/23 3:23 AM,29/Dec/20 12:29 AM,,,0,,,"Under certain conditions when attempting to perform TLS 1.3 handshake, the Go library's TLS 1.3 code segfaults when trying to access ECDSA public key parameters that since cryptoutils puts an empty public key in the private key.
+
+ 
+
+A stack trace below shows the initial gRPC handshake while trying to create a channel client:
+{code:java}
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x30 pc=0x435c353]goroutine 78 [running]:
+crypto/tls.unsupportedCertificateError(0xc0002c7180, 0xc0002c7180, 0x0)
+        /usr/local/Cellar/go/1.15.5/libexec/src/crypto/tls/auth.go:275 +0x573
+crypto/tls.selectSignatureScheme(0xc000c80304, 0xc0002c7180, 0xc0013981a0, 0xc, 0x10, 0xc001383628, 0x4011951, 0x51c95d0)
+        /usr/local/Cellar/go/1.15.5/libexec/src/crypto/tls/auth.go:234 +0x22d
+crypto/tls.(*CertificateRequestInfo).SupportsCertificate(0xc000c809c0, 0xc0002c7180, 0x0, 0x0)
+        /usr/local/Cellar/go/1.15.5/libexec/src/crypto/tls/common.go:1204 +0xb8
+crypto/tls.(*Conn).getClientCertificate(0xc000a78e00, 0xc000c809c0, 0xc001399080, 0x20, 0xc0013837a0)
+        /usr/local/Cellar/go/1.15.5/libexec/src/crypto/tls/handshake_client.go:951 +0x1c9
+crypto/tls.(*clientHandshakeStateTLS13).sendClientCertificate(0xc001383d80, 0x0, 0x0)
+        /usr/local/Cellar/go/1.15.5/libexec/src/crypto/tls/handshake_client_tls13.go:548 +0x285
+crypto/tls.(*clientHandshakeStateTLS13).handshake(0xc001383d80, 0x8, 0xc000697e9e)
+        /usr/local/Cellar/go/1.15.5/libexec/src/crypto/tls/handshake_client_tls13.go:91 +0x629
+crypto/tls.(*Conn).clientHandshake(0xc000a78e00, 0x0, 0x0)
+        /usr/local/Cellar/go/1.15.5/libexec/src/crypto/tls/handshake_client.go:209 +0x837
+crypto/tls.(*Conn).Handshake(0xc000a78e00, 0x0, 0x0)
+        /usr/local/Cellar/go/1.15.5/libexec/src/crypto/tls/conn.go:1362 +0x18e
+google.golang.org/grpc/credentials.(*tlsCreds).ClientHandshake.func1(0xc000d025a0, 0xc000a78e00)
+        /Users/david/go/pkg/mod/google.golang.org/grpc@v1.33.1/credentials/tls.go:87 +0x39
+created by google.golang.org/grpc/credentials.(*tlsCreds).ClientHandshake
+        /Users/david/go/pkg/mod/google.golang.org/grpc@v1.33.1/credentials/tls.go:86 +0x12d
+{code}
+I've reproduced this in Go 1.14 and Go 1.15.",,davidcorsha,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01htf:",,,,Unset,Unset,"1. Instantiate SDK, get MSP client for user, Enroll user with Fabric CA (which will write ""keystore/SKI_sk""), and return user enrollment certificate and private key
+2. Generate SDK yaml config with client certificates from Enroll embedded in ""pem:"" section
+3. Initialize SDK with yaml config, create channel client for Enrolled user",,Unset,,,,,,Unset,,Unset,,(Please add usage information),davidcorsha,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,dependabot/go_modules/golang.org/x/net-0.7.0,main,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,
+allow invoke system chaincodes,FABG-1025,46447,,Test Task,Backlog,FABG,Fabric SDK Go,software,troyronda,,,Medium,,,meng950511,meng950511,24/Dec/20 11:25 AM,24/Dec/20 11:25 AM,28/Oct/23 3:23 AM,,,,0,,,"allow invoke lscc, qscc ,cscc... with gateway
+
+now it's : Discovery status Code: (11) UNKNOWN. Description: error received from Discovery Server: failed constructing descriptor for chaincodes:<name:""qscc"" > ",,meng950511,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01htn:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),meng950511,,,,,,,,,
+Broken link to fabric docs in gateway godoc,FABG-1026,46471,,Documentation,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,andrew-coleman,andrew-coleman,andrew-coleman,08/Jan/21 1:45 AM,08/Jan/21 6:10 PM,28/Oct/23 3:23 AM,08/Jan/21 6:10 PM,,,0,,,"The GoDoc for the gateway package gives a link to the 'developing applications' page of the Fabric docs ([https://hyperledger-fabric.readthedocs.io/en/master/developapps/developing_applications.html)]
+
+ 
+
+However, this link is no longer valid and needs to be changed to [https://hyperledger-fabric.readthedocs.io/en/latest/developapps/developing_applications.html]
+
+(i.e. master -> latest)",,andrew-coleman,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01hyz:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),andrew-coleman,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,dependabot/go_modules/golang.org/x/net-0.7.0,main,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,
+Release v1.0.0,FABG-1027,46492,,Task,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,,troyronda,troyronda,15/Jan/21 2:48 AM,02/Feb/21 6:30 AM,28/Oct/23 3:23 AM,02/Feb/21 6:30 AM,,,0,,,,,troyronda,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01i37:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),troyronda,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,main,dependabot/go_modules/golang.org/x/net-0.7.0,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,
+about the performance with query Block message,FABG-1028,46493,,Story,Backlog,FABG,Fabric SDK Go,software,troyronda,,,Medium,,,cllei,cllei,15/Jan/21 4:40 PM,15/Jan/21 4:40 PM,28/Oct/23 3:23 AM,,,,0,,,"local:
+ * fabric-1.4.7
+ * fabric-sdk-go v1.0.0-rc1
+
+I make a client with ""gin-gonic/gin"" and ""fabric-sdk-go"". And use JMeter to test the throughputs , results are as follows
+ * chainode queryCar ：about 500/sec
+ * query BlockByTxID : about 70/sec
+
+When used java-sdk , query Block close to or even exceed with query chaincode.
+
+And query Block code as follows:
+{code:java}
+org1AdminChannelContext := sdk.ChannelContext(""mychannel"", fabsdk.WithUser(""admin""), fabsdk.WithOrg(""Org1""))
+cli, err :=  ledger.New(org1AdminChannelContext)
+fmt.Printf(""------- QueryBlock ------\n"")
+block, err := con.cli.QueryBlock(1)
+fmt.Printf(""block metadata : %s\n"", block.Metadata.String())
+
+{code}",,cllei,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01i3f:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),cllei,,,,,,,,,
+Block Decoder,FABG-1029,46521,,Task,Backlog,FABG,Fabric SDK Go,software,troyronda,,,Medium,,,gtpaulose,gtpaulose,29/Jan/21 5:51 PM,30/Jan/21 10:32 PM,28/Oct/23 3:23 AM,,,,0,fabric-sdk-go,,"Similar to the implementation in the fabric-sdk-node, is it possible to create a similar to implemention which is a function of github.com/hyperledger/fabric-protos-go/common.Block.
+{code:java}
+var encodedBlock *common.Block
+decodedBlock, _ := block.Decode(){code}
+The process of iterative proto unmarshaling is a bit arduous, so i'm sure this will be useful.
+
+There are a couple of github packages that do this, but they either not importable or do justice to the block definition.
+
+In addition to this functionality, we can also extend this with additional options (as args) to allow more customisability to the user, while decoding",,gtpaulose,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01i8j:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),gtpaulose,,,,,,,,,
+CreateBlockWithCCEventAndTxStatus cannot be used for UT,FABG-1030,46522,,Bug,Unverified,FABG,Fabric SDK Go,software,troyronda,,,Medium,,,gtpaulose,gtpaulose,29/Jan/21 6:01 PM,30/Jan/21 10:38 PM,28/Oct/23 3:23 AM,,,,1,fabric-sdk-go,,"The function _CreateBlockWithCCEventAndTxStatus_ ([https://github.com/hyperledger/fabric-sdk-go/blob/master/pkg/fab/mocks/mockdata.go)] cannot be used by imported by external applications for testing because of the predefined values that it sets. Specifically _ProposalResponsePayload.Results_, is set to the string: ""_results""_, ([https://github.com/hyperledger/fabric-sdk-go/blob/master/pkg/fab/mocks/mockdata.go#L518).|https://github.com/hyperledger/fabric-sdk-go/blob/master/pkg/fab/mocks/mockdata.go#L518)] This is not an accurate representation of a real block and it prevents users from using the created Block in their own test cases. Since it's value is a byte array of a string literal, it prevents functions from unmarshaling _ProposalResponsePayload__.Results,_  as the code panics. 
+
+ 
+
+I propose we either set it to the empty value of _*rwset.TxReadWriteSet or set it as_ _nil_, to be consistent with the actual block definition.",,gtpaulose,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01i8r:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),gtpaulose,,,,,,,,,
+Avoid imports of metrics in normal builds,FABG-1031,46529,,Task,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,,troyronda,troyronda,02/Feb/21 5:26 AM,03/Feb/21 12:16 AM,28/Oct/23 3:23 AM,03/Feb/21 12:16 AM,,,0,,,,,troyronda,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01ia3:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),troyronda,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,main,dependabot/go_modules/golang.org/x/net-0.7.0,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,
+Switch to main branch,FABG-1032,46531,,Task,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,,troyronda,troyronda,02/Feb/21 10:40 PM,03/Feb/21 12:16 AM,28/Oct/23 3:23 AM,03/Feb/21 12:16 AM,,,0,,,,,troyronda,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01iab:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),troyronda,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,main,dependabot/go_modules/golang.org/x/net-0.7.0,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,
+"connection is in TRANSIENT_FAILURE when running gw.GetNetwork(""channel1"")",FABG-1033,46595,,Bug,Unverified,FABG,Fabric SDK Go,software,troyronda,,,High,,,krubotsky,krubotsky,25/Feb/21 6:09 AM,25/Feb/21 6:09 AM,28/Oct/23 3:23 AM,,,,0,,,"I've been getting the following error when running my go code using the fabric-sdk-go:
+{code:java}
+$ ./main
+2021/02/24 20:56:08 ============ application-golang starts ============
+ [fabsdk/core] 2021/02/24 20:56:08 UTC - cryptosuite.GetDefault -> INFO No default cryptosuite found, using default SW implementation
+2021/02/24 20:56:08 Failed to get network: Failed to create new channel client: event service creation failed: could not get chConfig cache reference: QueryBlockConfig failed: QueryBlockConfig failed: queryChaincode failed: Transaction processing for endorser [org1peer1:30110]: Endorser Client Status Code: (2) CONNECTION_FAILED. Description: dialing connection on target [org1peer1:30110]: connection is in TRANSIENT_FAILURE {code}
+Since this is just a test deployment I can send over my connection config:
+{code:java}
+---
+name: test-network-org1
+version: 1.0.0
+client:
+  organization: Org1
+  connection:
+    timeout:
+      peer:
+        endorser: '300'
+organizations:
+  Org1:
+    mspid: Org1MSP
+    peers:
+    - peer0.org1.example.com
+    certificateAuthorities:
+    - ca.org1.example.com
+peers:
+  peer0.org1.example.com:
+    url: grpcs://org1peer1:30110
+    tlsCACerts:
+      pem: |
+          -----BEGIN CERTIFICATE-----
+          MIICVjCCAf2gAwIBAgIQNLOpwl5Jlw+JYbKmHHoeRzAKBggqhkjOPQQDAjB2MQsw
+          CQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNU2FuIEZy
+          YW5jaXNjbzEZMBcGA1UEChMQb3JnMS5leGFtcGxlLmNvbTEfMB0GA1UEAxMWdGxz
+          Y2Eub3JnMS5leGFtcGxlLmNvbTAeFw0yMTAyMjQxNzE4MDBaFw0zMTAyMjIxNzE4
+          MDBaMHYxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQH
+          Ew1TYW4gRnJhbmNpc2NvMRkwFwYDVQQKExBvcmcxLmV4YW1wbGUuY29tMR8wHQYD
+          VQQDExZ0bHNjYS5vcmcxLmV4YW1wbGUuY29tMFkwEwYHKoZIzj0CAQYIKoZIzj0D
+          AQcDQgAEBy95XpF2h0g8G8ojd/kvlaTs9BvcJty9K+y2C3vYUtWUq4TW8xf0bfqT
+          yEYKPes2HuOPFhtQ6Fp4mGsy+5sxUqNtMGswDgYDVR0PAQH/BAQDAgGmMB0GA1Ud
+          JQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATAPBgNVHRMBAf8EBTADAQH/MCkGA1Ud
+          DgQiBCASSp8HsEDG3ZZqhbUrGSB3vuZ6zEOaiLn0azjajO7LfTAKBggqhkjOPQQD
+          AgNHADBEAiBiAS8SPCdLsAxTC0Ohsy/jn/1cmmVMs36Zdkc77H/UtgIgIT/92Ogr
+          dYLxQ9gdvGXrTD+SjqibATV5cRdYTKBIiMw=
+          -----END CERTIFICATE-----    grpcOptions:
+      ssl-target-name-override: peer0.org1.example.com
+      hostnameOverride: peer0.org1.example.com
+certificateAuthorities:
+  ca.org1.example.com:
+    url: https://ca:7054
+    caName: CA1
+    tlsCACerts:
+      pem:
+        - |
+          -----BEGIN CERTIFICATE-----
+          MIICUTCCAfegAwIBAgIQEqRKDkKutFEOa+pRPNEeFDAKBggqhkjOPQQDAjBzMQsw
+          CQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNU2FuIEZy
+          YW5jaXNjbzEZMBcGA1UEChMQb3JnMS5leGFtcGxlLmNvbTEcMBoGA1UEAxMTY2Eu
+          b3JnMS5leGFtcGxlLmNvbTAeFw0yMTAyMjQxNzE4MDBaFw0zMTAyMjIxNzE4MDBa
+          MHMxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1T
+          YW4gRnJhbmNpc2NvMRkwFwYDVQQKExBvcmcxLmV4YW1wbGUuY29tMRwwGgYDVQQD
+          ExNjYS5vcmcxLmV4YW1wbGUuY29tMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE
+          TXtKWXa3vKOKBs37SM51HNJCxir5Q5878VBMK7WRrRFc/D5BT89eXIxOV/eSb1nO
+          qEUTkkBrYFg15+r9xjRek6NtMGswDgYDVR0PAQH/BAQDAgGmMB0GA1UdJQQWMBQG
+          CCsGAQUFBwMCBggrBgEFBQcDATAPBgNVHRMBAf8EBTADAQH/MCkGA1UdDgQiBCCM
+          4gE8x1lB12mIWfQk8eAHbbGQojdiUYr7FJYHqp5J5TAKBggqhkjOPQQDAgNIADBF
+          AiEA05wkoqyncuKdMO4c3RdhkfiEoHqElVO266Cig7Od8OgCIDN/iJ+D3sYcF7qM
+          MTjXaiOOfcaFMGufuajR6j6WfKim
+          -----END CERTIFICATE-----    httpOptions:
+      verify: false
+{code}
+I can see any logs on either the peer or the ca but I can get connection on both of these endpoints here:
+{code:java}
+$ nc -z -v ca 7054
+ca.ledger.svc.cluster.local [100.66.133.235] 7054 (?) open
+$ nc -z -v org1peer1 30110
+org1peer1.ledger.svc.cluster.local [100.66.135.225] 30110 (?) open{code}
+Not quite sure how to debug this or how to find any more information here.",,krubotsky,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01inf:",,,,Unset,Unset,"You can deploy the kubernetes fabric config in this repo:
+
+https://github.com/IBM/blockchain-network-on-kubernetes
+
+Then test the forbar build and run.",,Unset,,,,,,Unset,,Unset,,(Please add usage information),krubotsky,,,,,,,,,
+Sample golang app code doesn't work as a http request handler,FABG-1034,46617,,Story,Backlog,FABG,Fabric SDK Go,software,troyronda,,,Medium,,,zuber 2,zuber 2,08/Mar/21 3:37 AM,19/Dec/21 9:54 PM,28/Oct/23 3:23 AM,,,,0,,,"My $GOPATH contains two directories:
+
+1. fabric-samples downloaded by
+{code:java}
+curl -sSL https://bit.ly/2ysbOFE | bash -s -- 2.2.2 1.4.9{code}
+2. test-server: sample golang web server that launches the code copypasted from sample golang app and triggered on each accessing root URL:
+{code:java}
+package main
+
+import (
+ ""encoding/json""
+ ""fmt""
+ ""github.com/cryptomafia/Cryptex/crypto_billing/Billings""
+ ""github.com/cryptomafia/Cryptex/crypto_billing/Currencies""
+ ""github.com/hyperledger/fabric-sdk-go/pkg/core/config""
+ ""github.com/hyperledger/fabric-sdk-go/pkg/gateway""
+ ""io/ioutil""
+ ""log""
+ ""net/http""
+ ""os""
+ ""path/filepath""
+)
+
+func main() {
+ http.HandleFunc(""/"", manipulateLedger)
+ port := os.Getenv(""PORT"")
+ if port == """" {
+ port = ""8080""
+ }
+ log.Printf(""Listening on port %s"", port)
+ if err := http.ListenAndServe("":""+port, nil); err != nil {
+ log.Fatal(err)
+ }
+}
+
+func handle(w http.ResponseWriter, r *http.Request) {
+ if r.URL.Path != ""/"" {
+ http.NotFound(w, r)
+ return
+ }
+ //w.Header().Set(""Content-Type"", ""application/json"")
+ billing := Billings.GetCurrencyBilling(Currencies.HLA)
+ fmt.Print(billing.ToString())
+ response, err := json.Marshal(billing)
+ if err != nil {
+ // handle error
+ }
+ w.Write(response)
+}
+
+func manipulateLedger(w http.ResponseWriter, r *http.Request) {
+
+ log.Println(""============ application-golang starts ============"")
+
+ err := os.Setenv(""DISCOVERY_AS_LOCALHOST"", ""true"")
+ if err != nil {
+ log.Fatalf(""Error setting DISCOVERY_AS_LOCALHOST environemnt variable: %v"", err)
+ }
+
+ wallet, err := gateway.NewFileSystemWallet(""wallet"")
+ if err != nil {
+ log.Fatalf(""Failed to create wallet: %v"", err)
+ }
+
+ if !wallet.Exists(""appUser"") {
+ err = populateWallet(wallet)
+ if err != nil {
+ log.Fatalf(""Failed to populate wallet contents: %v"", err)
+ }
+ }
+
+ ccpPath := filepath.Join(
+ "".."",
+ ""fabric-samples"",
+ ""test-network"",
+ ""organizations"",
+ ""peerOrganizations"",
+ ""org1.example.com"",
+ ""connection-org1.yaml"",
+ )
+
+ gw, err := gateway.Connect(
+ gateway.WithConfig(config.FromFile(filepath.Clean(ccpPath))),
+ gateway.WithIdentity(wallet, ""appUser""),
+ )
+
+ if err != nil {
+ log.Fatalf(""Failed to connect to gateway: %v"", err)
+ }
+ defer gw.Close()
+
+ network, err := gw.GetNetwork(""mychannel"")
+ if err != nil {
+ log.Fatalf(""Failed to get network: %v"", err)
+ }
+
+ contract := network.GetContract(""basic"")
+
+ log.Println(""--> Submit Transaction: InitLedger, function creates the initial set of assets on the ledger"")
+ result, err := contract.SubmitTransaction(""InitLedger"")
+ if err != nil {
+ log.Fatalf(""Failed to Submit transaction: %v"", err)
+ }
+ log.Println(string(result))
+
+ log.Println(""--> Evaluate Transaction: GetAllAssets, function returns all the current assets on the ledger"")
+ result, err = contract.EvaluateTransaction(""GetAllAssets"")
+ if err != nil {
+ log.Fatalf(""Failed to evaluate transaction: %v"", err)
+ }
+ log.Println(string(result))
+
+ log.Println(""--> Submit Transaction: CreateAsset, creates new asset with ID, color, owner, size, and appraisedValue arguments"")
+ result, err = contract.SubmitTransaction(""CreateAsset"", ""asset13"", ""yellow"", ""5"", ""Tom"", ""1300"")
+ if err != nil {
+ log.Fatalf(""Failed to Submit transaction: %v"", err)
+ }
+ log.Println(string(result))
+
+ log.Println(""--> Evaluate Transaction: ReadAsset, function returns an asset with a given assetID"")
+ result, err = contract.EvaluateTransaction(""ReadAsset"", ""asset13"")
+ if err != nil {
+ log.Fatalf(""Failed to evaluate transaction: %v\n"", err)
+ }
+ log.Println(string(result))
+
+ log.Println(""--> Evaluate Transaction: AssetExists, function returns 'true' if an asset with given assetID exist"")
+ result, err = contract.EvaluateTransaction(""AssetExists"", ""asset1"")
+ if err != nil {
+ log.Fatalf(""Failed to evaluate transaction: %v\n"", err)
+ }
+ log.Println(string(result))
+
+ log.Println(""--> Submit Transaction: TransferAsset asset1, transfer to new owner of Tom"")
+ _, err = contract.SubmitTransaction(""TransferAsset"", ""asset1"", ""Tom"")
+ if err != nil {
+ log.Fatalf(""Failed to Submit transaction: %v"", err)
+ }
+
+ log.Println(""--> Evaluate Transaction: ReadAsset, function returns 'asset1' attributes"")
+ result, err = contract.EvaluateTransaction(""ReadAsset"", ""asset1"")
+ if err != nil {
+ log.Fatalf(""Failed to evaluate transaction: %v"", err)
+ }
+ log.Println(string(result))
+ log.Println(""============ application-golang ends ============"")
+ log.Println(""============ going to print billing ============"")
+
+ if r.URL.Path != ""/"" {
+ http.NotFound(w, r)
+ return
+ }
+ //w.Header().Set(""Content-Type"", ""application/json"")
+ billing := Billings.GetCurrencyBilling(Currencies.HLA)
+ fmt.Print(billing.ToString())
+ response, err := json.Marshal(billing)
+ if err != nil {
+ // handle error
+ }
+ w.Write(response)
+}
+
+func populateWallet(wallet *gateway.Wallet) error {
+ log.Println(""============ Populating wallet ============"")
+ credPath := filepath.Join(
+ "".."",
+ ""fabric-samples"",
+ ""test-network"",
+ ""organizations"",
+ ""peerOrganizations"",
+ ""org1.example.com"",
+ ""users"",
+ ""User1@org1.example.com"",
+ ""msp"",
+ )
+
+ certPath := filepath.Join(credPath, ""signcerts"", ""cert.pem"")
+ // read the certificate pem
+ cert, err := ioutil.ReadFile(filepath.Clean(certPath))
+ if err != nil {
+ return err
+ }
+
+ keyDir := filepath.Join(credPath, ""keystore"")
+ // there's a single file in this dir containing the private key
+ files, err := ioutil.ReadDir(keyDir)
+ if err != nil {
+ return err
+ }
+ if len(files) != 1 {
+ return fmt.Errorf(""keystore folder should have contain one file"")
+ }
+ keyPath := filepath.Join(keyDir, files[0].Name())
+ key, err := ioutil.ReadFile(filepath.Clean(keyPath))
+ if err != nil {
+ return err
+ }
+
+ identity := gateway.NewX509Identity(""Org1MSP"", string(cert), string(key))
+
+ return wallet.Put(""appUser"", identity)
+}{code}
+Which I launch after
+{code:java}
+./network.sh up createChannel -c mychannel -ca{code}
+But the code is failing on the
+{code:java}
+gw.GetNetwork(""mychannel""){code}
+line.
+
+The error is:
+{code:java}
+[fabsdk/fab] 2021/03/07 18:34:30 UTC - peer.(*peerEndorser).sendProposal -> ERRO process proposal failed [rpc error: code = Unknown desc = error validating proposal: access denied: channel [mychannel] creator org [Org1MSP]]
+2021/03/08 00:34:32 Failed to get network: Failed to create new channel client: event service creation failed: could not get chConfig cache reference: QueryBlockConfig failed: QueryBlockConfig failed: queryChaincode failed: Transaction processing for endorser [localhost:7051]: gRPC Transport Status Code: (2) Unknown. Description: error validating proposal: access denied: channel [mychannel] creator org [Org1MSP]{code}",,zuber 2,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Yes,Unset,,,,,No,,Unset,No,,,"1|hzwtb8:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),zuber 2,,,,,,,,,
+goroutine leak,FABG-1035,46652,,Bug,Closed,FABG,Fabric SDK Go,software,troyronda,,,Medium,Done,partanskiy,partanskiy,partanskiy,17/Mar/21 9:21 PM,07/Apr/21 10:39 PM,28/Oct/23 3:23 AM,07/Apr/21 10:39 PM,,,0,,,"[https://github.com/hyperledger/fabric-sdk-go/blob/7bf58790be693b74f78e37393781988244b0290b/pkg/fab/events/service/dispatcher/dispatcher.go#L129]
+
+ it is not correct to read from a channel without a timeout, which may hang",,partanskiy,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01iy3:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),partanskiy,,,dependabot/go_modules/golang.org/x/crypto-0.1.0,dependabot/go_modules/test/performance/golang.org/x/net-0.7.0,main,dependabot/go_modules/golang.org/x/net-0.7.0,dependabot/go_modules/github.com/prometheus/client_golang-1.11.1,true,"07/Apr/21 10:36 PM;partanskiy;can be closed. everything was resolved
+
+https://github.com/hyperledger/fabric-sdk-go/pull/173;;;"
+Reenroll a revoked identity failing,FABG-1036,46659,,Bug,Unverified,FABG,Fabric SDK Go,software,troyronda,,,Medium,,,vieiramanoel,vieiramanoel,20/Mar/21 5:12 AM,22/Mar/21 6:13 AM,28/Oct/23 3:23 AM,,,,0,,,"After revoking an identity a reenroll will fail with the error ""user not found"" due to a GetSigningIdentity call in reenroll method.
+The GetSigningIdentity will fail as the identity was revoked earlier, so the call must be removed. ",,vieiramanoel,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01j37:",,,,Unset,Unset,"1. Create an identity
+2. Enroll the identity
+3. Revoke the identity
+4. Try to reenroll it will fail",,Unset,,,,,,Unset,,Unset,,(Please add usage information),vieiramanoel,,,,,,,,,
+common name field from CSR not being copied at newCertificateRequest,FABG-1037,46686,,Bug,Unverified,FABG,Fabric SDK Go,software,troyronda,,,Medium,,vieiramanoel,vieiramanoel,vieiramanoel,30/Mar/21 12:43 AM,30/Mar/21 1:35 AM,28/Oct/23 3:23 AM,,,,0,,,,,vieiramanoel,,,,,,,,,,FABC-930,FABC-930,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01j8j:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),vieiramanoel,,,,,,,,,
+cant parse block to json format correct ,FABG-1038,46860,,Bug,Unverified,FABG,Fabric SDK Go,software,troyronda,,,Medium,,,lifeg0eson,lifeg0eson,14/May/21 2:08 PM,12/Sep/21 7:11 PM,28/Oct/23 3:23 AM,,,,0,,," when I use fabric sdk go query blockinfo,then I try to parse block into json format
+
+these are my code 
+{code:go}
+// mychannel_1.block is common.Block object
+func parseBlock(){
+file := ""mychannel_1.block""
+data, err := ioutil.ReadFile(file)
+if err != nil
+
+{ fmt.Errorf(""Could not read block"") }
+
+//when I use package fabric-protos-go/common,I cant parse block into json correct ,but when I use fabric/protos/common,I I can parse block into json correct
+block := &cb.Block{}
+err = proto.Unmarshal(data, block)
+if err != nil
+
+{ fmt.Errorf(""error unmarshaling to block: %s"", err) }
+
+buf := new (bytes.Buffer)
+err = protolator.DeepMarshalJSON(buf, block)
+if err != nil
+
+{ fmt.Errorf(""malformed block contents: %s"", err) }
+
+filename := ""mychannel_5.json""
+err = ioutil.WriteFile(filename,buf.Bytes(),0644)
+if err != nil
+
+{ fmt.Println(""write to file failure:"",err) }
+
+}
+{code}
+ correct block info (json format)
+{code:json}
+{
+	""data"": {
+		""data"": [
+			{
+				""payload"": {
+					//some info hide
+				},
+				""signature"": ""MEUCIQCihbeuiFJVOn6j5iJ2eEV1QTJP2/zYq0QKl83fp3HJEAIgHpHLoqVPiIBCrtsygcQw/9VC73O3U0oPdxSSn3JtF4g=""
+			}
+		]
+	},
+	""header"": {
+		""data_hash"": ""dSwpa5j08L9CNCTDMC5YUYWfhL9IbGkAZNoA8CHeu5I="",
+		""number"": ""2"",
+		""previous_hash"": ""sn8Xeolf5u2bLo6KpIhwyoeDyGB/vytTPl1qv+SNk50=""
+	},
+	""metadata"": {
+		""metadata"": [
+//some info hide			""ChEKAggBEgsKCQoDAQIDEAQYBhLJCAr+BwrhBwoDaHhiEtkHLS0tLS1CRUdJTiBDRVJUSUZJ......."",
+			""CgIIAQ=="",
+			""AA=="",
+			""CgkKAwECAxAEGAY="",
+			""CiDZr2H1wGzqg1+Kn50xm1nlo+mRKL2dT4ZSguuZe9Ooww==""
+		]
+	}
+}		
+{code}
+incorrect block info (json format)
+{code:json}
+{
+	""data"": {
+		""data"": [
+//some info hide			""Cv4mCukICmYIAxoLCJTyk4QGELzf3jQiCW15Y2hhbm5lbCpAZmI2MWQ2ZmJkOTIwNmFhZD......""
+		]
+	},
+	""header"": {
+		""data_hash"": ""dSwpa5j08L9CNCTDMC5YUYWfhL9IbGkAZNoA8CHeu5I="",
+		""number"": ""2"",
+		""previous_hash"": ""sn8Xeolf5u2bLo6KpIhwyoeDyGB/vytTPl1qv+SNk50=""
+	},
+	""metadata"": {
+		""metadata"": [
+//some info hide			""ChEKAggBEgsKCQoDAQIDEAQYBhLJCAr+BwrhBwoDaHhiEtkHLS0tLS1CRUdJTiBDRVJUSUZJ................."",
+			""CgIIAQ=="",
+			""AA=="",
+			""CgkKAwECAxAEGAY="",
+			""CiDZr2H1wGzqg1+Kn50xm1nlo+mRKL2dT4ZSguuZe9Ooww==""
+		]
+	}
+}
+{code}
+ the field data are parse into json incorrect.I notice the proto move to fabric-protos-go from fabric-sdk-go version 1.0.0,can someone tell me what is different from fabric-protos-go/common to fabric/protos/common.
+
+ 
+  ",,,,,,,,,,,,,,,"14/May/21 2:08 PM;lifeg0eson;block_files.zip;https://jira.hyperledger.org/secure/attachment/19003/block_files.zip",,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01i8o:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),,,,,,,,,,
+gateway.Connect with wrong identity creates infinite retry loop,FABG-1039,46876,,Bug,To Do,FABG,Fabric SDK Go,software,troyronda,,,Medium,,,AurelienGasser,AurelienGasser,24/May/21 1:17 AM,24/May/21 4:33 PM,28/Oct/23 3:23 AM,,,,0,,,"fabric-sdk-go v1.0.0
+
+When calling GetNetwork with an incorrect identity, we run into an infinite refresh scenario.
+
+ 
+
+Consider the following code, where the identity passed with `WithIdentity` doesn't correspond to the peer's MSPID):
+{code:go}
+gw, err := gateway.Connect(
+	gateway.WithConfig(ci.config),
+	gateway.WithIdentity(ci.wallet, label),
+)
+network, err := gw.GetNetwork(channel)
+{code}
+ 
+
+This will fail with error
+{code:go}
+could not get chConfig cache reference: QueryBlockConfig failed: QueryBlockConfig failed: target(s) required
+{code}
+ 
+
+This makes sense, since there's no valid target. In calculateTargetsFromConfig:
+{code:go}
+// Pick peers in the same MSP as the context since only they can query system chaincode
+if newPeer.MSPID() == ctx.Identifier().MSPID {
+	targets = append(targets, newPeer)
+}
+{code}
+ 
+
+The stack trace is the following
+{code:go}
+github.com/hyperledger/fabric-sdk-go/pkg/fab/chconfig.(*ChannelConfig).queryBlockFromPeers(0xc000da4000, 0x13734a0, 0xc000d90300, 0xc000d90300, 0xc000d941e0, 0x13734d8)
+    /usr/src/fabric-sdk-go/pkg/fab/chconfig/chconfig.go:173 +0x37
+github.com/hyperledger/fabric-sdk-go/pkg/fab/chconfig.(*ChannelConfig).queryPeers(0xc000da4000, 0x13734a0, 0xc000d90300, 0x13734d8, 0x1360200, 0xc000d8e100)
+    /usr/src/fabric-sdk-go/pkg/fab/chconfig/chconfig.go:163 +0x45
+github.com/hyperledger/fabric-sdk-go/pkg/fab/chconfig.(*ChannelConfig).Query(0xc000da4000, 0x13734a0, 0xc000d90300, 0x1, 0x1, 0x13734a0, 0xc000d90300)
+    /usr/src/fabric-sdk-go/pkg/fab/chconfig/chconfig.go:159 +0x9b
+github.com/hyperledger/fabric-sdk-go/pkg/fab/chconfig.(*Ref).getConfig(0xc000d86140, 0x0, 0x0, 0x0, 0x0)
+    /usr/src/fabric-sdk-go/pkg/fab/chconfig/reference.go:69 +0x1d2
+github.com/hyperledger/fabric-sdk-go/pkg/fab/chconfig.(*Ref).initializer.func1(0x48b7a63bd8ee, 0xc014613b20, 0x14613b2000c5f080, 0x60aa7cad)
+    /usr/src/fabric-sdk-go/pkg/fab/chconfig/reference.go:51 +0x45
+github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazyref.New.func1(0x0, 0x0, 0xc0007ae078, 0xc000c28688, 0xbeec25, 0xc000da0038)
+    /usr/src/fabric-sdk-go/pkg/util/concurrent/lazyref/lazyref.go:90 +0x26
+github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazyref.NewWithData.func1(0x0, 0x0, 0x0, 0x11a5300, 0xc000d86140, 0x0)
+    /usr/src/fabric-sdk-go/pkg/util/concurrent/lazyref/lazyref.go:113 +0x4f
+github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazyref.(*Reference).Get(0xc000da0000, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+    /usr/src/fabric-sdk-go/pkg/util/concurrent/lazyref/lazyref.go:163 +0xf2
+github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/provider/chpvdr.(*contextCache).GetChannelConfig(0xc000d900c0, 0xc000b89797, 0x9, 0x30, 0x20, 0xc000b90b40, 0x1225552)
+    /usr/src/fabric-sdk-go/pkg/fabsdk/provider/chpvdr/contextcache.go:190 +0x85
+github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/provider/chpvdr.(*contextCache).GetEventService(0xc000d900c0, 0xc000b89797, 0x9, 0x0, 0x0, 0x0, 0x30, 0x10a3fe0, 0x1, 0xc000d88270)
+    /usr/src/fabric-sdk-go/pkg/fabsdk/provider/chpvdr/contextcache.go:165 +0x45
+github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/provider/chpvdr.(*ChannelService).EventService(0xc000d88150, 0x0, 0x0, 0x0, 0xc000c288e8, 0x203000, 0x203000, 0x203000)
+    /usr/src/fabric-sdk-go/pkg/fabsdk/provider/chpvdr/chprovider.go:104 +0x65
+github.com/hyperledger/fabric-sdk-go/pkg/client/channel.New(0xc0005d5cc0, 0x0, 0x0, 0x0, 0x10f0300, 0xc000c28901, 0xc0005d5cc0)
+    /usr/src/fabric-sdk-go/pkg/client/channel/chclient.go:65 +0x1c8
+github.com/hyperledger/fabric-sdk-go/pkg/gateway.newNetwork(0xc00024abd0, 0xc0005d5cc0, 0x9, 0xc000c80d00, 0x2)
+    /usr/src/fabric-sdk-go/pkg/gateway/network.go:32 +0x85
+github.com/hyperledger/fabric-sdk-go/pkg/gateway.(*Gateway).GetNetwork(0xc00024abd0, 0xc000b89797, 0x9, 0xc000b89797, 0x9, 0xc000c80cf0)
+    /usr/src/fabric-sdk-go/pkg/gateway/gateway.go:256 +0xfe
+{code}
+So this is all pretty much expected.
+
+ 
+----
+ 
+
+*Now for the issue.*
+
+The problem, is that refreshValue will keep on trying *forever*
+
+ 
+{code:go}
+[fabsdk/util] 2021/05/23 16:06:31 UTC - lazyref.(*Reference).refreshValue -> WARN Error - initializer returned error: QueryBlockConfig failed: QueryBlockConfig failed: target(s) required. Will retry again later                                                                                                                                                                                                 
+{code}
+ 
+
+This time, the stack trace is
+{code:go}
+github.com/hyperledger/fabric-sdk-go/pkg/fab/chconfig.(*ChannelConfig).queryBlockFromPeers(0xc0002ed8f0, 0x13734a0, 0xc000ed2ba0, 0xc000ed2ba0, 0xc000dd9010, 0x13734d8)
+    /usr/src/myproject/fabric-sdk-go/pkg/fab/chconfig/chconfig.go:173 +0x37
+github.com/hyperledger/fabric-sdk-go/pkg/fab/chconfig.(*ChannelConfig).queryPeers(0xc0002ed8f0, 0x13734a0, 0xc000ed2ba0, 0x13734d8, 0x1360200, 0xc000c23e40)
+    /usr/src/myproject/fabric-sdk-go/pkg/fab/chconfig/chconfig.go:163 +0x45
+github.com/hyperledger/fabric-sdk-go/pkg/fab/chconfig.(*ChannelConfig).Query(0xc0002ed8f0, 0x13734a0, 0xc000ed2ba0, 0x1, 0x1, 0x13734a0, 0xc000ed2ba0)
+    /usr/src/myproject/fabric-sdk-go/pkg/fab/chconfig/chconfig.go:159 +0x9b
+github.com/hyperledger/fabric-sdk-go/pkg/fab/chconfig.(*Ref).getConfig(0xc0005d4000, 0x0, 0x0, 0x0, 0x0)
+    /usr/src/myproject/fabric-sdk-go/pkg/fab/chconfig/reference.go:69 +0x1d2
+github.com/hyperledger/fabric-sdk-go/pkg/fab/chconfig.(*Ref).initializer.func1(0xc00136ce20, 0xa1e911, 0x5, 0x34)
+    /usr/src/myproject/fabric-sdk-go/pkg/fab/chconfig/reference.go:51 +0x45
+github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazyref.New.func1(0x0, 0x0, 0x11cca11, 0xc000375500, 0xc0006f5e00, 0x1b0ce58)
+    /usr/src/myproject/fabric-sdk-go/pkg/util/concurrent/lazyref/lazyref.go:90 +0x26
+github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazyref.NewWithData.func1(0x0, 0x0, 0xc000dd8f60, 0x1, 0x1, 0xc000d2b04a)
+    /usr/src/myproject/fabric-sdk-go/pkg/util/concurrent/lazyref/lazyref.go:113 +0x4f
+github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazyref.(*Reference).refreshValue(0xc000625180)
+    /usr/src/myproject/fabric-sdk-go/pkg/util/concurrent/lazyref/lazyref.go:362 +0x36
+github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazyref.(*Reference).handleExpiration(0xc000625180)
+    /usr/src/myproject/fabric-sdk-go/pkg/util/concurrent/lazyref/lazyref.go:341 +0xc2
+github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazyref.checkTimeStarted(0xc000625180, 0x0)
+    /usr/src/myproject/fabric-sdk-go/pkg/util/concurrent/lazyref/lazyref.go:300 +0x1f6
+created by github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazyref.(*Reference).ensureTimerStarted
+{code}
+ 
+
+In addition to using resources unnecessarily, this can be problematic because it keep on outputing lines to logs, seemingly forever.",,AurelienGasser,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01jtv:",,,,Unset,Unset,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),AurelienGasser,,,,,,,,,
