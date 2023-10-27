@@ -556,7 +556,7 @@ Some googling does bring up something about using namespaces like {{AssetContra
  
 Clarifying this would be really helpful for many and it needs to be added in to the docs.",,lesleyannj,pandrejko,sebastian.t.f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,(Please add high level design or a link to the design),Unset,Unset,Unset,,,,,No,,Unset,No,,,"1|i01f4z:",,,,Unset,Unset,,(Please add steps to reproduce),,Unset,,,,,,Unset,,Unset,,(Please add usage information),lesleyannj,pandrejko,sebastian.t.f,,,,,,,,,,,,,,mergify/bp/release-2.2/pr-4374,release-2.2,release-2.5,release-2.4,main,mergify/bp/release-2.2/pr-3750,mergify/bp/release-2.5/pr-3782,mergify/bp/release-2.4/pr-3646,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,true,"05/Aug/20 1:43 AM;sebastian.t.f;[~jrasm91]'s response on the Rocket Chat: [https://chat.hyperledger.org/channel/fabric-chaincode-dev?msg=o3io7tQoWtmGJfopN]
 
-{quote}_If you are using the contract-api ( [https://www.npmjs.com/package/fabric-contract-api] ) the name you pass to `super(""MyContract"")` can be used as a prefix._
+{quote}_If you are using the contract-api ( [https://www.npmjs.com/package/fabric-contract-api] ) the name you pass to `super(""MyContract"")` can be used as a prefix._
 {code:sh}
 peer chaincode invoke -C $CHANNEL_NAME -n $CHAINCODE_NAME -c '{ ""Args"": [""MyContract:methodName"", ""{}""] }'
 
