@@ -1,0 +1,11 @@
+  <data tableName="AO_60DB71_ISSUERANKINGLOG">
+    <column name="CUSTOM_FIELD_ID"/>
+    <column name="ID"/>
+    <column name="ISSUE_ID"/>
+    <column name="LOG_TYPE"/>
+    <column name="NEW_NEXT_ID"/>
+    <column name="NEW_PREVIOUS_ID"/>
+    <column name="OLD_NEXT_ID"/>
+    <column name="OLD_PREVIOUS_ID"/>
+    <column name="SANITY_CHECKED"/>
+  </data>

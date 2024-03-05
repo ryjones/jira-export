@@ -1,0 +1,14 @@
+  <table name="AO_6FF49D_USERBASE_SCAN">
+    <column name="CREATED_BY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CREATED_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="DUPLICATED_CUSTOMERS_COUNT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="DUPLICATED_USERS_COUNT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="FINISHED_AT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="INVALID_CUSTOMERS_COUNT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="INVALID_USERS_COUNT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="STARTED_AT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="STATUS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="UPDATED_BY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="UPDATED_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+  </table>

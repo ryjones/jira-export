@@ -1,0 +1,20 @@
+  <data tableName="AO_E8B6CC_CHANGESET_MAPPING">
+    <column name="AUTHOR"/>
+    <column name="AUTHOR_EMAIL"/>
+    <column name="BRANCH"/>
+    <column name="DATE"/>
+    <column name="FILES_DATA"/>
+    <column name="FILE_COUNT"/>
+    <column name="FILE_DETAILS_JSON"/>
+    <column name="ID"/>
+    <column name="ISSUE_KEY"/>
+    <column name="MESSAGE"/>
+    <column name="NODE"/>
+    <column name="PARENTS_DATA"/>
+    <column name="PROJECT_KEY"/>
+    <column name="RAW_AUTHOR"/>
+    <column name="RAW_NODE"/>
+    <column name="REPOSITORY_ID"/>
+    <column name="SMARTCOMMIT_AVAILABLE"/>
+    <column name="VERSION"/>
+  </data>

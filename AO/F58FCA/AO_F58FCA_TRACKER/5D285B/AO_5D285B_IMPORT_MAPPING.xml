@@ -1,0 +1,198 @@
+  <data tableName="AO_5D285B_IMPORT_MAPPING">
+    <column name="CREATED_AT"/>
+    <column name="ID"/>
+    <column name="ISSUE_KEY"/>
+    <column name="TOGGL_ID"/>
+    <column name="UPDATED_AT"/>
+    <column name="USER_ID"/>
+    <column name="WORKLOG_ID"/>
+    <row>
+      <timestamp>2019-01-16T08:11:18.000Z</timestamp>
+      <integer>1</integer>
+      <string>IR-186</string>
+      <string>1075853861</string>
+      <timestamp>2019-01-16T08:11:18.000Z</timestamp>
+      <string>saifullin</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <timestamp>2019-01-16T08:42:52.000Z</timestamp>
+      <integer>2</integer>
+      <string>IR-170</string>
+      <string>1075885029</string>
+      <timestamp>2019-01-16T08:42:52.000Z</timestamp>
+      <string>saifullin</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <timestamp>2019-01-16T08:48:07.000Z</timestamp>
+      <integer>3</integer>
+      <string>IR-181</string>
+      <string>1075908562</string>
+      <timestamp>2019-01-16T08:48:07.000Z</timestamp>
+      <string>saifullin</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <timestamp>2019-01-29T08:04:49.000Z</timestamp>
+      <integer>4</integer>
+      <string>IR-255</string>
+      <string>1087818226</string>
+      <timestamp>2019-01-29T08:04:49.000Z</timestamp>
+      <string>saifullin</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <timestamp>2019-02-07T09:50:22.000Z</timestamp>
+      <integer>5</integer>
+      <string>IR-277</string>
+      <string>1097347968</string>
+      <timestamp>2019-02-07T09:50:22.000Z</timestamp>
+      <string>igor-egorov</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <timestamp>2019-03-04T13:39:02.000Z</timestamp>
+      <integer>6</integer>
+      <string>IR-364</string>
+      <string>1120859524</string>
+      <timestamp>2019-03-04T13:39:02.000Z</timestamp>
+      <string>igor-egorov</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <timestamp>2019-03-05T12:00:41.000Z</timestamp>
+      <integer>7</integer>
+      <string>IR-380</string>
+      <string>1122255789</string>
+      <timestamp>2019-03-05T12:00:41.000Z</timestamp>
+      <string>mikhail_boldyrev</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <timestamp>2019-03-14T13:30:12.000Z</timestamp>
+      <integer>8</integer>
+      <string>IR-399</string>
+      <string>1131807018</string>
+      <timestamp>2019-03-14T13:30:12.000Z</timestamp>
+      <string>mikhail_boldyrev</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <timestamp>2019-03-20T14:13:05.000Z</timestamp>
+      <integer>9</integer>
+      <string>IR-411</string>
+      <string>1137309312</string>
+      <timestamp>2019-03-20T14:13:05.000Z</timestamp>
+      <string>igor-egorov</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <timestamp>2019-03-26T08:25:16.000Z</timestamp>
+      <integer>10</integer>
+      <string>IR-427</string>
+      <string>1142350335</string>
+      <timestamp>2019-03-26T08:25:16.000Z</timestamp>
+      <string>mikhail_boldyrev</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <timestamp>2019-03-27T12:16:32.000Z</timestamp>
+      <integer>11</integer>
+      <string>IR-398</string>
+      <string>1143886103</string>
+      <timestamp>2019-03-27T12:16:32.000Z</timestamp>
+      <string>muratovv</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <timestamp>2019-04-24T17:19:20.000Z</timestamp>
+      <integer>12</integer>
+      <string>IR-454</string>
+      <string>1170507043</string>
+      <timestamp>2019-04-24T17:19:20.000Z</timestamp>
+      <string>igor-egorov</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <timestamp>2019-05-17T16:16:03.000Z</timestamp>
+      <integer>13</integer>
+      <string>IR-457</string>
+      <string>1191969822</string>
+      <timestamp>2019-05-17T16:16:03.000Z</timestamp>
+      <string>igor-egorov</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <timestamp>2019-05-23T06:35:09.000Z</timestamp>
+      <integer>14</integer>
+      <string>IR-473</string>
+      <string>1196960431</string>
+      <timestamp>2019-05-23T06:35:09.000Z</timestamp>
+      <string>mikhail_boldyrev</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <timestamp>2019-05-23T06:36:32.000Z</timestamp>
+      <integer>15</integer>
+      <string>IR-512</string>
+      <string>1196996824</string>
+      <timestamp>2019-05-23T06:36:32.000Z</timestamp>
+      <string>mikhail_boldyrev</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <timestamp>2019-05-24T14:56:03.000Z</timestamp>
+      <integer>16</integer>
+      <string>IR-512</string>
+      <string>1198777411</string>
+      <timestamp>2019-05-24T14:56:03.000Z</timestamp>
+      <string>mikhail_boldyrev</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <timestamp>2019-07-22T12:31:49.000Z</timestamp>
+      <integer>17</integer>
+      <string>IR-586</string>
+      <string>1251342169</string>
+      <timestamp>2019-07-22T12:31:49.000Z</timestamp>
+      <string>ionagamed</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <timestamp>2019-08-21T06:47:37.000Z</timestamp>
+      <integer>18</integer>
+      <string>IR-608</string>
+      <string>1278541513</string>
+      <timestamp>2019-08-21T06:47:37.000Z</timestamp>
+      <string>mikhail_boldyrev</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <timestamp>2019-08-21T19:12:40.000Z</timestamp>
+      <integer>19</integer>
+      <string>IR-586</string>
+      <string>1279202695</string>
+      <timestamp>2019-08-21T19:12:40.000Z</timestamp>
+      <string>ionagamed</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <timestamp>2019-09-19T06:42:06.000Z</timestamp>
+      <integer>20</integer>
+      <string>IR-630</string>
+      <string>1306236688</string>
+      <timestamp>2019-09-19T06:42:06.000Z</timestamp>
+      <string>ekovalev</string>
+      <string>11703</string>
+    </row>
+    <row>
+      <timestamp>2019-10-17T06:45:14.000Z</timestamp>
+      <integer>21</integer>
+      <string>IR-211</string>
+      <string>1333941832</string>
+      <timestamp>2019-10-17T06:45:14.000Z</timestamp>
+      <string>mikhail_boldyrev</string>
+      <string>11704</string>
+    </row>
+  </data>

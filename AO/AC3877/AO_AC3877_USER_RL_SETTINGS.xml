@@ -1,0 +1,8 @@
+  <table name="AO_AC3877_USER_RL_SETTINGS">
+    <column name="CAPACITY" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="FILL_RATE" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="INTERVAL_FREQUENCY" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="INTERVAL_TIME_UNIT" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USER_ID" primaryKey="true" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="WHITELISTED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+  </table>

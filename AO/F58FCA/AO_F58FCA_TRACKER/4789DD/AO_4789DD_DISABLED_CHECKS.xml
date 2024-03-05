@@ -1,0 +1,4 @@
+  <data tableName="AO_4789DD_DISABLED_CHECKS">
+    <column name="HEALTH_CHECK_KEY"/>
+    <column name="ID"/>
+  </data>

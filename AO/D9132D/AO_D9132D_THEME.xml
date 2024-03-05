@@ -1,0 +1,6 @@
+  <table name="AO_D9132D_THEME">
+    <column name="COLOR" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="SHARED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="TITLE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

@@ -1,0 +1,7 @@
+  <table name="AO_E8B6CC_MESSAGE">
+    <column name="ADDRESS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="PAYLOAD" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="PAYLOAD_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PRIORITY" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+  </table>

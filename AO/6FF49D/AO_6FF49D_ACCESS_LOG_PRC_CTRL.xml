@@ -1,0 +1,12 @@
+  <table name="AO_6FF49D_ACCESS_LOG_PRC_CTRL">
+    <column name="END_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="INST_ANALYSIS_CTRL_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="LAST_UPDATE_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="MESSAGE" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="NODE" primaryKey="false" autoIncrement="false" sqlType="12" precision="50"/>
+    <column name="RETRY_COUNT" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="START_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="STATUS" primaryKey="false" autoIncrement="false" sqlType="12" precision="50"/>
+    <foreignKey fromTable="AO_6FF49D_ACCESS_LOG_PRC_CTRL" fromColumn="INST_ANALYSIS_CTRL_ID" toTable="AO_6FF49D_INST_ANALYSIS_CTRL" toColumn="ID"/>
+  </table>

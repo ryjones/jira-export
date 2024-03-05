@@ -1,0 +1,13 @@
+  <table name="AO_A415DF_AOSPRINT">
+    <column name="AOTEAM_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="DESCRIPTION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="DETAILS" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="END_DATE" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID_OTHER" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="ORDER_RANGE_IDENTIFIER" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SORT_ORDER" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="START_DATE" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="TITLE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="VERSION" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <foreignKey fromTable="AO_A415DF_AOSPRINT" fromColumn="AOTEAM_ID" toTable="AO_A415DF_AOTEAM" toColumn="ID_OTHER"/>
+  </table>

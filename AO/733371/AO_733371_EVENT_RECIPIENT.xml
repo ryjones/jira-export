@@ -1,0 +1,11 @@
+  <table name="AO_733371_EVENT_RECIPIENT">
+    <column name="CONSUMER_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CREATED" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="EVENT_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="SEND_DATE" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="STATUS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="UPDATED" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="USER_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <foreignKey fromTable="AO_733371_EVENT_RECIPIENT" fromColumn="EVENT_ID" toTable="AO_733371_EVENT" toColumn="ID"/>
+  </table>

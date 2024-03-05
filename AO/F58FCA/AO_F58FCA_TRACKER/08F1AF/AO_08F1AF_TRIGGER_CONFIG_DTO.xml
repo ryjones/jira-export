@@ -1,0 +1,5 @@
+  <data tableName="AO_08F1AF_TRIGGER_CONFIG_DTO">
+    <column name="EXALATE_ENABLED"/>
+    <column name="ID"/>
+    <column name="UNEXALATE_ENABLED"/>
+  </data>

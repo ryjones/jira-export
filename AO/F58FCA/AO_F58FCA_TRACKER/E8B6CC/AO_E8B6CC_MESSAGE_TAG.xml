@@ -1,0 +1,5 @@
+  <data tableName="AO_E8B6CC_MESSAGE_TAG">
+    <column name="ID"/>
+    <column name="MESSAGE_ID"/>
+    <column name="TAG"/>
+  </data>

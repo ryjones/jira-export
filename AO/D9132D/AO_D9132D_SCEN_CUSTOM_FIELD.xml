@@ -1,0 +1,12 @@
+  <table name="AO_D9132D_SCEN_CUSTOM_FIELD">
+    <column name="C_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="DOUBLE_VALUE" primaryKey="false" autoIncrement="false" sqlType="8" precision="22" scale="31"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="NUMBER_VALUE" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="PLAN_CUSTOM_FIELD_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SCENARIO_ISSUE_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="STRING_VALUE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TEXT_VALUE" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <foreignKey fromTable="AO_D9132D_SCEN_CUSTOM_FIELD" fromColumn="PLAN_CUSTOM_FIELD_ID" toTable="AO_D9132D_PLAN_CUSTOM_FIELD" toColumn="ID"/>
+    <foreignKey fromTable="AO_D9132D_SCEN_CUSTOM_FIELD" fromColumn="SCENARIO_ISSUE_ID" toTable="AO_D9132D_SCENARIO_ISSUES" toColumn="ID"/>
+  </table>

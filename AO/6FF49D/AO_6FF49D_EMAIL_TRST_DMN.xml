@@ -1,0 +1,5 @@
+  <table name="AO_6FF49D_EMAIL_TRST_DMN">
+    <column name="DOMAIN_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="RULE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

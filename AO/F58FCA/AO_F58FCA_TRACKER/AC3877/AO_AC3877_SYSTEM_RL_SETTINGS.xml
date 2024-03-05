@@ -1,0 +1,26 @@
+  <data tableName="AO_AC3877_SYSTEM_RL_SETTINGS">
+    <column name="CAPACITY"/>
+    <column name="CLEAN_JOB_DURATION"/>
+    <column name="FILL_RATE"/>
+    <column name="FLUSH_JOB_DURATION"/>
+    <column name="INTERVAL_FREQUENCY"/>
+    <column name="INTERVAL_TIME_UNIT"/>
+    <column name="MODE"/>
+    <column name="NAME"/>
+    <column name="REAPER_JOB_DURATION"/>
+    <column name="RETENTION_PERIOD_DURATION"/>
+    <column name="SETTINGS_RELOAD_JOB_DURATION"/>
+    <row>
+      <integer>50</integer>
+      <string>PT1M10S</string>
+      <integer>10</integer>
+      <string>PT5M</string>
+      <integer>1</integer>
+      <string>SECONDS</string>
+      <string>OFF</string>
+      <string>SYSTEM</string>
+      <string>PT15M</string>
+      <string>PT24H</string>
+      <string>PT30S</string>
+    </row>
+  </data>

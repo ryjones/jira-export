@@ -1,0 +1,9 @@
+  <table name="AO_A415DF_AOABILITY">
+    <column name="ABILITY_VALUE" primaryKey="false" autoIncrement="false" sqlType="8" precision="22" scale="31"/>
+    <column name="AOPERSON_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="ID_OTHER" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="TARGET_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="TARGET_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="VERSION" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <foreignKey fromTable="AO_A415DF_AOABILITY" fromColumn="AOPERSON_ID" toTable="AO_A415DF_AOPERSON" toColumn="ID_OTHER"/>
+  </table>

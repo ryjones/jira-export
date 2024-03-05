@@ -1,0 +1,7 @@
+  <table name="AO_8BA09E_PROJECT_SETTINGS">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="PROJECT_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SHOW_CODE_REVIEW_ISSUE_TAB" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SHOW_COMMITS_ISSUE_TAB" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SHOW_ROLL_UP_ISSUE_TAB" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+  </table>

@@ -1,0 +1,13 @@
+  <data tableName="AO_C16815_ALERT_AO">
+    <column name="CREATED_DATE"/>
+    <column name="DETAILS_JSON"/>
+    <column name="ID"/>
+    <column name="ISSUE_COMPONENT_ID"/>
+    <column name="ISSUE_ID"/>
+    <column name="ISSUE_SEVERITY"/>
+    <column name="NODE_NAME"/>
+    <column name="TRIGGER_MODULE"/>
+    <column name="TRIGGER_PLUGIN_KEY"/>
+    <column name="TRIGGER_PLUGIN_KEY_VERSION"/>
+    <column name="TRIGGER_PLUGIN_VERSION"/>
+  </data>

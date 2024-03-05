@@ -1,0 +1,9 @@
+  <data tableName="AO_733371_EVENT">
+    <column name="ACTION"/>
+    <column name="ACTION_ID"/>
+    <column name="CREATED"/>
+    <column name="EVENT_BUNDLE_ID"/>
+    <column name="EVENT_TYPE"/>
+    <column name="ID"/>
+    <column name="USER_KEY"/>
+  </data>

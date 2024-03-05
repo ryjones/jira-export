@@ -1,0 +1,8 @@
+  <data tableName="AO_6FF49D_LINKED_MEDIA">
+    <column name="ID"/>
+    <column name="LINKED"/>
+    <column name="MEDIA_CLIENT_ID"/>
+    <column name="SERVER_ID"/>
+    <column name="SIZE"/>
+    <column name="TYPE"/>
+  </data>

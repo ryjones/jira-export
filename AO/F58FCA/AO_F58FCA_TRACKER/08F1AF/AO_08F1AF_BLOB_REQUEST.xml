@@ -1,0 +1,10 @@
+  <data tableName="AO_08F1AF_BLOB_REQUEST">
+    <column name="BLOB_METADATA_ID"/>
+    <column name="ERROR_CLASS_NAME"/>
+    <column name="ERROR_RESPONSE_MESSAGE"/>
+    <column name="ID"/>
+    <column name="STATUS"/>
+    <column name="SYNC_REQUEST_ID"/>
+    <column name="BLOB_ERROR_REASON"/>
+    <column name="REMOTE_BLOB_EVENT_ID"/>
+  </data>

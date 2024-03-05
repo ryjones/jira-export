@@ -1,0 +1,7 @@
+  <table name="AO_563AEE_ACTOR_ENTITY">
+    <column name="FULL_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="PROFILE_PAGE_URI" primaryKey="false" autoIncrement="false" sqlType="12" precision="450"/>
+    <column name="PROFILE_PICTURE_URI" primaryKey="false" autoIncrement="false" sqlType="12" precision="450"/>
+    <column name="USERNAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

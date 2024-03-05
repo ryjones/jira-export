@@ -1,0 +1,22 @@
+  <data tableName="AO_D9132D_SCENARIO_VERSION">
+    <column name="C_KEY"/>
+    <column name="DELTA"/>
+    <column name="DELTA_CHANGED"/>
+    <column name="DESCRIPTION"/>
+    <column name="DESCRIPTION_CHANGED"/>
+    <column name="END_DATE"/>
+    <column name="END_DATE_CHANGED"/>
+    <column name="ID"/>
+    <column name="ITEM_KEY"/>
+    <column name="LAST_CHANGE_TIMESTAMP"/>
+    <column name="LAST_CHANGE_USER"/>
+    <column name="PROJECT_ID"/>
+    <column name="SCENARIO_ID"/>
+    <column name="SCENARIO_TYPE"/>
+    <column name="START_DATE"/>
+    <column name="START_DATE_CHANGED"/>
+    <column name="TITLE"/>
+    <column name="TITLE_CHANGED"/>
+    <column name="XPROJECT_VERSION"/>
+    <column name="XPROJECT_VERSION_CHANGED"/>
+  </data>

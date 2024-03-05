@@ -1,0 +1,8 @@
+  <table name="AO_6FF49D_APP_ASSESSMENT_INFO">
+    <column name="ACCESS_SCOPES" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ALTERNATIVE_APP_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="APP_KEY" primaryKey="true" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CONSENT" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="MIGRATION_NOTES" primaryKey="false" autoIncrement="false" sqlType="12" precision="450"/>
+    <column name="MIGRATION_STATUS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

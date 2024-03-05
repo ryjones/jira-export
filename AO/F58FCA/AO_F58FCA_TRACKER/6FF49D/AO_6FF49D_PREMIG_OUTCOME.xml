@@ -1,0 +1,8 @@
+  <data tableName="AO_6FF49D_PREMIG_OUTCOME">
+    <column name="CHECK_ID"/>
+    <column name="CLOUD_ID"/>
+    <column name="ID"/>
+    <column name="LAST_EXECUTION_TIME"/>
+    <column name="PHASE_ID"/>
+    <column name="PREFLIGHT_CHECK_EXECUTION_ID"/>
+  </data>

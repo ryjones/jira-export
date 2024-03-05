@@ -1,0 +1,10 @@
+  <data tableName="AO_6FF49D_UNSUPPORTED_ENTITY">
+    <column name="EXECUTION_ID"/>
+    <column name="ID"/>
+    <column name="IMPACTED_ENTITY_ID"/>
+    <column name="IMPACTED_ENTITY_NAME"/>
+    <column name="PROBLEM_ENTITY_NAME"/>
+    <column name="PROBLEM_TYPE_AND_DETAILS"/>
+    <column name="PROJECT_KEY"/>
+    <column name="REFERENCED_BY"/>
+  </data>

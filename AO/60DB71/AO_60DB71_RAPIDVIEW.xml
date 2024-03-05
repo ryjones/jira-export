@@ -1,0 +1,15 @@
+  <table name="AO_60DB71_RAPIDVIEW">
+    <column name="CARD_COLOR_STRATEGY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="KAN_PLAN_ENABLED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="OLD_DONE_ISSUES_CUTOFF" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="OWNER_USER_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="REFINED_VELOCITY_ACTIVE" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SAVED_FILTER_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SHOW_DAYS_IN_COLUMN" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SHOW_EPIC_AS_PANEL" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SPRINTS_ENABLED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SPRINT_MARKERS_MIGRATED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SWIMLANE_STRATEGY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

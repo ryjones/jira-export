@@ -1,0 +1,8 @@
+  <data tableName="AO_08F1AF_BLOB_EVENT">
+    <column name="BLOB_METADATA_ID"/>
+    <column name="ID"/>
+    <column name="STATUS"/>
+    <column name="SYNC_EVENT_ID"/>
+    <column name="ERROR_RESPONSE_MESSAGE"/>
+    <column name="BLOB_ERROR_REASON"/>
+  </data>

@@ -1,0 +1,3 @@
+  <table name="AO_A415DF_AODOOR_STOP">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+  </table>

@@ -1,0 +1,10 @@
+  <data tableName="AO_CBC281_DRAWIO_CONFIGURATION">
+    <column name="CUSTOM_TEMPLATES_CFG_PAGE_URL"/>
+    <column name="ID"/>
+    <column name="NAME"/>
+    <column name="NOTIFY_ON_DIAGRAM_EDIT"/>
+    <column name="RESAMPLE_THRESHOLD"/>
+    <column name="SERVER_CONFIG"/>
+    <column name="UI_CONFIG"/>
+    <column name="USE_EXTERNAL_IMAGE_SERVICE"/>
+  </data>

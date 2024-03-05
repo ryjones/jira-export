@@ -1,0 +1,7 @@
+  <data tableName="AO_D9132D_SCENARIO_CHANGES">
+    <column name="COUNTER"/>
+    <column name="C_KEY"/>
+    <column name="ID"/>
+    <column name="SCENARIO_ID"/>
+    <column name="T_TYPE"/>
+  </data>

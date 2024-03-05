@@ -1,0 +1,5 @@
+  <table name="AO_575BF5_PROVIDER_SEQ_NO">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="PROVIDER_SOURCE_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SEQUENCE_NO" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

@@ -1,0 +1,8 @@
+  <data tableName="AO_D9132D_PLANSKILL">
+    <column name="C_KEY"/>
+    <column name="ID"/>
+    <column name="PLAN_ID"/>
+    <column name="SKILL_ID"/>
+    <column name="STAGE"/>
+    <column name="WEIGHT"/>
+  </data>

@@ -1,0 +1,13 @@
+  <table name="AO_88263F_HEALTH_CHECK_STATUS">
+    <column name="APPLICATION_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="COMPLETE_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="DESCRIPTION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="FAILED_DATE" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="FAILURE_REASON" primaryKey="false" autoIncrement="false" sqlType="12" precision="450"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="IS_HEALTHY" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="IS_RESOLVED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="RESOLVED_DATE" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="SEVERITY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="STATUS_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

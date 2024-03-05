@@ -1,0 +1,80 @@
+  <data tableName="AO_2F1435_READ_NOTIFICATIONS">
+    <column name="ID"/>
+    <column name="IS_SNOOZED"/>
+    <column name="NOTIFICATION_ID"/>
+    <column name="SNOOZE_COUNT"/>
+    <column name="SNOOZE_DATE"/>
+    <column name="USER_KEY"/>
+    <row>
+      <integer>6</integer>
+      <boolean>true</boolean>
+      <integer>67</integer>
+      <integer>1</integer>
+      <timestamp>2019-01-24T19:07:58.000Z</timestamp>
+      <string>ryjones</string>
+    </row>
+    <row>
+      <integer>7</integer>
+      <boolean>true</boolean>
+      <integer>68</integer>
+      <integer>1</integer>
+      <timestamp>2019-01-24T23:11:41.000Z</timestamp>
+      <string>jwagantall</string>
+    </row>
+    <row>
+      <integer>8</integer>
+      <boolean>true</boolean>
+      <integer>68</integer>
+      <integer>1</integer>
+      <timestamp>2019-01-24T23:16:28.000Z</timestamp>
+      <string>tijohnson</string>
+    </row>
+    <row>
+      <integer>9</integer>
+      <boolean>true</boolean>
+      <integer>69</integer>
+      <integer>1</integer>
+      <timestamp>2019-01-25T01:08:30.000Z</timestamp>
+      <string>tijohnson</string>
+    </row>
+    <row>
+      <integer>10</integer>
+      <boolean>true</boolean>
+      <integer>69</integer>
+      <integer>1</integer>
+      <timestamp>2019-01-25T01:19:22.000Z</timestamp>
+      <string>eball</string>
+    </row>
+    <row>
+      <integer>11</integer>
+      <boolean>true</boolean>
+      <integer>75</integer>
+      <integer>1</integer>
+      <timestamp>2019-01-25T22:58:42.000Z</timestamp>
+      <string>hl-admin</string>
+    </row>
+    <row>
+      <integer>12</integer>
+      <boolean>true</boolean>
+      <integer>83</integer>
+      <integer>1</integer>
+      <timestamp>2019-01-28T20:12:02.000Z</timestamp>
+      <string>jwagantall</string>
+    </row>
+    <row>
+      <integer>13</integer>
+      <boolean>true</boolean>
+      <integer>87</integer>
+      <integer>1</integer>
+      <timestamp>2019-01-30T18:01:53.000Z</timestamp>
+      <string>tijohnson</string>
+    </row>
+    <row>
+      <integer>14</integer>
+      <boolean>true</boolean>
+      <integer>92</integer>
+      <integer>1</integer>
+      <timestamp>2019-01-31T16:06:28.000Z</timestamp>
+      <string>tijohnson</string>
+    </row>
+  </data>

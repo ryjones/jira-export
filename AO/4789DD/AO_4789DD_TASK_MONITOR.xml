@@ -1,0 +1,13 @@
+  <table name="AO_4789DD_TASK_MONITOR">
+    <column name="CLUSTERED_TASK_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CREATED_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="NODE_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PROGRESS_MESSAGE" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="PROGRESS_PERCENTAGE" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="SERIALIZED_ERRORS" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="SERIALIZED_WARNINGS" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="TASK_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TASK_MONITOR_KIND" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TASK_STATUS" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+  </table>

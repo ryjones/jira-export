@@ -1,0 +1,8 @@
+  <data tableName="AO_AC3877_USER_RL_SETTINGS">
+    <column name="CAPACITY"/>
+    <column name="FILL_RATE"/>
+    <column name="INTERVAL_FREQUENCY"/>
+    <column name="INTERVAL_TIME_UNIT"/>
+    <column name="USER_ID"/>
+    <column name="WHITELISTED"/>
+  </data>

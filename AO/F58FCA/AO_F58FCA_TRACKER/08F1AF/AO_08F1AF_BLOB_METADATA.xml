@@ -1,0 +1,70 @@
+  <data tableName="AO_08F1AF_BLOB_METADATA">
+    <column name="BLOB_ID"/>
+    <column name="CHECKSUM"/>
+    <column name="FILE_PATH"/>
+    <column name="ID"/>
+    <column name="REPLICA_ID"/>
+    <column name="SYNC_EVENT_FOR_BLOB_ID"/>
+    <column name="SYNC_REQUEST_FOR_BLOB_ID"/>
+    <column name="BLOB_ID_STR"/>
+    <row>
+      <integer xsi:nil="true"/>
+      <string>afbbf483ae5d46e2a3c0cb56c44cd98e</string>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <integer>9</integer>
+      <integer xsi:nil="true"/>
+      <string>17764</string>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <string>afbbf483ae5d46e2a3c0cb56c44cd98e</string>
+      <string xsi:nil="true"/>
+      <integer>2</integer>
+      <integer xsi:nil="true"/>
+      <integer>10</integer>
+      <integer xsi:nil="true"/>
+      <string>17764</string>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <string>afbbf483ae5d46e2a3c0cb56c44cd98e</string>
+      <string xsi:nil="true"/>
+      <integer>3</integer>
+      <integer xsi:nil="true"/>
+      <integer>11</integer>
+      <integer xsi:nil="true"/>
+      <string>17764</string>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <string>afbbf483ae5d46e2a3c0cb56c44cd98e</string>
+      <string xsi:nil="true"/>
+      <integer>4</integer>
+      <integer xsi:nil="true"/>
+      <integer>12</integer>
+      <integer xsi:nil="true"/>
+      <string>17764</string>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <string>afbbf483ae5d46e2a3c0cb56c44cd98e</string>
+      <string xsi:nil="true"/>
+      <integer>5</integer>
+      <integer xsi:nil="true"/>
+      <integer>13</integer>
+      <integer xsi:nil="true"/>
+      <string>17764</string>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <string>afbbf483ae5d46e2a3c0cb56c44cd98e</string>
+      <string xsi:nil="true"/>
+      <integer>6</integer>
+      <integer xsi:nil="true"/>
+      <integer>20</integer>
+      <integer xsi:nil="true"/>
+      <string>17764</string>
+    </row>
+  </data>

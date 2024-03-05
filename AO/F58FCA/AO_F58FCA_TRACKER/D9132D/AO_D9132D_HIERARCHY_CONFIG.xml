@@ -1,0 +1,6 @@
+  <data tableName="AO_D9132D_HIERARCHY_CONFIG">
+    <column name="ICON_URL"/>
+    <column name="ID"/>
+    <column name="ISSUE_TYPE_IDS"/>
+    <column name="TITLE"/>
+  </data>

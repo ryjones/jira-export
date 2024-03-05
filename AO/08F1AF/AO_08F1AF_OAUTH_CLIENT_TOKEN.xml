@@ -1,0 +1,16 @@
+  <table name="AO_08F1AF_OAUTH_CLIENT_TOKEN">
+    <column name="AUTH_SERVER_UID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CLIENT_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CLIENT_ID_ISSUED_AT" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="CLIENT_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CLIENT_SECRET" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CLIENT_SECRET_EXPIRES_AT" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="CLIENT_URI" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="GRANT_TYPES" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="IS_LOCAL" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="REDIRECT_URIS" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="RESPONSE_TYPES" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SCOPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TOKEN_ENDPOINT_AUTH_METHOD" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

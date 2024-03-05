@@ -1,0 +1,13 @@
+  <table name="AO_D9132D_SOLUTION">
+    <column name="HEARTBEAT_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="PLAN" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SCENARIO" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SCHEDULABLE_ISSUE_COUNT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SCHEDULED_ISSUE_COUNT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SOLUTION" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="STATE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TRIGGER_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="UNIQUE_GUARD" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="VERSION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

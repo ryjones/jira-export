@@ -1,0 +1,5 @@
+  <table name="AO_6FF49D_MIGRATION_SCOPE">
+    <column name="ACTIVATION_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="36"/>
+    <column name="CLOUD_ID" primaryKey="true" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SCOPE_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="36"/>
+  </table>

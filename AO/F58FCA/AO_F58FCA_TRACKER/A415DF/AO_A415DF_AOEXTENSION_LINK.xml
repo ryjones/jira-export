@@ -1,0 +1,8 @@
+  <data tableName="AO_A415DF_AOEXTENSION_LINK">
+    <column name="AOEXTENDABLE_ID"/>
+    <column name="AOEXTENDABLE_TYPE"/>
+    <column name="EXTENSION_KEY"/>
+    <column name="EXTENSION_LINK"/>
+    <column name="ID_OTHER"/>
+    <column name="VERSION"/>
+  </data>

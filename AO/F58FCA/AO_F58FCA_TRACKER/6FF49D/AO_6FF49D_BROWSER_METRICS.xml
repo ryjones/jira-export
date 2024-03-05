@@ -1,0 +1,6 @@
+  <data tableName="AO_6FF49D_BROWSER_METRICS">
+    <column name="CREATED_AT"/>
+    <column name="ID"/>
+    <column name="METRICS_JSON"/>
+    <column name="USER_KEY"/>
+  </data>

@@ -1,0 +1,6 @@
+  <data tableName="AO_6FF49D_USER_EMAIL_EVENT_LOG">
+    <column name="CLOUD_ID"/>
+    <column name="EMAIL"/>
+    <column name="EVENT_TIMESTAMP"/>
+    <column name="ID"/>
+  </data>

@@ -1,0 +1,7 @@
+  <data tableName="AO_6FF49D_MIG_REPORT_STATUS">
+    <column name="EXECUTION_ID"/>
+    <column name="ID"/>
+    <column name="REPORT_TYPE"/>
+    <column name="STATUS"/>
+    <column name="UPDATED_AT"/>
+  </data>

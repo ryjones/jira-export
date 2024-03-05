@@ -1,0 +1,6 @@
+  <data tableName="AO_D9132D_PROGRAM">
+    <column name="DESCRIPTION"/>
+    <column name="ID"/>
+    <column name="OWNER"/>
+    <column name="TITLE"/>
+  </data>

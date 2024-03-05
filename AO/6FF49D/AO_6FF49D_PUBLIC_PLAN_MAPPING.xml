@@ -1,0 +1,5 @@
+  <table name="AO_6FF49D_PUBLIC_PLAN_MAPPING">
+    <column name="JOB_ID" primaryKey="true" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="MIGRATION_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PLAN_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

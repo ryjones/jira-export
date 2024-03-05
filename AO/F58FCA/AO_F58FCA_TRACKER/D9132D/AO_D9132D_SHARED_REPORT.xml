@@ -1,0 +1,12 @@
+  <data tableName="AO_D9132D_SHARED_REPORT">
+    <column name="FILTER_CONFIGURATION"/>
+    <column name="FILTER_CONFIG_HASH"/>
+    <column name="HASH"/>
+    <column name="HIERARCHY_LEVEL"/>
+    <column name="ID"/>
+    <column name="PLAN_ID"/>
+    <column name="REPORT_CONFIGURATION"/>
+    <column name="REPORT_CONFIG_HASH"/>
+    <column name="REPORT_ID"/>
+    <column name="SCENARIO"/>
+  </data>

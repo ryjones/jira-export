@@ -1,0 +1,9 @@
+  <table name="AO_733371_EVENT">
+    <column name="ACTION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ACTION_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CREATED" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="EVENT_BUNDLE_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="EVENT_TYPE" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="USER_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

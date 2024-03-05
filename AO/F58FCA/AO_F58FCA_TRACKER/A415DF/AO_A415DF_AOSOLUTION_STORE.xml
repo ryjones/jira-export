@@ -1,0 +1,6 @@
+  <data tableName="AO_A415DF_AOSOLUTION_STORE">
+    <column name="AOPLAN_ID"/>
+    <column name="ID_OTHER"/>
+    <column name="SOLUTION"/>
+    <column name="SOLUTION_VERSION"/>
+  </data>

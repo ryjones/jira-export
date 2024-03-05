@@ -1,0 +1,10 @@
+  <data tableName="AO_0AC321_RECOMMENDATION_AO">
+    <column name="CATEGORY"/>
+    <column name="CUSTOM_FIELD_ID"/>
+    <column name="ID"/>
+    <column name="NAME"/>
+    <column name="PERFORMANCE_IMPACT"/>
+    <column name="PROJECT_IDS"/>
+    <column name="RESOLVED"/>
+    <column name="TYPE"/>
+  </data>

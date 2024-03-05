@@ -1,0 +1,7 @@
+  <data tableName="AO_D9132D_DISTRIBUTION">
+    <column name="ID"/>
+    <column name="ORIGINAL"/>
+    <column name="SCENARIO_ISSUE_ID"/>
+    <column name="SKILL_ITEM_KEY"/>
+    <column name="WEIGHT"/>
+  </data>

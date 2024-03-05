@@ -1,0 +1,11 @@
+  <data tableName="AO_A415DF_AOESTIMATE">
+    <column name="AOWORK_ITEM_ID"/>
+    <column name="CURRENCY"/>
+    <column name="ESTIMATE"/>
+    <column name="ID_OTHER"/>
+    <column name="ORIGINAL"/>
+    <column name="REPLANNING"/>
+    <column name="TARGET_ID"/>
+    <column name="TARGET_TYPE"/>
+    <column name="VERSION"/>
+  </data>

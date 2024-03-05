@@ -1,0 +1,4 @@
+  <data tableName="AO_60DB71_RANK_ISSUE_LINK">
+    <column name="ISSUE_ID"/>
+    <column name="NEXT_ID"/>
+  </data>

@@ -1,0 +1,40 @@
+  <table name="AO_D9132D_PLAN">
+    <column name="ASSIGNEE_SCHEDULING_LEVEL" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="BASELINE_END_FIELD_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="BASELINE_START_FIELD_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="COMMIT_ISSUE_ASSIGNEE" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="CREATED_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="CREATOR_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="DEFAULT_ESTIMATES" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="DEFAULT_TEAM_WEEKLY_CAPACITY" primaryKey="false" autoIncrement="false" sqlType="8" precision="22" scale="31"/>
+    <column name="DEF_EST_MAP" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="DEPENDENCY_MODE" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="GLOBAL_DEFAULT_VELOCITY" primaryKey="false" autoIncrement="false" sqlType="8" precision="22" scale="31"/>
+    <column name="GLOBAL_SPRINT_LENGTH" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="HAS_SPRINT_CONSTRAINT" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="HEURISTIC_THRESHOLD" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="HOURS_PER_DAY" primaryKey="false" autoIncrement="false" sqlType="8" precision="22" scale="31"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="IGNORE_RELEASES" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="IGNORE_SPRINTS" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="IGNORE_TEAMS" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="INCLUDE_COMPLETED_ISSUES_FOR" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="ISSUE_INFERRED_DATE_SELECTION" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="MAX_RESOURCES_PER_STORY" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="MIN_LOAD_UNSTR_EPICS" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="MULTI_SCENARIO_ENABLED" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="PLANNING_UNIT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="PORTFOLIO_PLAN_VERSION" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="PROGRAM_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="RANK_AGAINST_STORIES" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SCHEDULING_END_CUSTOM_FIELD" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SCHEDULING_START_CUSTOM_FIELD" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SCHEDULING_VERBOSITY" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SPRINT_EXCEEDED_WARN" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="STRICT_STAGE_DIVISION" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="SYNC_START_ENABLED" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="TIME_ZONE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TITLE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="UNESTIMATED_ISSUES_OPTION" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="WEEKDAY_CONFIGURATION" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+  </table>

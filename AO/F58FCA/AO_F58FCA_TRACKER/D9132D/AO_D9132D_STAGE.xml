@@ -1,0 +1,7 @@
+  <data tableName="AO_D9132D_STAGE">
+    <column name="COLOR"/>
+    <column name="ID"/>
+    <column name="PLAN_ID"/>
+    <column name="SKILL_ID"/>
+    <column name="WEIGHT"/>
+  </data>

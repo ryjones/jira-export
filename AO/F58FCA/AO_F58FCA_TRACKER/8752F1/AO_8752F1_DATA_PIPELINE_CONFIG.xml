@@ -1,0 +1,5 @@
+  <data tableName="AO_8752F1_DATA_PIPELINE_CONFIG">
+    <column name="ID"/>
+    <column name="KEY"/>
+    <column name="VALUE"/>
+  </data>

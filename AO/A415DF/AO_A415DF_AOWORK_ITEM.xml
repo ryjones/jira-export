@@ -1,0 +1,33 @@
+  <table name="AO_A415DF_AOWORK_ITEM">
+    <column name="AOBUSINESS_VALUE" primaryKey="false" autoIncrement="false" sqlType="8" precision="22" scale="31"/>
+    <column name="AOEARLIEST_START" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="AOPARENT_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="AOPLAN_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="AORELEASE_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="AOSPRINT_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="AOSTREAM_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="AOTARGET_END" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="AOTARGET_START" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="AOTEAM_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="AOTHEME_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="DESCRIPTION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="DETAILS" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="EARLIEST_START" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="HAS_ORIGINAL_ESTIMATES" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="ID_OTHER" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="ORDER_RANGE_IDENTIFIER" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PARENT_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="REPLANNING_STATUS" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="SORT_ORDER" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="STATUS" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="TITLE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TYPE" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="VERSION" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <foreignKey fromTable="AO_A415DF_AOWORK_ITEM" fromColumn="AOPARENT_ID" toTable="AO_A415DF_AOWORK_ITEM" toColumn="ID_OTHER"/>
+    <foreignKey fromTable="AO_A415DF_AOWORK_ITEM" fromColumn="AOPLAN_ID" toTable="AO_A415DF_AOPLAN" toColumn="ID_OTHER"/>
+    <foreignKey fromTable="AO_A415DF_AOWORK_ITEM" fromColumn="AORELEASE_ID" toTable="AO_A415DF_AORELEASE" toColumn="ID_OTHER"/>
+    <foreignKey fromTable="AO_A415DF_AOWORK_ITEM" fromColumn="AOSPRINT_ID" toTable="AO_A415DF_AOSPRINT" toColumn="ID_OTHER"/>
+    <foreignKey fromTable="AO_A415DF_AOWORK_ITEM" fromColumn="AOSTREAM_ID" toTable="AO_A415DF_AOSTREAM" toColumn="ID_OTHER"/>
+    <foreignKey fromTable="AO_A415DF_AOWORK_ITEM" fromColumn="AOTEAM_ID" toTable="AO_A415DF_AOTEAM" toColumn="ID_OTHER"/>
+    <foreignKey fromTable="AO_A415DF_AOWORK_ITEM" fromColumn="AOTHEME_ID" toTable="AO_A415DF_AOTHEME" toColumn="ID_OTHER"/>
+  </table>

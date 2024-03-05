@@ -1,0 +1,6 @@
+  <data tableName="AO_E8B6CC_PR_ISSUE_KEY">
+    <column name="DOMAIN_ID"/>
+    <column name="ID"/>
+    <column name="ISSUE_KEY"/>
+    <column name="PULL_REQUEST_ID"/>
+  </data>

@@ -1,0 +1,7 @@
+  <data tableName="AO_6FF49D_CONFIG_ITEMS">
+    <column name="CONFIG_ITEM_ID"/>
+    <column name="EXECUTION_ID"/>
+    <column name="ID"/>
+    <column name="NAME"/>
+    <column name="TYPE"/>
+  </data>

@@ -1,0 +1,13 @@
+  <table name="AO_D9132D_SCENARIO_ABILITY">
+    <column name="C_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="ITEM_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="LAST_CHANGE_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="LAST_CHANGE_USER" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PERSON_ITEM_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SCENARIO_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SCENARIO_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SKILL_ITEM_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="U_AB" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <foreignKey fromTable="AO_D9132D_SCENARIO_ABILITY" fromColumn="SCENARIO_ID" toTable="AO_D9132D_SCENARIO" toColumn="ID"/>
+  </table>

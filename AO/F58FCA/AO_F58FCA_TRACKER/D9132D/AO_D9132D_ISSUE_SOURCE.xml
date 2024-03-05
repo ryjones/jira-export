@@ -1,0 +1,7 @@
+  <data tableName="AO_D9132D_ISSUE_SOURCE">
+    <column name="CONVERSION_FACTOR"/>
+    <column name="ID"/>
+    <column name="PLAN_ID"/>
+    <column name="SOURCE_TYPE"/>
+    <column name="SOURCE_VALUE"/>
+  </data>

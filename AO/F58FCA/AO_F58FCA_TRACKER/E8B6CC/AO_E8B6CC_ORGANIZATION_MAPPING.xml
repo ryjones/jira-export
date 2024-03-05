@@ -1,0 +1,19 @@
+  <data tableName="AO_E8B6CC_ORGANIZATION_MAPPING">
+    <column name="ACCESS_TOKEN"/>
+    <column name="ADMIN_PASSWORD"/>
+    <column name="ADMIN_USERNAME"/>
+    <column name="AUTOLINK_NEW_REPOS"/>
+    <column name="DEFAULT_GROUPS_SLUGS"/>
+    <column name="DVCS_TYPE"/>
+    <column name="HOST_URL"/>
+    <column name="ID"/>
+    <column name="NAME"/>
+    <column name="OAUTH_KEY"/>
+    <column name="OAUTH_SECRET"/>
+    <column name="PRINCIPAL_ID"/>
+    <column name="SMARTCOMMITS_FOR_NEW_REPOS"/>
+    <column name="APPROVAL_STATE"/>
+    <column name="LAST_POLLED"/>
+    <column name="STATUS"/>
+    <column name="TOKEN_ID"/>
+  </data>

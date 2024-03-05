@@ -1,0 +1,7 @@
+  <data tableName="AO_6FF49D_EXPECTED_MIG_COUNTS">
+    <column name="ENTITY_TYPE"/>
+    <column name="ENTITY_TYPE_COUNT"/>
+    <column name="EXECUTION_ID"/>
+    <column name="ID"/>
+    <column name="PROJECT_KEY"/>
+  </data>

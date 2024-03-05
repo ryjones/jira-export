@@ -1,0 +1,6 @@
+  <data tableName="AO_08F1AF_ASSIGNED_LICENSE">
+    <column name="ID"/>
+    <column name="INSTANCE_ID"/>
+    <column name="LICENSE_ID"/>
+    <column name="PAYMENT_MODEL"/>
+  </data>

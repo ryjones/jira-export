@@ -1,0 +1,8 @@
+  <table name="AO_0A5972_PUSH_REGISTRATION">
+    <column name="BUILD" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ENDPOINT" primaryKey="false" autoIncrement="false" sqlType="12" precision="450"/>
+    <column name="ID" primaryKey="true" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="OS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TOKEN" primaryKey="false" autoIncrement="false" sqlType="12" precision="450"/>
+    <column name="USER_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

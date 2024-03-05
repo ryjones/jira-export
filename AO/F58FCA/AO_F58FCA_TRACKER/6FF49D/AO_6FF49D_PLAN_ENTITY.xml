@@ -1,0 +1,9 @@
+  <data tableName="AO_6FF49D_PLAN_ENTITY">
+    <column name="CREATED"/>
+    <column name="CREATED_TIMESTAMP"/>
+    <column name="ID"/>
+    <column name="JSON"/>
+    <column name="PLAN_NAME"/>
+    <column name="UPDATED"/>
+    <column name="UPDATED_TIMESTAMP"/>
+  </data>

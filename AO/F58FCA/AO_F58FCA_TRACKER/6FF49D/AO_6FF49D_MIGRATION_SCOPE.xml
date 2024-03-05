@@ -1,0 +1,5 @@
+  <data tableName="AO_6FF49D_MIGRATION_SCOPE">
+    <column name="ACTIVATION_ID"/>
+    <column name="CLOUD_ID"/>
+    <column name="SCOPE_ID"/>
+  </data>

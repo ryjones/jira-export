@@ -1,0 +1,23 @@
+  <table name="AO_563AEE_ACTIVITY_ENTITY">
+    <column name="ACTIVITY_ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="ACTOR_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="CONTENT" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="GENERATOR_DISPLAY_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="GENERATOR_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="450"/>
+    <column name="ICON_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="450"/>
+    <column name="ISSUE_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="OBJECT_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="POSTER" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PROJECT_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PUBLISHED" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="TARGET_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="TITLE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="URL" primaryKey="false" autoIncrement="false" sqlType="12" precision="450"/>
+    <column name="USERNAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="VERB" primaryKey="false" autoIncrement="false" sqlType="12" precision="450"/>
+    <foreignKey fromTable="AO_563AEE_ACTIVITY_ENTITY" fromColumn="ACTOR_ID" toTable="AO_563AEE_ACTOR_ENTITY" toColumn="ID"/>
+    <foreignKey fromTable="AO_563AEE_ACTIVITY_ENTITY" fromColumn="ICON_ID" toTable="AO_563AEE_MEDIA_LINK_ENTITY" toColumn="ID"/>
+    <foreignKey fromTable="AO_563AEE_ACTIVITY_ENTITY" fromColumn="OBJECT_ID" toTable="AO_563AEE_OBJECT_ENTITY" toColumn="ID"/>
+    <foreignKey fromTable="AO_563AEE_ACTIVITY_ENTITY" fromColumn="TARGET_ID" toTable="AO_563AEE_TARGET_ENTITY" toColumn="ID"/>
+  </table>

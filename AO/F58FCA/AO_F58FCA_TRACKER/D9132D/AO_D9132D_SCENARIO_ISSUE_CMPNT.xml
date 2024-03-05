@@ -1,0 +1,5 @@
+  <data tableName="AO_D9132D_SCENARIO_ISSUE_CMPNT">
+    <column name="COMPONENT_ID"/>
+    <column name="ID"/>
+    <column name="SCENARIO_ISSUE_ID"/>
+  </data>

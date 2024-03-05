@@ -1,0 +1,8 @@
+  <table name="AO_D9132D_SCENARIO_CHANGES">
+    <column name="COUNTER" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="C_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="SCENARIO_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="T_TYPE" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <foreignKey fromTable="AO_D9132D_SCENARIO_CHANGES" fromColumn="SCENARIO_ID" toTable="AO_D9132D_SCENARIO" toColumn="ID"/>
+  </table>

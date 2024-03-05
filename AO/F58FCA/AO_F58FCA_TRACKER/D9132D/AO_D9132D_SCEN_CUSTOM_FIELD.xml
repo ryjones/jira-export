@@ -1,0 +1,10 @@
+  <data tableName="AO_D9132D_SCEN_CUSTOM_FIELD">
+    <column name="C_KEY"/>
+    <column name="DOUBLE_VALUE"/>
+    <column name="ID"/>
+    <column name="NUMBER_VALUE"/>
+    <column name="PLAN_CUSTOM_FIELD_ID"/>
+    <column name="SCENARIO_ISSUE_ID"/>
+    <column name="STRING_VALUE"/>
+    <column name="TEXT_VALUE"/>
+  </data>

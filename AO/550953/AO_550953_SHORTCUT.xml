@@ -1,0 +1,8 @@
+  <table name="AO_550953_SHORTCUT">
+    <column name="ICON" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PROJECT_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SHORTCUT_URL" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="URL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

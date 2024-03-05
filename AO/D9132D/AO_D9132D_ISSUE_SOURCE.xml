@@ -1,0 +1,8 @@
+  <table name="AO_D9132D_ISSUE_SOURCE">
+    <column name="CONVERSION_FACTOR" primaryKey="false" autoIncrement="false" sqlType="8" precision="22" scale="31"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="PLAN_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SOURCE_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SOURCE_VALUE" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <foreignKey fromTable="AO_D9132D_ISSUE_SOURCE" fromColumn="PLAN_ID" toTable="AO_D9132D_PLAN" toColumn="ID"/>
+  </table>

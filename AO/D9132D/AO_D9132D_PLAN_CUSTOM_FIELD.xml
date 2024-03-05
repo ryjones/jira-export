@@ -1,0 +1,8 @@
+  <table name="AO_D9132D_PLAN_CUSTOM_FIELD">
+    <column name="CUSTOM_FIELD_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="C_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="FILTERING_ALLOWED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="PLAN_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <foreignKey fromTable="AO_D9132D_PLAN_CUSTOM_FIELD" fromColumn="PLAN_ID" toTable="AO_D9132D_PLAN" toColumn="ID"/>
+  </table>

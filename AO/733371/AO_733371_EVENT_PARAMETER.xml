@@ -1,0 +1,7 @@
+  <table name="AO_733371_EVENT_PARAMETER">
+    <column name="EVENT_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="VALUE" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <foreignKey fromTable="AO_733371_EVENT_PARAMETER" fromColumn="EVENT_ID" toTable="AO_733371_EVENT" toColumn="ID"/>
+  </table>

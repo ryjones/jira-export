@@ -1,0 +1,9 @@
+  <data tableName="AO_A415DF_AORESOURCE">
+    <column name="AOPERSON_ID"/>
+    <column name="AOTEAM_ID"/>
+    <column name="AVAILABILITY"/>
+    <column name="ID_OTHER"/>
+    <column name="ORDER_RANGE_IDENTIFIER"/>
+    <column name="SORT_ORDER"/>
+    <column name="VERSION"/>
+  </data>

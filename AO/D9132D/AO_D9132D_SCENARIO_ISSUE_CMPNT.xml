@@ -1,0 +1,6 @@
+  <table name="AO_D9132D_SCENARIO_ISSUE_CMPNT">
+    <column name="COMPONENT_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="SCENARIO_ISSUE_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <foreignKey fromTable="AO_D9132D_SCENARIO_ISSUE_CMPNT" fromColumn="SCENARIO_ISSUE_ID" toTable="AO_D9132D_SCENARIO_ISSUES" toColumn="ID"/>
+  </table>

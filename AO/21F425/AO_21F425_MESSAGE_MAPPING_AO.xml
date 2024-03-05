@@ -1,0 +1,5 @@
+  <table name="AO_21F425_MESSAGE_MAPPING_AO">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="MESSAGE_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USER_HASH" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

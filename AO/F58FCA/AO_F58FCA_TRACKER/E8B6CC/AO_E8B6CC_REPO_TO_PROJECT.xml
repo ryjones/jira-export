@@ -1,0 +1,5 @@
+  <data tableName="AO_E8B6CC_REPO_TO_PROJECT">
+    <column name="ID"/>
+    <column name="PROJECT_KEY"/>
+    <column name="REPOSITORY_ID"/>
+  </data>

@@ -1,0 +1,5 @@
+  <table name="AO_4789DD_PROPERTIES">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="PROPERTY_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PROPERTY_VALUE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

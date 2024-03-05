@@ -1,0 +1,6 @@
+  <data tableName="AO_A415DF_AODOOR_STOP">
+    <column name="ID"/>
+    <row>
+      <integer>1</integer>
+    </row>
+  </data>

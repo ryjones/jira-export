@@ -1,0 +1,10 @@
+  <data tableName="AO_2F1435_PROPERTIES">
+    <column name="ID"/>
+    <column name="PROPERTY_NAME"/>
+    <column name="PROPERTY_VALUE"/>
+    <row>
+      <integer>1</integer>
+      <string>last-run</string>
+      <string>1549056031134</string>
+    </row>
+  </data>

@@ -1,0 +1,39 @@
+  <data tableName="AO_88263F_HEALTH_CHECK_STATUS">
+    <column name="APPLICATION_NAME"/>
+    <column name="COMPLETE_KEY"/>
+    <column name="DESCRIPTION"/>
+    <column name="FAILED_DATE"/>
+    <column name="FAILURE_REASON"/>
+    <column name="ID"/>
+    <column name="IS_HEALTHY"/>
+    <column name="IS_RESOLVED"/>
+    <column name="RESOLVED_DATE"/>
+    <column name="SEVERITY"/>
+    <column name="STATUS_NAME"/>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.jira.plugins.jira-healthcheck-plugin:eolHealthCheck</string>
+      <string>Checks if the running version of JIRA is approaching, or has reached End of Life.</string>
+      <timestamp>2018-07-02T00:11:15.000Z</timestamp>
+      <string>JIRA version 7.3.x is approaching End Of Life. Please plan to upgrade JIRA within 184 days.</string>
+      <integer>1</integer>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <timestamp xsi:nil="true"/>
+      <string>WARNING</string>
+      <string>End of Life</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.jira.plugins.jira-healthcheck-plugin:luceneSupportHealthCheck</string>
+      <string>Checks the state of the search index is consistent with the database.</string>
+      <timestamp>2018-07-16T14:11:15.000Z</timestamp>
+      <string>The issue index is inconsistent with the database state. The last issue update recorded in the database was at (7/16/18 2:11 PM) but the last issue update recorded in the index was at (7/16/18 2:10 PM).</string>
+      <integer>3</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2018-07-16T15:11:15.000Z</timestamp>
+      <string>MAJOR</string>
+      <string>Lucene</string>
+    </row>
+  </data>

@@ -1,0 +1,23 @@
+  <table name="AO_D9132D_SCENARIO_VERSION">
+    <column name="C_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="DELTA" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="DELTA_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="DESCRIPTION" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="DESCRIPTION_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="END_DATE" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="END_DATE_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="ITEM_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="LAST_CHANGE_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="LAST_CHANGE_USER" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PROJECT_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SCENARIO_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SCENARIO_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="START_DATE" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="START_DATE_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="TITLE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TITLE_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="XPROJECT_VERSION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="XPROJECT_VERSION_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <foreignKey fromTable="AO_D9132D_SCENARIO_VERSION" fromColumn="SCENARIO_ID" toTable="AO_D9132D_SCENARIO" toColumn="ID"/>
+  </table>

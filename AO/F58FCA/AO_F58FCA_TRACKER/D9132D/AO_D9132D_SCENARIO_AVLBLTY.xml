@@ -1,0 +1,8 @@
+  <data tableName="AO_D9132D_SCENARIO_AVLBLTY">
+    <column name="END"/>
+    <column name="ID"/>
+    <column name="SCENARIO_RESOURCE_ID"/>
+    <column name="START"/>
+    <column name="TITLE"/>
+    <column name="WEEKLY_HOURS"/>
+  </data>

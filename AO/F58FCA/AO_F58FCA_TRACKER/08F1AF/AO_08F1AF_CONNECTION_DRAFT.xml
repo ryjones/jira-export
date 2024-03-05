@@ -1,0 +1,7 @@
+  <data tableName="AO_08F1AF_CONNECTION_DRAFT">
+    <column name="CONNECTION_ID"/>
+    <column name="CREATED_ON"/>
+    <column name="ID"/>
+    <column name="OPERATION"/>
+    <column name="STATUS"/>
+  </data>

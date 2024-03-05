@@ -1,0 +1,8 @@
+  <table name="AO_08F1AF_BLOB_EVENT">
+    <column name="BLOB_ERROR_REASON" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="BLOB_METADATA_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="ERROR_RESPONSE_MESSAGE" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="STATUS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SYNC_EVENT_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+  </table>

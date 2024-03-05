@@ -1,0 +1,5 @@
+  <table name="AO_A415DF_AODEPENDENCY">
+    <column name="DEPENDEE" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="DEPENDENT" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="ID_OTHER" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+  </table>

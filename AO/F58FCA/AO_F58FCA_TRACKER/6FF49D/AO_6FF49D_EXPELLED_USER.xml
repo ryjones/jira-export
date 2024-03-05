@@ -1,0 +1,11 @@
+  <data tableName="AO_6FF49D_EXPELLED_USER">
+    <column name="CREATED_BY"/>
+    <column name="CREATED_TIMESTAMP"/>
+    <column name="EMAIL"/>
+    <column name="EXECUTION_ID"/>
+    <column name="ID"/>
+    <column name="UPDATED_BY"/>
+    <column name="UPDATED_TIMESTAMP"/>
+    <column name="USER_KEY"/>
+    <column name="PREFLIGHT_CHECK_TYPE"/>
+  </data>

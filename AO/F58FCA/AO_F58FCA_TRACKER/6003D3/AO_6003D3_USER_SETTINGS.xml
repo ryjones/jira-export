@@ -1,0 +1,8 @@
+  <data tableName="AO_6003D3_USER_SETTINGS">
+    <column name="AUTO_SYNC_DAYS_COUNT"/>
+    <column name="AUTO_SYNC_ENABLED"/>
+    <column name="AUTO_SYNC_SUCCES_NOTIF_ENABLED"/>
+    <column name="ID"/>
+    <column name="TOGGL_API_TOKEN"/>
+    <column name="USER_KEY"/>
+  </data>

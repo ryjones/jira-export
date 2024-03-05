@@ -1,0 +1,11 @@
+  <table name="AO_6FF49D_MIGRATION_INCREMENT">
+    <column name="CLOUD_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CUTOFF" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="FINAL" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="ID" primaryKey="true" autoIncrement="false" sqlType="12" precision="36"/>
+    <column name="MIGRATION_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="36"/>
+    <column name="PLAN_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="36"/>
+    <column name="PROJECT_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="START_TIME" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="STATUS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

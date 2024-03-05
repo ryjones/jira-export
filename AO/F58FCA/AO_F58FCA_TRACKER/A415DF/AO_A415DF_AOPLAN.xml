@@ -1,0 +1,14 @@
+  <data tableName="AO_A415DF_AOPLAN">
+    <column name="AODATE"/>
+    <column name="AOREPLANNING_DATE"/>
+    <column name="DESCRIPTION"/>
+    <column name="DETAILS"/>
+    <column name="ID_OTHER"/>
+    <column name="IN_REPLANNING"/>
+    <column name="IN_STREAM_MODE"/>
+    <column name="PLAN_VERSION"/>
+    <column name="REPLANNING_VERSION"/>
+    <column name="SCHEDULING_VERSION"/>
+    <column name="TITLE"/>
+    <column name="VERSION"/>
+  </data>

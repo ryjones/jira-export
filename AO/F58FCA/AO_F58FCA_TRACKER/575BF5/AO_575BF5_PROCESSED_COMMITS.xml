@@ -1,0 +1,25 @@
+  <data tableName="AO_575BF5_PROCESSED_COMMITS">
+    <column name="COMMIT_HASH"/>
+    <column name="ID"/>
+    <column name="METADATA_HASH"/>
+    <row>
+      <string>570478171dc5314d97566216af5d37e695f0a3d6</string>
+      <integer>1</integer>
+      <string/>
+    </row>
+    <row>
+      <string>81958afd0c67765194a511f2f15cc8e757d7d89a</string>
+      <integer>2</integer>
+      <string/>
+    </row>
+    <row>
+      <string>c66e9bcd922784f42358ad134970249d5cefb0f9</string>
+      <integer>3</integer>
+      <string/>
+    </row>
+    <row>
+      <string>572a51f3a8adb1ff3b613d43f39f78b45cc86d60</string>
+      <integer>4</integer>
+      <string/>
+    </row>
+  </data>

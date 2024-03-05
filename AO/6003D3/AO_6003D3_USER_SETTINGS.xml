@@ -1,0 +1,8 @@
+  <table name="AO_6003D3_USER_SETTINGS">
+    <column name="AUTO_SYNC_DAYS_COUNT" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="AUTO_SYNC_ENABLED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="AUTO_SYNC_SUCCES_NOTIF_ENABLED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="TOGGL_API_TOKEN" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USER_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

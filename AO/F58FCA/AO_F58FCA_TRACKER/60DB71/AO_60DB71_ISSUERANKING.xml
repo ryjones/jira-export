@@ -1,0 +1,6 @@
+  <data tableName="AO_60DB71_ISSUERANKING">
+    <column name="CUSTOM_FIELD_ID"/>
+    <column name="ID"/>
+    <column name="ISSUE_ID"/>
+    <column name="NEXT_ID"/>
+  </data>

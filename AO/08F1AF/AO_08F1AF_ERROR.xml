@@ -1,0 +1,31 @@
+  <table name="AO_08F1AF_ERROR">
+    <column name="ACT_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="BLOB_EVENT_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="BLOB_REQUEST_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="CONNECT_CONTEXT_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="CONNECT_REMOTE_ISSUE_URN" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CREATION_TIME" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="ENTITY_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ERROR_ENTITY_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="FAIL_TO_EXALATE_ISSUES" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="FIELD_VALUES" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="INSTANCE_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="ISSUE_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ISSUE_ID_STR" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ISSUE_URN" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="RELATION_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="REMOTE_ENTITY_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="REMOTE_ISSUE_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="REMOTE_ISSUE_ID_STR" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="REMOTE_ISSUE_URN" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ROOT_CAUSE_DETAILS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ROOT_CAUSE_DETAIL_TEXT" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="ROOT_CAUSE_ERROR_TYPE_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="STACK_TRACE" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="SYNC_EVENT_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="SYNC_REQUEST_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="TRIGGER_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="USERS_DISMISSED" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

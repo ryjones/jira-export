@@ -1,0 +1,6 @@
+  <data tableName="AO_E8B6CC_PR_TO_COMMIT">
+    <column name="COMMIT_ID"/>
+    <column name="DOMAIN_ID"/>
+    <column name="ID"/>
+    <column name="REQUEST_ID"/>
+  </data>

@@ -1,0 +1,5 @@
+  <data tableName="AO_A415DF_AODEPENDENCY">
+    <column name="DEPENDEE"/>
+    <column name="DEPENDENT"/>
+    <column name="ID_OTHER"/>
+  </data>

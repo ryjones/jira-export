@@ -1,0 +1,4 @@
+  <table name="AO_6FF49D_VIRTUAL_ATTACHMENT">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="VIRTUAL_ATTACHMENT_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+  </table>

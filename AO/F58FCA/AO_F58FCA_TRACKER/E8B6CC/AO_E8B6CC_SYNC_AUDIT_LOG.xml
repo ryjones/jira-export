@@ -1,0 +1,13 @@
+  <data tableName="AO_E8B6CC_SYNC_AUDIT_LOG">
+    <column name="END_DATE"/>
+    <column name="EXC_TRACE"/>
+    <column name="FIRST_REQUEST_DATE"/>
+    <column name="FLIGHT_TIME_MS"/>
+    <column name="ID"/>
+    <column name="NUM_REQUESTS"/>
+    <column name="REPO_ID"/>
+    <column name="START_DATE"/>
+    <column name="SYNC_STATUS"/>
+    <column name="SYNC_TYPE"/>
+    <column name="TOTAL_ERRORS"/>
+  </data>

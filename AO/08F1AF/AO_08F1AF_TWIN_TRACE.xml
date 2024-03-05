@@ -1,0 +1,18 @@
+  <table name="AO_08F1AF_TWIN_TRACE">
+    <column name="CREATED_DATE" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="LAST_RECEIVED_RESPONSE" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="LAST_REMOTE_EVENT_NUMBER" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="LOCAL_REPLICA_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="LOCAL_TWIN_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="NUMBER_OF_EVENTS" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="PAYED_DATE" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="RELATION_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="REMOTE_REPLICA_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="REMOTE_TWIN_TRACE_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="STATUS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USE_REMOTE_SCOPE" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <foreignKey fromTable="AO_08F1AF_TWIN_TRACE" fromColumn="LOCAL_REPLICA_ID" toTable="AO_08F1AF_REPLICA" toColumn="ID"/>
+    <foreignKey fromTable="AO_08F1AF_TWIN_TRACE" fromColumn="RELATION_ID" toTable="AO_08F1AF_RELATION" toColumn="ID"/>
+    <foreignKey fromTable="AO_08F1AF_TWIN_TRACE" fromColumn="REMOTE_REPLICA_ID" toTable="AO_08F1AF_REPLICA" toColumn="ID"/>
+  </table>

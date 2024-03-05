@@ -1,0 +1,8 @@
+  <data tableName="AO_CBC281_DRAWIO_LIBRARY">
+    <column name="ANYONE_CAN_EDIT"/>
+    <column name="AUTHOR"/>
+    <column name="ID"/>
+    <column name="LAST_MODIFIED"/>
+    <column name="NAME"/>
+    <column name="XML"/>
+  </data>

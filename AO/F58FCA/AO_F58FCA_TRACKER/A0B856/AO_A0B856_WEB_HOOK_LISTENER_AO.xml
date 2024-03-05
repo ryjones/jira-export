@@ -1,0 +1,14 @@
+  <data tableName="AO_A0B856_WEB_HOOK_LISTENER_AO">
+    <column name="DESCRIPTION"/>
+    <column name="ENABLED"/>
+    <column name="EVENTS"/>
+    <column name="EXCLUDE_BODY"/>
+    <column name="FILTERS"/>
+    <column name="ID"/>
+    <column name="LAST_UPDATED"/>
+    <column name="LAST_UPDATED_USER"/>
+    <column name="NAME"/>
+    <column name="PARAMETERS"/>
+    <column name="REGISTRATION_METHOD"/>
+    <column name="URL"/>
+  </data>

@@ -1,0 +1,9 @@
+  <table name="AO_D9132D_PLANVERSION">
+    <column name="C_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="PLAN_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="VERSION_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="XPROJECT_VERSION_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <foreignKey fromTable="AO_D9132D_PLANVERSION" fromColumn="PLAN_ID" toTable="AO_D9132D_PLAN" toColumn="ID"/>
+    <foreignKey fromTable="AO_D9132D_PLANVERSION" fromColumn="XPROJECT_VERSION_ID" toTable="AO_D9132D_X_PROJECT_VERSION" toColumn="ID"/>
+  </table>

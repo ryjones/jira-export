@@ -1,0 +1,18 @@
+  <table name="AO_6FF49D_INCORRECT_EMAIL">
+    <column name="CREATED_BY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CREATED_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="DIRECTORY_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="DIRECTORY_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="EMAIL_CORRECTION_DATA" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="EXECUTION_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="LAST_AUTHENTICATED" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="NEW_EMAIL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="OLD_EMAIL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PREFLIGHT_CHECK_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="50"/>
+    <column name="TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="50"/>
+    <column name="UPDATED_BY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="UPDATED_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="USER_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USER_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

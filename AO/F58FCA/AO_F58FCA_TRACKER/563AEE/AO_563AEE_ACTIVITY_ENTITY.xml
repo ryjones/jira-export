@@ -1,0 +1,19 @@
+  <data tableName="AO_563AEE_ACTIVITY_ENTITY">
+    <column name="ACTIVITY_ID"/>
+    <column name="ACTOR_ID"/>
+    <column name="CONTENT"/>
+    <column name="GENERATOR_DISPLAY_NAME"/>
+    <column name="GENERATOR_ID"/>
+    <column name="ICON_ID"/>
+    <column name="ID"/>
+    <column name="ISSUE_KEY"/>
+    <column name="OBJECT_ID"/>
+    <column name="POSTER"/>
+    <column name="PROJECT_KEY"/>
+    <column name="PUBLISHED"/>
+    <column name="TARGET_ID"/>
+    <column name="TITLE"/>
+    <column name="URL"/>
+    <column name="USERNAME"/>
+    <column name="VERB"/>
+  </data>

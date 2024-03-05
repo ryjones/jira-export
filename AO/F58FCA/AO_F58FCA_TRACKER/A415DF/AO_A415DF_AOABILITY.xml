@@ -1,0 +1,8 @@
+  <data tableName="AO_A415DF_AOABILITY">
+    <column name="ABILITY_VALUE"/>
+    <column name="AOPERSON_ID"/>
+    <column name="ID_OTHER"/>
+    <column name="TARGET_ID"/>
+    <column name="TARGET_TYPE"/>
+    <column name="VERSION"/>
+  </data>

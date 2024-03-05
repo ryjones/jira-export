@@ -1,0 +1,16 @@
+  <data tableName="AO_5D285B_USER_CONFIG">
+    <column name="CONFIG"/>
+    <column name="CREATED_AT"/>
+    <column name="ID"/>
+    <column name="JIRA_SERVER_ID"/>
+    <column name="UPDATED_AT"/>
+    <column name="USER_ID"/>
+    <row>
+      <string>{"hideTimeEntryWithoutIssueKey":false,"hideSidebarIcon":false,"shouldLoadSidebar":true,"alwaysDisplayOptionsInSidebar":false}</string>
+      <timestamp>2020-01-12T00:28:55.000Z</timestamp>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <timestamp>2020-01-12T00:28:55.000Z</timestamp>
+      <string>rameshthoomu</string>
+    </row>
+  </data>

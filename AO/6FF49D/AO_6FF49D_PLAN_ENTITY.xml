@@ -1,0 +1,9 @@
+  <table name="AO_6FF49D_PLAN_ENTITY">
+    <column name="CREATED" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="CREATED_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="false" sqlType="12" precision="36"/>
+    <column name="JSON" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="PLAN_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="UPDATED" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="UPDATED_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+  </table>

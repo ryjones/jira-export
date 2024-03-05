@@ -1,0 +1,53 @@
+  <data tableName="AO_4AEACD_WEBHOOK_DAO">
+    <column name="ENABLED"/>
+    <column name="ENCODED_EVENTS"/>
+    <column name="FILTER"/>
+    <column name="ID"/>
+    <column name="JQL"/>
+    <column name="LAST_UPDATED"/>
+    <column name="LAST_UPDATED_USER"/>
+    <column name="NAME"/>
+    <column name="REGISTRATION_METHOD"/>
+    <column name="URL"/>
+    <column name="EXCLUDE_ISSUE_DETAILS"/>
+    <column name="PARAMETERS"/>
+    <row>
+      <boolean>true</boolean>
+      <string>worklog_created
+jira:issue_updated
+comment_created
+jira:issue_created
+comment_updated
+worklog_deleted
+jira:issue_deleted
+jira:worklog_updated
+worklog_updated
+comment_deleted</string>
+      <string/>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <timestamp>2020-06-01T22:14:42.000Z</timestamp>
+      <string>ryjones</string>
+      <string>RocketChat WebHook Listener</string>
+      <string>REST</string>
+      <string>https://chat.hyperledger.org/hooks/Mj8uCCBposZ7EGojE/Ztm37Kmgjj7YGYscFXGa4G5tBgGiwiZY6B9JgdPEG3x52HCc</string>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <boolean>false</boolean>
+      <string>jira:issue_updated
+comment_created
+comment_updated</string>
+      <string/>
+      <integer>5</integer>
+      <string xsi:nil="true"/>
+      <timestamp>2020-06-01T22:09:40.000Z</timestamp>
+      <string>ryjones</string>
+      <string>HackerOne</string>
+      <string>REST</string>
+      <string>https://hackerone.com/webhooks/jira?webhook_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjIyNTIyLCJqaWQiOjgxLCJpYXQiOjE1MDI3NTUwMzB9.c7rK_IqwcAKxsG5Zcb2EI4m8oWmjSvwDZMEvEFyXVwI&amp;issue_key=${issue.key}</string>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+    </row>
+  </data>

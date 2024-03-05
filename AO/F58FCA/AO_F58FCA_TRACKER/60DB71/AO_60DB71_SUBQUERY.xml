@@ -1,0 +1,287 @@
+  <data tableName="AO_60DB71_SUBQUERY">
+    <column name="ID"/>
+    <column name="LONG_QUERY"/>
+    <column name="QUERY"/>
+    <column name="RAPID_VIEW_ID"/>
+    <column name="SECTION"/>
+    <row>
+      <integer>1</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>13</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>35</integer>
+      <string/>
+      <string xsi:nil="true"/>
+      <integer>59</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>37</integer>
+      <string/>
+      <string xsi:nil="true"/>
+      <integer>61</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>39</integer>
+      <string/>
+      <string xsi:nil="true"/>
+      <integer>63</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>41</integer>
+      <string/>
+      <string xsi:nil="true"/>
+      <integer>65</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>43</integer>
+      <string/>
+      <string xsi:nil="true"/>
+      <integer>67</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>45</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>71</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>47</integer>
+      <string/>
+      <string xsi:nil="true"/>
+      <integer>73</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>57</integer>
+      <string/>
+      <string xsi:nil="true"/>
+      <integer>97</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>59</integer>
+      <string/>
+      <string xsi:nil="true"/>
+      <integer>99</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>65</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>111</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>67</integer>
+      <string/>
+      <string xsi:nil="true"/>
+      <integer>119</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>69</integer>
+      <string/>
+      <string xsi:nil="true"/>
+      <integer>151</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>71</integer>
+      <string/>
+      <string xsi:nil="true"/>
+      <integer>167</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>75</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>179</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>79</integer>
+      <string>fixVersion in (v1.2)</string>
+      <string xsi:nil="true"/>
+      <integer>183</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>83</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>187</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>85</integer>
+      <string/>
+      <string xsi:nil="true"/>
+      <integer>191</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>87</integer>
+      <string/>
+      <string xsi:nil="true"/>
+      <integer>193</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>89</integer>
+      <string/>
+      <string xsi:nil="true"/>
+      <integer>195</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>95</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>205</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>97</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>209</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>99</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>211</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>101</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>215</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>102</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>216</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>103</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>217</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>104</integer>
+      <string/>
+      <string xsi:nil="true"/>
+      <integer>218</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>105</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>225</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>108</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>230</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>109</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>232</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>110</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>234</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>111</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>238</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>112</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>239</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>113</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>240</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>114</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>258</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>115</integer>
+      <string>fixVersion in unreleasedVersions() OR fixVersion is EMPTY</string>
+      <string xsi:nil="true"/>
+      <integer>264</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>117</integer>
+      <string/>
+      <string xsi:nil="true"/>
+      <integer>270</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>118</integer>
+      <string/>
+      <string xsi:nil="true"/>
+      <integer>271</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>119</integer>
+      <string/>
+      <string xsi:nil="true"/>
+      <integer>275</integer>
+      <string>board.kanban.work</string>
+    </row>
+    <row>
+      <integer>120</integer>
+      <string/>
+      <string xsi:nil="true"/>
+      <integer>276</integer>
+      <string>board.kanban.work</string>
+    </row>
+  </data>

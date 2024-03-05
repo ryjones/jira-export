@@ -1,0 +1,19 @@
+  <table name="AO_E8B6CC_ORGANIZATION_MAPPING">
+    <column name="ACCESS_TOKEN" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ADMIN_PASSWORD" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ADMIN_USERNAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="APPROVAL_STATE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="AUTOLINK_NEW_REPOS" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="DEFAULT_GROUPS_SLUGS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="DVCS_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="HOST_URL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="LAST_POLLED" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="OAUTH_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="OAUTH_SECRET" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PRINCIPAL_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SMARTCOMMITS_FOR_NEW_REPOS" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="STATUS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TOKEN_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

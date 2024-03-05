@@ -1,0 +1,7 @@
+  <data tableName="AO_E8B6CC_MESSAGE">
+    <column name="ADDRESS"/>
+    <column name="ID"/>
+    <column name="PAYLOAD"/>
+    <column name="PAYLOAD_TYPE"/>
+    <column name="PRIORITY"/>
+  </data>

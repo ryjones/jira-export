@@ -1,0 +1,8 @@
+  <table name="AO_8BA09E_REINDEX_QUEUE_LOG">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="INDEXING_LOG" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="NODE_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="REINDEX_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="REPOSITORY_STATUS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="STATUS_MESSAGE" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+  </table>

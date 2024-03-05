@@ -1,0 +1,4 @@
+  <table name="AO_6FF49D_TOMBSTONE_ACCOUNT">
+    <column name="AAID" primaryKey="false" autoIncrement="false" sqlType="12" precision="128"/>
+    <column name="USER_KEY" primaryKey="true" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

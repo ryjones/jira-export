@@ -1,0 +1,618 @@
+  <data tableName="AO_60DB71_TRACKINGSTATISTIC">
+    <column name="FIELD_ID"/>
+    <column name="ID"/>
+    <column name="RAPID_VIEW_ID"/>
+    <column name="TYPE_ID"/>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <integer>1</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>3</integer>
+      <integer>3</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>5</integer>
+      <integer>5</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>7</integer>
+      <integer>7</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>13</integer>
+      <integer>13</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>41</integer>
+      <integer>41</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>63</integer>
+      <integer>59</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>65</integer>
+      <integer>61</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>67</integer>
+      <integer>63</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>69</integer>
+      <integer>65</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>71</integer>
+      <integer>67</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>75</integer>
+      <integer>71</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>77</integer>
+      <integer>73</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>89</integer>
+      <integer>81</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>93</integer>
+      <integer>85</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>95</integer>
+      <integer>87</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>105</integer>
+      <integer>97</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>107</integer>
+      <integer>99</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>109</integer>
+      <integer>101</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>111</integer>
+      <integer>103</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>119</integer>
+      <integer>111</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>121</integer>
+      <integer>113</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>127</integer>
+      <integer>119</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>135</integer>
+      <integer>127</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>143</integer>
+      <integer>135</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>145</integer>
+      <integer>137</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>151</integer>
+      <integer>143</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>153</integer>
+      <integer>145</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>155</integer>
+      <integer>147</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>167</integer>
+      <integer>133</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>169</integer>
+      <integer>151</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>171</integer>
+      <integer>149</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>173</integer>
+      <integer>153</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>175</integer>
+      <integer>155</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>177</integer>
+      <integer>157</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>179</integer>
+      <integer>159</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>181</integer>
+      <integer>161</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>183</integer>
+      <integer>163</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>185</integer>
+      <integer>165</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>187</integer>
+      <integer>167</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>189</integer>
+      <integer>169</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>193</integer>
+      <integer>173</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>195</integer>
+      <integer>175</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>197</integer>
+      <integer>177</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>199</integer>
+      <integer>179</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>203</integer>
+      <integer>183</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>207</integer>
+      <integer>187</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>209</integer>
+      <integer>189</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>211</integer>
+      <integer>191</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>213</integer>
+      <integer>193</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>215</integer>
+      <integer>195</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>217</integer>
+      <integer>197</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>219</integer>
+      <integer>199</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>225</integer>
+      <integer>205</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>227</integer>
+      <integer>207</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>229</integer>
+      <integer>209</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>231</integer>
+      <integer>211</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>233</integer>
+      <integer>213</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>234</integer>
+      <integer>214</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>235</integer>
+      <integer>215</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>236</integer>
+      <integer>216</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>237</integer>
+      <integer>217</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>238</integer>
+      <integer>218</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>239</integer>
+      <integer>219</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>240</integer>
+      <integer>220</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>241</integer>
+      <integer>221</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>243</integer>
+      <integer>223</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>244</integer>
+      <integer>224</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>245</integer>
+      <integer>225</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>246</integer>
+      <integer>226</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>247</integer>
+      <integer>227</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>250</integer>
+      <integer>230</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>251</integer>
+      <integer>231</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>252</integer>
+      <integer>232</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>254</integer>
+      <integer>234</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>255</integer>
+      <integer>235</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>257</integer>
+      <integer>237</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>258</integer>
+      <integer>238</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>259</integer>
+      <integer>239</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>260</integer>
+      <integer>240</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>261</integer>
+      <integer>241</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>262</integer>
+      <integer>242</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>263</integer>
+      <integer>243</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>264</integer>
+      <integer>244</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>265</integer>
+      <integer>245</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>266</integer>
+      <integer>246</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>274</integer>
+      <integer>253</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>275</integer>
+      <integer>254</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>278</integer>
+      <integer>257</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>279</integer>
+      <integer>258</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>280</integer>
+      <integer>259</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>284</integer>
+      <integer>263</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>285</integer>
+      <integer>264</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>286</integer>
+      <integer>265</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>287</integer>
+      <integer>266</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>291</integer>
+      <integer>270</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>292</integer>
+      <integer>271</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>293</integer>
+      <integer>272</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>294</integer>
+      <integer>273</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>295</integer>
+      <integer>274</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>296</integer>
+      <integer>275</integer>
+      <string>none</string>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer>297</integer>
+      <integer>276</integer>
+      <string>none</string>
+    </row>
+  </data>

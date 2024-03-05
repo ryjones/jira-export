@@ -1,0 +1,30 @@
+  <data tableName="AO_08F1AF_NODE">
+    <column name="ID"/>
+    <column name="NODE_INFO_ID"/>
+    <column name="PROXY_USER"/>
+    <column name="EMAIL_NOTIFICATION"/>
+    <column name="JIRA_NOTIFICATION"/>
+    <column name="AUTHENTICATION_REQUIRED"/>
+    <column name="POLL_ONLY"/>
+    <column name="UNEXALATE_ENABLED"/>
+    <column name="EXALATE_ENABLED"/>
+    <column name="PUBLIC_URL"/>
+    <column name="POLLING_FREQUENCY"/>
+    <column name="INSTANCE_UID"/>
+    <column name="SHOW_DISABLED_CONNECTIONS"/>
+    <row>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <string>JIRAUSER19828</string>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <boolean>true</boolean>
+      <string xsi:nil="true"/>
+      <integer>20</integer>
+      <string>JIRA:BPTM-RMHO-8MH0-FC6F:1576775113190</string>
+      <boolean>true</boolean>
+    </row>
+  </data>

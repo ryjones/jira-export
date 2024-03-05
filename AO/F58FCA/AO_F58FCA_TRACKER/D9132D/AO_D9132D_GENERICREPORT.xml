@@ -1,0 +1,8 @@
+  <data tableName="AO_D9132D_GENERICREPORT">
+    <column name="HASH"/>
+    <column name="ID"/>
+    <column name="PARAMS"/>
+    <column name="PARAMS_HASH"/>
+    <column name="TYPE"/>
+    <column name="TYPE_ID"/>
+  </data>

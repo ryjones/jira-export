@@ -1,0 +1,6 @@
+  <data tableName="AO_5D733E_LABEL_ITITEM">
+    <column name="CUSTOM_FIELD_ID"/>
+    <column name="ID"/>
+    <column name="NAME"/>
+    <column name="PROJECT_ID"/>
+  </data>

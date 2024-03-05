@@ -1,0 +1,8 @@
+  <table name="AO_8BA09E_SSH_KEY_ENTRY">
+    <column name="EPASS_PHRASE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="EPRIVATE_KEY" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="KEY_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PASS_PHRASE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PRIVATE_KEY" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+  </table>

@@ -1,0 +1,6 @@
+  <table name="AO_D9132D_HIERARCHY_CONFIG">
+    <column name="ICON_URL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="ISSUE_TYPE_IDS" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="TITLE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

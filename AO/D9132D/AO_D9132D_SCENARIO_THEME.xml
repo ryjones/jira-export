@@ -1,0 +1,17 @@
+  <table name="AO_D9132D_SCENARIO_THEME">
+    <column name="ADD_TO_PLAN" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="COLOR" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="COLOR_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="C_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="ITEM_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="LAST_CHANGE_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="LAST_CHANGE_USER" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SCENARIO_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SCENARIO_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TITLE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TITLE_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="WEIGHT" primaryKey="false" autoIncrement="false" sqlType="8" precision="22" scale="31"/>
+    <column name="WEIGHT_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <foreignKey fromTable="AO_D9132D_SCENARIO_THEME" fromColumn="SCENARIO_ID" toTable="AO_D9132D_SCENARIO" toColumn="ID"/>
+  </table>

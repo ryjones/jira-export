@@ -1,0 +1,13 @@
+  <data tableName="AO_4789DD_TASK_MONITOR">
+    <column name="CLUSTERED_TASK_ID"/>
+    <column name="CREATED_TIMESTAMP"/>
+    <column name="ID"/>
+    <column name="NODE_ID"/>
+    <column name="PROGRESS_MESSAGE"/>
+    <column name="PROGRESS_PERCENTAGE"/>
+    <column name="SERIALIZED_ERRORS"/>
+    <column name="SERIALIZED_WARNINGS"/>
+    <column name="TASK_ID"/>
+    <column name="TASK_MONITOR_KIND"/>
+    <column name="TASK_STATUS"/>
+  </data>

@@ -1,0 +1,6 @@
+  <data tableName="AO_A415DF_AOREPLANNING">
+    <column name="ID_OTHER"/>
+    <column name="TARGET_ID"/>
+    <column name="TARGET_TYPE"/>
+    <column name="WORK_ITEM_ID"/>
+  </data>

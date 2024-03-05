@@ -1,0 +1,9 @@
+  <table name="AO_60DB71_AUDITENTRY">
+    <column name="CATEGORY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="DATA" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="ENTITY_CLASS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ENTITY_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="TIME" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="USER" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

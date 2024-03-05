@@ -1,0 +1,90 @@
+  <data tableName="AO_A415DF_AOPERMISSION">
+    <column name="HOLDER_ID"/>
+    <column name="HOLDER_TYPE"/>
+    <column name="ID_OTHER"/>
+    <column name="PERMISSION"/>
+    <column name="TARGET_ID"/>
+    <column name="TARGET_TYPE"/>
+    <column name="VERSION"/>
+    <row>
+      <string>jira-administrators</string>
+      <string>group</string>
+      <integer>1</integer>
+      <integer>100</integer>
+      <string>user</string>
+      <string>system</string>
+      <integer>0</integer>
+    </row>
+    <row>
+      <string>jira-core-users</string>
+      <string>group</string>
+      <integer>2</integer>
+      <integer>100</integer>
+      <string>user</string>
+      <string>system</string>
+      <integer>0</integer>
+    </row>
+    <row>
+      <string>jira-software-users</string>
+      <string>group</string>
+      <integer>3</integer>
+      <integer>100</integer>
+      <string>user</string>
+      <string>system</string>
+      <integer>0</integer>
+    </row>
+    <row>
+      <string>jira-administrators</string>
+      <string>group</string>
+      <integer>4</integer>
+      <integer>100</integer>
+      <string>labs</string>
+      <string>system</string>
+      <integer>0</integer>
+    </row>
+    <row>
+      <string>jira-administrators</string>
+      <string>group</string>
+      <integer>5</integer>
+      <integer>100</integer>
+      <string>team-mgmt</string>
+      <string>system</string>
+      <integer>0</integer>
+    </row>
+    <row>
+      <string>jira-core-users</string>
+      <string>group</string>
+      <integer>6</integer>
+      <integer>100</integer>
+      <string>labs</string>
+      <string>system</string>
+      <integer>0</integer>
+    </row>
+    <row>
+      <string>jira-core-users</string>
+      <string>group</string>
+      <integer>7</integer>
+      <integer>100</integer>
+      <string>team-mgmt</string>
+      <string>system</string>
+      <integer>0</integer>
+    </row>
+    <row>
+      <string>jira-software-users</string>
+      <string>group</string>
+      <integer>8</integer>
+      <integer>100</integer>
+      <string>labs</string>
+      <string>system</string>
+      <integer>0</integer>
+    </row>
+    <row>
+      <string>jira-software-users</string>
+      <string>group</string>
+      <integer>9</integer>
+      <integer>100</integer>
+      <string>team-mgmt</string>
+      <string>system</string>
+      <integer>0</integer>
+    </row>
+  </data>

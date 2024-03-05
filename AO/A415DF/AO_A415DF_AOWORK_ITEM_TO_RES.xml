@@ -1,0 +1,8 @@
+  <table name="AO_A415DF_AOWORK_ITEM_TO_RES">
+    <column name="AORESOURCE_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="AOWORK_ITEM_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="ID_OTHER" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="REPLANNING" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <foreignKey fromTable="AO_A415DF_AOWORK_ITEM_TO_RES" fromColumn="AORESOURCE_ID" toTable="AO_A415DF_AORESOURCE" toColumn="ID_OTHER"/>
+    <foreignKey fromTable="AO_A415DF_AOWORK_ITEM_TO_RES" fromColumn="AOWORK_ITEM_ID" toTable="AO_A415DF_AOWORK_ITEM" toColumn="ID_OTHER"/>
+  </table>

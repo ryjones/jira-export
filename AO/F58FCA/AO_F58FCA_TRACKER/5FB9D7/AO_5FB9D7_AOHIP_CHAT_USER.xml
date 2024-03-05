@@ -1,0 +1,11 @@
+  <data tableName="AO_5FB9D7_AOHIP_CHAT_USER">
+    <column name="HIP_CHAT_LINK_ID"/>
+    <column name="HIP_CHAT_USER_ID"/>
+    <column name="HIP_CHAT_USER_NAME"/>
+    <column name="ID"/>
+    <column name="REFRESH_CODE"/>
+    <column name="USER_KEY"/>
+    <column name="USER_SCOPES"/>
+    <column name="USER_TOKEN"/>
+    <column name="USER_TOKEN_EXPIRY"/>
+  </data>

@@ -1,0 +1,5 @@
+  <table name="AO_D9132D_DEP_ISSUE_LINK_TYPES">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="LINK_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="OUTWARD" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+  </table>

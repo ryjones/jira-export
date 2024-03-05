@@ -1,0 +1,11 @@
+  <data tableName="AO_6FF49D_MIGRATION_INCREMENT">
+    <column name="CLOUD_ID"/>
+    <column name="CUTOFF"/>
+    <column name="ID"/>
+    <column name="MIGRATION_ID"/>
+    <column name="PLAN_ID"/>
+    <column name="PROJECT_ID"/>
+    <column name="START_TIME"/>
+    <column name="STATUS"/>
+    <column name="FINAL"/>
+  </data>

@@ -1,0 +1,18 @@
+  <data tableName="AO_D9132D_SCENARIO_RESOURCE">
+    <column name="AVAILABILITY_CHANGED"/>
+    <column name="C_KEY"/>
+    <column name="ID"/>
+    <column name="ITEM_KEY"/>
+    <column name="JOIN_DATE"/>
+    <column name="JOIN_DATE_CHANGED"/>
+    <column name="LAST_CHANGE_TIMESTAMP"/>
+    <column name="LAST_CHANGE_USER"/>
+    <column name="LEAVE_DATE"/>
+    <column name="LEAVE_DATE_CHANGED"/>
+    <column name="PERSON_ITEM_KEY"/>
+    <column name="SCENARIO_ID"/>
+    <column name="SCENARIO_TYPE"/>
+    <column name="TEAM_ITEM_KEY"/>
+    <column name="WEEKLY_HOURS"/>
+    <column name="WEEKLY_HOURS_CHANGED"/>
+  </data>

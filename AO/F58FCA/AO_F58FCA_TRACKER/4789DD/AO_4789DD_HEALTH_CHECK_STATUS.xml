@@ -1,0 +1,70 @@
+  <data tableName="AO_4789DD_HEALTH_CHECK_STATUS">
+    <column name="APPLICATION_NAME"/>
+    <column name="COMPLETE_KEY"/>
+    <column name="DESCRIPTION"/>
+    <column name="FAILED_DATE"/>
+    <column name="FAILURE_REASON"/>
+    <column name="ID"/>
+    <column name="IS_HEALTHY"/>
+    <column name="IS_RESOLVED"/>
+    <column name="RESOLVED_DATE"/>
+    <column name="SEVERITY"/>
+    <column name="STATUS_NAME"/>
+    <column name="NODE_ID"/>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:duplicatedUsersCheck</string>
+      <string>This health check scans all user directories for duplicate user accounts.</string>
+      <timestamp>2022-04-20T22:34:30.000Z</timestamp>
+      <string>We found one or more duplicate user accounts in the connected user directories.</string>
+      <integer>17</integer>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <timestamp xsi:nil="true"/>
+      <string>WARNING</string>
+      <string>Duplicate user accounts</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:endOfLifeHealthCheck</string>
+      <string>Checks if the running version of Jira is approaching, or has reached End of Life.</string>
+      <timestamp>2023-04-19T00:39:51.000Z</timestamp>
+      <string>The End of Life date for JIRA version 8.20 is Oct 19, 2023. To ensure you're still fully supported, you should upgrade before this date.</string>
+      <integer>19</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2023-12-31T00:36:48.000Z</timestamp>
+      <string>WARNING</string>
+      <string>End of Life</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:explicitGcHealthCheck</string>
+      <string>Checks that you're using the recommended JVM startup parameters for explicit garbage collection. If you use the Garbage-First (G1) garbage collector, we recommend adding the ExplicitGCInvokesConcurrent property to the list of startup parameters. This reduces the chance of Jira becoming temporarily unavailable while garbage collection is in progress.</string>
+      <timestamp>2023-11-29T18:36:54.000Z</timestamp>
+      <string>The startup parameter ExplicitGCInvokesConcurrent is not used. We recommend adding this to avoid potential performance issues.</string>
+      <integer>41</integer>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <timestamp xsi:nil="true"/>
+      <string>WARNING</string>
+      <string>Explicit GC</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:endOfLifeHealthCheck</string>
+      <string>Checks if the running version of Jira is approaching, or has reached End of Life.</string>
+      <timestamp>2023-12-31T00:36:48.000Z</timestamp>
+      <string>JIRA version 8.20 reached End of Life on Dec 31, 2023. To ensure you're still fully supported, please upgrade JIRA to a supported version.</string>
+      <integer>45</integer>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <timestamp xsi:nil="true"/>
+      <string>MAJOR</string>
+      <string>End of Life</string>
+      <string xsi:nil="true"/>
+    </row>
+  </data>

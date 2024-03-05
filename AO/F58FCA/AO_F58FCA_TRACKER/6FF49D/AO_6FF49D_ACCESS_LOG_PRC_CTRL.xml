@@ -1,0 +1,11 @@
+  <data tableName="AO_6FF49D_ACCESS_LOG_PRC_CTRL">
+    <column name="END_TIMESTAMP"/>
+    <column name="ID"/>
+    <column name="INST_ANALYSIS_CTRL_ID"/>
+    <column name="LAST_UPDATE_TIMESTAMP"/>
+    <column name="MESSAGE"/>
+    <column name="NODE"/>
+    <column name="RETRY_COUNT"/>
+    <column name="START_TIMESTAMP"/>
+    <column name="STATUS"/>
+  </data>

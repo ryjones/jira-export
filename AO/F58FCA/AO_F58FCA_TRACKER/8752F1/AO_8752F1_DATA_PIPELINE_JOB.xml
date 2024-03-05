@@ -1,0 +1,16 @@
+  <data tableName="AO_8752F1_DATA_PIPELINE_JOB">
+    <column name="CREATED"/>
+    <column name="ERRORS"/>
+    <column name="EXPORTED_ENTITIES"/>
+    <column name="EXPORT_FORCED"/>
+    <column name="EXPORT_FROM"/>
+    <column name="EXPORT_PATH"/>
+    <column name="ID"/>
+    <column name="METADATA"/>
+    <column name="ROOT_EXPORT_PATH"/>
+    <column name="SCHEMA_VERSION"/>
+    <column name="STATUS"/>
+    <column name="UPDATED"/>
+    <column name="WARNINGS"/>
+    <column name="WRITTEN_ROWS"/>
+  </data>

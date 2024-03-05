@@ -1,0 +1,8 @@
+  <table name="AO_CBC281_DRAWIO_LIBRARY">
+    <column name="ANYONE_CAN_EDIT" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="AUTHOR" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="LAST_MODIFIED" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="XML" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+  </table>

@@ -1,0 +1,7 @@
+  <table name="AO_8BA09E_WEB_HOOK_ENTRY">
+    <column name="ENABLED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="IGNORE_UNMATCHING_WEBHOOKS" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SECRET_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SLEEPING_TIME" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="TYPE" primaryKey="true" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

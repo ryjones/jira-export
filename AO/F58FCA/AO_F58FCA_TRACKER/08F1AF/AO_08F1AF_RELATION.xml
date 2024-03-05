@@ -1,0 +1,91 @@
+  <data tableName="AO_08F1AF_RELATION">
+    <column name="AUTHENTICATION_TOKEN"/>
+    <column name="CHANGE_PROCESSOR"/>
+    <column name="CREATE_LINKS"/>
+    <column name="CREATE_PROCESSOR"/>
+    <column name="DATA_FILTER"/>
+    <column name="DESCRIPTION"/>
+    <column name="ID"/>
+    <column name="INSTANCE_ID"/>
+    <column name="NAME"/>
+    <column name="STATUS"/>
+    <column name="LOCAL_INSTANCE_ID"/>
+    <column name="REMOTE_PASSWORD"/>
+    <column name="AUTHENTICATION_REQUIRED"/>
+    <column name="REMOTE_USERNAME"/>
+    <column name="CREATE_SYNC_PANEL_LINKS"/>
+    <column name="ENCRYPTED_REMOTE_PASSWORD"/>
+    <column name="LOCAL"/>
+    <column name="INVITATION_SECRET"/>
+    <column name="LOCAL_URL"/>
+    <column name="SEND_PROTOCOL"/>
+    <column name="RECEIVE_PROTOCOL"/>
+    <column name="INVITATION_STATUS"/>
+    <column name="POST_EXALATE_PROCESSOR"/>
+    <column name="VERSION"/>
+    <column name="INCOMING_PROCESSOR"/>
+    <column name="FIELD_VALUES"/>
+    <row>
+      <string xsi:nil="true"/>
+      <string>issue.summary      = replica.summary
+issue.description  = replica.description
+issue.labels       = replica.labels
+issue.comments     = commentHelper.mergeComments(issue, replica)
+issue.attachments  = attachmentHelper.mergeAttachments(issue, replica)</string>
+      <boolean>false</boolean>
+      <string>issue.projectKey   = "BESU"
+issue.typeName     = nodeHelper.getIssueType(replica.type?.name, issue.projectKey)?.name ?: "Improvement"
+issue.summary      = replica.summary
+issue.description  = replica.description
+issue.labels       = replica.labels
+issue.comments     = commentHelper.mergeComments(issue, replica)
+issue.attachments  = attachmentHelper.mergeAttachments(issue, replica)</string>
+      <string>replica.key            = issue.key
+replica.type           = issue.type
+replica.creator        = issue.creator
+replica.reporter       = issue.reporter
+replica.assignee       = issue.assignee
+replica.summary        = issue.summary
+replica.description    = issue.description
+replica.labels         = issue.labels
+replica.comments       = issue.comments
+replica.resolution     = issue.resolution
+replica.status         = issue.status
+replica.parentId       = issue.parentId
+replica.priority       = issue.priority
+replica.attachments    = issue.attachments
+replica.project        = issue.project</string>
+      <string>Link to Sync the Hyperledger Besu project in Hyperledger Jira with PegaSys Jira</string>
+      <integer>1</integer>
+      <integer>1</integer>
+      <string>PegaSys_to_Hyperledger</string>
+      <string>ACTIVE</string>
+      <integer xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <boolean>true</boolean>
+      <string xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string>zEBCRIhDMZld</string>
+      <string>https://jira.hyperledger.org</string>
+      <string>DIRECT_HTTP</string>
+      <string>DIRECT_HTTP</string>
+      <string>ACCEPTED</string>
+      <string/>
+      <string>2</string>
+      <string>if(firstSync){
+   // If it's the first sync for an issue (local issue does not exist yet)
+   // Set project key from source issue, if not found set a default
+   issue.projectKey   = "BESU"
+   // Set type name from source issue, if not found set a default
+   issue.typeName     = "Improvement"
+}
+issue.summary      = replica.summary
+issue.description  = replica.description
+issue.labels       = replica.labels
+issue.comments     = commentHelper.mergeComments(issue, replica)
+issue.attachments  = attachmentHelper.mergeAttachments(issue, replica)</string>
+      <string xsi:nil="true"/>
+    </row>
+  </data>

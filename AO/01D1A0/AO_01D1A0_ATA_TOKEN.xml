@@ -1,0 +1,17 @@
+  <table name="AO_01D1A0_ATA_TOKEN">
+    <column name="ALLOWED_IP_RANGES" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="CREATED" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="CREATED_BY_USER_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="DESCRIPTION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="HEADER_VALUE_ACCESS_RULES" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="LAST_ACCESSED" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="RATE_LIMIT_BUCKET_LIFETIME" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="RATE_LIMIT_BUCKET_SIZE" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="TOKEN" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="TOKEN_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="8"/>
+    <column name="TOKEN_SCOPE" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="TOKEN_VERSION" primaryKey="false" autoIncrement="false" sqlType="12" precision="50"/>
+    <column name="USER_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="VALID_UNTIL" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+  </table>

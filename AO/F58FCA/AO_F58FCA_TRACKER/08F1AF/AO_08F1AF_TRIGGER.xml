@@ -1,0 +1,8 @@
+  <data tableName="AO_08F1AF_TRIGGER">
+    <column name="ID"/>
+    <column name="JQL_FILTER"/>
+    <column name="NOTES"/>
+    <column name="RELATION_ID"/>
+    <column name="STATUS"/>
+    <column name="ENTITY_TYPE"/>
+  </data>

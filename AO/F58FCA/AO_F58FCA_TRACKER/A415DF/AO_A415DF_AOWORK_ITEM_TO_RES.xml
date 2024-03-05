@@ -1,0 +1,6 @@
+  <data tableName="AO_A415DF_AOWORK_ITEM_TO_RES">
+    <column name="AORESOURCE_ID"/>
+    <column name="AOWORK_ITEM_ID"/>
+    <column name="ID_OTHER"/>
+    <column name="REPLANNING"/>
+  </data>

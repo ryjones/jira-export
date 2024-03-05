@@ -1,0 +1,64 @@
+  <data tableName="AO_88263F_READ_NOTIFICATIONS">
+    <column name="ID"/>
+    <column name="IS_SNOOZED"/>
+    <column name="NOTIFICATION_ID"/>
+    <column name="SNOOZE_COUNT"/>
+    <column name="SNOOZE_DATE"/>
+    <column name="USER_KEY"/>
+    <row>
+      <integer>1</integer>
+      <boolean>false</boolean>
+      <integer>1</integer>
+      <integer>2</integer>
+      <timestamp>2018-07-03T19:27:40.000Z</timestamp>
+      <string>jwagantall</string>
+    </row>
+    <row>
+      <integer>3</integer>
+      <boolean>false</boolean>
+      <integer>1</integer>
+      <integer>2</integer>
+      <timestamp>2018-07-03T19:59:45.000Z</timestamp>
+      <string>ryjones</string>
+    </row>
+    <row>
+      <integer>5</integer>
+      <boolean>false</boolean>
+      <integer>1</integer>
+      <integer>2</integer>
+      <timestamp>2018-07-10T13:15:25.000Z</timestamp>
+      <string>suzetreacy</string>
+    </row>
+    <row>
+      <integer>7</integer>
+      <boolean>true</boolean>
+      <integer>3</integer>
+      <integer>1</integer>
+      <timestamp>2018-07-16T14:15:20.000Z</timestamp>
+      <string>suzetreacy</string>
+    </row>
+    <row>
+      <integer>9</integer>
+      <boolean>true</boolean>
+      <integer>1</integer>
+      <integer>1</integer>
+      <timestamp>2018-07-17T19:32:35.000Z</timestamp>
+      <string>hl-admin</string>
+    </row>
+    <row>
+      <integer>11</integer>
+      <boolean>true</boolean>
+      <integer>1</integer>
+      <integer>2</integer>
+      <timestamp>2018-07-25T19:03:39.000Z</timestamp>
+      <string>tijohnson</string>
+    </row>
+    <row>
+      <integer>13</integer>
+      <boolean>false</boolean>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <timestamp xsi:nil="true"/>
+      <string>agrimberg</string>
+    </row>
+  </data>

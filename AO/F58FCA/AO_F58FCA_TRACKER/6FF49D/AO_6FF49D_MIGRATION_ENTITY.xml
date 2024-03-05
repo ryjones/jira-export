@@ -1,0 +1,14 @@
+  <data tableName="AO_6FF49D_MIGRATION_ENTITY">
+    <column name="CREATED_TIMESTAMP"/>
+    <column name="IN_PROGRESS_STATUS_JSON"/>
+    <column name="MIGRATION_ID"/>
+    <column name="OUTCOME_JSON"/>
+    <column name="PLAN_ID"/>
+    <column name="STARTED_BY"/>
+    <column name="START_MIGRATION_CONTEXT_JSON"/>
+    <column name="UPDATED_TIMESTAMP"/>
+    <column name="APP_OUTCOME_JSON"/>
+    <column name="PROTOCOL_JSON"/>
+    <column name="USER_MIGRATION_START_TIME"/>
+    <column name="USER_MIGRATION_END_TIME"/>
+  </data>

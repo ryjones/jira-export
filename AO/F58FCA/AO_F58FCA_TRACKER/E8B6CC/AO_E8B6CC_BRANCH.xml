@@ -1,0 +1,5 @@
+  <data tableName="AO_E8B6CC_BRANCH">
+    <column name="ID"/>
+    <column name="NAME"/>
+    <column name="REPOSITORY_ID"/>
+  </data>

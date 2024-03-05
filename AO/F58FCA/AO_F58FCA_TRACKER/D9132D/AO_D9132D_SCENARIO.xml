@@ -1,0 +1,8 @@
+  <data tableName="AO_D9132D_SCENARIO">
+    <column name="COLOR"/>
+    <column name="DESCRIPTION"/>
+    <column name="ID"/>
+    <column name="MASTER"/>
+    <column name="PLAN_ID"/>
+    <column name="TITLE"/>
+  </data>

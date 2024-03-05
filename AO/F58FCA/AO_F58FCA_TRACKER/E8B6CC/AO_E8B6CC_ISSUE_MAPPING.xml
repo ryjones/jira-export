@@ -1,0 +1,7 @@
+  <data tableName="AO_E8B6CC_ISSUE_MAPPING">
+    <column name="ID"/>
+    <column name="ISSUE_ID"/>
+    <column name="NODE"/>
+    <column name="PROJECT_KEY"/>
+    <column name="REPOSITORY_URI"/>
+  </data>

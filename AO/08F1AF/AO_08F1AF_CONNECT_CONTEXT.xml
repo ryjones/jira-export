@@ -1,0 +1,9 @@
+  <table name="AO_08F1AF_CONNECT_CONTEXT">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="SYNCHRONIZE_ATTACHMENTS" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SYNCHRONIZE_COMMENTS" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SYNCHRONIZE_WORKLOGS" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="TRIGGER_SYNC_EVENT" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="TRIGGER_UNEXALATE" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="TRIGGER_UPDATE" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+  </table>

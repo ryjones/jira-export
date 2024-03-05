@@ -1,0 +1,13 @@
+  <table name="AO_D9132D_SHARED_REPORT">
+    <column name="FILTER_CONFIGURATION" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="FILTER_CONFIG_HASH" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="HASH" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="HIERARCHY_LEVEL" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="PLAN_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="REPORT_CONFIGURATION" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="REPORT_CONFIG_HASH" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="REPORT_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SCENARIO" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <foreignKey fromTable="AO_D9132D_SHARED_REPORT" fromColumn="PLAN_ID" toTable="AO_D9132D_PLAN" toColumn="ID"/>
+  </table>

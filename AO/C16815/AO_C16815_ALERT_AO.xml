@@ -1,0 +1,13 @@
+  <table name="AO_C16815_ALERT_AO">
+    <column name="CREATED_DATE" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="DETAILS_JSON" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="ISSUE_COMPONENT_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ISSUE_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ISSUE_SEVERITY" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="NODE_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TRIGGER_MODULE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TRIGGER_PLUGIN_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TRIGGER_PLUGIN_KEY_VERSION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TRIGGER_PLUGIN_VERSION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

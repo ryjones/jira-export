@@ -1,0 +1,8 @@
+  <data tableName="AO_82B313_RESOURCE">
+    <column name="ID"/>
+    <column name="JOIN_DATE"/>
+    <column name="LEAVE_DATE"/>
+    <column name="PERSON_ID"/>
+    <column name="TEAM_ID"/>
+    <column name="WEEKLY_HOURS"/>
+  </data>

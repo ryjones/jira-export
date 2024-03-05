@@ -1,0 +1,2360 @@
+  <data tableName="AO_60DB71_QUICKFILTER">
+    <column name="DESCRIPTION"/>
+    <column name="ID"/>
+    <column name="LONG_QUERY"/>
+    <column name="NAME"/>
+    <column name="POS"/>
+    <column name="QUERY"/>
+    <column name="RAPID_VIEW_ID"/>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>1</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>3</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>5</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>3</integer>
+      <string xsi:nil="true"/>
+      <integer>3</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>7</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>3</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>9</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>5</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>11</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>5</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>13</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>7</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>15</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>7</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>25</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>13</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>27</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>13</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>81</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>41</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>83</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>41</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>117</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>59</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>119</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>59</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>121</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>61</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>123</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>61</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>125</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>63</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>127</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>63</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>129</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>65</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>131</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>65</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>133</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>67</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>135</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>67</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>141</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>71</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>143</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>71</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>145</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>73</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>147</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>73</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>161</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>81</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>163</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>81</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>169</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>85</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>171</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>85</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>173</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>87</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>175</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>87</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>193</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>97</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>195</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>97</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>197</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>99</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>199</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>99</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>201</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>101</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>203</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>101</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>205</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>103</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>207</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>103</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>221</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>111</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>223</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>111</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>225</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>113</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>227</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>113</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>237</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>119</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>239</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>119</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>253</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>127</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>255</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>127</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>269</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>133</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>271</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>3</integer>
+      <string xsi:nil="true"/>
+      <integer>133</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>273</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>135</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>275</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>135</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>277</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>137</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>279</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>137</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>289</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>143</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>291</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>143</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>293</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>145</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>295</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>145</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>329</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>147</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>331</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>147</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>333</integer>
+      <string>assignee is EMPTY </string>
+      <string>Unassigned</string>
+      <integer>2</integer>
+      <string xsi:nil="true"/>
+      <integer>3</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>335</integer>
+      <string>filter = "Help Wanted" </string>
+      <string>Help Wanted</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>3</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>337</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>149</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>339</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>4</integer>
+      <string xsi:nil="true"/>
+      <integer>149</integer>
+    </row>
+    <row>
+      <string>Tickets with 1 or more votes</string>
+      <integer>349</integer>
+      <string>votes &gt; 0</string>
+      <string>Has Votes</string>
+      <integer>2</integer>
+      <string xsi:nil="true"/>
+      <integer>133</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>353</integer>
+      <string>type=Bug </string>
+      <string>Bugs Only</string>
+      <integer>6</integer>
+      <string xsi:nil="true"/>
+      <integer>133</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>361</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>151</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>363</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>151</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>365</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>153</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>367</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>153</integer>
+    </row>
+    <row>
+      <string>Bugs only view</string>
+      <integer>369</integer>
+      <string>Type=Bug </string>
+      <string>Bugs Only</string>
+      <integer>5</integer>
+      <string xsi:nil="true"/>
+      <integer>149</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>377</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>155</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>379</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>155</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>381</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>157</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>383</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>157</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>387</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>159</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>389</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>159</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>391</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>2</integer>
+      <string xsi:nil="true"/>
+      <integer>161</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>393</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>3</integer>
+      <string xsi:nil="true"/>
+      <integer>161</integer>
+    </row>
+    <row>
+      <string>Ledger Component
+</string>
+      <integer>395</integer>
+      <string>component =fabric-ledger </string>
+      <string>Ledger Component</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>161</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>397</integer>
+      <string>component = fabric-gossip</string>
+      <string>Gossip Component</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>161</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>399</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>163</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>403</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>2</integer>
+      <string xsi:nil="true"/>
+      <integer>165</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>413</integer>
+      <string>component = fabric-gossip</string>
+      <string>Gossip Component</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>167</integer>
+    </row>
+    <row>
+      <string>Ledger Component
+</string>
+      <integer>415</integer>
+      <string>component =fabric-ledger </string>
+      <string>Ledger Component</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>167</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>417</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>167</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>419</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>167</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>423</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>169</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>425</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>169</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>435</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>173</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>437</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>173</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>439</integer>
+      <string>"Epic Link" = FAB-8724 </string>
+      <string>Lifecycle</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>165</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>441</integer>
+      <string>"Epic Link" = FAB-8727 </string>
+      <string>ACL</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>165</integer>
+    </row>
+    <row>
+      <string>Show all help wanted tickets</string>
+      <integer>445</integer>
+      <string>labels=help-wanted OR labels=HelpWanted </string>
+      <string>Help Wanted</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>133</integer>
+    </row>
+    <row>
+      <string>Show all help wanted tickets</string>
+      <integer>447</integer>
+      <string>labels=help-wanted OR labels=HelpWanted </string>
+      <string>Help Wanted</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>149</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>449</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>175</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>451</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>175</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>453</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>177</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>455</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>177</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>459</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>179</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>461</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>179</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>467</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>183</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>469</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>183</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>477</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>187</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>479</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>187</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>481</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>189</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>483</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>189</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>485</integer>
+      <string>assignee = achenette </string>
+      <string>Anne</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>191</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>487</integer>
+      <string>assignee = dplumb </string>
+      <string>Darian</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>191</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>489</integer>
+      <string>assignee = rberg2 </string>
+      <string>Richard</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>191</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>491</integer>
+      <string>assignee = boydjohnson </string>
+      <string>Boyd</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>191</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>493</integer>
+      <string>assignee = pschwarz</string>
+      <string>Peter</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>191</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>495</integer>
+      <string>assignee = adamludvik</string>
+      <string>Adam</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>191</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>497</integer>
+      <string>assignee = drozd</string>
+      <string>Nick</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>191</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>499</integer>
+      <string>assignee = amolk </string>
+      <string>Amol</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>191</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>501</integer>
+      <string>filter = "Help Wanted" </string>
+      <string>Help Wanted</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>191</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>503</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>191</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>505</integer>
+      <string>assignee is EMPTY </string>
+      <string>Unassigned</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>191</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>507</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>191</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>509</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>193</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>511</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>193</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>513</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>195</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>515</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>195</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>517</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>197</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>519</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>197</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>525</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>199</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>527</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>199</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>549</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>205</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>551</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>205</integer>
+    </row>
+    <row>
+      <string>Doc tickets</string>
+      <integer>553</integer>
+      <string>component =Documentation </string>
+      <string>Documentation</string>
+      <integer>5</integer>
+      <string xsi:nil="true"/>
+      <integer>133</integer>
+    </row>
+    <row>
+      <string>Test automation tickets. these include pre- and post-build automation issues.</string>
+      <integer>555</integer>
+      <string>component =test-automation </string>
+      <string>Test-Automation</string>
+      <integer>4</integer>
+      <string xsi:nil="true"/>
+      <integer>133</integer>
+    </row>
+    <row>
+      <string>LibVCX</string>
+      <integer>557</integer>
+      <string>component =libvcx </string>
+      <string>LibVCX</string>
+      <integer>2</integer>
+      <string xsi:nil="true"/>
+      <integer>149</integer>
+    </row>
+    <row>
+      <string>Documentation Tickets</string>
+      <integer>559</integer>
+      <string>component =documentation </string>
+      <string>Documentation</string>
+      <integer>3</integer>
+      <string xsi:nil="true"/>
+      <integer>149</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>561</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>207</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>563</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>207</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>567</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>209</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>569</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>209</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>571</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>211</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>573</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>211</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>575</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>213</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>576</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>213</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>577</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>214</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>578</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>2</integer>
+      <string xsi:nil="true"/>
+      <integer>214</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>579</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>215</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>580</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>215</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>581</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>216</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>582</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>216</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>583</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>217</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>584</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>217</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>585</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>218</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>586</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>218</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>587</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>219</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>588</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>219</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>589</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>220</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>590</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>220</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>591</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>221</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>592</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>221</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>595</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>223</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>596</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>223</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>597</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>224</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>598</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>224</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>599</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>225</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>600</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>225</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>601</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>226</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>602</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>226</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>603</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>227</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>604</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>227</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>609</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>230</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>610</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>230</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>611</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>231</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>612</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>231</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>613</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>3</integer>
+      <string xsi:nil="true"/>
+      <integer>232</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>614</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>4</integer>
+      <string xsi:nil="true"/>
+      <integer>232</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>619</integer>
+      <string>project = Grid </string>
+      <string>Grid</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>232</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>620</integer>
+      <string>project = Sawtooth </string>
+      <string>Sawtooth</string>
+      <integer>2</integer>
+      <string xsi:nil="true"/>
+      <integer>232</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>621</integer>
+      <string>project = Transact </string>
+      <string>Transact</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>232</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>647</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>234</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>648</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>234</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>649</integer>
+      <string>labels = help-wanted </string>
+      <string>Help Wanted</string>
+      <integer>5</integer>
+      <string xsi:nil="true"/>
+      <integer>232</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>650</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>9</integer>
+      <string xsi:nil="true"/>
+      <integer>235</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>651</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>10</integer>
+      <string xsi:nil="true"/>
+      <integer>235</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>652</integer>
+      <string>"Epic Link" in ( FAB-11237 ,FAB-10889)</string>
+      <string>Lifecycle</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>235</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>653</integer>
+      <string>"Epic Link" = FAB-12221</string>
+      <string>Validation</string>
+      <integer>2</integer>
+      <string xsi:nil="true"/>
+      <integer>235</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>654</integer>
+      <string>component = fabric-ledger </string>
+      <string>Ledger</string>
+      <integer>4</integer>
+      <string xsi:nil="true"/>
+      <integer>235</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>655</integer>
+      <string>type = Documentation </string>
+      <string>Doc</string>
+      <integer>7</integer>
+      <string xsi:nil="true"/>
+      <integer>235</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>656</integer>
+      <string>type = "Test Task" </string>
+      <string>Test</string>
+      <integer>5</integer>
+      <string xsi:nil="true"/>
+      <integer>235</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>657</integer>
+      <string>type =Bug </string>
+      <string>Bug</string>
+      <integer>8</integer>
+      <string xsi:nil="true"/>
+      <integer>235</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>673</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>237</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>674</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>237</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>675</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>238</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>676</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>238</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>677</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>239</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>678</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>239</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>679</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>240</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>680</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>240</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>681</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>241</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>682</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>241</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>683</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>242</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>684</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>242</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>685</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>243</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>686</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>243</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>687</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>244</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>688</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>244</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>689</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>245</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>690</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>245</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>691</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>246</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>692</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>246</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>705</integer>
+      <string>assignee = currentUser()</string>
+      <string>My Issues</string>
+      <integer>3</integer>
+      <string xsi:nil="true"/>
+      <integer>253</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>706</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>4</integer>
+      <string xsi:nil="true"/>
+      <integer>253</integer>
+    </row>
+    <row>
+      <string>New issues we've not tagged</string>
+      <integer>707</integer>
+      <string>labels is EMPTY OR (labels != cc-triaged AND labels != sdk-triaged)</string>
+      <string>New</string>
+      <integer>2</integer>
+      <string xsi:nil="true"/>
+      <integer>253</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>708</integer>
+      <string>component = fabric-peer </string>
+      <string>Peer</string>
+      <integer>3</integer>
+      <string xsi:nil="true"/>
+      <integer>235</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>709</integer>
+      <string>component = fabric-release </string>
+      <string>Release</string>
+      <integer>6</integer>
+      <string xsi:nil="true"/>
+      <integer>235</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>710</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>254</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>711</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>254</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>716</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>257</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>717</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>257</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>718</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>258</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>719</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>258</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>720</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>259</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>721</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>259</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>722</integer>
+      <string>"Epic Link" = FAB-106 </string>
+      <string>Checkpoint</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>235</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>729</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>263</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>730</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>263</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>731</integer>
+      <string>order by rank ASC</string>
+      <string>By Rank</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>253</integer>
+    </row>
+    <row>
+      <string>Filter for the backlog of the Iroha version 2</string>
+      <integer>733</integer>
+      <string>project = IR AND labels = iroha-2</string>
+      <string>Iroha 2 tasks</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>214</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>734</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>264</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>735</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>264</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>736</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>265</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>737</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>265</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>738</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>266</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>739</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>266</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>749</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>3</integer>
+      <string xsi:nil="true"/>
+      <integer>270</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>750</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>4</integer>
+      <string xsi:nil="true"/>
+      <integer>270</integer>
+    </row>
+    <row>
+      <string>Displays issues which are not triaged</string>
+      <integer>751</integer>
+      <string>labels is EMPTY OR (labels != cc-triaged AND labels != sdk-triaged)</string>
+      <string>New</string>
+      <integer>2</integer>
+      <string xsi:nil="true"/>
+      <integer>270</integer>
+    </row>
+    <row>
+      <string>Displays issues flagged for Tech Preview 1</string>
+      <integer>752</integer>
+      <string>fixVersion = TP1</string>
+      <string>TP1</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>270</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>753</integer>
+      <string>fixVersion = TP2</string>
+      <string>TP2</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>270</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>754</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>271</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>755</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>271</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>756</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>272</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>757</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>272</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>758</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>9</integer>
+      <string xsi:nil="true"/>
+      <integer>273</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>759</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>10</integer>
+      <string xsi:nil="true"/>
+      <integer>273</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>760</integer>
+      <string>component = fabric-peer </string>
+      <string>Peer</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>273</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>761</integer>
+      <string>component = fabric-ledger </string>
+      <string>Ledger</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>273</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>762</integer>
+      <string>component = fabric-orderer </string>
+      <string>Orderer</string>
+      <integer>3</integer>
+      <string xsi:nil="true"/>
+      <integer>273</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>763</integer>
+      <string>component = fabric-gossip </string>
+      <string>Gossip</string>
+      <integer>2</integer>
+      <string xsi:nil="true"/>
+      <integer>273</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>764</integer>
+      <string>labels in (ipm)</string>
+      <string>IPM</string>
+      <integer>4</integer>
+      <string xsi:nil="true"/>
+      <integer>273</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>765</integer>
+      <string>type = "Test Task" </string>
+      <string>Test</string>
+      <integer>8</integer>
+      <string xsi:nil="true"/>
+      <integer>273</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>766</integer>
+      <string>type = Documentation </string>
+      <string>Doc</string>
+      <integer>7</integer>
+      <string xsi:nil="true"/>
+      <integer>273</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>767</integer>
+      <string>type = Bug </string>
+      <string>Bug</string>
+      <integer>6</integer>
+      <string xsi:nil="true"/>
+      <integer>273</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>768</integer>
+      <string>labels in (operator)</string>
+      <string>Operator</string>
+      <integer>5</integer>
+      <string xsi:nil="true"/>
+      <integer>273</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>769</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>274</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>770</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <integer>274</integer>
+    </row>
+    <row>
+      <string>Bugs</string>
+      <integer>771</integer>
+      <string>type = Bug </string>
+      <string>Bug</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>253</integer>
+    </row>
+    <row>
+      <string>Bugs</string>
+      <integer>772</integer>
+      <string>type = Bug </string>
+      <string>Bug</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>275</integer>
+    </row>
+    <row>
+      <string/>
+      <integer>773</integer>
+      <string>order by rank ASC</string>
+      <string>By Rank</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>275</integer>
+    </row>
+    <row>
+      <string>New issues we've not tagged</string>
+      <integer>774</integer>
+      <string>labels is EMPTY OR (labels != cc-triaged AND labels != sdk-triaged)</string>
+      <string>New</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>275</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>775</integer>
+      <string>assignee = currentUser()</string>
+      <string>My Issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>275</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>776</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>275</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.only.my.issues.desc</string>
+      <integer>777</integer>
+      <string>assignee = currentUser()</string>
+      <string>gh.rapid.quickfilters.only.my.issues</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>276</integer>
+    </row>
+    <row>
+      <string>gh.rapid.quickfilters.recently.updated.desc</string>
+      <integer>778</integer>
+      <string>updatedDate &gt;= -1d</string>
+      <string>gh.rapid.quickfilters.recently.updated</string>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <integer>276</integer>
+    </row>
+  </data>

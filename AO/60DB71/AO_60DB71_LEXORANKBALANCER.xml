@@ -1,0 +1,6 @@
+  <table name="AO_60DB71_LEXORANKBALANCER">
+    <column name="DISABLE_RANK_OPERATIONS" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="FIELD_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="REBALANCE_TIME" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+  </table>

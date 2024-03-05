@@ -1,0 +1,7 @@
+  <data tableName="AO_38321B_CUSTOM_CONTENT_LINK">
+    <column name="CONTENT_KEY"/>
+    <column name="ID"/>
+    <column name="LINK_LABEL"/>
+    <column name="LINK_URL"/>
+    <column name="SEQUENCE"/>
+  </data>

@@ -1,0 +1,10 @@
+  <data tableName="AO_A415DF_AOPERSON">
+    <column name="AOEXTERNAL_ID"/>
+    <column name="AOPLAN_ID"/>
+    <column name="DESCRIPTION"/>
+    <column name="DETAILS"/>
+    <column name="EXTERNAL"/>
+    <column name="ID_OTHER"/>
+    <column name="TITLE"/>
+    <column name="VERSION"/>
+  </data>

@@ -1,0 +1,15 @@
+  <data tableName="AO_5FB9D7_AOHIP_CHAT_LINK">
+    <column name="ADDON_TOKEN_EXPIRY"/>
+    <column name="API_URL"/>
+    <column name="CONNECT_DESCRIPTOR"/>
+    <column name="GROUP_ID"/>
+    <column name="GROUP_NAME"/>
+    <column name="ID"/>
+    <column name="OAUTH_ID"/>
+    <column name="SECRET_KEY"/>
+    <column name="SYSTEM_PASSWORD"/>
+    <column name="SYSTEM_TOKEN_EXPIRY"/>
+    <column name="SYSTEM_USER"/>
+    <column name="SYSTEM_USER_TOKEN"/>
+    <column name="TOKEN"/>
+  </data>

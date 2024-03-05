@@ -1,0 +1,29 @@
+  <table name="AO_08F1AF_RELATION">
+    <column name="AUTHENTICATION_REQUIRED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="AUTHENTICATION_TOKEN" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CHANGE_PROCESSOR" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="CREATE_LINKS" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="CREATE_PROCESSOR" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="CREATE_SYNC_PANEL_LINKS" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="DATA_FILTER" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="DESCRIPTION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ENCRYPTED_REMOTE_PASSWORD" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="FIELD_VALUES" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="INCOMING_PROCESSOR" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="INSTANCE_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="INVITATION_SECRET" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="INVITATION_STATUS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="LOCAL" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="LOCAL_INSTANCE_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="LOCAL_URL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="POST_EXALATE_PROCESSOR" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="RECEIVE_PROTOCOL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="REMOTE_PASSWORD" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="REMOTE_USERNAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SEND_PROTOCOL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="STATUS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="VERSION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <foreignKey fromTable="AO_08F1AF_RELATION" fromColumn="INSTANCE_ID" toTable="AO_08F1AF_INSTANCE" toColumn="ID"/>
+  </table>

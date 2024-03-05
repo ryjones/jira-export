@@ -1,0 +1,5 @@
+  <data tableName="AO_D9132D_X_PROJECT_VERSION">
+    <column name="ID"/>
+    <column name="PLAN_ID"/>
+    <column name="TITLE"/>
+  </data>

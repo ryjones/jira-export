@@ -1,0 +1,8 @@
+  <data tableName="AO_AC3877_SETTINGS_VERSION">
+    <column name="TYPE"/>
+    <column name="VERSION"/>
+    <row>
+      <string>DEFAULT</string>
+      <integer>1</integer>
+    </row>
+  </data>

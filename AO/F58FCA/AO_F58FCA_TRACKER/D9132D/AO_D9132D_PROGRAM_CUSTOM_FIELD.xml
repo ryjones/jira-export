@@ -1,0 +1,6 @@
+  <data tableName="AO_D9132D_PROGRAM_CUSTOM_FIELD">
+    <column name="CUSTOM_FIELD_ID"/>
+    <column name="C_KEY"/>
+    <column name="ID"/>
+    <column name="PROGRAM_ID"/>
+  </data>

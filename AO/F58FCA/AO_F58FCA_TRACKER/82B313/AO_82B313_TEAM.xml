@@ -1,0 +1,6 @@
+  <data tableName="AO_82B313_TEAM">
+    <column name="AVATAR_URL"/>
+    <column name="ID"/>
+    <column name="SHAREABLE"/>
+    <column name="TITLE"/>
+  </data>

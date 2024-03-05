@@ -1,0 +1,38 @@
+  <data tableName="AO_08F1AF_NODE_INFO">
+    <column name="BASE_URL"/>
+    <column name="EXALATE_PLUGIN_VERSION"/>
+    <column name="ID"/>
+    <column name="MAX_HUB_OBJECTS_VERSION"/>
+    <column name="MAX_REST_VERSION"/>
+    <column name="MIN_HUB_OBJECTS_VERSION"/>
+    <column name="MIN_REST_VERSION"/>
+    <column name="NAME"/>
+    <column name="NODE_APP_VERSION"/>
+    <column name="NODE_TYPE"/>
+    <column name="POLL_ONLY"/>
+    <column name="ISSUE_TRACKER_URL"/>
+    <column name="EXA_COMP_VERSION"/>
+    <column name="INSTANCE_UID"/>
+    <column name="EDITOR"/>
+    <column name="ICON_URL"/>
+    <column name="BASIC_CONNECTION"/>
+    <row>
+      <string>https://jcloudnode-pung-mayo-whar-ream.exalate.cloud</string>
+      <string>5.0.13</string>
+      <integer>1</integer>
+      <string>1.14.0</string>
+      <string>3.2.0</string>
+      <string>1.2.0</string>
+      <string>1.0.0</string>
+      <string>self</string>
+      <string>7.0.0</string>
+      <string>JIRA_CLOUD</string>
+      <boolean>false</boolean>
+      <string>https://pegasys1.atlassian.net</string>
+      <string>5.0.5</string>
+      <string>df543053-13bc-347f-8c5a-516679b113c9</string>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+    </row>
+  </data>

@@ -1,0 +1,11 @@
+  <table name="AO_60DB71_ISSUERANKINGLOG">
+    <column name="CUSTOM_FIELD_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="ISSUE_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="LOG_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="NEW_NEXT_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="NEW_PREVIOUS_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="OLD_NEXT_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="OLD_PREVIOUS_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SANITY_CHECKED" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>
