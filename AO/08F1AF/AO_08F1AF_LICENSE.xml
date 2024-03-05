@@ -1,0 +1,4 @@
+  <table name="AO_08F1AF_LICENSE">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="PAYLOAD" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+  </table>

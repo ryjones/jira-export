@@ -1,0 +1,8 @@
+  <data tableName="AO_6FF49D_MIGRATED_FILE">
+    <column name="FILE_MEDIA_ID"/>
+    <column name="FILE_SERVER_ID"/>
+    <column name="ID"/>
+    <column name="MEDIA_CLIENT_ID"/>
+    <column name="MIGRATED"/>
+    <column name="UPLOAD_ID"/>
+  </data>

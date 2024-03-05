@@ -1,0 +1,28 @@
+  <data tableName="AO_21D670_WHITELIST_RULES">
+    <column name="ALLOWINBOUND"/>
+    <column name="EXPRESSION"/>
+    <column name="ID"/>
+    <column name="TYPE"/>
+    <column name="AUTHENTICATIONREQUIRED"/>
+    <row>
+      <boolean>false</boolean>
+      <string>http://www.atlassian.com/*</string>
+      <integer>1</integer>
+      <string>WILDCARD_EXPRESSION</string>
+      <boolean>false</boolean>
+    </row>
+    <row>
+      <boolean>false</boolean>
+      <string>http://www.atlassian.com/*</string>
+      <integer>3</integer>
+      <string>WILDCARD_EXPRESSION</string>
+      <boolean>false</boolean>
+    </row>
+    <row>
+      <boolean>false</boolean>
+      <string>1d7a4651-c4b8-3ff5-b0d3-f752dd39f319</string>
+      <integer>5</integer>
+      <string>APPLICATION_LINK</string>
+      <boolean>true</boolean>
+    </row>
+  </data>

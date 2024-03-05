@@ -1,0 +1,5 @@
+  <table name="AO_08F1AF_TRIGGER_CONFIG_DTO">
+    <column name="EXALATE_ENABLED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="UNEXALATE_ENABLED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+  </table>

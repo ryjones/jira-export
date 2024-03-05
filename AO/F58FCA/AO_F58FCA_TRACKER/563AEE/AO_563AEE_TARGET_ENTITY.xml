@@ -1,0 +1,10 @@
+  <data tableName="AO_563AEE_TARGET_ENTITY">
+    <column name="CONTENT"/>
+    <column name="DISPLAY_NAME"/>
+    <column name="ID"/>
+    <column name="IMAGE_ID"/>
+    <column name="OBJECT_ID"/>
+    <column name="OBJECT_TYPE"/>
+    <column name="SUMMARY"/>
+    <column name="URL"/>
+  </data>

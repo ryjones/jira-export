@@ -1,0 +1,18 @@
+  <table name="AO_D9132D_ASSIGNMENT">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="INTERVAL_END" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="INTERVAL_START" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ISSUE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PLAN" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="PROJECT" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="RESOURCE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SCENARIO" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SKILL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SOLUTION_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SPRINT_INDEX" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="STAGE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TEAM" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="VERSION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="WORKLOAD" primaryKey="false" autoIncrement="false" sqlType="8" precision="22" scale="31"/>
+    <foreignKey fromTable="AO_D9132D_ASSIGNMENT" fromColumn="SOLUTION_ID" toTable="AO_D9132D_SOLUTION" toColumn="ID"/>
+  </table>

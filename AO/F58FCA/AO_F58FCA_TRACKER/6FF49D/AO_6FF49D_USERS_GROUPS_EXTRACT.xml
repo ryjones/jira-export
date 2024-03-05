@@ -1,0 +1,12 @@
+  <data tableName="AO_6FF49D_USERS_GROUPS_EXTRACT">
+    <column name="EXECUTION_ID"/>
+    <column name="ID"/>
+    <column name="NAME"/>
+    <column name="PRESERVE_MEMBERSHIP"/>
+    <column name="REFERENCED_BY"/>
+    <column name="REFERENCED_BY_GROUPS"/>
+    <column name="TYPE"/>
+    <column name="USER_EMAIL"/>
+    <column name="USER_KEY"/>
+    <column name="VERSION"/>
+  </data>

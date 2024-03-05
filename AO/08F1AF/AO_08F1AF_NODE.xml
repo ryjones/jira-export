@@ -1,0 +1,15 @@
+  <table name="AO_08F1AF_NODE">
+    <column name="AUTHENTICATION_REQUIRED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="EMAIL_NOTIFICATION" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="EXALATE_ENABLED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="INSTANCE_UID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="JIRA_NOTIFICATION" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="NODE_INFO_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="POLLING_FREQUENCY" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="POLL_ONLY" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="PROXY_USER" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PUBLIC_URL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SHOW_DISABLED_CONNECTIONS" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="UNEXALATE_ENABLED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+  </table>

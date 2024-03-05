@@ -1,0 +1,6 @@
+  <table name="AO_E8B6CC_PR_ISSUE_KEY">
+    <column name="DOMAIN_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="ISSUE_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PULL_REQUEST_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+  </table>

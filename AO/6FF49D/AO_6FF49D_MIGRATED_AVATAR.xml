@@ -1,0 +1,9 @@
+  <table name="AO_6FF49D_MIGRATED_AVATAR">
+    <column name="FILE_MEDIA_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="36"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="MEDIA_CLIENT_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="36"/>
+    <column name="MIGRATED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SERVER_AVATAR_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SIZE" primaryKey="false" autoIncrement="false" sqlType="12" precision="36"/>
+    <column name="UPLOAD_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="36"/>
+  </table>

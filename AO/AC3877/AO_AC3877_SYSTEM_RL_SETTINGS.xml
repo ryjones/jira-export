@@ -1,0 +1,13 @@
+  <table name="AO_AC3877_SYSTEM_RL_SETTINGS">
+    <column name="CAPACITY" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="CLEAN_JOB_DURATION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="FILL_RATE" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="FLUSH_JOB_DURATION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="INTERVAL_FREQUENCY" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="INTERVAL_TIME_UNIT" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="MODE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="NAME" primaryKey="true" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="REAPER_JOB_DURATION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="RETENTION_PERIOD_DURATION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SETTINGS_RELOAD_JOB_DURATION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

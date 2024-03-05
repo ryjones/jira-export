@@ -1,0 +1,5 @@
+  <data tableName="AO_60DB71_SPRINTMARKER">
+    <column name="ID"/>
+    <column name="MARKER_CONTEXT"/>
+    <column name="NAME"/>
+  </data>

@@ -1,0 +1,5 @@
+  <data tableName="AO_ED669C_SEEN_ASSERTIONS">
+    <column name="ASSERTION_ID"/>
+    <column name="EXPIRY_TIMESTAMP"/>
+    <column name="ID"/>
+  </data>

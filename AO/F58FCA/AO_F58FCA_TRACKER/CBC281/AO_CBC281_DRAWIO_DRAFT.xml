@@ -1,0 +1,7 @@
+  <data tableName="AO_CBC281_DRAWIO_DRAFT">
+    <column name="CEO_ID"/>
+    <column name="DRAFT_ID"/>
+    <column name="ID"/>
+    <column name="USERNAME"/>
+    <column name="XML"/>
+  </data>

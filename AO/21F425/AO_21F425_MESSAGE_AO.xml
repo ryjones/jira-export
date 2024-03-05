@@ -1,0 +1,4 @@
+  <table name="AO_21F425_MESSAGE_AO">
+    <column name="CONTENT" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="ID" primaryKey="true" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

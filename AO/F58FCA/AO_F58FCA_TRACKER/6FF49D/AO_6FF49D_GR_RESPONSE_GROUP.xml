@@ -1,0 +1,7 @@
+  <data tableName="AO_6FF49D_GR_RESPONSE_GROUP">
+    <column name="END_TIMESTAMP"/>
+    <column name="ID"/>
+    <column name="JOB_ID"/>
+    <column name="NODE_ID"/>
+    <column name="START_TIMESTAMP"/>
+  </data>

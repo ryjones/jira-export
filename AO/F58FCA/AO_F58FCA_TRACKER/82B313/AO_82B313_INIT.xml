@@ -1,0 +1,12 @@
+  <data tableName="AO_82B313_INIT">
+    <column name="ID"/>
+    <column name="KEY"/>
+    <row>
+      <integer>2</integer>
+      <string>subtask-team-indexing</string>
+    </row>
+    <row>
+      <integer>1</integer>
+      <string>team-cf-init</string>
+    </row>
+  </data>

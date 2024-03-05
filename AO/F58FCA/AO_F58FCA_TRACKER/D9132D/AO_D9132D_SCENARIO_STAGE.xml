@@ -1,0 +1,15 @@
+  <data tableName="AO_D9132D_SCENARIO_STAGE">
+    <column name="COLOR"/>
+    <column name="COLOR_CHANGED"/>
+    <column name="C_KEY"/>
+    <column name="ID"/>
+    <column name="ITEM_KEY"/>
+    <column name="LAST_CHANGE_TIMESTAMP"/>
+    <column name="LAST_CHANGE_USER"/>
+    <column name="SCENARIO_ID"/>
+    <column name="SCENARIO_TYPE"/>
+    <column name="TITLE"/>
+    <column name="TITLE_CHANGED"/>
+    <column name="WEIGHT"/>
+    <column name="WEIGHT_CHANGED"/>
+  </data>

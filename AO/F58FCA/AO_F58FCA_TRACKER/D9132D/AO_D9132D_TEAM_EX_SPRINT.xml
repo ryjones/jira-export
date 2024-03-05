@@ -1,0 +1,6 @@
+  <data tableName="AO_D9132D_TEAM_EX_SPRINT">
+    <column name="ID"/>
+    <column name="PLANTEAM_ID"/>
+    <column name="PLAN_TEAM_ID"/>
+    <column name="SPRINT_ID"/>
+  </data>

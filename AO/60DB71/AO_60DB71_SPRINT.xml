@@ -1,0 +1,14 @@
+  <table name="AO_60DB71_SPRINT">
+    <column name="ACTIVATED_DATE" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="AUTO_START_STOP" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="CLOSED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="COMPLETE_DATE" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="END_DATE" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="GOAL" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="RAPID_VIEW_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SEQUENCE" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="STARTED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="START_DATE" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+  </table>

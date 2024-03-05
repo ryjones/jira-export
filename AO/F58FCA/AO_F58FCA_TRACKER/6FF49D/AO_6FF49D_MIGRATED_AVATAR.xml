@@ -1,0 +1,9 @@
+  <data tableName="AO_6FF49D_MIGRATED_AVATAR">
+    <column name="FILE_MEDIA_ID"/>
+    <column name="ID"/>
+    <column name="MEDIA_CLIENT_ID"/>
+    <column name="MIGRATED"/>
+    <column name="SERVER_AVATAR_ID"/>
+    <column name="SIZE"/>
+    <column name="UPLOAD_ID"/>
+  </data>

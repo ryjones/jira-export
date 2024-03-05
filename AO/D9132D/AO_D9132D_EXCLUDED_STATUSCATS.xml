@@ -1,0 +1,6 @@
+  <table name="AO_D9132D_EXCLUDED_STATUSCATS">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="PLAN_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="STATUS_CATEGORY" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <foreignKey fromTable="AO_D9132D_EXCLUDED_STATUSCATS" fromColumn="PLAN_ID" toTable="AO_D9132D_PLAN" toColumn="ID"/>
+  </table>

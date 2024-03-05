@@ -1,0 +1,18 @@
+  <data tableName="AO_6FF49D_INCORRECT_EMAIL">
+    <column name="CREATED_BY"/>
+    <column name="CREATED_TIMESTAMP"/>
+    <column name="EMAIL_CORRECTION_DATA"/>
+    <column name="EXECUTION_ID"/>
+    <column name="ID"/>
+    <column name="OLD_EMAIL"/>
+    <column name="TYPE"/>
+    <column name="UPDATED_BY"/>
+    <column name="UPDATED_TIMESTAMP"/>
+    <column name="USER_KEY"/>
+    <column name="USER_NAME"/>
+    <column name="LAST_AUTHENTICATED"/>
+    <column name="DIRECTORY_ID"/>
+    <column name="PREFLIGHT_CHECK_TYPE"/>
+    <column name="DIRECTORY_NAME"/>
+    <column name="NEW_EMAIL"/>
+  </data>

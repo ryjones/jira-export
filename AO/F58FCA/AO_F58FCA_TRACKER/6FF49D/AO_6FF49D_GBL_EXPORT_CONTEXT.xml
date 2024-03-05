@@ -1,0 +1,9 @@
+  <data tableName="AO_6FF49D_GBL_EXPORT_CONTEXT">
+    <column name="CREATED_TIMESTAMP"/>
+    <column name="ID"/>
+    <column name="KEY"/>
+    <column name="MIGRATION_ID"/>
+    <column name="TYPE"/>
+    <column name="UPDATED_TIMESTAMP"/>
+    <column name="VALUE"/>
+  </data>

@@ -1,0 +1,6 @@
+  <data tableName="AO_3B1893_LOOP_DETECTION">
+    <column name="COUNTER"/>
+    <column name="EXPIRES_AT"/>
+    <column name="ID"/>
+    <column name="SENDER_EMAIL"/>
+  </data>

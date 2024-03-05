@@ -1,0 +1,15 @@
+  <table name="AO_5FB9D7_AOHIP_CHAT_LINK">
+    <column name="ADDON_TOKEN_EXPIRY" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="API_URL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CONNECT_DESCRIPTOR" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="GROUP_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="GROUP_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="OAUTH_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SECRET_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SYSTEM_PASSWORD" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SYSTEM_TOKEN_EXPIRY" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="SYSTEM_USER" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SYSTEM_USER_TOKEN" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TOKEN" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

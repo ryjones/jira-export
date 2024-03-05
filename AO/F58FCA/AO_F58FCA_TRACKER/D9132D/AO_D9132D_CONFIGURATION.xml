@@ -1,0 +1,12 @@
+  <data tableName="AO_D9132D_CONFIGURATION">
+    <column name="HIERARCHY_ISSUE_LIMIT"/>
+    <column name="ID"/>
+    <column name="ISSUE_LIMIT"/>
+    <column name="PROJECT_LIMIT"/>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+    </row>
+  </data>

@@ -1,0 +1,6 @@
+  <data tableName="AO_5D733E_LABEL_ITSTATISTIC">
+    <column name="ID"/>
+    <column name="LABEL_IT_FIELD_ID"/>
+    <column name="PROJECT_ID"/>
+    <column name="STATISTIC_FIELD_ID"/>
+  </data>

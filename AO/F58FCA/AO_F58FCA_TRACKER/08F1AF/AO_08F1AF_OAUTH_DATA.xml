@@ -1,0 +1,10 @@
+  <data tableName="AO_08F1AF_OAUTH_DATA">
+    <column name="CODE"/>
+    <column name="EXPIRATION"/>
+    <column name="ID"/>
+    <column name="ISSUER"/>
+    <column name="SECRET"/>
+    <column name="TOKEN"/>
+    <column name="TOKEN_TYPE"/>
+    <column name="USER_KEY"/>
+  </data>

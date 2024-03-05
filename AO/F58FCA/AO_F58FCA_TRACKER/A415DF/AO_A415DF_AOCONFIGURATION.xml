@@ -1,0 +1,10 @@
+  <data tableName="AO_A415DF_AOCONFIGURATION">
+    <column name="ID_OTHER"/>
+    <column name="INITIALIZED"/>
+    <column name="INIT_STATE"/>
+    <row>
+      <integer>1</integer>
+      <boolean>true</boolean>
+      <integer>1</integer>
+    </row>
+  </data>

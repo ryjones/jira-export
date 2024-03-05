@@ -1,0 +1,10 @@
+  <table name="AO_D9132D_PERMISSIONS">
+    <column name="HOLDER_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="HOLDER_TYPE" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="PERMISSION" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="PLAN_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="PROGRAM_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <foreignKey fromTable="AO_D9132D_PERMISSIONS" fromColumn="PLAN_ID" toTable="AO_D9132D_PLAN" toColumn="ID"/>
+    <foreignKey fromTable="AO_D9132D_PERMISSIONS" fromColumn="PROGRAM_ID" toTable="AO_D9132D_PROGRAM" toColumn="ID"/>
+  </table>

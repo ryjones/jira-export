@@ -1,0 +1,16 @@
+  <data tableName="AO_A415DF_AORELEASE">
+    <column name="AODELTA_START_DATE"/>
+    <column name="AOFIXED_END_DATE"/>
+    <column name="AOFIXED_START_DATE"/>
+    <column name="AOPLAN_ID"/>
+    <column name="AOSTREAM_ID"/>
+    <column name="DESCRIPTION"/>
+    <column name="DETAILS"/>
+    <column name="ID_OTHER"/>
+    <column name="IS_LATER_RELEASE"/>
+    <column name="ORDER_RANGE_IDENTIFIER"/>
+    <column name="PRIMARY_VERSION"/>
+    <column name="SORT_ORDER"/>
+    <column name="TITLE"/>
+    <column name="VERSION"/>
+  </data>

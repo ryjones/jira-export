@@ -1,0 +1,9 @@
+  <data tableName="AO_6FF49D_CLOUD_SITE">
+    <column name="CLOUD_EDITION"/>
+    <column name="CLOUD_ID"/>
+    <column name="CLOUD_URL"/>
+    <column name="CONTAINER_TOKEN"/>
+    <column name="PRODUCTS_JSON"/>
+    <column name="UPDATED_TIMESTAMP"/>
+    <column name="CLOUD_TYPE"/>
+  </data>

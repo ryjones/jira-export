@@ -1,0 +1,8 @@
+  <table name="AO_587B34_GLANCE_CONFIG">
+    <column name="APPLICATION_USER_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="JQL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ROOM_ID" primaryKey="true" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="STATE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SYNC_NEEDED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+  </table>

@@ -1,0 +1,7 @@
+  <data tableName="AO_E8B6CC_PROJECT_MAPPING">
+    <column name="ID"/>
+    <column name="PASSWORD"/>
+    <column name="PROJECT_KEY"/>
+    <column name="REPOSITORY_URI"/>
+    <column name="USERNAME"/>
+  </data>

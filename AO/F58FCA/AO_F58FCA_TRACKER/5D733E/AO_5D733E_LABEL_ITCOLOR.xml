@@ -1,0 +1,9 @@
+  <data tableName="AO_5D733E_LABEL_ITCOLOR">
+    <column name="COLOR"/>
+    <column name="CUSTOM_FIELD_ID"/>
+    <column name="ID"/>
+    <column name="ISSUE_ID"/>
+    <column name="LABEL_IT_ITEM_ID"/>
+    <column name="PREVIOUS_COLOR"/>
+    <column name="PROJECT_ID"/>
+  </data>

@@ -1,0 +1,17 @@
+  <data tableName="AO_D9132D_ASSIGNMENT">
+    <column name="ID"/>
+    <column name="INTERVAL_END"/>
+    <column name="INTERVAL_START"/>
+    <column name="ISSUE"/>
+    <column name="PLAN"/>
+    <column name="PROJECT"/>
+    <column name="RESOURCE"/>
+    <column name="SCENARIO"/>
+    <column name="SKILL"/>
+    <column name="SOLUTION_ID"/>
+    <column name="SPRINT_INDEX"/>
+    <column name="STAGE"/>
+    <column name="TEAM"/>
+    <column name="VERSION"/>
+    <column name="WORKLOAD"/>
+  </data>

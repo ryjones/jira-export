@@ -1,0 +1,104 @@
+  <data tableName="AO_550953_SHORTCUT">
+    <column name="ICON"/>
+    <column name="ID"/>
+    <column name="NAME"/>
+    <column name="PROJECT_ID"/>
+    <column name="SHORTCUT_URL"/>
+    <column name="URL"/>
+    <row>
+      <string/>
+      <integer>1</integer>
+      <string>Wikipage</string>
+      <integer>10200</integer>
+      <string>https://wiki.hyperledger.org/projects/cello</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <string/>
+      <integer>3</integer>
+      <string>Patchset for Review</string>
+      <integer>10200</integer>
+      <string>https://gerrit.hyperledger.org/r/#/q/project:cello</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <string/>
+      <integer>5</integer>
+      <string>Task management with JIRA</string>
+      <integer>10300</integer>
+      <string>https://docs.atlassian.com/jira/jcore-docs-070/Task+management+with+JIRA</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <string/>
+      <integer>7</integer>
+      <string>Business projects basics</string>
+      <integer>10300</integer>
+      <string>https://docs.atlassian.com/jira/jcore-docs-070/Business+projects+basics</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <string/>
+      <integer>9</integer>
+      <string>Hyperledger Wiki</string>
+      <integer>10304</integer>
+      <string>https://wiki.hyperledger.org/projects/iroha</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <string/>
+      <integer>10</integer>
+      <string>Task management ideas</string>
+      <integer>10903</integer>
+      <string>https://docs.atlassian.com/jira/jcore-docs-0712/Task+management</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <string/>
+      <integer>11</integer>
+      <string>Working in a project</string>
+      <integer>10903</integer>
+      <string>https://docs.atlassian.com/jira/jcore-docs-0712/Working+in+a+project</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <string/>
+      <integer>12</integer>
+      <string>Task management ideas</string>
+      <integer>11004</integer>
+      <string>https://docs.atlassian.com/jira/jcore-docs-0713/Task+management</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <string/>
+      <integer>13</integer>
+      <string>Working in a project</string>
+      <integer>11004</integer>
+      <string>https://docs.atlassian.com/jira/jcore-docs-0713/Working+in+a+project</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <string/>
+      <integer>14</integer>
+      <string>Hyperledger Wiki</string>
+      <integer>10303</integer>
+      <string>https://wiki.hyperledger.org/display/Indy</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <string/>
+      <integer>15</integer>
+      <string>Project management ideas</string>
+      <integer>11300</integer>
+      <string>https://docs.atlassian.com/jira/jcore-docs-0713/Project+management</string>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <string/>
+      <integer>16</integer>
+      <string>Working in a project</string>
+      <integer>11300</integer>
+      <string>https://docs.atlassian.com/jira/jcore-docs-0713/Working+in+a+project</string>
+      <string xsi:nil="true"/>
+    </row>
+  </data>

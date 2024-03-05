@@ -1,0 +1,4 @@
+  <data tableName="AO_08F1AF_LICENSE">
+    <column name="ID"/>
+    <column name="PAYLOAD"/>
+  </data>

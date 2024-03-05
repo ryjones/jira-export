@@ -1,0 +1,14 @@
+  <data tableName="AO_08F1AF_LIFECYCLE_DTO">
+    <column name="ID"/>
+    <column name="MIGRATION_STATUS"/>
+    <column name="EULA_ACCEPTED"/>
+    <column name="REGISTRATION_DATE"/>
+    <column name="SECRET_KEY"/>
+    <row>
+      <integer>1</integer>
+      <string>DONE</string>
+      <boolean>true</boolean>
+      <timestamp>2019-12-19T17:16:11.000Z</timestamp>
+      <string>808EB924AAEE2A11208E21D38995D6C87A420ACC467E994E17B6E4E8C4C5014B83BA59458D964C720502AC93D5016CFA9634849E615FBC898AE8CA46A2ADCFBF</string>
+    </row>
+  </data>

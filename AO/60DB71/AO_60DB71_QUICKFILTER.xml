@@ -1,0 +1,10 @@
+  <table name="AO_60DB71_QUICKFILTER">
+    <column name="DESCRIPTION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="LONG_QUERY" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="POS" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="QUERY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="RAPID_VIEW_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <foreignKey fromTable="AO_60DB71_QUICKFILTER" fromColumn="RAPID_VIEW_ID" toTable="AO_60DB71_RAPIDVIEW" toColumn="ID"/>
+  </table>

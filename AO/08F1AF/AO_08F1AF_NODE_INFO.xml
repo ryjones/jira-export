@@ -1,0 +1,19 @@
+  <table name="AO_08F1AF_NODE_INFO">
+    <column name="BASE_URL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="BASIC_CONNECTION" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="EDITOR" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="EXALATE_PLUGIN_VERSION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="EXA_COMP_VERSION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ICON_URL" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="INSTANCE_UID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ISSUE_TRACKER_URL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="MAX_HUB_OBJECTS_VERSION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="MAX_REST_VERSION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="MIN_HUB_OBJECTS_VERSION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="MIN_REST_VERSION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="NODE_APP_VERSION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="NODE_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="POLL_ONLY" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+  </table>

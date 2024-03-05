@@ -1,0 +1,5 @@
+  <data tableName="AO_575BF5_PROVIDER_SEQ_NO">
+    <column name="ID"/>
+    <column name="PROVIDER_SOURCE_ID"/>
+    <column name="SEQUENCE_NO"/>
+  </data>

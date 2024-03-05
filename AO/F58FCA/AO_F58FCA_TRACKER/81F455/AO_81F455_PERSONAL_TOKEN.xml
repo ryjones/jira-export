@@ -1,0 +1,22 @@
+  <data tableName="AO_81F455_PERSONAL_TOKEN">
+    <column name="CREATED_AT"/>
+    <column name="EXPIRING_AT"/>
+    <column name="HASHED_TOKEN"/>
+    <column name="ID"/>
+    <column name="LAST_ACCESSED_AT"/>
+    <column name="NAME"/>
+    <column name="NOTIFICATION_STATE"/>
+    <column name="TOKEN_ID"/>
+    <column name="USER_KEY"/>
+    <row>
+      <timestamp>2023-05-25T21:08:58.000Z</timestamp>
+      <timestamp>9999-12-31T00:00:00.000Z</timestamp>
+      <string>{PKCS5S2}cTROs7SjsIZNd+RvgKL9qkijwFD9+ArYH73My0CHuMoZxxdRv0jZrc3nhvNLJcwp</string>
+      <integer>1</integer>
+      <timestamp xsi:nil="true"/>
+      <string>test</string>
+      <string>NOT_SENT</string>
+      <string>063581689139</string>
+      <string>JIRAUSER24160</string>
+    </row>
+  </data>

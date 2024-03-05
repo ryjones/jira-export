@@ -1,0 +1,29 @@
+  <table name="AO_D9132D_SCENARIO_TEAM">
+    <column name="ADD_TO_PLAN" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="AVATAR" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="AVATAR_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="CAPACITY_MEASUREMENT" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CAPACITY_MEASUREMENT_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="C_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="EXCLUDED_SPRINTS_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="ISSUE_SOURCE_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="ISSUE_SOURCE_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ITEM_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ITERATION_LENGTH" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ITERATION_LENGTH_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="LAST_CHANGE_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="LAST_CHANGE_USER" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SCENARIO_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SCENARIO_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SCHEDULING_MODE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SCHEDULING_MODE_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="TITLE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TITLE_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="VELOCITY" primaryKey="false" autoIncrement="false" sqlType="8" precision="22" scale="31"/>
+    <column name="VELOCITY_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="WEEKLY_HOURS" primaryKey="false" autoIncrement="false" sqlType="8" precision="22" scale="31"/>
+    <column name="WEEKLY_HOURS_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <foreignKey fromTable="AO_D9132D_SCENARIO_TEAM" fromColumn="ISSUE_SOURCE_ID" toTable="AO_D9132D_ISSUE_SOURCE" toColumn="ID"/>
+    <foreignKey fromTable="AO_D9132D_SCENARIO_TEAM" fromColumn="SCENARIO_ID" toTable="AO_D9132D_SCENARIO" toColumn="ID"/>
+  </table>

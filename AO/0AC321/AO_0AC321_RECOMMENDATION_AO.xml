@@ -1,0 +1,10 @@
+  <table name="AO_0AC321_RECOMMENDATION_AO">
+    <column name="CATEGORY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CUSTOM_FIELD_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PERFORMANCE_IMPACT" primaryKey="false" autoIncrement="false" sqlType="8" precision="22" scale="31"/>
+    <column name="PROJECT_IDS" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="RESOLVED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

@@ -1,0 +1,28 @@
+  <table name="AO_ED669C_IDP_CONFIG">
+    <column name="ADDITIONAL_JIT_SCOPES" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="ADDITIONAL_SCOPES" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="AUTHORIZATION_ENDPOINT" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="BUTTON_TEXT" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CLIENT_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CLIENT_SECRET" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ENABLED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="ENABLE_REMEMBER_ME" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="INCLUDE_CUSTOMER_LOGINS" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="ISSUER" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="LAST_UPDATED" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="MAPPING_DISPLAYNAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="MAPPING_EMAIL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="MAPPING_GROUPS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SAML_IDP_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SIGNING_CERT" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="SSO_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SSO_URL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TOKEN_ENDPOINT" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USERNAME_ATTRIBUTE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USERNAME_CLAIM" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USER_INFO_ENDPOINT" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USER_PROVISIONING_ENABLED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="USE_DISCOVERY" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+  </table>

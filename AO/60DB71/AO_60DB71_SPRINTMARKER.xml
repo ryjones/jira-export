@@ -1,0 +1,5 @@
+  <table name="AO_60DB71_SPRINTMARKER">
+    <column name="ID" primaryKey="true" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="MARKER_CONTEXT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

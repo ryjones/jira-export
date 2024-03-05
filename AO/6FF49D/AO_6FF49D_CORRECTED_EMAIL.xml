@@ -1,0 +1,13 @@
+  <table name="AO_6FF49D_CORRECTED_EMAIL">
+    <column name="CREATED_BY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CREATED_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="NEW_EMAIL" primaryKey="false" autoIncrement="false" sqlType="12" precision="450"/>
+    <column name="OLD_EMAIL" primaryKey="false" autoIncrement="false" sqlType="12" precision="450"/>
+    <column name="TOMBSTONE" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="50"/>
+    <column name="UPDATED_BY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="UPDATED_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="USER_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USER_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

@@ -1,0 +1,14 @@
+  <data tableName="AO_6FF49D_USERBASE_SCAN">
+    <column name="CREATED_BY"/>
+    <column name="CREATED_TIMESTAMP"/>
+    <column name="DUPLICATED_CUSTOMERS_COUNT"/>
+    <column name="DUPLICATED_USERS_COUNT"/>
+    <column name="FINISHED_AT"/>
+    <column name="ID"/>
+    <column name="INVALID_CUSTOMERS_COUNT"/>
+    <column name="INVALID_USERS_COUNT"/>
+    <column name="STARTED_AT"/>
+    <column name="STATUS"/>
+    <column name="UPDATED_BY"/>
+    <column name="UPDATED_TIMESTAMP"/>
+  </data>

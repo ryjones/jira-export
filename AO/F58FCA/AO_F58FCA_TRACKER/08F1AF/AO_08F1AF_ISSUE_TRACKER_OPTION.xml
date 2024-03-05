@@ -1,0 +1,9 @@
+  <data tableName="AO_08F1AF_ISSUE_TRACKER_OPTION">
+    <column name="CONTEXT"/>
+    <column name="FIELD"/>
+    <column name="ID"/>
+    <column name="INSTANCE_UID"/>
+    <column name="LABEL"/>
+    <column name="VALID_ON"/>
+    <column name="VALUE"/>
+  </data>

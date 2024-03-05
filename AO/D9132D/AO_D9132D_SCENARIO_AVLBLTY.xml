@@ -1,0 +1,9 @@
+  <table name="AO_D9132D_SCENARIO_AVLBLTY">
+    <column name="END" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="SCENARIO_RESOURCE_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="START" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="TITLE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="WEEKLY_HOURS" primaryKey="false" autoIncrement="false" sqlType="8" precision="22" scale="31"/>
+    <foreignKey fromTable="AO_D9132D_SCENARIO_AVLBLTY" fromColumn="SCENARIO_RESOURCE_ID" toTable="AO_D9132D_SCENARIO_RESOURCE" toColumn="ID"/>
+  </table>

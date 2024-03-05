@@ -1,0 +1,5 @@
+  <table name="AO_A415DF_AOCUSTOM_WORDING">
+    <column name="ID_OTHER" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="WORD_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="WORD_VALUE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

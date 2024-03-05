@@ -1,0 +1,9 @@
+  <data tableName="AO_97EDAB_USERINVITATION">
+    <column name="APPLICATION_KEYS"/>
+    <column name="EMAIL_ADDRESS"/>
+    <column name="EXPIRY"/>
+    <column name="ID"/>
+    <column name="REDEEMED"/>
+    <column name="SENDER_USERNAME"/>
+    <column name="TOKEN"/>
+  </data>

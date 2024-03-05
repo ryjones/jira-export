@@ -1,0 +1,6 @@
+  <data tableName="AO_575BF5_PROVIDER_ISSUE">
+    <column name="ID"/>
+    <column name="ISSUE_ID"/>
+    <column name="PROVIDER_SOURCE_ID"/>
+    <column name="STALE_AFTER"/>
+  </data>

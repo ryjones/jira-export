@@ -1,0 +1,5 @@
+  <table name="AO_08F1AF_USER_PROPERTIES">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="PROPERTIES" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="USER_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

@@ -1,0 +1,9 @@
+  <data tableName="AO_E8B6CC_MESSAGE_QUEUE_ITEM">
+    <column name="ID"/>
+    <column name="LAST_FAILED"/>
+    <column name="MESSAGE_ID"/>
+    <column name="QUEUE"/>
+    <column name="RETRIES_COUNT"/>
+    <column name="STATE"/>
+    <column name="STATE_INFO"/>
+  </data>

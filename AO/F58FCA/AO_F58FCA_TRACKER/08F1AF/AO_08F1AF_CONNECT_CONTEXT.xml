@@ -1,0 +1,81 @@
+  <data tableName="AO_08F1AF_CONNECT_CONTEXT">
+    <column name="ID"/>
+    <column name="SYNCHRONIZE_ATTACHMENTS"/>
+    <column name="SYNCHRONIZE_COMMENTS"/>
+    <column name="SYNCHRONIZE_WORKLOGS"/>
+    <column name="TRIGGER_SYNC_EVENT"/>
+    <column name="TRIGGER_UPDATE"/>
+    <column name="TRIGGER_UNEXALATE"/>
+    <row>
+      <integer>1</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <boolean xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+    </row>
+    <row>
+      <integer>2</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <boolean xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+    </row>
+    <row>
+      <integer>3</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <boolean xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+    </row>
+    <row>
+      <integer>4</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <boolean xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+    </row>
+    <row>
+      <integer>5</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <boolean xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+    </row>
+    <row>
+      <integer>6</integer>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <boolean xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+    </row>
+    <row>
+      <integer>7</integer>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+    </row>
+    <row>
+      <integer>8</integer>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+    </row>
+  </data>

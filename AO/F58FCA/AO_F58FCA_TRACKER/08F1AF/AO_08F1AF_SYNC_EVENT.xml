@@ -1,0 +1,483 @@
+  <data tableName="AO_08F1AF_SYNC_EVENT">
+    <column name="CONNECT_REMOTE_ISSUE_URN"/>
+    <column name="DELETED_ISSUE_URN"/>
+    <column name="EVENT_NUMBER"/>
+    <column name="EVENT_STATUS"/>
+    <column name="ID"/>
+    <column name="LOCAL_REPLICA_ID"/>
+    <column name="RELATION_ID"/>
+    <column name="REMOTE_REPLICA_ID"/>
+    <column name="REMOTE_TRACES_SET"/>
+    <column name="UNEXALATE_ISSUE_URN"/>
+    <column name="CONNECT_CONTEXT_ID"/>
+    <column name="PAYED"/>
+    <column name="REMOTE_TWIN_TRACE_ID"/>
+    <column name="CHANGING_ISSUE"/>
+    <column name="PROXY_USER"/>
+    <column name="ERROR_REASON"/>
+    <column name="ERROR_RESPONSE_MESSAGE"/>
+    <column name="SYNC_TYPE"/>
+    <column name="TWIN_TRACE_ID"/>
+    <column name="ORIGINATOR"/>
+    <column name="PRIORITY"/>
+    <row>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <string>READY</string>
+      <integer>1</integer>
+      <integer>52</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>EXALATE</string>
+      <integer>5</integer>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <string>Quantum Blockchain Ai</string>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <string>READY</string>
+      <integer>2</integer>
+      <integer>53</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>CONNECT</string>
+      <integer>6</integer>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <string>UI connecter</string>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <string>READY</string>
+      <integer>3</integer>
+      <integer>54</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>2</integer>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>CONNECT</string>
+      <integer>7</integer>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <string>UI connecter</string>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <string>READY</string>
+      <integer>4</integer>
+      <integer>55</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>3</integer>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>CONNECT</string>
+      <integer>8</integer>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <string>UI connecter</string>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <string>READY</string>
+      <integer>5</integer>
+      <integer>56</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>4</integer>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>CONNECT</string>
+      <integer>9</integer>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <string>READY</string>
+      <integer>6</integer>
+      <integer>57</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>EXALATE</string>
+      <integer>10</integer>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <string>Quantum Blockchain Ai</string>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <string>READY</string>
+      <integer>7</integer>
+      <integer>58</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>5</integer>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>CONNECT</string>
+      <integer>11</integer>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <string>FAB-18437</string>
+      <integer>2</integer>
+      <string>READY</string>
+      <integer>8</integer>
+      <integer>59</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>DELETE</string>
+      <integer>11</integer>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>2</integer>
+      <string>READY</string>
+      <integer>9</integer>
+      <integer>60</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>UPDATE</string>
+      <integer>7</integer>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>3</integer>
+      <string>READY</string>
+      <integer>10</integer>
+      <integer>61</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>UPDATE</string>
+      <integer>7</integer>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>4</integer>
+      <string>READY</string>
+      <integer>11</integer>
+      <integer>62</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>UPDATE</string>
+      <integer>7</integer>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>5</integer>
+      <string>READY</string>
+      <integer>12</integer>
+      <integer>63</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>UPDATE</string>
+      <integer>7</integer>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>6</integer>
+      <string>READY</string>
+      <integer>13</integer>
+      <integer>64</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>UPDATE</string>
+      <integer>7</integer>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <string>https://jira.hyperledger.org/secure/ExalateConnectIssueOperation!default.jspa?id=46837</string>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <string>READY</string>
+      <integer>14</integer>
+      <integer>65</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>6</integer>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>CONNECT</string>
+      <integer>12</integer>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>2</integer>
+      <string>READY</string>
+      <integer>15</integer>
+      <integer>66</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>UPDATE</string>
+      <integer>12</integer>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>3</integer>
+      <string>READY</string>
+      <integer>16</integer>
+      <integer>67</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>UPDATE</string>
+      <integer>12</integer>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>4</integer>
+      <string>READY</string>
+      <integer>17</integer>
+      <integer>68</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>UPDATE</string>
+      <integer>12</integer>
+      <string>yongrae</string>
+      <integer>10</integer>
+    </row>
+    <row>
+      <string>https://github.com/hyperledger/iroha/issues/304</string>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <string>READY</string>
+      <integer>18</integer>
+      <integer>69</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>7</integer>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>CONNECT</string>
+      <integer>13</integer>
+      <string>junaidgirkar</string>
+      <integer>10</integer>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>7</integer>
+      <string>READY</string>
+      <integer>20</integer>
+      <integer>71</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>UPDATE</string>
+      <integer>7</integer>
+      <string>ryjones</string>
+      <integer>10</integer>
+    </row>
+    <row>
+      <string>devmode</string>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <string>READY</string>
+      <integer>21</integer>
+      <integer>72</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>8</integer>
+      <boolean>false</boolean>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>CONNECT</string>
+      <integer>14</integer>
+      <string>mayank2001</string>
+      <integer>10</integer>
+    </row>
+  </data>

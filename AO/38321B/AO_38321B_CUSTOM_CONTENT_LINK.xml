@@ -1,0 +1,7 @@
+  <table name="AO_38321B_CUSTOM_CONTENT_LINK">
+    <column name="CONTENT_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="LINK_LABEL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="LINK_URL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SEQUENCE" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+  </table>

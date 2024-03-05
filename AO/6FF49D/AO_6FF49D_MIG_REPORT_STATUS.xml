@@ -1,0 +1,7 @@
+  <table name="AO_6FF49D_MIG_REPORT_STATUS">
+    <column name="EXECUTION_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="REPORT_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="STATUS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="UPDATED_AT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+  </table>

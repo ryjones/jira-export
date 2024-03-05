@@ -1,0 +1,7 @@
+  <table name="AO_60DB71_COLUMNSTATUS">
+    <column name="COLUMN_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="POS" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="STATUS_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <foreignKey fromTable="AO_60DB71_COLUMNSTATUS" fromColumn="COLUMN_ID" toTable="AO_60DB71_COLUMN" toColumn="ID"/>
+  </table>

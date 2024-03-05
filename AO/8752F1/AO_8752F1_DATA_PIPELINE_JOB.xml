@@ -1,0 +1,16 @@
+  <table name="AO_8752F1_DATA_PIPELINE_JOB">
+    <column name="CREATED" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ERRORS" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="EXPORTED_ENTITIES" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="EXPORT_FORCED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="EXPORT_FROM" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="EXPORT_PATH" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="METADATA" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ROOT_EXPORT_PATH" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SCHEMA_VERSION" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="STATUS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="UPDATED" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="WARNINGS" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="WRITTEN_ROWS" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+  </table>

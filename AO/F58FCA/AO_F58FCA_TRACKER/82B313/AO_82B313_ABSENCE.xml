@@ -1,0 +1,7 @@
+  <data tableName="AO_82B313_ABSENCE">
+    <column name="END"/>
+    <column name="ID"/>
+    <column name="PERSON_ID"/>
+    <column name="START"/>
+    <column name="TITLE"/>
+  </data>

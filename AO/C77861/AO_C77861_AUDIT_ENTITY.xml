@@ -1,0 +1,31 @@
+  <table name="AO_C77861_AUDIT_ENTITY">
+    <column name="ACTION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ACTION_T_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="AREA" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ATTRIBUTES" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="CATEGORY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CATEGORY_T_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CHANGE_VALUES" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="ENTITY_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="LEVEL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="METHOD" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="NODE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PRIMARY_RESOURCE_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PRIMARY_RESOURCE_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="RESOURCES" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="RESOURCE_ID_3" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="RESOURCE_ID_4" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="RESOURCE_ID_5" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="RESOURCE_TYPE_3" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="RESOURCE_TYPE_4" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="RESOURCE_TYPE_5" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SEARCH_STRING" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="SECONDARY_RESOURCE_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SECONDARY_RESOURCE_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SOURCE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SYSTEM_INFO" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USER_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USER_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USER_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

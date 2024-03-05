@@ -1,0 +1,5 @@
+  <data tableName="AO_E8B6CC_ORG_TO_PROJECT">
+    <column name="ID"/>
+    <column name="ORGANIZATION_ID"/>
+    <column name="PROJECT_KEY"/>
+  </data>

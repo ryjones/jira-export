@@ -1,0 +1,8 @@
+  <table name="AO_4789DD_READ_NOTIFICATIONS">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="IS_SNOOZED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="NOTIFICATION_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="SNOOZE_COUNT" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="SNOOZE_DATE" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="USER_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

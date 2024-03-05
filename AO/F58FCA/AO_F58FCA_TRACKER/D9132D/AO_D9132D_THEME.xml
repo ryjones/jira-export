@@ -1,0 +1,6 @@
+  <data tableName="AO_D9132D_THEME">
+    <column name="COLOR"/>
+    <column name="ID"/>
+    <column name="SHARED"/>
+    <column name="TITLE"/>
+  </data>

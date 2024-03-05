@@ -1,0 +1,6 @@
+  <data tableName="AO_82B313_ABILITY">
+    <column name="COMBINED_KEY"/>
+    <column name="ID"/>
+    <column name="PERSON_ID"/>
+    <column name="SKILL_ID"/>
+  </data>

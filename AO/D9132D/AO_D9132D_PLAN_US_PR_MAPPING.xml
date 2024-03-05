@@ -1,0 +1,5 @@
+  <table name="AO_D9132D_PLAN_US_PR_MAPPING">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="PLAN_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="USER_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+  </table>

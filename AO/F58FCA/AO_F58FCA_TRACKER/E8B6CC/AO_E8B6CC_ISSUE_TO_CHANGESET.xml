@@ -1,0 +1,6 @@
+  <data tableName="AO_E8B6CC_ISSUE_TO_CHANGESET">
+    <column name="CHANGESET_ID"/>
+    <column name="ID"/>
+    <column name="ISSUE_KEY"/>
+    <column name="PROJECT_KEY"/>
+  </data>

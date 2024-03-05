@@ -1,0 +1,15 @@
+  <data tableName="AO_08F1AF_USER_PROPERTIES">
+    <column name="ID"/>
+    <column name="PROPERTIES"/>
+    <column name="USER_KEY"/>
+    <row>
+      <integer>1</integer>
+      <string>{"onboarding":{"isErrorDetailsOnboardingDone":true}}</string>
+      <string>ryjones</string>
+    </row>
+    <row>
+      <integer>2</integer>
+      <string>{"onboarding":{"isErrorDetailsOnboardingDone":true}}</string>
+      <string>ryjones</string>
+    </row>
+  </data>

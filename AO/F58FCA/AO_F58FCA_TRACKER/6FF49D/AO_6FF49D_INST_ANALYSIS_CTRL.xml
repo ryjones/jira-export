@@ -1,0 +1,6 @@
+  <data tableName="AO_6FF49D_INST_ANALYSIS_CTRL">
+    <column name="ANALYSIS_TYPE"/>
+    <column name="END_TIMESTAMP"/>
+    <column name="ID"/>
+    <column name="START_TIMESTAMP"/>
+  </data>

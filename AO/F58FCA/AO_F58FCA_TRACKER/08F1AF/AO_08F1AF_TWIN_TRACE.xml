@@ -1,0 +1,225 @@
+  <data tableName="AO_08F1AF_TWIN_TRACE">
+    <column name="ID"/>
+    <column name="LAST_RECEIVED_RESPONSE"/>
+    <column name="LAST_REMOTE_EVENT_NUMBER"/>
+    <column name="LOCAL_REPLICA_ID"/>
+    <column name="LOCAL_TWIN_TYPE"/>
+    <column name="NUMBER_OF_EVENTS"/>
+    <column name="RELATION_ID"/>
+    <column name="REMOTE_REPLICA_ID"/>
+    <column name="STATUS"/>
+    <column name="REMOTE_TWIN_TRACE_ID"/>
+    <column name="PAYED_DATE"/>
+    <column name="CREATED_DATE"/>
+    <column name="USE_REMOTE_SCOPE"/>
+    <row>
+      <integer>1</integer>
+      <integer>10</integer>
+      <integer>5</integer>
+      <integer xsi:nil="true"/>
+      <string>PARENT</string>
+      <integer>10</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <string>CLEANED</string>
+      <integer>1</integer>
+      <timestamp xsi:nil="true"/>
+      <timestamp xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+    </row>
+    <row>
+      <integer>2</integer>
+      <integer>-1</integer>
+      <integer>0</integer>
+      <integer xsi:nil="true"/>
+      <string>PARENT</string>
+      <integer>2</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <string>CLEANED</string>
+      <integer xsi:nil="true"/>
+      <timestamp xsi:nil="true"/>
+      <timestamp xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+    </row>
+    <row>
+      <integer>3</integer>
+      <integer>16</integer>
+      <integer>2</integer>
+      <integer>49</integer>
+      <string>PARENT</string>
+      <integer>5</integer>
+      <integer>1</integer>
+      <integer>51</integer>
+      <string>SYNCHRONIZED</string>
+      <integer>4</integer>
+      <timestamp xsi:nil="true"/>
+      <timestamp xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+    </row>
+    <row>
+      <integer>4</integer>
+      <integer>17</integer>
+      <integer>1</integer>
+      <integer>48</integer>
+      <string>CHILD</string>
+      <integer>2</integer>
+      <integer>1</integer>
+      <integer>50</integer>
+      <string>SYNCHRONIZED</string>
+      <integer>3</integer>
+      <timestamp xsi:nil="true"/>
+      <timestamp xsi:nil="true"/>
+      <boolean xsi:nil="true"/>
+    </row>
+    <row>
+      <integer>5</integer>
+      <integer>-1</integer>
+      <integer>0</integer>
+      <integer>52</integer>
+      <string>PARENT</string>
+      <integer>1</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <string>INITIAL</string>
+      <integer xsi:nil="true"/>
+      <timestamp xsi:nil="true"/>
+      <timestamp>2020-09-15T03:36:24.000Z</timestamp>
+      <boolean xsi:nil="true"/>
+    </row>
+    <row>
+      <integer>6</integer>
+      <integer>-1</integer>
+      <integer>0</integer>
+      <integer>53</integer>
+      <string>PARENT</string>
+      <integer>1</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <string>INITIAL</string>
+      <integer xsi:nil="true"/>
+      <timestamp xsi:nil="true"/>
+      <timestamp>2020-11-25T00:48:53.000Z</timestamp>
+      <boolean xsi:nil="true"/>
+    </row>
+    <row>
+      <integer>7</integer>
+      <integer>-1</integer>
+      <integer>0</integer>
+      <integer>71</integer>
+      <string>PARENT</string>
+      <integer>7</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <string>INITIAL</string>
+      <integer xsi:nil="true"/>
+      <timestamp xsi:nil="true"/>
+      <timestamp>2020-11-25T02:22:41.000Z</timestamp>
+      <boolean xsi:nil="true"/>
+    </row>
+    <row>
+      <integer>8</integer>
+      <integer>-1</integer>
+      <integer>0</integer>
+      <integer>55</integer>
+      <string>PARENT</string>
+      <integer>1</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <string>INITIAL</string>
+      <integer xsi:nil="true"/>
+      <timestamp xsi:nil="true"/>
+      <timestamp>2021-01-07T03:45:03.000Z</timestamp>
+      <boolean xsi:nil="true"/>
+    </row>
+    <row>
+      <integer>9</integer>
+      <integer>-1</integer>
+      <integer>0</integer>
+      <integer>56</integer>
+      <string>PARENT</string>
+      <integer>1</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <string>INITIAL</string>
+      <integer xsi:nil="true"/>
+      <timestamp xsi:nil="true"/>
+      <timestamp>2021-02-07T07:18:01.000Z</timestamp>
+      <boolean xsi:nil="true"/>
+    </row>
+    <row>
+      <integer>10</integer>
+      <integer>-1</integer>
+      <integer>0</integer>
+      <integer>57</integer>
+      <string>PARENT</string>
+      <integer>1</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <string>INITIAL</string>
+      <integer xsi:nil="true"/>
+      <timestamp xsi:nil="true"/>
+      <timestamp>2021-02-16T10:15:57.000Z</timestamp>
+      <boolean xsi:nil="true"/>
+    </row>
+    <row>
+      <integer>11</integer>
+      <integer>-1</integer>
+      <integer>0</integer>
+      <integer>59</integer>
+      <string>PARENT</string>
+      <integer>2</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <string>UNEXALATED</string>
+      <integer xsi:nil="true"/>
+      <timestamp xsi:nil="true"/>
+      <timestamp>2021-03-09T01:49:53.000Z</timestamp>
+      <boolean xsi:nil="true"/>
+    </row>
+    <row>
+      <integer>12</integer>
+      <integer>-1</integer>
+      <integer>0</integer>
+      <integer>68</integer>
+      <string>PARENT</string>
+      <integer>4</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <string>INITIAL</string>
+      <integer xsi:nil="true"/>
+      <timestamp xsi:nil="true"/>
+      <timestamp>2021-06-10T19:13:39.000Z</timestamp>
+      <boolean xsi:nil="true"/>
+    </row>
+    <row>
+      <integer>13</integer>
+      <integer>-1</integer>
+      <integer>0</integer>
+      <integer>69</integer>
+      <string>PARENT</string>
+      <integer>1</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <string>INITIAL</string>
+      <integer xsi:nil="true"/>
+      <timestamp xsi:nil="true"/>
+      <timestamp>2022-12-05T19:06:11.000Z</timestamp>
+      <boolean xsi:nil="true"/>
+    </row>
+    <row>
+      <integer>14</integer>
+      <integer>-1</integer>
+      <integer>0</integer>
+      <integer>72</integer>
+      <string>PARENT</string>
+      <integer>1</integer>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <string>INITIAL</string>
+      <integer xsi:nil="true"/>
+      <timestamp xsi:nil="true"/>
+      <timestamp>2023-01-29T08:51:10.000Z</timestamp>
+      <boolean xsi:nil="true"/>
+    </row>
+  </data>

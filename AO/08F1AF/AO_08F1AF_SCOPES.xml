@@ -1,0 +1,11 @@
+  <table name="AO_08F1AF_SCOPES">
+    <column name="CONNECTION_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="LOCAL" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="MAIN_FIELDS" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="QUERY" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="SCOPE_UID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SCRIPT" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="SYNC_CRITERIA" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TRIGGER_CRITERIA" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

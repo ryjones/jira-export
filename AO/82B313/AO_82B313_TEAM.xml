@@ -1,0 +1,6 @@
+  <table name="AO_82B313_TEAM">
+    <column name="AVATAR_URL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="SHAREABLE" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="TITLE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

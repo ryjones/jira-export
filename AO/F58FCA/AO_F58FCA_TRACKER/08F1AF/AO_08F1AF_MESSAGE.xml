@@ -1,0 +1,8 @@
+  <data tableName="AO_08F1AF_MESSAGE">
+    <column name="CONNECTION_ID"/>
+    <column name="CONTENT"/>
+    <column name="DIRECTION"/>
+    <column name="ID"/>
+    <column name="MESSAGE_TYPE"/>
+    <column name="STATUS"/>
+  </data>

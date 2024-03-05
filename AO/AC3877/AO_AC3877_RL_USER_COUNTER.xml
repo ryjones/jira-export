@@ -1,0 +1,7 @@
+  <table name="AO_AC3877_RL_USER_COUNTER">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="INTERVAL_START" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="NODE_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="REJECT_COUNT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="USER_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

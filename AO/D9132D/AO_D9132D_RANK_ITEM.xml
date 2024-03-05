@@ -1,0 +1,7 @@
+  <table name="AO_D9132D_RANK_ITEM">
+    <column name="DOMAIN" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="RANGE_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="UNIQUE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

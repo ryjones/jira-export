@@ -1,0 +1,8 @@
+  <table name="AO_A415DF_AOSTREAM_TO_TEAM">
+    <column name="AOSTREAM_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="AOTEAM_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="ID_OTHER" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="VERSION" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <foreignKey fromTable="AO_A415DF_AOSTREAM_TO_TEAM" fromColumn="AOSTREAM_ID" toTable="AO_A415DF_AOSTREAM" toColumn="ID_OTHER"/>
+    <foreignKey fromTable="AO_A415DF_AOSTREAM_TO_TEAM" fromColumn="AOTEAM_ID" toTable="AO_A415DF_AOTEAM" toColumn="ID_OTHER"/>
+  </table>

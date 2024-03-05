@@ -1,0 +1,11 @@
+  <data tableName="AO_08F1AF_MAPPINGS">
+    <column name="ARROW"/>
+    <column name="CONNECTION_ID"/>
+    <column name="ID"/>
+    <column name="IN_SCRIPT"/>
+    <column name="LOCAL"/>
+    <column name="MAPS"/>
+    <column name="OUT_SCRIPT"/>
+    <column name="REMOTE"/>
+    <column name="SEQ"/>
+  </data>

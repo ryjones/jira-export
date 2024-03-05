@@ -1,0 +1,26 @@
+  <table name="AO_08F1AF_SYNC_EVENT">
+    <column name="CHANGING_ISSUE" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="CONNECT_CONTEXT_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="CONNECT_REMOTE_ISSUE_URN" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="DELETED_ISSUE_URN" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ERROR_REASON" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ERROR_RESPONSE_MESSAGE" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="EVENT_NUMBER" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="EVENT_STATUS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="LOCAL_REPLICA_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="ORIGINATOR" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PAYED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="PRIORITY" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="PROXY_USER" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="RELATION_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="REMOTE_REPLICA_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="REMOTE_TRACES_SET" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="REMOTE_TWIN_TRACE_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="SYNC_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TWIN_TRACE_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="UNEXALATE_ISSUE_URN" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <foreignKey fromTable="AO_08F1AF_SYNC_EVENT" fromColumn="LOCAL_REPLICA_ID" toTable="AO_08F1AF_REPLICA" toColumn="ID"/>
+    <foreignKey fromTable="AO_08F1AF_SYNC_EVENT" fromColumn="RELATION_ID" toTable="AO_08F1AF_RELATION" toColumn="ID"/>
+    <foreignKey fromTable="AO_08F1AF_SYNC_EVENT" fromColumn="REMOTE_REPLICA_ID" toTable="AO_08F1AF_REPLICA" toColumn="ID"/>
+  </table>

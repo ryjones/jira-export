@@ -1,0 +1,6 @@
+  <table name="AO_60DB71_STATSFIELD">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="RAPID_VIEW_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="TYPE_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <foreignKey fromTable="AO_60DB71_STATSFIELD" fromColumn="RAPID_VIEW_ID" toTable="AO_60DB71_RAPIDVIEW" toColumn="ID"/>
+  </table>

@@ -1,0 +1,12 @@
+  <table name="AO_5FB9D7_AOHIP_CHAT_USER">
+    <column name="HIP_CHAT_LINK_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="HIP_CHAT_USER_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="HIP_CHAT_USER_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="REFRESH_CODE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USER_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USER_SCOPES" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USER_TOKEN" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USER_TOKEN_EXPIRY" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <foreignKey fromTable="AO_5FB9D7_AOHIP_CHAT_USER" fromColumn="HIP_CHAT_LINK_ID" toTable="AO_5FB9D7_AOHIP_CHAT_LINK" toColumn="ID"/>
+  </table>

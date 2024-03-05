@@ -1,0 +1,8 @@
+  <table name="AO_82B313_PERSON">
+    <column name="AVATAR_URL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="END" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="JIRA_USER_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="START" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="TITLE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

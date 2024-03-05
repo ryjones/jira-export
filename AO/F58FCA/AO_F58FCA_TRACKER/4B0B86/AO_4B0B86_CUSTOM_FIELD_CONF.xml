@@ -1,0 +1,12 @@
+  <data tableName="AO_4B0B86_CUSTOM_FIELD_CONF">
+    <column name="CREATED_BY"/>
+    <column name="CREATED_ON"/>
+    <column name="CUSTOM_FIELD_ID"/>
+    <column name="ENTITY_NAME"/>
+    <column name="ID"/>
+    <column name="LABEL"/>
+    <column name="LONG_VALUE"/>
+    <column name="STRING_VALUE"/>
+    <column name="UPDATED_BY"/>
+    <column name="UPDATED_ON"/>
+  </data>

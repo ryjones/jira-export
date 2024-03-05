@@ -1,0 +1,5 @@
+  <table name="AO_575BF5_PROCESSED_COMMITS">
+    <column name="COMMIT_HASH" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="METADATA_HASH" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

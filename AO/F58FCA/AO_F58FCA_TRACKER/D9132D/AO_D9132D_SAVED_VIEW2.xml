@@ -1,0 +1,14 @@
+  <data tableName="AO_D9132D_SAVED_VIEW2">
+    <column name="CREATED_BY"/>
+    <column name="CREATED_TIMESTAMP"/>
+    <column name="C_KEY"/>
+    <column name="DEFAULT"/>
+    <column name="ID"/>
+    <column name="LAST_MODIFIED_BY"/>
+    <column name="LAST_MODIFIED_TIMESTAMP"/>
+    <column name="NAME"/>
+    <column name="PREFERENCES"/>
+    <column name="SUBJECT_ID"/>
+    <column name="SUBJECT_TYPE"/>
+    <column name="VERSION"/>
+  </data>

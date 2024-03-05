@@ -1,0 +1,9 @@
+  <table name="AO_5D733E_LABEL_ITCOLOR">
+    <column name="COLOR" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="CUSTOM_FIELD_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="ISSUE_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="LABEL_IT_ITEM_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="PREVIOUS_COLOR" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="PROJECT_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+  </table>

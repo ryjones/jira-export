@@ -1,0 +1,7 @@
+  <table name="AO_8BA09E_REINDEX_LOCK">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="LOCKED" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="NODE_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="REPOSITORY_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="START_TIME" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+  </table>

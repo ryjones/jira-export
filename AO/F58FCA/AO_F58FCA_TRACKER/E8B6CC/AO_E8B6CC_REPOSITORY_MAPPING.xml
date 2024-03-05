@@ -1,0 +1,21 @@
+  <data tableName="AO_E8B6CC_REPOSITORY_MAPPING">
+    <column name="ACTIVITY_LAST_SYNC"/>
+    <column name="DELETED"/>
+    <column name="FORK"/>
+    <column name="FORK_OF_NAME"/>
+    <column name="FORK_OF_OWNER"/>
+    <column name="FORK_OF_SLUG"/>
+    <column name="ID"/>
+    <column name="LAST_CHANGESET_NODE"/>
+    <column name="LAST_COMMIT_DATE"/>
+    <column name="LINKED"/>
+    <column name="LOGO"/>
+    <column name="NAME"/>
+    <column name="ORGANIZATION_ID"/>
+    <column name="SLUG"/>
+    <column name="SMARTCOMMITS_ENABLED"/>
+    <column name="UPDATE_LINK_AUTHORISED"/>
+    <column name="REMOTE_ID"/>
+    <column name="REPOSITORY_URL"/>
+    <column name="REPOSITORY_URI"/>
+  </data>

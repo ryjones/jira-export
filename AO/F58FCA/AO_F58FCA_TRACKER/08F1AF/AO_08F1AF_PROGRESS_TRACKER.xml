@@ -1,0 +1,7 @@
+  <data tableName="AO_08F1AF_PROGRESS_TRACKER">
+    <column name="ERRORS"/>
+    <column name="ID"/>
+    <column name="RESULT"/>
+    <column name="STATUS"/>
+    <column name="TASK_TYPE"/>
+  </data>

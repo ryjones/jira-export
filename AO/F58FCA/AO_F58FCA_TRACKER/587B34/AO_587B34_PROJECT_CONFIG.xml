@@ -1,0 +1,9 @@
+  <data tableName="AO_587B34_PROJECT_CONFIG">
+    <column name="CONFIGURATION_GROUP_ID"/>
+    <column name="ID"/>
+    <column name="NAME"/>
+    <column name="NAME_UNIQUE_CONSTRAINT"/>
+    <column name="PROJECT_ID"/>
+    <column name="ROOM_ID"/>
+    <column name="VALUE"/>
+  </data>

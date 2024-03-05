@@ -1,0 +1,112 @@
+  <data tableName="AO_4789DD_READ_NOTIFICATIONS">
+    <column name="ID"/>
+    <column name="IS_SNOOZED"/>
+    <column name="NOTIFICATION_ID"/>
+    <column name="SNOOZE_COUNT"/>
+    <column name="SNOOZE_DATE"/>
+    <column name="USER_KEY"/>
+    <row>
+      <integer>15</integer>
+      <boolean>true</boolean>
+      <integer>17</integer>
+      <integer>1</integer>
+      <timestamp>2022-04-20T22:40:16.000Z</timestamp>
+      <string>rday</string>
+    </row>
+    <row>
+      <integer>16</integer>
+      <boolean>false</boolean>
+      <integer>17</integer>
+      <integer>2</integer>
+      <timestamp>2024-01-02T19:24:45.000Z</timestamp>
+      <string>abaranov</string>
+    </row>
+    <row>
+      <integer>17</integer>
+      <boolean>true</boolean>
+      <integer>17</integer>
+      <integer>1</integer>
+      <timestamp>2022-05-24T07:21:55.000Z</timestamp>
+      <string>choypoy</string>
+    </row>
+    <row>
+      <integer>19</integer>
+      <boolean>true</boolean>
+      <integer>17</integer>
+      <integer>1</integer>
+      <timestamp>2022-06-29T18:22:39.000Z</timestamp>
+      <string>hl-admin</string>
+    </row>
+    <row>
+      <integer>20</integer>
+      <boolean>true</boolean>
+      <integer>17</integer>
+      <integer>2</integer>
+      <timestamp>2023-01-17T21:25:28.000Z</timestamp>
+      <string>ryjones</string>
+    </row>
+    <row>
+      <integer>23</integer>
+      <boolean>true</boolean>
+      <integer>17</integer>
+      <integer>1</integer>
+      <timestamp>2023-07-19T21:37:39.000Z</timestamp>
+      <string>valderrv</string>
+    </row>
+    <row>
+      <integer>24</integer>
+      <boolean>false</boolean>
+      <integer>17</integer>
+      <integer xsi:nil="true"/>
+      <timestamp xsi:nil="true"/>
+      <string>valderrv</string>
+    </row>
+    <row>
+      <integer>25</integer>
+      <boolean>true</boolean>
+      <integer>19</integer>
+      <integer>1</integer>
+      <timestamp>2023-07-19T21:37:42.000Z</timestamp>
+      <string>valderrv</string>
+    </row>
+    <row>
+      <integer>26</integer>
+      <boolean>false</boolean>
+      <integer>19</integer>
+      <integer xsi:nil="true"/>
+      <timestamp xsi:nil="true"/>
+      <string>valderrv</string>
+    </row>
+    <row>
+      <integer>31</integer>
+      <boolean>true</boolean>
+      <integer>17</integer>
+      <integer>1</integer>
+      <timestamp>2023-07-19T23:12:20.000Z</timestamp>
+      <string>jnguyen</string>
+    </row>
+    <row>
+      <integer>32</integer>
+      <boolean>true</boolean>
+      <integer>19</integer>
+      <integer>1</integer>
+      <timestamp>2023-07-19T23:12:21.000Z</timestamp>
+      <string>jnguyen</string>
+    </row>
+    <row>
+      <integer>34</integer>
+      <boolean>true</boolean>
+      <integer>45</integer>
+      <integer>2</integer>
+      <timestamp>2024-01-08T15:46:07.000Z</timestamp>
+      <string>abaranov</string>
+    </row>
+    <row>
+      <integer>35</integer>
+      <boolean>true</boolean>
+      <integer>41</integer>
+      <integer>2</integer>
+      <timestamp>2024-01-08T15:46:17.000Z</timestamp>
+      <string>abaranov</string>
+    </row>
+  </data>

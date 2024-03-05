@@ -1,0 +1,12 @@
+  <data tableName="AO_723324_CLIENT_TOKEN">
+    <column name="ACCESS_TOKEN"/>
+    <column name="ACCESS_TOKEN_EXPIRATION"/>
+    <column name="CONFIG_ID"/>
+    <column name="ID"/>
+    <column name="LAST_REFRESHED"/>
+    <column name="LAST_STATUS_UPDATED"/>
+    <column name="REFRESH_COUNT"/>
+    <column name="REFRESH_TOKEN"/>
+    <column name="REFRESH_TOKEN_EXPIRATION"/>
+    <column name="STATUS"/>
+  </data>

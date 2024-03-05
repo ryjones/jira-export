@@ -1,0 +1,9 @@
+  <table name="AO_6FF49D_GBL_EXPORT_CONTEXT">
+    <column name="CREATED_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="false" sqlType="12" precision="36"/>
+    <column name="KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="50"/>
+    <column name="MIGRATION_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="36"/>
+    <column name="TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="50"/>
+    <column name="UPDATED_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="VALUE" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+  </table>

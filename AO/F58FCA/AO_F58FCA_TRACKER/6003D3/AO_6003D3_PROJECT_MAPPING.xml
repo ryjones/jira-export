@@ -1,0 +1,6 @@
+  <data tableName="AO_6003D3_PROJECT_MAPPING">
+    <column name="ID"/>
+    <column name="JIRA_PROJECT_ID"/>
+    <column name="TOGGL_PROJECT_ID"/>
+    <column name="USER_KEY"/>
+  </data>

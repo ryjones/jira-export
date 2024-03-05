@@ -1,0 +1,13 @@
+  <table name="AO_60DB71_WORKINGDAYS">
+    <column name="FRIDAY" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="MONDAY" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="RAPID_VIEW_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SATURDAY" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SUNDAY" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="THURSDAY" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="TIMEZONE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TUESDAY" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="WEDNESDAY" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <foreignKey fromTable="AO_60DB71_WORKINGDAYS" fromColumn="RAPID_VIEW_ID" toTable="AO_60DB71_RAPIDVIEW" toColumn="ID"/>
+  </table>

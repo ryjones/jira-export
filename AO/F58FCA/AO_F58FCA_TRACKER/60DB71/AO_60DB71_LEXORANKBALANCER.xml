@@ -1,0 +1,6 @@
+  <data tableName="AO_60DB71_LEXORANKBALANCER">
+    <column name="DISABLE_RANK_OPERATIONS"/>
+    <column name="FIELD_ID"/>
+    <column name="ID"/>
+    <column name="REBALANCE_TIME"/>
+  </data>

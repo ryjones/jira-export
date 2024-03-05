@@ -1,0 +1,38 @@
+  <data tableName="AO_08F1AF_INSTANCE">
+    <column name="AUTHENTICATION_TOKEN"/>
+    <column name="DESCRIPTION"/>
+    <column name="HUB_OBJECTS_VERSION"/>
+    <column name="ID"/>
+    <column name="NAME"/>
+    <column name="PROTOCOL"/>
+    <column name="STATUS"/>
+    <column name="URL"/>
+    <column name="NODE_INFO_ID"/>
+    <column name="REMOTE_USERNAME"/>
+    <column name="REMOTE_PASSWORD"/>
+    <column name="AUTHENTICATION_REQUIRED"/>
+    <column name="ENCRYPTED_REMOTE_PASSWORD"/>
+    <column name="ISSUE_TRACKER_URL"/>
+    <column name="COPIED_FROM"/>
+    <column name="CUSTOM_FIELD_VALUES"/>
+    <column name="FIELD_VALUES"/>
+    <row>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <string>PegaSys_to_Hyperledger</string>
+      <string xsi:nil="true"/>
+      <string>ACTIVE</string>
+      <string>https://jcloudnode-pung-mayo-whar-ream.exalate.cloud</string>
+      <integer>1</integer>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+    </row>
+  </data>

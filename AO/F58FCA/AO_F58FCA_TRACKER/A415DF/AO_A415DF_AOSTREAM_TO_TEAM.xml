@@ -1,0 +1,6 @@
+  <data tableName="AO_A415DF_AOSTREAM_TO_TEAM">
+    <column name="AOSTREAM_ID"/>
+    <column name="AOTEAM_ID"/>
+    <column name="ID_OTHER"/>
+    <column name="VERSION"/>
+  </data>

@@ -1,0 +1,12 @@
+  <data tableName="AO_A415DF_AONON_WORKING_DAYS">
+    <column name="AOPLAN_ID"/>
+    <column name="DESCRIPTION"/>
+    <column name="DETAILS"/>
+    <column name="END_DATE"/>
+    <column name="ID_OTHER"/>
+    <column name="ORDER_RANGE_IDENTIFIER"/>
+    <column name="SORT_ORDER"/>
+    <column name="START_DATE"/>
+    <column name="TITLE"/>
+    <column name="VERSION"/>
+  </data>

@@ -1,0 +1,9 @@
+  <data tableName="AO_6FF49D_EXPORT_ERROR">
+    <column name="CLOUD_ID"/>
+    <column name="ERROR"/>
+    <column name="ERROR_TIMESTAMP"/>
+    <column name="ID"/>
+    <column name="MIGRATION_ID"/>
+    <column name="MIGRATION_SCOPE_ID"/>
+    <column name="SOURCE"/>
+  </data>

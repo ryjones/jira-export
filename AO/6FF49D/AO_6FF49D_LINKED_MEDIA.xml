@@ -1,0 +1,8 @@
+  <table name="AO_6FF49D_LINKED_MEDIA">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="LINKED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="MEDIA_CLIENT_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="36"/>
+    <column name="SERVER_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SIZE" primaryKey="false" autoIncrement="false" sqlType="12" precision="36"/>
+    <column name="TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

@@ -1,0 +1,9 @@
+  <table name="AO_6FF49D_EXPORT_ERROR">
+    <column name="CLOUD_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ERROR" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="ERROR_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="MIGRATION_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="MIGRATION_SCOPE_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SOURCE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

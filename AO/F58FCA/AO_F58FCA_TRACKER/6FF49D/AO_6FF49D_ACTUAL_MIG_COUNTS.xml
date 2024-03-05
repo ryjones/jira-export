@@ -1,0 +1,9 @@
+  <data tableName="AO_6FF49D_ACTUAL_MIG_COUNTS">
+    <column name="ENTITY_TYPE"/>
+    <column name="EXECUTION_ID"/>
+    <column name="FAIL_COUNT"/>
+    <column name="ID"/>
+    <column name="PROJECT_KEY"/>
+    <column name="SUCCESS_COUNT"/>
+    <column name="TOTAL_COUNT"/>
+  </data>

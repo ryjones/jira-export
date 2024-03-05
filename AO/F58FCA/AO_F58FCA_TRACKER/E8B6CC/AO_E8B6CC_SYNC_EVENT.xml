@@ -1,0 +1,8 @@
+  <data tableName="AO_E8B6CC_SYNC_EVENT">
+    <column name="EVENT_CLASS"/>
+    <column name="EVENT_DATE"/>
+    <column name="EVENT_JSON"/>
+    <column name="ID"/>
+    <column name="REPO_ID"/>
+    <column name="SCHEDULED_SYNC"/>
+  </data>

@@ -1,0 +1,14 @@
+  <table name="AO_A0B856_WEB_HOOK_LISTENER_AO">
+    <column name="DESCRIPTION" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="ENABLED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="EVENTS" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="EXCLUDE_BODY" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="FILTERS" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="LAST_UPDATED" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="LAST_UPDATED_USER" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="NAME" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="PARAMETERS" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="REGISTRATION_METHOD" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="URL" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+  </table>

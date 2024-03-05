@@ -1,0 +1,12 @@
+  <table name="AO_4B0B86_CUSTOM_FIELD_CONF">
+    <column name="CREATED_BY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CREATED_ON" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="CUSTOM_FIELD_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ENTITY_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="LABEL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="LONG_VALUE" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="STRING_VALUE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="UPDATED_BY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="UPDATED_ON" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+  </table>

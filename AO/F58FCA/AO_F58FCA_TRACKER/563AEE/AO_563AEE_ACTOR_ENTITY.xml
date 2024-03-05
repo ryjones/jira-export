@@ -1,0 +1,7 @@
+  <data tableName="AO_563AEE_ACTOR_ENTITY">
+    <column name="FULL_NAME"/>
+    <column name="ID"/>
+    <column name="PROFILE_PAGE_URI"/>
+    <column name="PROFILE_PICTURE_URI"/>
+    <column name="USERNAME"/>
+  </data>

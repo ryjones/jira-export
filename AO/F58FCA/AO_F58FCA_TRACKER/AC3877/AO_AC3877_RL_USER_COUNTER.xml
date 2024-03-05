@@ -1,0 +1,7 @@
+  <data tableName="AO_AC3877_RL_USER_COUNTER">
+    <column name="ID"/>
+    <column name="INTERVAL_START"/>
+    <column name="NODE_ID"/>
+    <column name="REJECT_COUNT"/>
+    <column name="USER_ID"/>
+  </data>

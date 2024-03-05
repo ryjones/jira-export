@@ -1,0 +1,728 @@
+  <data tableName="AO_2F1435_HEALTH_CHECK_STATUS">
+    <column name="APPLICATION_NAME"/>
+    <column name="COMPLETE_KEY"/>
+    <column name="DESCRIPTION"/>
+    <column name="FAILED_DATE"/>
+    <column name="FAILURE_REASON"/>
+    <column name="ID"/>
+    <column name="IS_HEALTHY"/>
+    <column name="IS_RESOLVED"/>
+    <column name="RESOLVED_DATE"/>
+    <column name="SEVERITY"/>
+    <column name="STATUS_NAME"/>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-18T02:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>44</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-18T05:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-18T15:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>45</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-18T18:57:59.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-18T23:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>46</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-19T00:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-20T22:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>47</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-20T23:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-21T02:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>48</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-21T03:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-21T05:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>49</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-21T06:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-21T08:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>50</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-21T12:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-21T13:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>51</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-21T14:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-22T05:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>52</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-22T07:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-22T10:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>53</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-22T11:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-22T13:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>54</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-22T14:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-22T15:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>55</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-22T16:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-22T20:57:59.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>56</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-22T22:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-23T02:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>57</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-23T03:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-23T05:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>58</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-23T06:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-23T07:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>59</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-23T08:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-23T17:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>60</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-23T19:57:59.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-23T21:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>61</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-23T22:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-23T23:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>62</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-24T00:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-24T02:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>63</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-24T03:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-24T05:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>64</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-24T06:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-24T07:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>65</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-24T12:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-24T15:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>66</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-24T16:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-24T17:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>67</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-24T19:08:07.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-24T21:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>68</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-24T23:16:51.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-25T00:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>69</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-25T01:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-25T02:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>70</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-25T03:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-25T04:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>71</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-25T05:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-25T08:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>72</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-25T12:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-25T15:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>73</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-25T16:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-25T18:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>74</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-25T19:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-25T22:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>75</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-26T00:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-26T07:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>76</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-26T08:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-26T10:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>77</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-26T12:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-26T15:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>78</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-26T16:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-26T22:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>79</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-26T23:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-27T01:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>80</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-27T03:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-27T07:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>81</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-27T09:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-27T18:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>82</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-27T20:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-28T18:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>83</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-28T20:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-28T22:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>84</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-28T23:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-29T18:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>85</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-29T20:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-30T06:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>86</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-30T07:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-30T14:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "The remote certificate can't be trusted".</string>
+      <integer>87</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-30T19:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-30T20:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>88</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-30T21:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-31T00:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>89</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-31T05:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-31T09:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>90</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-31T12:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-31T13:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>91</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-31T14:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-31T15:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>92</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-01-31T21:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-01-31T23:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>93</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-02-01T01:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-02-01T05:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>94</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-02-01T07:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-02-01T08:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>95</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-02-01T09:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-02-01T10:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>96</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-02-01T11:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-02-01T18:57:58.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>97</integer>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+      <timestamp>2019-02-01T19:57:58.000Z</timestamp>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+    <row>
+      <string>JIRA</string>
+      <string>com.atlassian.troubleshooting.plugin-jira:applinksStatusHealthCheck</string>
+      <string>Checks the status of your application links and reports back any errors.</string>
+      <timestamp>2019-02-01T21:20:31.000Z</timestamp>
+      <string>One of your application links is reporting "Network error".</string>
+      <integer>98</integer>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <timestamp xsi:nil="true"/>
+      <string>WARNING</string>
+      <string>Application links</string>
+    </row>
+  </data>

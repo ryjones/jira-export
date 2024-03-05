@@ -1,0 +1,8 @@
+  <table name="AO_82B313_ABILITY">
+    <column name="COMBINED_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="PERSON_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SKILL_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <foreignKey fromTable="AO_82B313_ABILITY" fromColumn="PERSON_ID" toTable="AO_82B313_PERSON" toColumn="ID"/>
+    <foreignKey fromTable="AO_82B313_ABILITY" fromColumn="SKILL_ID" toTable="AO_82B313_SKILL" toColumn="ID"/>
+  </table>

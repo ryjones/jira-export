@@ -1,0 +1,13 @@
+  <data tableName="AO_D9132D_SOLUTION">
+    <column name="HEARTBEAT_TIMESTAMP"/>
+    <column name="ID"/>
+    <column name="PLAN"/>
+    <column name="SCENARIO"/>
+    <column name="SCHEDULABLE_ISSUE_COUNT"/>
+    <column name="SCHEDULED_ISSUE_COUNT"/>
+    <column name="SOLUTION"/>
+    <column name="STATE"/>
+    <column name="TRIGGER_TIMESTAMP"/>
+    <column name="UNIQUE_GUARD"/>
+    <column name="VERSION"/>
+  </data>

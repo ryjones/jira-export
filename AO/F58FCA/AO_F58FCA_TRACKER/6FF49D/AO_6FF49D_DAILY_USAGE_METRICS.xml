@@ -1,0 +1,8 @@
+  <data tableName="AO_6FF49D_DAILY_USAGE_METRICS">
+    <column name="DAILY_ACTIVE_USERS"/>
+    <column name="ID"/>
+    <column name="INST_ANALYSIS_CTRL_ID"/>
+    <column name="METRICS_DATE"/>
+    <column name="NODES_PROCESSING_JSON"/>
+    <column name="PEAK_HOURLY_USERS_BY_DAY"/>
+  </data>

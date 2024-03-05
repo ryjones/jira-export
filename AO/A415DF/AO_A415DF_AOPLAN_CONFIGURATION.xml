@@ -1,0 +1,38 @@
+  <table name="AO_A415DF_AOPLAN_CONFIGURATION">
+    <column name="AOPLAN_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="AOPROGRESS_TRACKER_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="AOWEEKDAY_CONFIG" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="BACKLOG_RECORD_LIMIT" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="DEFAULT_EPIC_ESTIMATE" primaryKey="false" autoIncrement="false" sqlType="8" precision="22" scale="31"/>
+    <column name="DEFAULT_STORY_ESTIMATE" primaryKey="false" autoIncrement="false" sqlType="8" precision="22" scale="31"/>
+    <column name="EPIC_SYNC_MODE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="GLOBAL_DEFAULT_VELOCITY" primaryKey="false" autoIncrement="false" sqlType="8" precision="22" scale="31"/>
+    <column name="GLOBAL_SPRINT_LENGTH" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="HAS_SPRINT_CONSTRAINT" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="HEURISTIC_THRESHOLD" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="HOURS_PER_DAY" primaryKey="false" autoIncrement="false" sqlType="8" precision="22" scale="31"/>
+    <column name="ID_OTHER" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="IMPORT_LIMIT" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="INITIATIVE_SYNC_MODE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="LINKING_MODE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="MAX_RESOURCES_PER_STORY" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="MIN_LOAD_UNSTR_EPICS" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="PLANNING_UNIT" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PROG_CMPLT_IF_RSLVD" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="PROG_DSPL_UNEST_RTIO" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="PROG_FIELD_NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PROG_STRY_SUB_TASK_MODE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SPRINT_EXCEEDED_WARN" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="STORY_SYNC_MODE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="STRICT_STAGE_DIVISION" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SUGGEST_REPL_ESTIMATES" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SYNC_DESCRIPTION" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SYNC_EPICS" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SYNC_ESTIMATES" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SYNC_INITIATIVES" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SYNC_START_ENABLED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SYNC_STORIES" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SYNC_SUMMARY" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="TEMPLATE_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <foreignKey fromTable="AO_A415DF_AOPLAN_CONFIGURATION" fromColumn="AOPLAN_ID" toTable="AO_A415DF_AOPLAN" toColumn="ID_OTHER"/>
+  </table>

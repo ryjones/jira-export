@@ -1,0 +1,11 @@
+  <data tableName="AO_D9132D_PLANTEAM">
+    <column name="CAPACITY_MEASUREMENT"/>
+    <column name="ID"/>
+    <column name="ISSUE_SOURCE_ID"/>
+    <column name="ITERATION_LENGTH"/>
+    <column name="PLAN_ID"/>
+    <column name="SCHEDULING_MODE"/>
+    <column name="TEAM_ID"/>
+    <column name="VELOCITY"/>
+    <column name="WEEKLY_HOURS"/>
+  </data>

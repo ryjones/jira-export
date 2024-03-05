@@ -1,0 +1,5 @@
+  <data tableName="AO_60DB71_NONWORKINGDAY">
+    <column name="ID"/>
+    <column name="ISO8601_DATE"/>
+    <column name="WORKING_DAYS_ID"/>
+  </data>

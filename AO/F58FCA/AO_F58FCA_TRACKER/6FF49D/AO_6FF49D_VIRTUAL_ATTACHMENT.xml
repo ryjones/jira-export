@@ -1,0 +1,4 @@
+  <data tableName="AO_6FF49D_VIRTUAL_ATTACHMENT">
+    <column name="ID"/>
+    <column name="VIRTUAL_ATTACHMENT_ID"/>
+  </data>

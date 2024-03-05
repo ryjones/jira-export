@@ -1,0 +1,4 @@
+  <table name="AO_AC3877_SETTINGS_VERSION">
+    <column name="TYPE" primaryKey="true" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="VERSION" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+  </table>

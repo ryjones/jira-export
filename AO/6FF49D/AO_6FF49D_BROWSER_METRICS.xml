@@ -1,0 +1,6 @@
+  <table name="AO_6FF49D_BROWSER_METRICS">
+    <column name="CREATED_AT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="METRICS_JSON" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USER_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

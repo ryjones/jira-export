@@ -1,0 +1,6 @@
+  <table name="AO_D9132D_X_PROJECT_VERSION">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="PLAN_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="TITLE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <foreignKey fromTable="AO_D9132D_X_PROJECT_VERSION" fromColumn="PLAN_ID" toTable="AO_D9132D_PLAN" toColumn="ID"/>
+  </table>

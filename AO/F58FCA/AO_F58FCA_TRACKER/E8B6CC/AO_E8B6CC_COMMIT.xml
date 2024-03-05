@@ -1,0 +1,11 @@
+  <data tableName="AO_E8B6CC_COMMIT">
+    <column name="AUTHOR"/>
+    <column name="AUTHOR_AVATAR_URL"/>
+    <column name="DATE"/>
+    <column name="DOMAIN_ID"/>
+    <column name="ID"/>
+    <column name="MERGE"/>
+    <column name="MESSAGE"/>
+    <column name="NODE"/>
+    <column name="RAW_AUTHOR"/>
+  </data>

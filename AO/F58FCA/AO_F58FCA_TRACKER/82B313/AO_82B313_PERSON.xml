@@ -1,0 +1,8 @@
+  <data tableName="AO_82B313_PERSON">
+    <column name="AVATAR_URL"/>
+    <column name="END"/>
+    <column name="ID"/>
+    <column name="JIRA_USER_ID"/>
+    <column name="START"/>
+    <column name="TITLE"/>
+  </data>

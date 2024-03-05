@@ -1,0 +1,7 @@
+  <table name="AO_563AEE_MEDIA_LINK_ENTITY">
+    <column name="DURATION" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="HEIGHT" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="URL" primaryKey="false" autoIncrement="false" sqlType="12" precision="450"/>
+    <column name="WIDTH" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+  </table>

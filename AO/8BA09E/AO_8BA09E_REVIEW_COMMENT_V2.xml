@@ -1,0 +1,13 @@
+  <table name="AO_8BA09E_REVIEW_COMMENT_V2">
+    <column name="AUTHOR" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="COMMENT_TEXT" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="COMMENT_TIME" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="COMMIT" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CREATED_ISSUE_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="FILENAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="NEW_LINE_NUMBER" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="OLD_LINE_NUMBER" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="PULL_REQUEST_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="REPO_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+  </table>

@@ -1,0 +1,5 @@
+  <table name="AO_D9132D_VERSION_ENRICHMENT">
+    <column name="DELTA" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ENV_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+  </table>

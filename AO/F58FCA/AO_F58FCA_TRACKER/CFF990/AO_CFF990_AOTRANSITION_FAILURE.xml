@@ -1,0 +1,11 @@
+  <data tableName="AO_CFF990_AOTRANSITION_FAILURE">
+    <column name="ERROR_MESSAGES"/>
+    <column name="FAILURE_TIME"/>
+    <column name="ID"/>
+    <column name="ISSUE_ID"/>
+    <column name="LOG_REFERRAL_HASH"/>
+    <column name="TRANSITION_ID"/>
+    <column name="TRIGGER_ID"/>
+    <column name="USER_KEY"/>
+    <column name="WORKFLOW_ID"/>
+  </data>

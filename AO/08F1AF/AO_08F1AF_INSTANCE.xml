@@ -1,0 +1,19 @@
+  <table name="AO_08F1AF_INSTANCE">
+    <column name="AUTHENTICATION_REQUIRED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="AUTHENTICATION_TOKEN" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="COPIED_FROM" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="CUSTOM_FIELD_VALUES" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="DESCRIPTION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ENCRYPTED_REMOTE_PASSWORD" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="FIELD_VALUES" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="HUB_OBJECTS_VERSION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="ISSUE_TRACKER_URL" primaryKey="false" autoIncrement="false" sqlType="12" precision="450"/>
+    <column name="NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="NODE_INFO_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="PROTOCOL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="REMOTE_PASSWORD" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="REMOTE_USERNAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="STATUS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="URL" primaryKey="false" autoIncrement="false" sqlType="12" precision="450"/>
+  </table>

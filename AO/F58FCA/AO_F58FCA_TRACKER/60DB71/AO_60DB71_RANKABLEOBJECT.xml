@@ -1,0 +1,4 @@
+  <data tableName="AO_60DB71_RANKABLEOBJECT">
+    <column name="ID"/>
+    <column name="TYPE"/>
+  </data>

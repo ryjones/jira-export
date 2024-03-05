@@ -1,0 +1,5 @@
+  <data tableName="AO_D9132D_SCEN_CSTM_FLD_MVAL">
+    <column name="ID"/>
+    <column name="SCENARIO_ISSUE_CUSTOM_FIELD_ID"/>
+    <column name="VALUE"/>
+  </data>

@@ -1,0 +1,11 @@
+  <table name="AO_81F455_PERSONAL_TOKEN">
+    <column name="CREATED_AT" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="EXPIRING_AT" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="HASHED_TOKEN" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="LAST_ACCESSED_AT" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="NOTIFICATION_STATE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TOKEN_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USER_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

@@ -1,0 +1,4 @@
+  <data tableName="AO_6FF49D_TOMBSTONE_ACCOUNT">
+    <column name="AAID"/>
+    <column name="USER_KEY"/>
+  </data>

@@ -1,0 +1,8 @@
+  <data tableName="AO_D9132D_PLAN_USER_PROPERTY">
+    <column name="C_KEY"/>
+    <column name="ID"/>
+    <column name="KEY"/>
+    <column name="PLAN_ID"/>
+    <column name="USER_KEY"/>
+    <column name="VALUE"/>
+  </data>

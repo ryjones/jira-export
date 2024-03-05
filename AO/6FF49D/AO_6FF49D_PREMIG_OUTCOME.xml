@@ -1,0 +1,8 @@
+  <table name="AO_6FF49D_PREMIG_OUTCOME">
+    <column name="CHECK_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="CLOUD_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="LAST_EXECUTION_TIME" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="PHASE_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="PREFLIGHT_CHECK_EXECUTION_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

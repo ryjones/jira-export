@@ -1,0 +1,11 @@
+  <data tableName="AO_D9132D_PLANNED_CAPACITY">
+    <column name="CAPACITY"/>
+    <column name="C_KEY"/>
+    <column name="ID"/>
+    <column name="ITERATION_ID"/>
+    <column name="PLANNING_UNIT"/>
+    <column name="PLAN_ID"/>
+    <column name="SCHEDULING_MODE"/>
+    <column name="SPRINT_ID"/>
+    <column name="TEAM_KEY"/>
+  </data>

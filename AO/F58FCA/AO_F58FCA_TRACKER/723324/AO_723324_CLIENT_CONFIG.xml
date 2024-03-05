@@ -1,0 +1,11 @@
+  <data tableName="AO_723324_CLIENT_CONFIG">
+    <column name="AUTHORIZATION_ENDPOINT"/>
+    <column name="CLIENT_ID"/>
+    <column name="CLIENT_SECRET"/>
+    <column name="DESCRIPTION"/>
+    <column name="ID"/>
+    <column name="NAME"/>
+    <column name="SCOPES"/>
+    <column name="TOKEN_ENDPOINT"/>
+    <column name="TYPE"/>
+  </data>

@@ -1,0 +1,5 @@
+  <data tableName="AO_A415DF_AOCUSTOM_WORDING">
+    <column name="ID_OTHER"/>
+    <column name="WORD_KEY"/>
+    <column name="WORD_VALUE"/>
+  </data>

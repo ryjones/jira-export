@@ -1,0 +1,5 @@
+  <data tableName="AO_D9132D_SCENARIO_ISSUE_RES">
+    <column name="ID"/>
+    <column name="RESOURCE_ITEM_KEY"/>
+    <column name="SCENARIO_ISSUE_ID"/>
+  </data>

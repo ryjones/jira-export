@@ -1,0 +1,11 @@
+  <data tableName="AO_D9132D_SCENARIO_PERSON">
+    <column name="C_KEY"/>
+    <column name="ID"/>
+    <column name="ITEM_KEY"/>
+    <column name="LAST_CHANGE_TIMESTAMP"/>
+    <column name="LAST_CHANGE_USER"/>
+    <column name="SCENARIO_ID"/>
+    <column name="SCENARIO_TYPE"/>
+    <column name="TITLE"/>
+    <column name="TITLE_CHANGED"/>
+  </data>

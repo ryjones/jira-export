@@ -1,0 +1,11 @@
+  <table name="AO_723324_CLIENT_CONFIG">
+    <column name="AUTHORIZATION_ENDPOINT" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CLIENT_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CLIENT_SECRET" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="DESCRIPTION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SCOPES" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="TOKEN_ENDPOINT" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

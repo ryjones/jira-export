@@ -1,0 +1,12 @@
+  <data tableName="AO_6FF49D_GUARDRAILS_RESPONSE">
+    <column name="GUARDRAILS_RESPONSE"/>
+    <column name="GUARDRAILS_RESPONSE_TEXT"/>
+    <column name="GUARDRAILS_RESPONSE_TYPE"/>
+    <column name="ID"/>
+    <column name="JESAT_RESPONSE"/>
+    <column name="JOB_ID"/>
+    <column name="QUERY_ID"/>
+    <column name="QUERY_PRODUCT_TYPE"/>
+    <column name="QUERY_STATUS"/>
+    <column name="SUCCESS"/>
+  </data>

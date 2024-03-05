@@ -1,0 +1,10 @@
+  <data tableName="AO_733371_EVENT_RECIPIENT">
+    <column name="CONSUMER_NAME"/>
+    <column name="CREATED"/>
+    <column name="EVENT_ID"/>
+    <column name="ID"/>
+    <column name="SEND_DATE"/>
+    <column name="STATUS"/>
+    <column name="UPDATED"/>
+    <column name="USER_KEY"/>
+  </data>

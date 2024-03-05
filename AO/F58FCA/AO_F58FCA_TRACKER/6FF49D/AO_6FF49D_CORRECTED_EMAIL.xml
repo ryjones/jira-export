@@ -1,0 +1,13 @@
+  <data tableName="AO_6FF49D_CORRECTED_EMAIL">
+    <column name="CREATED_BY"/>
+    <column name="CREATED_TIMESTAMP"/>
+    <column name="ID"/>
+    <column name="NEW_EMAIL"/>
+    <column name="OLD_EMAIL"/>
+    <column name="TOMBSTONE"/>
+    <column name="TYPE"/>
+    <column name="UPDATED_BY"/>
+    <column name="UPDATED_TIMESTAMP"/>
+    <column name="USER_KEY"/>
+    <column name="USER_NAME"/>
+  </data>

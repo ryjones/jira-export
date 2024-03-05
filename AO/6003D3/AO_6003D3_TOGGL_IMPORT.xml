@@ -1,0 +1,5 @@
+  <table name="AO_6003D3_TOGGL_IMPORT">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="TOGGL_IDS" primaryKey="false" autoIncrement="false" sqlType="12" precision="450"/>
+    <column name="WORKLOG_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+  </table>

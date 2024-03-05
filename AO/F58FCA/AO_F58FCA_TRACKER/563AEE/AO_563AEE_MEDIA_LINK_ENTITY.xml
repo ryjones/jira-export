@@ -1,0 +1,7 @@
+  <data tableName="AO_563AEE_MEDIA_LINK_ENTITY">
+    <column name="DURATION"/>
+    <column name="HEIGHT"/>
+    <column name="ID"/>
+    <column name="URL"/>
+    <column name="WIDTH"/>
+  </data>

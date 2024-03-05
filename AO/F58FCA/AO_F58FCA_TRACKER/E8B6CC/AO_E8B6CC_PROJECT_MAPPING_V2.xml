@@ -1,0 +1,11 @@
+  <data tableName="AO_E8B6CC_PROJECT_MAPPING_V2">
+    <column name="ACCESS_TOKEN"/>
+    <column name="ADMIN_PASSWORD"/>
+    <column name="ADMIN_USERNAME"/>
+    <column name="ID"/>
+    <column name="LAST_COMMIT_DATE"/>
+    <column name="PROJECT_KEY"/>
+    <column name="REPOSITORY_NAME"/>
+    <column name="REPOSITORY_TYPE"/>
+    <column name="REPOSITORY_URL"/>
+  </data>

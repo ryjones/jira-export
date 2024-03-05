@@ -1,0 +1,14 @@
+  <table name="AO_D9132D_SCENARIO_ISSUE_LINKS">
+    <column name="C_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="ITEM_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="LAST_CHANGE_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="LAST_CHANGE_USER" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="LINK_TYPE" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="LINK_TYPE_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SCENARIO_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SCENARIO_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SOURCE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TARGET" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <foreignKey fromTable="AO_D9132D_SCENARIO_ISSUE_LINKS" fromColumn="SCENARIO_ID" toTable="AO_D9132D_SCENARIO" toColumn="ID"/>
+  </table>

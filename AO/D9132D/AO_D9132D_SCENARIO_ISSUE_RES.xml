@@ -1,0 +1,6 @@
+  <table name="AO_D9132D_SCENARIO_ISSUE_RES">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="RESOURCE_ITEM_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SCENARIO_ISSUE_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <foreignKey fromTable="AO_D9132D_SCENARIO_ISSUE_RES" fromColumn="SCENARIO_ISSUE_ID" toTable="AO_D9132D_SCENARIO_ISSUES" toColumn="ID"/>
+  </table>

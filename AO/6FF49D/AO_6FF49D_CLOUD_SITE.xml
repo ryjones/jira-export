@@ -1,0 +1,9 @@
+  <table name="AO_6FF49D_CLOUD_SITE">
+    <column name="CLOUD_EDITION" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CLOUD_ID" primaryKey="true" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CLOUD_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="CLOUD_URL" primaryKey="false" autoIncrement="false" sqlType="12" precision="450"/>
+    <column name="CONTAINER_TOKEN" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PRODUCTS_JSON" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="UPDATED_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+  </table>

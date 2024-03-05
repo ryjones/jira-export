@@ -1,0 +1,9 @@
+  <table name="AO_5D285B_IMPORT_MAPPING">
+    <column name="CREATED_AT" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="ISSUE_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TOGGL_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="UPDATED_AT" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="USER_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="WORKLOG_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

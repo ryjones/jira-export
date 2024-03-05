@@ -1,0 +1,9 @@
+  <table name="AO_6FF49D_ACTUAL_MIG_COUNTS">
+    <column name="ENTITY_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="EXECUTION_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="FAIL_COUNT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="PROJECT_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SUCCESS_COUNT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="TOTAL_COUNT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+  </table>

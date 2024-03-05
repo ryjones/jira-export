@@ -1,0 +1,7 @@
+  <data tableName="AO_0A5972_NOTIFICATION_SETTING">
+    <column name="ID"/>
+    <column name="KEY"/>
+    <column name="TYPE"/>
+    <column name="USER_KEY"/>
+    <column name="VALUE"/>
+  </data>

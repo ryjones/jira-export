@@ -1,0 +1,17 @@
+  <table name="AO_E8B6CC_PULL_REQUEST">
+    <column name="AUTHOR" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="COMMENT_COUNT" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="CREATED_ON" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="DESTINATION_BRANCH" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="DOMAIN_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="EXECUTED_BY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="LAST_STATUS" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="NAME" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="REMOTE_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SOURCE_BRANCH" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SOURCE_REPO" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TO_REPOSITORY_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="UPDATED_ON" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="URL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

@@ -1,0 +1,7 @@
+  <table name="AO_A415DF_AOREPLANNING">
+    <column name="ID_OTHER" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="TARGET_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TARGET_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="WORK_ITEM_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <foreignKey fromTable="AO_A415DF_AOREPLANNING" fromColumn="WORK_ITEM_ID" toTable="AO_A415DF_AOWORK_ITEM" toColumn="ID_OTHER"/>
+  </table>

@@ -1,0 +1,20 @@
+  <table name="AO_E8B6CC_CHANGESET_MAPPING">
+    <column name="AUTHOR" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="AUTHOR_EMAIL" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="BRANCH" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="DATE" primaryKey="false" autoIncrement="false" sqlType="93" precision="19"/>
+    <column name="FILES_DATA" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="FILE_COUNT" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="FILE_DETAILS_JSON" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="ISSUE_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="MESSAGE" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="NODE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PARENTS_DATA" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PROJECT_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="RAW_AUTHOR" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="RAW_NODE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="REPOSITORY_ID" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="SMARTCOMMIT_AVAILABLE" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="VERSION" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+  </table>

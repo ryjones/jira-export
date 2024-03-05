@@ -1,0 +1,8 @@
+  <data tableName="AO_D9132D_PERMISSIONS">
+    <column name="HOLDER_KEY"/>
+    <column name="HOLDER_TYPE"/>
+    <column name="ID"/>
+    <column name="PERMISSION"/>
+    <column name="PLAN_ID"/>
+    <column name="PROGRAM_ID"/>
+  </data>

@@ -1,0 +1,6 @@
+  <table name="AO_D9132D_CONFIGURATION">
+    <column name="HIERARCHY_ISSUE_LIMIT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="ISSUE_LIMIT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="PROJECT_LIMIT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+  </table>

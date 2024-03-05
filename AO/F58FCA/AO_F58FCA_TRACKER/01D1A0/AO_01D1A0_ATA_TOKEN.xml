@@ -1,0 +1,34 @@
+  <data tableName="AO_01D1A0_ATA_TOKEN">
+    <column name="CREATED"/>
+    <column name="CREATED_BY_USER_KEY"/>
+    <column name="DESCRIPTION"/>
+    <column name="ID"/>
+    <column name="LAST_ACCESSED"/>
+    <column name="TOKEN"/>
+    <column name="TOKEN_KEY"/>
+    <column name="TOKEN_SCOPE"/>
+    <column name="TOKEN_VERSION"/>
+    <column name="USER_KEY"/>
+    <column name="VALID_UNTIL"/>
+    <column name="RATE_LIMIT_BUCKET_LIFETIME"/>
+    <column name="HEADER_VALUE_ACCESS_RULES"/>
+    <column name="ALLOWED_IP_RANGES"/>
+    <column name="RATE_LIMIT_BUCKET_SIZE"/>
+    <row>
+      <integer>1617016078058</integer>
+      <string>JIRAUSER21467</string>
+      <string>Morris</string>
+      <integer>3</integer>
+      <integer>1632913303327</integer>
+      <string>$2a$10$Zq7EUcqbHSIOXJSQU1HNPOfevNKSDGGMj0t8Bc9NV6t3z9iFsLzgO</string>
+      <string>xYfEXxdG</string>
+      <integer>1</integer>
+      <string>1.6.3</string>
+      <string>JIRAUSER21467</string>
+      <integer>1632913678058</integer>
+      <integer>0</integer>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer>0</integer>
+    </row>
+  </data>

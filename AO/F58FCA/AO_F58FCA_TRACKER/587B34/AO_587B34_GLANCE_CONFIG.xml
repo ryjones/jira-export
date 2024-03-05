@@ -1,0 +1,8 @@
+  <data tableName="AO_587B34_GLANCE_CONFIG">
+    <column name="ROOM_ID"/>
+    <column name="STATE"/>
+    <column name="SYNC_NEEDED"/>
+    <column name="JQL"/>
+    <column name="APPLICATION_USER_KEY"/>
+    <column name="NAME"/>
+  </data>

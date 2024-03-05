@@ -1,0 +1,5 @@
+  <data tableName="AO_6003D3_TOGGL_IMPORT">
+    <column name="ID"/>
+    <column name="TOGGL_IDS"/>
+    <column name="WORKLOG_ID"/>
+  </data>

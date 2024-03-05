@@ -1,0 +1,6 @@
+  <data tableName="AO_E8B6CC_BRANCH_HEAD_MAPPING">
+    <column name="BRANCH_NAME"/>
+    <column name="HEAD"/>
+    <column name="ID"/>
+    <column name="REPOSITORY_ID"/>
+  </data>

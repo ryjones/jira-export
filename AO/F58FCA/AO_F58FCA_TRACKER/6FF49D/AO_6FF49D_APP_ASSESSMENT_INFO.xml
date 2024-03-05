@@ -1,0 +1,8 @@
+  <data tableName="AO_6FF49D_APP_ASSESSMENT_INFO">
+    <column name="ALTERNATIVE_APP_KEY"/>
+    <column name="APP_KEY"/>
+    <column name="MIGRATION_NOTES"/>
+    <column name="MIGRATION_STATUS"/>
+    <column name="ACCESS_SCOPES"/>
+    <column name="CONSENT"/>
+  </data>

@@ -1,0 +1,6 @@
+  <data tableName="AO_6FF49D_SKIP_PREFLT_RESULT">
+    <column name="CHECK_ID"/>
+    <column name="EXECUTION_ID"/>
+    <column name="ID"/>
+    <column name="LAST_EXECUTION_TIME"/>
+  </data>

@@ -1,0 +1,58 @@
+  <table name="AO_D9132D_SCENARIO_ISSUES">
+    <column name="ASSIGNEE_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ASSIGNEE_ID_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="BASELINE_END" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="BASELINE_END_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="BSLN_EARLIEST_START" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="BSLN_EARLIEST_START_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="COMPONENTS_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="CREATED" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="C_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="DESCRIPTION" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+    <column name="DESCRIPTION_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="DISTRIBUTION_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="DUE_DATE" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="DUE_DATE_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="EARLIEST_START" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="EARLIEST_START_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="ITEM_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="LABELS_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="LAST_CHANGE_TIMESTAMP" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="LAST_CHANGE_USER" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="LATER_RELEASE" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="LATER_RELEASE_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="ORIG_DIST_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="ORIG_STPTS_ESTIMATE" primaryKey="false" autoIncrement="false" sqlType="8" precision="22" scale="31"/>
+    <column name="ORIG_STPTS_ESTIMATE_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="ORIG_TIME_ESTIMATE" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ORIG_TIME_ESTIMATE_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="PARENT_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PARENT_ID_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="PRIORITY_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="PRIORITY_ID_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="PROJECT_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="PROJECT_ID_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="RESOURCES_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="SCENARIO_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="SCENARIO_TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SPRINT_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="SPRINT_ID_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="STATUS_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="STATUS_ID_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="STORY_POINTS_ESTIMATE" primaryKey="false" autoIncrement="false" sqlType="8" precision="22" scale="31"/>
+    <column name="STORY_POINTS_ESTIMATE_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="TEAM_ID_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="TEAM_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="THEME_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="THEME_ID_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="TIME_ESTIMATE" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="TIME_ESTIMATE_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="TITLE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TITLE_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="TYPE_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="TYPE_ID_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <column name="VERSION_ID" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="VERSION_ID_CHANGED" primaryKey="false" autoIncrement="false" sqlType="-7" precision="1"/>
+    <foreignKey fromTable="AO_D9132D_SCENARIO_ISSUES" fromColumn="SCENARIO_ID" toTable="AO_D9132D_SCENARIO" toColumn="ID"/>
+  </table>

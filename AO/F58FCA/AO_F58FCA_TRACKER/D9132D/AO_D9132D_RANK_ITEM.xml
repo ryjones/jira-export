@@ -1,0 +1,7 @@
+  <data tableName="AO_D9132D_RANK_ITEM">
+    <column name="DOMAIN"/>
+    <column name="ID"/>
+    <column name="KEY"/>
+    <column name="RANGE_ID"/>
+    <column name="UNIQUE"/>
+  </data>

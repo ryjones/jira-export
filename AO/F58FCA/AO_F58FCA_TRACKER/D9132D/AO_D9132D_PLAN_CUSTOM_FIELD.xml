@@ -1,0 +1,7 @@
+  <data tableName="AO_D9132D_PLAN_CUSTOM_FIELD">
+    <column name="CUSTOM_FIELD_ID"/>
+    <column name="C_KEY"/>
+    <column name="FILTERING_ALLOWED"/>
+    <column name="ID"/>
+    <column name="PLAN_ID"/>
+  </data>

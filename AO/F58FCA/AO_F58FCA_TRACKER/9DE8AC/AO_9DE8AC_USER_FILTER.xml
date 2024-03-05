@@ -1,0 +1,720 @@
+  <data tableName="AO_9DE8AC_USER_FILTER">
+    <column name="BOARD_ID"/>
+    <column name="DESCRIPTION"/>
+    <column name="FILTER_POSITION"/>
+    <column name="FILTER_TYPE"/>
+    <column name="ID"/>
+    <column name="JQL"/>
+    <column name="NAME"/>
+    <column name="USER_KEY"/>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>4</integer>
+      <integer>100</integer>
+      <integer>127</integer>
+      <string>project = Transact AND "Epic Link" = null</string>
+      <string>Transact No Epic</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>7</integer>
+      <integer>100</integer>
+      <integer>128</integer>
+      <string>project = Sawtooth AND "Epic Link" = null</string>
+      <string>Sawtooth No Epic</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>12</integer>
+      <integer>100</integer>
+      <integer>129</integer>
+      <string>project = Grid AND "Epic Link" = null</string>
+      <string>Grid No Epic</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>2</integer>
+      <integer>100</integer>
+      <integer>208</integer>
+      <string>"Epic Link" = TX-5 </string>
+      <string>Bootstrap HL Transact</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>3</integer>
+      <integer>100</integer>
+      <integer>209</integer>
+      <string>"Epic Link" = TX-3 </string>
+      <string>Parity w/Sawtooth</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>5</integer>
+      <integer>100</integer>
+      <integer>210</integer>
+      <string>"Epic Link" = STL-1539 </string>
+      <string>Sawtooth 1.2 (Chime)</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>8</integer>
+      <integer>100</integer>
+      <integer>212</integer>
+      <string>"Epic Link" = GRID-28 </string>
+      <string>Grid Schema</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>9</integer>
+      <integer>100</integer>
+      <integer>215</integer>
+      <string>"Epic Link" = GRID-19 </string>
+      <string>Grid Product</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>10</integer>
+      <integer>100</integer>
+      <integer>216</integer>
+      <string>"Epic Link" = GRID-63 </string>
+      <string>Grid Documentation</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>14</integer>
+      <integer>100</integer>
+      <integer>218</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = satelander </string>
+      <string>Shannyn</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>15</integer>
+      <integer>100</integer>
+      <integer>219</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = mfford  </string>
+      <string>Mark</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>16</integer>
+      <integer>100</integer>
+      <integer>220</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = amundson </string>
+      <string>Shawn</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>17</integer>
+      <integer>100</integer>
+      <integer>221</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = ltseeley  </string>
+      <string>Logan</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>18</integer>
+      <integer>100</integer>
+      <integer>222</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = achenette  </string>
+      <string>Anne</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>19</integer>
+      <integer>100</integer>
+      <integer>223</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = eloafran </string>
+      <string>Eloa</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>20</integer>
+      <integer>100</integer>
+      <integer>224</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = newhall </string>
+      <string>Davey</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>21</integer>
+      <integer>100</integer>
+      <integer>225</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = rberg2  </string>
+      <string>Richard</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>22</integer>
+      <integer>100</integer>
+      <integer>226</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = dplumb  </string>
+      <string>Darian</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>23</integer>
+      <integer>100</integer>
+      <integer>227</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = ryanbeck </string>
+      <string>Ryan BB</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>24</integer>
+      <integer>100</integer>
+      <integer>228</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = RobinBanks </string>
+      <string>Ryan </string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>25</integer>
+      <integer>100</integer>
+      <integer>229</integer>
+      <string>project in  (Grid, Transact, Sawtooth)  AND assignee = agunde </string>
+      <string>Andi</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>26</integer>
+      <integer>100</integer>
+      <integer>260</integer>
+      <string>assignee = adeeb.ahmed </string>
+      <string>Adeeb</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>27</integer>
+      <integer>100</integer>
+      <integer>261</integer>
+      <string>assignee = mattp </string>
+      <string>Matt</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>2</integer>
+      <integer>102</integer>
+      <integer>262</integer>
+      <string>"Epic Link" = TX-5 </string>
+      <string>Bootstrap HL Transact</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>3</integer>
+      <integer>102</integer>
+      <integer>263</integer>
+      <string>"Epic Link" = TX-3 </string>
+      <string>Parity w/Sawtooth</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>4</integer>
+      <integer>102</integer>
+      <integer>264</integer>
+      <string>project = Transact AND "Epic Link" = null</string>
+      <string>Transact No Epic</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>5</integer>
+      <integer>102</integer>
+      <integer>265</integer>
+      <string>"Epic Link" = STL-1539 </string>
+      <string>Sawtooth 1.2 (Chime)</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>8</integer>
+      <integer>102</integer>
+      <integer>266</integer>
+      <string>project = Sawtooth AND "Epic Link" = null</string>
+      <string>Sawtooth No Epic</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>9</integer>
+      <integer>102</integer>
+      <integer>267</integer>
+      <string>"Epic Link" = GRID-37 </string>
+      <string>Grid Sabre Support</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>10</integer>
+      <integer>102</integer>
+      <integer>268</integer>
+      <string>"Epic Link" = GRID-28 </string>
+      <string>Grid Schema</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>11</integer>
+      <integer>102</integer>
+      <integer>269</integer>
+      <string>"Epic Link" = GRID-12 </string>
+      <string>Bootstrap Hyperledger Grid</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>12</integer>
+      <integer>102</integer>
+      <integer>270</integer>
+      <string>"Epic Link" = GRID-10 </string>
+      <string>Integrate Track &amp; Trace</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>13</integer>
+      <integer>102</integer>
+      <integer>271</integer>
+      <string>"Epic Link" = GRID-19 </string>
+      <string>Grid Product</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>14</integer>
+      <integer>102</integer>
+      <integer>272</integer>
+      <string>"Epic Link" = GRID-63 </string>
+      <string>Grid Documentation</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>16</integer>
+      <integer>102</integer>
+      <integer>273</integer>
+      <string>"Epic Link" = GRID-61 </string>
+      <string>Grid Location</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>17</integer>
+      <integer>102</integer>
+      <integer>274</integer>
+      <string>project = Grid AND "Epic Link" = null</string>
+      <string>Grid No Epic</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>18</integer>
+      <integer>102</integer>
+      <integer>275</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = satelander </string>
+      <string>Shannyn</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>19</integer>
+      <integer>102</integer>
+      <integer>276</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = mfford  </string>
+      <string>Mark</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>20</integer>
+      <integer>102</integer>
+      <integer>277</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = amundson </string>
+      <string>Shawn</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>21</integer>
+      <integer>102</integer>
+      <integer>278</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = ltseeley  </string>
+      <string>Logan</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>22</integer>
+      <integer>102</integer>
+      <integer>279</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = achenette  </string>
+      <string>Anne</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>23</integer>
+      <integer>102</integer>
+      <integer>280</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = eloafran </string>
+      <string>Eloa</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>24</integer>
+      <integer>102</integer>
+      <integer>281</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = newhall </string>
+      <string>Davey</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>25</integer>
+      <integer>102</integer>
+      <integer>282</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = rberg2  </string>
+      <string>Richard</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>26</integer>
+      <integer>102</integer>
+      <integer>283</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = dplumb  </string>
+      <string>Darian</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>27</integer>
+      <integer>102</integer>
+      <integer>284</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = ryanbeck </string>
+      <string>Ryan BB</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>28</integer>
+      <integer>102</integer>
+      <integer>285</integer>
+      <string>project in  (Grid, Transact, Sawtooth) AND assignee = RobinBanks </string>
+      <string>Ryan </string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>29</integer>
+      <integer>102</integer>
+      <integer>286</integer>
+      <string>project in  (Grid, Transact, Sawtooth)  AND assignee = agunde </string>
+      <string>Andi</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>30</integer>
+      <integer>102</integer>
+      <integer>287</integer>
+      <string>assignee = adeeb.ahmed </string>
+      <string>Adeeb</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>31</integer>
+      <integer>102</integer>
+      <integer>288</integer>
+      <string>assignee = mattp </string>
+      <string>Matt</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <integer>102</integer>
+      <integer>291</integer>
+      <string>labels = help-wanted </string>
+      <string>Help Wanted</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>13</integer>
+      <integer>100</integer>
+      <integer>292</integer>
+      <string>labels = help-wanted </string>
+      <string>Help Wanted</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>7</integer>
+      <integer>102</integer>
+      <integer>293</integer>
+      <string>"Epic Link" = STL-1588 </string>
+      <string>Sabre 1.0</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>6</integer>
+      <integer>100</integer>
+      <integer>294</integer>
+      <string>"Epic Link" = STL-1620 </string>
+      <string>Simplified API for State/SDE</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>6</integer>
+      <integer>102</integer>
+      <integer>295</integer>
+      <string>"Epic Link" = STL-1620 </string>
+      <string>Simplified API for State/SDE</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>15</integer>
+      <integer>102</integer>
+      <integer>297</integer>
+      <string>"Epic Link" = GRID-94 </string>
+      <string>Grid Catalog</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>11</integer>
+      <integer>100</integer>
+      <integer>298</integer>
+      <string>"Epic Link" = GRID-94 </string>
+      <string>Grid Catalog</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>214</integer>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <integer>3</integer>
+      <integer>299</integer>
+      <string>project = IR AND status != Closed ORDER BY updated DESC, created DESC</string>
+      <string>Open epics</string>
+      <string>ekovalev</string>
+    </row>
+    <row>
+      <integer>236</integer>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <integer>2</integer>
+      <integer>300</integer>
+      <string>labels = next-gen-ci</string>
+      <string>Label Filter</string>
+      <string>btl5037</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string/>
+      <integer>1</integer>
+      <integer>2</integer>
+      <integer>301</integer>
+      <string>project in (GRID, STL, TX) AND status in ("To Do", Backlog) AND assignee in (EMPTY)</string>
+      <string>Transact</string>
+      <string>josephnicholas</string>
+    </row>
+    <row>
+      <integer>232</integer>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <integer>100</integer>
+      <integer>302</integer>
+      <string>"Epic Link" = STL-1688 </string>
+      <string>Sawtooth Contrib Repo</string>
+      <string>mfford</string>
+    </row>
+    <row>
+      <integer>127</integer>
+      <string/>
+      <integer>2</integer>
+      <integer>2</integer>
+      <integer>303</integer>
+      <string>project in (FAB, FABCG, FABJ, FABN)</string>
+      <string>Fabric</string>
+      <string>senthilkumarr</string>
+    </row>
+    <row>
+      <integer>127</integer>
+      <string/>
+      <integer>2</integer>
+      <integer>1</integer>
+      <integer>304</integer>
+      <string>project in (FAB, FABCG, FABJ, FABN)</string>
+      <string>Fabric</string>
+      <string>senthilkumarr</string>
+    </row>
+    <row>
+      <integer>127</integer>
+      <string/>
+      <integer>1</integer>
+      <integer>1</integer>
+      <integer>305</integer>
+      <string>project in (FAB, FABG, FABC, FABCG, FABCJ, FABCN, FGJ, FABJ, FABN)</string>
+      <string>fab</string>
+      <string>senthilkumarr</string>
+    </row>
+    <row>
+      <integer>127</integer>
+      <string/>
+      <integer>1</integer>
+      <integer>2</integer>
+      <integer>306</integer>
+      <string>project in (FAB, FABG, FABC, FABCG, FABCJ, FABCN, FGJ, FABJ, FABN)</string>
+      <string>fab</string>
+      <string>senthilkumarr</string>
+    </row>
+    <row>
+      <integer>119</integer>
+      <string/>
+      <integer>1</integer>
+      <integer>2</integer>
+      <integer>307</integer>
+      <string>component = fabric-docs AND labels  = stale-item</string>
+      <string>Stale items filter</string>
+      <string>pandrejko</string>
+    </row>
+    <row>
+      <integer>71</integer>
+      <string/>
+      <integer>1</integer>
+      <integer>1</integer>
+      <integer>308</integer>
+      <string>project = FAB AND issuetype = Story AND created &gt;= 2019-11-30 AND created &lt;= 2020-01-21 AND assignee in (EMPTY)</string>
+      <string>issue-filter</string>
+      <string>sahaparamjit</string>
+    </row>
+    <row>
+      <integer>253</integer>
+      <string>Dev Experience External</string>
+      <integer>1</integer>
+      <integer>1</integer>
+      <integer>310</integer>
+      <string>project in (FABCN, FABCAG, FABN, FABCJ, FABJ, FGJ, FABG) AND labels = external</string>
+      <string>external</string>
+      <string>lesleyannj</string>
+    </row>
+    <row>
+      <integer>214</integer>
+      <string>Filter for the backlog of the Iroha version 2</string>
+      <integer>1</integer>
+      <integer>2</integer>
+      <integer>311</integer>
+      <string>project = IR AND labels = iroha-2</string>
+      <string>Iroha 2 tasks</string>
+      <string>vadimreutskiy</string>
+    </row>
+    <row>
+      <integer>214</integer>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <integer>102</integer>
+      <integer>312</integer>
+      <string>project = IR AND labels = iroha-2</string>
+      <string>Iroha 2 tasks</string>
+      <string>vadimreutskiy</string>
+    </row>
+    <row>
+      <integer>214</integer>
+      <string xsi:nil="true"/>
+      <integer>1</integer>
+      <integer>100</integer>
+      <integer>313</integer>
+      <string>project = IR AND labels = iroha-2</string>
+      <string>Iroha 2 tasks</string>
+      <string>vadimreutskiy</string>
+    </row>
+  </data>

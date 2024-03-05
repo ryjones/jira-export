@@ -1,0 +1,364 @@
+  <data tableName="AO_08F1AF_ERROR">
+    <column name="ACT_TYPE"/>
+    <column name="BLOB_EVENT_ID"/>
+    <column name="BLOB_REQUEST_ID"/>
+    <column name="CONNECT_REMOTE_ISSUE_URN"/>
+    <column name="CREATION_TIME"/>
+    <column name="ERROR_ENTITY_TYPE"/>
+    <column name="ID"/>
+    <column name="INSTANCE_ID"/>
+    <column name="ISSUE_ID"/>
+    <column name="RELATION_ID"/>
+    <column name="ROOT_CAUSE_DETAILS"/>
+    <column name="ROOT_CAUSE_DETAIL_TEXT"/>
+    <column name="ROOT_CAUSE_ERROR_TYPE_NAME"/>
+    <column name="STACK_TRACE"/>
+    <column name="SYNC_EVENT_ID"/>
+    <column name="SYNC_REQUEST_ID"/>
+    <column name="REMOTE_ISSUE_ID"/>
+    <column name="CONNECT_CONTEXT_ID"/>
+    <column name="REMOTE_ISSUE_URN"/>
+    <column name="ISSUE_URN"/>
+    <column name="FAIL_TO_EXALATE_ISSUES"/>
+    <column name="TRIGGER_ID"/>
+    <column name="USERS_DISMISSED"/>
+    <column name="REMOTE_ISSUE_ID_STR"/>
+    <column name="ISSUE_ID_STR"/>
+    <column name="KEY"/>
+    <column name="REMOTE_ENTITY_TYPE"/>
+    <column name="ENTITY_TYPE"/>
+    <column name="FIELD_VALUES"/>
+    <row>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <timestamp>2020-08-18T13:34:38.000Z</timestamp>
+      <string>NODE</string>
+      <integer>1</integer>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>A general error is blocking exalate synchronization, please contact the exalate support team.</string>
+      <string>NullPointerException</string>
+      <string>java.lang.NullPointerException
+	at com.atlassian.jira.ofbiz.sql.ConnectionWrapper.close(ConnectionWrapper.java:79)
+	at com.atlassian.jira.diagnostic.connection.DiagnosticConnection.close(DiagnosticConnection.java:91)
+	at com.atlassian.jira.ofbiz.sql.ConnectionWrapper.close(ConnectionWrapper.java:79)
+	at net.java.ao.DelegateConnectionHandler.close(DelegateConnectionHandler.java:106)
+	at net.java.ao.DelegateConnectionHandler.invoke(DelegateConnectionHandler.java:64)
+	at com.sun.proxy.$Proxy3482.close(Unknown Source)
+	at net.java.ao.Common.closeQuietly(Common.java:521)
+	at net.java.ao.sql.SqlUtils.closeQuietly(SqlUtils.java:117)
+	at net.java.ao.sql.SqlUtils.closeQuietly(SqlUtils.java:133)
+	at net.java.ao.sql.SqlUtils.closeQuietly(SqlUtils.java:139)
+	at net.java.ao.EntityManager.stream(EntityManager.java:832)
+	at com.atlassian.activeobjects.internal.EntityManagedActiveObjects.stream(EntityManagedActiveObjects.java:164)
+	at com.atlassian.activeobjects.osgi.TenantAwareActiveObjects.stream(TenantAwareActiveObjects.java:316)
+	at sun.reflect.GeneratedMethodAccessor734.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.eclipse.gemini.blueprint.service.importer.support.internal.aop.ServiceInvoker.doInvoke(ServiceInvoker.java:56)
+	at org.eclipse.gemini.blueprint.service.importer.support.internal.aop.ServiceInvoker.invoke(ServiceInvoker.java:60)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:136)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:124)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.eclipse.gemini.blueprint.service.util.internal.aop.ServiceTCCLInterceptor.invokeUnprivileged(ServiceTCCLInterceptor.java:70)
+	at org.eclipse.gemini.blueprint.service.util.internal.aop.ServiceTCCLInterceptor.invoke(ServiceTCCLInterceptor.java:53)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.eclipse.gemini.blueprint.service.importer.support.LocalBundleContextAdvice.invoke(LocalBundleContextAdvice.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:136)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:124)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy2341.stream(Unknown Source)
+	at com.exalate.persistence.request.SyncRequestRepository.findRemoteConnectionTwinTraceIds(SyncRequestRepository.java:779)
+	at com.exalate.replication.in.RequestProcessorService.processSyncRequests(RequestProcessorService.java:104)
+	at com.exalate.replication.in.RequestWorker$1.run(RequestWorker.java:88)
+	at com.exalate.node.util.concurrent.ClusteredSensitiveExecutorService$1.run(ClusteredSensitiveExecutorService.java:32)
+	at com.exalate.node.util.concurrent.ClusteredSensitiveExecutorService$1.run(ClusteredSensitiveExecutorService.java:28)
+	at com.exalate.node.util.concurrent.ClusteredSensitiveExecutorService.executeHandlingLocks(ClusteredSensitiveExecutorService.java:54)
+	at com.exalate.node.util.concurrent.ClusteredSensitiveExecutorService.executeHandlingLocks(ClusteredSensitiveExecutorService.java:28)
+	at com.exalate.replication.in.RequestWorker.run(RequestWorker.java:78)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</string>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string>["agrimberg","Jnguyen","askb","valderrv","abaranov","ryjones","jnguyen","hl-admin","choypoy","rday","jsarias"]</string>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <timestamp>2020-09-10T18:10:58.000Z</timestamp>
+      <string>NODE</string>
+      <integer>2</integer>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>A general error is blocking exalate synchronization, please contact the exalate support team.</string>
+      <string>NullPointerException</string>
+      <string>java.lang.NullPointerException
+</string>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string>["agrimberg","Jnguyen","askb","valderrv","abaranov","ryjones","jnguyen","hl-admin","choypoy","rday","jsarias"]</string>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <timestamp>2020-09-10T19:08:32.000Z</timestamp>
+      <string>NODE</string>
+      <integer>3</integer>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>A general error is blocking exalate synchronization, please contact the exalate support team.</string>
+      <string>NullPointerException</string>
+      <string>java.lang.NullPointerException
+</string>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string>["agrimberg","Jnguyen","askb","valderrv","abaranov","ryjones","jnguyen","hl-admin","choypoy","rday","jsarias"]</string>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <timestamp>2022-01-03T01:56:40.000Z</timestamp>
+      <string>NODE</string>
+      <integer>4</integer>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>A general error is blocking exalate synchronization, please contact the exalate support team.</string>
+      <string>NullPointerException</string>
+      <string>java.lang.NullPointerException
+	at com.atlassian.jira.ofbiz.sql.ConnectionWrapper.close(ConnectionWrapper.java:77)
+	at com.atlassian.jira.diagnostic.connection.DiagnosticConnection.close(DiagnosticConnection.java:91)
+	at net.java.ao.DelegateConnectionHandler.close(DelegateConnectionHandler.java:106)
+	at net.java.ao.DelegateConnectionHandler.invoke(DelegateConnectionHandler.java:64)
+	at com.sun.proxy.$Proxy3726.close(Unknown Source)
+	at net.java.ao.Common.closeQuietly(Common.java:521)
+	at net.java.ao.sql.SqlUtils.closeQuietly(SqlUtils.java:117)
+	at net.java.ao.sql.SqlUtils.closeQuietly(SqlUtils.java:133)
+	at net.java.ao.sql.SqlUtils.closeQuietly(SqlUtils.java:139)
+	at net.java.ao.EntityManager.find(EntityManager.java:773)
+	at net.java.ao.EntityManager.find(EntityManager.java:700)
+	at com.atlassian.activeobjects.internal.EntityManagedActiveObjects.find(EntityManagedActiveObjects.java:150)
+	at com.atlassian.activeobjects.osgi.TenantAwareActiveObjects.find(TenantAwareActiveObjects.java:302)
+	at sun.reflect.GeneratedMethodAccessor342.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.eclipse.gemini.blueprint.service.importer.support.internal.aop.ServiceInvoker.doInvoke(ServiceInvoker.java:56)
+	at org.eclipse.gemini.blueprint.service.importer.support.internal.aop.ServiceInvoker.invoke(ServiceInvoker.java:60)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:136)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:124)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.eclipse.gemini.blueprint.service.util.internal.aop.ServiceTCCLInterceptor.invokeUnprivileged(ServiceTCCLInterceptor.java:70)
+	at org.eclipse.gemini.blueprint.service.util.internal.aop.ServiceTCCLInterceptor.invoke(ServiceTCCLInterceptor.java:53)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.eclipse.gemini.blueprint.service.importer.support.LocalBundleContextAdvice.invoke(LocalBundleContextAdvice.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:136)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:124)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy2034.find(Unknown Source)
+	at com.exalate.persistence.event.SyncEventRepository.findCleanupEventsForLocalIssue(SyncEventRepository.java:630)
+	at com.exalate.replication.out.EventProcessorService.processSyncEvents(EventProcessorService.java:117)
+	at com.exalate.replication.out.EventWorker$1.run(EventWorker.java:155)
+	at com.exalate.node.util.concurrent.ClusteredSensitiveExecutorService.lambda$executeHandlingLocks$0(ClusteredSensitiveExecutorService.java:31)
+	at com.exalate.node.util.concurrent.ClusteredSensitiveExecutorService.executeHandlingLocks(ClusteredSensitiveExecutorService.java:52)
+	at com.exalate.node.util.concurrent.ClusteredSensitiveExecutorService.executeHandlingLocks(ClusteredSensitiveExecutorService.java:29)
+	at com.exalate.replication.out.EventWorker.run(EventWorker.java:140)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</string>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string>["askb","Jnguyen","valderrv","abaranov","ryjones","jnguyen","hl-admin","choypoy","rday","jsarias"]</string>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <timestamp>2022-01-03T01:56:57.000Z</timestamp>
+      <string>NODE</string>
+      <integer>5</integer>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>A general error is blocking exalate synchronization, please contact the exalate support team.</string>
+      <string>NullPointerException</string>
+      <string>java.lang.NullPointerException
+	at com.atlassian.jira.ofbiz.sql.ConnectionWrapper.close(ConnectionWrapper.java:77)
+	at com.atlassian.jira.diagnostic.connection.DiagnosticConnection.close(DiagnosticConnection.java:91)
+	at net.java.ao.DelegateConnectionHandler.close(DelegateConnectionHandler.java:106)
+	at net.java.ao.DelegateConnectionHandler.invoke(DelegateConnectionHandler.java:64)
+	at com.sun.proxy.$Proxy3726.close(Unknown Source)
+	at net.java.ao.Common.closeQuietly(Common.java:521)
+	at net.java.ao.sql.SqlUtils.closeQuietly(SqlUtils.java:117)
+	at net.java.ao.sql.SqlUtils.closeQuietly(SqlUtils.java:133)
+	at net.java.ao.sql.SqlUtils.closeQuietly(SqlUtils.java:139)
+	at net.java.ao.EntityManager.stream(EntityManager.java:910)
+	at com.atlassian.activeobjects.internal.EntityManagedActiveObjects.stream(EntityManagedActiveObjects.java:174)
+	at com.atlassian.activeobjects.osgi.TenantAwareActiveObjects.stream(TenantAwareActiveObjects.java:322)
+	at sun.reflect.GeneratedMethodAccessor724.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.eclipse.gemini.blueprint.service.importer.support.internal.aop.ServiceInvoker.doInvoke(ServiceInvoker.java:56)
+	at org.eclipse.gemini.blueprint.service.importer.support.internal.aop.ServiceInvoker.invoke(ServiceInvoker.java:60)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:136)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:124)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.eclipse.gemini.blueprint.service.util.internal.aop.ServiceTCCLInterceptor.invokeUnprivileged(ServiceTCCLInterceptor.java:70)
+	at org.eclipse.gemini.blueprint.service.util.internal.aop.ServiceTCCLInterceptor.invoke(ServiceTCCLInterceptor.java:53)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.eclipse.gemini.blueprint.service.importer.support.LocalBundleContextAdvice.invoke(LocalBundleContextAdvice.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:136)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:124)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy2034.stream(Unknown Source)
+	at com.exalate.persistence.request.SyncRequestRepository.findRemoteConnectionTwinTraceIds(SyncRequestRepository.java:858)
+	at com.exalate.replication.in.RequestProcessorService.processSyncRequests(RequestProcessorService.java:99)
+	at com.exalate.replication.in.RequestWorker$1.run(RequestWorker.java:83)
+	at com.exalate.node.util.concurrent.ClusteredSensitiveExecutorService.lambda$executeHandlingLocks$0(ClusteredSensitiveExecutorService.java:31)
+	at com.exalate.node.util.concurrent.ClusteredSensitiveExecutorService.executeHandlingLocks(ClusteredSensitiveExecutorService.java:52)
+	at com.exalate.node.util.concurrent.ClusteredSensitiveExecutorService.executeHandlingLocks(ClusteredSensitiveExecutorService.java:29)
+	at com.exalate.replication.in.RequestWorker.run(RequestWorker.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</string>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string>["askb","Jnguyen","valderrv","abaranov","ryjones","jnguyen","hl-admin","choypoy","rday","jsarias"]</string>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+    </row>
+    <row>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <timestamp>2022-02-26T10:53:29.000Z</timestamp>
+      <string>NODE</string>
+      <integer>6</integer>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string>A general error is blocking exalate synchronization, please contact the exalate support team.</string>
+      <string>NullPointerException</string>
+      <string>java.lang.NullPointerException
+</string>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string>["Jnguyen","valderrv","abaranov","ryjones","jnguyen","hl-admin","choypoy","rday","jsarias"]</string>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+      <string xsi:nil="true"/>
+    </row>
+  </data>

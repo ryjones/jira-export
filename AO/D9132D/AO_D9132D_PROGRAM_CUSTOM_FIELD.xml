@@ -1,0 +1,7 @@
+  <table name="AO_D9132D_PROGRAM_CUSTOM_FIELD">
+    <column name="CUSTOM_FIELD_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="C_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="PROGRAM_ID" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <foreignKey fromTable="AO_D9132D_PROGRAM_CUSTOM_FIELD" fromColumn="PROGRAM_ID" toTable="AO_D9132D_PROGRAM" toColumn="ID"/>
+  </table>

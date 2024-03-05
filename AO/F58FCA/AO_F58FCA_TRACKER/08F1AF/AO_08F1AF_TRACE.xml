@@ -1,0 +1,260 @@
+  <data tableName="AO_08F1AF_TRACE">
+    <column name="EVENT_FOR_LOCAL_ID"/>
+    <column name="EVENT_FOR_REMOTE_ID"/>
+    <column name="ID"/>
+    <column name="LOCAL_OBJECT_ID"/>
+    <column name="REMOTE_OBJECT_ID"/>
+    <column name="REQUEST_ID"/>
+    <column name="TRACE_TYPE"/>
+    <column name="TWIN_TRACE_ID"/>
+    <column name="TO_SYNCHRONIZE"/>
+    <column name="ACTION"/>
+    <column name="EVENT_ID"/>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer>82</integer>
+      <string>18127</string>
+      <string>10192</string>
+      <integer xsi:nil="true"/>
+      <string>ATTACHMENT</string>
+      <integer>4</integer>
+      <boolean>true</boolean>
+      <string>NONE</string>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer>83</integer>
+      <string>67842</string>
+      <string>14779</string>
+      <integer xsi:nil="true"/>
+      <string>COMMENT</string>
+      <integer>4</integer>
+      <boolean>true</boolean>
+      <string>NONE</string>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer>84</integer>
+      <string>67843</string>
+      <string>14781</string>
+      <integer xsi:nil="true"/>
+      <string>COMMENT</string>
+      <integer>4</integer>
+      <boolean>true</boolean>
+      <string>NONE</string>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer>85</integer>
+      <string>67844</string>
+      <string>14786</string>
+      <integer xsi:nil="true"/>
+      <string>COMMENT</string>
+      <integer>4</integer>
+      <boolean>true</boolean>
+      <string>NONE</string>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer>95</integer>
+      <string>67849</string>
+      <string>14797</string>
+      <integer xsi:nil="true"/>
+      <string>COMMENT</string>
+      <integer>3</integer>
+      <boolean>true</boolean>
+      <string>NONE</string>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer>96</integer>
+      <string>67851</string>
+      <string>14798</string>
+      <integer xsi:nil="true"/>
+      <string>COMMENT</string>
+      <integer>3</integer>
+      <boolean>true</boolean>
+      <string>NONE</string>
+      <integer xsi:nil="true"/>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer>97</integer>
+      <string>68231</string>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string>COMMENT</string>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string>NONE</string>
+      <integer>21</integer>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer>98</integer>
+      <string>68232</string>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string>COMMENT</string>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string>NONE</string>
+      <integer>21</integer>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer>99</integer>
+      <string>68233</string>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string>COMMENT</string>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string>NONE</string>
+      <integer>21</integer>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer>100</integer>
+      <string>68234</string>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string>COMMENT</string>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string>NONE</string>
+      <integer>21</integer>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer>101</integer>
+      <string>68242</string>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string>COMMENT</string>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string>NONE</string>
+      <integer>21</integer>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer>102</integer>
+      <string>68361</string>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string>COMMENT</string>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string>NONE</string>
+      <integer>21</integer>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer>103</integer>
+      <string>68848</string>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string>COMMENT</string>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string>NONE</string>
+      <integer>21</integer>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer>104</integer>
+      <string>69193</string>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string>COMMENT</string>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string>NONE</string>
+      <integer>21</integer>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer>105</integer>
+      <string>69522</string>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string>COMMENT</string>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string>NONE</string>
+      <integer>21</integer>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer>106</integer>
+      <string>69808</string>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string>COMMENT</string>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string>NONE</string>
+      <integer>21</integer>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer>107</integer>
+      <string>69809</string>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string>COMMENT</string>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string>NONE</string>
+      <integer>21</integer>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer>108</integer>
+      <string>69820</string>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string>COMMENT</string>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string>NONE</string>
+      <integer>21</integer>
+    </row>
+    <row>
+      <integer xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <integer>109</integer>
+      <string>69973</string>
+      <string xsi:nil="true"/>
+      <integer xsi:nil="true"/>
+      <string>COMMENT</string>
+      <integer xsi:nil="true"/>
+      <boolean>false</boolean>
+      <string>NONE</string>
+      <integer>21</integer>
+    </row>
+  </data>

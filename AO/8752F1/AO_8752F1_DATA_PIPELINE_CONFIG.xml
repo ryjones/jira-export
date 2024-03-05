@@ -1,0 +1,5 @@
+  <table name="AO_8752F1_DATA_PIPELINE_CONFIG">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="250"/>
+    <column name="VALUE" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+  </table>

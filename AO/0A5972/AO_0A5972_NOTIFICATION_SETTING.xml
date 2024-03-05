@@ -1,0 +1,7 @@
+  <table name="AO_0A5972_NOTIFICATION_SETTING">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="TYPE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="USER_KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+    <column name="VALUE" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

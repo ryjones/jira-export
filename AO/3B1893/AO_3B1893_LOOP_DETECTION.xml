@@ -1,0 +1,6 @@
+  <table name="AO_3B1893_LOOP_DETECTION">
+    <column name="COUNTER" primaryKey="false" autoIncrement="false" sqlType="4" precision="11"/>
+    <column name="EXPIRES_AT" primaryKey="false" autoIncrement="false" sqlType="-5" precision="20"/>
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="4" precision="11"/>
+    <column name="SENDER_EMAIL" primaryKey="false" autoIncrement="false" sqlType="-1" precision="2147483647"/>
+  </table>

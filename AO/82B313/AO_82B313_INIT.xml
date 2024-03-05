@@ -1,0 +1,4 @@
+  <table name="AO_82B313_INIT">
+    <column name="ID" primaryKey="true" autoIncrement="true" sqlType="-5" precision="20"/>
+    <column name="KEY" primaryKey="false" autoIncrement="false" sqlType="12" precision="255"/>
+  </table>

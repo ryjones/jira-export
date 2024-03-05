@@ -1,0 +1,16 @@
+  <data tableName="AO_A415DF_AOTEAM">
+    <column name="AOPLAN_ID"/>
+    <column name="AUTO_ADJUST_TO_ABSENCES"/>
+    <column name="DESCRIPTION"/>
+    <column name="DETAILS"/>
+    <column name="ID_OTHER"/>
+    <column name="INCREMENTAL_ADJUSTMENT"/>
+    <column name="ITERATION_START_TYPE"/>
+    <column name="ORDER_RANGE_IDENTIFIER"/>
+    <column name="PLANNING_MODE"/>
+    <column name="SORT_ORDER"/>
+    <column name="TITLE"/>
+    <column name="VELOCITY"/>
+    <column name="VERSION"/>
+    <column name="WEEKS_PER_SPRINT"/>
+  </data>

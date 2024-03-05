@@ -1,0 +1,10 @@
+  <data tableName="AO_4789DD_PROPERTIES">
+    <column name="ID"/>
+    <column name="PROPERTY_NAME"/>
+    <column name="PROPERTY_VALUE"/>
+    <row>
+      <integer>1</integer>
+      <string>last-run</string>
+      <string>1704728208492</string>
+    </row>
+  </data>
