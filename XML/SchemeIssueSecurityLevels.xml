@@ -1,0 +1,4 @@
+<SchemeIssueSecurityLevels id="10000" name="Security issue" description="" scheme="10001"/> 
+<SchemeIssueSecurityLevels id="10001" name="Not a security issue" description="" scheme="10001"/> 
+<SchemeIssueSecurityLevels id="10100" name="Security issue" description="" scheme="10100"/> 
+<SchemeIssueSecurityLevels id="10101" name="Not a security issue" description="" scheme="10100"/> 

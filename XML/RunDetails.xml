@@ -1,0 +1,100 @@
+<RunDetails id="126911173" jobId="CaesiumSchedulerService.RecoveryJob" startTime="2023-09-09 10:39:25.0" runDuration="7" runOutcome="S" infoMessage=""/> 
+<RunDetails id="127881086" jobId="de.resolution.apitokenauth.scheduler.SchedulerManager:scheduler-manager-removed-jobs-check:b4352f08-1644-4552-bf75-1e7ddb9e8efe" startTime="2023-10-27 16:25:31.0" runDuration="0" runOutcome="S" infoMessage=""/> 
+<RunDetails id="127881627" jobId="de.resolution.apitokenauth.scheduler.SchedulerManager:apiTokenRateLimitResetJob:f11a28c5-ed08-43c4-8456-d39f6fab7e78" startTime="2023-10-27 17:03:50.0" runDuration="1" runOutcome="S" infoMessage=""/> 
+<RunDetails id="128369195" jobId="com.atlassian.atlasplugins.samlsso.cleanup.cleanupjob" startTime="2023-11-20 23:03:03.0" runDuration="15" runOutcome="S" infoMessage=""/> 
+<RunDetails id="128369214" jobId="de.resolution.apitokenauth.scheduler.SchedulerManager:scheduler-manager-removed-jobs-check:48262e8c-5630-47f4-9858-8c4b39339bc8" startTime="2023-11-20 23:04:16.0" runDuration="0" runOutcome="S" infoMessage=""/> 
+<RunDetails id="128369315" jobId="de.resolution.apitokenauth.scheduler.SchedulerManager:apiTokenRateLimitResetJob:58b7854f-ebe7-4620-85ce-b9936ee1dba6" startTime="2023-11-20 23:11:58.0" runDuration="0" runOutcome="S" infoMessage=""/> 
+<RunDetails id="128369318" jobId="com.atlassian.plugins.authentication.impl.basicauth.job.UpdateBasicAuthConfigJob:job" startTime="2023-11-20 23:12:05.0" runDuration="0" runOutcome="U" infoMessage="Job runner key &apos;com.atlassian.plugins.authentication.impl.basicauth.job.UpdateBasicAuthConfigJob&apos; is not registered"/> 
+<RunDetails id="128369436" jobId="12add878-d0ac-4c32-bf9e-7d90313e1fef" startTime="2023-11-22 16:34:46.0" runDuration="6020" runOutcome="S" infoMessage=""/> 
+<RunDetails id="128369509" jobId="59509c3c-9f6d-48a3-8e9b-8cedaca926e9" startTime="2023-11-22 16:34:47.0" runDuration="52656" runOutcome="S" infoMessage=""/> 
+<RunDetails id="128369533" jobId="64bd223a-5c93-4c9b-91cd-0fd2517476ff" startTime="2023-11-22 16:37:38.0" runDuration="940" runOutcome="S" infoMessage=""/> 
+<RunDetails id="128503534" jobId="de.resolution.apitokenauth.scheduler.SchedulerManager:scheduler-manager-removed-jobs-check:16357d2d-325c-4c8b-ac7e-863f56bd47bc" startTime="2023-11-29 16:34:39.0" runDuration="0" runOutcome="S" infoMessage=""/> 
+<RunDetails id="128503881" jobId="de.resolution.apitokenauth.scheduler.SchedulerManager:apiTokenRateLimitResetJob:23335759-e82a-44a7-985e-8ae714866488" startTime="2023-11-29 17:00:35.0" runDuration="0" runOutcome="S" infoMessage=""/> 
+<RunDetails id="128503919" jobId="BundledUpdateCheckJob-job" startTime="2023-11-29 18:35:52.0" runDuration="75" runOutcome="S" infoMessage=""/> 
+<RunDetails id="128503921" jobId="com.atlassian.troubleshooting.jira.scheduler.CustomisationsCheckScheduler:job" startTime="2023-11-29 18:35:51.0" runDuration="904" runOutcome="S" infoMessage=""/> 
+<RunDetails id="128503923" jobId="OidcDiscoveryRefresh:SingleRun" startTime="2023-11-29 18:36:00.0" runDuration="78" runOutcome="S" infoMessage=""/> 
+<RunDetails id="128503924" jobId="com.atlassian.jira.plugins.software.monitor.ApplicationPluginsEnablerJobRunner" startTime="2023-11-29 18:36:00.0" runDuration="7" runOutcome="S" infoMessage=""/> 
+<RunDetails id="128503925" jobId="f4eea83f-6365-4bd7-9465-8721fe005af1" startTime="2023-11-29 18:35:52.0" runDuration="7772" runOutcome="S" infoMessage=""/> 
+<RunDetails id="128504000" jobId="com.atlassian.jira.upgrade.UpgradeService" startTime="2023-11-29 18:36:11.0" runDuration="7142" runOutcome="S" infoMessage=""/> 
+<RunDetails id="128504013" jobId="7913d5c0-bfff-4638-b80f-fe70d7159189" startTime="2023-11-29 18:35:52.0" runDuration="85632" runOutcome="S" infoMessage=""/> 
+<RunDetails id="128504034" jobId="28d6cd04-9ee3-4d34-9c5f-12336a6034fb" startTime="2023-11-29 18:38:50.0" runDuration="1201" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129174343" jobId="jira-migration-analytics-server-analysis-job-id" startTime="2024-01-03 18:44:42.0" runDuration="23738" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129174604" jobId="de.resolution.apitokenauth.jira__reconfigure.analytics.heartbeat" startTime="2024-01-03 19:04:35.0" runDuration="21" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129235978" jobId="browser-metrics-job-id" startTime="2024-01-07 00:00:00.0" runDuration="90" runOutcome="S" infoMessage="browser-metrics-job-id"/> 
+<RunDetails id="129236788" jobId="jira-migration-user-email-analytics-events-collector-job-id" startTime="2024-01-07 01:00:01.0" runDuration="12581" runOutcome="S" infoMessage="User email analytics event collector job finished successfully"/> 
+<RunDetails id="129249192" jobId="LocalPluginLicenseNotificationJob-job" startTime="2024-01-07 16:34:38.0" runDuration="139" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129249193" jobId="InstanceTopologyJob-job" startTime="2024-01-07 16:34:39.0" runDuration="207" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129249194" jobId="de.resolution.usersync.CleanupSyncStatus" startTime="2024-01-07 16:34:39.0" runDuration="13" runOutcome="U" infoMessage="Job runner key &apos;de.resolution.usersync.impl.CleanupSyncStatusJobRunner&apos; is not registered"/> 
+<RunDetails id="129249195" jobId="com.atlassian.atlasplugins.samlsso.configuration.metadata.reloadjob" startTime="2024-01-07 16:34:39.0" runDuration="12" runOutcome="U" infoMessage="Job runner key &apos;com.resolution.atlasplugins.samlsso.configuration.metadata.reload.ReloadMetadataJobRunner&apos; is not registered"/> 
+<RunDetails id="129249199" jobId="PluginUpdateCheckJob-job" startTime="2024-01-07 16:34:39.0" runDuration="7530" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129250809" jobId="TruncateAlertsJobRunner" startTime="2024-01-07 18:35:41.0" runDuration="16" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129250810" jobId="com.atlassian.jira.analytics.scheduler.AnalyticsScheduler" startTime="2024-01-07 18:35:42.0" runDuration="1506" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129250817" jobId="com.atlassian.jira.user.UserHistoryDatabaseCompactor" startTime="2024-01-07 18:35:51.0" runDuration="2" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129250820" jobId="com.bigbrassband.jira.git.jiraservices.jobs.GarbageCollectionJob" startTime="2024-01-07 18:35:52.0" runDuration="14" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129250821" jobId="applink-status-analytics-job" startTime="2024-01-07 18:35:51.0" runDuration="362" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129250828" jobId="HistoryCleanupJob" startTime="2024-01-07 18:36:09.0" runDuration="27" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129250877" jobId="com.atlassian.jira.versioning.VersioningCleanupService" startTime="2024-01-07 18:40:04.0" runDuration="51" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129252628" jobId="com.atlassian.jira.cache.monitor.CacheStatisticsMonitor" startTime="2024-01-07 20:51:53.0" runDuration="1" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129254323" jobId="analytics-collection" startTime="2024-01-07 23:00:00.0" runDuration="179" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129254324" jobId="AnalyticsJob" startTime="2024-01-07 23:00:00.0" runDuration="230" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129254325" jobId="analytics-collection-local" startTime="2024-01-07 23:00:00.0" runDuration="2" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129254329" jobId="com.atlassian.oauth2.client.jobs.TokenPruningJob" startTime="2024-01-07 23:00:01.0" runDuration="117" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129254330" jobId="com.atlassian.oauth2.client.analytics.StatisticsCollectionService" startTime="2024-01-07 23:00:01.0" runDuration="164" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129255123" jobId="AnalyticsBatchEventsPublisherJob" startTime="2024-01-08 00:00:00.0" runDuration="1" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129255125" jobId="ExpiredTokenPruningJob" startTime="2024-01-08 00:00:00.0" runDuration="339" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129255126" jobId="DeletedUserPruningJob" startTime="2024-01-08 00:00:00.0" runDuration="340" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129255128" jobId="JfrSettingsStateAnalyticsTask" startTime="2024-01-08 00:00:01.0" runDuration="2" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129255131" jobId="com.atlassian.jira.plugins.inform.events.cleanup.CleanupJobScheduler" startTime="2024-01-08 00:00:01.0" runDuration="145" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129255132" jobId="com.atlassian.audit.retention.RetentionJobRunner" startTime="2024-01-08 00:00:01.0" runDuration="218" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129255133" jobId="com.atlassian.jira.service.JiraService:10002" startTime="2024-01-08 00:00:01.0" runDuration="68" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129255201" jobId="com.atlassian.analytics.client.upload.S3EventUploader:job" startTime="2024-01-08 00:05:00.0" runDuration="2125" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129255928" jobId="OidcDiscoveryRefresh" startTime="2024-01-08 01:00:00.0" runDuration="186" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129255929" jobId="com.atlassian.jira.issue.subscription.DefaultSubscriptionManager:10000" startTime="2024-01-08 01:00:00.0" runDuration="382" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129255931" jobId="com.atlassian.jira.issue.subscription.DefaultSubscriptionManager:10001" startTime="2024-01-08 01:00:00.0" runDuration="278" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129255933" jobId="com.atlassian.jira.issue.subscription.DefaultSubscriptionManager:10801" startTime="2024-01-08 01:00:01.0" runDuration="177" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129255934" jobId="com.atlassian.jira.issue.subscription.DefaultSubscriptionManager:10800" startTime="2024-01-08 01:00:01.0" runDuration="185" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129256733" jobId="com.atlassian.jira.service.JiraService:10200" startTime="2024-01-08 02:00:00.0" runDuration="1572" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129257528" jobId="com.atlassian.jira.issue.fields.usage.CustomFieldUsageRecalculationJob" startTime="2024-01-08 03:00:00.0" runDuration="187" runOutcome="A" infoMessage="&apos;Issues with value&apos; calculation is disabled for current license"/> 
+<RunDetails id="129260069" jobId="com.atlassian.jira.service.JiraService:10001" startTime="2024-01-08 06:10:00.0" runDuration="63232" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129260398" jobId="ConfigurationLoggerJob" startTime="2024-01-08 06:35:51.0" runDuration="10" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129260538" jobId="com.atlassian.analytics.client.upload.S3EventUploader:job" startTime="2024-01-08 06:46:00.0" runDuration="50" runOutcome="A" infoMessage="Upload has already happened today"/> 
+<RunDetails id="129263581" jobId="Service Provider Session Remover" startTime="2024-01-08 10:35:41.0" runDuration="91" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129265971" jobId="com.atlassian.whisper.plugin.fetch.FetchJob" startTime="2024-01-08 13:35:49.0" runDuration="612" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267074" jobId="com.atlassian.jira.plugins.dvcs.scheduler.DvcsScheduler:job" startTime="2024-01-08 14:58:42.0" runDuration="18" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267088" jobId="ExpiryDateTokenCheckEventJob" startTime="2024-01-08 15:00:00.0" runDuration="460" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267089" jobId="com.atlassian.jira.issue.subscription.DefaultSubscriptionManager:10400" startTime="2024-01-08 15:00:00.0" runDuration="529" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267106" jobId="com.atlassian.jira.apdex.impl.SendAnalyticsJobRunner" startTime="2024-01-08 15:01:00.0" runDuration="1" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267339" jobId="com.atlassian.diagnostics.internal.analytics.DailyAlertAnalyticsJob" startTime="2024-01-08 15:19:00.0" runDuration="126" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267544" jobId="assertionId-cleanup" startTime="2024-01-08 15:34:26.0" runDuration="14" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267545" jobId="jira-migration-access-log-processing-job-id" startTime="2024-01-08 15:34:42.0" runDuration="1" runOutcome="S" infoMessage="jira-migration-access-log-processing-job-id"/> 
+<RunDetails id="129267547" jobId="com.atlassian.audit.schedule.db.limit.DbLimiterJobRunner" startTime="2024-01-08 15:34:46.0" runDuration="46" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267551" jobId="com.atlassian.jira.web.action.issue.DefaultTemporaryWebAttachmentsMonitor" startTime="2024-01-08 15:35:04.0" runDuration="20" runOutcome="S" infoMessage="Removed 0 temporary attachments"/> 
+<RunDetails id="129267563" jobId="JiraPluginScheduler:com.atlassian.jira.plugins.workflow.sharing.file.FileCleaningJob" startTime="2024-01-08 15:35:48.0" runDuration="3" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267564" jobId="CompatibilityPluginScheduler.JobId.com.atlassian.jira.plugins.dvcs.scheduler.DvcsScheduler:job" startTime="2024-01-08 15:35:50.0" runDuration="12" runOutcome="U" infoMessage="Job runner key &apos;CompatibilityPluginScheduler.JobRunnerKey.com.atlassian.jira.plugins.dvcs.scheduler.DvcsScheduler&apos; is not registered"/> 
+<RunDetails id="129267565" jobId="PluginRequestCheckJob-job" startTime="2024-01-08 15:35:51.0" runDuration="17" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267567" jobId="data-provider-cleanup" startTime="2024-01-08 15:35:51.0" runDuration="13" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267568" jobId="com.atlassian.atlasplugins.samlsso.cleanup.cleanupjob" startTime="2024-01-08 15:35:51.0" runDuration="13" runOutcome="U" infoMessage="Job runner key &apos;com.resolution.atlasplugins.samlsso.cleanup.CleanupJobRunner&apos; is not registered"/> 
+<RunDetails id="129267569" jobId="de.resolution.apitokenauth.scheduler.SchedulerManager:scheduler-manager-removed-jobs-check:0296155a-6682-4009-8c15-1094570b4c34" startTime="2024-01-08 15:35:51.0" runDuration="0" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267586" jobId="JiraPluginScheduler:com.atlassian.troubleshooting.healthcheck.scheduler.HealthCheckSchedulerImpl:job" startTime="2024-01-08 15:36:48.0" runDuration="432" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267621" jobId="jira-migration-analytics-events-dispatcher-job-id" startTime="2024-01-08 15:39:42.0" runDuration="105" runOutcome="S" infoMessage="Analytics event dispatching job finished without sending events due to valid container token missing"/> 
+<RunDetails id="129267753" jobId="RateLimitReaperJob" startTime="2024-01-08 15:50:01.0" runDuration="0" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267816" jobId="jira-export-errors-dispatcher-job-id" startTime="2024-01-08 15:54:44.0" runDuration="44" runOutcome="S" infoMessage="User has not agreed with sending errors."/> 
+<RunDetails id="129267817" jobId="JfrScheduledDumpTask" startTime="2024-01-08 15:55:00.0" runDuration="0" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267819" jobId="HistoryFlushJob" startTime="2024-01-08 15:55:07.0" runDuration="0" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267820" jobId="com.atlassian.jira.plugins.inform.batching.cron.BatchNotificationJobSchedulerImpl" startTime="2024-01-08 15:55:18.0" runDuration="19" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267821" jobId="CompatibilityPluginScheduler.JobId.LEXO_RANK_SCHEDULER_JOB" startTime="2024-01-08 15:55:21.0" runDuration="15" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267822" jobId="JiraPluginScheduler:LEXO_RANK_STATS_COLLECTOR_JOB" startTime="2024-01-08 15:55:21.0" runDuration="0" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267823" jobId="class com.atlassian.scheduler.core.util.JobRunnerRegistry:com.atlassian.cluster.monitoring.cluster-monitoring-plugin:runtime-information" startTime="2024-01-08 15:55:21.0" runDuration="1" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267824" jobId="com.atlassian.jira.plugin.cluster.monitoring.internal.job.ApplicationStatusCollector" startTime="2024-01-08 15:55:21.0" runDuration="0" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267825" jobId="LastAccessedTimeBatcherJob" startTime="2024-01-08 15:55:22.0" runDuration="0" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267826" jobId="com.atlassian.jira.plugin.ext.bamboo.service.PlanStatusUpdateJob-job" startTime="2024-01-08 15:55:23.0" runDuration="13" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267827" jobId="SettingsReloaderJob" startTime="2024-01-08 15:55:23.0" runDuration="9" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267828" jobId="com.atlassian.plugins.authentication.basicauth.job.UpdateBasicAuthConfigJob:job" startTime="2024-01-08 15:55:24.0" runDuration="0" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267829" jobId="de.resolution.apitokenauth.scheduler.SchedulerManager:apiTokenRateLimitResetJob:2053b241-a601-4473-b21c-38b797992e07" startTime="2024-01-08 15:55:24.0" runDuration="0" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267830" jobId="com.bigbrassband.jira.git.jiraservices.jobs.FlushIndexedRevisionsCacheJob" startTime="2024-01-08 15:55:51.0" runDuration="1" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267831" jobId="class com.atlassian.scheduler.core.util.JobRunnerRegistry:com.atlassian.cluster.monitoring.cluster-monitoring-plugin:system-information" startTime="2024-01-08 15:55:56.0" runDuration="1" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267832" jobId="data-provider-poll" startTime="2024-01-08 15:55:56.0" runDuration="12" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267833" jobId="com.bigbrassband.jira.git.jiraservices.jobs.RevisionIndexJob" startTime="2024-01-08 15:55:59.0" runDuration="15" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267834" jobId="com.bigbrassband.jira.git.services.permissions.GitRepositoryPermissionManager" startTime="2024-01-08 15:56:00.0" runDuration="0" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267835" jobId="com.atlassian.jira.service.JiraService:10000" startTime="2024-01-08 15:56:00.0" runDuration="1" runOutcome="S" infoMessage=""/> 
+<RunDetails id="129267836" jobId="com.atlassian.crowd.manager.directory.monitor.DirectoryMonitorRefresherStarter-job" startTime="2024-01-08 15:56:08.0" runDuration="14" runOutcome="S" infoMessage=""/> 

@@ -1,0 +1,36 @@
+<Status id="1" sequence="1" name="Open" description="The issue is open and ready for the assignee to start work on it." iconurl="/images/icons/statuses/open.png" statuscategory="2"/> 
+<Status id="10000" sequence="7" name="To Do" description="Ready to be worked" iconurl="/" statuscategory="2"/> 
+<Status id="10001" sequence="8" name="Complete" description="Issue resolution was completed normally. Items that are WONTFIX should be marked Closed." iconurl="/" statuscategory="3"/> 
+<Status id="10002" sequence="9" name="In Review" description="A Gerrit CR has been submitted and is being reviewed." iconurl="/" statuscategory="4"/> 
+<Status id="10100" sequence="10" name="Backlog" description="Indicates that the issue has not been planned" iconurl="/" statuscategory="2"/> 
+<Status id="10200" sequence="11" name="New" iconurl="/images/icons/statuses/generic.png" statuscategory="2"/> 
+<Status id="10201" sequence="12" name="Monitor / On Hold" iconurl="/images/icons/status_generic.gif" statuscategory="4"/> 
+<Status id="10300" sequence="13" name="Unverified" description="This status is managed internally by JIRA Software" iconurl="/" statuscategory="2"/> 
+<Status id="10400" sequence="14" name="Code Review" iconurl="/images/icons/status_generic.gif" statuscategory="4"/> 
+<Status id="10401" sequence="15" name="Customer Validation" iconurl="/images/icons/status_generic.gif" statuscategory="4"/> 
+<Status id="10402" sequence="16" name="Design" iconurl="/images/icons/status_generic.gif" statuscategory="4"/> 
+<Status id="10403" sequence="17" name="Icebox" iconurl="/images/icons/status_generic.gif" statuscategory="3"/> 
+<Status id="10404" sequence="18" name="Invalid" iconurl="/images/icons/status_generic.gif" statuscategory="3"/> 
+<Status id="10405" sequence="19" name="To Develop" iconurl="/images/icons/status_generic.gif" statuscategory="2"/> 
+<Status id="10406" sequence="20" name="To Test" iconurl="/images/icons/status_generic.gif" statuscategory="2"/> 
+<Status id="10407" sequence="21" name="Won&apos;t Fix" iconurl="/images/icons/status_generic.gif" statuscategory="3"/> 
+<Status id="10500" sequence="22" name="Review" description="This status is managed internally by JIRA Software" iconurl="/" statuscategory="4"/> 
+<Status id="10601" sequence="24" name="Validate" description="This status is managed internally by JIRA Software" iconurl="/" statuscategory="4"/> 
+<Status id="10700" sequence="25" name="Blocked" iconurl="/images/icons/statuses/generic.png" statuscategory="2"/> 
+<Status id="10701" sequence="26" name="Returned" iconurl="/images/icons/statuses/generic.png" statuscategory="4"/> 
+<Status id="10702" sequence="27" name="Duplicate" iconurl="/images/icons/statuses/generic.png" statuscategory="3"/> 
+<Status id="10703" sequence="28" name="Triage Review" iconurl="/images/icons/statuses/generic.png" statuscategory="2"/> 
+<Status id="10704" sequence="29" name="Ready to Execute" iconurl="/images/icons/statuses/generic.png" statuscategory="2"/> 
+<Status id="10705" sequence="30" name="Write Test" iconurl="/images/icons/statuses/generic.png" statuscategory="4"/> 
+<Status id="10706" sequence="31" name="Review Test" iconurl="/images/icons/statuses/generic.png" statuscategory="4"/> 
+<Status id="10707" sequence="32" name="Test Execution" iconurl="/images/icons/statuses/generic.png" statuscategory="4"/> 
+<Status id="10708" sequence="33" name="In CR Review" iconurl="/images/icons/statuses/generic.png" statuscategory="4"/> 
+<Status id="10800" sequence="34" name="Selected for Development" description="" iconurl="/" statuscategory="2"/> 
+<Status id="10801" sequence="35" name="Done" description="" iconurl="/" statuscategory="3"/> 
+<Status id="10802" sequence="36" name="Planning" description="This status is managed internally by Jira Software" iconurl="/" statuscategory="2"/> 
+<Status id="10900" sequence="37" name="Scheduled for Work" description="This status is managed internally by Jira Software" iconurl="/" statuscategory="2"/> 
+<Status id="11000" sequence="38" name="Tech Preview" description="This status is managed internally by Jira Software" iconurl="/" statuscategory="4"/> 
+<Status id="3" sequence="3" name="In Progress" description="This issue is being actively worked on at the moment by the assignee." iconurl="/images/icons/statuses/inprogress.png" statuscategory="4"/> 
+<Status id="4" sequence="4" name="Reopened" description="This issue was once resolved, but the resolution was deemed incorrect. From here issues are either marked assigned or resolved." iconurl="/images/icons/statuses/reopened.png" statuscategory="2"/> 
+<Status id="5" sequence="5" name="Resolved" description="A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed." iconurl="/images/icons/statuses/resolved.png" statuscategory="3"/> 
+<Status id="6" sequence="6" name="Closed" description="The issue is considered finished, the resolution is correct. Issues which are closed can be reopened." iconurl="/images/icons/statuses/closed.png" statuscategory="3"/> 

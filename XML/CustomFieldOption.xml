@@ -1,0 +1,50 @@
+<CustomFieldOption id="10000" customfield="10000" customfieldconfig="10100" sequence="0" value="Impediment" disabled="N"/> 
+<CustomFieldOption id="10001" customfield="10007" customfieldconfig="10108" sequence="0" value="To Do" disabled="N"/> 
+<CustomFieldOption id="10002" customfield="10007" customfieldconfig="10108" sequence="1" value="In Progress" disabled="N"/> 
+<CustomFieldOption id="10003" customfield="10007" customfieldconfig="10108" sequence="2" value="Done" disabled="N"/> 
+<CustomFieldOption id="10100" customfield="10503" customfieldconfig="10906" sequence="1" value="Not Required" disabled="N"/> 
+<CustomFieldOption id="10101" customfield="10503" customfieldconfig="10906" sequence="2" value="Required" disabled="N"/> 
+<CustomFieldOption id="10102" customfield="10503" customfieldconfig="10906" sequence="3" value="Available" disabled="N"/> 
+<CustomFieldOption id="10103" customfield="10503" customfieldconfig="10906" sequence="4" value="Reviewed" disabled="N"/> 
+<CustomFieldOption id="10104" customfield="10504" customfieldconfig="10907" sequence="1" value="Yes" disabled="N"/> 
+<CustomFieldOption id="10105" customfield="10504" customfieldconfig="10907" sequence="2" value="No" disabled="N"/> 
+<CustomFieldOption id="10106" customfield="10505" customfieldconfig="10908" sequence="1" value="Not Required" disabled="N"/> 
+<CustomFieldOption id="10107" customfield="10505" customfieldconfig="10908" sequence="2" value="Required" disabled="N"/> 
+<CustomFieldOption id="10108" customfield="10505" customfieldconfig="10908" sequence="3" value="Done" disabled="N"/> 
+<CustomFieldOption id="10109" customfield="10506" customfieldconfig="10909" sequence="0" value="Yes" disabled="N"/> 
+<CustomFieldOption id="10110" customfield="10506" customfieldconfig="10909" sequence="1" value="No" disabled="N"/> 
+<CustomFieldOption id="10111" customfield="10508" customfieldconfig="10911" sequence="1" value="Not Required" disabled="N"/> 
+<CustomFieldOption id="10112" customfield="10508" customfieldconfig="10911" sequence="2" value="Required" disabled="N"/> 
+<CustomFieldOption id="10113" customfield="10508" customfieldconfig="10911" sequence="3" value="Done" disabled="N"/> 
+<CustomFieldOption id="10115" customfield="10510" customfieldconfig="10913" sequence="0" value="No" disabled="N"/> 
+<CustomFieldOption id="10116" customfield="10510" customfieldconfig="10913" sequence="1" value="Manual" disabled="N"/> 
+<CustomFieldOption id="10117" customfield="10510" customfieldconfig="10913" sequence="2" value="Automated" disabled="N"/> 
+<CustomFieldOption id="10118" customfield="10509" customfieldconfig="10912" sequence="1" value="Unit Test" disabled="N"/> 
+<CustomFieldOption id="10119" customfield="10509" customfieldconfig="10912" sequence="2" value="Extended Unit Test" disabled="N"/> 
+<CustomFieldOption id="10120" customfield="10509" customfieldconfig="10912" sequence="3" value="Integration Test" disabled="N"/> 
+<CustomFieldOption id="10124" customfield="10511" customfieldconfig="10915" sequence="0" value="Yes" disabled="N"/> 
+<CustomFieldOption id="10125" customfield="10511" customfieldconfig="10915" sequence="1" value="No" disabled="N"/> 
+<CustomFieldOption id="10126" customfield="10504" customfieldconfig="10907" sequence="0" value="Unset" disabled="N"/> 
+<CustomFieldOption id="10127" customfield="10512" customfieldconfig="10916" sequence="0" value="Unset" disabled="N"/> 
+<CustomFieldOption id="10128" customfield="10512" customfieldconfig="10916" sequence="1" value="Yes" disabled="N"/> 
+<CustomFieldOption id="10129" customfield="10512" customfieldconfig="10916" sequence="2" value="No" disabled="N"/> 
+<CustomFieldOption id="10130" customfield="10513" customfieldconfig="10917" sequence="0" value="Unset" disabled="N"/> 
+<CustomFieldOption id="10131" customfield="10513" customfieldconfig="10917" sequence="1" value="Yes" disabled="N"/> 
+<CustomFieldOption id="10132" customfield="10513" customfieldconfig="10917" sequence="2" value="No" disabled="N"/> 
+<CustomFieldOption id="10133" customfield="10509" customfieldconfig="10912" sequence="6" value="System Test" disabled="N"/> 
+<CustomFieldOption id="10134" customfield="10509" customfieldconfig="10912" sequence="4" value="Acceptance Test" disabled="N"/> 
+<CustomFieldOption id="10135" customfield="10509" customfieldconfig="10912" sequence="5" value="Interoperability Test" disabled="N"/> 
+<CustomFieldOption id="10136" customfield="10515" customfieldconfig="10919" sequence="2" value="Pass" disabled="N"/> 
+<CustomFieldOption id="10137" customfield="10515" customfieldconfig="10919" sequence="3" value="Fail" disabled="N"/> 
+<CustomFieldOption id="10138" customfield="10508" customfieldconfig="10911" sequence="0" value="Unset" disabled="N"/> 
+<CustomFieldOption id="10139" customfield="10503" customfieldconfig="10906" sequence="0" value="Unset" disabled="N"/> 
+<CustomFieldOption id="10140" customfield="10505" customfieldconfig="10908" sequence="0" value="Unset" disabled="N"/> 
+<CustomFieldOption id="10141" customfield="10515" customfieldconfig="10919" sequence="1" value="Executing" disabled="N"/> 
+<CustomFieldOption id="10142" customfield="10522" customfieldconfig="10926" sequence="0" value="Unset" disabled="N"/> 
+<CustomFieldOption id="10143" customfield="10522" customfieldconfig="10926" sequence="1" value="Not Required" disabled="N"/> 
+<CustomFieldOption id="10144" customfield="10522" customfieldconfig="10926" sequence="2" value="Required" disabled="N"/> 
+<CustomFieldOption id="10145" customfield="10522" customfieldconfig="10926" sequence="3" value="Done" disabled="N"/> 
+<CustomFieldOption id="10147" customfield="10515" customfieldconfig="10919" sequence="0" value="Unset" disabled="N"/> 
+<CustomFieldOption id="10148" customfield="10509" customfieldconfig="10912" sequence="0" value="Unset" disabled="N"/> 
+<CustomFieldOption id="10200" customfield="10700" customfieldconfig="11300" sequence="0" value="Yes" disabled="N"/> 
+<CustomFieldOption id="10201" customfield="10700" customfieldconfig="11300" sequence="1" value="No" disabled="N"/> 

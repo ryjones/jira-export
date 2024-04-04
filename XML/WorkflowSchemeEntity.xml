@@ -1,0 +1,58 @@
+<WorkflowSchemeEntity id="10000" scheme="10000" workflow="classic default workflow" issuetype="0"/> 
+<WorkflowSchemeEntity id="10100" scheme="10100" workflow="Software Simplified Workflow for Project FAB" issuetype="0"/> 
+<WorkflowSchemeEntity id="10101" scheme="10101" workflow="Software Simplified Workflow for Project STL" issuetype="0"/> 
+<WorkflowSchemeEntity id="10200" scheme="10200" workflow="Software Simplified Workflow for Project BE" issuetype="0"/> 
+<WorkflowSchemeEntity id="10301" scheme="10300" workflow="classic default workflow" issuetype="10004"/> 
+<WorkflowSchemeEntity id="10400" scheme="10400" workflow="Software Simplified Workflow for Project CE" issuetype="0"/> 
+<WorkflowSchemeEntity id="10401" scheme="10401" workflow="Software Simplified Workflow for Project WFT" issuetype="0"/> 
+<WorkflowSchemeEntity id="10402" scheme="10402" workflow="WFT-ASA" issuetype="10000"/> 
+<WorkflowSchemeEntity id="10403" scheme="10402" workflow="WFT-ASA" issuetype="10002"/> 
+<WorkflowSchemeEntity id="10404" scheme="10402" workflow="WFT-ASA" issuetype="10001"/> 
+<WorkflowSchemeEntity id="10405" scheme="10402" workflow="WFT-ASA" issuetype="10004"/> 
+<WorkflowSchemeEntity id="10406" scheme="10402" workflow="WFT-ASA" issuetype="10003"/> 
+<WorkflowSchemeEntity id="10407" scheme="10402" workflow="WFT-ASA" issuetype="10006"/> 
+<WorkflowSchemeEntity id="10408" scheme="10402" workflow="WFT-ASA" issuetype="10005"/> 
+<WorkflowSchemeEntity id="10500" scheme="10500" workflow="IR: Task Management Workflow" issuetype="0"/> 
+<WorkflowSchemeEntity id="10501" scheme="10501" workflow="Software Simplified Workflow for Project IN" issuetype="0"/> 
+<WorkflowSchemeEntity id="10502" scheme="10502" workflow="Software Simplified Workflow for Project FOOB" issuetype="0"/> 
+<WorkflowSchemeEntity id="10503" scheme="10503" workflow="Software Simplified Workflow for Project INDY" issuetype="0"/> 
+<WorkflowSchemeEntity id="10504" scheme="10504" workflow="Software Simplified Workflow for Project IR" issuetype="0"/> 
+<WorkflowSchemeEntity id="10600" scheme="10600" workflow="Software Simplified Workflow for Project BUR" issuetype="0"/> 
+<WorkflowSchemeEntity id="10609" scheme="10602" workflow="Software Simplified Workflow for Project IS" issuetype="0"/> 
+<WorkflowSchemeEntity id="10700" scheme="10700" workflow="Software Simplified Workflow for Project H1" issuetype="0"/> 
+<WorkflowSchemeEntity id="10800" scheme="10800" workflow="Software Simplified Workflow for Project COM" issuetype="0"/> 
+<WorkflowSchemeEntity id="10801" scheme="10801" workflow="Software Simplified Workflow for Project QUIL" issuetype="0"/> 
+<WorkflowSchemeEntity id="11006" scheme="10804" workflow="FAB: Epic Workflow" issuetype="10000"/> 
+<WorkflowSchemeEntity id="11007" scheme="10804" workflow="FAB: Test Task Workflow" issuetype="10101"/> 
+<WorkflowSchemeEntity id="11008" scheme="10804" workflow="FAB: Story Workflow" issuetype="10002"/> 
+<WorkflowSchemeEntity id="11009" scheme="10804" workflow="FAB: Story Workflow" issuetype="10001"/> 
+<WorkflowSchemeEntity id="11010" scheme="10804" workflow="FAB: Documentation Workflow" issuetype="10100"/> 
+<WorkflowSchemeEntity id="11011" scheme="10804" workflow="FAB: Bug Workflow" issuetype="10004"/> 
+<WorkflowSchemeEntity id="11012" scheme="10804" workflow="FAB: SubTask Workflow" issuetype="10003"/> 
+<WorkflowSchemeEntity id="11100" scheme="10900" workflow="Software Simplified Workflow for Project MDL" issuetype="0"/> 
+<WorkflowSchemeEntity id="11200" scheme="11000" workflow="Software Simplified Workflow for Project GRID" issuetype="0"/> 
+<WorkflowSchemeEntity id="11201" scheme="11001" workflow="CAT: Task Management Workflow" issuetype="0"/> 
+<WorkflowSchemeEntity id="11308" scheme="10601" workflow="Project Indy Workflow" issuetype="0"/> 
+<WorkflowSchemeEntity id="11309" scheme="10601" workflow="Project Indy Workflow" issuetype="10000"/> 
+<WorkflowSchemeEntity id="11310" scheme="10601" workflow="Project Indy Workflow" issuetype="10002"/> 
+<WorkflowSchemeEntity id="11311" scheme="10601" workflow="Project Indy Workflow" issuetype="10001"/> 
+<WorkflowSchemeEntity id="11312" scheme="10601" workflow="Project Indy Workflow" issuetype="10004"/> 
+<WorkflowSchemeEntity id="11313" scheme="10601" workflow="Project Indy Workflow" issuetype="10003"/> 
+<WorkflowSchemeEntity id="11314" scheme="10601" workflow="Project Indy Workflow" issuetype="10006"/> 
+<WorkflowSchemeEntity id="11315" scheme="10601" workflow="Project Indy Workflow" issuetype="10005"/> 
+<WorkflowSchemeEntity id="11316" scheme="11100" workflow="Software Simplified Workflow for Project SKP" issuetype="0"/> 
+<WorkflowSchemeEntity id="11317" scheme="11101" workflow="Software Simplified Workflow for Project ARIES" issuetype="0"/> 
+<WorkflowSchemeEntity id="11318" scheme="11102" workflow="Software Simplified Workflow for Project TX" issuetype="0"/> 
+<WorkflowSchemeEntity id="11319" scheme="11103" workflow="CAC: Task Management Workflow" issuetype="0"/> 
+<WorkflowSchemeEntity id="11321" scheme="11104" workflow="Software Simplified Workflow for Project STL" issuetype="0"/> 
+<WorkflowSchemeEntity id="11400" scheme="11200" workflow="Software Simplified Workflow for Project BESU" issuetype="0"/> 
+<WorkflowSchemeEntity id="11500" scheme="11300" workflow="Software Simplified Workflow for Project AV" issuetype="0"/> 
+<WorkflowSchemeEntity id="11501" scheme="11301" workflow="Software Simplified Workflow for Project FABCE" issuetype="0"/> 
+<WorkflowSchemeEntity id="11502" scheme="11302" workflow="Software Simplified Workflow for Project FABCG" issuetype="0"/> 
+<WorkflowSchemeEntity id="11503" scheme="11303" workflow="Software Simplified Workflow for Project FABCJ" issuetype="0"/> 
+<WorkflowSchemeEntity id="11504" scheme="11304" workflow="Software Simplified Workflow for Project FABCN" issuetype="0"/> 
+<WorkflowSchemeEntity id="11505" scheme="11305" workflow="Software Simplified Workflow for Project FCAG" issuetype="0"/> 
+<WorkflowSchemeEntity id="11600" scheme="11400" workflow="LSI: Project Management Workflow" issuetype="0"/> 
+<WorkflowSchemeEntity id="11700" scheme="11500" workflow="Software Simplified Workflow for Project DONTUSE" issuetype="0"/> 
+<WorkflowSchemeEntity id="11800" scheme="11600" workflow="Software Simplified Workflow for Project FCW" issuetype="0"/> 
+<WorkflowSchemeEntity id="11900" scheme="11700" workflow="Software Simplified Workflow for Project FABGW" issuetype="0"/> 

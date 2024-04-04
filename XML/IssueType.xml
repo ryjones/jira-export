@@ -1,0 +1,9 @@
+<IssueType id="10000" sequence="1" name="Epic" description="Created by Jira Software - do not edit or delete. Issue type for a big user story that needs to be broken down." iconurl="/images/icons/issuetypes/epic.svg"/> 
+<IssueType id="10001" sequence="2" name="Story" description="Created by Jira Software - do not edit or delete. Issue type for a user story." iconurl="/images/icons/issuetypes/story.svg"/> 
+<IssueType id="10002" name="Task" style="" description="A task that needs to be done." avatar="10318"/> 
+<IssueType id="10003" name="Sub-task" style="jira_subtask" description="The sub-task of the issue" avatar="10316"/> 
+<IssueType id="10004" name="Bug" style="" description="A problem which impairs or prevents the functions of the product." avatar="10303"/> 
+<IssueType id="10005" name="Improvement" style="" description="An improvement or enhancement to an existing feature or task." avatar="10310"/> 
+<IssueType id="10006" name="New Feature" style="" description="A new feature of the product, which has yet to be developed." avatar="10311"/> 
+<IssueType id="10100" name="Documentation" description="" iconurl="/secure/viewavatar?size=xsmall&amp;avatarId=10300&amp;avatarType=issuetype" avatar="10306"/> 
+<IssueType id="10101" name="Test Task" description="" iconurl="/secure/viewavatar?size=xsmall&amp;avatarId=10315&amp;avatarType=issuetype" avatar="10321"/> 

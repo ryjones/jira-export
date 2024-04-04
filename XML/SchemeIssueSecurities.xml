@@ -1,0 +1,30 @@
+<SchemeIssueSecurities id="10000" scheme="10001" security="10001" type="reporter"/> 
+<SchemeIssueSecurities id="10001" scheme="10001" security="10001" type="assignee"/> 
+<SchemeIssueSecurities id="10002" scheme="10001" security="10001" type="group" parameter="jira-administrators"/> 
+<SchemeIssueSecurities id="10003" scheme="10001" security="10000" type="reporter"/> 
+<SchemeIssueSecurities id="10004" scheme="10001" security="10000" type="assignee"/> 
+<SchemeIssueSecurities id="10005" scheme="10001" security="10000" type="lead"/> 
+<SchemeIssueSecurities id="10007" scheme="10001" security="10000" type="group" parameter="jira-administrators"/> 
+<SchemeIssueSecurities id="10008" scheme="10001" security="10001" type="applicationRole"/> 
+<SchemeIssueSecurities id="10100" scheme="10001" security="10001" type="group" parameter="hyperledger-jira-security"/> 
+<SchemeIssueSecurities id="10101" scheme="10001" security="10000" type="group" parameter="hyperledger-jira-security"/> 
+<SchemeIssueSecurities id="10102" scheme="10001" security="10001" type="lead"/> 
+<SchemeIssueSecurities id="10200" scheme="10100" security="10100" type="reporter"/> 
+<SchemeIssueSecurities id="10201" scheme="10100" security="10100" type="assignee"/> 
+<SchemeIssueSecurities id="10202" scheme="10100" security="10100" type="lead"/> 
+<SchemeIssueSecurities id="10203" scheme="10100" security="10100" type="group" parameter="jira-administrators"/> 
+<SchemeIssueSecurities id="10204" scheme="10100" security="10100" type="group" parameter="hyperledger-jira-security"/> 
+<SchemeIssueSecurities id="10205" scheme="10100" security="10101" type="reporter"/> 
+<SchemeIssueSecurities id="10206" scheme="10100" security="10101" type="assignee"/> 
+<SchemeIssueSecurities id="10207" scheme="10100" security="10101" type="group" parameter="jira-administrators"/> 
+<SchemeIssueSecurities id="10208" scheme="10100" security="10101" type="applicationRole"/> 
+<SchemeIssueSecurities id="10209" scheme="10100" security="10101" type="group" parameter="hyperledger-jira-security"/> 
+<SchemeIssueSecurities id="10210" scheme="10100" security="10101" type="lead"/> 
+<SchemeIssueSecurities id="10300" scheme="10001" security="10000" type="group" parameter="lf-collab-admins"/> 
+<SchemeIssueSecurities id="10301" scheme="10001" security="10001" type="group" parameter="lf-collab-admins"/> 
+<SchemeIssueSecurities id="10400" scheme="10100" security="10100" type="userCF" parameter="customfield_10400"/> 
+<SchemeIssueSecurities id="10401" scheme="10100" security="10101" type="userCF" parameter="customfield_10400"/> 
+<SchemeIssueSecurities id="10402" scheme="10001" security="10000" type="userCF" parameter="customfield_10400"/> 
+<SchemeIssueSecurities id="10403" scheme="10001" security="10001" type="userCF" parameter="customfield_10400"/> 
+<SchemeIssueSecurities id="10404" scheme="10001" security="10001" type="group"/> 
+<SchemeIssueSecurities id="10500" scheme="10001" security="10000" type="userCF" parameter="customfield_10523"/> 

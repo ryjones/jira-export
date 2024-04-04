@@ -1,0 +1,184 @@
+<SchemePermissions id="10000" permission="0" type="group" parameter="jira-administrators"/> 
+<SchemePermissions id="10004" scheme="0" permission="23" type="projectrole" parameter="10002" permissionKey="ADMINISTER_PROJECTS"/> 
+<SchemePermissions id="10005" scheme="0" permission="10" type="applicationRole" parameter="" permissionKey="BROWSE_PROJECTS"/> 
+<SchemePermissions id="10006" scheme="0" permission="11" type="applicationRole" parameter="" permissionKey="CREATE_ISSUES"/> 
+<SchemePermissions id="10007" scheme="0" permission="15" type="applicationRole" parameter="" permissionKey="ADD_COMMENTS"/> 
+<SchemePermissions id="10008" scheme="0" permission="19" type="applicationRole" parameter="" permissionKey="CREATE_ATTACHMENTS"/> 
+<SchemePermissions id="10009" scheme="0" permission="13" type="applicationRole" parameter="" permissionKey="ASSIGN_ISSUES"/> 
+<SchemePermissions id="10010" scheme="0" permission="17" type="applicationRole" parameter="" permissionKey="ASSIGNABLE_USER"/> 
+<SchemePermissions id="10011" scheme="0" permission="14" type="applicationRole" parameter="" permissionKey="RESOLVE_ISSUES"/> 
+<SchemePermissions id="10012" scheme="0" permission="21" type="applicationRole" parameter="" permissionKey="LINK_ISSUES"/> 
+<SchemePermissions id="10013" scheme="0" permission="12" type="applicationRole" parameter="" permissionKey="EDIT_ISSUES"/> 
+<SchemePermissions id="10014" scheme="0" permission="16" type="projectrole" parameter="10002" permissionKey="DELETE_ISSUES"/> 
+<SchemePermissions id="10015" scheme="0" permission="18" type="applicationRole" parameter="" permissionKey="CLOSE_ISSUES"/> 
+<SchemePermissions id="10016" scheme="0" permission="25" type="applicationRole" parameter="" permissionKey="MOVE_ISSUES"/> 
+<SchemePermissions id="10017" scheme="0" permission="28" type="applicationRole" parameter="" permissionKey="SCHEDULE_ISSUES"/> 
+<SchemePermissions id="10018" scheme="0" permission="30" type="projectrole" parameter="10002" permissionKey="MODIFY_REPORTER"/> 
+<SchemePermissions id="10019" scheme="0" permission="20" type="applicationRole" parameter="" permissionKey="WORK_ON_ISSUES"/> 
+<SchemePermissions id="10020" scheme="0" permission="43" type="projectrole" parameter="10002" permissionKey="DELETE_ALL_WORKLOGS"/> 
+<SchemePermissions id="10021" scheme="0" permission="42" type="applicationRole" parameter="" permissionKey="DELETE_OWN_WORKLOGS"/> 
+<SchemePermissions id="10022" scheme="0" permission="41" type="projectrole" parameter="10002" permissionKey="EDIT_ALL_WORKLOGS"/> 
+<SchemePermissions id="10023" scheme="0" permission="40" type="applicationRole" parameter="" permissionKey="EDIT_OWN_WORKLOGS"/> 
+<SchemePermissions id="10024" scheme="0" permission="31" type="applicationRole" parameter="" permissionKey="VIEW_VOTERS_AND_WATCHERS"/> 
+<SchemePermissions id="10025" scheme="0" permission="32" type="projectrole" parameter="10002" permissionKey="MANAGE_WATCHERS"/> 
+<SchemePermissions id="10026" scheme="0" permission="34" type="projectrole" parameter="10002" permissionKey="EDIT_ALL_COMMENTS"/> 
+<SchemePermissions id="10027" scheme="0" permission="35" type="applicationRole" parameter="" permissionKey="EDIT_OWN_COMMENTS"/> 
+<SchemePermissions id="10028" scheme="0" permission="36" type="projectrole" parameter="10002" permissionKey="DELETE_ALL_COMMENTS"/> 
+<SchemePermissions id="10029" scheme="0" permission="37" type="applicationRole" parameter="" permissionKey="DELETE_OWN_COMMENTS"/> 
+<SchemePermissions id="10030" scheme="0" permission="38" type="projectrole" parameter="10002" permissionKey="DELETE_ALL_ATTACHMENTS"/> 
+<SchemePermissions id="10031" scheme="0" permission="39" type="applicationRole" parameter="" permissionKey="DELETE_OWN_ATTACHMENTS"/> 
+<SchemePermissions id="10033" scheme="0" permission="29" type="applicationRole" parameter="" permissionKey="VIEW_DEV_TOOLS"/> 
+<SchemePermissions id="10200" scheme="0" permission="45" type="applicationRole" parameter="" permissionKey="VIEW_READONLY_WORKFLOW"/> 
+<SchemePermissions id="10300" scheme="0" permission="46" type="applicationRole" parameter="" permissionKey="TRANSITION_ISSUES"/> 
+<SchemePermissions id="10401" scheme="10000" type="applicationRole" permissionKey="CREATE_ISSUES"/> 
+<SchemePermissions id="10402" scheme="10000" type="applicationRole" permissionKey="EDIT_ISSUES"/> 
+<SchemePermissions id="10403" scheme="10000" type="applicationRole" permissionKey="ASSIGN_ISSUES"/> 
+<SchemePermissions id="10404" scheme="10000" type="applicationRole" permissionKey="RESOLVE_ISSUES"/> 
+<SchemePermissions id="10405" scheme="10000" type="applicationRole" permissionKey="ADD_COMMENTS"/> 
+<SchemePermissions id="10407" scheme="10000" type="applicationRole" permissionKey="ASSIGNABLE_USER"/> 
+<SchemePermissions id="10408" scheme="10000" type="applicationRole" permissionKey="CLOSE_ISSUES"/> 
+<SchemePermissions id="10409" scheme="10000" type="applicationRole" permissionKey="CREATE_ATTACHMENTS"/> 
+<SchemePermissions id="10410" scheme="10000" type="applicationRole" permissionKey="WORK_ON_ISSUES"/> 
+<SchemePermissions id="10411" scheme="10000" type="applicationRole" permissionKey="LINK_ISSUES"/> 
+<SchemePermissions id="10412" scheme="10000" type="projectrole" parameter="10002" permissionKey="ADMINISTER_PROJECTS"/> 
+<SchemePermissions id="10413" scheme="10000" type="applicationRole" permissionKey="MOVE_ISSUES"/> 
+<SchemePermissions id="10414" scheme="10000" type="applicationRole" permissionKey="SCHEDULE_ISSUES"/> 
+<SchemePermissions id="10415" scheme="10000" type="projectrole" parameter="10002" permissionKey="MODIFY_REPORTER"/> 
+<SchemePermissions id="10416" scheme="10000" type="applicationRole" permissionKey="VIEW_VOTERS_AND_WATCHERS"/> 
+<SchemePermissions id="10417" scheme="10000" type="projectrole" parameter="10002" permissionKey="MANAGE_WATCHERS"/> 
+<SchemePermissions id="10418" scheme="10000" type="projectrole" parameter="10002" permissionKey="EDIT_ALL_COMMENTS"/> 
+<SchemePermissions id="10419" scheme="10000" type="applicationRole" permissionKey="EDIT_OWN_COMMENTS"/> 
+<SchemePermissions id="10420" scheme="10000" type="projectrole" parameter="10002" permissionKey="DELETE_ALL_COMMENTS"/> 
+<SchemePermissions id="10421" scheme="10000" type="applicationRole" permissionKey="DELETE_OWN_COMMENTS"/> 
+<SchemePermissions id="10422" scheme="10000" type="projectrole" parameter="10002" permissionKey="DELETE_ALL_ATTACHMENTS"/> 
+<SchemePermissions id="10423" scheme="10000" type="applicationRole" permissionKey="DELETE_OWN_ATTACHMENTS"/> 
+<SchemePermissions id="10424" scheme="10000" type="applicationRole" permissionKey="EDIT_OWN_WORKLOGS"/> 
+<SchemePermissions id="10425" scheme="10000" type="projectrole" parameter="10002" permissionKey="EDIT_ALL_WORKLOGS"/> 
+<SchemePermissions id="10426" scheme="10000" type="applicationRole" permissionKey="DELETE_OWN_WORKLOGS"/> 
+<SchemePermissions id="10427" scheme="10000" type="projectrole" parameter="10002" permissionKey="DELETE_ALL_WORKLOGS"/> 
+<SchemePermissions id="10428" scheme="10000" type="applicationRole" permissionKey="VIEW_READONLY_WORKFLOW"/> 
+<SchemePermissions id="10429" scheme="10000" type="applicationRole" permissionKey="TRANSITION_ISSUES"/> 
+<SchemePermissions id="10430" scheme="10000" type="applicationRole" permissionKey="VIEW_DEV_TOOLS"/> 
+<SchemePermissions id="10432" scheme="10000" type="group" permissionKey="BROWSE_PROJECTS"/> 
+<SchemePermissions id="10500" scheme="0" type="projectrole" parameter="10002" permissionKey="MANAGE_SPRINTS_PERMISSION"/> 
+<SchemePermissions id="10501" scheme="10000" type="projectrole" parameter="10002" permissionKey="MANAGE_SPRINTS_PERMISSION"/> 
+<SchemePermissions id="10601" scheme="10000" type="group" parameter="hyperledger-jira-security" permissionKey="SET_ISSUE_SECURITY"/> 
+<SchemePermissions id="10602" scheme="10000" type="group" parameter="hyperledger-gerrit-fabric-committers" permissionKey="SET_ISSUE_SECURITY"/> 
+<SchemePermissions id="10700" scheme="10000" type="group" parameter="hyperledger-jira-security" permissionKey="MANAGE_WATCHERS"/> 
+<SchemePermissions id="10800" scheme="10200" type="applicationRole" permissionKey="CREATE_ISSUES"/> 
+<SchemePermissions id="10801" scheme="10200" type="applicationRole" permissionKey="EDIT_ISSUES"/> 
+<SchemePermissions id="10802" scheme="10200" type="applicationRole" permissionKey="ASSIGN_ISSUES"/> 
+<SchemePermissions id="10803" scheme="10200" type="applicationRole" permissionKey="RESOLVE_ISSUES"/> 
+<SchemePermissions id="10804" scheme="10200" type="applicationRole" permissionKey="ADD_COMMENTS"/> 
+<SchemePermissions id="10806" scheme="10200" type="applicationRole" permissionKey="ASSIGNABLE_USER"/> 
+<SchemePermissions id="10808" scheme="10200" type="applicationRole" permissionKey="CREATE_ATTACHMENTS"/> 
+<SchemePermissions id="10809" scheme="10200" type="applicationRole" permissionKey="WORK_ON_ISSUES"/> 
+<SchemePermissions id="10810" scheme="10200" type="applicationRole" permissionKey="LINK_ISSUES"/> 
+<SchemePermissions id="10811" scheme="10200" type="projectrole" parameter="10002" permissionKey="ADMINISTER_PROJECTS"/> 
+<SchemePermissions id="10812" scheme="10200" type="applicationRole" permissionKey="MOVE_ISSUES"/> 
+<SchemePermissions id="10813" scheme="10200" type="applicationRole" permissionKey="SCHEDULE_ISSUES"/> 
+<SchemePermissions id="10814" scheme="10200" type="projectrole" parameter="10002" permissionKey="MODIFY_REPORTER"/> 
+<SchemePermissions id="10815" scheme="10200" type="applicationRole" permissionKey="VIEW_VOTERS_AND_WATCHERS"/> 
+<SchemePermissions id="10816" scheme="10200" type="projectrole" parameter="10002" permissionKey="MANAGE_WATCHERS"/> 
+<SchemePermissions id="10817" scheme="10200" type="projectrole" parameter="10002" permissionKey="EDIT_ALL_COMMENTS"/> 
+<SchemePermissions id="10818" scheme="10200" type="applicationRole" permissionKey="EDIT_OWN_COMMENTS"/> 
+<SchemePermissions id="10819" scheme="10200" type="projectrole" parameter="10002" permissionKey="DELETE_ALL_COMMENTS"/> 
+<SchemePermissions id="10820" scheme="10200" type="applicationRole" permissionKey="DELETE_OWN_COMMENTS"/> 
+<SchemePermissions id="10821" scheme="10200" type="projectrole" parameter="10002" permissionKey="DELETE_ALL_ATTACHMENTS"/> 
+<SchemePermissions id="10822" scheme="10200" type="applicationRole" permissionKey="DELETE_OWN_ATTACHMENTS"/> 
+<SchemePermissions id="10823" scheme="10200" type="applicationRole" permissionKey="EDIT_OWN_WORKLOGS"/> 
+<SchemePermissions id="10824" scheme="10200" type="projectrole" parameter="10002" permissionKey="EDIT_ALL_WORKLOGS"/> 
+<SchemePermissions id="10825" scheme="10200" type="applicationRole" permissionKey="DELETE_OWN_WORKLOGS"/> 
+<SchemePermissions id="10826" scheme="10200" type="projectrole" parameter="10002" permissionKey="DELETE_ALL_WORKLOGS"/> 
+<SchemePermissions id="10828" scheme="10200" type="applicationRole" permissionKey="TRANSITION_ISSUES"/> 
+<SchemePermissions id="10830" scheme="10200" type="group" permissionKey="BROWSE_PROJECTS"/> 
+<SchemePermissions id="10831" scheme="10200" type="projectrole" parameter="10002" permissionKey="MANAGE_SPRINTS_PERMISSION"/> 
+<SchemePermissions id="10832" scheme="10200" type="group" parameter="hyperledger-jira-security" permissionKey="SET_ISSUE_SECURITY"/> 
+<SchemePermissions id="10833" scheme="10200" type="group" parameter="hyperledger-gerrit-fabric-committers" permissionKey="SET_ISSUE_SECURITY"/> 
+<SchemePermissions id="10834" scheme="10200" type="group" parameter="hyperledger-jira-security" permissionKey="MANAGE_WATCHERS"/> 
+<SchemePermissions id="10835" scheme="10200" type="group" permissionKey="VIEW_DEV_TOOLS"/> 
+<SchemePermissions id="10836" scheme="10200" type="group" permissionKey="VIEW_READONLY_WORKFLOW"/> 
+<SchemePermissions id="10840" scheme="10200" type="reporter" permissionKey="MANAGE_WATCHERS"/> 
+<SchemePermissions id="10841" scheme="10200" type="assignee" permissionKey="MANAGE_WATCHERS"/> 
+<SchemePermissions id="10842" scheme="10200" type="projectrole" parameter="10200" permissionKey="MANAGE_WATCHERS"/> 
+<SchemePermissions id="10843" scheme="10200" type="projectrole" parameter="10201" permissionKey="MANAGE_WATCHERS"/> 
+<SchemePermissions id="10846" scheme="10200" type="applicationRole" permissionKey="CLOSE_ISSUES"/> 
+<SchemePermissions id="10900" scheme="10200" type="projectrole" parameter="10200" permissionKey="DELETE_ISSUES"/> 
+<SchemePermissions id="10901" scheme="10200" type="projectrole" parameter="10002" permissionKey="DELETE_ISSUES"/> 
+<SchemePermissions id="10902" scheme="10200" type="projectrole" parameter="10200" permissionKey="MANAGE_SPRINTS_PERMISSION"/> 
+<SchemePermissions id="10903" scheme="10200" type="projectrole" parameter="10201" permissionKey="MANAGE_SPRINTS_PERMISSION"/> 
+<SchemePermissions id="11003" scheme="10301" type="projectrole" parameter="10002" permissionKey="ADMINISTER_PROJECTS"/> 
+<SchemePermissions id="11035" scheme="10301" type="projectrole" parameter="10002" permissionKey="BROWSE_PROJECTS"/> 
+<SchemePermissions id="11037" scheme="10301" type="group" parameter="LSI" permissionKey="ADMINISTER_PROJECTS"/> 
+<SchemePermissions id="11038" scheme="10301" type="group" parameter="LSI" permissionKey="WORK_ON_ISSUES"/> 
+<SchemePermissions id="11039" scheme="10301" type="group" parameter="LSI" permissionKey="BROWSE_PROJECTS"/> 
+<SchemePermissions id="11040" scheme="10301" type="group" parameter="LSI" permissionKey="VIEW_READONLY_WORKFLOW"/> 
+<SchemePermissions id="11041" scheme="10301" type="group" parameter="LSI" permissionKey="ASSIGNABLE_USER"/> 
+<SchemePermissions id="11042" scheme="10301" type="group" parameter="LSI" permissionKey="ASSIGN_ISSUES"/> 
+<SchemePermissions id="11043" scheme="10301" type="group" parameter="LSI" permissionKey="CLOSE_ISSUES"/> 
+<SchemePermissions id="11044" scheme="10301" type="group" parameter="LSI" permissionKey="CREATE_ISSUES"/> 
+<SchemePermissions id="11046" scheme="10301" type="group" parameter="LSI" permissionKey="DELETE_ISSUES"/> 
+<SchemePermissions id="11047" scheme="10301" type="group" parameter="LSI" permissionKey="EDIT_ISSUES"/> 
+<SchemePermissions id="11048" scheme="10301" type="group" parameter="LSI" permissionKey="LINK_ISSUES"/> 
+<SchemePermissions id="11049" scheme="10301" type="group" parameter="LSI" permissionKey="MODIFY_REPORTER"/> 
+<SchemePermissions id="11050" scheme="10301" type="group" parameter="LSI" permissionKey="MOVE_ISSUES"/> 
+<SchemePermissions id="11051" scheme="10301" type="group" parameter="LSI" permissionKey="RESOLVE_ISSUES"/> 
+<SchemePermissions id="11052" scheme="10301" type="group" parameter="LSI" permissionKey="SCHEDULE_ISSUES"/> 
+<SchemePermissions id="11053" scheme="10301" type="group" parameter="LSI" permissionKey="SET_ISSUE_SECURITY"/> 
+<SchemePermissions id="11054" scheme="10301" type="group" parameter="LSI" permissionKey="TRANSITION_ISSUES"/> 
+<SchemePermissions id="11055" scheme="10301" type="group" parameter="LSI" permissionKey="VIEW_DEV_TOOLS"/> 
+<SchemePermissions id="11056" scheme="10301" type="group" parameter="LSI" permissionKey="MANAGE_SPRINTS_PERMISSION"/> 
+<SchemePermissions id="11057" scheme="10301" type="group" parameter="LSI" permissionKey="MANAGE_WATCHERS"/> 
+<SchemePermissions id="11058" scheme="10301" type="group" parameter="LSI" permissionKey="VIEW_VOTERS_AND_WATCHERS"/> 
+<SchemePermissions id="11059" scheme="10301" type="group" parameter="LSI" permissionKey="ADD_COMMENTS"/> 
+<SchemePermissions id="11060" scheme="10301" type="group" parameter="LSI" permissionKey="DELETE_ALL_COMMENTS"/> 
+<SchemePermissions id="11061" scheme="10301" type="group" parameter="LSI" permissionKey="DELETE_OWN_COMMENTS"/> 
+<SchemePermissions id="11062" scheme="10301" type="group" parameter="LSI" permissionKey="EDIT_ALL_COMMENTS"/> 
+<SchemePermissions id="11063" scheme="10301" type="group" parameter="LSI" permissionKey="EDIT_OWN_COMMENTS"/> 
+<SchemePermissions id="11064" scheme="10301" type="group" parameter="LSI" permissionKey="CREATE_ATTACHMENTS"/> 
+<SchemePermissions id="11065" scheme="10301" type="group" parameter="LSI" permissionKey="DELETE_ALL_ATTACHMENTS"/> 
+<SchemePermissions id="11066" scheme="10301" type="group" parameter="LSI" permissionKey="DELETE_OWN_ATTACHMENTS"/> 
+<SchemePermissions id="11067" scheme="10301" type="group" parameter="LSI" permissionKey="DELETE_ALL_WORKLOGS"/> 
+<SchemePermissions id="11068" scheme="10301" type="group" parameter="LSI" permissionKey="DELETE_OWN_WORKLOGS"/> 
+<SchemePermissions id="11069" scheme="10301" type="group" parameter="LSI" permissionKey="EDIT_ALL_WORKLOGS"/> 
+<SchemePermissions id="11070" scheme="10301" type="group" parameter="LSI" permissionKey="EDIT_OWN_WORKLOGS"/> 
+<SchemePermissions id="11101" scheme="10400" type="group" permissionKey="BROWSE_PROJECTS"/> 
+<SchemePermissions id="11103" scheme="10402" type="applicationRole" permissionKey="EDIT_ISSUES"/> 
+<SchemePermissions id="11104" scheme="10402" type="applicationRole" permissionKey="ASSIGN_ISSUES"/> 
+<SchemePermissions id="11105" scheme="10402" type="applicationRole" permissionKey="RESOLVE_ISSUES"/> 
+<SchemePermissions id="11106" scheme="10402" type="applicationRole" permissionKey="ADD_COMMENTS"/> 
+<SchemePermissions id="11107" scheme="10402" type="applicationRole" permissionKey="ASSIGNABLE_USER"/> 
+<SchemePermissions id="11108" scheme="10402" type="applicationRole" permissionKey="CLOSE_ISSUES"/> 
+<SchemePermissions id="11109" scheme="10402" type="applicationRole" permissionKey="CREATE_ATTACHMENTS"/> 
+<SchemePermissions id="11110" scheme="10402" type="applicationRole" permissionKey="WORK_ON_ISSUES"/> 
+<SchemePermissions id="11111" scheme="10402" type="applicationRole" permissionKey="LINK_ISSUES"/> 
+<SchemePermissions id="11112" scheme="10402" type="projectrole" parameter="10002" permissionKey="ADMINISTER_PROJECTS"/> 
+<SchemePermissions id="11113" scheme="10402" type="applicationRole" permissionKey="MOVE_ISSUES"/> 
+<SchemePermissions id="11114" scheme="10402" type="applicationRole" permissionKey="SCHEDULE_ISSUES"/> 
+<SchemePermissions id="11115" scheme="10402" type="projectrole" parameter="10002" permissionKey="MODIFY_REPORTER"/> 
+<SchemePermissions id="11116" scheme="10402" type="applicationRole" permissionKey="VIEW_VOTERS_AND_WATCHERS"/> 
+<SchemePermissions id="11117" scheme="10402" type="projectrole" parameter="10002" permissionKey="MANAGE_WATCHERS"/> 
+<SchemePermissions id="11118" scheme="10402" type="projectrole" parameter="10002" permissionKey="EDIT_ALL_COMMENTS"/> 
+<SchemePermissions id="11119" scheme="10402" type="applicationRole" permissionKey="EDIT_OWN_COMMENTS"/> 
+<SchemePermissions id="11120" scheme="10402" type="projectrole" parameter="10002" permissionKey="DELETE_ALL_COMMENTS"/> 
+<SchemePermissions id="11121" scheme="10402" type="applicationRole" permissionKey="DELETE_OWN_COMMENTS"/> 
+<SchemePermissions id="11122" scheme="10402" type="projectrole" parameter="10002" permissionKey="DELETE_ALL_ATTACHMENTS"/> 
+<SchemePermissions id="11123" scheme="10402" type="applicationRole" permissionKey="DELETE_OWN_ATTACHMENTS"/> 
+<SchemePermissions id="11124" scheme="10402" type="applicationRole" permissionKey="EDIT_OWN_WORKLOGS"/> 
+<SchemePermissions id="11125" scheme="10402" type="projectrole" parameter="10002" permissionKey="EDIT_ALL_WORKLOGS"/> 
+<SchemePermissions id="11126" scheme="10402" type="applicationRole" permissionKey="DELETE_OWN_WORKLOGS"/> 
+<SchemePermissions id="11127" scheme="10402" type="projectrole" parameter="10002" permissionKey="DELETE_ALL_WORKLOGS"/> 
+<SchemePermissions id="11128" scheme="10402" type="applicationRole" permissionKey="VIEW_READONLY_WORKFLOW"/> 
+<SchemePermissions id="11129" scheme="10402" type="applicationRole" permissionKey="TRANSITION_ISSUES"/> 
+<SchemePermissions id="11130" scheme="10402" type="applicationRole" permissionKey="VIEW_DEV_TOOLS"/> 
+<SchemePermissions id="11131" scheme="10402" type="group" permissionKey="BROWSE_PROJECTS"/> 
+<SchemePermissions id="11132" scheme="10402" type="projectrole" parameter="10002" permissionKey="MANAGE_SPRINTS_PERMISSION"/> 
+<SchemePermissions id="11133" scheme="10402" type="group" parameter="hyperledger-jira-security" permissionKey="SET_ISSUE_SECURITY"/> 
+<SchemePermissions id="11134" scheme="10402" type="group" parameter="hyperledger-gerrit-fabric-committers" permissionKey="SET_ISSUE_SECURITY"/> 
+<SchemePermissions id="11135" scheme="10402" type="group" parameter="hyperledger-jira-security" permissionKey="MANAGE_WATCHERS"/> 
+<SchemePermissions id="11200" scheme="10000" type="group" parameter="jira-administrators" permissionKey="DELETE_ISSUES"/> 
+<SchemePermissions id="11201" scheme="10400" type="group" parameter="jira-administrators" permissionKey="DELETE_ISSUES"/> 
+<SchemePermissions id="11202" scheme="10402" type="group" parameter="jira-administrators" permissionKey="DELETE_ISSUES"/> 
+<SchemePermissions id="11203" scheme="10000" type="group" parameter="spam-fighters" permissionKey="DELETE_ISSUES"/> 
+<SchemePermissions id="11204" scheme="10400" type="group" parameter="spam-fighters" permissionKey="DELETE_ISSUES"/> 
+<SchemePermissions id="11205" scheme="10402" type="group" parameter="spam-fighters" permissionKey="DELETE_ISSUES"/> 

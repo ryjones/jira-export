@@ -1,0 +1,9 @@
+<IssueLinkType id="10000" linkname="Blocks" inward="is blocked by" outward="blocks"/> 
+<IssueLinkType id="10001" linkname="Cloners" inward="is cloned by" outward="clones"/> 
+<IssueLinkType id="10002" linkname="Duplicate" inward="is duplicated by" outward="duplicates"/> 
+<IssueLinkType id="10003" linkname="Relates" inward="relates to" outward="relates to"/> 
+<IssueLinkType id="10100" linkname="jira_subtask_link" inward="jira_subtask_inward" outward="jira_subtask_outward" style="jira_subtask"/> 
+<IssueLinkType id="10200" linkname="Epic-Story Link" inward="has Epic" outward="is Epic of" style="jira_gh_epic_story"/> 
+<IssueLinkType id="10300" linkname="Git Code Review" inward="opened during git code review in" outward="git code review opened"/> 
+<IssueLinkType id="10400" linkname="Issue split" inward="split from" outward="split to" style="gh_split_issue"/> 
+<IssueLinkType id="10500" linkname="Parent-Child Link" inward="is child of" outward="is parent of" style="jira_jpos_parent_child"/> 

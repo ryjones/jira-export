@@ -1,0 +1,23 @@
+<EventType id="1" name="Issue Created" description="This is the &apos;issue created&apos; event." type="jira.system.event.type"/> 
+<EventType id="2" name="Issue Updated" description="This is the &apos;issue updated&apos; event." type="jira.system.event.type"/> 
+<EventType id="3" name="Issue Assigned" description="This is the &apos;issue assigned&apos; event." type="jira.system.event.type"/> 
+<EventType id="4" name="Issue Resolved" description="This is the &apos;issue resolved&apos; event." type="jira.system.event.type"/> 
+<EventType id="5" name="Issue Closed" description="This is the &apos;issue closed&apos; event." type="jira.system.event.type"/> 
+<EventType id="6" name="Issue Commented" description="This is the &apos;issue commented&apos; event." type="jira.system.event.type"/> 
+<EventType id="7" name="Issue Reopened" description="This is the &apos;issue reopened&apos; event." type="jira.system.event.type"/> 
+<EventType id="8" name="Issue Deleted" description="This is the &apos;issue deleted&apos; event." type="jira.system.event.type"/> 
+<EventType id="9" name="Issue Moved" description="This is the &apos;issue moved&apos; event." type="jira.system.event.type"/> 
+<EventType id="10" name="Work Logged On Issue" description="This is the &apos;work logged on issue&apos; event." type="jira.system.event.type"/> 
+<EventType id="11" name="Work Started On Issue" description="This is the &apos;work started on issue&apos; event." type="jira.system.event.type"/> 
+<EventType id="12" name="Work Stopped On Issue" description="This is the &apos;work stopped on issue&apos; event." type="jira.system.event.type"/> 
+<EventType id="13" name="Generic Event" description="This is the &apos;generic event&apos; event." type="jira.system.event.type"/> 
+<EventType id="14" name="Issue Comment Edited" description="This is the &apos;issue comment edited&apos; event." type="jira.system.event.type"/> 
+<EventType id="15" name="Issue Worklog Updated" description="This is the &apos;issue worklog updated&apos; event." type="jira.system.event.type"/> 
+<EventType id="16" name="Issue Worklog Deleted" description="This is the &apos;issue worklog deleted&apos; event." type="jira.system.event.type"/> 
+<EventType id="17" name="Issue Comment Deleted" description="This is the &apos;issue comment deleted&apos; event." type="jira.system.event.type"/> 
+<EventType id="18" name="Issue Archived" description="This is the &apos;issue archived&apos; event" type="jira.system.event.type"/> 
+<EventType id="19" name="Issue Restored" description="This is the &apos;issue restored&apos; event" type="jira.system.event.type"/> 
+<EventType id="10600" name="com.exalate.api.domain.trigger.EXALATED" description="represents an event which is fired once the issue has been exalated"/> 
+<EventType id="10601" name="com.exalate.api.domain.trigger.UPDATED" description="represents an update event for the synchronized issue"/> 
+<EventType id="10602" name="com.exalate.api.domain.trigger.UNEXALATED" description="represents an event which is fired once the exalated issue has been unexalated"/> 
+<EventType id="10603" name="com.exalate.api.domain.trigger.DELETED" description="represents a delete event for the synchronized issue"/> 

@@ -1,0 +1,10 @@
+<Resolution id="10000" sequence="2" name="Done" description="Work has been completed on this issue."/> 
+<Resolution id="10001" sequence="1" name="Won&apos;t Do" description="This issue won&apos;t be actioned."/> 
+<Resolution id="10002" sequence="3" name="Duplicate" description="The problem is a duplicate of an existing issue."/> 
+<Resolution id="10003" sequence="4" name="Cannot Reproduce" description="All attempts at reproducing this issue failed, or not enough information was available to reproduce the issue. Reading the code produces no clues as to why this behavior would occur. If more information appears later, please reopen the issue."/> 
+<Resolution id="10200" sequence="5" name="Invalid" description="The issue is invalid"/> 
+<Resolution id="10201" sequence="6" name="Invalid: Environment Issue" description=""/> 
+<Resolution id="10202" sequence="7" name="Invalid: Not Supported" description=""/> 
+<Resolution id="10203" sequence="8" name="Invalid: Works as Expected" description=""/> 
+<Resolution id="10204" sequence="9" name="Invalid: Test Error" description=""/> 
+<Resolution id="10300" sequence="10" name="Deferred" description="Not currently a priority"/> 

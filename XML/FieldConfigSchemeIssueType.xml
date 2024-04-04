@@ -1,0 +1,91 @@
+<FieldConfigSchemeIssueType id="10200" fieldconfigscheme="10100" fieldconfiguration="10100"/> 
+<FieldConfigSchemeIssueType id="10201" fieldconfigscheme="10101" fieldconfiguration="10101"/> 
+<FieldConfigSchemeIssueType id="10202" fieldconfigscheme="10102" fieldconfiguration="10102"/> 
+<FieldConfigSchemeIssueType id="10203" fieldconfigscheme="10103" fieldconfiguration="10103"/> 
+<FieldConfigSchemeIssueType id="10204" fieldconfigscheme="10104" fieldconfiguration="10104"/> 
+<FieldConfigSchemeIssueType id="10206" fieldconfigscheme="10000" fieldconfiguration="10000"/> 
+<FieldConfigSchemeIssueType id="10209" issuetype="10000" fieldconfigscheme="10106" fieldconfiguration="10106"/> 
+<FieldConfigSchemeIssueType id="10210" issuetype="10001" fieldconfigscheme="10106" fieldconfiguration="10106"/> 
+<FieldConfigSchemeIssueType id="10213" issuetype="10000" fieldconfigscheme="10108" fieldconfiguration="10108"/> 
+<FieldConfigSchemeIssueType id="10214" issuetype="10000" fieldconfigscheme="10109" fieldconfiguration="10109"/> 
+<FieldConfigSchemeIssueType id="10215" issuetype="10000" fieldconfigscheme="10110" fieldconfiguration="10110"/> 
+<FieldConfigSchemeIssueType id="10216" fieldconfigscheme="10105" fieldconfiguration="10105"/> 
+<FieldConfigSchemeIssueType id="10302" fieldconfigscheme="10113" fieldconfiguration="10113"/> 
+<FieldConfigSchemeIssueType id="10303" fieldconfigscheme="10112" fieldconfiguration="10112"/> 
+<FieldConfigSchemeIssueType id="10308" issuetype="10000" fieldconfigscheme="10107" fieldconfiguration="10107"/> 
+<FieldConfigSchemeIssueType id="10309" issuetype="10002" fieldconfigscheme="10107" fieldconfiguration="10107"/> 
+<FieldConfigSchemeIssueType id="10310" issuetype="10001" fieldconfigscheme="10107" fieldconfiguration="10107"/> 
+<FieldConfigSchemeIssueType id="10311" issuetype="10003" fieldconfigscheme="10107" fieldconfiguration="10107"/> 
+<FieldConfigSchemeIssueType id="10312" issuetype="10006" fieldconfigscheme="10107" fieldconfiguration="10107"/> 
+<FieldConfigSchemeIssueType id="10315" fieldconfigscheme="10206" fieldconfiguration="10206"/> 
+<FieldConfigSchemeIssueType id="10400" fieldconfigscheme="10300" fieldconfiguration="10300"/> 
+<FieldConfigSchemeIssueType id="10401" fieldconfigscheme="10301" fieldconfiguration="10301"/> 
+<FieldConfigSchemeIssueType id="10502" fieldconfigscheme="10400" fieldconfiguration="10400"/> 
+<FieldConfigSchemeIssueType id="10505" fieldconfigscheme="10401" fieldconfiguration="10401"/> 
+<FieldConfigSchemeIssueType id="10506" fieldconfigscheme="10402" fieldconfiguration="10402"/> 
+<FieldConfigSchemeIssueType id="10507" fieldconfigscheme="10403" fieldconfiguration="10403"/> 
+<FieldConfigSchemeIssueType id="10510" fieldconfigscheme="10404" fieldconfiguration="10404"/> 
+<FieldConfigSchemeIssueType id="10513" fieldconfigscheme="10405" fieldconfiguration="10405"/> 
+<FieldConfigSchemeIssueType id="10601" fieldconfigscheme="10500" fieldconfiguration="10500"/> 
+<FieldConfigSchemeIssueType id="10604" fieldconfigscheme="10501" fieldconfiguration="10501"/> 
+<FieldConfigSchemeIssueType id="10607" fieldconfigscheme="10502" fieldconfiguration="10502"/> 
+<FieldConfigSchemeIssueType id="10615" fieldconfigscheme="10505" fieldconfiguration="10505"/> 
+<FieldConfigSchemeIssueType id="10702" fieldconfigscheme="10600" fieldconfiguration="10600"/> 
+<FieldConfigSchemeIssueType id="10705" fieldconfigscheme="10111" fieldconfiguration="10111"/> 
+<FieldConfigSchemeIssueType id="10709" fieldconfigscheme="10601" fieldconfiguration="10601"/> 
+<FieldConfigSchemeIssueType id="10802" fieldconfigscheme="10700" fieldconfiguration="10700"/> 
+<FieldConfigSchemeIssueType id="10900" fieldconfigscheme="10800" fieldconfiguration="10800"/> 
+<FieldConfigSchemeIssueType id="11002" fieldconfigscheme="10900" fieldconfiguration="10900"/> 
+<FieldConfigSchemeIssueType id="11005" fieldconfigscheme="10901" fieldconfiguration="10901"/> 
+<FieldConfigSchemeIssueType id="11006" fieldconfigscheme="10503" fieldconfiguration="10503"/> 
+<FieldConfigSchemeIssueType id="11008" fieldconfigscheme="10903" fieldconfiguration="10903"/> 
+<FieldConfigSchemeIssueType id="11009" fieldconfigscheme="10904" fieldconfiguration="10904"/> 
+<FieldConfigSchemeIssueType id="11011" fieldconfigscheme="10906" fieldconfiguration="10906"/> 
+<FieldConfigSchemeIssueType id="11012" fieldconfigscheme="10907" fieldconfiguration="10907"/> 
+<FieldConfigSchemeIssueType id="11013" fieldconfigscheme="10908" fieldconfiguration="10908"/> 
+<FieldConfigSchemeIssueType id="11014" fieldconfigscheme="10909" fieldconfiguration="10909"/> 
+<FieldConfigSchemeIssueType id="11015" fieldconfigscheme="10910" fieldconfiguration="10910"/> 
+<FieldConfigSchemeIssueType id="11016" fieldconfigscheme="10911" fieldconfiguration="10911"/> 
+<FieldConfigSchemeIssueType id="11017" fieldconfigscheme="10912" fieldconfiguration="10912"/> 
+<FieldConfigSchemeIssueType id="11018" fieldconfigscheme="10913" fieldconfiguration="10913"/> 
+<FieldConfigSchemeIssueType id="11024" fieldconfigscheme="10915" fieldconfiguration="10915"/> 
+<FieldConfigSchemeIssueType id="11025" fieldconfigscheme="10916" fieldconfiguration="10916"/> 
+<FieldConfigSchemeIssueType id="11026" fieldconfigscheme="10917" fieldconfiguration="10917"/> 
+<FieldConfigSchemeIssueType id="11027" fieldconfigscheme="10918" fieldconfiguration="10918"/> 
+<FieldConfigSchemeIssueType id="11028" fieldconfigscheme="10919" fieldconfiguration="10919"/> 
+<FieldConfigSchemeIssueType id="11029" fieldconfigscheme="10920" fieldconfiguration="10920"/> 
+<FieldConfigSchemeIssueType id="11030" fieldconfigscheme="10921" fieldconfiguration="10921"/> 
+<FieldConfigSchemeIssueType id="11032" fieldconfigscheme="10923" fieldconfiguration="10923"/> 
+<FieldConfigSchemeIssueType id="11033" fieldconfigscheme="10924" fieldconfiguration="10924"/> 
+<FieldConfigSchemeIssueType id="11040" fieldconfigscheme="10925" fieldconfiguration="10925"/> 
+<FieldConfigSchemeIssueType id="11041" fieldconfigscheme="10926" fieldconfiguration="10926"/> 
+<FieldConfigSchemeIssueType id="11045" fieldconfigscheme="10927" fieldconfiguration="10927"/> 
+<FieldConfigSchemeIssueType id="11100" fieldconfigscheme="11000" fieldconfiguration="11000"/> 
+<FieldConfigSchemeIssueType id="11200" fieldconfigscheme="11100" fieldconfiguration="11100"/> 
+<FieldConfigSchemeIssueType id="11302" fieldconfigscheme="11200" fieldconfiguration="11200"/> 
+<FieldConfigSchemeIssueType id="11402" fieldconfigscheme="11300" fieldconfiguration="11300"/> 
+<FieldConfigSchemeIssueType id="11405" fieldconfigscheme="11301" fieldconfiguration="11301"/> 
+<FieldConfigSchemeIssueType id="11407" fieldconfigscheme="11302" fieldconfiguration="11302"/> 
+<FieldConfigSchemeIssueType id="11408" fieldconfigscheme="10504" fieldconfiguration="10504"/> 
+<FieldConfigSchemeIssueType id="11503" fieldconfigscheme="11400" fieldconfiguration="11400"/> 
+<FieldConfigSchemeIssueType id="11509" fieldconfigscheme="11402" fieldconfiguration="11402"/> 
+<FieldConfigSchemeIssueType id="11511" fieldconfigscheme="11403" fieldconfiguration="11403"/> 
+<FieldConfigSchemeIssueType id="11512" fieldconfigscheme="11401" fieldconfiguration="11401"/> 
+<FieldConfigSchemeIssueType id="11700" fieldconfigscheme="11600" fieldconfiguration="11600"/> 
+<FieldConfigSchemeIssueType id="11703" fieldconfigscheme="11601" fieldconfiguration="11601"/> 
+<FieldConfigSchemeIssueType id="11706" fieldconfigscheme="11602" fieldconfiguration="11602"/> 
+<FieldConfigSchemeIssueType id="11709" fieldconfigscheme="11603" fieldconfiguration="11603"/> 
+<FieldConfigSchemeIssueType id="11712" fieldconfigscheme="11604" fieldconfiguration="11604"/> 
+<FieldConfigSchemeIssueType id="11715" fieldconfigscheme="11605" fieldconfiguration="11605"/> 
+<FieldConfigSchemeIssueType id="11718" fieldconfigscheme="11606" fieldconfiguration="11606"/> 
+<FieldConfigSchemeIssueType id="11723" fieldconfigscheme="10902" fieldconfiguration="10902"/> 
+<FieldConfigSchemeIssueType id="11801" fieldconfigscheme="11700" fieldconfiguration="11700"/> 
+<FieldConfigSchemeIssueType id="11902" fieldconfigscheme="11800" fieldconfiguration="11800"/> 
+<FieldConfigSchemeIssueType id="11903" fieldconfigscheme="11500" fieldconfiguration="11500"/> 
+<FieldConfigSchemeIssueType id="12002" fieldconfigscheme="11900" fieldconfiguration="11900"/> 
+<FieldConfigSchemeIssueType id="12102" fieldconfigscheme="12000" fieldconfiguration="12000"/> 
+<FieldConfigSchemeIssueType id="12200" fieldconfigscheme="12100" fieldconfiguration="12100"/> 
+<FieldConfigSchemeIssueType id="12201" fieldconfigscheme="12101" fieldconfiguration="12101"/> 
+<FieldConfigSchemeIssueType id="12202" fieldconfigscheme="12102" fieldconfiguration="12102"/> 
+<FieldConfigSchemeIssueType id="12203" fieldconfigscheme="12103" fieldconfiguration="12103"/> 
+<FieldConfigSchemeIssueType id="12204" fieldconfigscheme="12104" fieldconfiguration="12104"/> 

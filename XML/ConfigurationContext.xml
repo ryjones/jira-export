@@ -1,0 +1,73 @@
+<ConfigurationContext id="10000" key="issuetype" fieldconfigscheme="10000"/> 
+<ConfigurationContext id="10100" key="customfield_10000" fieldconfigscheme="10100"/> 
+<ConfigurationContext id="10101" key="customfield_10001" fieldconfigscheme="10101"/> 
+<ConfigurationContext id="10102" key="customfield_10004" fieldconfigscheme="10102"/> 
+<ConfigurationContext id="10103" key="customfield_10006" fieldconfigscheme="10103"/> 
+<ConfigurationContext id="10104" key="customfield_10009" fieldconfigscheme="10104"/> 
+<ConfigurationContext id="10106" key="customfield_10003" fieldconfigscheme="10106"/> 
+<ConfigurationContext id="10108" key="customfield_10007" fieldconfigscheme="10108"/> 
+<ConfigurationContext id="10109" key="customfield_10005" fieldconfigscheme="10109"/> 
+<ConfigurationContext id="10110" key="customfield_10008" fieldconfigscheme="10110"/> 
+<ConfigurationContext id="10111" project="10001" key="issuetype" fieldconfigscheme="10111"/> 
+<ConfigurationContext id="10202" project="10001" key="customfield_10010" fieldconfigscheme="10112"/> 
+<ConfigurationContext id="10207" key="customfield_10002" fieldconfigscheme="10107"/> 
+<ConfigurationContext id="10300" key="customfield_10200" fieldconfigscheme="10300"/> 
+<ConfigurationContext id="10301" key="customfield_10201" fieldconfigscheme="10301"/> 
+<ConfigurationContext id="10400" project="10200" key="issuetype" fieldconfigscheme="10400"/> 
+<ConfigurationContext id="10402" key="customfield_10300" fieldconfigscheme="10402"/> 
+<ConfigurationContext id="10403" key="customfield_10301" fieldconfigscheme="10403"/> 
+<ConfigurationContext id="10505" project="10001" key="customfield_10002" fieldconfigscheme="10505"/> 
+<ConfigurationContext id="10601" project="10401" key="issuetype" fieldconfigscheme="10601"/> 
+<ConfigurationContext id="10800" key="customfield_10400" fieldconfigscheme="10800"/> 
+<ConfigurationContext id="10902" project="10303" key="issuetype" fieldconfigscheme="10503"/> 
+<ConfigurationContext id="10903" project="10602" key="issuetype" fieldconfigscheme="10503"/> 
+<ConfigurationContext id="10904" key="customfield_10500" fieldconfigscheme="10903"/> 
+<ConfigurationContext id="10905" key="customfield_10501" fieldconfigscheme="10904"/> 
+<ConfigurationContext id="10907" key="customfield_10503" fieldconfigscheme="10906"/> 
+<ConfigurationContext id="10908" key="customfield_10504" fieldconfigscheme="10907"/> 
+<ConfigurationContext id="10909" key="customfield_10505" fieldconfigscheme="10908"/> 
+<ConfigurationContext id="10910" key="customfield_10506" fieldconfigscheme="10909"/> 
+<ConfigurationContext id="10911" key="customfield_10507" fieldconfigscheme="10910"/> 
+<ConfigurationContext id="10912" key="customfield_10508" fieldconfigscheme="10911"/> 
+<ConfigurationContext id="10913" key="customfield_10509" fieldconfigscheme="10912"/> 
+<ConfigurationContext id="10914" key="customfield_10510" fieldconfigscheme="10913"/> 
+<ConfigurationContext id="10917" key="customfield_10511" fieldconfigscheme="10915"/> 
+<ConfigurationContext id="10918" key="customfield_10512" fieldconfigscheme="10916"/> 
+<ConfigurationContext id="10919" key="customfield_10513" fieldconfigscheme="10917"/> 
+<ConfigurationContext id="10920" key="customfield_10514" fieldconfigscheme="10918"/> 
+<ConfigurationContext id="10921" key="customfield_10515" fieldconfigscheme="10919"/> 
+<ConfigurationContext id="10922" key="customfield_10516" fieldconfigscheme="10920"/> 
+<ConfigurationContext id="10923" key="customfield_10517" fieldconfigscheme="10921"/> 
+<ConfigurationContext id="10925" key="customfield_10519" fieldconfigscheme="10923"/> 
+<ConfigurationContext id="10926" key="customfield_10520" fieldconfigscheme="10924"/> 
+<ConfigurationContext id="10954" key="customfield_10521" fieldconfigscheme="10925"/> 
+<ConfigurationContext id="10955" key="customfield_10522" fieldconfigscheme="10926"/> 
+<ConfigurationContext id="10983" key="customfield_10523" fieldconfigscheme="10927"/> 
+<ConfigurationContext id="11000" key="priority" fieldconfigscheme="11000"/> 
+<ConfigurationContext id="11100" key="customfield_10600" fieldconfigscheme="11100"/> 
+<ConfigurationContext id="11323" key="customfield_10700" fieldconfigscheme="11300"/> 
+<ConfigurationContext id="11324" project="10902" key="issuetype" fieldconfigscheme="11301"/> 
+<ConfigurationContext id="11415" project="11003" key="issuetype" fieldconfigscheme="11402"/> 
+<ConfigurationContext id="11600" key="customfield_10800" fieldconfigscheme="11600"/> 
+<ConfigurationContext id="11669" project="10002" key="issuetype" fieldconfigscheme="10902"/> 
+<ConfigurationContext id="11670" project="10608" key="issuetype" fieldconfigscheme="10902"/> 
+<ConfigurationContext id="11671" project="10607" key="issuetype" fieldconfigscheme="10902"/> 
+<ConfigurationContext id="11673" project="11209" key="issuetype" fieldconfigscheme="10902"/> 
+<ConfigurationContext id="11674" project="11208" key="issuetype" fieldconfigscheme="10902"/> 
+<ConfigurationContext id="11675" project="11207" key="issuetype" fieldconfigscheme="10902"/> 
+<ConfigurationContext id="11676" project="10609" key="issuetype" fieldconfigscheme="10902"/> 
+<ConfigurationContext id="11677" project="11206" key="issuetype" fieldconfigscheme="10902"/> 
+<ConfigurationContext id="11678" project="11000" key="issuetype" fieldconfigscheme="10902"/> 
+<ConfigurationContext id="11679" project="10900" key="issuetype" fieldconfigscheme="10902"/> 
+<ConfigurationContext id="11680" project="10610" key="issuetype" fieldconfigscheme="10902"/> 
+<ConfigurationContext id="11681" project="10605" key="issuetype" fieldconfigscheme="10902"/> 
+<ConfigurationContext id="11682" project="10604" key="issuetype" fieldconfigscheme="10902"/> 
+<ConfigurationContext id="11683" project="10611" key="issuetype" fieldconfigscheme="10902"/> 
+<ConfigurationContext id="11686" project="11210" key="issuetype" fieldconfigscheme="10902"/> 
+<ConfigurationContext id="11900" project="11500" key="issuetype" fieldconfigscheme="11900"/> 
+<ConfigurationContext id="12000" project="11600" key="issuetype" fieldconfigscheme="12000"/> 
+<ConfigurationContext id="12100" key="customfield_10900" fieldconfigscheme="12100"/> 
+<ConfigurationContext id="12101" key="customfield_10901" fieldconfigscheme="12101"/> 
+<ConfigurationContext id="12102" key="customfield_10902" fieldconfigscheme="12102"/> 
+<ConfigurationContext id="12103" key="customfield_10903" fieldconfigscheme="12103"/> 
+<ConfigurationContext id="12104" key="customfield_10904" fieldconfigscheme="12104"/> 

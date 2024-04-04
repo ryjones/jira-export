@@ -1,0 +1,5 @@
+<Priority id="1" sequence="1" name="Highest" description="This problem will block progress." iconurl="/images/icons/priorities/highest.png" statusColor="#d04437"/> 
+<Priority id="2" sequence="2" name="High" description="Serious problem that could block progress." iconurl="/images/icons/priorities/high.png" statusColor="#f15C75"/> 
+<Priority id="3" sequence="3" name="Medium" description="Has the potential to affect progress." iconurl="/images/icons/priorities/medium.png" statusColor="#f79232"/> 
+<Priority id="4" sequence="4" name="Low" description="Minor problem or easily worked around." iconurl="/images/icons/priorities/low.png" statusColor="#707070"/> 
+<Priority id="5" sequence="5" name="Lowest" description="Trivial problem with little or no impact on progress." iconurl="/images/icons/priorities/lowest.png" statusColor="#999999"/> 

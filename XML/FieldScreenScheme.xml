@@ -1,0 +1,80 @@
+<FieldScreenScheme id="1" name="Default Screen Scheme" description="Default Screen Scheme"/> 
+<FieldScreenScheme id="10000" name="FAB: Scrum Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10001" name="FAB: Scrum Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10002" name="STL: Software Development Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10003" name="STL: Software Development Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10004" name="FAB: Software Development Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10005" name="FAB: Software Development Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10100" name="BE: Software Development Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10101" name="BE: Software Development Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10200" name="CE: Software Development Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10201" name="CE: Software Development Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10202" name="WFT: Scrum Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10203" name="WFT: Scrum Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10204" name="WFT: Software Development Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10205" name="WFT: Software Development Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10206" name="WFT: Scrum Default Screen Scheme (1)" description=""/> 
+<FieldScreenScheme id="10207" name="WFT: Scrum Bug Screen Scheme (1)" description=""/> 
+<FieldScreenScheme id="10300" name="IR: Task Management Screen Scheme" description=""/> 
+<FieldScreenScheme id="10301" name="IN: Software Development Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10302" name="IN: Software Development Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10303" name="FOOB: Scrum Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10304" name="FOOB: Scrum Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10305" name="INDY: Software Development Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10306" name="INDY: Software Development Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10307" name="IR: Software Development Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10308" name="IR: Software Development Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10400" name="BUR: Software Development Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10401" name="BUR: Software Development Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10402" name="IS: Software Development Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10403" name="IS: Software Development Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10500" name="H1: Software Development Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10501" name="H1: Software Development Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10600" name="COM: Software Development Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10601" name="COM: Software Development Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10602" name="QUIL: Software Development Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10603" name="QUIL: Software Development Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10604" name="FAB: Epic Screen Scheme" description=""/> 
+<FieldScreenScheme id="10605" name="FAB: Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10606" name="FAB: Story Screen Scheme" description=""/> 
+<FieldScreenScheme id="10607" name="FAB: Test Screen Scheme" description=""/> 
+<FieldScreenScheme id="10608" name="TESTFABRIC: Scrum Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10609" name="TESTFABRIC: Scrum Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10610" name="FAB: Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10611" name="FAB: Task Screen Scheme" description=""/> 
+<FieldScreenScheme id="10612" name="FAB: Sub-Task Screen Scheme" description=""/> 
+<FieldScreenScheme id="10613" name="FAB: Epic (SDK Project) Screen Scheme" description=""/> 
+<FieldScreenScheme id="10614" name="FAB: Story Screen Scheme (SDK Project)" description=""/> 
+<FieldScreenScheme id="10700" name="MDL: Software Development Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10701" name="MDL: Software Development Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10800" name="GRID: Software Development Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10801" name="GRID: Software Development Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10802" name="CAT: Task Management Screen Scheme" description=""/> 
+<FieldScreenScheme id="10900" name="SKP: Kanban Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10901" name="SKP: Kanban Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10902" name="ARIES: Scrum Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10903" name="ARIES: Scrum Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10904" name="TX: Software Development Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="10905" name="TX: Software Development Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="10906" name="CAC: Task Management Screen Scheme" description=""/> 
+<FieldScreenScheme id="11000" name="BESU: Software Development Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="11001" name="BESU: Software Development Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="11100" name="AV: Scrum Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="11101" name="AV: Scrum Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="11102" name="FABCE: Scrum Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="11103" name="FABCE: Scrum Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="11104" name="FABCG: Scrum Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="11105" name="FABCG: Scrum Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="11106" name="FABCJ: Scrum Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="11107" name="FABCJ: Scrum Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="11108" name="FABCN: Scrum Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="11109" name="FABCN: Scrum Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="11110" name="FCAG: Scrum Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="11111" name="FCAG: Scrum Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="11200" name="LSI: Project Management Screen Scheme" description=""/> 
+<FieldScreenScheme id="11300" name="DONTUSE: Scrum Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="11301" name="DONTUSE: Scrum Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="11400" name="FCW: Scrum Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="11401" name="FCW: Scrum Bug Screen Scheme" description=""/> 
+<FieldScreenScheme id="11500" name="FABGW: Scrum Default Screen Scheme" description=""/> 
+<FieldScreenScheme id="11501" name="FABGW: Scrum Bug Screen Scheme" description=""/> 

@@ -1,0 +1,279 @@
+<Version id="10100" project="10002" name="v0.6" description="version 0.6" sequence="1" released="true" archived="true" startdate="2016-09-06 00:00:00.0" releasedate="2016-09-19 00:00:00.0"/> 
+<Version id="10101" project="10002" name="v0.5-developer-preview" description="v0.5-developer-preview" sequence="2" released="true" archived="true" startdate="2016-06-30 00:00:00.0" releasedate="2016-06-30 00:00:00.0"/> 
+<Version id="10200" project="10002" name="v1.0.0" description="v1.0.0 generally available release" sequence="3" released="true" archived="true" startdate="2016-09-20 00:00:00.0" releasedate="2017-07-11 00:00:00.0"/> 
+<Version id="10300" project="10002" name="v1.0.0-alpha1" description="initial v1.0.0 alpha release" sequence="4" released="true" archived="true" startdate="2016-09-20 00:00:00.0" releasedate="2017-03-17 00:00:00.0"/> 
+<Version id="10301" project="10002" name="WON&apos;T FIX" description="issues that will not be fixed" sequence="5"/> 
+<Version id="10400" project="10002" name="DUPLICATE" sequence="6"/> 
+<Version id="10401" project="10002" name="Future" sequence="7"/> 
+<Version id="10500" project="10002" name="v1.0.0-alpha2" description="Second alpha release for v1.0.0" sequence="8" released="true" archived="true" startdate="2017-03-17 00:00:00.0" releasedate="2017-05-19 00:00:00.0"/> 
+<Version id="10501" project="10002" name="Unverifiable" sequence="9"/> 
+<Version id="10502" project="10303" name="1.0" description="Minimal go-live" sequence="2" released="true" releasedate="2017-07-31 00:00:00.0"/> 
+<Version id="10503" project="10002" name="Not a Bug" description="Use this in fix version when closing issues which were not bugs" sequence="10"/> 
+<Version id="10504" project="10002" name="v1.0.0-beta" description="version 1.0.0-beta release" sequence="11" released="true" archived="true" startdate="2017-05-19 00:00:00.0" releasedate="2017-06-08 00:00:00.0"/> 
+<Version id="10506" project="10002" name="v1.0.0-rc1" description="version v1.0.0 release candidate 1" sequence="12" released="true" archived="true" startdate="2017-06-08 00:00:00.0" releasedate="2017-06-23 00:00:00.0"/> 
+<Version id="10600" project="10200" name="v0.7" description="" sequence="3" released="true" startdate="2017-06-01 00:00:00.0" releasedate="2017-10-22 00:00:00.0"/> 
+<Version id="10601" project="10200" name="Future" description="" sequence="1"/> 
+<Version id="10602" project="10200" name="v0.6" description="" sequence="2" released="true" startdate="2017-02-01 00:00:00.0" releasedate="2017-06-01 00:00:00.0"/> 
+<Version id="10605" project="10002" name="v1.0.1" description="First patch release for v1.0.0" sequence="13" released="true" archived="true" startdate="2017-07-11 00:00:00.0" releasedate="2017-08-10 00:00:00.0"/> 
+<Version id="10606" project="10002" name="v1.0.2" description="first post-1.0.1 patch" sequence="14" released="true" archived="true" startdate="2017-08-07 00:00:00.0" releasedate="2017-08-31 00:00:00.0"/> 
+<Version id="10700" project="10002" name="v1.2.0" description="" sequence="15" released="true" archived="true" releasedate="2018-06-30 00:00:00.0"/> 
+<Version id="10701" project="10002" name="Abandoned" sequence="16"/> 
+<Version id="10702" project="10002" name="v1.0.3" description="" sequence="17" released="true" archived="true" startdate="2017-09-01 00:00:00.0" releasedate="2017-10-04 00:00:00.0"/> 
+<Version id="10800" project="10002" name="v1.0.4" description="" sequence="18" released="true" archived="true" startdate="2017-10-04 00:00:00.0" releasedate="2017-10-31 00:00:00.0"/> 
+<Version id="10900" project="10200" name="v0.8.0" description="" sequence="4" released="true" startdate="2017-10-31 00:00:00.0" releasedate="2018-03-31 00:00:00.0"/> 
+<Version id="11000" project="10002" name="v1.1.0-preview" sequence="19" released="true" archived="true" releasedate="2017-11-01 00:00:00.0"/> 
+<Version id="11001" project="10002" name="v1.1.0-alpha" description="" sequence="20" released="true" archived="true" releasedate="2018-01-26 00:00:00.0"/> 
+<Version id="11100" project="10002" name="v1.0.5" description="" sequence="21" released="true" archived="true" startdate="2017-11-01 00:00:00.0" releasedate="2017-12-06 00:00:00.0"/> 
+<Version id="11200" project="10002" name="v1.0.6" description="" sequence="22" released="true" archived="true" startdate="2017-12-06 00:00:00.0" releasedate="2018-02-18 00:00:00.0"/> 
+<Version id="11201" project="10200" name="v0.9.0" description="" sequence="5" released="true" startdate="2018-05-01 00:00:00.0" releasedate="2018-11-25 00:00:00.0"/> 
+<Version id="11400" project="10002" name="v1.3.0" description="" sequence="23" released="true" archived="true" releasedate="2018-10-10 00:00:00.0"/> 
+<Version id="11403" project="10001" name="Test2" description="Test Version " sequence="1" released="true" startdate="2018-02-13 00:00:00.0" releasedate="2018-02-13 00:00:00.0"/> 
+<Version id="11404" project="10002" name="v1.1.0" description="" sequence="24" released="true" archived="true" releasedate="2018-03-15 00:00:00.0"/> 
+<Version id="11405" project="10002" name="v1.0.7" description="" sequence="25" archived="true"/> 
+<Version id="11406" project="10002" name="v1.1.1" sequence="26" released="true" archived="true" releasedate="2018-07-08 00:00:00.0"/> 
+<Version id="11407" project="10200" name="0.8.1" description="" sequence="6" released="true" startdate="2018-04-01 00:00:00.0" releasedate="2018-04-30 00:00:00.0"/> 
+<Version id="11408" project="10401" name="1.3" description="Initial release" sequence="1" released="true" releasedate="2018-01-12 00:00:00.0"/> 
+<Version id="11409" project="10401" name="1.4" description="Revocation support and Indy CLI" sequence="2" released="true" releasedate="2018-05-10 00:00:00.0"/> 
+<Version id="11410" project="10401" name="1.5" description="Payment interface and wallet storage improvements" sequence="3" released="true" startdate="2018-05-10 00:00:00.0" releasedate="2018-06-27 00:00:00.0"/> 
+<Version id="11411" project="10303" name="1.3" description="Revocation support" sequence="3" released="true" releasedate="2018-04-18 00:00:00.0"/> 
+<Version id="11412" project="10303" name="1.4" description="Improved transaction format and DB format" sequence="4" released="true" releasedate="2018-06-28 00:00:00.0"/> 
+<Version id="11413" project="10303" name="1.5" description="Production logging and improved connection handling" sequence="5" released="true" releasedate="2018-07-19 00:00:00.0"/> 
+<Version id="11415" project="10401" name="1.6.0" description="Generic payment interface and improved wallet search" sequence="4" released="true" releasedate="2018-07-27 00:00:00.0"/> 
+<Version id="11416" project="10303" name="1.3.62" description="Docker fix, view change fix, read ledger fix" sequence="1" released="true" releasedate="2018-05-22 00:00:00.0"/> 
+<Version id="11417" project="10303" name="1.9.0" description="Pluggable requests handlers" sequence="17" released="true" releasedate="2019-07-05 00:00:00.0"/> 
+<Version id="11418" project="10002" name="v1.1.3" sequence="27" archived="true"/> 
+<Version id="11419" project="10002" name="v1.0.8" sequence="28" archived="true"/> 
+<Version id="11422" project="10303" name="1.6" description="Plenum plugins" sequence="6" released="true" releasedate="2018-08-14 00:00:00.0"/> 
+<Version id="11423" project="10002" name="v1.2.1" sequence="29" released="true" archived="true" releasedate="2018-09-27 00:00:00.0"/> 
+<Version id="11424" project="10401" name="1.6.2" description="" sequence="5" released="true" releasedate="2018-08-13 00:00:00.0"/> 
+<Version id="11429" project="10303" name="1.6.73" description="Fixes for Sovrin Network with durable transactions" sequence="8" released="true" releasedate="2018-09-04 00:00:00.0"/> 
+<Version id="11437" project="10608" name="Unscheduled" description="" sequence="1"/> 
+<Version id="11444" project="10607" name="Unscheduled" description="" sequence="1"/> 
+<Version id="11446" project="10607" name="v0.6" description="" sequence="2" released="true" archived="true"/> 
+<Version id="11447" project="10607" name="v1.0.0" description="" sequence="3" released="true" archived="true"/> 
+<Version id="11448" project="10607" name="v1.0.0-alpha1" description="" sequence="4" released="true" archived="true"/> 
+<Version id="11449" project="10607" name="v1.0.0-alpha2" description="" sequence="5" released="true" archived="true"/> 
+<Version id="11450" project="10607" name="v1.0.0-beta" description="" sequence="6" released="true" archived="true"/> 
+<Version id="11451" project="10607" name="v1.0.0-rc1" description="" sequence="7" released="true" archived="true"/> 
+<Version id="11452" project="10607" name="v1.0.1" description="" sequence="8" released="true" archived="true"/> 
+<Version id="11453" project="10607" name="v1.0.2" description="" sequence="9" released="true" archived="true"/> 
+<Version id="11454" project="10607" name="v1.0.3" description="" sequence="10" released="true" archived="true"/> 
+<Version id="11455" project="10607" name="v1.0.4" description="" sequence="11" released="true" archived="true"/> 
+<Version id="11456" project="10607" name="v1.0.5" description="" sequence="12" released="true" archived="true"/> 
+<Version id="11457" project="10607" name="v1.0.6" description="" sequence="13" released="true" archived="true"/> 
+<Version id="11459" project="10607" name="v1.1.0" description="" sequence="14" released="true" archived="true"/> 
+<Version id="11460" project="10607" name="v1.1.0-alpha" description="" sequence="15" released="true" archived="true"/> 
+<Version id="11461" project="10607" name="v1.1.0-preview" description="" sequence="16" released="true" archived="true"/> 
+<Version id="11462" project="10607" name="v1.1.1" description="" sequence="17" released="true" archived="true"/> 
+<Version id="11463" project="10607" name="v1.2.0" description="" sequence="18" released="true" archived="true"/> 
+<Version id="11464" project="10607" name="v1.2.1" description="" sequence="19" released="true" archived="true"/> 
+<Version id="11465" project="10607" name="v1.3.0" description="" sequence="20" released="true" archived="true"/> 
+<Version id="11467" project="10609" name="Unscheduled" description="" sequence="1"/> 
+<Version id="11468" project="10609" name="Future" description="" sequence="2"/> 
+<Version id="11469" project="10609" name="v1.0.0" description="" sequence="3"/> 
+<Version id="11470" project="10609" name="v1.2.0" description="" sequence="4"/> 
+<Version id="11471" project="10609" name="v1.1.0" description="" sequence="5"/> 
+<Version id="11472" project="10609" name="v1.1.1" description="" sequence="6"/> 
+<Version id="11473" project="10609" name="WON&apos;T FIX" description="" sequence="7"/> 
+<Version id="11474" project="10609" name="v1.0.0-beta" description="" sequence="8"/> 
+<Version id="11475" project="10609" name="v1.3.0" description="" sequence="9"/> 
+<Version id="11476" project="10609" name="v0.6" description="" sequence="10"/> 
+<Version id="11477" project="10609" name="v1.0.0-alpha2" description="" sequence="11"/> 
+<Version id="11478" project="10609" name="v1.0.1" description="" sequence="12"/> 
+<Version id="11479" project="10610" name="Unscheduled" description="" sequence="1"/> 
+<Version id="11480" project="10610" name="Future" description="" sequence="2"/> 
+<Version id="11481" project="10610" name="v1.0.0" description="" sequence="3"/> 
+<Version id="11482" project="10610" name="v1.2.0" description="" sequence="4"/> 
+<Version id="11483" project="10610" name="WON&apos;T FIX" description="" sequence="5"/> 
+<Version id="11484" project="10610" name="v1.1.0" description="" sequence="6"/> 
+<Version id="11485" project="10610" name="v1.3.0" description="" sequence="7"/> 
+<Version id="11486" project="10610" name="Abandoned" description="" sequence="8"/> 
+<Version id="11487" project="10610" name="Unverifiable" description="" sequence="9"/> 
+<Version id="11488" project="10610" name="v1.0.1" description="" sequence="10"/> 
+<Version id="11489" project="10605" name="v1.0.0" description="" sequence="1"/> 
+<Version id="11490" project="10605" name="Unscheduled" description="" sequence="2"/> 
+<Version id="11491" project="10605" name="v1.1.0" description="" sequence="3"/> 
+<Version id="11492" project="10605" name="Future" description="" sequence="4"/> 
+<Version id="11493" project="10605" name="WON&apos;T FIX" description="" sequence="5"/> 
+<Version id="11494" project="10605" name="v1.2.0" description="" sequence="6"/> 
+<Version id="11495" project="10605" name="v1.0.1" description="" sequence="7"/> 
+<Version id="11496" project="10605" name="v1.3.0" description="" sequence="8"/> 
+<Version id="11497" project="10605" name="v1.1.1" description="" sequence="9"/> 
+<Version id="11498" project="10605" name="v1.0.0-beta" description="" sequence="10"/> 
+<Version id="11499" project="10605" name="Not a Bug" description="" sequence="11"/> 
+<Version id="11500" project="10605" name="DUPLICATE" description="" sequence="12"/> 
+<Version id="11501" project="10605" name="v1.0.0-alpha2" description="" sequence="13"/> 
+<Version id="11502" project="10605" name="v1.0.0-rc1" description="" sequence="14"/> 
+<Version id="11503" project="10605" name="v0.6" description="" sequence="15"/> 
+<Version id="11504" project="10605" name="v1.0.0-alpha1" description="" sequence="16"/> 
+<Version id="11505" project="10604" name="Unscheduled" description="" sequence="1"/> 
+<Version id="11506" project="10604" name="v1.0.0" description="" sequence="2" archived="true"/> 
+<Version id="11507" project="10604" name="v1.1.0" description="" sequence="3" archived="true"/> 
+<Version id="11508" project="10604" name="v1.2.0" description="" sequence="4" archived="true"/> 
+<Version id="11509" project="10604" name="Future" description="" sequence="5"/> 
+<Version id="11510" project="10604" name="v1.1.1" description="" sequence="6" archived="true"/> 
+<Version id="11512" project="10604" name="v1.0.1" description="" sequence="7" archived="true"/> 
+<Version id="11513" project="10604" name="v1.3.0" description="" sequence="8" archived="true"/> 
+<Version id="11514" project="10604" name="v0.6" description="" sequence="9" archived="true"/> 
+<Version id="11516" project="10604" name="v1.0.0-alpha2" description="" sequence="10" archived="true"/> 
+<Version id="11517" project="10604" name="v1.0.0-rc1" description="" sequence="11" archived="true"/> 
+<Version id="11518" project="10604" name="v1.0.3" description="" sequence="12" archived="true"/> 
+<Version id="11519" project="10604" name="v1.0.0-beta" description="" sequence="13" archived="true"/> 
+<Version id="11520" project="10604" name="v1.0.4" description="" sequence="14" archived="true"/> 
+<Version id="11521" project="10604" name="v1.1.0-alpha" description="" sequence="15" archived="true"/> 
+<Version id="11522" project="10604" name="v1.0.0-alpha1" description="" sequence="16" archived="true"/> 
+<Version id="11523" project="10604" name="v1.0.5" description="" sequence="17" archived="true"/> 
+<Version id="11526" project="10604" name="v1.0.2" description="" sequence="18" archived="true"/> 
+<Version id="11527" project="10604" name="v1.0.6" description="" sequence="19" archived="true"/> 
+<Version id="11528" project="10604" name="v1.0.7" description="" sequence="20" archived="true"/> 
+<Version id="11530" project="10604" name="v1.0.8" description="" sequence="21" archived="true"/> 
+<Version id="11531" project="10604" name="v1.2.1" description="" sequence="22" archived="true"/> 
+<Version id="11532" project="10604" name="v1.1.0-preview" description="" sequence="23" archived="true"/> 
+<Version id="11533" project="10604" name="v1.1.3" description="" sequence="24" archived="true"/> 
+<Version id="11534" project="10611" name="Unscheduled" description="" sequence="1"/> 
+<Version id="11535" project="10611" name="v1.0.0" description="" sequence="2"/> 
+<Version id="11536" project="10611" name="v0.6" description="" sequence="3"/> 
+<Version id="11537" project="10611" name="Future" description="" sequence="4"/> 
+<Version id="11538" project="10611" name="v1.2.0" description="" sequence="5"/> 
+<Version id="11539" project="10611" name="v1.1.0" description="" sequence="6"/> 
+<Version id="11540" project="10611" name="v1.1.1" description="" sequence="7"/> 
+<Version id="11541" project="10611" name="v1.3.0" description="" sequence="8"/> 
+<Version id="11542" project="10611" name="v1.0.0-alpha1" description="" sequence="9"/> 
+<Version id="11543" project="10611" name="v1.0.1" description="" sequence="10"/> 
+<Version id="11544" project="10611" name="v1.0.3" description="" sequence="11"/> 
+<Version id="11545" project="10611" name="v1.0.4" description="" sequence="12"/> 
+<Version id="11547" project="10002" name="v1.4.0" description="" sequence="30" released="true" startdate="2018-10-01 00:00:00.0" releasedate="2019-01-09 00:00:00.0"/> 
+<Version id="11548" project="10604" name="v1.4.0" sequence="25" released="true"/> 
+<Version id="11549" project="10002" name="v1.1.2" sequence="31" archived="true"/> 
+<Version id="11600" project="10607" name="v1.4.0" sequence="21" released="true" releasedate="2019-01-09 00:00:00.0"/> 
+<Version id="11601" project="10303" name="1.6.78" description="Fixes for Sovrin Network with durable transactions" sequence="9" released="true" releasedate="2018-10-19 00:00:00.0"/> 
+<Version id="11700" project="10401" name="1.6.3" description="" sequence="6" released="true" releasedate="2018-08-29 00:00:00.0"/> 
+<Version id="11701" project="10401" name="1.6.4" description="" sequence="7" released="true" releasedate="2018-09-03 00:00:00.0"/> 
+<Version id="11702" project="10401" name="1.7.0" description="New logging API and functional LibVCX." sequence="12" released="true" startdate="2018-10-11 00:00:00.0" releasedate="2018-12-28 00:00:00.0"/> 
+<Version id="11703" project="10401" name="2.0.0" description="Aries / Indy" sequence="28"/> 
+<Version id="11704" project="10303" name="1.6.71" description="Hotfix to unblock teams (3 lines)" sequence="7" released="true" releasedate="2018-08-23 00:00:00.0"/> 
+<Version id="11705" project="10303" name="1.6.79" description="" sequence="10" released="true" releasedate="2018-12-06 00:00:00.0"/> 
+<Version id="11706" project="10605" name="v1.4.0" sequence="17"/> 
+<Version id="11707" project="10604" name="v1.2.2" sequence="26" archived="true"/> 
+<Version id="11708" project="10401" name="1.6.5" sequence="8" released="true" releasedate="2018-09-07 00:00:00.0"/> 
+<Version id="11709" project="10001" name="1.1" description="" sequence="2"/> 
+<Version id="11710" project="10001" name="Sawtooth Version 1.2" description="" sequence="3" released="true" releasedate="2019-10-15 00:00:00.0"/> 
+<Version id="11711" project="10401" name="1.6.6" description="Improvements to Android build" sequence="9" released="true" releasedate="2018-09-13 00:00:00.0"/> 
+<Version id="11713" project="10607" name="v1.2.2" sequence="22" archived="true"/> 
+<Version id="11714" project="10607" name="v1.3.1" sequence="23" archived="true"/> 
+<Version id="11715" project="10002" name="v2.0.0" description="" sequence="32" released="true" startdate="2018-10-01 00:00:00.0" releasedate="2020-01-29 00:00:00.0"/> 
+<Version id="11716" project="10605" name="v2.0.0" sequence="18"/> 
+<Version id="11717" project="10002" name="v1.2.2" sequence="33" archived="true"/> 
+<Version id="11800" project="10401" name="1.6.7" sequence="10" released="true" releasedate="2018-10-09 00:00:00.0"/> 
+<Version id="11802" project="10607" name="v2.0.0" sequence="24"/> 
+<Version id="11803" project="10303" name="1.6.83" description="Fixes for Sovrin Network with durable transactions" sequence="13" released="true" releasedate="2019-02-11 00:00:00.0"/> 
+<Version id="11804" project="10604" name="v1.3.1" sequence="27" archived="true"/> 
+<Version id="11805" project="10604" name="v1.2.3" sequence="28" archived="true"/> 
+<Version id="11806" project="10610" name="v1.4" sequence="11"/> 
+<Version id="11807" project="10200" name="v1.0.0" description="" sequence="7" startdate="2018-11-26 00:00:00.0" releasedate="2019-06-30 00:00:00.0"/> 
+<Version id="11808" project="10604" name="v2.0.0" sequence="29"/> 
+<Version id="11811" project="10401" name="1.8.0" description="Backwards compatible interoperability changes" sequence="13" released="true" releasedate="2019-02-01 00:00:00.0"/> 
+<Version id="11812" project="10401" name="1.6.8" description="Fix problem with slow proof generation" sequence="11" released="true" releasedate="2018-11-22 00:00:00.0"/> 
+<Version id="11815" project="10002" name="v1.4.1" description="" sequence="34" released="true" startdate="2019-01-09 00:00:00.0" releasedate="2019-03-30 00:00:00.0"/> 
+<Version id="11816" project="10604" name="v1.4.1" sequence="30" released="true"/> 
+<Version id="11817" project="10303" name="1.9.1" description="Bug fixes" sequence="18" released="true" releasedate="2019-08-02 00:00:00.0"/> 
+<Version id="11818" project="10303" name="1.6.80" description="A hotfix for POOL_RESTART command" sequence="11" released="true" releasedate="2018-12-13 00:00:00.0"/> 
+<Version id="11819" project="10303" name="1.6.82" description="Hotfix for view change triggering" sequence="12" released="true" releasedate="2018-12-21 00:00:00.0"/> 
+<Version id="11821" project="10002" name="v2.1.0" sequence="35" released="true" releasedate="2020-04-17 00:00:00.0"/> 
+<Version id="11822" project="10607" name="v2.1.0" sequence="25"/> 
+<Version id="11825" project="10607" name="v1.4.1" description="" sequence="26" released="true" startdate="2019-01-09 00:00:00.0" releasedate="2019-03-30 00:00:00.0"/> 
+<Version id="11826" project="10401" name="1.9.0" description="Transaction Author Agreement" sequence="17" released="true" releasedate="2019-05-31 00:00:00.0"/> 
+<Version id="11828" project="10303" name="1.7.1" description="Audit ledger for inter-ledger consistency; auth persmissions in config ledger and multi-signature support" sequence="14" released="true" releasedate="2019-04-30 00:00:00.0"/> 
+<Version id="11900" project="10401" name="1.8.1" description="Bug fix for freshness and libnullpay logging" sequence="14" released="true" releasedate="2019-02-11 00:00:00.0"/> 
+<Version id="11902" project="10303" name="1.11.0" description="New View Change protocol" sequence="21" released="true" releasedate="2019-10-31 00:00:00.0"/> 
+<Version id="11903" project="10303" name="2.0" description="New ledger architecture" sequence="28"/> 
+<Version id="11904" project="10303" name="1.16.0" description="Performance improvements" sequence="27"/> 
+<Version id="11905" project="10303" name="1.13.0" description="Rich Schemas / W3C VCs, and updated libraries" sequence="25" releasedate="2020-04-15 00:00:00.0"/> 
+<Version id="11906" project="10303" name="1.14.0" description="Updated platform support and anoncreds 2.0" sequence="26" releasedate="2020-05-27 00:00:00.0"/> 
+<Version id="11908" project="10401" name="1.8.2" description="Bug fixes and minor improvements" sequence="15" released="true" releasedate="2019-03-27 00:00:00.0"/> 
+<Version id="11909" project="10605" name="v1.4.1" sequence="19"/> 
+<Version id="11910" project="11000" name="v2.0.0" description="" sequence="1"/> 
+<Version id="11911" project="10002" name="v1.4.2" sequence="36" released="true" releasedate="2019-07-17 00:00:00.0"/> 
+<Version id="11913" project="10608" name="0.4.10" description="" sequence="2" released="true"/> 
+<Version id="11914" project="10608" name="0.4.16" description="" sequence="3"/> 
+<Version id="11915" project="10608" name="0.4.6" description="" sequence="4" released="true"/> 
+<Version id="11916" project="10608" name="0.4.13" description="" sequence="5" released="true"/> 
+<Version id="11917" project="10608" name="0.4.15" description="" sequence="6" released="true"/> 
+<Version id="11918" project="10608" name="0.4.14" description="" sequence="7" released="true"/> 
+<Version id="11919" project="10608" name="0.4.8" description="" sequence="8" released="true" releasedate="2019-03-26 00:00:00.0"/> 
+<Version id="11920" project="10608" name="0.4.11" sequence="9"/> 
+<Version id="11922" project="10604" name="v1.4.2" sequence="31" released="true"/> 
+<Version id="11923" project="10303" name="1.8.0" description="Transaction Author Agreement" sequence="15" released="true" releasedate="2019-05-31 00:00:00.0"/> 
+<Version id="11925" project="10401" name="1.8.3" description="Bug fixes for auth_rules" sequence="16" released="true" releasedate="2019-04-27 00:00:00.0"/> 
+<Version id="11926" project="10607" name="v1.4.2" sequence="27" released="true" releasedate="2019-07-17 00:00:00.0"/> 
+<Version id="11927" project="10605" name="v1.4.2" sequence="20"/> 
+<Version id="11929" project="10401" name="1.10.0" description="Flexible credential attribute tagging" sequence="18" released="true" releasedate="2019-07-03 00:00:00.0"/> 
+<Version id="11931" project="10002" name="v3.0.0" sequence="37"/> 
+<Version id="11932" project="10605" name="v1.4.4" sequence="21"/> 
+<Version id="11933" project="10303" name="1.8.1" description="" sequence="16" released="true" releasedate="2019-06-06 00:00:00.0"/> 
+<Version id="11934" project="10001" name="1.0" sequence="4"/> 
+<Version id="11935" project="10303" name="1.9.2" description="Bug fixes" sequence="19" released="true" releasedate="2019-08-30 00:00:00.0"/> 
+<Version id="11936" project="10401" name="1.11.0" description="Agency independent LibVCX and bug  fixes" sequence="20" released="true" releasedate="2019-08-01 00:00:00.0"/> 
+<Version id="12000" project="10002" name="v1.4.3" sequence="38" released="true" releasedate="2019-08-26 00:00:00.0"/> 
+<Version id="12001" project="10607" name="v1.4.3" sequence="28" released="true" releasedate="2019-08-26 00:00:00.0"/> 
+<Version id="12002" project="10401" name="1.11.1" description="Polish on existing features" sequence="21" released="true" releasedate="2019-08-30 00:00:00.0"/> 
+<Version id="12003" project="10002" name="v1.4.4" sequence="39" released="true" releasedate="2019-11-14 00:00:00.0"/> 
+<Version id="12004" project="10608" name="0.4.17" sequence="10"/> 
+<Version id="12005" project="10401" name="1.10.1" description="" sequence="19" released="true" releasedate="2019-07-15 00:00:00.0"/> 
+<Version id="12006" project="10401" name="1.12.0" description="Support for Fully Qualified DIDs" sequence="22" released="true" releasedate="2019-10-08 00:00:00.0"/> 
+<Version id="12007" project="10607" name="v1.4.4" description="" sequence="29" released="true" releasedate="2019-11-14 00:00:00.0"/> 
+<Version id="12009" project="10001" name="1.0.5" sequence="5"/> 
+<Version id="12010" project="10303" name="1.10.0" description="Refactor for View Change and BLS" sequence="20" released="true" releasedate="2019-10-05 00:00:00.0"/> 
+<Version id="12012" project="10401" name="1.13.0" description="LibVCX alignment with Aries protocols" sequence="23" released="true" releasedate="2019-12-04 00:00:00.0"/> 
+<Version id="12013" project="10604" name="v1.4.3" description="" sequence="32" released="true"/> 
+<Version id="12014" project="10604" name="v1.4.4" description="" sequence="33" released="true"/> 
+<Version id="12015" project="10604" name="v1.4.5" description="" sequence="34"/> 
+<Version id="12100" project="10303" name="1.12.0" description="Stability fixes" sequence="22" released="true" releasedate="2019-11-29 00:00:00.0"/> 
+<Version id="12101" project="10303" name="1.12.1" description="Stability fixes and improvements to TAA behavior" sequence="23" released="true" releasedate="2019-12-28 00:00:00.0"/> 
+<Version id="12104" project="10401" name="1.14.0" description="Support for Aries protocols in LibVCX" sequence="24" released="true" releasedate="2019-12-27 00:00:00.0"/> 
+<Version id="12105" project="10002" name="v1.4.5" sequence="40" released="true" releasedate="2020-02-19 00:00:00.0"/> 
+<Version id="12106" project="10303" name="1.12.2" description="More stability fixes" sequence="24" released="true" releasedate="2020-01-30 00:00:00.0"/> 
+<Version id="12200" project="10607" name="v1.4.5" sequence="30" released="true" releasedate="2020-02-19 00:00:00.0"/> 
+<Version id="12201" project="10401" name="1.14.1" description="Bug fix for TAA backwards compatibility" sequence="25" released="true" releasedate="2019-12-31 00:00:00.0"/> 
+<Version id="12202" project="10401" name="1.14.2" description="Bug fixes" sequence="26" released="true" releasedate="2020-01-31 00:00:00.0"/> 
+<Version id="12300" project="10002" name="v2.0.1" sequence="41" released="true" releasedate="2020-02-26 00:00:00.0"/> 
+<Version id="12301" project="10401" name="1.14.3" description="LibVCX improvements" sequence="27" releasedate="2020-02-27 00:00:00.0"/> 
+<Version id="12302" project="10002" name="v1.4.6" sequence="42" released="true" releasedate="2020-02-25 00:00:00.0"/> 
+<Version id="12303" project="10002" name="v2.2.0" sequence="43"/> 
+<Version id="12304" project="10002" name="v1.4.7" sequence="44"/> 
+<Version id="12305" project="10002" name="v2.0.2" sequence="45"/> 
+<Version id="12306" project="10002" name="v2.x" sequence="46"/> 
+<Version id="12307" project="10610" name="v2.x" sequence="12"/> 
+<Version id="12308" project="10604" name="v2.x" sequence="35"/> 
+<Version id="12309" project="10401" name="1.14.4" sequence="29"/> 
+<Version id="12310" project="10607" name="v1.4.6" description="" sequence="31" released="true" releasedate="2020-02-25 00:00:00.0"/> 
+<Version id="12311" project="10605" name="v2.0.1" sequence="22"/> 
+<Version id="12312" project="10605" name="v1.4.9" sequence="23"/> 
+<Version id="12313" project="10002" name="v1.x" sequence="47"/> 
+<Version id="12315" project="10002" name="v2.1.1" description="" sequence="48"/> 
+<Version id="12400" project="10604" name="v2.1.0" sequence="36"/> 
+<Version id="12401" project="10607" name="v1.4.7" sequence="32"/> 
+<Version id="12402" project="10002" name="v1.4.8" sequence="49"/> 
+<Version id="12404" project="10607" name="v1.4.8" sequence="33"/> 
+<Version id="12501" project="10002" name="v2.3.0" sequence="50"/> 
+<Version id="12600" project="11500" name="TP1" description="End to End working - simple use cases" sequence="1"/> 
+<Version id="12601" project="11500" name="TP2" description="E2E working for more complex samples e.g. private data" sequence="2"/> 
+<Version id="12602" project="10002" name="v1.4.9" sequence="51"/> 
+<Version id="12603" project="10401" name="1.15.0" sequence="30"/> 
+<Version id="12604" project="10002" name="v2.2.1" sequence="52"/> 
+<Version id="12605" project="10002" name="v2.1.2" sequence="53"/> 
+<Version id="12700" project="10604" name="v1.4.6" sequence="37"/> 
+<Version id="12800" project="10607" name="v1.4.9" sequence="34"/> 
+<Version id="12802" project="10002" name="v2.2.2" sequence="54"/> 
+<Version id="12803" project="10002" name="v1.4.10" sequence="55"/> 
+<Version id="12804" project="10002" name="v2.4.0" sequence="56"/> 
+<Version id="12805" project="10002" name="2.3.1" sequence="57"/> 
+<Version id="12806" project="10002" name="v2.3.1" sequence="58"/> 
+<Version id="12807" project="10002" name="v1.4.11" sequence="59"/> 
+<Version id="12808" project="10002" name="v2.3.2" sequence="60"/> 
+<Version id="12809" project="10002" name="v2.2.3" sequence="61"/> 
+<Version id="12810" project="10607" name="v1.5.0" sequence="35"/> 
+<Version id="12811" project="10002" name="v1.4.12" sequence="62"/> 
+<Version id="12900" project="10002" name="v2.3.3" sequence="63"/> 
+<Version id="12901" project="10002" name="v2.2.4" sequence="64"/> 
+<Version id="12902" project="10607" name="v1.5.1" sequence="36"/> 
