@@ -1,0 +1,1 @@
+<Action id="39633" issue="14054" author="baohua" type="comment" created="2018-02-05 04:28:39.0" updateauthor="baohua" updated="2018-02-05 04:28:39.0"> <body><! CDATA Currently, when do fillup, cello randomly select supported network types.  May support more scheduling rules.  ></body> </Action>

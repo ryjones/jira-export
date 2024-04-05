@@ -1,0 +1,2 @@
+<Action id="51158" issue="33654" author="sergey.kupryushin" type="comment" created="2018-09-25 14:30:51.0" updateauthor="sergey.kupryushin" updated="2018-09-25 14:30:51.0"> <body><! CDATA macos-indy-02 node was configured. Waiting for end of the build.   https://ci.evernym.com/job/Indy%20SDK%20CD/job/master/758/consoleFull  ></body> </Action>
+<Action id="51183" issue="33654" author="sergey.kupryushin" type="comment" body="ios-test was successful." created="2018-09-25 22:01:20.0" updateauthor="sergey.kupryushin" updated="2018-09-25 22:01:20.0"/>

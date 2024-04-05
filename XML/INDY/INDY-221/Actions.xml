@@ -1,0 +1,2 @@
+<Action id="31157" issue="17873" author="krw910" type="comment" body=" ~alexander.shekhovcov  Can you provide some more detail on this issue so we know how important it is. What do you mean by &quot;after sometime of using&quot;?" created="2017-09-25 21:21:05.0" updateauthor="krw910" updated="2017-09-25 21:21:05.0"/>
+<Action id="35858" issue="17873" author="ozheregelya" type="comment" body="Ticket is not actual anymore because of changing current python CLI to indy-sdk based CLI." created="2017-12-05 12:27:51.0" updateauthor="ozheregelya" updated="2017-12-05 12:27:51.0"/>

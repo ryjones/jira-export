@@ -1,0 +1,2 @@
+<Action id="22295" issue="13539" author="muralisr" type="comment" body=" ~ellaki  this is done I think ? If agree please close.." created="2017-04-13 06:56:49.0" updateauthor="muralisr" updated="2017-04-13 06:56:49.0"/>
+<Action id="22315" issue="13539" author="elli-androulaki" type="comment" body="Hi  ~muralisr , not sure we specifically addressed this, but in any case we currently don&apos;t need it since everything runs on top of TLS." created="2017-04-13 08:02:15.0" updateauthor="elli-androulaki" updated="2017-04-13 08:02:15.0"/>

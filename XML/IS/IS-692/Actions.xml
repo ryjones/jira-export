@@ -1,0 +1,2 @@
+<Action id="44159" issue="30078" author="gudkov" type="comment" body=" ~ozheregelya  Have you tried to open this url?" created="2018-05-10 07:55:35.0" updateauthor="gudkov" updated="2018-05-10 07:55:35.0"/>
+<Action id="44190" issue="30078" author="ozheregelya" type="comment" body="Yes. It doesn&apos;t work as is, but it works after replacing of container ID with 0.0.0.0 or 127.0.0.1." created="2018-05-10 14:49:15.0" updateauthor="ozheregelya" updated="2018-05-10 14:49:15.0"/>

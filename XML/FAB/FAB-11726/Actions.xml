@@ -1,0 +1,3 @@
+<Action id="49442" issue="33207" author="scottz" type="comment" created="2018-08-27 17:24:58.0" updateauthor="scottz" updated="2018-08-27 17:24:58.0"> <body><! CDATA This testcase depends on: * the PTE enhancement being done (fab-11724) * the work to translate samplecc from go to java; we requested feature developer to do this for us.  ></body> </Action>
+<Action id="50033" issue="33207" author="scottz" type="comment" body="java version of samplecc" created="2018-09-06 17:28:54.0" updateauthor="scottz" updated="2018-09-06 17:28:54.0"/>
+<Action id="50385" issue="33207" author="dongming" type="comment" body="https://gerrit.hyperledger.org/r/#/c/26268/" created="2018-09-12 20:57:08.0" updateauthor="dongming" updated="2018-09-12 20:57:08.0"/>

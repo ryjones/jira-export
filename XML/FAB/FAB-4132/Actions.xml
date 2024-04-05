@@ -1,0 +1,2 @@
+<Action id="24869" issue="17048" author="mastersingh24" type="comment" body="I&apos;m not sure why the release folder was deleted.  I did notice this and forgot to look into it further.  I&apos;ll assign this to myself as we work on the release artifacts" created="2017-05-31 23:53:54.0" updateauthor="mastersingh24" updated="2017-05-31 23:53:54.0"/>
+<Action id="24876" issue="17048" author="christopherferris" type="comment" body="https://gerrit.hyperledger.org/r/#/c/9993/" created="2017-06-01 02:12:15.0" updateauthor="christopherferris" updated="2017-06-01 02:12:15.0"/>

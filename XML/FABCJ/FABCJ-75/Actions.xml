@@ -1,0 +1,4 @@
+<Action id="52877" issue="35035" author="gennadyl" type="comment" body=" ~sstone1  Opened jira for issue we chatted yesterday. " created="2018-11-01 10:22:10.0" updateauthor="gennadyl" updated="2018-11-01 10:22:10.0"/>
+<Action id="52984" issue="35035" author="gennadyl" type="comment" body="The problem, as seems, is that shim jar deployed to maven central was compiled with java 9." created="2018-11-02 18:10:48.0" updateauthor="gennadyl" updated="2018-11-02 18:10:48.0"/>
+<Action id="54761" issue="35035" author="gennadyl" type="comment" body="No way to update jar in maven central without increasing version. So, it will be fixed with 1.4.0 jar" created="2018-12-13 11:13:40.0" updateauthor="gennadyl" updated="2018-12-13 11:13:40.0"/>
+<Action id="56058" issue="35035" author="denyeart" type="comment" body="Fixed with v1.4.0 jar." created="2019-01-23 02:26:52.0" updateauthor="denyeart" updated="2019-01-23 02:26:52.0"/>

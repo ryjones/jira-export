@@ -1,0 +1,2 @@
+<Action id="46635" issue="31358" author="harrisob@us.ibm.com" type="comment" body="https://gerrit.hyperledger.org/r/#/c/23691/" created="2018-06-27 21:03:53.0" updateauthor="harrisob@us.ibm.com" updated="2018-06-27 21:03:53.0"/>
+<Action id="46704" issue="31358" author="ratnakar" type="comment" body=" ~harrisob@us.ibm.com  Verified the above patch and balance-transfer sample works as expected." created="2018-06-28 19:13:33.0" updateauthor="ratnakar" updated="2018-06-28 19:13:33.0"/>

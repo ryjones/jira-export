@@ -1,0 +1,3 @@
+<Action id="23408" issue="16267" author="dzhoou" type="comment" body="Issue updated in  FAB-3680|https://jira.hyperledger.org/browse/FAB-3680 " created="2017-05-05 14:49:53.0" updateauthor="dzhoou" updated="2017-05-05 14:49:53.0"/>
+<Action id="25017" issue="16267" author="muralisr" type="comment" body=" ~dzhoou  this is a dup of FAB-3680 correct ? If so can you close this please ?" created="2017-06-01 21:35:46.0" updateauthor="muralisr" updated="2017-06-01 21:35:46.0"/>
+<Action id="25500" issue="16267" author="muralisr" type="comment" body=" ~dzhoou  going to mark this as  a dup of FAB-3680 ... please change it if you disagree." created="2017-06-06 12:41:29.0" updateauthor="muralisr" updated="2017-06-06 12:42:50.0"/>

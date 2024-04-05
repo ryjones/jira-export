@@ -1,0 +1,2 @@
+<Action id="56286" issue="37110" author="c0rwin" type="comment" body="Just for the record the SetDialOpts has nothing to do with the test flakiness. " created="2019-01-28 22:01:58.0" updateauthor="c0rwin" updated="2019-01-28 22:01:58.0"/>
+<Action id="56287" issue="37110" author="c0rwin" type="comment" created="2019-01-28 22:05:51.0" updateauthor="c0rwin" updated="2019-01-28 22:05:51.0"> <body><! CDATA https://gerrit.hyperledger.org/r/#/c/28989/ for 1.4 branch and https://gerrit.hyperledger.org/r/28988 for master  ></body> </Action>

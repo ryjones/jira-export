@@ -1,0 +1,1 @@
+<Action id="57277" issue="37757" author="yacovm" type="comment" created="2019-02-19 00:19:37.0" updateauthor="yacovm" updated="2019-02-19 00:19:37.0"> <body><! CDATA That's actually not a problem... the orderer doesn't care about the transactions being identical.  This should be closed.  ></body> </Action>

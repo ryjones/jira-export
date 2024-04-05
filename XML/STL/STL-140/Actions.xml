@@ -1,0 +1,2 @@
+<Action id="25340" issue="16452" author="toddojala" type="comment" created="2017-06-05 14:19:07.0" updateauthor="toddojala" updated="2017-06-05 14:19:07.0"> <body><! CDATA Move to next sprint, 36     ></body> </Action>
+<Action id="38998" issue="16452" author="asettouf" type="comment" body="Actually if you are interested, based on the online course LFS171x, I rewrote their transaction processor from NodeJS to Go, see  this PR|https://github.com/hyperledger/education/pull/15 " created="2018-01-22 22:21:20.0" updateauthor="asettouf" updated="2018-01-22 22:21:20.0"/>

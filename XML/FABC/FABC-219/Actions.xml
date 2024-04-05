@@ -1,0 +1,2 @@
+<Action id="24052" issue="16865" author="smithbk" type="comment" body="http://gerrit.hyperledger.org/r/9553  FAB-4015  Fix -M option of fabric-ca-client" created="2017-05-18 22:27:43.0" updateauthor="smithbk" updated="2017-05-18 22:27:43.0"/>
+<Action id="24138" issue="16865" author="clayton sims" type="comment" body="did this make it into alpha 2?  should we remove alpha2 tag?" created="2017-05-22 14:20:02.0" updateauthor="clayton sims" updated="2017-05-22 14:20:02.0"/>

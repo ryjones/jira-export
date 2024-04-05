@@ -1,0 +1,2 @@
+<Action id="56855" issue="37583" author="c0rwin" type="comment" body="This is fine as we also testing negative path, if something goes wrong test will fail." created="2019-02-11 15:13:24.0" updateauthor="c0rwin" updated="2019-02-11 15:13:24.0"/>
+<Action id="56857" issue="37583" author="c0rwin" type="comment" body="Works as expected as negative paths are also tested hence reported log entries." created="2019-02-11 15:14:28.0" updateauthor="c0rwin" updated="2019-02-11 15:14:28.0"/>

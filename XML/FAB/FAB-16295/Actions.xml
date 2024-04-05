@@ -1,0 +1,2 @@
+<Action id="63205" issue="41764" author="dereckluo" type="comment" body="self note: initial investigation, with removing of the checks lead to no error in both unit-test and integration-test" created="2019-08-22 20:06:18.0" updateauthor="dereckluo" updated="2019-08-22 20:06:18.0"/>
+<Action id="63604" issue="41764" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/c/fabric/+/33163" created="2019-09-06 17:00:09.0" updateauthor="sykesm" updated="2019-09-06 17:00:09.0"/>

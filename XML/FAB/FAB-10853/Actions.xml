@@ -1,0 +1,1 @@
+<Action id="46511" issue="31355" author="suryalnvs" type="comment" body="Launched the test with 16 peers in 2 orgs, 1 channel, 1 chaincode, goleveldb, mutual tls enabled, service discovery" created="2018-06-26 01:06:17.0" updateauthor="suryalnvs" updated="2018-06-26 01:06:17.0"/>

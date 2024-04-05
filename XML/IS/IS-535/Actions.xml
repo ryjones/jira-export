@@ -1,0 +1,2 @@
+<Action id="39326" issue="27123" author="seanbohan_sovrin" type="comment" body=" ~Artemkaaas  - please add more detail to this ticket?" created="2018-01-29 21:42:53.0" updateauthor="seanbohan_sovrin" updated="2018-01-29 21:42:53.0"/>
+<Action id="39760" issue="27123" author="artemkaaas" type="comment" body="Implemented in: https://github.com/hyperledger/indy-sdk/pull/522" created="2018-02-07 07:44:12.0" updateauthor="artemkaaas" updated="2018-02-07 07:44:12.0"/>

@@ -1,0 +1,1 @@
+<Issue id="39079" key="FAB-15064" number="15064" project="10002" reporter="rickr" assignee="ales" creator="rickr" type="10001" summary="Lifecycle Init method should not be required CC when initRequired is false" priority="2" status="10100" created="2019-04-04 17:12:10.0" updated="2019-04-12 13:57:29.0" votes="0" watches="3" workflowId="52159"/>

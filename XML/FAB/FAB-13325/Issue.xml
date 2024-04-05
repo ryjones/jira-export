@@ -1,0 +1,1 @@
+<Issue id="36228" key="FAB-13325" number="13325" project="10002" reporter="wenjian" assignee="wenjian" creator="wenjian" type="10003" summary="Pass TLS client cert hash for mutual TLS" priority="3" resolution="10200" status="6" created="2018-12-17 19:45:17.0" updated="2019-01-16 16:34:00.0" resolutiondate="2019-01-16 16:34:00.0" votes="0" watches="1" workflowId="47746"/>

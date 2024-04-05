@@ -1,0 +1,1 @@
+<Action id="22505" issue="14101" author="rameshthoomu" type="comment" body="Patch has been created and merged. fabric-sdk-node merge job publish npm module as unstable if it is a snapshot release, if it is a alpha release we publish npm module with alpha version.." created="2017-04-15 04:13:51.0" updateauthor="rameshthoomu" updated="2017-04-15 04:13:51.0"/>

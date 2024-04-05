@@ -1,0 +1,1 @@
+<Action id="42839" issue="29260" author="sanchezl" type="comment" created="2018-04-11 18:09:50.0" updateauthor="sanchezl" updated="2018-04-11 18:09:50.0"> <body><! CDATA EventHub will never be able to return the R/W set (as designed).  In 1.1 you can use the new Deliver API to retrieve the R/W set.  ></body> </Action>

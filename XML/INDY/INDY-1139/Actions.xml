@@ -1,0 +1,1 @@
+<Action id="40065" issue="27371" author="ashcherbakov" type="comment" body="We don&apos;t need it, as State Trie key will be used as ID instead of UUID." created="2018-02-13 14:57:37.0" updateauthor="ashcherbakov" updated="2018-02-13 14:57:37.0"/>

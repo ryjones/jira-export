@@ -1,0 +1,2 @@
+<Action id="52524" issue="34767" author="vladimirwork" type="comment" body="PR fixes are made but github works too bad to check and merge them." created="2018-10-22 15:06:28.0" updateauthor="vladimirwork" updated="2018-10-22 15:06:28.0"/>
+<Action id="52588" issue="34767" author="vladimirwork" type="comment" body="Test are here: https://github.com/hyperledger/indy-test-automation/tree/master/system" created="2018-10-24 14:06:43.0" updateauthor="vladimirwork" updated="2018-10-24 14:06:43.0"/>

@@ -1,0 +1,1 @@
+<Action id="18792" issue="12395" author="elli-androulaki" type="comment" body="Here Angelo implemented a chaincode example that uses tcert-based authentication throughout the cc2cc invocation. Extending this capability to attribute-based authentication requires only few days of work." created="2016-09-06 16:46:29.0" updateauthor="elli-androulaki" updated="2016-09-06 16:46:29.0"/>

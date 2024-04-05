@@ -1,0 +1,2 @@
+<Action id="30344" issue="20130" author="rickr" type="comment" body="It&apos;s not clear to me what the implication are for the SDKs are." created="2017-08-29 22:05:17.0" updateauthor="rickr" updated="2017-08-29 22:05:17.0"/>
+<Action id="49294" issue="20130" author="denyeart" type="comment" body="Based on focus on the core Idemix scenarios in the remaining weeks of v1.3.0, the revocation support needs to be deferred to a future release." created="2018-08-23 15:18:04.0" updateauthor="denyeart" updated="2018-11-19 04:17:46.0"/>

@@ -1,0 +1,2 @@
+<Action id="24093" issue="16761" author="adnanchoudhury" type="comment" body="Have seen the same error multiple times today in gerrit triggered builds, is blocking gerrit verifications." created="2017-05-19 18:05:51.0" updateauthor="adnanchoudhury" updated="2017-05-19 18:05:51.0"/>
+<Action id="24149" issue="16761" author="clayton sims" type="comment" body="should we changed fix versions to v1.0.0?" created="2017-05-22 17:31:51.0" updateauthor="clayton sims" updated="2017-05-22 17:31:51.0"/>

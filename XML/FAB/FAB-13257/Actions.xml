@@ -1,0 +1,2 @@
+<Action id="54739" issue="36117" author="latitiah" type="comment" body="https://gerrit.hyperledger.org/r/28139" created="2018-12-12 21:01:07.0" updateauthor="latitiah" updated="2018-12-12 21:01:07.0"/>
+<Action id="55382" issue="36117" author="denyeart" type="comment" created="2019-01-07 19:12:41.0" updateauthor="denyeart" updated="2019-01-07 19:12:41.0"> <body><! CDATA Fabric CA sample has been removed from fabric-samples.  A variant will be re-introduced as an integration test.  ></body> </Action>

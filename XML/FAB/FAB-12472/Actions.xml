@@ -1,0 +1,2 @@
+<Action id="54104" issue="34692" author="jyellick" type="comment" body="Is there a status update here?" created="2018-11-30 21:32:20.0" updateauthor="jyellick" updated="2018-11-30 21:32:20.0"/>
+<Action id="61727" issue="34692" author="dongming" type="comment" body="close the bug since PTE supports connection profiles and no need to use conversion tool" created="2019-07-12 13:37:14.0" updateauthor="dongming" updated="2019-07-12 13:37:14.0"/>

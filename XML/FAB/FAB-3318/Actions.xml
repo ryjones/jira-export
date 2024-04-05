@@ -1,0 +1,1 @@
+<Action id="24194" issue="15910" author="chris.elder" type="comment" body="Root cause for the delay is CouchDB is the docker image installed inside Vagrant.  The delays do not occur with CouchDB installed in docker outside of Vagrant." created="2017-05-23 18:54:27.0" updateauthor="chris.elder" updated="2017-05-23 18:54:27.0"/>

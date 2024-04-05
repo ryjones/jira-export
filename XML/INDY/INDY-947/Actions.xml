@@ -1,0 +1,1 @@
+<Action id="41614" issue="23883" author="ashcherbakov" type="comment" body="We are going to use audit proof (based on ledger state) for write requests." created="2018-03-14 13:35:37.0" updateauthor="ashcherbakov" updated="2018-03-14 13:35:37.0"/>

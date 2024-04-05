@@ -1,0 +1,5 @@
+<Label id="32656" issue="44381" label="bccsp"/>
+<Label id="32657" issue="44381" label="fabric"/>
+<Label id="32660" issue="44381" label="fabric-ca"/>
+<Label id="32659" issue="44381" label="fabric-orderer"/>
+<Label id="32658" issue="44381" label="fabric-peer"/>

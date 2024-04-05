@@ -1,0 +1,1 @@
+<Action id="58517" issue="37786" author="mbwhite" type="comment" created="2019-03-25 15:35:26.0" updateauthor="mbwhite" updated="2019-03-25 15:35:26.0"> <body><! CDATA Build running: https://gerrit.hyperledger.org/r/30357  FAB-14736  Update Logging     As part of this change updated to winston 3.0        ></body> </Action>

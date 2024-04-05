@@ -1,0 +1,1 @@
+<Action id="65081" issue="19828" author="esplinr" type="comment" body="Our analysis is that it is too expensive to move to a multi-process architecture at this time. We will re-evaluate if we are unable to hit our performance goals with the current architecture." created="2019-10-29 14:12:48.0" updateauthor="esplinr" updated="2019-10-29 14:12:48.0"/>

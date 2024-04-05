@@ -1,0 +1,2 @@
+<Action id="62009" issue="41356" author="mastersingh24" type="comment" body="not sure we should do this given the new lifecycle, but might be something to included in another 1.4.x release" created="2019-07-22 14:58:37.0" updateauthor="mastersingh24" updated="2019-07-22 14:58:37.0"/>
+<Action id="63122" issue="41356" author="denyeart" type="comment" body="I thought instantiation policy in v1.4.x could only specify a single org." created="2019-08-20 20:08:00.0" updateauthor="denyeart" updated="2019-08-20 20:08:00.0"/>

@@ -1,0 +1,2 @@
+<Action id="55956" issue="36945" author="nyet" type="comment" created="2019-01-22 01:10:28.0" updateauthor="nyet" updated="2019-01-25 01:03:06.0"> <body><! CDATA Question: is *{{certificateAuthorities-><hostname>->caName}}* really optional?  See also FABG-817  ></body> </Action>
+<Action id="56041" issue="36945" author="nyet" type="comment" body=" https://gerrit.hyperledger.org/r/#/c/28878/ " created="2019-01-22 23:49:00.0" updateauthor="nyet" updated="2019-01-22 23:49:00.0"/>

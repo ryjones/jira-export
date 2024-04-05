@@ -1,0 +1,5 @@
+<Action id="60228" issue="39911" author="davidkhala" type="comment" body="Would you mind add your gerrit change link as comment here? then it will be easily tracked. " created="2019-05-22 01:23:52.0" updateauthor="davidkhala" updated="2019-05-22 01:23:52.0"/>
+<Action id="60229" issue="39911" author="lancelot96" type="comment" body="https://gerrit.hyperledger.org/r/c/fabric-sdk-node/+/31438" created="2019-05-22 01:24:52.0" updateauthor="lancelot96" updated="2019-05-22 01:24:52.0"/>
+<Action id="70951" issue="39911" author="lesleyannj" type="comment" body=" ~lancelot96  we are reviewing the backlog.  Can this jira be closed?" created="2020-12-10 12:46:16.0" updateauthor="lesleyannj" updated="2020-12-10 12:46:16.0"/>
+<Action id="70967" issue="39911" author="davidkhala" type="comment" body="I think it can be stale.  ~lesleyannj " created="2020-12-11 15:02:40.0" updateauthor="davidkhala" updated="2020-12-11 15:02:40.0"/>
+<Action id="71233" issue="39911" author="lesleyannj" type="comment" body="Backlog Review - Closing." created="2021-01-12 15:28:04.0" updateauthor="lesleyannj" updated="2021-01-12 15:28:04.0"/>

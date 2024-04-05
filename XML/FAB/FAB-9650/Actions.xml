@@ -1,0 +1,2 @@
+<Action id="43298" issue="29601" author="nnao" type="comment" body="https://gerrit.hyperledger.org/r/c/20903/" created="2018-04-23 17:05:31.0" updateauthor="nnao" updated="2018-04-23 17:05:31.0"/>
+<Action id="43575" issue="29601" author="sambhavdutt" type="comment" body="The chaincode tests have passed successfully in the smoke tests after this patch was merged." created="2018-04-27 18:49:31.0" updateauthor="sambhavdutt" updated="2018-04-27 18:49:31.0"/>

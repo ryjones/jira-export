@@ -1,0 +1,1 @@
+<Action id="37525" issue="26101" author="lehors" type="comment" created="2017-12-15 16:55:49.0" updateauthor="lehors" updated="2017-12-15 16:55:49.0"> <body><! CDATA This bug was actually introduced recently as part of the changes made to support the cfg lifecycle:  https://gerrit.hyperledger.org/r/#/c/15461/51/peer/chaincode/upgrade.go  ></body> </Action>

@@ -1,0 +1,1 @@
+<Action id="61347" issue="20505" author="dunff2k" type="comment" created="2019-06-28 17:06:47.0" updateauthor="dunff2k" updated="2019-06-28 17:06:47.0"> <body><! CDATA Do I take this to mean that indy-sdk (i.e. a non-pool node) is unable to verify a state proof?  If it can, where is that functionality?  ></body> </Action>

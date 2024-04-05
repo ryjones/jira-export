@@ -1,0 +1,1 @@
+<Action id="64638" issue="34499" author="ashcherbakov" type="comment" body="Since we stash all checkpoints during the catchup and unstash it in  historical order when catchup is finished, we already have the desired behaviour" created="2019-10-11 12:05:25.0" updateauthor="ashcherbakov" updated="2019-10-11 12:05:25.0"/>

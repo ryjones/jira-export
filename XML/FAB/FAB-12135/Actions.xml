@@ -1,0 +1,2 @@
+<Action id="51156" issue="34044" author="suryalnvs" type="comment" body="++Config file for this run is submitted to ATD -  https://gerrit.hyperledger.org/r/#/c/26554/2/tools/ATD/vars/FAB12135.yml " created="2018-09-25 14:19:20.0" updateauthor="suryalnvs" updated="2018-09-25 14:19:20.0"/>
+<Action id="55285" issue="34044" author="suryalnvs" type="comment" body="Reran FAB-12135 successfully with latest load for 12 hours with service discovery and sidedb. " created="2019-01-04 14:23:06.0" updateauthor="suryalnvs" updated="2019-01-04 14:23:06.0"/>

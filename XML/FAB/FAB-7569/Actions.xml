@@ -1,0 +1,1 @@
+<Action id="37859" issue="26306" author="denyeart" type="comment" created="2017-12-29 16:18:27.0" updateauthor="denyeart" updated="2017-12-29 16:18:27.0"> <body><! CDATA I've opened a CouchDB issue to determine if the index create/drop behavior could become synchronous:  https://github.com/apache/couchdb/issues/1083  ></body> </Action>

@@ -1,0 +1,1 @@
+<Action id="21799" issue="12772" author="mastersingh24" type="comment" body="We&apos;ve moved away from the GRPC-based APIs provided by membersrvs in v0.6 to HTTP/RESTful interfaces in fabric-ca." created="2017-04-02 12:40:15.0" updateauthor="mastersingh24" updated="2017-04-02 12:40:15.0"/>

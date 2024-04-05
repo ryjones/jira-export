@@ -1,0 +1,1 @@
+<Action id="64451" issue="34116" author="ashcherbakov" type="comment" body="This is essential issue related to ordering of transactions in a non-sync mode. There is no issue with a sync mode." created="2019-10-09 09:23:43.0" updateauthor="ashcherbakov" updated="2019-10-09 09:23:43.0"/>

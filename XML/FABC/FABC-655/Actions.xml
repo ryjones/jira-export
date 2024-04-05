@@ -1,0 +1,4 @@
+<Action id="19332" issue="12766" author="smithbk" type="comment" body="This can be canceled as it is included in FAB-460." created="2016-10-21 12:55:27.0" updateauthor="smithbk" updated="2016-10-21 12:55:27.0"/>
+<Action id="19431" issue="12766" author="smithbk" type="comment" body="Changed to task under FAB-460" created="2016-10-24 20:47:57.0" updateauthor="smithbk" updated="2016-10-24 20:47:57.0"/>
+<Action id="20175" issue="12766" author="smithbk" type="comment" created="2016-12-21 12:50:53.0" updateauthor="smithbk" updated="2016-12-21 12:50:53.0"> <body><! CDATA This and other FAB items which relate to managing roots of trust are not being doing by the COP team. Instead, this may be part of a value-add application on top of fabric.  ></body> </Action>
+<Action id="25219" issue="12766" author="mastersingh24" type="comment" body="N/A" created="2017-06-03 10:08:13.0" updateauthor="mastersingh24" updated="2017-06-03 10:08:13.0"/>

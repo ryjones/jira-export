@@ -1,0 +1,1 @@
+<Action id="23538" issue="16359" author="pschwarz" type="comment" body="It would be helpful to have logging for the REST API, in order to provide more information on what&apos;s failing.  This is STL-69  " created="2017-05-08 14:52:30.0" updateauthor="pschwarz" updated="2017-05-08 14:52:30.0"/>

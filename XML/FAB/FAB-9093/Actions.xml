@@ -1,0 +1,2 @@
+<Action id="42656" issue="28815" author="mastersingh24" type="comment" created="2018-04-07 10:07:23.0" updateauthor="mastersingh24" updated="2018-04-07 10:07:23.0"> <body><! CDATA I'm pretty sure this is fixed with  https://gerrit.hyperledger.org/r/20051   If so, this can be marked as a duplicate of FAB-9222  ></body> </Action>
+<Action id="43394" issue="28815" author="denyeart" type="comment" body=" ~rameshthoomu  Have you seen this recently? Or can it be closed?" created="2018-04-25 11:01:45.0" updateauthor="denyeart" updated="2018-04-25 11:01:45.0"/>

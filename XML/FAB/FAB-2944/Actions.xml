@@ -1,0 +1,1 @@
+<Action id="21783" issue="15523" author="c0rwin" type="comment" body="Meanwhile I&apos;ve pushed a CR which simply makes callback calls synchronous, to stop CI from failing due to the test. " created="2017-04-01 18:50:29.0" updateauthor="c0rwin" updated="2017-04-01 18:50:29.0"/>

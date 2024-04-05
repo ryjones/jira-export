@@ -1,0 +1,1 @@
+<Issue id="14799" key="FAB-2239" number="2239" project="10002" reporter="jyellick" assignee="jyellick" creator="jyellick" type="10003" summary="Fix orderer docker image not finding msp" priority="3" resolution="10000" status="6" created="2017-02-14 19:52:24.0" updated="2018-07-20 14:11:38.0" resolutiondate="2017-02-16 01:31:15.0" votes="0" watches="1" workflowId="37441"/>

@@ -1,0 +1,1 @@
+<Action id="45272" issue="30519" author="rameshthoomu" type="comment" body="ppc64le Jenkins jobs are disabled so till these tests/jobs are enabled don;t push any images to ppc64le from jenkins" created="2018-05-29 20:23:26.0" updateauthor="rameshthoomu" updated="2018-05-29 20:23:26.0"/>

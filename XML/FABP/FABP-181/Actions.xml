@@ -1,0 +1,2 @@
+<Action id="49824" issue="29062" author="davidkel" type="comment" body="Not sure why this is in the Node SDK Project. FABN-818 appears to also have been errornously raised under this project as well." created="2018-09-04 14:25:40.0" updateauthor="davidkel" updated="2018-09-04 14:25:40.0"/>
+<Action id="56428" issue="29062" author="baohua" type="comment" body="https://gerrit.hyperledger.org/r/#/c/29045/" created="2019-01-31 05:44:17.0" updateauthor="baohua" updated="2019-01-31 05:44:17.0"/>

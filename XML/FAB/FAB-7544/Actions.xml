@@ -1,0 +1,3 @@
+<Action id="37734" issue="26256" author="firas.qutishat" type="comment" body=" ~jyellick  FYI" created="2017-12-21 23:51:33.0" updateauthor="firas.qutishat" updated="2017-12-21 23:51:33.0"/>
+<Action id="37736" issue="26256" author="gbolo" type="comment" body="Please merge this. I don&apos;t like having dummy definitions in my configtx.yaml when using provisional mode on my orderer" created="2017-12-22 03:50:43.0" updateauthor="gbolo" updated="2017-12-22 03:54:05.0"/>
+<Action id="37778" issue="26256" author="blw" type="comment" body="https://gerrit.hyperledger.org/r/c/16461/" created="2017-12-24 18:32:28.0" updateauthor="blw" updated="2017-12-24 18:32:28.0"/>

@@ -1,0 +1,1 @@
+<Action id="21513" issue="15280" author="rameshthoomu" type="comment" body="Patch has been submitted and merged. now node verify and merge jobs are executing `gulp test` command which executes headless and e2e tests." created="2017-03-14 19:09:25.0" updateauthor="rameshthoomu" updated="2017-03-14 19:09:25.0"/>

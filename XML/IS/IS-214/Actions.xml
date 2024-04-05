@@ -1,0 +1,2 @@
+<Action id="28292" issue="19143" author="peacekeeper" type="comment" body="added in commit https://github.com/hyperledger/indy-sdk/commit/4772415881c485db76f7df4096c28fb2f449e1e0" created="2017-07-13 06:25:13.0" updateauthor="peacekeeper" updated="2017-07-13 06:25:13.0"/>
+<Action id="28961" issue="19143" author="gudkov" type="comment" body=" ~peacekeeper  Thanks, we merged this and covered with tests" created="2017-07-25 10:57:06.0" updateauthor="gudkov" updated="2017-07-25 10:57:06.0"/>

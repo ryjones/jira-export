@@ -1,0 +1,2 @@
+<Action id="29388" issue="19695" author="srottem" type="comment" body="This is marshalling related." created="2017-08-03 08:57:03.0" updateauthor="srottem" updated="2017-08-03 08:57:03.0"/>
+<Action id="30201" issue="19695" author="peacekeeper" type="comment" body="This was fixed in commit 566ddca8baa770958cd64253fe8edb72f5b54927." created="2017-08-25 13:11:00.0" updateauthor="peacekeeper" updated="2017-08-25 13:11:00.0"/>

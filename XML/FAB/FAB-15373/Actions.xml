@@ -1,0 +1,2 @@
+<Action id="59785" issue="39658" author="vijaypunugubati" type="comment" body=" https://gerrit.hyperledger.org/r/#/c/31258/ " created="2019-05-07 04:13:15.0" updateauthor="vijaypunugubati" updated="2019-05-07 15:37:51.0"/>
+<Action id="62332" issue="39658" author="vijaypunugubati" type="comment" created="2019-07-30 02:58:42.0" updateauthor="vijaypunugubati" updated="2019-07-30 03:00:27.0"> <body><! CDATA This tets case is covered in task FAB-13231 (fabric IT) FAB-16022 (interop), so closing this issue.  ></body> </Action>

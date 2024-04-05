@@ -1,0 +1,4 @@
+<Action id="24007" issue="16852" author="passkit" type="comment" body="http://gerrit.hyperledger.org/r/9519" created="2017-05-18 10:40:57.0" updateauthor="passkit" updated="2017-05-18 10:40:57.0"/>
+<Action id="24596" issue="16852" author="christopherferris" type="comment" body="This is borderline IMO in terms of the amount of production code affected. I think it should be merged." created="2017-05-29 18:02:11.0" updateauthor="christopherferris" updated="2017-05-29 18:02:11.0"/>
+<Action id="24597" issue="16852" author="yacovm" type="comment" body="I also agree. This is a bug and the resolution to fix it is tiny and focused on a single file." created="2017-05-29 18:05:04.0" updateauthor="yacovm" updated="2017-05-29 18:05:04.0"/>
+<Action id="24616" issue="16852" author="christopherferris" type="comment" body="ok, removed review-needed and merging" created="2017-05-29 23:22:39.0" updateauthor="christopherferris" updated="2017-05-29 23:22:39.0"/>

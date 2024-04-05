@@ -1,0 +1,4 @@
+<Action id="53914" issue="35662" author="joe-alewine" type="comment" body=" ~yacovm " created="2018-11-28 14:44:11.0" updateauthor="joe-alewine" updated="2018-11-28 14:44:11.0"/>
+<Action id="53915" issue="35662" author="yacovm" type="comment" body="how can i help?" created="2018-11-28 14:47:05.0" updateauthor="yacovm" updated="2018-11-28 14:47:05.0"/>
+<Action id="53918" issue="35662" author="joe-alewine" type="comment" body="I just wanted to make you aware that we had finally opened an issue for this. Will be pushing a CR shortly." created="2018-11-28 14:52:09.0" updateauthor="joe-alewine" updated="2018-11-28 14:52:09.0"/>
+<Action id="53919" issue="35662" author="joe-alewine" type="comment" body="https://gerrit.hyperledger.org/r/c/27781/" created="2018-11-28 14:55:35.0" updateauthor="joe-alewine" updated="2018-11-28 14:55:35.0"/>

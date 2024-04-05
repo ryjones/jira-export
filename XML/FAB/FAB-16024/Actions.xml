@@ -1,0 +1,2 @@
+<Action id="61959" issue="41306" author="caod" type="comment" body="We need to maintain the existing code path, so CommitWithPvtData can&apos;t completely be removed but we probably want to rename it to `CommitLegacy` or something along those lines" created="2019-07-18 17:19:22.0" updateauthor="caod" updated="2019-07-18 17:19:22.0"/>
+<Action id="63621" issue="41306" author="caod" type="comment" body="Pausing work on this as it will likely go into 2.1" created="2019-09-09 15:38:14.0" updateauthor="caod" updated="2019-09-09 15:38:14.0"/>

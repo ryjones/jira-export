@@ -1,0 +1,1 @@
+<Action id="46124" issue="30798" author="suryalnvs" type="comment" body="Ran the initial test with channel creation, join peers, install and instantiation, invokes and queries for 2 hours and then launched a new test with invokes that ran for 12 hours." created="2018-06-18 15:19:28.0" updateauthor="suryalnvs" updated="2018-06-18 15:19:28.0"/>

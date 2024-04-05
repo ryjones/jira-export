@@ -1,0 +1,2 @@
+<Action id="21191" issue="14520" author="jimthematrix" type="comment" body=" ~pmullaney  note that BlockMetadataIndex.TRANSACTIONS_FILTER in the block has been changed from bit array to byte array (so that reason code for rejection can be set in that byte)" created="2017-02-27 16:52:07.0" updateauthor="jimthematrix" updated="2017-02-27 16:52:07.0"/>
+<Action id="21216" issue="14520" author="jimthematrix" type="comment" body="included in https://gerrit.hyperledger.org/r/#/c/6565/" created="2017-02-28 18:23:29.0" updateauthor="jimthematrix" updated="2017-02-28 18:23:29.0"/>

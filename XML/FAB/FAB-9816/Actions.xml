@@ -1,0 +1,2 @@
+<Action id="45776" issue="29852" author="chris.elder" type="comment" created="2018-06-11 10:05:59.0" updateauthor="denyeart" updated="2018-07-23 18:01:03.0"> <body><! CDATA v1.2   https://gerrit.hyperledger.org/r/#/c/22931/   v1.1.2   https://gerrit.hyperledger.org/r/#/c/23271/   ></body> </Action>
+<Action id="46075" issue="29852" author="denyeart" type="comment" created="2018-06-18 11:16:07.0" updateauthor="denyeart" updated="2018-06-18 11:16:07.0"> <body><! CDATA Fix merged in master (v1.2).   ~chris.elder , please provide a fix in release-1.1 as well.  ></body> </Action>

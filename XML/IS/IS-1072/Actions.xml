@@ -1,0 +1,2 @@
+<Action id="53414" issue="35286" author="artemkaaas" type="comment" body="Done in PR: https://github.com/hyperledger/indy-sdk/pull/1288" created="2018-11-14 07:32:09.0" updateauthor="artemkaaas" updated="2018-11-14 07:32:09.0"/>
+<Action id="53783" issue="35286" author="sergey.minaev" type="comment" body="Available in master since https://github.com/hyperledger/indy-sdk/pull/1313 has been merged" created="2018-11-26 08:50:33.0" updateauthor="sergey.minaev" updated="2018-11-26 08:50:33.0"/>

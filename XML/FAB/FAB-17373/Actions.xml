@@ -1,0 +1,2 @@
+<Action id="67634" issue="43951" author="caod" type="comment" body=" https://github.com/hyperledger/fabric/pull/540 " created="2020-01-23 16:54:36.0" updateauthor="caod" updated="2020-01-23 16:54:36.0"/>
+<Action id="68096" issue="43951" author="denyeart" type="comment" body="Also need to mention in doc that memberOnlyRead and memberOnlyWrite are not available for implicit collections... users should add acl logic in their chaincode instead." created="2020-02-25 18:49:41.0" updateauthor="denyeart" updated="2020-02-25 18:49:41.0"/>

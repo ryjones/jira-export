@@ -1,0 +1,3 @@
+<Action id="26821" issue="18414" author="vladimirwork" type="comment" body="FYI  ~krw910 ,  ~stevetolman ,  ~danielhardman ,  ~ashcherbakov " created="2017-06-20 08:17:58.0" updateauthor="vladimirwork" updated="2017-06-20 08:17:58.0"/>
+<Action id="27575" issue="18414" author="stevetolman" type="comment" body="Please try to reproduce again with a newer build." created="2017-06-28 21:38:50.0" updateauthor="stevetolman" updated="2017-06-28 21:38:50.0"/>
+<Action id="27767" issue="18414" author="vladimirwork" type="comment" body="Bug doesn&apos;t reproduce on Shakedown pool 3 with upgrade to newest master version (0.4.7)." created="2017-07-03 09:33:48.0" updateauthor="vladimirwork" updated="2017-07-03 09:33:48.0"/>

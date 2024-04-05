@@ -1,0 +1,1 @@
+<Action id="46604" issue="30471" author="ashcherbakov" type="comment" created="2018-06-27 13:04:19.0" updateauthor="ashcherbakov" updated="2018-06-27 13:04:19.0"> <body><! CDATA According to https://jira.hyperledger.org/browse/INDY-1417, it's not possible to do so... We need to implement a solution defined in the scope of INDY-1417  ></body> </Action>

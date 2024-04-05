@@ -1,0 +1,2 @@
+<Action id="27772" issue="18896" author="vladimirwork" type="comment" body="FYI  ~krw910 ,  ~stevetolman ,  ~danielhardman ,  ~ashcherbakov " created="2017-07-03 11:57:26.0" updateauthor="vladimirwork" updated="2017-07-03 11:57:26.0"/>
+<Action id="35825" issue="18896" author="ozheregelya" type="comment" body="Ticket is not actual anymore because of changing current python CLI to indy-sdk based CLI." created="2017-12-05 10:15:33.0" updateauthor="ozheregelya" updated="2017-12-05 10:15:33.0"/>

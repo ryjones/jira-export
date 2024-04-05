@@ -1,0 +1,2 @@
+<Action id="42484" issue="29113" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/c/20115/" created="2018-04-03 20:16:14.0" updateauthor="sykesm" updated="2018-04-03 20:16:14.0"/>
+<Action id="42604" issue="29113" author="sheehan" type="comment" body="This is great, thanks! Just an FYI for others, I needed to upgrade to Go 1.10.1 on my macOS system before it worked." created="2018-04-05 19:34:48.0" updateauthor="sheehan" updated="2018-04-05 19:34:48.0"/>

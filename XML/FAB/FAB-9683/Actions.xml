@@ -1,0 +1,2 @@
+<Action id="44352" issue="29645" author="mastersingh24" type="comment" created="2018-05-14 17:52:53.0" updateauthor="mastersingh24" updated="2018-05-14 17:52:53.0"> <body><! CDATA I don't think we should rely on the timeout ... depending on the environment sometimes the timeout is fairly long. I think we need to move away from the channel construct.  ></body> </Action>
+<Action id="44379" issue="29645" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/21793" created="2018-05-14 23:29:23.0" updateauthor="sykesm" updated="2018-05-14 23:29:23.0"/>

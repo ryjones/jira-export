@@ -1,0 +1,2 @@
+<Action id="65592" issue="43355" author="yacovm" type="comment" body="Fuzzing uses random sampling no? You can&apos;t have randomized computation in chaincode with an endorsement policy that has more than a single peer. " created="2019-11-16 13:21:45.0" updateauthor="yacovm" updated="2019-11-16 13:21:45.0"/>
+<Action id="66122" issue="43355" author="oclewx" type="comment" body="but why it is working in init phase , i&apos;ve used the same fuzzing logic in both init and invoke function?" created="2019-12-05 15:19:03.0" updateauthor="oclewx" updated="2019-12-05 15:19:03.0"/>

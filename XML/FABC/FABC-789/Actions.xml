@@ -1,0 +1,1 @@
+<Action id="55502" issue="34530" author="sykesm" type="comment" created="2019-01-10 15:56:01.0" updateauthor="sykesm" updated="2019-01-10 15:56:01.0"> <body><! CDATA Example metrics:  2 metrics w/ labels - duration (histogram) and error count (sql code as label?)  - refactor code to pull out db calls - create metric options  - wire metrics   ></body> </Action>

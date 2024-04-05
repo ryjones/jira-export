@@ -1,0 +1,1 @@
+<Action id="59942" issue="34521" author="qsmen" type="comment" body="Enable the chaincode to verify an identities based on a channel&apos;s MSP, mainly the CA certificate chain, is really userful. but why is the progress  so low?" created="2019-05-13 03:57:37.0" updateauthor="qsmen" updated="2019-05-13 05:36:28.0"/>

@@ -1,0 +1,2 @@
+<Action id="30003" issue="20293" author="muralisr" type="comment" body="this is related to https://jira.hyperledger.org/browse/FAB-1632. The fabric side of the send was fixed in  https://gerrit.hyperledger.org/r/#/c/12393/.  Need to fix the shim side." created="2017-08-18 18:15:01.0" updateauthor="muralisr" updated="2017-08-18 18:15:01.0"/>
+<Action id="30641" issue="20293" author="muralisr" type="comment" body="fixed in https://gerrit.hyperledger.org/r/#/c/12603/" created="2017-09-07 19:15:42.0" updateauthor="muralisr" updated="2017-09-07 19:15:42.0"/>

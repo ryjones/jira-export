@@ -1,0 +1,2 @@
+<Action id="29695" issue="20050" author="mdr" type="comment" body="CR: https://gerrit.hyperledger.org/r/#/c/12147/" created="2017-08-11 11:46:50.0" updateauthor="mdr" updated="2017-08-11 11:46:50.0"/>
+<Action id="30717" issue="20050" author="elli-androulaki" type="comment" body="Removed the v1.1 flag, since this is an item aiming for 1.1-technical preview and this classification is already included in the parent epic :)" created="2017-09-11 09:35:46.0" updateauthor="elli-androulaki" updated="2017-09-11 09:35:46.0"/>

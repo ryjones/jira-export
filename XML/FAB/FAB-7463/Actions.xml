@@ -1,0 +1,2 @@
+<Action id="37886" issue="25756" author="rameshthoomu" type="comment" created="2018-01-02 15:20:10.0" updateauthor="rameshthoomu" updated="2018-01-02 15:20:10.0"> <body><! CDATA Patch has been submitted  https://gerrit.hyperledger.org/r/#/c/16221/|https://gerrit.hyperledger.org/r/#/c/16221/.      ></body> </Action>
+<Action id="38290" issue="25756" author="rameshthoomu" type="comment" body="configuration has been updated in fabric-verify-build-checks job." created="2018-01-08 14:38:57.0" updateauthor="rameshthoomu" updated="2018-01-08 14:38:57.0"/>

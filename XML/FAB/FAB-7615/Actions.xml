@@ -1,0 +1,4 @@
+<Action id="42124" issue="26612" author="mdr" type="comment" body="CR: https://gerrit.hyperledger.org/r/#/c/16775/" created="2018-03-26 07:47:21.0" updateauthor="mdr" updated="2018-03-26 07:47:21.0"/>
+<Action id="45198" issue="26612" author="mdr" type="comment" created="2018-05-28 14:57:34.0" updateauthor="mdr" updated="2018-05-28 14:57:34.0"> <body><! CDATA Reopened because this functionality needs to be hidden in MSPv1_1. https://gerrit.hyperledger.org/r/#/c/22433/  ></body> </Action>
+<Action id="45293" issue="26612" author="jonathanlevi" type="comment" body="Fair enough  ~mdr . Merged. Close if you feel that this is done?" created="2018-05-30 16:11:26.0" updateauthor="jonathanlevi" updated="2018-05-30 16:11:43.0"/>
+<Action id="45337" issue="26612" author="jonathanlevi" type="comment" body="Thanks Elli" created="2018-05-31 12:23:39.0" updateauthor="jonathanlevi" updated="2018-05-31 12:23:39.0"/>

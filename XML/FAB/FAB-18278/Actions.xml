@@ -1,0 +1,2 @@
+<Action id="70536" issue="46218" author="yacovm" type="comment" body="Should be pretty easy, all that is needed is to inject a different  CurrentConfigBlockGetter|https://github.com/hyperledger/fabric/blob/master/discovery/support/config/support.go#L27-L30 ." created="2020-10-19 18:01:47.0" updateauthor="yacovm" updated="2020-10-19 18:01:47.0"/>
+<Action id="70547" issue="46218" author="manish-sethi" type="comment" body="https://github.com/hyperledger/fabric/pull/2037" created="2020-10-22 02:23:45.0" updateauthor="manish-sethi" updated="2020-10-22 02:23:45.0"/>

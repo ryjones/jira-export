@@ -1,0 +1,1 @@
+<Action id="66195" issue="43644" author="toktar" type="comment" created="2019-12-10 10:56:47.0" updateauthor="toktar" updated="2019-12-10 10:56:47.0"> <body><! CDATA The pool lost consensus due nodes had no space left on devices. So it's expected behavior for case when no space left.  ></body> </Action>

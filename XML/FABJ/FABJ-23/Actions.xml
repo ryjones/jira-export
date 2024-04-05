@@ -1,0 +1,2 @@
+<Action id="20112" issue="13538" author="rickr" type="comment" created="2016-12-15 11:08:21.0" updateauthor="rickr" updated="2016-12-15 11:08:21.0"> <body><! CDATA enroll has been done    ></body> </Action>
+<Action id="21195" issue="13538" author="smithbk" type="comment" body="http://gerrit.hyperledger.org/r/6581 Support register to fabric-ca" created="2017-02-27 18:59:34.0" updateauthor="smithbk" updated="2017-02-27 18:59:34.0"/>

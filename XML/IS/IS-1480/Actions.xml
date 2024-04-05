@@ -1,0 +1,2 @@
+<Action id="68078" issue="44221" author="artemkaaas" type="comment" body="Done in PR:  https://github.com/hyperledger/indy-sdk/pull/2091 " created="2020-02-25 07:32:18.0" updateauthor="artemkaaas" updated="2020-02-25 07:32:18.0"/>
+<Action id="68154" issue="44221" author="sergey.minaev" type="comment" body="Available in master and new version of integration tests successfully passes CI/CD pipelines" created="2020-02-28 14:01:51.0" updateauthor="sergey.minaev" updated="2020-02-28 14:01:51.0"/>

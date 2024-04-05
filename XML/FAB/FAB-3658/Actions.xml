@@ -1,0 +1,3 @@
+<Action id="23703" issue="16322" author="kchristidis" type="comment" body="https://gerrit.hyperledger.org/r/#/c/8889/" created="2017-05-10 22:24:45.0" updateauthor="kchristidis" updated="2017-05-10 22:24:45.0"/>
+<Action id="23704" issue="16322" author="kchristidis" type="comment" body="This is tagged as WIP. Is it still WIP or should it be reviewed (and merged)?" created="2017-05-10 22:25:04.0" updateauthor="kchristidis" updated="2017-05-10 22:25:04.0"/>
+<Action id="23955" issue="16322" author="sanchezl" type="comment" body=" ~kchristidis , ready to be reviewed." created="2017-05-17 17:50:36.0" updateauthor="sanchezl" updated="2017-05-17 17:50:36.0"/>

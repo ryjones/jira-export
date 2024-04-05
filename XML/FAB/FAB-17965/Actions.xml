@@ -1,0 +1,1 @@
+<Action id="70087" issue="45220" author="wlahti" type="comment" body="Mostly finished draft PR:  https://github.com/hyperledger/fabric/pull/1817  Just need to think about the appropriate locking a bit further." created="2020-08-27 15:21:41.0" updateauthor="wlahti" updated="2020-08-27 15:21:41.0"/>

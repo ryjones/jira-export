@@ -1,0 +1,4 @@
+<Action id="61601" issue="40817" author="artemkaaas" type="comment" created="2019-07-11 05:16:21.0" updateauthor="artemkaaas" updated="2019-07-11 05:16:21.0"> <body><! CDATA There was an issue on SDK side. The fix was provided in PR: https://github.com/hyperledger/indy-sdk/pull/1711 Build version: master-1167  ></body> </Action>
+<Action id="61896" issue="40817" author="ashcherbakov" type="comment" body="We need to switch to the latest SDK and enable tests in Node." created="2019-07-17 09:58:04.0" updateauthor="ashcherbakov" updated="2019-07-17 09:58:04.0"/>
+<Action id="61970" issue="40817" author="ashcherbakov" type="comment" body="PR: https://github.com/hyperledger/indy-node/pull/1383" created="2019-07-19 06:51:28.0" updateauthor="ashcherbakov" updated="2019-07-19 06:51:28.0"/>
+<Action id="61989" issue="40817" author="derashe" type="comment" body="Need to be fixed still" created="2019-07-19 16:03:18.0" updateauthor="derashe" updated="2019-07-19 16:03:18.0"/>

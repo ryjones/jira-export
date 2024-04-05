@@ -1,0 +1,1 @@
+<Action id="48806" issue="32800" author="sudeshrshetty" type="comment" body="Should avoid calling seek.Newest for new connection. (pkg/fab/events/deliverclient/deliverclient.go)" created="2018-08-13 20:39:31.0" updateauthor="sudeshrshetty" updated="2018-08-13 20:39:31.0"/>

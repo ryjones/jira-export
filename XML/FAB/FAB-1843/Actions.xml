@@ -1,0 +1,2 @@
+<Action id="21691" issue="14344" author="kchristidis" type="comment" body="https://gerrit.hyperledger.org/r/#/c/4819/" created="2017-03-28 18:39:54.0" updateauthor="kchristidis" updated="2017-03-28 18:39:54.0"/>
+<Action id="24903" issue="14344" author="christopherferris" type="comment" body="4819 was abandoned. However since sbft has been put off to Future, just putting this back in backlog" created="2017-06-01 10:25:46.0" updateauthor="christopherferris" updated="2017-06-01 10:25:46.0"/>

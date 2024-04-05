@@ -1,0 +1,1 @@
+<Action id="65332" issue="42610" author="toktar" type="comment" created="2019-11-07 05:19:35.0" updateauthor="toktar" updated="2019-11-07 05:19:35.0"> <body><! CDATA Task is done in the PR  https://github.com/hyperledger/indy-plenum/pull/1394  But the merge of this PR does not make sense, since it will be overwritten by changes in the task INDY-2285  ></body> </Action>

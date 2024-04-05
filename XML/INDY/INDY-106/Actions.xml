@@ -1,0 +1,2 @@
+<Action id="24689" issue="17268" author="vladimirwork" type="comment" body="FYI  ~kelly.wilson ,  ~stevetolman ,  ~tylerq ,  ~ashcherbakov " created="2017-05-30 17:35:27.0" updateauthor="vladimirwork" updated="2017-05-30 17:35:27.0"/>
+<Action id="26176" issue="17268" author="krw910" type="comment" body=" ~VladimirWork  the correct process to change roles is to first remove the current role using (role= ) then setting the new role like (role=STEWARD)" created="2017-06-13 17:25:09.0" updateauthor="krw910" updated="2017-06-13 17:25:09.0"/>

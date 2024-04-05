@@ -1,0 +1,1 @@
+<Action id="62441" issue="39461" author="kopaygorodsky" type="comment" created="2019-07-30 23:27:29.0" updateauthor="kopaygorodsky" updated="2019-07-30 23:27:29.0"> <body><! CDATA you are able to query channel config and then fetch block number from it.  conf, err := QueryConfig(chan) QueryBlock(conf.BlockId)  ></body> </Action>

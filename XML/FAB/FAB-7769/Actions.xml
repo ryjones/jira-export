@@ -1,0 +1,3 @@
+<Action id="38939" issue="26875" author="mastersingh24" type="comment" body=" ~john.d.sheehan  - What do you think should happen here?" created="2018-01-21 09:39:58.0" updateauthor="mastersingh24" updated="2018-01-21 09:39:58.0"/>
+<Action id="38941" issue="26875" author="mastersingh24" type="comment" body="https://gerrit.hyperledger.org/r/16897" created="2018-01-21 10:19:56.0" updateauthor="mastersingh24" updated="2018-01-21 10:19:56.0"/>
+<Action id="39376" issue="26875" author="wlahti" type="comment" body="The above CR was merged on January 24. Marking this JIRA complete." created="2018-01-30 18:11:02.0" updateauthor="wlahti" updated="2018-01-30 18:11:02.0"/>

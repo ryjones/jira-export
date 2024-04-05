@@ -1,0 +1,1 @@
+<Action id="51336" issue="34188" author="sykesm" type="comment" body=" https://gerrit.hyperledger.org/r/26659  FAB-12218  cache config to avoid racing in test" created="2018-09-28 09:36:23.0" updateauthor="sykesm" updated="2018-09-28 09:36:23.0"/>

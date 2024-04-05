@@ -1,0 +1,2 @@
+<Action id="52634" issue="34872" author="sykesm" type="comment" created="2018-10-25 13:45:33.0" updateauthor="sykesm" updated="2018-10-25 13:45:33.0"> <body><! CDATA  ~huikang  this would be more helpful if the variable was reported.  Thanks.  ></body> </Action>
+<Action id="52636" issue="34872" author="huikang" type="comment" created="2018-10-25 13:56:54.0" updateauthor="huikang" updated="2018-10-25 13:56:54.0"> <body><! CDATA Hi, Matthew, sorry for missing the details. The variable is `orderingEndpoint`  https://gerrit.hyperledger.org/r/#/c/27187/  ></body> </Action>

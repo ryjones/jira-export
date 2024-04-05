@@ -1,0 +1,3 @@
+<Action id="56417" issue="37182" author="guoger" type="comment" body="hit here: https://jenkins.hyperledger.org/job/fabric-verify-unit-tests-x86_64/8475/console" created="2019-01-31 02:11:20.0" updateauthor="guoger" updated="2019-01-31 02:11:20.0"/>
+<Action id="56418" issue="37182" author="guoger" type="comment" body="cc  ~hagarm " created="2019-01-31 02:14:23.0" updateauthor="guoger" updated="2019-01-31 02:14:23.0"/>
+<Action id="56437" issue="37182" author="hagarm" type="comment" body="https://gerrit.hyperledger.org/r/#/c/29066/" created="2019-01-31 12:16:12.0" updateauthor="hagarm" updated="2019-01-31 12:16:12.0"/>

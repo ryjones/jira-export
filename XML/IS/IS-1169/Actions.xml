@@ -1,0 +1,2 @@
+<Action id="57591" issue="37415" author="artemkaaas" type="comment" body="Updated Vcx readme to reflect windows installation: https://github.com/hyperledger/indy-sdk/pull/1497" created="2019-02-26 15:04:39.0" updateauthor="artemkaaas" updated="2019-02-26 15:04:39.0"/>
+<Action id="57743" issue="37415" author="ozheregelya" type="comment" created="2019-02-28 15:51:56.0" updateauthor="ozheregelya" updated="2019-02-28 15:51:56.0"> <body><! CDATA *Environment:* libindy 1.8.1~991  Instruction is added and describes archive for Windows correctly.  ></body> </Action>

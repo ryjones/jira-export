@@ -1,0 +1,1 @@
+<Issue id="29719" key="INDY-1302" number="1302" project="10303" reporter="ashcherbakov" creator="ashcherbakov" type="10000" summary="PBFT View Change" description="Implement ViewChange protocol as in PBFT for better stability and predictability" priority="3" status="10200" created="2018-04-26 14:09:50.0" updated="2019-11-21 10:03:19.0" votes="0" watches="1" workflowId="29725"/>

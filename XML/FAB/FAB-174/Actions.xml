@@ -1,0 +1,1 @@
+<Action id="41808" issue="12473" author="denyeart" type="comment" created="2018-03-19 19:58:41.0" updateauthor="denyeart" updated="2018-03-19 19:58:41.0"> <body><! CDATA peer command has a 'version' option.  peer logs print version upon startup.  Marking as Done.  ></body> </Action>

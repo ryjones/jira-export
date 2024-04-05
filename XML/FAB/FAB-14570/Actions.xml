@@ -1,0 +1,2 @@
+<Action id="58153" issue="38335" author="wlahti" type="comment" body="FYI, this duplicates FAB-13811." created="2019-03-14 14:41:48.0" updateauthor="wlahti" updated="2019-03-14 14:41:48.0"/>
+<Action id="59353" issue="38335" author="ales" type="comment" body="We&apos;ve coded around that - no point in fixing that since that code will disappear" created="2019-04-20 10:31:44.0" updateauthor="ales" updated="2019-04-20 10:31:44.0"/>

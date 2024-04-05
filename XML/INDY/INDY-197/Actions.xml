@@ -1,0 +1,2 @@
+<Action id="26220" issue="17788" author="krw910" type="comment" body="This is not in build 0.3.138 wait and retest in the next build." created="2017-06-14 02:43:06.0" updateauthor="krw910" updated="2017-06-14 02:43:06.0"/>
+<Action id="26414" issue="17788" author="krw910" type="comment" body="Default log level is back to INFO" created="2017-06-15 15:22:10.0" updateauthor="krw910" updated="2017-06-15 15:22:10.0"/>

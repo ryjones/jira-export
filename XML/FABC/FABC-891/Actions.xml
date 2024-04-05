@@ -1,0 +1,1 @@
+<Action id="66658" issue="43780" author="manish-sethi" type="comment" created="2020-01-13 20:47:45.0" updateauthor="manish-sethi" updated="2020-01-13 20:52:23.0"> <body><! CDATA PR for master -  https://github.com/hyperledger/fabric-ca/pull/81    ~sykesm  - can you update the fix-versions fields to indicate whether you want back port this to 1.4.x  ></body> </Action>

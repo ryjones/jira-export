@@ -1,0 +1,1 @@
+<Issue id="35173" key="FABG-789" number="789" project="10610" reporter="troyronda" assignee="troyronda" creator="troyronda" type="10004" summary="Make depend should work when GOBIN is set" priority="3" resolution="10000" status="6" created="2018-11-07 14:48:07.0" updated="2019-01-25 01:33:31.0" resolutiondate="2019-01-25 01:33:31.0" votes="0" watches="1" workflowId="46612"/>

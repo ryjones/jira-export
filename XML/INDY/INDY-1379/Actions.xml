@@ -1,0 +1,2 @@
+<Action id="45441" issue="30754" author="sergey-shilov" type="comment" body="Fixed in scope of  INDY-1332|https://jira.hyperledger.org/browse/INDY-1332 ." created="2018-06-04 06:39:56.0" updateauthor="sergey-shilov" updated="2018-06-04 06:39:56.0"/>
+<Action id="45469" issue="30754" author="zhigunenko.dsr" type="comment" created="2018-06-04 14:48:08.0" updateauthor="zhigunenko.dsr" updated="2018-06-04 14:48:08.0"> <body><! CDATA Pool uprade successfully finished (via pool-upgrade transaction) indy-node 1.3.428 -> 1.3.440  ></body> </Action>

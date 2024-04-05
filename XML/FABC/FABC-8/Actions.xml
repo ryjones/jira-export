@@ -1,0 +1,2 @@
+<Action id="23397" issue="13562" author="khutpidor" type="comment" created="2017-05-05 04:33:24.0" updateauthor="khutpidor" updated="2017-05-05 04:53:58.0"> <body><! CDATA Excuse me Whether it solve or not, related to Auditor API (v0.6 or later)  ></body> </Action>
+<Action id="61471" issue="13562" author="mastersingh24" type="comment" body="tcerts are not supported and all code will be removed in 2.0.0" created="2019-07-04 11:34:57.0" updateauthor="mastersingh24" updated="2019-07-04 11:34:57.0"/>

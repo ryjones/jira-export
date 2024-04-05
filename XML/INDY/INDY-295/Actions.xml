@@ -1,0 +1,2 @@
+<Action id="37757" issue="18528" author="ashcherbakov" type="comment" body="We still don&apos;t have good global monitoring/dashboard/statistic. So, this is still the issue." created="2017-12-22 15:45:52.0" updateauthor="ashcherbakov" updated="2017-12-22 15:45:52.0"/>
+<Action id="64506" issue="18528" author="esplinr" type="comment" body="Validator-Info now gives enough information to identity when some validator nodes are having issues. " created="2019-10-09 16:23:40.0" updateauthor="esplinr" updated="2019-10-09 16:23:40.0"/>

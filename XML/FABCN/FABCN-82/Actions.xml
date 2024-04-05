@@ -1,0 +1,1 @@
+<Action id="55816" issue="36069" author="rameshthoomu" type="comment" body="No need to fetch the baseversion in release branches, as we pull the images using testFabricVersion in package.json file. Closing this." created="2019-01-18 18:36:39.0" updateauthor="rameshthoomu" updated="2019-01-18 18:36:39.0"/>

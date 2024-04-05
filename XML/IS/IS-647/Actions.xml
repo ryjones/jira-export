@@ -1,0 +1,5 @@
+<Action id="43063" issue="29419" author="artemkaaas" type="comment" body="Implemented in this PR:https://github.com/hyperledger/indy-sdk/pull/657" created="2018-04-17 15:37:31.0" updateauthor="artemkaaas" updated="2018-04-17 15:37:31.0"/>
+<Action id="43269" issue="29419" author="gudkov" type="comment" body="PR was merged. Just look to PR for the list of added files." created="2018-04-23 12:38:12.0" updateauthor="gudkov" updated="2018-04-23 12:38:12.0"/>
+<Action id="43348" issue="29419" author="zhigunenko.dsr" type="comment" body="migration-guide.md - mistype in &quot;Pyton&quot;" created="2018-04-24 12:50:05.0" updateauthor="zhigunenko.dsr" updated="2018-04-24 12:50:05.0"/>
+<Action id="43459" issue="29419" author="ozheregelya" type="comment" body="Migration guide document looks fine besides this misprint. So, after fix misprint this ticket can be moved to &quot;Done&quot;." created="2018-04-26 10:12:49.0" updateauthor="ozheregelya" updated="2018-04-26 10:12:49.0"/>
+<Action id="43507" issue="29419" author="ozheregelya" type="comment" body="Misprint fixed." created="2018-04-26 16:59:05.0" updateauthor="ozheregelya" updated="2018-04-26 16:59:05.0"/>

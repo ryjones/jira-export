@@ -1,0 +1,3 @@
+<Action id="47902" issue="31864" author="gudkov" type="comment" body=" ~MikeLodder  Are you working on this?" created="2018-07-26 12:33:32.0" updateauthor="gudkov" updated="2018-07-26 12:33:32.0"/>
+<Action id="47910" issue="31864" author="mikelodder" type="comment" body="Yes we are working on the math now. Once the math has been approved I will put this in indy-crypto and submit a PR. This does not need to happen before TDE." created="2018-07-26 14:29:52.0" updateauthor="mikelodder" updated="2018-07-26 14:29:52.0"/>
+<Action id="62532" issue="31864" author="ducadellaforcoletta" type="comment" body="Plan for this feature?" created="2019-08-02 07:57:28.0" updateauthor="ducadellaforcoletta" updated="2019-08-02 07:57:28.0"/>

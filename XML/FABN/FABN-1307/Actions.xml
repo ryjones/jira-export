@@ -1,0 +1,2 @@
+<Action id="61442" issue="40903" author="14gracel" type="comment" created="2019-07-03 10:44:23.0" updateauthor="14gracel" updated="2019-07-03 10:44:23.0"> <body><! CDATA Start/End block   https://gerrit.hyperledger.org/r/c/fabric-sdk-node/+/32017      ></body> </Action>
+<Action id="61501" issue="40903" author="davidkel" type="comment" body="moved to fabric-sdk-node jira project" created="2019-07-08 07:18:41.0" updateauthor="davidkel" updated="2019-07-08 07:18:41.0"/>

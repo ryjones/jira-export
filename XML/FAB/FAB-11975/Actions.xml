@@ -1,0 +1,2 @@
+<Action id="53873" issue="33708" author="scottz" type="comment" created="2018-11-27 23:38:16.0" updateauthor="scottz" updated="2018-11-27 23:38:16.0"> <body><! CDATA Rick R did enough testing with java sdk in v1.3. Although it is not automated, it was a sufficient load.  Per discussion with Rick and  ~latitiah , I think we can abandon this.  ></body> </Action>
+<Action id="53874" issue="33708" author="scottz" type="comment" body="This is a partial duplicate." created="2018-11-27 23:39:21.0" updateauthor="scottz" updated="2018-11-27 23:39:21.0"/>

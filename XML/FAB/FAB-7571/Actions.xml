@@ -1,0 +1,4 @@
+<Action id="37837" issue="26309" author="mastersingh24" type="comment" created="2017-12-29 10:25:56.0" updateauthor="mastersingh24" updated="2017-12-29 10:25:56.0"> <body><! CDATA I'm not opposed to this and seems like it should generally be ok.   ~muralisr   ~jyellick  what do you think?  ></body> </Action>
+<Action id="37852" issue="26309" author="muralisr" type="comment" body=" ~mastersingh24  works for me." created="2017-12-29 14:42:57.0" updateauthor="muralisr" updated="2017-12-29 14:42:57.0"/>
+<Action id="37914" issue="26309" author="baohua" type="comment" body="https://gerrit.hyperledger.org/r/#/c/16539/" created="2018-01-03 00:50:44.0" updateauthor="baohua" updated="2018-01-03 00:50:44.0"/>
+<Action id="38251" issue="26309" author="vdods" type="comment" body="Could this be merged into the v1.0.x branch as well?" created="2018-01-06 20:31:21.0" updateauthor="vdods" updated="2018-01-06 20:31:21.0"/>

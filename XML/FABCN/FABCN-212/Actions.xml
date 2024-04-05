@@ -1,0 +1,1 @@
+<Action id="58522" issue="38601" author="mbwhite" type="comment" created="2019-03-25 16:12:17.0" updateauthor="mbwhite" updated="2019-03-28 11:44:08.0"> <body><! CDATA There are a number of niggles with the cli command.     https://gerrit.hyperledger.org/r/30460  FAB-14726  CLI fixes     ></body> </Action>

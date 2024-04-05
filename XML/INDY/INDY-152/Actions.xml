@@ -1,0 +1,1 @@
+<Action id="30901" issue="17481" author="krw910" type="comment" body="This is covered with INDY-849. The real issue is not with the pool ledger file it is with not being able to come back to consensus when the pool has dropped below f+1." created="2017-09-14 21:20:46.0" updateauthor="krw910" updated="2017-09-14 21:20:46.0"/>

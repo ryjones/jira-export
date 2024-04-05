@@ -1,0 +1,1 @@
+<Action id="47281" issue="31819" author="denyeart" type="comment" created="2018-07-12 14:28:16.0" updateauthor="denyeart" updated="2018-07-12 14:28:16.0"> <body><! CDATA Actually, node js version should be updated to the latest LTS version, that is, what was:  NODE_VER=8.11.2  should now be:  NODE_VER=8.11.3  ></body> </Action>

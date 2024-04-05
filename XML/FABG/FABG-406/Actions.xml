@@ -1,0 +1,2 @@
+<Action id="39933" issue="27256" author="ga25waq" type="comment" body="I suggest to fix this issue as soon as possible since it is currently not possible to use the target filter for the JoinChannel method without applying a patch locally." created="2018-02-09 17:33:42.0" updateauthor="ga25waq" updated="2018-02-09 17:33:42.0"/>
+<Action id="40039" issue="27256" author="troyronda" type="comment" body="https://gerrit.hyperledger.org/r/c/17817/" created="2018-02-12 20:59:43.0" updateauthor="troyronda" updated="2018-02-12 20:59:43.0"/>

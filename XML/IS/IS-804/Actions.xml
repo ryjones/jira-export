@@ -1,0 +1,4 @@
+<Action id="46949" issue="31673" author="gudkov" type="comment" body="Seems like duplicate for IS-802" created="2018-07-05 12:57:57.0" updateauthor="gudkov" updated="2018-07-05 12:58:12.0"/>
+<Action id="46981" issue="31673" author="gudkov" type="comment" body="Now i see that IS-804 is different. We can fix concrete bug in IS-802 and perform enhancements in IS-804 separately." created="2018-07-06 06:36:25.0" updateauthor="gudkov" updated="2018-07-06 06:36:25.0"/>
+<Action id="47725" issue="31673" author="artemkaaas" type="comment" created="2018-07-24 14:57:06.0" updateauthor="artemkaaas" updated="2018-07-25 05:19:48.0"> <body><! CDATA Everything looks okay. PluggedStorageError contains error_code which is sent up. The ticket should be closed.  ></body> </Action>
+<Action id="47780" issue="31673" author="gudkov" type="comment" body="I agree with Artem" created="2018-07-25 09:33:46.0" updateauthor="gudkov" updated="2018-07-25 09:33:46.0"/>

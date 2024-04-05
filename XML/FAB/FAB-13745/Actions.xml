@@ -1,0 +1,2 @@
+<Action id="55905" issue="36917" author="mastersingh24" type="comment" body="Looks like we just need a lock for operations on configurableCryptoService.m unless I am missing something." created="2019-01-21 12:01:57.0" updateauthor="mastersingh24" updated="2019-01-21 12:04:48.0"/>
+<Action id="55906" issue="36917" author="mastersingh24" type="comment" body="https://gerrit.hyperledger.org/r/28853" created="2019-01-21 12:04:32.0" updateauthor="mastersingh24" updated="2019-01-21 12:04:32.0"/>

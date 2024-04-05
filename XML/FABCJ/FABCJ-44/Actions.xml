@@ -1,0 +1,4 @@
+<Action id="52329" issue="29276" author="denyeart" type="comment" body=" ~gennadyl  How does this relate to  FAB-12479 ?  Is it needed for v1.3 developers? Or should we move to the v1.4 epic?" created="2018-10-16 15:22:21.0" updateauthor="denyeart" updated="2018-10-16 15:22:54.0"/>
+<Action id="52347" issue="29276" author="gennadyl" type="comment" body="No, it is task to create chaincode projects." created="2018-10-17 07:33:44.0" updateauthor="gennadyl" updated="2018-10-17 07:33:44.0"/>
+<Action id="53568" issue="29276" author="denyeart" type="comment" body=" ~gennadyl  I&apos;ve moved to the v1.4 epic. Can you clarify what remains to be done?" created="2018-11-19 04:21:14.0" updateauthor="denyeart" updated="2018-11-19 04:21:14.0"/>
+<Action id="64713" issue="29276" author="heatherp" type="comment" body="We&apos;re not doing this or planning to in the near future, so closing" created="2019-10-15 13:57:18.0" updateauthor="heatherp" updated="2019-10-15 13:57:18.0"/>

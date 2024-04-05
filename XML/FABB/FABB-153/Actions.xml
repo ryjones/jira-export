@@ -1,0 +1,1 @@
+<Action id="69725" issue="45597" author="btl5037" type="comment" body="As noted in https://jira.hyperledger.org/browse/FAB-18064 you should be setting the image tags in `core.yaml` yourself via the keys: `chaincode.builder` and `chaincode.&lt;language&gt;.runtime&gt;`" created="2020-07-19 04:45:42.0" updateauthor="btl5037" updated="2020-07-19 04:45:42.0"/>

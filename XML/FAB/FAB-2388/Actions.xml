@@ -1,0 +1,1 @@
+<Action id="21219" issue="14951" author="adnanchoudhury" type="comment" body="Solved in https://gerrit.hyperledger.org/r/#/c/6365/ The issue was the async nature of the database deletion issue in CouchDB 2.x." created="2017-02-28 19:44:02.0" updateauthor="adnanchoudhury" updated="2017-02-28 19:44:02.0"/>

@@ -1,0 +1,4 @@
+<Action id="45299" issue="30752" author="yacovm" type="comment" created="2018-05-30 18:02:44.0" updateauthor="yacovm" updated="2018-05-30 18:02:44.0"> <body><! CDATA https://gerrit.hyperledger.org/r/#/c/22553/   I think this should fix it... do you want to give it a go?  ></body> </Action>
+<Action id="45300" issue="30752" author="divyank" type="comment" body="Thanks for the quick fix! We will cherry-pick this and continue testing." created="2018-05-30 18:06:51.0" updateauthor="divyank" updated="2018-05-30 18:06:51.0"/>
+<Action id="45668" issue="30752" author="divyank" type="comment" body="We have not seen this issue since cherry-picking the fix. Looks good to merge!" created="2018-06-07 20:32:27.0" updateauthor="divyank" updated="2018-06-07 20:32:27.0"/>
+<Action id="45669" issue="30752" author="yacovm" type="comment" created="2018-06-07 20:40:09.0" updateauthor="yacovm" updated="2018-06-07 20:40:09.0"> <body><! CDATA  ~C0rWin  ^      ></body> </Action>

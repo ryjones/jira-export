@@ -1,0 +1,3 @@
+<Action id="41506" issue="28359" author="ashcherbakov" type="comment" body="This looks like already fixed in INDY-1152" created="2018-03-13 07:59:07.0" updateauthor="ashcherbakov" updated="2018-03-13 07:59:07.0"/>
+<Action id="41510" issue="28359" author="ashcherbakov" type="comment" body="We need to Upgrade the pool and validate whether the issue has gone." created="2018-03-13 08:19:50.0" updateauthor="ashcherbakov" updated="2018-03-13 08:19:50.0"/>
+<Action id="42215" issue="28359" author="ashcherbakov" type="comment" body="We can reopen any that reappear, but all is good on the live pool now." created="2018-03-27 14:37:59.0" updateauthor="ashcherbakov" updated="2018-03-27 14:37:59.0"/>

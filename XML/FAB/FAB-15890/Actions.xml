@@ -1,0 +1,2 @@
+<Action id="64039" issue="40943" author="dongming" type="comment" created="2019-09-24 14:39:32.0" updateauthor="dongming" updated="2019-09-24 17:32:18.0"> <body><! CDATA Launch a network without TLS: https://gerrit.hyperledger.org/r/#/c/fabric/+/33696/ Network with mutual TLS: https://gerrit.hyperledger.org/r/c/fabric/+/33697/2  ></body> </Action>
+<Action id="64227" issue="40943" author="dongming" type="comment" body="per Matt, no need to do integration test with TLS disabled" created="2019-10-01 14:44:37.0" updateauthor="dongming" updated="2019-10-01 14:44:37.0"/>

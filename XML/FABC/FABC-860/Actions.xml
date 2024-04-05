@@ -1,0 +1,1 @@
+<Action id="22463" issue="13296" author="smithbk" type="comment" created="2017-04-14 16:30:08.0" updateauthor="smithbk" updated="2017-04-14 16:30:08.0"> <body><! CDATA The fabric-ca-server's CA certs should not have a 1 year expiration by default. The default should be effectively infinite  ></body> </Action>

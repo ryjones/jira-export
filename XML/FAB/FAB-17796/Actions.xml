@@ -1,0 +1,1 @@
+<Action id="69865" issue="44928" author="manish-sethi" type="comment" created="2020-08-05 12:35:32.0" updateauthor="manish-sethi" updated="2020-08-05 12:35:32.0"> <body><! CDATA This is already handled in https://jira.hyperledger.org/browse/FAB-18097  (https://github.com/hyperledger/fabric/pull/1651/files#diff-4cbd873d78bc5fb0e4f03dec7bb84913R275)  ></body> </Action>

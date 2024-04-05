@@ -1,0 +1,2 @@
+<Action id="19722" issue="13389" author="rameshthoomu" type="comment" body="Requested &quot;ry jones&quot; to update required docker-compose version in Jenkins build image and push it to Production environment. " created="2016-11-10 16:23:00.0" updateauthor="rameshthoomu" updated="2016-11-10 16:23:00.0"/>
+<Action id="20202" issue="13389" author="rameshthoomu" type="comment" body="Docker compose version upgraded to 1.8.1 in CI images and this changes was implemented." created="2016-12-27 16:01:48.0" updateauthor="rameshthoomu" updated="2016-12-27 16:01:48.0"/>

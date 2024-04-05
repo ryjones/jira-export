@@ -1,0 +1,2 @@
+<Action id="67670" issue="43434" author="tsharris" type="comment" body=" https://github.com/hyperledger/fabric/pull/533  A draft PR exists that starts a peer with pkcs11 configured. " created="2020-01-27 14:55:11.0" updateauthor="tsharris" updated="2020-01-27 14:55:11.0"/>
+<Action id="69594" issue="43434" author="tsharris" type="comment" body=" https://github.com/hyperledger/fabric/pull/1471 " created="2020-06-30 13:25:33.0" updateauthor="tsharris" updated="2020-06-30 13:25:33.0"/>

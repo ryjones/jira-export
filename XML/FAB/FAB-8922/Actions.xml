@@ -1,0 +1,2 @@
+<Action id="41831" issue="28596" author="wlahti" type="comment" body="https://gerrit.hyperledger.org/r/c/19285/" created="2018-03-20 13:53:57.0" updateauthor="wlahti" updated="2018-03-20 13:53:57.0"/>
+<Action id="42379" issue="28596" author="wlahti" type="comment" body="Updated the summary and description to make it obvious that we went with &quot;.build&quot; and not &quot;_build&quot; in the merged CR. " created="2018-03-30 12:01:41.0" updateauthor="wlahti" updated="2018-03-30 12:01:41.0"/>

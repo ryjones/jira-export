@@ -1,0 +1,1 @@
+<Issue id="41014" key="FAB-15930" number="15930" project="10002" reporter="sykesm" assignee="sykesm" creator="sykesm" type="10002" summary="Address shellcheck items in run-integration-tests.sh" priority="4" resolution="10000" status="6" created="2019-07-11 15:26:42.0" updated="2019-07-13 17:17:14.0" resolutiondate="2019-07-13 17:17:14.0" votes="0" watches="1" workflowId="54014"/>

@@ -1,0 +1,1 @@
+<Action id="40257" issue="27721" author="troyronda" type="comment" body="Some of these are already part of ChannelService.Ledger. I don&apos;t think we should duplicate those into ResourceMgmtClient as they are Channel specific." created="2018-02-15 16:02:20.0" updateauthor="troyronda" updated="2018-02-15 16:02:20.0"/>

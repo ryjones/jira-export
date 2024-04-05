@@ -1,0 +1,1 @@
+<Action id="41859" issue="28626" author="baohua" type="comment" body="A quick idea is to refine the existing hyperledger/cello-mongo image, to adopt the new mongo image as the base, and remove the mongo installation steps from the hyperledger/cello-base image Dockerfile" created="2018-03-21 02:34:07.0" updateauthor="baohua" updated="2018-03-21 02:34:07.0"/>

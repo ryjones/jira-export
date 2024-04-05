@@ -1,0 +1,2 @@
+<Action id="58317" issue="38581" author="yacovm" type="comment" body="service discovery queries are channel scoped, so there is nothing to do... you can see for yourself by playing with the discovery CLI and looking at the orderers in the configuration query." created="2019-03-19 20:13:22.0" updateauthor="yacovm" updated="2019-03-19 20:13:22.0"/>
+<Action id="58318" issue="38581" author="yacovm" type="comment" body="nothing to be done" created="2019-03-19 20:15:21.0" updateauthor="yacovm" updated="2019-03-19 20:15:21.0"/>

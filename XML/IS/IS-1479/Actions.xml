@@ -1,0 +1,1 @@
+<Action id="68327" issue="44220" author="sergey.minaev" type="comment" body="The update is used in the scope of VDR work so it will be tracked there. The basis is done, probably more stability testing is required as sometimes MacOS pipeline fails for IndyCLI" created="2020-03-16 13:05:09.0" updateauthor="sergey.minaev" updated="2020-03-16 13:05:09.0"/>

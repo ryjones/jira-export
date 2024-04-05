@@ -1,0 +1,3 @@
+<Action id="63279" issue="42018" author="mastersingh24" type="comment" body=" ~Berith   Are you looking to add this to a future release of Fabric?" created="2019-08-26 11:44:20.0" updateauthor="mastersingh24" updated="2019-08-26 11:44:20.0"/>
+<Action id="63311" issue="42018" author="berith" type="comment" body=" ~mastersingh24 Yes. I&apos;m trying to add it to a future release of Fabric." created="2019-08-27 03:48:10.0" updateauthor="berith" updated="2019-08-27 03:48:10.0"/>
+<Action id="65715" issue="42018" author="denyeart" type="comment" body="See comments in https://gerrit.hyperledger.org/r/#/c/fabric/+/33984/" created="2019-11-22 05:49:41.0" updateauthor="denyeart" updated="2019-11-22 05:49:41.0"/>

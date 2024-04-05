@@ -1,0 +1,1 @@
+<Action id="63690" issue="42311" author="sykesm" type="comment" created="2019-09-11 20:07:55.0" updateauthor="sykesm" updated="2019-09-11 20:07:55.0"> <body><! CDATA https://gerrit.hyperledger.org/r/c/fabric/+/33468 Stop referencing GOPATH in golinter.sh   ></body> </Action>

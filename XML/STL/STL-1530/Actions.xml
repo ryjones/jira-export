@@ -1,0 +1,1 @@
+<Action id="62565" issue="39546" author="arsulegai" type="comment" created="2019-08-03 16:07:41.0" updateauthor="arsulegai" updated="2019-08-03 16:07:41.0"> <body><! CDATA This is addressed in PoET and the code is merged to the sawtooth-poet repository. PoET 2 will have V3 SGX API already when the repository is created.  This issue can be closed.  ></body> </Action>

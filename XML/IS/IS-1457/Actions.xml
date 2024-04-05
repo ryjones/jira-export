@@ -1,0 +1,2 @@
+<Action id="66399" issue="43787" author="artemkaaas" type="comment" body="Done in PR:  https://github.com/hyperledger/indy-sdk/pull/2007 " created="2019-12-25 09:58:28.0" updateauthor="artemkaaas" updated="2019-12-25 09:58:28.0"/>
+<Action id="66421" issue="43787" author="vladimirwork" type="comment" body="Load and system tests run well against the libindy and indy-node with the latest TAA changes." created="2019-12-27 15:31:21.0" updateauthor="vladimirwork" updated="2019-12-27 15:31:21.0"/>

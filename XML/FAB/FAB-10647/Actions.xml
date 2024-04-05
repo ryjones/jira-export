@@ -1,0 +1,2 @@
+<Action id="47235" issue="31071" author="sykesm" type="comment" body="The CR has been -1&apos;d as the pvtdata suite uses the legacy world. As the CRs to add the pvtdata tests have been pending since 21 June, it&apos;s unclear when that thread of work will complete." created="2018-07-11 17:28:30.0" updateauthor="sykesm" updated="2018-07-11 17:28:30.0"/>
+<Action id="49838" issue="31071" author="sykesm" type="comment" body="Legacy world was moved to the last remaining user." created="2018-09-04 17:25:38.0" updateauthor="sykesm" updated="2018-09-04 17:25:38.0"/>

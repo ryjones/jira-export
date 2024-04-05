@@ -1,0 +1,1 @@
+<Issue id="14220" key="FAB-1791" number="1791" project="10002" reporter="binhn" assignee="binhn" creator="binhn" type="10003" summary="Chaincode calling chaincode on same channel with writes" priority="3" resolution="10000" status="6" created="2017-01-20 21:54:37.0" updated="2018-07-20 14:11:18.0" resolutiondate="2017-05-26 14:51:12.0" votes="0" watches="1" workflowId="37136"/>

@@ -1,0 +1,1 @@
+<Action id="25280" issue="17434" author="jimthematrix" type="comment" body="once FAB-4347 is fixed this is not a problem any longer, since the details of the error is included in the inner response already" created="2017-06-04 19:46:07.0" updateauthor="jimthematrix" updated="2017-06-04 19:46:07.0"/>

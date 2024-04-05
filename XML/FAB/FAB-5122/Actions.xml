@@ -1,0 +1,2 @@
+<Action id="27681" issue="18849" author="qiang0723" type="comment" body="# add a script to docker-compose-file, enable network start with `create` and `join` done" created="2017-06-30 05:28:12.0" updateauthor="qiang0723" updated="2017-06-30 05:28:48.0"/>
+<Action id="27809" issue="18849" author="qiang0723" type="comment" body="https://gerrit.hyperledger.org/r/#/c/11347/" created="2017-07-04 08:12:31.0" updateauthor="qiang0723" updated="2017-07-04 08:12:31.0"/>

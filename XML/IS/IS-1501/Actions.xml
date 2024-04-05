@@ -1,0 +1,1 @@
+<Action id="68243" issue="44364" author="artemkaaas" type="comment" created="2020-03-06 05:58:54.0" updateauthor="artemkaaas" updated="2020-03-06 05:58:54.0"> <body><! CDATA Updated Libindy to use Vdr instead of Pool Service and for building requests. PR:  https://github.com/hyperledger/indy-sdk/pull/2120      ></body> </Action>

@@ -1,0 +1,1 @@
+<Action id="35959" issue="24756" author="rameshthoomu" type="comment" body="Patch has been submitted and merged. Verify and merge unit-test (x86, s390x) jobs pull these images and tag it as latest images." created="2017-12-07 01:31:13.0" updateauthor="rameshthoomu" updated="2017-12-07 01:31:13.0"/>

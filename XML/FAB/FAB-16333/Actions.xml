@@ -1,0 +1,2 @@
+<Action id="63055" issue="41865" author="sykesm" type="comment" created="2019-08-19 13:28:01.0" updateauthor="sykesm" updated="2019-08-19 13:28:01.0"> <body><! CDATA In the future, please include details about what's being fixed. In this case, the message that's incorrect. This provides absolutely no context.  Thanks.  ></body> </Action>
+<Action id="63057" issue="41865" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/c/fabric/+/32985" created="2019-08-19 13:29:32.0" updateauthor="sykesm" updated="2019-08-19 13:29:32.0"/>

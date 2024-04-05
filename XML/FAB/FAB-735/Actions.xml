@@ -1,0 +1,2 @@
+<Action id="19256" issue="13039" author="hanhzf" type="comment" body="Fix has been submitted to https://gerrit.hyperledger.org/r/#/c/1823/" created="2016-10-18 00:18:55.0" updateauthor="hanhzf" updated="2016-10-18 00:18:55.0"/>
+<Action id="19783" issue="13039" author="jimthematrix" type="comment" body="marking this as done (there&apos;s no better status to use) as this is not needed any longer in v1.0 code base since confidentiality with encryption is not supported anymore." created="2016-11-17 21:13:02.0" updateauthor="jimthematrix" updated="2016-11-17 21:13:02.0"/>

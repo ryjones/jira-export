@@ -1,0 +1,1 @@
+<Action id="52625" issue="34028" author="gudkov" type="comment" created="2018-10-25 10:45:08.0" updateauthor="gudkov" updated="2018-10-25 10:45:08.0"> <body><! CDATA * API implemented * API covered by integration tests, note that mostly happy path, but it looks enough for "dummy" agent.  ></body> </Action>

@@ -1,0 +1,2 @@
+<Action id="37108" issue="25742" author="rameshthoomu" type="comment" body="Patch set has been created and updated to gerrit.." created="2017-12-14 18:30:24.0" updateauthor="rameshthoomu" updated="2017-12-14 18:30:24.0"/>
+<Action id="37112" issue="25742" author="rameshthoomu" type="comment" body="It&apos;s merged now. Now the build check verifies `make linter`. will disable the same from fabric-unit-tests-verify CI job" created="2017-12-14 19:43:18.0" updateauthor="rameshthoomu" updated="2017-12-14 19:43:18.0"/>

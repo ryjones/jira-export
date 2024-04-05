@@ -1,0 +1,2 @@
+<Action id="35796" issue="24599" author="rennman" type="comment" body=" Test CRL as part of revoke|https://gerrit.hyperledger.org/r/#/c/15917/ " created="2017-12-04 18:34:44.0" updateauthor="rennman" updated="2017-12-04 18:34:44.0"/>
+<Action id="37017" issue="24599" author="rennman" type="comment" created="2017-12-12 22:57:41.0" updateauthor="rennman" updated="2017-12-19 19:15:54.0"> <body><! CDATA -Blocked by  https://gerrit.hyperledger.org/r/#/c/15999/ -     Blocked by https://jira.hyperledger.org/browse/FAB-7464  ></body> </Action>

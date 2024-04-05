@@ -1,0 +1,2 @@
+<Action id="50686" issue="33865" author="burdettadam" type="comment" body="vimmerru, Do we have anyone looking at these errors that just came through?" created="2018-09-19 15:53:43.0" updateauthor="burdettadam" updated="2018-09-19 15:53:43.0"/>
+<Action id="52079" issue="33865" author="gudkov" type="comment" body="Lodash resolves to 4.17.11 in https://github.com/hyperledger/indy-sdk/commit/471f0d658c96c6a980f4af34fe52cd851f38f1f4#diff-094e5fc3d4197049da95089e8a0aa5a4" created="2018-10-11 11:22:37.0" updateauthor="gudkov" updated="2018-10-11 11:22:37.0"/>

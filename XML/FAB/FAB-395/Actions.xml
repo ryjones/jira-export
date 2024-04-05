@@ -1,0 +1,3 @@
+<Action id="18962" issue="12696" author="tuand" type="comment" created="2016-09-21 19:20:06.0" updateauthor="tuand" updated="2016-09-21 19:20:06.0"> <body><! CDATA Updated to talk only about orderer service nodes and not peer nodes.   ></body> </Action>
+<Action id="19285" issue="12696" author="binhn" type="comment" body="We will use FAB-359 for bootstrap related activities" created="2016-10-19 14:54:17.0" updateauthor="binhn" updated="2016-10-19 14:54:17.0"/>
+<Action id="19290" issue="12696" author="tuand" type="comment" body="moved all stories to fab-359 since we are using that as the epic for bootstrapping work" created="2016-10-19 17:11:55.0" updateauthor="tuand" updated="2016-10-19 17:11:55.0"/>

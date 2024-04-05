@@ -1,0 +1,2 @@
+<Action id="56027" issue="37024" author="wlahti" type="comment" body="edit: Abandoned this CR: https://gerrit.hyperledger.org/r/c/28876/. I&apos;ll push a new one when ready." created="2019-01-22 18:21:16.0" updateauthor="wlahti" updated="2019-03-08 16:58:48.0"/>
+<Action id="58006" issue="37024" author="wlahti" type="comment" created="2019-03-08 16:58:07.0" updateauthor="wlahti" updated="2019-03-14 14:42:15.0"> <body><! CDATA Picking this up again.  WIP: https://gerrit.hyperledger.org/r/c/29965/  ></body> </Action>

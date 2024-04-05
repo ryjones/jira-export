@@ -1,0 +1,1 @@
+<Action id="63684" issue="42174" author="ashish.cppdev" type="comment" body="It turned out to be an environmental issue on my end. I had mixed up grpc node binary between v1.17.0 which is used by the fabric runtime, and v1.21.1 which is used by the sample applications." created="2019-09-11 18:01:12.0" updateauthor="ashish.cppdev" updated="2019-09-11 18:01:12.0"/>

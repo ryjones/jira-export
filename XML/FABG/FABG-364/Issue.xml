@@ -1,0 +1,1 @@
+<Issue id="28579" key="FABG-364" number="364" project="10610" reporter="bstasyszyn" creator="bstasyszyn" type="10004" summary="Chaincode events should deliver payload for non-filtered events" priority="3" resolution="10000" status="6" created="2018-03-15 21:21:57.0" updated="2018-07-18 23:52:38.0" resolutiondate="2018-03-19 20:28:13.0" votes="0" watches="1" workflowId="33163"/>

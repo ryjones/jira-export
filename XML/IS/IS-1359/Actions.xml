@@ -1,0 +1,2 @@
+<Action id="63388" issue="41842" author="artemkaaas" type="comment" created="2019-08-29 09:32:47.0" updateauthor="artemkaaas" updated="2019-08-29 09:32:47.0"> <body><! CDATA Changes: added `indy_qualify_did` function to update DID stored in the wallet to make fully qualified. PR: https://github.com/hyperledger/indy-sdk/pull/1862  ></body> </Action>
+<Action id="63774" issue="41842" author="sergey.minaev" type="comment" body="Followed up by IS-1366 and 1358" created="2019-09-16 12:26:10.0" updateauthor="sergey.minaev" updated="2019-09-16 12:26:25.0"/>

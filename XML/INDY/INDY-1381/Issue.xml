@@ -1,0 +1,1 @@
+<Issue id="30772" key="INDY-1381" number="1381" project="10303" reporter="ashcherbakov" creator="ashcherbakov" type="10000" summary="Client-to-node communication" description="Use Agent-to-Agent pattern as Client-to-Node communication" priority="3" status="10200" created="2018-05-31 14:15:31.0" updated="2020-01-17 15:31:57.0" votes="0" watches="2" workflowId="30780"/>

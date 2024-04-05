@@ -1,0 +1,1 @@
+<Action id="42776" issue="29096" author="wlahti" type="comment" body="The first approach will be implemented via FAB-9446. A subsequent JIRA may be created to also add support for supplying a connection profile to specify the peers to seek endorsements from. " created="2018-04-10 15:16:24.0" updateauthor="wlahti" updated="2018-04-10 15:16:24.0"/>

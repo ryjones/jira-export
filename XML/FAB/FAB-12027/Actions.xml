@@ -1,0 +1,2 @@
+<Action id="50549" issue="33824" author="christopherferris" type="comment" body="https://gerrit.hyperledger.org/r/c/26342/" created="2018-09-17 14:30:33.0" updateauthor="christopherferris" updated="2018-09-17 14:30:33.0"/>
+<Action id="50638" issue="33824" author="ping40" type="comment" body="the testutil will be discarded, so , it don&apos;t need to change." created="2018-09-19 08:22:43.0" updateauthor="ping40" updated="2018-09-19 08:22:43.0"/>

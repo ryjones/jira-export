@@ -1,0 +1,2 @@
+<Action id="59683" issue="38713" author="mfford" type="comment" body="This would block the v1.2 release" created="2019-05-02 18:36:27.0" updateauthor="mfford" updated="2019-05-02 18:36:27.0"/>
+<Action id="60125" issue="38713" author="ltseeley" type="comment" body="Fixed:  https://github.com/hyperledger/sawtooth-core/pull/2104 " created="2019-05-17 15:01:55.0" updateauthor="ltseeley" updated="2019-05-17 15:01:55.0"/>

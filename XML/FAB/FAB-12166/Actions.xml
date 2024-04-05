@@ -1,0 +1,2 @@
+<Action id="51227" issue="34087" author="wlahti" type="comment" body="https://gerrit.hyperledger.org/r/c/26597/" created="2018-09-26 18:42:20.0" updateauthor="wlahti" updated="2018-09-26 18:42:20.0"/>
+<Action id="55372" issue="34087" author="wlahti" type="comment" body="Abandoning this item now that we are using Go 1.11. " created="2019-01-07 16:36:09.0" updateauthor="wlahti" updated="2019-01-07 16:36:09.0"/>

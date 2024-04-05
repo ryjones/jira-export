@@ -1,0 +1,2 @@
+<Action id="38475" issue="26164" author="krw910" type="comment" body=" ~ozheregelya  I think this was already done can you verify that it was completed." created="2018-01-11 22:22:01.0" updateauthor="krw910" updated="2018-01-11 22:22:01.0"/>
+<Action id="38645" issue="26164" author="ozheregelya" type="comment" body=" ~krw910 ,  ~SeanBohan_Sovrin , Yes these cases were fixed with another findings from INDY-1009." created="2018-01-15 16:32:51.0" updateauthor="ozheregelya" updated="2018-01-15 16:32:51.0"/>

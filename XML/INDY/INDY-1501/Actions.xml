@@ -1,0 +1,1 @@
+<Action id="47577" issue="32074" author="ashcherbakov" type="comment" created="2018-07-20 08:55:00.0" updateauthor="ashcherbakov" updated="2018-07-20 08:55:00.0"> <body><! CDATA We already have these docs:  https://github.com/hyperledger/indy-node/blob/master/docs/pool-upgrade.md  We need to  check and update them.  ></body> </Action>

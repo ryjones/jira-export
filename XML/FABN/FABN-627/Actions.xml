@@ -1,0 +1,2 @@
+<Action id="42053" issue="28788" author="zhaochy" type="comment" created="2018-03-23 10:46:44.0" updateauthor="zhaochy" updated="2018-03-23 10:58:39.0"> <body><! CDATA https://gerrit.hyperledger.org/r/19667 for master https://gerrit.hyperledger.org/r/19669 for release-1.1  ></body> </Action>
+<Action id="42068" issue="28788" author="davidkhala" type="comment" body="Similar to https://gerrit.hyperledger.org/r/#/c/18717/" created="2018-03-23 13:51:56.0" updateauthor="davidkhala" updated="2018-03-23 13:51:56.0"/>

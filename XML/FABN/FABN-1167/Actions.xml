@@ -1,0 +1,1 @@
+<Action id="65176" issue="38055" author="harrisob@us.ibm.com" type="comment" body="the application should understand that the action was unsuccessful, I think the throwing an error is proper. " created="2019-10-29 23:41:50.0" updateauthor="harrisob@us.ibm.com" updated="2019-10-29 23:41:50.0"/>

@@ -1,0 +1,2 @@
+<Action id="19590" issue="13254" author="kchristidis" type="comment" created="2016-11-01 15:38:05.0" updateauthor="kchristidis" updated="2016-11-01 15:38:37.0"> <body><! CDATA Update: 7050 seems to be the right pick, as we're working with the 7050-7060 range.  https://github.com/hyperledger-archives/fabric/pull/2286  ></body> </Action>
+<Action id="19826" issue="13254" author="kchristidis" type="comment" body="In review: https://gerrit.hyperledger.org/r/#/c/2687/" created="2016-11-21 18:14:56.0" updateauthor="kchristidis" updated="2016-11-21 18:14:56.0"/>

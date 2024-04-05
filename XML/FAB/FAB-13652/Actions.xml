@@ -1,0 +1,2 @@
+<Action id="55676" issue="36716" author="sykesm" type="comment" body="Logs? Build reference?" created="2019-01-15 15:23:27.0" updateauthor="sykesm" updated="2019-01-15 15:23:27.0"/>
+<Action id="55809" issue="36716" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/28814  FAB-13652  consume stream message before return" created="2019-01-18 17:49:43.0" updateauthor="sykesm" updated="2019-01-18 17:49:43.0"/>

@@ -1,0 +1,2 @@
+<Action id="46838" issue="29236" author="yuki-kon" type="comment" body="There are some inconsistent terms for this concept. “System Chain” is also called “System Channel” or “Orderer System Channel”. Which is the correct name? It would be great if the same term is used throughout the document." created="2018-07-02 21:30:35.0" updateauthor="yuki-kon" updated="2018-07-02 21:30:35.0"/>
+<Action id="67327" issue="29236" author="sykesm" type="comment" body="Stale" created="2020-01-22 22:31:17.0" updateauthor="sykesm" updated="2020-01-22 22:31:17.0"/>

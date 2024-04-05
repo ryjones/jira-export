@@ -1,0 +1,6 @@
+<Action id="40172" issue="26900" author="denyeart" type="comment" body="Private data collections (aka Side DB) are experimental in 1.1, this item can be deferred to 1.2." created="2018-02-14 17:14:15.0" updateauthor="denyeart" updated="2018-02-14 17:14:15.0"/>
+<Action id="43875" issue="26900" author="jyellick" type="comment" body=" ~denyeart  has this been addressed?" created="2018-05-04 17:50:19.0" updateauthor="jyellick" updated="2018-05-04 17:50:19.0"/>
+<Action id="43956" issue="26900" author="denyeart" type="comment" body=" ~jyellick  Work on this item is beginning this week." created="2018-05-07 01:29:25.0" updateauthor="denyeart" updated="2018-05-07 01:29:25.0"/>
+<Action id="44088" issue="26900" author="clayton sims" type="comment" body="Who&apos;s doing this item?   Chris?" created="2018-05-08 18:19:17.0" updateauthor="clayton sims" updated="2018-05-08 18:19:17.0"/>
+<Action id="44170" issue="26900" author="denyeart" type="comment" body="Yes Chris started working on it this week." created="2018-05-10 10:55:50.0" updateauthor="denyeart" updated="2018-05-10 10:55:50.0"/>
+<Action id="44405" issue="26900" author="denyeart" type="comment" body="https://gerrit.hyperledger.org/r/#/c/21753/" created="2018-05-15 05:37:50.0" updateauthor="denyeart" updated="2018-05-15 05:37:50.0"/>

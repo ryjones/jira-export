@@ -1,0 +1,1 @@
+<Action id="52203" issue="33843" author="shresthi" type="comment" created="2018-10-13 10:11:00.0" updateauthor="shresthi" updated="2018-10-13 10:11:00.0"> <body><! CDATA If transaction processor is renamed, then executor/ scheduler not allow to submit the transaction. Fixing this issue, will resolve STL-1167, STL-1373 and STL-1404.  ></body> </Action>

@@ -1,0 +1,1 @@
+<Action id="52967" issue="34876" author="sergey-shilov" type="comment" created="2018-11-02 13:28:59.0" updateauthor="sergey-shilov" updated="2018-11-02 13:28:59.0"> <body><! CDATA *Results*  10 NYMs/sec: ~10 simultaneous connections 100 NYMs/sec: ~1300 simultaneous connections, then client stack is restarted  ></body> </Action>

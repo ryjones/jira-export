@@ -1,0 +1,2 @@
+<Action id="30424" issue="18046" author="krw910" type="comment" body=" ~mzk-vct  Can you be more specific about what this ticket will change and its benefits?" created="2017-08-31 21:11:32.0" updateauthor="krw910" updated="2017-08-31 21:11:32.0"/>
+<Action id="64556" issue="18046" author="ashcherbakov" type="comment" body="We&apos;ve done a lot of refactorings and improvements in the scope of PBFT View Change protocol." created="2019-10-10 15:01:23.0" updateauthor="ashcherbakov" updated="2019-10-10 15:01:23.0"/>

@@ -1,0 +1,1 @@
+<Action id="35736" issue="24067" author="carlosho17" type="comment" created="2017-12-01 19:32:13.0" updateauthor="carlosho17" updated="2017-12-01 19:32:13.0"> <body><! CDATA It should be mentioned in the docs that the same happens in Ubuntu 16.04 , and the cure for it is *apt install libtool libltdl-dev*     ></body> </Action>

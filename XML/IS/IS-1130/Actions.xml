@@ -1,0 +1,5 @@
+<Action id="55704" issue="36533" author="kithat" type="comment" body="PR: https://github.com/hyperledger/indy-crypto/pull/147" created="2019-01-16 08:09:20.0" updateauthor="kithat" updated="2019-01-16 08:09:20.0"/>
+<Action id="55794" issue="36533" author="gudkov" type="comment" body="Merged PR to crypto. Need update sdk to use new indy crypto version." created="2019-01-18 13:50:43.0" updateauthor="gudkov" updated="2019-01-18 13:50:43.0"/>
+<Action id="56083" issue="36533" author="sergey.minaev" type="comment" body="build 1.7.0 master 946" created="2019-01-23 09:34:13.0" updateauthor="sergey.minaev" updated="2019-01-23 09:34:13.0"/>
+<Action id="56252" issue="36533" author="kithat" type="comment" body=" ~bdeva  could you please check your case on a master build #946? It should work now." created="2019-01-28 09:34:49.0" updateauthor="kithat" updated="2019-01-28 09:34:49.0"/>
+<Action id="56253" issue="36533" author="bdeva" type="comment" body=" ~KitHat  we ran a couple of test cases that were failing earlier. It works now! Thanks for the quick fix. " created="2019-01-28 09:40:28.0" updateauthor="bdeva" updated="2019-01-28 09:40:28.0"/>

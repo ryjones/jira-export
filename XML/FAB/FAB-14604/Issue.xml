@@ -1,0 +1,1 @@
+<Issue id="38388" key="FAB-14604" number="14604" project="10002" reporter="ales" assignee="ales" creator="ales" type="10003" summary="containerLocks use CCID type as map key" priority="3" resolution="10000" status="6" created="2019-03-12 14:25:34.0" updated="2019-03-15 18:58:08.0" resolutiondate="2019-03-15 18:58:08.0" votes="0" watches="1" workflowId="50023"/>

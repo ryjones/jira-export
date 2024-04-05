@@ -1,0 +1,2 @@
+<Action id="24355" issue="15746" author="smithbk" type="comment" body="Moving to v1.1.  It is a place holder to reference a viper issue for which there is a fix but is not yet merged.   We have worked around this issue, so no one will see a problem." created="2017-05-25 16:59:43.0" updateauthor="smithbk" updated="2017-05-25 16:59:43.0"/>
+<Action id="37568" issue="15746" author="mastersingh24" type="comment" body="https://gerrit.hyperledger.org/r/16289" created="2017-12-18 10:16:17.0" updateauthor="mastersingh24" updated="2017-12-18 10:16:17.0"/>

@@ -1,0 +1,2 @@
+<Action id="25531" issue="16940" author="clayton sims" type="comment" body="Add CR reference  https://gerrit.hyperledger.org/r/#/c/9587.     Nah what are the next steps to resolve this" created="2017-06-06 15:54:16.0" updateauthor="clayton sims" updated="2017-06-06 15:54:16.0"/>
+<Action id="25557" issue="16940" author="nnao" type="comment" body=" ~Clayton Sims  I merged the patch of FAB-4255 and this JIRA. I will close as duplicate." created="2017-06-06 17:39:33.0" updateauthor="nnao" updated="2017-06-06 17:39:33.0"/>

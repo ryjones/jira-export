@@ -1,0 +1,2 @@
+<Action id="54246" issue="35562" author="harsha544" type="comment" body=" https://gerrit.hyperledger.org/r/#/c/27888/ " created="2018-12-04 07:36:10.0" updateauthor="harsha544" updated="2018-12-04 07:36:10.0"/>
+<Action id="54363" issue="35562" author="ales" type="comment" body=" ~wlahti : we need to backport to 1.3 as well, correct?" created="2018-12-05 10:51:14.0" updateauthor="ales" updated="2018-12-05 10:51:14.0"/>

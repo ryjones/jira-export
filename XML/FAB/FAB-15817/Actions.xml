@@ -1,0 +1,2 @@
+<Action id="65255" issue="40800" author="sykesm" type="comment" body="After the audit is complete, fix the impacted code to reference the new metadata location or open an issue and link it here." created="2019-11-04 15:31:59.0" updateauthor="sykesm" updated="2019-11-04 15:31:59.0"/>
+<Action id="66128" issue="40800" author="wlahti" type="comment" body=" https://github.com/hyperledger/fabric/pull/363 " created="2019-12-05 16:44:15.0" updateauthor="wlahti" updated="2019-12-05 16:44:15.0"/>

@@ -1,0 +1,1 @@
+<Action id="24404" issue="17037" author="christopherferris" type="comment" body=" ~arvindt7  actually inside the various images we publish, on which this docker-compose file depends, /opt/gopath IS the defined GOPATH, so this usage is correct. " created="2017-05-26 06:18:43.0" updateauthor="christopherferris" updated="2017-05-26 06:18:43.0"/>

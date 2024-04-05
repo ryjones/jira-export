@@ -1,0 +1,1 @@
+<Action id="20721" issue="14538" author="rameshthoomu" type="comment" body="fixed this issue from CI. With this fix, now sdk node build will fail if there are any errors while checking go &quot;linter&quot;" created="2017-02-06 18:51:25.0" updateauthor="rameshthoomu" updated="2017-02-06 18:51:25.0"/>

@@ -1,0 +1,4 @@
+<Action id="59209" issue="39284" author="guillaumecisco" type="comment" body=" https://gerrit.hyperledger.org/r/#/c/30924/ " created="2019-04-12 15:22:39.0" updateauthor="guillaumecisco" updated="2019-04-12 15:22:39.0"/>
+<Action id="59358" issue="39284" author="mastersingh24" type="comment" body="The real question should be why are we actually returning this at all?" created="2019-04-21 10:02:40.0" updateauthor="mastersingh24" updated="2019-04-21 10:02:40.0"/>
+<Action id="59359" issue="39284" author="guillaumecisco" type="comment" created="2019-04-21 10:16:48.0" updateauthor="guillaumecisco" updated="2019-04-21 10:16:48.0"> <body><! CDATA Yes, why? Is there any more information we can handle from a correct chaincode instantiation?  ></body> </Action>
+<Action id="66632" issue="39284" author="sykesm" type="comment" body="Abandoned" created="2020-01-13 15:31:39.0" updateauthor="sykesm" updated="2020-01-13 15:31:39.0"/>

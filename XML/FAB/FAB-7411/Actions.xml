@@ -1,0 +1,2 @@
+<Action id="37001" issue="25104" author="latitiah" type="comment" created="2017-12-12 18:26:41.0" updateauthor="latitiah" updated="2017-12-12 18:26:41.0"> <body><! CDATA Should be capable of performing the equivalent POSTs via request: https://github.com/asararatnakar/dynamic_add_org3/blob/master/scripts/script.sh#L250-L345  ></body> </Action>
+<Action id="43666" issue="25104" author="latitiah" type="comment" body="https://gerrit.hyperledger.org/r/#/c/21059" created="2018-04-30 17:03:56.0" updateauthor="latitiah" updated="2018-04-30 17:03:56.0"/>

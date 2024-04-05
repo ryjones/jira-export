@@ -1,0 +1,1 @@
+<Action id="62871" issue="37617" author="bestbeforetoday" type="comment" body="The scenario test step definitions need to be written in TypeScript since the existing e2e tests implicitly test that the TypeScript definitions are complete and correct." created="2019-08-14 10:48:46.0" updateauthor="bestbeforetoday" updated="2019-08-14 10:48:46.0"/>

@@ -1,0 +1,2 @@
+<Action id="36301" issue="24856" author="baohua" type="comment" created="2017-12-11 15:21:21.0" updateauthor="baohua" updated="2017-12-11 15:21:21.0"> <body><! CDATA Maybe can add some option to enable using existing root cert/key file.     ></body> </Action>
+<Action id="37042" issue="24856" author="mastersingh24" type="comment" body="We&apos;ll just do this for v1.1 as we don&apos;t add new functionality to patch releases" created="2017-12-13 11:13:09.0" updateauthor="mastersingh24" updated="2017-12-13 11:13:09.0"/>

@@ -1,0 +1,1 @@
+<Action id="53018" issue="34610" author="alacambra" type="comment" body="Should then be used a simple integer and use the enum only as a kind of helper (like in jax-rs)?" created="2018-11-05 11:58:44.0" updateauthor="alacambra" updated="2018-11-05 11:58:44.0"/>

@@ -1,0 +1,2 @@
+<Action id="65034" issue="41536" author="rameshthoomu" type="comment" body=" ~mbwhite  Is this still open? If not, could you please close this." created="2019-10-28 13:02:29.0" updateauthor="rameshthoomu" updated="2019-10-28 13:02:29.0"/>
+<Action id="66623" issue="41536" author="mbwhite" type="comment" created="2020-01-13 14:17:29.0" updateauthor="mbwhite" updated="2020-01-13 14:17:51.0"> <body><! CDATA Added as part of this PR... in review         https://github.com/hyperledger/fabric-samples/pull/98     ></body> </Action>

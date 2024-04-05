@@ -1,0 +1,2 @@
+<Action id="43403" issue="29215" author="kithat" type="comment" created="2018-04-25 12:04:56.0" updateauthor="kithat" updated="2018-04-25 12:04:56.0"> <body><! CDATA PR:  https://github.com/hyperledger/indy-sdk/pull/680  PR merged  ></body> </Action>
+<Action id="43407" issue="29215" author="gudkov" type="comment" body="The solution looks ok for me." created="2018-04-25 12:31:13.0" updateauthor="gudkov" updated="2018-04-25 12:31:13.0"/>

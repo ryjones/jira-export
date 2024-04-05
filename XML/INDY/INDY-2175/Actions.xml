@@ -1,0 +1,3 @@
+<Action id="62639" issue="41338" author="esplinr" type="comment" created="2019-08-06 13:54:14.0" updateauthor="esplinr" updated="2019-08-06 13:54:14.0"> <body><! CDATA We  believe that this was caused by the memory profiler that was addressed in INDY-2182.  After Staging Net is updated in August, we expect to see the problem improve.  ></body> </Action>
+<Action id="62895" issue="41338" author="mgbailey" type="comment" body="Following the upgrade, this problem is resolved. Thanks!" created="2019-08-14 14:54:49.0" updateauthor="mgbailey" updated="2019-08-14 14:54:49.0"/>
+<Action id="62906" issue="41338" author="esplinr" type="comment" body="Thank you for confirming." created="2019-08-14 23:10:07.0" updateauthor="esplinr" updated="2019-08-14 23:10:07.0"/>

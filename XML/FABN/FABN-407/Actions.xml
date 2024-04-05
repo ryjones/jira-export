@@ -1,0 +1,2 @@
+<Action id="28904" issue="19432" author="ericmvaughn" type="comment" body=" ~jimthematrix  this looks the same as one I submitted (FAB-5409) and I&apos;d be happy to make the change if you&apos;d like. " created="2017-07-24 15:02:22.0" updateauthor="ericmvaughn" updated="2017-07-24 15:02:22.0"/>
+<Action id="29086" issue="19432" author="ericmvaughn" type="comment" created="2017-07-27 13:34:37.0" updateauthor="ericmvaughn" updated="2017-07-27 13:34:37.0"> <body><! CDATA Fixed by  https://gerrit.hyperledger.org/r/#/c/11919/      ></body> </Action>

@@ -1,0 +1,3 @@
+<Action id="19595" issue="13168" author="cdaughtr" type="comment" body="https://gerrit.hyperledger.org/r/#/c/2073 is merged" created="2016-11-01 18:05:10.0" updateauthor="cdaughtr" updated="2016-11-01 18:05:10.0"/>
+<Action id="19596" issue="13168" author="cdaughtr" type="comment" body="Next, remove files and make changes to link to http://fabric-sdk-node.readthedocs.io/en/latest/." created="2016-11-01 18:11:11.0" updateauthor="cdaughtr" updated="2016-11-01 18:11:11.0"/>
+<Action id="19630" issue="13168" author="cdaughtr" type="comment" body="http://gerrit.hyperledger.org/r/2223 is merged" created="2016-11-03 15:41:59.0" updateauthor="cdaughtr" updated="2016-11-07 15:17:27.0"/>

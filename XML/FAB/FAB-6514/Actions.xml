@@ -1,0 +1,2 @@
+<Action id="31691" issue="21381" author="shimos" type="comment" body="CR: https://gerrit.hyperledger.org/r/c/14287/" created="2017-10-06 22:07:29.0" updateauthor="shimos" updated="2017-10-06 22:07:29.0"/>
+<Action id="33365" issue="21381" author="dongming" type="comment" body="This and FAB-5127 can be used to determine the completion of PTE and its status." created="2017-10-30 14:48:26.0" updateauthor="dongming" updated="2017-10-30 14:48:26.0"/>

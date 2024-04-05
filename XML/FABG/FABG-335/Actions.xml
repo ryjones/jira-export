@@ -1,0 +1,2 @@
+<Action id="47484" issue="32019" author="rameshthoomu" type="comment" body="Not a bug from Build..root permissions are set on the /tmp/fabric-shim directory which Jenkins user is not able to delete." created="2018-07-18 14:01:37.0" updateauthor="rameshthoomu" updated="2018-07-18 14:01:37.0"/>
+<Action id="47485" issue="32019" author="rameshthoomu" type="comment" body="Deleted /tmp/fabric-shim directory from the failed build s390x node" created="2018-07-18 14:02:43.0" updateauthor="rameshthoomu" updated="2018-07-18 14:02:43.0"/>

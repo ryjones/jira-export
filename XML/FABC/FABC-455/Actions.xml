@@ -1,0 +1,5 @@
+<Action id="29748" issue="20084" author="weeds" type="comment" body="probably a day worth of work." created="2017-08-11 18:20:06.0" updateauthor="weeds" updated="2017-08-11 18:20:06.0"/>
+<Action id="30188" issue="20084" author="aambati" type="comment" body="https://gerrit.hyperledger.org/r/c/12775/" created="2017-08-25 01:53:50.0" updateauthor="aambati" updated="2017-08-25 01:53:50.0"/>
+<Action id="30345" issue="20084" author="rickr" type="comment" body="Need some details on what the implications are for the SDKs." created="2017-08-29 22:07:31.0" updateauthor="rickr" updated="2017-08-29 22:07:31.0"/>
+<Action id="30370" issue="20084" author="aambati" type="comment" body="With this change, Identity type is optional. So, my recommendation is that the SDK should also make identity type optional for registering identities. " created="2017-08-30 14:08:14.0" updateauthor="aambati" updated="2017-08-30 14:08:14.0"/>
+<Action id="30513" issue="20084" author="rickr" type="comment" body="I don&apos;t think the JSDK ever really did this check at all. :)" created="2017-09-05 14:42:46.0" updateauthor="rickr" updated="2017-09-05 14:42:46.0"/>

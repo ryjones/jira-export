@@ -1,0 +1,3 @@
+<Action id="23956" issue="16416" author="nnao" type="comment" created="2017-05-17 18:00:15.0" updateauthor="nnao" updated="2017-05-17 18:00:15.0"> <body><! CDATA Those unused vars will be used this patchset. https://gerrit.hyperledger.org/r/#/c/9411/  ></body> </Action>
+<Action id="23997" issue="16416" author="yacovm" type="comment" created="2017-05-18 06:46:30.0" updateauthor="yacovm" updated="2017-05-18 06:46:30.0"> <body><! CDATA  ~nnao  is right  ~ChristopherFerris  Can you +2 while you're at it? :)  ></body> </Action>
+<Action id="23998" issue="16416" author="grapebaba" type="comment" body=" ~nnao   ~ChristopherFerris  right, will close this ticket" created="2017-05-18 06:47:53.0" updateauthor="grapebaba" updated="2017-05-18 06:47:53.0"/>

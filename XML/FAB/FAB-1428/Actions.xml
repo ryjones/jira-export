@@ -1,0 +1,1 @@
+<Action id="23104" issue="13837" author="adnanchoudhury" type="comment" body="After exploring Chef, Currently, the team is pursuing other solutions such as Docker swarm etc. as these are found to be more suitable for the task (Current work is here: FAB-3337)." created="2017-04-27 19:25:28.0" updateauthor="adnanchoudhury" updated="2017-04-27 19:25:28.0"/>

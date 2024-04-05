@@ -1,0 +1,3 @@
+<Action id="42179" issue="28701" author="pschwarz" type="comment" body="Adding the tests to {{bin/run_tests}} should be considered part of the acceptance criteria" created="2018-03-26 20:10:47.0" updateauthor="pschwarz" updated="2018-03-26 20:10:47.0"/>
+<Action id="42229" issue="28701" author="grkvlt" type="comment" body="This fails because the code in my previous commit didn&apos;t deal with empty contract addresses correctly, am updating the relevant code" created="2018-03-27 19:16:22.0" updateauthor="grkvlt" updated="2018-03-27 19:16:22.0"/>
+<Action id="42581" issue="28701" author="grkvlt" type="comment" body="Fixed in https://github.com/hyperledger/sawtooth-seth/pull/22" created="2018-04-05 16:50:47.0" updateauthor="grkvlt" updated="2018-04-05 16:50:47.0"/>

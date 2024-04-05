@@ -1,0 +1,2 @@
+<Action id="22947" issue="15868" author="skarim" type="comment" body="https://gerrit.hyperledger.org/r/#/c/8483/" created="2017-04-24 17:01:24.0" updateauthor="skarim" updated="2017-04-24 17:01:24.0"/>
+<Action id="28692" issue="15868" author="smithbk" type="comment" body="We could add CSR to enrollment to make it more usable but also leave the one outside for backwards compatibility." created="2017-07-19 18:18:40.0" updateauthor="smithbk" updated="2017-07-19 18:18:40.0"/>

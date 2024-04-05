@@ -1,0 +1,2 @@
+<Action id="54140" issue="35513" author="mastersingh24" type="comment" body="The Java SDK only acts as a gRPC client and not a server so the vulnerability is not applicable" created="2018-12-01 20:49:04.0" updateauthor="mastersingh24" updated="2018-12-01 20:49:04.0"/>
+<Action id="54238" issue="35513" author="rickr" type="comment" body="As noted this vulnerable is related to servers. The SDK only uses grpc as a client. " created="2018-12-04 04:13:35.0" updateauthor="rickr" updated="2018-12-04 04:13:35.0"/>

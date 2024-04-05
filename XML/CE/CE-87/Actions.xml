@@ -1,0 +1,3 @@
+<Action id="28459" issue="19256" author="baohua" type="comment" created="2017-07-16 06:29:41.0" updateauthor="baohua" updated="2017-07-16 06:29:41.0"> <body><! CDATA This is because the login module does not add login template for the basic theme.     I will disable the login module until it's finish.  ></body> </Action>
+<Action id="28460" issue="19256" author="baohua" type="comment" body="https://gerrit.hyperledger.org/r/11669" created="2017-07-16 06:32:04.0" updateauthor="baohua" updated="2017-07-16 06:32:04.0"/>
+<Action id="28466" issue="19256" author="indirajith" type="comment" body=" ^cello_make_logs.txt " created="2017-07-16 18:46:50.0" updateauthor="indirajith" updated="2017-07-16 18:46:50.0"/>

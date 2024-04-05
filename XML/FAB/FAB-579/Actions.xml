@@ -1,0 +1,4 @@
+<Action id="19086" issue="12880" author="genggjh" type="comment" body="I run this test in my vagrant env with latest code from github master branch." created="2016-10-02 10:10:00.0" updateauthor="genggjh" updated="2016-10-02 10:10:00.0"/>
+<Action id="19087" issue="12880" author="genggjh" type="comment" body="I got the root case, will fix it." created="2016-10-02 11:43:33.0" updateauthor="genggjh" updated="2016-10-02 11:43:33.0"/>
+<Action id="19088" issue="12880" author="genggjh" type="comment" body="Fix is here: https://gerrit.hyperledger.org/r/#/c/1399/" created="2016-10-02 12:35:34.0" updateauthor="genggjh" updated="2016-10-02 12:35:34.0"/>
+<Action id="19194" issue="12880" author="genggjh" type="comment" body="Code has been merged. So we can close it." created="2016-10-11 06:21:49.0" updateauthor="genggjh" updated="2016-10-11 06:21:49.0"/>

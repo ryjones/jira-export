@@ -1,0 +1,1 @@
+<Action id="35833" issue="20970" author="ozheregelya" type="comment" body="Ticket is not actual anymore because of changing current python CLI to indy-sdk based CLI. Ticket with problems in indy-cli messages is https://jira.hyperledger.org/browse/IS-478." created="2017-12-05 11:43:20.0" updateauthor="ozheregelya" updated="2018-01-03 18:43:46.0"/>

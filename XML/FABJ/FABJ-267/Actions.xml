@@ -1,0 +1,2 @@
+<Action id="43363" issue="29638" author="rickr" type="comment" created="2018-04-24 16:26:47.0" updateauthor="rickr" updated="2018-04-24 16:26:47.0"> <body><! CDATA get a JIRA link to the Fabric epic or task ?   ></body> </Action>
+<Action id="43436" issue="29638" author="denyeart" type="comment" body="I&apos;ve added links to the CLI CRs in the Description as an example of how this is done." created="2018-04-25 18:51:35.0" updateauthor="denyeart" updated="2018-04-25 18:51:35.0"/>

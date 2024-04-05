@@ -1,0 +1,1 @@
+<Action id="63822" issue="36790" author="esplinr" type="comment" body="We have exposed the LibIndy calls that are currently needed by Evernym&apos;s usage of LibVCX. If other people need additional calls, we can reexamine a general solution." created="2019-09-18 13:49:22.0" updateauthor="esplinr" updated="2019-09-18 13:49:22.0"/>

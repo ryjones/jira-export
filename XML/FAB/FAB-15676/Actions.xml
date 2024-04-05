@@ -1,0 +1,2 @@
+<Action id="61069" issue="40500" author="yukkyhira" type="comment" created="2019-06-18 05:41:44.0" updateauthor="yukkyhira" updated="2019-06-18 05:41:44.0"> <body><! CDATA I reproduced this issue.  This shell script is referred from Makefile, so I think it's still inuse. I have checked to run this shell script without any errors.     ></body> </Action>
+<Action id="61107" issue="40500" author="yukkyhira" type="comment" body=" https://gerrit.hyperledger.org/r/c/fabric/+/31973 " created="2019-06-19 03:00:27.0" updateauthor="yukkyhira" updated="2019-06-19 03:00:27.0"/>

@@ -1,0 +1,1 @@
+<Action id="33601" issue="18591" author="n-horiguchi" type="comment" body="It seems that the environment variable CORE_PEER_ENDORSER_ENABLED was not available at v1.0.0-beta timeframe, and removed at commit: 5eeba446 (-FAB-4597-). So this issue is no longer a issue, I think." created="2017-10-31 07:07:40.0" updateauthor="n-horiguchi" updated="2017-10-31 07:07:40.0"/>

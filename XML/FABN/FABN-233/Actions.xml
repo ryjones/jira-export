@@ -1,0 +1,2 @@
+<Action id="42422" issue="29072" author="zhaochy" type="comment" created="2018-04-02 02:29:09.0" updateauthor="zhaochy" updated="2018-04-02 02:29:09.0"> <body><! CDATA  ~harrisob@us.ibm.com  seems we need to change   {code:javascript} if (!cbtable) { 	return; } {code}  to  {code:javascript} if (!cbtable) { 	continue; } {code}   ></body> </Action>
+<Action id="42423" issue="29072" author="zhaochy" type="comment" body="https://gerrit.hyperledger.org/r/20059" created="2018-04-02 02:40:26.0" updateauthor="zhaochy" updated="2018-04-02 02:40:26.0"/>

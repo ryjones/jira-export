@@ -1,0 +1,1 @@
+<Action id="20587" issue="14374" author="christopherferris" type="comment" created="2017-01-27 11:29:29.0" updateauthor="christopherferris" updated="2017-01-27 11:29:29.0"> <body><! CDATA changed this from a bug to an improvement.   I think that this is fine, but we really should be (IMO) architecting for a single UX. Not one for Docker and one for not.  ></body> </Action>

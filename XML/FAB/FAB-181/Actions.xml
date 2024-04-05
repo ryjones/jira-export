@@ -1,0 +1,1 @@
+<Action id="18909" issue="12481" author="muralisr" type="comment" body="The basic lifecycle system chaincode was checked in after fixing the unit test framework to support unit test development for the chaincode." created="2016-09-15 05:59:53.0" updateauthor="muralisr" updated="2016-09-15 05:59:53.0"/>

@@ -1,0 +1,2 @@
+<Action id="21904" issue="13956" author="smithbk" type="comment" body="Yuki, this works for me.  Are you still able to reproduce?   Thanks" created="2017-04-06 01:43:06.0" updateauthor="smithbk" updated="2017-04-06 01:43:06.0"/>
+<Action id="21911" issue="13956" author="yuki-kon" type="comment" body="Smith, this issue is resolved by this patch, https://gerrit.hyperledger.org/r/#/c/4431/ . Thanks." created="2017-04-06 02:21:48.0" updateauthor="yuki-kon" updated="2017-04-06 02:21:48.0"/>

@@ -1,0 +1,4 @@
+<Action id="23146" issue="16086" author="aietcn" type="comment" body="fix committed: https://gerrit.hyperledger.org/r/#/c/8721/" created="2017-04-28 11:46:50.0" updateauthor="aietcn" updated="2017-04-28 11:47:09.0"/>
+<Action id="23920" issue="16086" author="aietcn" type="comment" body="#FAB-3011 should fix this." created="2017-05-17 02:06:09.0" updateauthor="aietcn" updated="2017-05-17 02:06:09.0"/>
+<Action id="25109" issue="16086" author="smithbk" type="comment" body="Tian, please verify if this is fixed and close if it is.   Thanks." created="2017-06-02 13:55:52.0" updateauthor="smithbk" updated="2017-06-02 13:55:52.0"/>
+<Action id="25119" issue="16086" author="aietcn" type="comment" body=" ~smithbk  - verified by the fix commit of #FAB-3011. I&apos;m closing this one." created="2017-06-02 14:50:40.0" updateauthor="aietcn" updated="2017-06-02 14:50:40.0"/>

@@ -1,0 +1,1 @@
+<Action id="58515" issue="38617" author="latitiah" type="comment" created="2019-03-25 15:16:12.0" updateauthor="latitiah" updated="2019-03-25 15:16:12.0"> <body><! CDATA https://gerrit.hyperledger.org/r/30355 - does not include fabric-sdk-node since it is not available for master at this time.  A new CR can be done for the sdk submodule.  ></body> </Action>

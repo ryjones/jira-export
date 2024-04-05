@@ -1,0 +1,2 @@
+<Action id="19367" issue="12969" author="kchristidis" type="comment" body="Can you provide some detail into what this story entails, on a technical level? (I assume it involves a printout of the genesis block in a user-friendly manner.)" created="2016-10-22 03:01:51.0" updateauthor="kchristidis" updated="2016-10-22 03:02:01.0"/>
+<Action id="19381" issue="12969" author="binhn" type="comment" body="I have no ideas what this story will do. I am moving it to FAB-810, the graveyard." created="2016-10-22 15:24:56.0" updateauthor="binhn" updated="2016-10-22 15:24:56.0"/>

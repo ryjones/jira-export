@@ -1,0 +1,1 @@
+<Action id="42410" issue="28958" author="rpjday" type="comment" body="At the same time, a reason for extending the search PATH to include $\{GOPATH}/bin should be provided in the same section." created="2018-03-31 09:27:42.0" updateauthor="rpjday" updated="2018-03-31 09:27:42.0"/>

@@ -1,0 +1,2 @@
+<Action id="30698" issue="20716" author="kchristidis" type="comment" body="I&apos;ll take a stab at it, but for point 2 I&apos;ll need  ~nickgaski &apos;s help." created="2017-09-10 19:58:30.0" updateauthor="kchristidis" updated="2017-09-10 19:58:30.0"/>
+<Action id="30699" issue="20716" author="kchristidis" type="comment" body="Took some trial &amp; error but I think I got it: https://gerrit.hyperledger.org/r/c/13305/" created="2017-09-10 20:46:14.0" updateauthor="kchristidis" updated="2017-09-10 20:46:14.0"/>

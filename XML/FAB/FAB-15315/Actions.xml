@@ -1,0 +1,1 @@
+<Action id="59715" issue="39569" author="dongming" type="comment" created="2019-05-03 17:41:22.0" updateauthor="dongming" updated="2019-05-03 17:41:22.0"> <body><! CDATA add keyPayLoadType  , keyPayLoadMin  , keyPayLoadMax   to control the transaction arguments.  https://gerrit.hyperledger.org/r/#/c/31214/  ></body> </Action>

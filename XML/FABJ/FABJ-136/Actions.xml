@@ -1,0 +1,3 @@
+<Action id="21626" issue="15321" author="rickr" type="comment" created="2017-03-24 13:42:32.0" updateauthor="rickr" updated="2017-03-24 13:42:32.0"> <body><! CDATA Hi Cong  When you submit a patch in gerrit you need to add reviewers.  Look at Reviewers  than click Add.. button Type *c* in the box  select cr-fabric-sdk-java  Thanks for your help!  ></body> </Action>
+<Action id="21628" issue="15321" author="honglei" type="comment" body="OK.  Thanks." created="2017-03-24 14:36:32.0" updateauthor="honglei" updated="2017-03-24 14:36:32.0"/>
+<Action id="21674" issue="15321" author="rickr" type="comment" created="2017-03-28 11:24:41.0" updateauthor="rickr" updated="2017-03-28 11:24:41.0"> <body><! CDATA   ^HFCAClientEnrollIT.java    Fixed up test  ></body> </Action>

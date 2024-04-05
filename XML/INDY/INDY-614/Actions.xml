@@ -1,0 +1,2 @@
+<Action id="37714" issue="19802" author="ashcherbakov" type="comment" body="it&apos;s done for the case when we have a stable load to the pool, but we don&apos;t write signatures every N seconds yet (there is INDY-933 for this)" created="2017-12-21 13:14:03.0" updateauthor="ashcherbakov" updated="2017-12-21 13:14:03.0"/>
+<Action id="56206" issue="19802" author="ashcherbakov" type="comment" body="Duplicates INDY-933" created="2019-01-25 12:34:27.0" updateauthor="ashcherbakov" updated="2019-01-25 12:34:27.0"/>

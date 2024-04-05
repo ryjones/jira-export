@@ -1,0 +1,2 @@
+<Action id="63066" issue="41824" author="scottz" type="comment" body="And ensure we enable the v1.4.3 channel capability in release-1.4 and master/v2.0 testing." created="2019-08-19 17:57:59.0" updateauthor="scottz" updated="2019-08-19 17:57:59.0"/>
+<Action id="63321" issue="41824" author="suryalnvs" type="comment" body="https://gerrit.hyperledger.org/r/#/c/fabric-test/+/32997/" created="2019-08-27 12:47:02.0" updateauthor="suryalnvs" updated="2019-08-27 12:47:02.0"/>

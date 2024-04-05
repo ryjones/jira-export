@@ -1,0 +1,8 @@
+<IssueLink id="25122" linktype="10000" source="32186" destination="32190"/>
+<IssueLink id="25242" linktype="10100" source="32186" destination="32342" sequence="0"/>
+<IssueLink id="25244" linktype="10100" source="32186" destination="32344" sequence="1"/>
+<IssueLink id="25567" linktype="10100" source="32186" destination="32695" sequence="2"/>
+<IssueLink id="25596" linktype="10100" source="32186" destination="32734" sequence="3"/>
+<IssueLink id="25598" linktype="10100" source="32186" destination="32735" sequence="4"/>
+<IssueLink id="25858" linktype="10100" source="32186" destination="32345" sequence="5"/>
+<IssueLink id="27525" linktype="10100" source="32186" destination="35061" sequence="6"/>

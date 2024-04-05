@@ -1,0 +1,1 @@
+<Action id="70021" issue="45910" author="bestbeforetoday" type="comment" body="I think *tsconfig.json* just needs to be included in the *fabric-network/.npmignore* file to avoid it being packaged at publish time." created="2020-08-20 09:21:21.0" updateauthor="bestbeforetoday" updated="2020-08-20 09:21:21.0"/>

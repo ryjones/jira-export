@@ -1,0 +1,1 @@
+<Issue id="29529" key="FAB-9603" number="9603" project="10002" reporter="jyellick" assignee="jyellick" creator="jyellick" type="10004" summary="Dead code paths in chaincode container service" priority="3" resolution="10000" status="6" created="2018-04-19 18:43:48.0" updated="2018-07-20 14:16:22.0" resolutiondate="2018-05-02 17:04:24.0" votes="0" watches="1" workflowId="41893"/>

@@ -1,0 +1,5 @@
+<Label id="30391" issue="38033" label="ChaincodeEvents"/>
+<Label id="30390" issue="38033" label="ChannelEventHub"/>
+<Label id="30393" issue="38033" label="events"/>
+<Label id="30392" issue="38033" label="gRPC"/>
+<Label id="30389" issue="38033" label="sdk-triaged"/>

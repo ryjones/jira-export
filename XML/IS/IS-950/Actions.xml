@@ -1,0 +1,2 @@
+<Action id="54179" issue="33777" author="artemkaaas" type="comment" created="2018-12-03 08:02:52.0" updateauthor="artemkaaas" updated="2018-12-03 08:02:52.0"> <body><! CDATA Done in PR: https://github.com/hyperledger/indy-sdk/pull/1275 and  https://github.com/hyperledger/indy-sdk/pull/1331  ></body> </Action>
+<Action id="54261" issue="33777" author="gudkov" type="comment" body="PRs look ok, merged to master" created="2018-12-04 10:00:00.0" updateauthor="gudkov" updated="2018-12-04 10:00:00.0"/>

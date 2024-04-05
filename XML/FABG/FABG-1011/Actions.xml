@@ -1,0 +1,1 @@
+<Action id="70151" issue="45968" author="JIRAUSER20474" type="comment" created="2020-09-07 03:07:05.0" updateauthor="JIRAUSER20474" updated="2020-09-07 03:07:05.0"> <body><! CDATA Since there is no functions like update anchors,  I had must install chaincode on every peer,  for example,I have 4peers ,so there are 4 cc images ,is there right?  ></body> </Action>

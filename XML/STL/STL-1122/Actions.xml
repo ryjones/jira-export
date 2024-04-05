@@ -1,0 +1,2 @@
+<Action id="42339" issue="28686" author="askmish" type="comment" created="2018-03-29 16:13:21.0" updateauthor="askmish" updated="2018-03-29 16:14:33.0"> <body><! CDATA It should be  "network:tcp://127.0.0.1:{color:red}8800{color}" for validator by default.  The existing default URL is correct.   ></body> </Action>
+<Action id="49467" issue="28686" author="achenette" type="comment" body="Closing this issue as invalid." created="2018-08-28 00:15:22.0" updateauthor="achenette" updated="2018-08-28 00:15:22.0"/>

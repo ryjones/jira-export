@@ -1,0 +1,1 @@
+<Action id="69156" issue="44974" author="mbwhite" type="comment" body="Analysis is spot on, the regenerated JS files from the protobuf changed the API from what was expected previously." created="2020-05-05 16:02:18.0" updateauthor="mbwhite" updated="2020-05-05 16:02:18.0"/>

@@ -1,0 +1,1 @@
+<Action id="38938" issue="26976" author="armujahid" type="comment" created="2018-01-21 09:19:29.0" updateauthor="armujahid" updated="2018-01-21 09:19:29.0"> <body><! CDATA Fixed in https://gerrit.hyperledger.org/r/#/c/17027/  FAB-7836 Fix "No identity type provided" Error  ></body> </Action>

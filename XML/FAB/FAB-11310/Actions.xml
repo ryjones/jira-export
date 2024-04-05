@@ -1,0 +1,2 @@
+<Action id="48317" issue="32205" author="senthil1" type="comment" body="https://gerrit.hyperledger.org/r/c/24769/3" created="2018-08-02 20:19:46.0" updateauthor="senthil1" updated="2018-08-02 20:19:46.0"/>
+<Action id="48631" issue="32205" author="sstone1" type="comment" created="2018-08-09 13:49:46.0" updateauthor="sstone1" updated="2018-08-09 13:49:46.0"> <body><! CDATA  ~Senthil1  are you also planning on updating the Node.js chaincode APIs for this epic? I only see changes to the Go chaincode APIs in the linked CR.   ~andrew-coleman  FYI  ></body> </Action>

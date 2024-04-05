@@ -1,0 +1,1 @@
+<Action id="56745" issue="37444" author="ozheregelya" type="comment" created="2019-02-07 13:54:14.0" updateauthor="ozheregelya" updated="2019-02-07 13:54:14.0"> <body><! CDATA *Note for QA:*  Need to double check expected results for acceptance batches for roles and update ones for nodes adding after fix of this issue.  ></body> </Action>

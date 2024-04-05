@@ -1,0 +1,2 @@
+<Action id="41380" issue="22953" author="dongming" type="comment" body="https://gerrit.hyperledger.org/r/#/c/18889/" created="2018-03-08 18:05:08.0" updateauthor="dongming" updated="2018-03-08 18:05:08.0"/>
+<Action id="53878" issue="22953" author="scottz" type="comment" body="This testcase was modified in 1.4 to run a scenario: its invokes followed by 3 sets of queries. It replaces 8192 in the daily test suite, because this one includes indexing, all else being equal." created="2018-11-28 00:01:58.0" updateauthor="scottz" updated="2018-11-28 00:05:22.0"/>

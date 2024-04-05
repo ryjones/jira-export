@@ -1,0 +1,2 @@
+<Action id="39246" issue="27102" author="wlahti" type="comment" body="Looks like we need a fallback value for when the timewindow is not set to avoid unintended registration failures like this. " created="2018-01-29 13:14:02.0" updateauthor="wlahti" updated="2018-01-29 13:14:02.0"/>
+<Action id="39316" issue="27102" author="wlahti" type="comment" body="https://gerrit.hyperledger.org/r/#/c/17299/" created="2018-01-29 18:48:37.0" updateauthor="wlahti" updated="2018-01-29 18:48:37.0"/>

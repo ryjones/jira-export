@@ -1,0 +1,1 @@
+<Action id="64247" issue="42519" author="baohua" type="comment" created="2019-10-01 21:07:55.0" updateauthor="baohua" updated="2019-10-01 21:07:55.0"> <body><! CDATA Maybe it would be better to allow specifying the build/start command in configuration by users.  Hard-coded is not that flexible.  ></body> </Action>

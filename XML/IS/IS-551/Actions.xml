@@ -1,0 +1,2 @@
+<Action id="39611" issue="27361" author="seanbohan_sovrin" type="comment" body=" ~gudkov  - at what layer should this be handled? SDK or above?" created="2018-02-02 21:49:52.0" updateauthor="seanbohan_sovrin" updated="2018-02-02 21:49:52.0"/>
+<Action id="40966" issue="27361" author="krw910" type="comment" body="This is handled at the ledger level and that is ok." created="2018-02-27 21:48:30.0" updateauthor="krw910" updated="2018-02-27 21:48:30.0"/>

@@ -1,0 +1,2 @@
+<Action id="19767" issue="13298" author="corecode" type="comment" body="Turns out this uncovered a set of new view processing issues that need to be addressed first." created="2016-11-16 08:58:16.0" updateauthor="corecode" updated="2016-11-16 08:58:16.0"/>
+<Action id="19768" issue="13298" author="corecode" type="comment" body="Addressed in https://gerrit.hyperledger.org/r/#/c/2511" created="2016-11-16 11:20:46.0" updateauthor="corecode" updated="2016-11-16 11:21:37.0"/>

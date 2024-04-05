@@ -1,0 +1,1 @@
+<Action id="63188" issue="41937" author="suryalnvs" type="comment" body="With the merge of  https://gerrit.hyperledger.org/r/#/c/fabric/+/33074/  and adding orderer role to WRITERS policy solved this issue." created="2019-08-22 14:31:30.0" updateauthor="suryalnvs" updated="2019-08-22 14:31:30.0"/>

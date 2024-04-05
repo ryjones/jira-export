@@ -1,0 +1,1 @@
+<Action id="31929" issue="21348" author="rameshthoomu" type="comment" body="patch has been submitted and merged. Now production CI z build nodes are running on go1.9 and go1.7.5. We switch between these versions based on the request." created="2017-10-09 13:53:14.0" updateauthor="rameshthoomu" updated="2017-10-09 13:53:14.0"/>

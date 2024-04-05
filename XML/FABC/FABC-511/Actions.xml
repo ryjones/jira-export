@@ -1,0 +1,2 @@
+<Action id="21185" issue="15059" author="mastersingh24" type="comment" created="2017-02-26 21:24:18.0" updateauthor="mastersingh24" updated="2017-02-26 21:24:18.0"> <body><! CDATA It's possible to do this using a method similar to cfssl's multiroot ca program.   ~jonathan   ~smithbk  What do you think?  ></body> </Action>
+<Action id="21721" issue="15059" author="mastersingh24" type="comment" body="duplicate of https://jira.hyperledger.org/browse/FAB-2896" created="2017-03-29 14:23:13.0" updateauthor="mastersingh24" updated="2017-03-29 14:23:13.0"/>

@@ -1,0 +1,1 @@
+<Action id="37902" issue="18355" author="krw910" type="comment" body="We drop below consensus at 2f. So 3f+1 with 10 nodes means we can tolerate 3 failures keeping 7 nodes functioning. At 2f we only have 6 nodes functioning putting us below the consensus protocol." created="2018-01-02 18:54:27.0" updateauthor="krw910" updated="2018-01-02 18:54:27.0"/>

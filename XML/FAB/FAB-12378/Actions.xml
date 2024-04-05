@@ -1,0 +1,3 @@
+<Action id="60804" issue="34539" author="jyellick" type="comment" body="This is probably a bit of a duplicate of overall hygiene items, but leaving open for now." created="2019-06-10 01:42:02.0" updateauthor="jyellick" updated="2019-06-10 01:42:02.0"/>
+<Action id="62861" issue="34539" author="kchristidis" type="comment" body=" https://gerrit.hyperledger.org/r/c/fabric/+/32784 " created="2019-08-13 22:05:25.0" updateauthor="kchristidis" updated="2019-08-13 22:05:25.0"/>
+<Action id="62862" issue="34539" author="kchristidis" type="comment" body=" ~jyellick : Let&apos;s close if this is covered elsewhere." created="2019-08-13 22:06:02.0" updateauthor="kchristidis" updated="2019-08-13 22:06:02.0"/>

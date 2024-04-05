@@ -1,0 +1,1 @@
+<Action id="40299" issue="27319" author="pschwarz" type="comment" body="This feature should impact the issue caused by internal errors being sent into a death spiral (see STL-1063)." created="2018-02-16 16:51:08.0" updateauthor="pschwarz" updated="2018-02-16 16:51:08.0"/>

@@ -1,0 +1,1 @@
+<Action id="32804" issue="20999" author="rameshthoomu" type="comment" body="Patch has been created and merged to install go1.9 and go1.7.5 in CI environments. using ci.properties file, we are able to invoke go1.9 and go1.7.5 based on the branch." created="2017-10-19 15:50:40.0" updateauthor="rameshthoomu" updated="2017-10-19 15:50:40.0"/>

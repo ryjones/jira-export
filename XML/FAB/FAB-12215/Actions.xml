@@ -1,0 +1,2 @@
+<Action id="51363" issue="34183" author="yuki-kon" type="comment" created="2018-09-28 17:43:51.0" updateauthor="yuki-kon" updated="2018-09-28 17:43:51.0"> <body><! CDATA CR for doc:  https://gerrit.hyperledger.org/r/#/c/26675/   CR for sample:  https://gerrit.hyperledger.org/r/#/c/26674/   ></body> </Action>
+<Action id="51448" issue="34183" author="denyeart" type="comment" body="Note that master is targeting v1.4.0 now." created="2018-10-01 16:32:22.0" updateauthor="denyeart" updated="2018-10-01 16:32:22.0"/>

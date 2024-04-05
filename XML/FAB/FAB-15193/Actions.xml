@@ -1,0 +1,2 @@
+<Action id="59255" issue="39331" author="rickr" type="comment" body="gerrit cr https://gerrit.hyperledger.org/r/#/c/30947/" created="2019-04-15 19:25:21.0" updateauthor="rickr" updated="2019-04-15 19:25:21.0"/>
+<Action id="60788" issue="39331" author="denyeart" type="comment" created="2019-06-09 08:22:46.0" updateauthor="denyeart" updated="2019-06-09 08:22:46.0"> <body><! CDATA Looks like this is done:   https://gerrit.hyperledger.org/r/#/q/FAB-15193   Re-open if more work is required.  ></body> </Action>

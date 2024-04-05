@@ -1,0 +1,2 @@
+<Action id="52466" issue="34782" author="yuki-kon" type="comment" body="CR is here. https://gerrit.hyperledger.org/r/#/c/27098/" created="2018-10-19 16:19:47.0" updateauthor="yuki-kon" updated="2018-10-19 16:19:47.0"/>
+<Action id="58918" issue="34782" author="yuki-kon" type="comment" body="This CR was abandoned because balance-transfer was removed by FAB-14784." created="2019-04-03 18:42:47.0" updateauthor="yuki-kon" updated="2019-04-03 18:42:47.0"/>

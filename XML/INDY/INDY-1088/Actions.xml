@@ -1,0 +1,2 @@
+<Action id="39050" issue="26760" author="ashcherbakov" type="comment" body="I suggest to put the documentation right into the doc folder in indy-node." created="2018-01-24 07:14:24.0" updateauthor="ashcherbakov" updated="2018-01-24 07:14:24.0"/>
+<Action id="39163" issue="26760" author="ashcherbakov" type="comment" body="Done in https://github.com/hyperledger/indy-node/pull/537" created="2018-01-26 12:58:24.0" updateauthor="ashcherbakov" updated="2018-01-26 12:58:24.0"/>

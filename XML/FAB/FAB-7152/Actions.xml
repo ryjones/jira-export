@@ -1,0 +1,1 @@
+<Action id="37111" issue="24532" author="latitiah" type="comment" body="Changes included a rename of the TLS certificate for the orderer user from server.crt to client.crt." created="2017-12-14 19:20:37.0" updateauthor="latitiah" updated="2017-12-14 19:20:37.0"/>

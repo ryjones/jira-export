@@ -1,0 +1,1 @@
+<Issue id="44458" key="IS-1509" number="1509" project="10401" reporter="sergey.minaev" creator="sergey.minaev" type="10002" summary="Use URSA instead of sodiumoxide" description="Will help with Indy-VDR dependency problems." priority="3" status="10405" created="2020-02-28 13:57:37.0" updated="2020-03-25 19:08:30.0" votes="0" watches="2" workflowId="58366" archived="N"/>

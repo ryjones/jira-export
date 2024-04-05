@@ -1,0 +1,1 @@
+<Issue id="24547" key="FABG-650" number="650" project="10610" reporter="aleksandar.likic" creator="aleksandar.likic" type="10003" summary="Improve config test coverage" description="github.com/hyperledger/fabric-sdk-go/pkg/config" priority="3" status="10000" created="2017-11-28 22:25:11.0" updated="2018-07-19 13:29:53.0" votes="0" watches="1" workflowId="34678" security="10001"/>

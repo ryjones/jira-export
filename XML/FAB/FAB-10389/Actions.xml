@@ -1,0 +1,1 @@
+<Action id="45994" issue="30636" author="rameshthoomu" type="comment" body="nightly jobs are available in CI to publish stable images from x86_64 and s390x platforms and trigger the downstream jobs from x86_64 nightly job after successfully executed." created="2018-06-15 17:27:03.0" updateauthor="rameshthoomu" updated="2018-06-15 17:27:03.0"/>

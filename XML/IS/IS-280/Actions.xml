@@ -1,0 +1,3 @@
+<Action id="29677" issue="20091" author="srottem" type="comment" body="Implemented.  See PR here: https://github.com/hyperledger/indy-sdk/pull/180." created="2017-08-11 08:46:59.0" updateauthor="srottem" updated="2017-08-11 08:46:59.0"/>
+<Action id="29904" issue="20091" author="artemkaaas" type="comment" created="2017-08-16 13:44:37.0" updateauthor="artemkaaas" updated="2017-08-16 13:44:37.0"> <body><! CDATA Please update this PR: https://github.com/hyperledger/indy-sdk/pull/180 according to changes in https://github.com/hyperledger/indy-sdk/pull/186  ></body> </Action>
+<Action id="29942" issue="20091" author="srottem" type="comment" body="Done.  Please review." created="2017-08-17 08:05:07.0" updateauthor="srottem" updated="2017-08-17 08:05:07.0"/>

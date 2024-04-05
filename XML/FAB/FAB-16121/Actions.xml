@@ -1,0 +1,1 @@
+<Action id="63995" issue="41475" author="jyellick" type="comment" body="I don&apos;t understand this bug?  This is simply showing an example of how you can chain configtxlator commands together using a series of UNIX pipes (pipelining)." created="2019-09-23 20:37:02.0" updateauthor="jyellick" updated="2019-09-23 20:37:02.0"/>

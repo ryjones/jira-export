@@ -1,0 +1,2 @@
+<Action id="62206" issue="36791" author="vijaypunugubati" type="comment" body="This test case from chaincodes.feature was incorporated in the interoperability test, and no modifications suggested in behave frame. Closing this bug." created="2019-07-28 17:55:16.0" updateauthor="vijaypunugubati" updated="2019-07-28 17:55:16.0"/>
+<Action id="62207" issue="36791" author="vijaypunugubati" type="comment" body="The test case was incorporated in the interoperability test." created="2019-07-28 17:56:03.0" updateauthor="vijaypunugubati" updated="2019-07-28 17:56:03.0"/>

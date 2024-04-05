@@ -1,0 +1,1 @@
+<Action id="32993" issue="22752" author="latitiah" type="comment" body="This fails because the code is trying to open a directory structure with the &quot;/&quot;s in the name." created="2017-10-23 16:11:03.0" updateauthor="latitiah" updated="2017-10-23 16:11:03.0"/>

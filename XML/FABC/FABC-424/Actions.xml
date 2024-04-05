@@ -1,0 +1,2 @@
+<Action id="48271" issue="30651" author="clayton sims" type="comment" body="Is this required for v1.3 or does it wait for 1.4  ~smithbk   ~denyeart " created="2018-08-01 22:23:17.0" updateauthor="clayton sims" updated="2018-08-01 22:23:17.0"/>
+<Action id="49439" issue="30651" author="dubovitskaya" type="comment" body="This belongs to the Revocation epic - changed it (and therefore to 1.4 since revocation is deferred)" created="2018-08-27 16:28:11.0" updateauthor="dubovitskaya" updated="2018-08-27 16:28:11.0"/>

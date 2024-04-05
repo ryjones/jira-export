@@ -1,0 +1,2 @@
+<Action id="24655" issue="16542" author="harrijk" type="comment" body="If it&apos;s okay, I&apos;ll continue to reference this JIRA for additional CRs that relate to improving code coverage for the PKCS11 package." created="2017-05-30 14:29:50.0" updateauthor="harrijk" updated="2017-05-30 14:29:50.0"/>
+<Action id="24792" issue="16542" author="christopherferris" type="comment" body="This has received the needed votes and may be merged." created="2017-05-31 15:56:40.0" updateauthor="christopherferris" updated="2017-05-31 15:56:40.0"/>

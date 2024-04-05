@@ -1,0 +1,2 @@
+<Action id="69292" issue="45005" author="sstone1" type="comment" created="2020-05-19 23:10:25.0" updateauthor="sstone1" updated="2020-05-19 23:10:25.0"> <body><! CDATA master:  https://github.com/hyperledger/fabric/pull/1233   release-2.1:  https://github.com/hyperledger/fabric/pull/1295   ></body> </Action>
+<Action id="69305" issue="45005" author="caod" type="comment" body="does this need to be ported to 2.0 as well?" created="2020-05-20 16:20:11.0" updateauthor="caod" updated="2020-05-20 16:20:11.0"/>

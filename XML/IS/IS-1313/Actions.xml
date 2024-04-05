@@ -1,0 +1,1 @@
+<Action id="61937" issue="41013" author="vladimirwork" type="comment" created="2019-07-18 09:35:04.0" updateauthor="vladimirwork" updated="2019-07-18 09:35:04.0"> <body><! CDATA Build Info: libindy 1.10.0~1176 libsovtoken 0.10.0~74  Actual Results: Token operations work as expected.  ></body> </Action>

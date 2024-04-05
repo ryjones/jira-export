@@ -1,0 +1,2 @@
+<Action id="39712" issue="27440" author="sallymilu" type="comment" created="2018-02-06 13:47:10.0" updateauthor="sallymilu" updated="2018-02-06 13:47:10.0"> <body><! CDATA There are three places to add:  /dockerhub  /dockerhub/v0.8.0-alpha  /dockerhub/v0.8.0-beta  ></body> </Action>
+<Action id="44807" issue="27440" author="baohua" type="comment" body="https://gerrit.hyperledger.org/r/#/c/17661/" created="2018-05-22 01:30:43.0" updateauthor="baohua" updated="2018-05-22 01:30:43.0"/>

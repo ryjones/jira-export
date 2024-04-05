@@ -1,0 +1,2 @@
+<Action id="40887" issue="27260" author="scottz" type="comment" body="A workaround exists - to execute the installation steps on command line instead of &quot;make pre-setup&quot;. Moving to lower priority." created="2018-02-27 00:53:38.0" updateauthor="scottz" updated="2018-02-27 00:53:38.0"/>
+<Action id="62264" issue="27260" author="mastersingh24" type="comment" body="been open over a year with no activity ... time to cleanup" created="2019-07-30 02:40:41.0" updateauthor="mastersingh24" updated="2019-07-30 02:40:41.0"/>

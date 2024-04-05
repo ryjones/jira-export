@@ -1,0 +1,1 @@
+<Action id="64358" issue="29374" author="esplinr" type="comment" body="Our tests show a performance decrease consistent with the algorithm:  O(log(n))" created="2019-10-08 12:13:07.0" updateauthor="esplinr" updated="2019-10-08 12:13:07.0"/>

@@ -1,0 +1,2 @@
+<Action id="27550" issue="18761" author="krw910" type="comment" body="SOV-1075" created="2017-06-28 18:27:54.0" updateauthor="krw910" updated="2017-06-28 18:27:54.0"/>
+<Action id="64348" issue="18761" author="esplinr" type="comment" body="Node depends on good time synchronization, but it is currently treated as something outside of the system itself." created="2019-10-08 11:52:34.0" updateauthor="esplinr" updated="2019-10-08 11:52:34.0"/>

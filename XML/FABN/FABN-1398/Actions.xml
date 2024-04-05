@@ -1,0 +1,1 @@
+<Action id="65252" issue="42615" author="heatherp" type="comment" body="I think we&apos;ll get this for free when we remove fabric-client, as all the tests will need refactoring, so closing this for now" created="2019-11-04 13:49:20.0" updateauthor="heatherp" updated="2019-11-04 13:49:20.0"/>

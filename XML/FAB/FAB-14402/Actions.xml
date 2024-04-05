@@ -1,0 +1,2 @@
+<Action id="57732" issue="38063" author="firas.qutishat" type="comment" body=" ~mastersingh24  How can I enable DOCKER_DYNAMIC_LINK" created="2019-02-28 14:54:29.0" updateauthor="firas.qutishat" updated="2019-02-28 14:54:29.0"/>
+<Action id="58224" issue="38063" author="mastersingh24" type="comment" body=" ~firas.qutishat   All of the images should now be built with dynamic linking enabled (i.e. we stopped building static binaries)." created="2019-03-16 07:13:21.0" updateauthor="mastersingh24" updated="2019-03-16 07:14:49.0"/>

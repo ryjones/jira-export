@@ -1,0 +1,2 @@
+<Action id="20409" issue="14157" author="wayoon" type="comment" body="  ^core_vp1.yaml    ^core_vp0.yaml    ^membersrvc.yaml  " created="2017-01-18 15:34:33.0" updateauthor="wayoon" updated="2017-01-18 15:34:33.0"/>
+<Action id="21741" issue="14157" author="mastersingh24" type="comment" created="2017-03-29 19:44:16.0" updateauthor="mastersingh24" updated="2017-03-29 19:44:16.0"> <body><! CDATA I'm going to close this as WON'T FIX. The only real way to get TLS working with v0.6 is to use the same certificate for all nodes and/or us a wildcard certificate  ></body> </Action>

@@ -1,0 +1,1 @@
+<Action id="53456" issue="35359" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/c/27544/ starts the metrics providers in the orderer. The statsd implementation starts the go runtime collector and prometheus&apos;s client does that by default." created="2018-11-14 19:18:15.0" updateauthor="sykesm" updated="2018-11-14 19:18:15.0"/>

@@ -1,0 +1,2 @@
+<Action id="55748" issue="36775" author="mbwhite" type="comment" body="If an annotation is used, the default is submit; so when we can&apos;t use an annotation - it would be sense to follow so make the default true. " created="2019-01-17 09:25:52.0" updateauthor="mbwhite" updated="2019-01-17 09:25:52.0"/>
+<Action id="55749" issue="36775" author="mbwhite" type="comment" body=" ~awjh-ibm  want to take a run at this?  Might be worth 1.4.1 and 2.0" created="2019-01-17 09:26:11.0" updateauthor="mbwhite" updated="2019-01-17 09:26:11.0"/>

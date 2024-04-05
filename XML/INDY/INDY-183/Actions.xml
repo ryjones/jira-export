@@ -1,0 +1,3 @@
+<Action id="26206" issue="17654" author="stevetolman" type="comment" body="Don&apos;t spend more than 1 hour on this ticket." created="2017-06-13 22:19:16.0" updateauthor="stevetolman" updated="2017-06-13 22:19:16.0"/>
+<Action id="26254" issue="17654" author="andrey.goncharov" type="comment" body="Already done https://docs.google.com/document/d/11dpCw1bu_9FGj8MTbfqrM9PvwAPmWx2slYOCdzEnids" created="2017-06-14 09:35:42.0" updateauthor="andrey.goncharov" updated="2017-06-14 09:35:42.0"/>
+<Action id="26542" issue="17654" author="ozheregelya" type="comment" body="The instruction was verified for upgrade from 0.3.138 to 0.3.140 version. All mistakes are corrected." created="2017-06-16 13:48:25.0" updateauthor="ozheregelya" updated="2017-06-16 13:48:25.0"/>

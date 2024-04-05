@@ -1,0 +1,2 @@
+<Action id="22248" issue="14067" author="elli-androulaki" type="comment" body="Why does fabric need to know if a peer leverages P11 BCCSP? Isn&apos;t this a per-peer local config option? Is this for v1?" created="2017-04-12 18:20:37.0" updateauthor="elli-androulaki" updated="2017-04-12 18:20:56.0"/>
+<Action id="22559" issue="14067" author="vpaprots" type="comment" body="This was done in https://gerrit.hyperledger.org/r/#/c/5897/, closing" created="2017-04-17 06:24:09.0" updateauthor="vpaprots" updated="2017-04-17 06:24:09.0"/>

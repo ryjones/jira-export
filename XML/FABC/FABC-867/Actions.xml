@@ -1,0 +1,1 @@
+<Action id="63208" issue="41947" author="btl5037" type="comment" body="Fabric CA installs goimports, the new version of goimports changes the format of the import statement block. We need to introduce a model like fabric has that strips out generated files" created="2019-08-22 20:49:54.0" updateauthor="btl5037" updated="2019-08-23 02:29:49.0"/>

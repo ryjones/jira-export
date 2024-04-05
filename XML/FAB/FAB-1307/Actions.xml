@@ -1,0 +1,2 @@
+<Action id="20026" issue="13714" author="harrijk" type="comment" body="Duplicate of FAB-1307.  Had issues with JIRA." created="2016-12-08 15:43:15.0" updateauthor="harrijk" updated="2016-12-08 15:53:25.0"/>
+<Action id="22146" issue="13714" author="denyeart" type="comment" body="I believe this has been fixed.  Please re-open if you still see the issue." created="2017-04-11 21:18:56.0" updateauthor="denyeart" updated="2017-04-11 21:18:56.0"/>

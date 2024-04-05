@@ -1,0 +1,14 @@
+<IssueLink id="15119" linktype="10000" source="19504" destination="15721"/>
+<IssueLink id="15235" linktype="10100" source="19504" destination="19686" sequence="0"/>
+<IssueLink id="15236" linktype="10100" source="19504" destination="19687" sequence="1"/>
+<IssueLink id="15289" linktype="10100" source="19504" destination="19927" sequence="5"/>
+<IssueLink id="16252" linktype="10003" source="19504" destination="20082"/>
+<IssueLink id="16426" linktype="10100" source="19504" destination="21239" sequence="6"/>
+<IssueLink id="16427" linktype="10100" source="19504" destination="21240" sequence="7"/>
+<IssueLink id="16428" linktype="10100" source="19504" destination="21241" sequence="8"/>
+<IssueLink id="16484" linktype="10000" source="19504" destination="21301"/>
+<IssueLink id="16512" linktype="10000" source="19504" destination="20932"/>
+<IssueLink id="16917" linktype="10003" source="19504" destination="21724"/>
+<IssueLink id="17006" linktype="10100" source="19504" destination="21825" sequence="2"/>
+<IssueLink id="17455" linktype="10100" source="19504" destination="22470" sequence="3"/>
+<IssueLink id="17456" linktype="10100" source="19504" destination="22429" sequence="4"/>

@@ -1,0 +1,4 @@
+<Action id="22062" issue="15584" author="smithbk" type="comment" body="See http://gerrit.hyperledger.org/r/7911" created="2017-04-11 00:10:24.0" updateauthor="smithbk" updated="2017-04-11 00:10:24.0"/>
+<Action id="22064" issue="15584" author="smithbk" type="comment" body="posted to wrong jira item ... deleting this comment" created="2017-04-11 01:19:26.0" updateauthor="smithbk" updated="2017-04-14 14:29:05.0"/>
+<Action id="22066" issue="15584" author="baohua" type="comment" body="So why would the `git clone` issue affect this?" created="2017-04-11 03:26:18.0" updateauthor="baohua" updated="2017-04-11 03:26:18.0"/>
+<Action id="22453" issue="15584" author="smithbk" type="comment" body="Ooppss ... the 2nd comment should have been posted to another jira item, not this one.  I updated the comment." created="2017-04-14 14:27:56.0" updateauthor="smithbk" updated="2017-04-14 14:29:44.0"/>

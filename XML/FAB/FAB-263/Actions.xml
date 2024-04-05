@@ -1,0 +1,2 @@
+<Action id="18709" issue="12564" author="rameshthoomu" type="comment" body="Patch has been created in gerrit to fix this issue. https://gerrit.hyperledger.org/r/#/c/673/" created="2016-08-29 13:19:43.0" updateauthor="rameshthoomu" updated="2016-08-29 13:19:43.0"/>
+<Action id="18750" issue="12564" author="rameshthoomu" type="comment" body="https://gerrit.hyperledger.org/r/#/c/673/ has been merged and node-sdk-unit-tests are now part of Build process." created="2016-09-02 01:58:44.0" updateauthor="rameshthoomu" updated="2016-09-02 01:58:44.0"/>

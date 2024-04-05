@@ -1,0 +1,2 @@
+<Action id="47668" issue="32103" author="rberg2" type="comment" created="2018-07-23 18:26:39.0" updateauthor="rberg2" updated="2018-07-23 18:26:39.0"> <body><! CDATA I have the JJB files up for review here:  https://gerrit.hyperledger.org/r/#/c/24671/   I was having trouble getting the uploads to nexus working but otherwise these are almost identical to the JJB files we are using.  ></body> </Action>
+<Action id="67437" issue="32103" author="sykesm" type="comment" body="Stale" created="2020-01-22 22:32:32.0" updateauthor="sykesm" updated="2020-01-22 22:32:32.0"/>

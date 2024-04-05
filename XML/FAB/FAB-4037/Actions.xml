@@ -1,0 +1,2 @@
+<Action id="24205" issue="16898" author="aambati" type="comment" body=" ~wlahti  i saw this error in https://jenkins.hyperledger.org/job/fabric-verify-x86_64/12029/consoleFull" created="2017-05-23 20:30:02.0" updateauthor="aambati" updated="2017-05-23 20:30:02.0"/>
+<Action id="24211" issue="16898" author="wlahti" type="comment" body="Have you pulled the latest today and rebased your CR? " created="2017-05-23 21:25:35.0" updateauthor="wlahti" updated="2017-05-23 21:25:35.0"/>

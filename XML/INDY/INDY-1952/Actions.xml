@@ -1,0 +1,1 @@
+<Action id="55785" issue="36867" author="vladimirwork" type="comment" body="It&apos;s ok since during second test run we have 6 nodes in the pool (f=1) and 2 of them are unavailable." created="2019-01-18 06:44:14.0" updateauthor="vladimirwork" updated="2019-01-18 06:44:14.0"/>

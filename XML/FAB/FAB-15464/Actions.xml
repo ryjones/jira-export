@@ -1,0 +1,3 @@
+<Action id="64042" issue="39854" author="jyellick" type="comment" body=" ~denyeart  any update? " created="2019-09-24 14:57:06.0" updateauthor="jyellick" updated="2019-09-24 14:57:06.0"/>
+<Action id="70680" issue="39854" author="manish-sethi" type="comment" body=" ~wenjian  - can you take a look at this." created="2020-11-16 18:07:31.0" updateauthor="manish-sethi" updated="2020-11-16 18:07:31.0"/>
+<Action id="70737" issue="39854" author="wenjian" type="comment" body="Close it since we haven&apos;t seen test flakes related to couchDB containers for a while. Also couchdb version has been upgraded, so the problem may have been fixed. " created="2020-11-18 18:39:20.0" updateauthor="wenjian" updated="2020-11-18 18:39:20.0"/>

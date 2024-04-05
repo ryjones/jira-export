@@ -1,0 +1,20 @@
+<IssueLink id="12306" linktype="10100" source="15565" destination="15567" sequence="0"/>
+<IssueLink id="12314" linktype="10100" source="15565" destination="15592" sequence="1"/>
+<IssueLink id="12526" linktype="10100" source="15565" destination="15933" sequence="2"/>
+<IssueLink id="12582" linktype="10100" source="15565" destination="16026" sequence="3"/>
+<IssueLink id="15480" linktype="10100" source="15565" destination="20172" sequence="4"/>
+<IssueLink id="15481" linktype="10100" source="15565" destination="20173" sequence="5"/>
+<IssueLink id="15482" linktype="10100" source="15565" destination="20174" sequence="6"/>
+<IssueLink id="15483" linktype="10100" source="15565" destination="20176" sequence="7"/>
+<IssueLink id="15484" linktype="10100" source="15565" destination="20177" sequence="8"/>
+<IssueLink id="15485" linktype="10100" source="15565" destination="20178" sequence="9"/>
+<IssueLink id="15486" linktype="10100" source="15565" destination="20179" sequence="10"/>
+<IssueLink id="15487" linktype="10100" source="15565" destination="20181" sequence="11"/>
+<IssueLink id="16056" linktype="10100" source="15565" destination="20675" sequence="12"/>
+<IssueLink id="16105" linktype="10100" source="15565" destination="20750" sequence="13"/>
+<IssueLink id="16106" linktype="10100" source="15565" destination="20751" sequence="14"/>
+<IssueLink id="16107" linktype="10100" source="15565" destination="20752" sequence="15"/>
+<IssueLink id="16232" linktype="10003" source="15565" destination="20291"/>
+<IssueLink id="16421" linktype="10100" source="15565" destination="21224" sequence="16"/>
+<IssueLink id="17467" linktype="10100" source="15565" destination="22486" sequence="17"/>
+<IssueLink id="17839" linktype="10100" source="15565" destination="22832" sequence="18"/>

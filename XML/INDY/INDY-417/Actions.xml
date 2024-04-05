@@ -1,0 +1,2 @@
+<Action id="28419" issue="19241" author="mark.hadley" type="comment" body="Kelly and I spoke, the behavior may be in the steps of the user, not in the code." created="2017-07-14 16:28:41.0" updateauthor="mark.hadley" updated="2017-07-14 16:28:41.0"/>
+<Action id="28423" issue="19241" author="krw910" type="comment" body="I had to update the steps on setting up the agents. Once I got the correct steps the agents started up just fine." created="2017-07-14 17:40:49.0" updateauthor="krw910" updated="2017-07-14 17:40:49.0"/>

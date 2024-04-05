@@ -1,0 +1,1 @@
+<Action id="55191" issue="36434" author="akshay.sood" type="comment" created="2018-12-31 07:15:52.0" updateauthor="akshay.sood" updated="2018-12-31 07:16:05.0"> <body><! CDATA When I build binary with  {code:java} GO_TAGS=pkcs11 make fabric-ca-server {code}  the binary works perfectly fine.   ></body> </Action>

@@ -1,0 +1,2 @@
+<Action id="57961" issue="29875" author="sstone1" type="comment" body=" ~alacambra-db  is this something you can look at?" created="2019-03-07 10:14:59.0" updateauthor="sstone1" updated="2019-03-07 10:14:59.0"/>
+<Action id="64712" issue="29875" author="heatherp" type="comment" body="Not available in our chaincodes, would need consistency across chaincodes, we&apos;re not doing this for now so closing" created="2019-10-15 13:55:38.0" updateauthor="heatherp" updated="2019-10-15 13:55:38.0"/>

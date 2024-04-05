@@ -1,0 +1,1 @@
+<Issue id="35342" key="FAB-12854" number="12854" project="10002" reporter="sykesm" assignee="sykesm" creator="sykesm" type="10003" summary="DRY up orderer and peer code related to operations" priority="3" resolution="10000" status="6" created="2018-11-14 14:12:21.0" updated="2018-11-28 14:18:15.0" resolutiondate="2018-11-16 15:52:17.0" votes="0" watches="1" workflowId="46806"/>

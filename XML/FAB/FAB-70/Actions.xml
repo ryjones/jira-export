@@ -1,0 +1,1 @@
+<Action id="19337" issue="12369" author="smithbk" type="comment" body="Raul, the COP server which is the new membersrvc will remove duplicate info.  It uses CFSSL JSON config file format, plus additional info.  See FAB-361 for the overall epic for this work." created="2016-10-21 13:09:39.0" updateauthor="smithbk" updated="2016-10-21 13:09:39.0"/>

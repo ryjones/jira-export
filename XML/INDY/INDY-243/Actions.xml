@@ -1,0 +1,1 @@
+<Action id="65485" issue="18140" author="esplinr" type="comment" body="This looks like a good idea, but the problem it is addressing is very unlikely and has a clear recovery deleting the local database. So we don&apos;t plan on implementing this improvement in the near future." created="2019-11-12 15:25:29.0" updateauthor="esplinr" updated="2019-11-12 15:25:29.0"/>

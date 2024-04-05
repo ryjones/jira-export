@@ -1,0 +1,1 @@
+<Action id="51995" issue="19760" author="toktar" type="comment" created="2018-10-10 12:31:14.0" updateauthor="toktar" updated="2018-10-10 12:31:14.0"> <body><! CDATA Gracefully solve of problem was done in the scope of the task INDY-1148 .  Now there are not possible to create several nodes with the same alias.  ></body> </Action>

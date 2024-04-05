@@ -1,0 +1,1 @@
+<Action id="47809" issue="31724" author="gudkov" type="comment" body=" ~burdettadam  We already have corresponded function in libindy https://github.com/hyperledger/indy-sdk/blob/3f303d8531644db362c2762f1c4997be0c1de540/libindy/src/api/pool.rs#L163" created="2018-07-25 14:43:13.0" updateauthor="gudkov" updated="2018-07-25 14:43:13.0"/>

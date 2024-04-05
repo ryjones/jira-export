@@ -1,0 +1,2 @@
+<Action id="21410" issue="15282" author="mastersingh24" type="comment" body="https://gerrit.hyperledger.org/r/#/c/7075/" created="2017-03-09 14:16:33.0" updateauthor="mastersingh24" updated="2017-03-09 14:16:33.0"/>
+<Action id="21435" issue="15282" author="binhn" type="comment" body="Let&apos;s hold #2 (mutual tls) after beta. We want to get the simple path going first." created="2017-03-10 16:04:34.0" updateauthor="binhn" updated="2017-03-10 16:04:34.0"/>

@@ -1,0 +1,2 @@
+<Action id="21895" issue="14896" author="smithbk" type="comment" created="2017-04-06 00:44:02.0" updateauthor="smithbk" updated="2017-04-06 00:44:02.0"> <body><! CDATA See http://hyperledger-fabric.readthedocs.io/en/latest/Setup/ca-setup.html We will be updating this with more info, but is this the type of info you're looking for?  ></body> </Action>
+<Action id="22232" issue="14896" author="christopherferris" type="comment" body=" ~smithbk  LGTM, yes" created="2017-04-12 17:59:44.0" updateauthor="christopherferris" updated="2017-04-12 17:59:44.0"/>

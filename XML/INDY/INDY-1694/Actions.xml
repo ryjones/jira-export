@@ -1,0 +1,2 @@
+<Action id="50285" issue="33618" author="danielhardman" type="comment" body="I do not agree with the POA in INDY-1563, so I am against moving forward with implementation until the design is clarified." created="2018-09-11 16:18:59.0" updateauthor="danielhardman" updated="2018-09-11 16:18:59.0"/>
+<Action id="57145" issue="33618" author="esplinr" type="comment" body="We will be tracking this work against the use case in INDY-1999, which will result in a different organization of tickets." created="2019-02-18 14:52:06.0" updateauthor="esplinr" updated="2019-02-18 14:52:06.0"/>

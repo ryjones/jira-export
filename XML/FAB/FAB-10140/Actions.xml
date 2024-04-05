@@ -1,0 +1,1 @@
+<Action id="45648" issue="30305" author="scottz" type="comment" body="All v1.2 tests will effectively use the default pluggable endorsement policy and test the fabric innerworkings. We do not need a unique test just for this purpose." created="2018-06-07 13:59:10.0" updateauthor="scottz" updated="2018-06-07 13:59:10.0"/>

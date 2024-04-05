@@ -1,0 +1,1 @@
+<Action id="41957" issue="12543" author="joe-alewine" type="comment" body="Closing this as done given that we say Docker supports Azure deployment here: http://hyperledger-fabric.readthedocs.io/en/release-1.1/dev-setup/devenv.html?highlight=azure" created="2018-03-22 22:31:03.0" updateauthor="joe-alewine" updated="2018-03-22 22:31:03.0"/>

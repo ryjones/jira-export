@@ -1,0 +1,2 @@
+<Action id="53201" issue="35210" author="angelo.decaro" type="comment" body="https://gerrit.hyperledger.org/r/#/c/27460/" created="2018-11-08 10:23:32.0" updateauthor="angelo.decaro" updated="2018-11-08 10:23:32.0"/>
+<Action id="53497" issue="35210" author="mbwhite" type="comment" created="2018-11-15 15:47:03.0" updateauthor="mbwhite" updated="2018-11-15 15:47:03.0"> <body><! CDATA Please can you review https://jira.hyperledger.org/browse/FAB-12885   Node chaincode builds are broken.  ></body> </Action>

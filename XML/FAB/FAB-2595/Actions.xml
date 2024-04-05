@@ -1,0 +1,2 @@
+<Action id="21274" issue="15162" author="binhn" type="comment" body="We need to change the CLI in the docker file to pass in the orderer:port" created="2017-03-02 14:18:49.0" updateauthor="binhn" updated="2017-03-02 14:18:49.0"/>
+<Action id="21275" issue="15162" author="bmos299" type="comment" body="By adding the *-o ordering_host:port* to every cli command addresses this problem. " created="2017-03-02 14:20:00.0" updateauthor="bmos299" updated="2017-03-02 14:20:12.0"/>

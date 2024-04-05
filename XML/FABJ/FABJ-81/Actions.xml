@@ -1,0 +1,2 @@
+<Action id="39307" issue="27200" author="rickr" type="comment" created="2018-01-29 15:32:25.0" updateauthor="rickr" updated="2018-01-29 15:32:25.0"> <body><! CDATA Not a bug – Fabric CA changed broke sdk  Being addressed FAB-7383  ></body> </Action>
+<Action id="39308" issue="27200" author="rickr" type="comment" body="Fabric change broke sdk" created="2018-01-29 15:34:31.0" updateauthor="rickr" updated="2018-01-29 15:34:31.0"/>

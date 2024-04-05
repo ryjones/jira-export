@@ -1,0 +1,1 @@
+<Action id="64918" issue="38487" author="toktar" type="comment" created="2019-10-24 09:37:58.0" updateauthor="toktar" updated="2019-10-24 09:37:58.0"> <body><! CDATA Fixed in scope of https://jira.hyperledger.org/browse/INDY-2247  Remove test_primary_selection_after_demoted_primary_node_promotion because it duplicates test_promotion_before_view_change  ></body> </Action>

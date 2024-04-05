@@ -1,0 +1,2 @@
+<Action id="22665" issue="12745" author="binhn" type="comment" body="The description says RocksDB. Should that be DB since we support pluggable now?" created="2017-04-18 22:10:55.0" updateauthor="binhn" updated="2017-04-18 22:10:55.0"/>
+<Action id="41435" issue="12745" author="denyeart" type="comment" body="Covered by system tests." created="2018-03-11 13:35:01.0" updateauthor="denyeart" updated="2018-03-11 13:35:01.0"/>

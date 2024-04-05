@@ -1,0 +1,1 @@
+<Action id="23151" issue="13451" author="suryalnvs" type="comment" created="2017-04-28 13:16:00.0" updateauthor="suryalnvs" updated="2017-04-28 13:16:00.0"> <body><! CDATA made the following changes:  1) configuration changes in pom.xml  2) changes in EndtoEndIT.java 3) changes to orderer unit tests  provided changes to Rick.  ></body> </Action>

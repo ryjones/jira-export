@@ -1,0 +1,2 @@
+<Action id="18724" issue="12576" author="rameshthoomu" type="comment" body="Chris, I will setup a CI for block chain-explorer but could you please tell us what we have to verify in blockchain-explorer? I don&apos;t see any code base in this repo." created="2016-08-31 00:03:28.0" updateauthor="rameshthoomu" updated="2016-08-31 00:03:28.0"/>
+<Action id="22217" issue="12576" author="christopherferris" type="comment" body="This really belongs in the other project" created="2017-04-12 16:29:20.0" updateauthor="christopherferris" updated="2017-04-12 16:29:20.0"/>

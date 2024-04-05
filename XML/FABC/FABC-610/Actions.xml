@@ -1,0 +1,4 @@
+<Action id="19449" issue="13114" author="smithbk" type="comment" created="2016-10-25 10:52:09.0" updateauthor="smithbk" updated="2016-10-25 10:52:09.0"> <body><! CDATA This is complete except for implementing the CreateToken and VerifyToken functions in cop/util/util.go Pho is doing this.  ></body> </Action>
+<Action id="19452" issue="13114" author="ple8lf" type="comment" body="It is almost done. Thanks" created="2016-10-25 13:16:56.0" updateauthor="ple8lf" updated="2016-10-25 13:16:56.0"/>
+<Action id="19454" issue="13114" author="ple8lf" type="comment" body="Both CreateToken and VerifyToken are now complete for the ECDSA case." created="2016-10-25 13:32:32.0" updateauthor="ple8lf" updated="2016-10-25 13:36:37.0"/>
+<Action id="19473" issue="13114" author="ple8lf" type="comment" body="CreateToken and VerifyToken are done for both ECDSA and RSA. I will check in the code today." created="2016-10-25 17:47:48.0" updateauthor="ple8lf" updated="2016-10-25 17:47:48.0"/>

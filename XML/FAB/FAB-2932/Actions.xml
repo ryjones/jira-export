@@ -1,0 +1,1 @@
+<Action id="22500" issue="15511" author="muralisr" type="comment" body="This was fixed in https://gerrit.hyperledger.org/r/#/c/7879/. Specifically, _TestTamperChaincode_ is a good trail to ccprovider.CCPackage.ValidateCC (via GetCDSFromLCCC in chaincode framework)." created="2017-04-15 03:40:53.0" updateauthor="muralisr" updated="2017-04-15 03:40:53.0"/>

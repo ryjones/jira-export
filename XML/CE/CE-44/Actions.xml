@@ -1,0 +1,2 @@
+<Action id="23831" issue="16678" author="baohua" type="comment" body="Thanks, we also need some installation/usage documentation on this monitoring dashboard." created="2017-05-13 01:30:49.0" updateauthor="baohua" updated="2017-05-13 01:30:49.0"/>
+<Action id="23856" issue="16678" author="lixucheng" type="comment" body="The patch set url is: http://gerrit.hyperledger.org/r/9351" created="2017-05-15 03:47:09.0" updateauthor="lixucheng" updated="2017-05-15 03:47:09.0"/>

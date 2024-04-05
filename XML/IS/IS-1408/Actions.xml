@@ -1,0 +1,2 @@
+<Action id="66158" issue="42812" author="mgbailey" type="comment" created="2019-12-06 15:55:40.0" updateauthor="mgbailey" updated="2019-12-06 15:55:40.0"> <body><! CDATA 2 customers have requested this     ></body> </Action>
+<Action id="66751" issue="42812" author="esplinr" type="comment" body="The customer requests were solved with IS-1421. We will hold this issue until we understand real world use cases for it." created="2020-01-17 14:24:32.0" updateauthor="esplinr" updated="2020-01-17 14:24:32.0"/>

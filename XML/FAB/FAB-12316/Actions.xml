@@ -1,0 +1,3 @@
+<Action id="52175" issue="34449" author="dongming" type="comment" body="https://gerrit.hyperledger.org/r/#/c/26954/" created="2018-10-12 16:23:42.0" updateauthor="dongming" updated="2018-10-12 16:23:42.0"/>
+<Action id="52606" issue="34449" author="scottz" type="comment" body="cherry pick to 1.3 (from master): https://gerrit.hyperledger.org/r/#/c/27177/" created="2018-10-24 19:09:43.0" updateauthor="scottz" updated="2018-10-24 19:09:43.0"/>
+<Action id="52608" issue="34449" author="scottz" type="comment" body="final cleanup (master, ok for all branches):  https://gerrit.hyperledger.org/r/#/c/27179/" created="2018-10-24 20:45:47.0" updateauthor="scottz" updated="2018-10-24 20:45:47.0"/>

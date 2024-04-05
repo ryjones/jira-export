@@ -1,0 +1,1 @@
+<Action id="63579" issue="40719" author="mhbauer" type="comment" created="2019-09-05 19:03:20.0" updateauthor="mhbauer" updated="2019-09-05 19:03:20.0"> <body><! CDATA Is this a "get coverage up" type task or are there tests to take from some other location to be adapted to this pkg?  Is this specific to core/peer pkg, or are sub directory pkgs included?  ></body> </Action>

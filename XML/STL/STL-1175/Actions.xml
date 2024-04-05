@@ -1,0 +1,2 @@
+<Action id="59368" issue="29543" author="dan.middleton@intel.com" type="comment" body=" ~kodonnel  fyi on missing functionality in Java SDK." created="2019-04-22 12:54:38.0" updateauthor="dan.middleton@intel.com" updated="2019-04-22 12:54:38.0"/>
+<Action id="59428" issue="29543" author="kodonnel" type="comment" created="2019-04-23 19:35:50.0" updateauthor="kodonnel" updated="2019-04-23 19:35:50.0"> <body><! CDATA Should be resolved in  https://github.com/hyperledger/sawtooth-sdk-java/pull/22      ></body> </Action>

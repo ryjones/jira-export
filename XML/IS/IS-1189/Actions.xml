@@ -1,0 +1,2 @@
+<Action id="66663" issue="37926" author="artemkaaas" type="comment" created="2020-01-14 07:52:05.0" updateauthor="artemkaaas" updated="2020-01-14 07:52:05.0"> <body><! CDATA Changes: added support for `basicmessage` message family. PR:  https://github.com/hyperledger/indy-sdk/pull/2024   ></body> </Action>
+<Action id="66795" issue="37926" author="sergey.minaev" type="comment" body="Available in master 1433 and covered by integration tests" created="2020-01-20 13:10:14.0" updateauthor="sergey.minaev" updated="2020-01-20 13:10:14.0"/>

@@ -1,0 +1,3 @@
+<Action id="53198" issue="35148" author="ashcherbakov" type="comment" body="Duplicates INDY-209." created="2018-11-08 10:01:27.0" updateauthor="ashcherbakov" updated="2018-11-08 10:01:27.0"/>
+<Action id="53265" issue="35148" author="ashcherbakov" type="comment" body="Done in the scope of INDY-209" created="2018-11-09 13:32:52.0" updateauthor="ashcherbakov" updated="2018-11-09 13:32:52.0"/>
+<Action id="54355" issue="35148" author="ashcherbakov" type="comment" created="2018-12-05 07:30:23.0" updateauthor="ashcherbakov" updated="2018-12-05 07:30:23.0"> <body><! CDATA  ~mgbailey   ~TechWritingWhiz  Since the init script now outputs the keys in base58 format, we need to update the Guide.  ></body> </Action>

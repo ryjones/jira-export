@@ -1,0 +1,2 @@
+<Action id="55703" issue="35449" author="derashe" type="comment" body="PR: https://github.com/hyperledger/indy-node/pull/1129" created="2019-01-16 08:09:14.0" updateauthor="derashe" updated="2019-01-16 08:09:14.0"/>
+<Action id="55706" issue="35449" author="derashe" type="comment" created="2019-01-16 08:12:52.0" updateauthor="derashe" updated="2019-01-22 07:28:51.0"> <body><! CDATA We need to define what can we do with node_upgrade txn. Cause it has separated specific logic.  We can try to implement handling through hanlder or leave it as is.  ></body> </Action>

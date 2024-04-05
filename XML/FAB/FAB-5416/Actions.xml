@@ -1,0 +1,2 @@
+<Action id="28950" issue="19412" author="jyellick" type="comment" body="This is not a critical bug fix, I do not see this as a candidate for v1.0.1, moving to v1.1." created="2017-07-25 02:38:52.0" updateauthor="jyellick" updated="2017-07-25 02:38:52.0"/>
+<Action id="28952" issue="19412" author="jyellick" type="comment" body="In review via: https://gerrit.hyperledger.org/r/#/c/11891/" created="2017-07-25 02:44:30.0" updateauthor="jyellick" updated="2017-07-25 02:44:30.0"/>

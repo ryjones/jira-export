@@ -1,0 +1,1 @@
+<Action id="25744" issue="15646" author="smithbk" type="comment" body="The default expiration times were changed to 15, 5, and 1 year for root, intermediate, and end entity certificates, respectively." created="2017-06-08 14:43:37.0" updateauthor="smithbk" updated="2017-06-08 14:43:37.0"/>

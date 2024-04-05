@@ -1,0 +1,1 @@
+<Issue id="20204" key="FABG-513" number="513" project="10610" reporter="divyank" assignee="divyank" creator="divyank" type="10001" summary="Run tests with Go race detector by default" priority="3" resolution="10000" status="6" created="2017-08-15 20:03:03.0" updated="2018-07-20 19:17:34.0" resolutiondate="2017-08-15 20:28:44.0" votes="0" watches="1" workflowId="33312"/>

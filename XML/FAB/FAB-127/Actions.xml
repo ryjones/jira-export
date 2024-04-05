@@ -1,0 +1,1 @@
+<Action id="18799" issue="12426" author="cdaughtr" type="comment" body="I was not able to reproduce this issue on current gerrit master, so it appears to be a Fabric v0.5 specific problem.  Need to setup a Fabric v0.5 dev env." created="2016-09-06 21:12:37.0" updateauthor="cdaughtr" updated="2016-09-06 21:12:37.0"/>

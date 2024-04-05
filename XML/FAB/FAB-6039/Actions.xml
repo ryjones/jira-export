@@ -1,0 +1,2 @@
+<Action id="43099" issue="20619" author="christopherferris" type="comment" body="Unclear to me that this is still relevant. Suggest that unless there are specific issues, we close this.  ~odowdaibm   ~pandrejko   ~simsc " created="2018-04-18 12:37:09.0" updateauthor="christopherferris" updated="2018-04-18 12:37:09.0"/>
+<Action id="43172" issue="20619" author="pandrejko" type="comment" body="I&apos;m ok with closing this one - We still have FAB-9253 in the list as well." created="2018-04-19 19:47:27.0" updateauthor="pandrejko" updated="2018-04-19 19:47:27.0"/>

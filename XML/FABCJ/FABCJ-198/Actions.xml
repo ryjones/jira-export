@@ -1,0 +1,2 @@
+<Action id="56978" issue="37655" author="rickr" type="comment" body="This is not a Java SDK issue.  Nothing has been committed recently.  The error is on the java chaincode side please move this JIRA to that project." created="2019-02-13 15:19:49.0" updateauthor="rickr" updated="2019-02-13 15:19:49.0"/>
+<Action id="57040" issue="37655" author="vijaypunugubati" type="comment" body="Works as expected, previously build was a flake." created="2019-02-14 14:18:00.0" updateauthor="vijaypunugubati" updated="2019-02-14 14:18:00.0"/>

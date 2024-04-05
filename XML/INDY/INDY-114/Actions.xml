@@ -1,0 +1,2 @@
+<Action id="37031" issue="17295" author="ashcherbakov" type="comment" body="This is now `LimitedLengthStringField`, but it needs to be a valid DID one." created="2017-12-13 08:28:09.0" updateauthor="ashcherbakov" updated="2017-12-13 08:28:09.0"/>
+<Action id="37035" issue="17295" author="ashcherbakov" type="comment" body="PR: https://github.com/hyperledger/indy-node/pull/489" created="2017-12-13 08:38:46.0" updateauthor="ashcherbakov" updated="2017-12-13 08:38:46.0"/>

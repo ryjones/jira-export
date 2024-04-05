@@ -1,0 +1,2 @@
+<Action id="47748" issue="32170" author="evelynevergreene" type="comment" body="Disregard" created="2018-07-24 20:13:45.0" updateauthor="evelynevergreene" updated="2018-07-24 20:13:45.0"/>
+<Action id="47754" issue="32170" author="krw910" type="comment" body="Set back to Invalid since it is not fixed in INDY and the ticket for this issue is in IS-837 for the INDY-CLI. I did not want to give the impression this was fixed." created="2018-07-24 22:01:43.0" updateauthor="krw910" updated="2018-07-24 22:01:43.0"/>

@@ -1,0 +1,2 @@
+<Action id="18858" issue="12658" author="christopherferris" type="comment" created="2016-09-12 16:54:59.0" updateauthor="christopherferris" updated="2016-09-12 16:54:59.0"> <body><! CDATA https://gerrit.hyperledger.org/r/#/admin/projects/fabric-sdk-node   ~ryjones  is this mirrored?  ></body> </Action>
+<Action id="18861" issue="12658" author="ryjones" type="comment" body=" ~ChristopherFerris  mirroring is running https://github.com/hyperledger/fabric-sdk-node" created="2016-09-12 17:15:35.0" updateauthor="ryjones" updated="2016-09-12 17:22:40.0"/>

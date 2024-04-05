@@ -1,0 +1,2 @@
+<Action id="71165" issue="41393" author="btl5037" type="comment" body="As part of backlog grooming closing issue as stale. Issue can be reopened in the future." created="2021-01-10 17:10:12.0" updateauthor="btl5037" updated="2021-01-10 17:10:12.0"/>
+<Action id="72442" issue="41393" author="JIRAUSER21353" type="comment" body="I am trying to perform peer rollback in k8 environment, it is not working for me ,  i followed the steps  from FAB-16143 " created="2022-03-17 06:35:17.0" updateauthor="JIRAUSER21353" updated="2022-03-17 06:35:54.0"/>

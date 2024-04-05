@@ -1,0 +1,1 @@
+<Action id="31297" issue="19513" author="bryanhuang" type="comment" body="upgrade process is similar with https://jira.hyperledger.org/browse/FAB-3783, install new chaincode and send an upgrade proposal. " created="2017-09-30 04:29:22.0" updateauthor="bryanhuang" updated="2017-09-30 04:29:22.0"/>

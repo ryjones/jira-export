@@ -1,0 +1,2 @@
+<Action id="48758" issue="32763" author="yacovm" type="comment" body=" ~sykesm  not sure if this qualifies as a Hygiene item...  but FAB-11122 (remove the event hub) and FAB-11445 (Chaincode image should be built at time of install) were also labeled Hygiene so I figured this can also be qualified as such." created="2018-08-11 12:56:46.0" updateauthor="yacovm" updated="2018-08-11 12:56:46.0"/>
+<Action id="67383" issue="32763" author="sykesm" type="comment" body="Stale" created="2020-01-22 22:32:23.0" updateauthor="sykesm" updated="2020-01-22 22:32:23.0"/>

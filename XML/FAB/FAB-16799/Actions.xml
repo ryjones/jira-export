@@ -1,0 +1,2 @@
+<Action id="64513" issue="42694" author="rameshthoomu" type="comment" body="Initial work has been created here and tested successfully on forked fabric-test repository. https://github.com/rameshthoomu/fabric-test/tree/master/ci" created="2019-10-09 21:09:04.0" updateauthor="rameshthoomu" updated="2019-10-09 21:09:04.0"/>
+<Action id="64658" issue="42694" author="rameshthoomu" type="comment" body="https://gerrit.hyperledger.org/r/#/c/fabric-test/+/33942/" created="2019-10-11 13:40:21.0" updateauthor="rameshthoomu" updated="2019-10-11 13:40:21.0"/>

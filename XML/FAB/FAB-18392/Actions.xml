@@ -1,0 +1,3 @@
+<Action id="71096" issue="46472" author="pandrejko" type="comment" body="{color:#1d1c1d}This is the stack overflow question. {color} https://stackoverflow.com/questions/65590092/chaincode-docker-container-not-created-on-hyperledger-fabric-2-2 " created="2021-01-08 15:59:34.0" updateauthor="pandrejko" updated="2021-01-08 15:59:34.0"/>
+<Action id="71240" issue="46472" author="pandrejko" type="comment" body="PR: https://github.com/hyperledger/fabric/pull/2262" created="2021-01-12 16:43:55.0" updateauthor="pandrejko" updated="2021-01-12 16:43:55.0"/>
+<Action id="71270" issue="46472" author="pandrejko" type="comment" body="Merged" created="2021-01-13 13:29:22.0" updateauthor="pandrejko" updated="2021-01-13 13:29:22.0"/>

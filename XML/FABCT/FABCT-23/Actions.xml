@@ -1,0 +1,2 @@
+<Action id="45853" issue="31006" author="greg.haskins" type="comment" body="https://gerrit.hyperledger.org/r/#/c/23001/" created="2018-06-12 21:03:20.0" updateauthor="greg.haskins" updated="2018-06-12 21:03:20.0"/>
+<Action id="46956" issue="31006" author="sheehan" type="comment" created="2018-07-05 14:15:54.0" updateauthor="sheehan" updated="2018-07-05 14:15:54.0"> <body><! CDATA I think this made it into 1.2.   https://github.com/hyperledger/fabric-chaintool/commit/8e997d5195bfdcfbacbada14732521d1175dcf91    ~greg.haskins  can you confirm?  ></body> </Action>

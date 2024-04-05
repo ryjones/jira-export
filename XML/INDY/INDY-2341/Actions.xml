@@ -1,0 +1,2 @@
+<Action id="68444" issue="44176" author="ashcherbakov" type="comment" body="PR: https://github.com/hyperledger/indy-node/pull/1591" created="2020-03-19 08:18:37.0" updateauthor="ashcherbakov" updated="2020-03-19 08:18:37.0"/>
+<Action id="68459" issue="44176" author="ashcherbakov" type="comment" created="2020-03-20 12:10:04.0" updateauthor="ashcherbakov" updated="2020-03-20 12:10:04.0"> <body><! CDATA Integration and unit tests are written. A full validation will be done after the correspondiong changes are supported by indy-sdk side.  ></body> </Action>

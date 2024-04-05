@@ -1,0 +1,1 @@
+<Action id="20368" issue="13483" author="ales" type="comment" body="I&apos;ll mark this as done - all methods exported by core/common/validation/msgvalidation.go are tested by the 2 test files in the same package that exercise good and bad path" created="2017-01-16 14:34:24.0" updateauthor="ales" updated="2017-01-16 14:34:24.0"/>

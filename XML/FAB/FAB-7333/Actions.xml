@@ -1,0 +1,3 @@
+<Action id="35890" issue="24803" author="scottz" type="comment" body="Compare results with FAB-7246" created="2017-12-05 23:31:59.0" updateauthor="scottz" updated="2017-12-05 23:31:59.0"/>
+<Action id="39155" issue="24803" author="scottz" type="comment" body="https://gerrit.hyperledger.org/r/#/c/17159/" created="2018-01-26 03:13:02.0" updateauthor="scottz" updated="2018-01-26 03:13:02.0"/>
+<Action id="49663" issue="24803" author="scottz" type="comment" body="Test is done. Just need to add this to daily CI tests, runPteDailyTestSuite.sh" created="2018-08-30 23:30:02.0" updateauthor="scottz" updated="2018-08-30 23:30:02.0"/>

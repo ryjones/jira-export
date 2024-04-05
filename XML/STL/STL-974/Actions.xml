@@ -1,0 +1,2 @@
+<Action id="38203" issue="26602" author="pschwarz" type="comment" body="See STL-770 for additional information" created="2018-01-04 22:16:26.0" updateauthor="pschwarz" updated="2018-01-04 22:16:26.0"/>
+<Action id="40543" issue="26602" author="rberg2" type="comment" body="I have this up @  https://github.com/rberg2/sawtooth-go-sdk  for testing. I was able to go get sawtooth-intkey-go that imports from my repo. " created="2018-02-21 21:53:33.0" updateauthor="rberg2" updated="2018-02-21 21:53:33.0"/>

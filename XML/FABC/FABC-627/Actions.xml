@@ -1,0 +1,2 @@
+<Action id="18582" issue="12474" author="ashutosh_kumar" type="comment" body="Reopened to accommodate Chris&apos;s comments." created="2016-08-19 14:04:01.0" updateauthor="ashutosh_kumar" updated="2016-08-19 14:04:01.0"/>
+<Action id="18655" issue="12474" author="ashutosh_kumar" type="comment" body="Design completed from MVP perspective and hence closing it. Will reopen , if we need to provide openId connect support." created="2016-08-23 18:16:38.0" updateauthor="ashutosh_kumar" updated="2016-08-23 18:16:38.0"/>

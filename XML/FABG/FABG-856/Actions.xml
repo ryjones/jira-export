@@ -1,0 +1,1 @@
+<Action id="59500" issue="39361" author="vieiramanoel" type="comment" body="To not rely on fabric-ca api interfaces, we should extend sdk-go ap https://github.com/hyperledger/fabric-sdk-go/blob/master/pkg/msp/api/api.go to suport CSRinfo" created="2019-04-25 14:55:43.0" updateauthor="vieiramanoel" updated="2019-04-25 14:55:43.0"/>

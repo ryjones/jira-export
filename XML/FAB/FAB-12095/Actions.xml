@@ -1,0 +1,1 @@
+<Action id="51378" issue="33982" author="sambhavdutt" type="comment" body="The fabric verify smoke tests have been passing from several builds without running into the chaincode error." created="2018-09-28 20:33:52.0" updateauthor="sambhavdutt" updated="2018-09-28 20:33:52.0"/>

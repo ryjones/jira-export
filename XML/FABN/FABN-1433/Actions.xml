@@ -1,0 +1,2 @@
+<Action id="66288" issue="43682" author="heatherp" type="comment" body="This was done after beta.1, but not done after beta.2, and it&apos;s consequence is that snapshot builds are failing on master stream" created="2019-12-17 14:51:05.0" updateauthor="heatherp" updated="2019-12-17 14:51:05.0"/>
+<Action id="66289" issue="43682" author="heatherp" type="comment" body="https://github.com/hyperledger/fabric-sdk-node/pull/76" created="2019-12-17 15:01:53.0" updateauthor="heatherp" updated="2019-12-17 15:01:53.0"/>

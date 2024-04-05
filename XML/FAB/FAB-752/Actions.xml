@@ -1,0 +1,2 @@
+<Action id="19283" issue="13057" author="gennadyl" type="comment" body="http://gerrit.hyperledger.org/r/1857" created="2016-10-19 14:19:52.0" updateauthor="gennadyl" updated="2016-10-19 14:19:52.0"/>
+<Action id="21850" issue="13057" author="christopherferris" type="comment" body="The change request above was abandoned.  ~gennadyl  what is the status of this? Should we simply close as WONTFIX?" created="2017-04-03 19:29:31.0" updateauthor="christopherferris" updated="2017-04-03 19:29:31.0"/>

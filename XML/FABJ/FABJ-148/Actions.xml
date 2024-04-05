@@ -1,0 +1,4 @@
+<Action id="23817" issue="16697" author="christopherferris" type="comment" body="https://gerrit.hyperledger.org/r/#/c/9295/" created="2017-05-12 15:54:40.0" updateauthor="christopherferris" updated="2017-05-12 15:54:40.0"/>
+<Action id="23853" issue="16697" author="rickr" type="comment" body=" ~ChristopherFerris  Can you mark this as done ?" created="2017-05-14 20:53:45.0" updateauthor="rickr" updated="2017-05-14 20:53:45.0"/>
+<Action id="23899" issue="16697" author="christopherferris" type="comment" body=" ~rickr  you couldn&apos;t? " created="2017-05-16 12:12:57.0" updateauthor="christopherferris" updated="2017-05-16 12:12:57.0"/>
+<Action id="23901" issue="16697" author="rickr" type="comment" body="What&apos;s the procedure for this ?  I thought it was the  reporter of the JIRA that they were satisfied/verified that the work was done." created="2017-05-16 12:34:17.0" updateauthor="rickr" updated="2017-05-16 12:34:17.0"/>

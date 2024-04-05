@@ -1,0 +1,2 @@
+<Action id="70172" issue="46012" author="lesleyannj" type="comment" body="FABN-1632 highlights possible solutions for an issue similar but for the orderer." created="2020-09-09 14:59:32.0" updateauthor="lesleyannj" updated="2020-09-09 14:59:32.0"/>
+<Action id="70314" issue="46012" author="harrisob@us.ibm.com" type="comment" body="a connection issue was not handled during the assignment of one of the peers that will be used for discovery" created="2020-09-11 17:59:13.0" updateauthor="harrisob@us.ibm.com" updated="2020-09-11 17:59:13.0"/>

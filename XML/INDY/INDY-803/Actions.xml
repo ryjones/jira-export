@@ -1,0 +1,2 @@
+<Action id="51935" issue="20589" author="derashe" type="comment" body=" ~ashcherbakov  This case seems to be true, even two nodes can write txns and give a reply. But probably this is expected, because f = 0 and we don&apos;t guarantee that pool can sustain suspicious node" created="2018-10-09 15:28:20.0" updateauthor="derashe" updated="2018-10-09 15:30:01.0"/>
+<Action id="51963" issue="20589" author="derashe" type="comment" body="This is expected" created="2018-10-10 08:41:57.0" updateauthor="derashe" updated="2018-10-10 08:41:57.0"/>

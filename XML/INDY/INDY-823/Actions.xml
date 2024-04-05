@@ -1,0 +1,2 @@
+<Action id="30780" issue="20723" author="krw910" type="comment" body="There are tickets logged from this one that cover all the tests." created="2017-09-12 21:20:11.0" updateauthor="krw910" updated="2017-09-12 21:20:11.0"/>
+<Action id="30790" issue="20723" author="andkononykhin" type="comment" body=" ~krw910  I&apos;ve checked among bugs and not found them except INDY-811 which is linked here. Did you mean we should create separate tasks?" created="2017-09-13 07:14:49.0" updateauthor="andkononykhin" updated="2017-09-13 07:14:49.0"/>

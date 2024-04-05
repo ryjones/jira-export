@@ -1,0 +1,1 @@
+<Action id="52268" issue="34069" author="esplinr" type="comment" body="We have completed our transition to RocksDB, and during that process did enough testing to be satisfied that it is faster than LevelDB. We don&apos;t feel like we need further investigation into LevelDB." created="2018-10-15 14:35:38.0" updateauthor="esplinr" updated="2018-10-15 14:35:38.0"/>

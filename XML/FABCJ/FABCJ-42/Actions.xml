@@ -1,0 +1,1 @@
+<Action id="56394" issue="29911" author="c0rwin" type="comment" body="I think we can and should use mocking framework which is already available in Java, for example Mockito. Closing as Won&apos;t Fix for now." created="2019-01-30 15:34:00.0" updateauthor="c0rwin" updated="2019-01-30 15:34:00.0"/>

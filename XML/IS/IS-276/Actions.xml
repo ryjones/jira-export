@@ -1,0 +1,1 @@
+<Action id="29616" issue="20058" author="andkononykhin" type="comment" created="2017-08-09 16:11:38.0" updateauthor="andkononykhin" updated="2017-08-09 16:11:38.0"> <body><! CDATA Agent was configured and attached to jenkins server as *macos-01* with label *macos.*  I've tested and verified that Jenkins is able to connect and run docker commands there.  ></body> </Action>

@@ -1,0 +1,2 @@
+<Action id="22153" issue="15642" author="jonathanlevi" type="comment" created="2017-04-11 21:49:53.0" updateauthor="jonathanlevi" updated="2017-04-11 21:58:13.0"> <body><! CDATA Why do we need two tickets for this? https://jira.hyperledger.org/browse/FAB-3007 That is, are we going to end up submitting two Gerrit CRs for these?  ></body> </Action>
+<Action id="22727" issue="15642" author="smithbk" type="comment" body="This is a different problem from FAB-3007, so yes, different CRs" created="2017-04-19 20:57:22.0" updateauthor="smithbk" updated="2017-04-19 20:57:22.0"/>

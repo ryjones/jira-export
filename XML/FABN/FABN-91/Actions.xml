@@ -1,0 +1,1 @@
+<Action id="34205" issue="20347" author="jimthematrix" type="comment" created="2017-11-01 19:36:51.0" updateauthor="jimthematrix" updated="2017-11-01 19:36:51.0"> <body><! CDATA note the it's actually possible to specify a range made up of discrete ranges:  {code} ">=6.9.5 <7.0.0 || >=8.4.0" {code}  ></body> </Action>

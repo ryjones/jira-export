@@ -1,0 +1,1 @@
+<Action id="37095" issue="25722" author="rameshthoomu" type="comment" body="patch has been submitted and merged. All the fabric-sdk-node verify and merge jobs now pull thridparty docker images and tag it as latest." created="2017-12-14 14:29:48.0" updateauthor="rameshthoomu" updated="2017-12-14 14:29:48.0"/>

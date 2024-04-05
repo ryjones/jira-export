@@ -1,0 +1,1 @@
+<Action id="46503" issue="31118" author="harrisob@us.ibm.com" type="comment" created="2018-06-25 19:51:16.0" updateauthor="harrisob@us.ibm.com" updated="2018-06-25 19:51:16.0"> <body><! CDATA The channel.initialize() is an official API and will use discovery The channel.getPeers() may be run after the initialize to get the peers on the channel  ></body> </Action>

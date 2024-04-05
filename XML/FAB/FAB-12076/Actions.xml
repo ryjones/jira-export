@@ -1,0 +1,1 @@
+<Action id="50882" issue="33954" author="sykesm" type="comment" created="2018-09-20 19:22:57.0" updateauthor="sykesm" updated="2018-09-20 19:22:57.0"> <body><! CDATA remote:   https://gerrit.hyperledger.org/r/26417  FAB-12076  correct invalid JSON in test remote:   https://gerrit.hyperledger.org/r/26418  FAB-12076  Use raw string literals for JSON  ></body> </Action>

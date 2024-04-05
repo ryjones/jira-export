@@ -1,0 +1,3 @@
+<Action id="48078" issue="32371" author="yacovm" type="comment" body="https://gerrit.hyperledger.org/r/#/c/24915/" created="2018-07-29 14:51:40.0" updateauthor="yacovm" updated="2018-07-29 14:51:40.0"/>
+<Action id="48309" issue="32371" author="yacovm" type="comment" body="Reverting this due to the decision in the last maintainer call to not implement this in v1.3" created="2018-08-02 17:57:31.0" updateauthor="yacovm" updated="2018-08-02 17:57:31.0"/>
+<Action id="48310" issue="32371" author="yacovm" type="comment" body="https://gerrit.hyperledger.org/r/#/c/25069/" created="2018-08-02 17:59:12.0" updateauthor="yacovm" updated="2018-08-02 17:59:12.0"/>

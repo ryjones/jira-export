@@ -1,0 +1,1 @@
+<Worklog id="11802" issue="44008" author="ianco" created="2020-01-16 22:43:37.0" updateauthor="ianco" updated="2020-01-16 22:43:37.0" startdate="2020-01-16 22:41:00.0" timeworked="28800"> <body><! CDATA To fix, change the order the WQL sub-sueries are appended to the internal Vec() structure in the anoncreds extend_proof_request_restrictions() method   ></body> </Worklog>

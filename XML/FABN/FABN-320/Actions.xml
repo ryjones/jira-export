@@ -1,0 +1,2 @@
+<Action id="18575" issue="12452" author="smithbk" type="comment" body="This is a node SDK issue, not membersrvc.  So I changed the tag and assignee." created="2016-08-18 13:32:47.0" updateauthor="smithbk" updated="2016-08-18 13:32:47.0"/>
+<Action id="18652" issue="12452" author="2020nishi" type="comment" created="2016-08-23 17:22:47.0" updateauthor="2020nishi" updated="2016-08-23 17:22:47.0"> <body><! CDATA isRegistered() API returns false for an invalid user. This was a mistake in the test case.  Hence closing the issue  Thanks!  ></body> </Action>

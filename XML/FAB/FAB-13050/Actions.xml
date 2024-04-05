@@ -1,0 +1,4 @@
+<Action id="54087" issue="35702" author="manish-sethi" type="comment" body="Ledger does not have a context whether the call is coming from init or invoke. Chaincode handler is the perhaps the right place for this.  ~sykesm " created="2018-11-30 16:15:35.0" updateauthor="manish-sethi" updated="2018-11-30 16:15:35.0"/>
+<Action id="54212" issue="35702" author="denyeart" type="comment" body=" ~Senthil1  Could you add a check in chaincode handler?" created="2018-12-03 18:47:00.0" updateauthor="denyeart" updated="2018-12-03 18:47:00.0"/>
+<Action id="54217" issue="35702" author="senthil1" type="comment" body="Sure, Dave." created="2018-12-03 20:06:55.0" updateauthor="senthil1" updated="2018-12-03 20:06:55.0"/>
+<Action id="54350" issue="35702" author="denyeart" type="comment" body="https://gerrit.hyperledger.org/r/#/c/27918/" created="2018-12-05 06:03:55.0" updateauthor="denyeart" updated="2018-12-05 06:03:55.0"/>

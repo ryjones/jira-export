@@ -1,0 +1,2 @@
+<Action id="49865" issue="33445" author="bh4rtp" type="comment" body="Notice that orderer started up at 2018-09-04 10:04:24.454, and retrying every 5m for a total of 12h triggered at 2018-09-04 10:04:56.277." created="2018-09-05 00:48:29.0" updateauthor="bh4rtp" updated="2018-09-05 00:48:29.0"/>
+<Action id="49866" issue="33445" author="bh4rtp" type="comment" body="Sorry, please close this issue. I have overwritten the environment variables in docker-compose.yaml file." created="2018-09-05 00:56:39.0" updateauthor="bh4rtp" updated="2018-09-05 00:56:39.0"/>

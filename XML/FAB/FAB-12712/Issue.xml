@@ -1,0 +1,1 @@
+<Issue id="35092" key="FAB-12712" number="12712" project="10002" reporter="sykesm" creator="sykesm" type="10003" summary="Wire grpc server interceptors into the orderer grpc server" priority="3" resolution="10002" status="6" created="2018-11-05 15:25:17.0" updated="2018-11-28 14:18:15.0" resolutiondate="2018-11-28 14:18:15.0" votes="0" watches="1" workflowId="46527"/>

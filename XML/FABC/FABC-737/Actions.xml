@@ -1,0 +1,2 @@
+<Action id="52222" issue="34663" author="mastersingh24" type="comment" body="https://gerrit.hyperledger.org/r/26986" created="2018-10-14 21:40:37.0" updateauthor="mastersingh24" updated="2018-10-14 21:40:37.0"/>
+<Action id="52272" issue="34663" author="denyeart" type="comment" body=" ~mastersingh24  I merged in master branch.  I assume we need to do the same thing in release branches?" created="2018-10-15 15:01:09.0" updateauthor="denyeart" updated="2018-10-15 15:01:09.0"/>

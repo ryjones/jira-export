@@ -1,0 +1,1 @@
+<Action id="48849" issue="32743" author="sambhavdutt" type="comment" created="2018-08-14 13:57:50.0" updateauthor="sambhavdutt" updated="2018-08-14 13:58:33.0"> <body><! CDATA The Integration tests are successful from last four builds. Looks good now.  https://jenkins.hyperledger.org/view/Daily/job/fabric-nightly-release-job-release-1.2-x86_64/  ></body> </Action>

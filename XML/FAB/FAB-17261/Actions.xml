@@ -1,0 +1,1 @@
+<Action id="67942" issue="43718" author="denyeart" type="comment" created="2020-02-13 21:05:37.0" updateauthor="denyeart" updated="2020-02-13 21:05:37.0"> <body><! CDATA https://github.com/hyperledger/fabric/pull/417 merged in release-1.4. No need to cherry pick to future releases since the new chaincode builder is recommended in v2.0.  ></body> </Action>

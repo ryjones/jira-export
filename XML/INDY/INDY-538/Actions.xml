@@ -1,0 +1,1 @@
+<Action id="51970" issue="19726" author="toktar" type="comment" body="I think, it was changed in plenum that was builded with indy-node. In this case value of field logLevel in indy-node/indy_common/config.py will overlap the value from plenum." created="2018-10-10 09:21:31.0" updateauthor="toktar" updated="2018-10-10 09:21:31.0"/>

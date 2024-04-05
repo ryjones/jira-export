@@ -1,0 +1,1 @@
+<Action id="55192" issue="33495" author="mastersingh24" type="comment" body="It turns out we enable tracing for gRPC and we already have a flag to turn on profiling which will enable the default http server.  This will expose the gRPC trace endpoint as well" created="2018-12-31 10:10:52.0" updateauthor="mastersingh24" updated="2018-12-31 10:10:52.0"/>

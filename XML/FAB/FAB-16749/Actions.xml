@@ -1,0 +1,2 @@
+<Action id="64248" issue="42581" author="darrensessions" type="comment" body=" https://gerrit.hyperledger.org/r/c/fabric/+/33842 " created="2019-10-01 22:01:35.0" updateauthor="darrensessions" updated="2019-10-01 22:01:35.0"/>
+<Action id="65273" issue="42581" author="denyeart" type="comment" body="Bumping fabric to 1.12.12 in v1.4.4 via FAB-16852 , I&apos;ll close this as won&apos;t do for v1.4.4." created="2019-11-04 19:43:31.0" updateauthor="denyeart" updated="2019-11-04 19:43:31.0"/>

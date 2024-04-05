@@ -1,0 +1,1 @@
+<Action id="21794" issue="12370" author="mastersingh24" type="comment" created="2017-04-02 12:23:39.0" updateauthor="mastersingh24" updated="2017-04-02 12:23:39.0"> <body><! CDATA Marking this as WON'T FIX as we have moved to fabric-ca. It should be noted that fabric-ca supports multiple enrollments, re-enroll and revoke  ></body> </Action>

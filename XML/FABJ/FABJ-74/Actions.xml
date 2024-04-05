@@ -1,0 +1,2 @@
+<Action id="22589" issue="15520" author="rickr" type="comment" body="We also need to update to latest log4j level" created="2017-04-17 15:12:12.0" updateauthor="rickr" updated="2017-04-17 15:12:12.0"/>
+<Action id="22689" issue="15520" author="zerppen" type="comment" created="2017-04-19 06:59:55.0" updateauthor="zerppen" updated="2017-04-19 07:00:12.0"> <body><! CDATA  ~rickr I tested log4j 2.0.1. U can use different properties set level setting for different classes  ></body> </Action>

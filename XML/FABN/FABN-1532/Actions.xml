@@ -1,0 +1,1 @@
+<Action id="68654" issue="44623" author="heatherp" type="comment" body="We&apos;re not testing non-tls in release-1.4 either, but we can&apos;t cherry pick because the tests are so vastly different between branches. So, need to keep this issue open for release-1.4 work" created="2020-03-30 11:52:43.0" updateauthor="heatherp" updated="2020-03-30 11:52:43.0"/>

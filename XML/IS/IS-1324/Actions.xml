@@ -1,0 +1,3 @@
+<Action id="62452" issue="41330" author="artemkaaas" type="comment" body="Release preparation was done in PR: https://github.com/hyperledger/indy-sdk/pull/1772" created="2019-07-31 07:58:57.0" updateauthor="artemkaaas" updated="2019-07-31 07:58:57.0"/>
+<Action id="62499" issue="41330" author="artemkaaas" type="comment" body="Build version:  1.11.0 rc-81" created="2019-08-01 06:45:58.0" updateauthor="artemkaaas" updated="2019-08-01 06:54:55.0"/>
+<Action id="62509" issue="41330" author="vladimirwork" type="comment" body="IS-1341 and IS-1342 were found during RC testing." created="2019-08-01 11:56:49.0" updateauthor="vladimirwork" updated="2019-08-01 11:56:49.0"/>

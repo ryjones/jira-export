@@ -1,0 +1,4 @@
+<Action id="71829" issue="46897" author="kopaygorodsky" type="comment" body="https://github.com/hyperledger/fabric/pull/2643" created="2021-06-07 11:54:57.0" updateauthor="kopaygorodsky" updated="2021-06-07 11:54:57.0"/>
+<Action id="71895" issue="46897" author="davidkhala" type="comment" body="I suffer from similar issue." created="2021-06-26 07:39:24.0" updateauthor="davidkhala" updated="2021-06-26 07:39:24.0"/>
+<Action id="71906" issue="46897" author="kopaygorodsky" type="comment" body=" ~yacovm  could you review it, please? The PR is ready and green. " created="2021-06-30 17:32:33.0" updateauthor="kopaygorodsky" updated="2021-06-30 17:32:33.0"/>
+<Action id="71908" issue="46897" author="yacovm" type="comment" created="2021-06-30 19:39:33.0" updateauthor="yacovm" updated="2021-06-30 19:39:33.0"> <body><! CDATA Yes, sorry for the delay.  I don't know why no one reviewed it by now.  I guess everyone hoped someone else would do it.  ></body> </Action>

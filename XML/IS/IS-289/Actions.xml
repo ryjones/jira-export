@@ -1,0 +1,3 @@
+<Action id="29909" issue="20207" author="gudkov" type="comment" created="2017-08-16 14:58:28.0" updateauthor="gudkov" updated="2017-08-16 14:58:28.0"> <body><! CDATA  ~ashcherbakov   Could you check this ticket? It seems like the problem is on node side.  ></body> </Action>
+<Action id="29916" issue="20207" author="ashcherbakov" type="comment" body="What command or API was used to do this?" created="2017-08-16 16:04:36.0" updateauthor="ashcherbakov" updated="2017-08-16 16:04:36.0"/>
+<Action id="29918" issue="20207" author="mgbailey" type="comment" body="This was done with the Indy SDK with the python wrapper.  " created="2017-08-16 16:47:46.0" updateauthor="mgbailey" updated="2017-08-16 21:44:04.0"/>

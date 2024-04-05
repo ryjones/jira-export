@@ -1,0 +1,1 @@
+<Action id="37901" issue="18357" author="krw910" type="comment" body="We handle reads at the expected f+1 value. We also introduced State Proofs where a client only needs to access one node." created="2018-01-02 18:50:35.0" updateauthor="krw910" updated="2018-01-02 18:51:02.0"/>

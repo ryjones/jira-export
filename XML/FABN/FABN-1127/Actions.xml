@@ -1,0 +1,2 @@
+<Action id="56919" issue="37462" author="davidkel" type="comment" body="Sorry, please could this be fixed for in the 1.4 release rather than just master ? Thanks" created="2019-02-12 13:25:46.0" updateauthor="davidkel" updated="2019-02-12 13:25:46.0"/>
+<Action id="56958" issue="37462" author="andrew-coleman" type="comment" created="2019-02-13 09:53:49.0" updateauthor="andrew-coleman" updated="2019-02-13 09:53:49.0"> <body><! CDATA 1.4:  https://gerrit.hyperledger.org/r/c/29263/   master:  https://gerrit.hyperledger.org/r/c/29257      ></body> </Action>

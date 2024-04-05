@@ -1,0 +1,2 @@
+<Action id="70931" issue="38691" author="lmars" type="comment" body="The orderer still parses this property at startup (in version 1.4.9) and if I checked correctly, the parsed value is used!" created="2020-12-08 09:07:35.0" updateauthor="lmars" updated="2020-12-08 09:07:35.0"/>
+<Action id="70933" issue="38691" author="yacovm" type="comment" body="It is supposed to be used. This Jira is to hide it from the user." created="2020-12-08 09:21:35.0" updateauthor="yacovm" updated="2020-12-08 09:21:35.0"/>

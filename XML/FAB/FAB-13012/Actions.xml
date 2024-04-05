@@ -1,0 +1,3 @@
+<Action id="53895" issue="35653" author="angelo.decaro" type="comment" body="https://gerrit.hyperledger.org/r/#/c/27777/" created="2018-11-28 12:32:25.0" updateauthor="angelo.decaro" updated="2018-11-28 12:32:25.0"/>
+<Action id="53896" issue="35653" author="jonathanlevi" type="comment" body="Thanks Angelo." created="2018-11-28 12:33:27.0" updateauthor="jonathanlevi" updated="2018-11-28 12:33:27.0"/>
+<Action id="53897" issue="35653" author="angelo.decaro" type="comment" body="The issue can happen cause the way a proof is invalidate during a bad path test does not always succeed. That patch fixes this issue." created="2018-11-28 12:33:47.0" updateauthor="angelo.decaro" updated="2018-11-28 12:33:47.0"/>

@@ -1,0 +1,3 @@
+<Action id="23159" issue="16080" author="baohua" type="comment" created="2017-04-28 15:02:22.0" updateauthor="baohua" updated="2017-04-28 15:02:53.0"> <body><! CDATA +1!  Maybe can only use the add_peers() api to support arbitrary number of peer to add.  ></body> </Action>
+<Action id="34631" issue="16080" author="baohua" type="comment" body=" ~grapebaba  is this still valid?" created="2017-11-15 05:15:27.0" updateauthor="baohua" updated="2017-11-15 05:15:27.0"/>
+<Action id="43073" issue="16080" author="baohua" type="comment" created="2018-04-18 01:17:47.0" updateauthor="baohua" updated="2018-04-18 01:17:47.0"> <body><! CDATA Will temporarily close this since no progress for quite a while. Feel free to re-open if needed.  ></body> </Action>

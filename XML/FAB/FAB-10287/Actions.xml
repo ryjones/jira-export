@@ -1,0 +1,2 @@
+<Action id="44872" issue="30491" author="sambhavdutt" type="comment" created="2018-05-22 17:13:54.0" updateauthor="sambhavdutt" updated="2018-05-22 17:13:54.0"> <body><! CDATA Submitted patch for this fix. https://gerrit.hyperledger.org/r/#/c/22147/  ></body> </Action>
+<Action id="44976" issue="30491" author="sambhavdutt" type="comment" created="2018-05-23 12:56:15.0" updateauthor="sambhavdutt" updated="2018-05-23 12:56:15.0"> <body><! CDATA The patch has been merged and working well https://gerrit.hyperledger.org/r/#/c/22147/  ></body> </Action>

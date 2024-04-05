@@ -1,0 +1,2 @@
+<Action id="26704" issue="18268" author="christopherferris" type="comment" body="Shouldn&apos;t this be deferred to post 1.0?" created="2017-06-19 01:38:28.0" updateauthor="christopherferris" updated="2017-06-19 01:38:28.0"/>
+<Action id="26852" issue="18268" author="rickr" type="comment" body="This fixes a memory leak which should be plugged. It does not affect user API" created="2017-06-20 14:42:45.0" updateauthor="rickr" updated="2017-06-20 14:42:45.0"/>

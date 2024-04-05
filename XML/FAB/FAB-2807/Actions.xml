@@ -1,0 +1,1 @@
+<Action id="21557" issue="15380" author="tuand" type="comment" created="2017-03-17 18:01:16.0" updateauthor="tuand" updated="2017-03-17 18:01:16.0"> <body><! CDATA The error comes from trying to parse an extraneous cert in the node-sdk/crypto-config/peerOrganizations/peerOrg2/msp directory.  Closing this issue.  ></body> </Action>

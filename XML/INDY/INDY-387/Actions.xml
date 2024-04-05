@@ -1,0 +1,2 @@
+<Action id="28114" issue="19008" author="danielhardman" type="comment" body="I agree that we should do this. Please do it, Nathan." created="2017-07-10 21:14:42.0" updateauthor="danielhardman" updated="2017-07-10 21:14:42.0"/>
+<Action id="64360" issue="19008" author="ashcherbakov" type="comment" body="This is already done. We have CODEOWNERS file and  MAINTAINERS.md|https://github.com/hyperledger/indy-node/blob/master/MAINTAINERS.md " created="2019-10-08 12:16:28.0" updateauthor="ashcherbakov" updated="2019-10-08 12:16:28.0"/>

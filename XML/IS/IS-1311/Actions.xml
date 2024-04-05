@@ -1,0 +1,3 @@
+<Action id="61606" issue="41004" author="artemkaaas" type="comment" body="Fixed in PR: https://github.com/hyperledger/indy-sdk/pull/1713" created="2019-07-11 09:57:36.0" updateauthor="artemkaaas" updated="2019-07-11 09:57:36.0"/>
+<Action id="61812" issue="41004" author="artemkaaas" type="comment" body="Build version: rc 1.10.1~78" created="2019-07-15 10:25:04.0" updateauthor="artemkaaas" updated="2019-07-15 10:25:04.0"/>
+<Action id="61826" issue="41004" author="vladimirwork" type="comment" body="Verified in scope of 1.10.1 RC acceptance testing." created="2019-07-15 15:36:28.0" updateauthor="vladimirwork" updated="2019-07-15 15:36:28.0"/>

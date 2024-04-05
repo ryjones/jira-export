@@ -1,0 +1,2 @@
+<Action id="34346" issue="19094" author="mastersingh24" type="comment" body="The easiest thing to do is to delete the crypto-config directory if it exists when calling generateCerts" created="2017-11-05 12:56:42.0" updateauthor="mastersingh24" updated="2017-11-05 12:56:42.0"/>
+<Action id="34347" issue="19094" author="mastersingh24" type="comment" created="2017-11-05 13:07:05.0" updateauthor="mastersingh24" updated="2017-11-05 13:11:08.0"> <body><! CDATA  https://gerrit.hyperledger.org/r/15209  (master)  https://gerrit.hyperledger.org/r/15211 (release)  ></body> </Action>

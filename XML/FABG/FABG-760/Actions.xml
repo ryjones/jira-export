@@ -1,0 +1,2 @@
+<Action id="52349" issue="33662" author="coolsvap" type="comment" body="Need more information." created="2018-10-17 07:59:18.0" updateauthor="coolsvap" updated="2018-10-17 07:59:18.0"/>
+<Action id="52365" issue="33662" author="sandrav" type="comment" body="No need to do this since chain codes are prebuilt during testing in CI." created="2018-10-17 14:31:09.0" updateauthor="sandrav" updated="2018-10-17 14:31:09.0"/>

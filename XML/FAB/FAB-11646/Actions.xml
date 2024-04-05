@@ -1,0 +1,2 @@
+<Action id="49054" issue="33027" author="mastersingh24" type="comment" created="2018-08-18 09:46:57.0" updateauthor="mastersingh24" updated="2018-08-18 09:46:57.0"> <body><! CDATA  go-grpc-middleware|https://github.com/grpc-ecosystem/go-grpc-middleware/blob/master/DOC.md  looks like a nice solution to allow for chaining of interceptors    ></body> </Action>
+<Action id="49194" issue="33027" author="kchristidis" type="comment" body="https://gerrit.hyperledger.org/r/c/25667/" created="2018-08-21 22:24:37.0" updateauthor="kchristidis" updated="2018-08-21 22:24:37.0"/>

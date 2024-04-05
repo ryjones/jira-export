@@ -1,0 +1,2 @@
+<Action id="61126" issue="40701" author="yacovm" type="comment" body="You can try to set the following environment variable in the container: *GODEBUG=netdns=go*" created="2019-06-19 19:44:38.0" updateauthor="yacovm" updated="2019-06-19 19:44:38.0"/>
+<Action id="61569" issue="40701" author="diestrin" type="comment" body="The proposed solution fixed the problem. Thanks" created="2019-07-10 11:28:15.0" updateauthor="diestrin" updated="2019-07-10 11:28:15.0"/>

@@ -1,0 +1,1 @@
+<Action id="64656" issue="35294" author="esplinr" type="comment" body="Improvements to validator-info allow monitoring the node status. Other stewards have integrated this information with browser based status reports. If there are additional features needed, we can raise specific issues." created="2019-10-11 13:19:50.0" updateauthor="esplinr" updated="2019-10-11 13:20:23.0"/>

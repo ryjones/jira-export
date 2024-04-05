@@ -1,0 +1,1 @@
+<Issue id="39424" key="FAB-15239" number="15239" project="10002" reporter="mastersingh24" creator="mastersingh24" type="10002" summary="Use mock or fake for core/chaincode mocks but not both" priority="3" status="10100" created="2019-04-20 18:30:32.0" updated="2019-12-02 16:41:27.0" votes="0" watches="1" workflowId="52303"/>

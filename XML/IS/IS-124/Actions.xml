@@ -1,0 +1,2 @@
+<Action id="37758" issue="18397" author="gudkov" type="comment" body="The cases are hard to automate, but we still need to cover them if we want good quality." created="2017-12-22 15:50:41.0" updateauthor="gudkov" updated="2017-12-22 15:50:41.0"/>
+<Action id="63909" issue="18397" author="esplinr" type="comment" body="We are currently happy with our integration tests. We haven&apos;t seen significant bugs in this part of the system, so we don&apos;t believe this work is necessary." created="2019-09-20 14:45:00.0" updateauthor="esplinr" updated="2019-09-20 14:45:00.0"/>

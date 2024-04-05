@@ -1,0 +1,3 @@
+<Action id="58613" issue="37509" author="mastersingh24" type="comment" body="bumping this to high" created="2019-03-27 08:13:54.0" updateauthor="mastersingh24" updated="2019-03-27 08:13:54.0"/>
+<Action id="58859" issue="37509" author="wlahti" type="comment" body="https://gerrit.hyperledger.org/r/c/30641/" created="2019-04-02 16:15:47.0" updateauthor="wlahti" updated="2019-04-02 16:15:47.0"/>
+<Action id="58866" issue="37509" author="wlahti" type="comment" body="Confirmed that this bug does affect other system chaincode calls and the above CR does resolve the panic for random SCC calls I&apos;ve tried it on (CSCC, LSCC). " created="2019-04-02 19:50:00.0" updateauthor="wlahti" updated="2019-04-02 19:50:23.0"/>

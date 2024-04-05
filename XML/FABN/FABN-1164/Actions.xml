@@ -1,0 +1,2 @@
+<Action id="60470" issue="38033" author="harrisob@us.ibm.com" type="comment" created="2019-05-29 16:33:00.0" updateauthor="harrisob@us.ibm.com" updated="2019-05-29 16:33:00.0"> <body><! CDATA Could I get a trace of this failure export HFC_LOGGING='{"debug":"console"}'  ></body> </Action>
+<Action id="64983" issue="38033" author="harrisob@us.ibm.com" type="comment" body="No information provided" created="2019-10-24 18:07:56.0" updateauthor="harrisob@us.ibm.com" updated="2019-10-24 18:07:56.0"/>

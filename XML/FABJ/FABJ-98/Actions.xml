@@ -1,0 +1,1 @@
+<Action id="46480" issue="15702" author="rickr" type="comment" body="The SDK itself was not able to even know what the endorsement policy was.  With the service discovery feature it can and does select which peers do the endorsing. So with that I consider this to be closed." created="2018-06-25 11:25:36.0" updateauthor="rickr" updated="2018-06-25 11:25:36.0"/>

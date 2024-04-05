@@ -1,0 +1,1 @@
+<Issue id="46686" key="FABG-1037" number="1037" project="10610" reporter="vieiramanoel" assignee="vieiramanoel" creator="vieiramanoel" type="10004" summary="common name field from CSR not being copied at newCertificateRequest" priority="3" status="10300" created="2021-03-29 15:43:47.0" updated="2021-03-29 16:35:21.0" votes="0" watches="1" workflowId="60632" archived="N"/>

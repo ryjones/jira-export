@@ -1,0 +1,1 @@
+<Action id="60503" issue="38132" author="irmman" type="comment" body="I had the same issue and I cleaned /var/hyperledger/production and it was fixed " created="2019-05-30 11:39:07.0" updateauthor="irmman" updated="2019-05-30 11:39:07.0"/>

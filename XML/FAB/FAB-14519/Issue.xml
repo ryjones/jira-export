@@ -1,0 +1,1 @@
+<Issue id="38260" key="FAB-14519" number="14519" project="10002" reporter="wlahti" assignee="wlahti" creator="wlahti" type="10003" summary="Stop hard-coding peers for commit and init steps" priority="3" resolution="10000" status="6" created="2019-03-06 22:37:39.0" updated="2019-03-07 18:24:10.0" resolutiondate="2019-03-07 18:24:10.0" votes="0" watches="1" workflowId="49887"/>

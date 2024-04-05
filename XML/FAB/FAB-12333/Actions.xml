@@ -1,0 +1,3 @@
+<Action id="51897" issue="34473" author="guoger" type="comment" body="Could you expand on why this is needed?" created="2018-10-09 11:51:22.0" updateauthor="guoger" updated="2018-10-09 11:51:22.0"/>
+<Action id="52035" issue="34473" author="christopherferris" type="comment" body=" ~kutenglaoshu  can you please provide a bit more explanation for what you are doing and why? Thanks" created="2018-10-10 16:36:13.0" updateauthor="christopherferris" updated="2018-10-10 16:36:13.0"/>
+<Action id="52038" issue="34473" author="kutenglaoshu" type="comment" body="FAB-12333  is {color:#353535}Abandoned{color}, see FAB-12337 or FAB-12353" created="2018-10-10 16:43:12.0" updateauthor="kutenglaoshu" updated="2018-10-10 16:43:12.0"/>

@@ -1,0 +1,2 @@
+<Action id="56312" issue="37189" author="ashcherbakov" type="comment" created="2019-01-29 07:26:03.0" updateauthor="ashcherbakov" updated="2019-01-29 07:26:03.0"> <body><! CDATA This is a nasty bug for sure. However, we are going to remove this flag in the scope of INDY-1930 and INDY-1956.  ></body> </Action>
+<Action id="61018" issue="37189" author="ashcherbakov" type="comment" body="The flag is removed in the scope of INDY-1956" created="2019-06-14 14:20:01.0" updateauthor="ashcherbakov" updated="2019-06-14 14:20:01.0"/>

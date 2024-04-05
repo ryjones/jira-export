@@ -1,0 +1,1 @@
+<Action id="55826" issue="36702" author="kchristidis" type="comment" created="2019-01-18 20:03:09.0" updateauthor="kchristidis" updated="2019-01-18 22:14:09.0"> <body><! CDATA -Why do we need 2 peers per org? If the second peer is not used, can we remove it from the scenario?-  DM says we're good to say 1 peer/org.  ></body> </Action>

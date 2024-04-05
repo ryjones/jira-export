@@ -1,0 +1,2 @@
+<Action id="60789" issue="35570" author="denyeart" type="comment" body="Manish, I&apos;m assuming this would be handled as part of the upcoming ledgermgmt rework." created="2019-06-09 08:27:56.0" updateauthor="denyeart" updated="2019-06-09 08:27:56.0"/>
+<Action id="61131" issue="35570" author="manish-sethi" type="comment" body="Handled as part of FAB-15755" created="2019-06-20 06:13:21.0" updateauthor="manish-sethi" updated="2019-06-20 06:13:21.0"/>

@@ -1,0 +1,3 @@
+<Action id="50461" issue="33787" author="mbwhite" type="comment" body="https://gerrit.hyperledger.org/r/26311" created="2018-09-14 14:29:59.0" updateauthor="mbwhite" updated="2018-09-14 14:29:59.0"/>
+<Action id="50530" issue="33787" author="mbwhite" type="comment" body="Believed that this is duplicated by fabci-92" created="2018-09-17 12:32:23.0" updateauthor="mbwhite" updated="2018-09-17 12:32:23.0"/>
+<Action id="50644" issue="33787" author="davidkel" type="comment" body="Also this has been covered by other Jiras." created="2018-09-19 09:07:39.0" updateauthor="davidkel" updated="2018-09-19 09:07:39.0"/>

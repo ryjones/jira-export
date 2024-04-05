@@ -1,0 +1,1 @@
+<Action id="60646" issue="39388" author="andkononykhin" type="comment" created="2019-06-04 13:19:08.0" updateauthor="andkononykhin" updated="2019-06-04 13:19:08.0"> <body><! CDATA PR for system tests repo is ready:  https://github.com/hyperledger/indy-test-automation/pull/24  PR to indy-node will be created once this one is merged.  ></body> </Action>

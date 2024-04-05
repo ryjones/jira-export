@@ -1,0 +1,2 @@
+<Action id="45508" issue="30635" author="rameshthoomu" type="comment" body="Similar requirement has been created here FAB-9641" created="2018-06-04 19:28:03.0" updateauthor="rameshthoomu" updated="2018-06-04 19:28:03.0"/>
+<Action id="45998" issue="30635" author="rameshthoomu" type="comment" body="Nightly job is now pushing all fabric binaries to nexus2. https://nexus.hyperledger.org/content/repositories/releases/org/hyperledger/fabric/hyperledger-fabric-stable/" created="2018-06-15 17:55:11.0" updateauthor="rameshthoomu" updated="2018-06-15 17:55:11.0"/>

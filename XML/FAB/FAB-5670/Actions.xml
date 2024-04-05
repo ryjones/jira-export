@@ -1,0 +1,1 @@
+<Action id="50345" issue="20044" author="elli-androulaki" type="comment" body="I believe this is no longer relevant. For use-cases that we need such functionality (e.g., token management) we actually defined a new transaction type. " created="2018-09-12 10:07:36.0" updateauthor="elli-androulaki" updated="2018-09-12 10:07:36.0"/>

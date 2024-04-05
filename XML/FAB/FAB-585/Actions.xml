@@ -1,0 +1,2 @@
+<Action id="19260" issue="12887" author="jimthematrix" type="comment" body=" ~rennman  are you able to get started with this one?" created="2016-10-18 04:19:34.0" updateauthor="jimthematrix" updated="2016-10-18 04:19:34.0"/>
+<Action id="19265" issue="12887" author="rennman" type="comment" body="I have a docker compose file and a node app that starts one instance each of membersrv and peer. I&apos;ll need to get some assistance in syncing up the processes from node." created="2016-10-18 13:53:04.0" updateauthor="rennman" updated="2016-10-18 13:53:04.0"/>

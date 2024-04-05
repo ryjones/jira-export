@@ -1,0 +1,2 @@
+<Action id="38639" issue="26805" author="harrisob@us.ibm.com" type="comment" body="If changes can be made how about the ccEvent ==&gt; chaincode_event ?, and the repeated filtered_tx ==&gt; filtered_transactions" created="2018-01-15 14:50:43.0" updateauthor="harrisob@us.ibm.com" updated="2018-01-15 14:50:43.0"/>
+<Action id="38663" issue="26805" author="c0rwin" type="comment" body=" ~harrisob@us.ibm.com please open another JIRA since this one was merged and closed." created="2018-01-16 07:43:46.0" updateauthor="c0rwin" updated="2018-01-16 07:43:46.0"/>

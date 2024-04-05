@@ -1,0 +1,3 @@
+<Action id="24621" issue="13912" author="kletkeman" type="comment" body="Our history implementation saves the original input event, the calculated state, any rule based alerts that were generated, and any events that were emitted. I would like to see the Fabric do something similar." created="2017-05-30 03:19:06.0" updateauthor="kletkeman" updated="2017-05-30 03:19:06.0"/>
+<Action id="66912" issue="13912" author="sykesm" type="comment" body="Stale" created="2020-01-22 18:38:39.0" updateauthor="sykesm" updated="2020-01-22 18:38:39.0"/>
+<Action id="66944" issue="13912" author="sykesm" type="comment" body="Stale" created="2020-01-22 18:46:11.0" updateauthor="sykesm" updated="2020-01-22 18:46:11.0"/>

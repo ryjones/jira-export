@@ -1,0 +1,3 @@
+<Action id="70464" issue="46162" author="lesleyannj" type="comment" body="https://github.com/hyperledger/fabric-sdk-node/pull/350" created="2020-10-07 15:35:18.0" updateauthor="lesleyannj" updated="2020-10-07 15:35:18.0"/>
+<Action id="70506" issue="46162" author="rolivieri" type="comment" body="Hello, is there a new version of the client SDK available with this fix yet?" created="2020-10-13 15:17:22.0" updateauthor="rolivieri" updated="2020-10-13 15:17:22.0"/>
+<Action id="70507" issue="46162" author="lesleyannj" type="comment" body="A 1.4 release is expected in the next few weeks." created="2020-10-13 15:34:57.0" updateauthor="lesleyannj" updated="2020-10-13 15:34:57.0"/>

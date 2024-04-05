@@ -1,0 +1,2 @@
+<Action id="50577" issue="33788" author="rameshthoomu" type="comment" body="This FAB is based on the change pushed to baseimage https://jira.hyperledger.org/browse/FABB-99" created="2018-09-18 02:58:49.0" updateauthor="rameshthoomu" updated="2018-09-18 02:58:49.0"/>
+<Action id="50592" issue="33788" author="scottz" type="comment" body="https://gerrit.hyperledger.org/r/#/c/26309/" created="2018-09-18 11:59:26.0" updateauthor="scottz" updated="2018-09-18 11:59:26.0"/>

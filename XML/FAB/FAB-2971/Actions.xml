@@ -1,0 +1,2 @@
+<Action id="22090" issue="15551" author="wlahti" type="comment" body="https://gerrit.hyperledger.org/r/#/c/7717/ (awaiting code review) will improve the error messages for invalid chaincode names/versions. " created="2017-04-11 15:16:31.0" updateauthor="wlahti" updated="2017-04-11 15:16:31.0"/>
+<Action id="22272" issue="15551" author="wlahti" type="comment" body="The CR has been merged. " created="2017-04-12 21:34:38.0" updateauthor="wlahti" updated="2017-04-12 21:34:38.0"/>

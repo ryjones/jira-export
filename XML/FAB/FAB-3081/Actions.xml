@@ -1,0 +1,2 @@
+<Action id="22419" issue="15662" author="lafenicecc" type="comment" body="When will the prefix be removed? Please notice us, thanks!" created="2017-04-14 03:26:32.0" updateauthor="lafenicecc" updated="2017-04-14 03:26:32.0"/>
+<Action id="22707" issue="15662" author="jimthematrix" type="comment" body="hi  ~grapebaba   ~lafenicecc , the server change was merged earlier this morning, the SDK needs to be updated to replace &quot;api/v1/cfssl/&quot; API root with simply &quot;/&quot;" created="2017-04-19 12:36:19.0" updateauthor="jimthematrix" updated="2017-04-19 12:36:19.0"/>

@@ -1,0 +1,2 @@
+<Action id="39815" issue="27508" author="wlahti" type="comment" body="https://gerrit.hyperledger.org/r/c/17639/" created="2018-02-07 20:17:31.0" updateauthor="wlahti" updated="2018-02-07 20:17:31.0"/>
+<Action id="39849" issue="27508" author="wlahti" type="comment" body="Apparently, our troubleshooting &quot;docs&quot; are typically done in Stack Overflow at the moment. I&apos;ll add the text from the gerrit CR above once the parent JIRA has been merged and closed. " created="2018-02-08 13:04:26.0" updateauthor="wlahti" updated="2018-02-08 13:04:26.0"/>

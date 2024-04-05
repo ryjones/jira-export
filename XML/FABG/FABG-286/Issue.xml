@@ -1,0 +1,1 @@
+<Issue id="28403" key="FABG-286" number="286" project="10610" reporter="troyronda" creator="troyronda" type="10004" summary="orderer needs to call context ReleaseConn" priority="3" resolution="10000" status="6" created="2018-03-11 22:07:36.0" updated="2018-07-18 23:52:24.0" resolutiondate="2018-03-11 22:36:14.0" votes="0" watches="1" workflowId="33085"/>

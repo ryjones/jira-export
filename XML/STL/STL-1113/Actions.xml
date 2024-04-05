@@ -1,0 +1,5 @@
+<Action id="41442" issue="28324" author="askmish" type="comment" body="How to repro this bug. Is it observed on the master or 1.0 code." created="2018-03-12 05:23:39.0" updateauthor="askmish" updated="2018-03-12 05:23:39.0"/>
+<Action id="41686" issue="28324" author="dan.middleton@intel.com" type="comment" body=" ~pschwarz  can you provide logs or other conditions to  ~askmish ?" created="2018-03-15 16:02:02.0" updateauthor="dan.middleton@intel.com" updated="2018-03-15 16:02:02.0"/>
+<Action id="42333" issue="28324" author="askmish" type="comment" body="Any updates on this?  ~pschwarz " created="2018-03-29 15:12:29.0" updateauthor="askmish" updated="2018-03-29 15:12:29.0"/>
+<Action id="42359" issue="28324" author="pschwarz" type="comment" body="This occurred on master.  The logs above are all that I had to go on.  I don&apos;t know how to reproduce it." created="2018-03-29 22:16:07.0" updateauthor="pschwarz" updated="2018-03-29 22:16:07.0"/>
+<Action id="42851" issue="28324" author="askmish" type="comment" body="Closing as can&apos;t reproduce." created="2018-04-12 05:23:41.0" updateauthor="askmish" updated="2018-04-12 05:23:41.0"/>

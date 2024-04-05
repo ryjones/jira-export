@@ -1,0 +1,2 @@
+<Action id="27125" issue="17901" author="dolanor" type="comment" created="2017-06-21 14:22:12.0" updateauthor="dolanor" updated="2017-06-21 14:22:12.0"> <body><! CDATA We need also to try to remove */util packages  https://dave.cheney.net/2016/08/20/solid-go-design  ></body> </Action>
+<Action id="27131" issue="17901" author="firas.qutishat" type="comment" created="2017-06-21 15:32:08.0" updateauthor="firas.qutishat" updated="2017-06-21 15:32:08.0"> <body><! CDATA  ~dolanor   We are working to remove the util packages  FAB-4890      ></body> </Action>

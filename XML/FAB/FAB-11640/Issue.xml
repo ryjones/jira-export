@@ -1,0 +1,1 @@
+<Issue id="33018" key="FAB-11640" number="11640" project="10002" reporter="yacovm" assignee="wael" creator="yacovm" type="10003" summary="Address data races in gossip/identity" priority="3" resolution="10000" status="6" created="2018-08-17 21:55:05.0" updated="2018-11-22 21:41:51.0" resolutiondate="2018-11-22 21:41:51.0" votes="0" watches="2" workflowId="44223"/>

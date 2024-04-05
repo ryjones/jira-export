@@ -1,0 +1,1 @@
+<Action id="68864" issue="44102" author="denyeart" type="comment" created="2020-04-19 04:05:22.0" updateauthor="denyeart" updated="2020-04-19 04:06:17.0"> <body><! CDATA Deprecated in v2.0:   https://github.com/hyperledger/fabric/pull/541   Deprecate --outputAnchorPeersUpdate flag in configtxgen   Added to Epic that covers possible removals for v3.0.    ></body> </Action>

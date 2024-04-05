@@ -1,0 +1,2 @@
+<Action id="42317" issue="28990" author="sykesm" type="comment" created="2018-03-29 14:30:53.0" updateauthor="sykesm" updated="2018-03-29 14:30:53.0"> <body><! CDATA     Build cryptogen if needed      call cryptogen generage with crypto-config.yaml      determine how to setup crypto-config  ></body> </Action>
+<Action id="43779" issue="28990" author="latitiah" type="comment" body="https://gerrit.hyperledger.org/r/#/c/21383/" created="2018-05-03 15:53:51.0" updateauthor="latitiah" updated="2018-05-03 15:53:51.0"/>

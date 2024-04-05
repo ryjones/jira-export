@@ -1,0 +1,2 @@
+<Action id="66376" issue="43738" author="artemkaaas" type="comment" body="Release preparation done in PR:  https://github.com/hyperledger/indy-sdk/pull/1999 " created="2019-12-23 12:22:35.0" updateauthor="artemkaaas" updated="2019-12-23 12:22:35.0"/>
+<Action id="66426" issue="43738" author="vladimirwork" type="comment" body="We should merge python TAA sample updates to master and 1.14.0 rc/stable branches." created="2019-12-28 10:14:47.0" updateauthor="vladimirwork" updated="2019-12-28 10:14:47.0"/>

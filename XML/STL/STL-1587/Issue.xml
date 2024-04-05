@@ -1,0 +1,1 @@
+<Issue id="40351" key="STL-1587" number="1587" project="10001" reporter="ryanbeck" assignee="ryanbeck" creator="ryanbeck" type="10005" summary="Add CI test for cargo packaging for packages that are published to crates" priority="3" status="10100" created="2019-06-03 21:45:50.0" updated="2019-06-03 21:45:50.0" votes="0" watches="1" workflowId="53258"/>

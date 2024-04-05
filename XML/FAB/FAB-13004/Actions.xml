@@ -1,0 +1,1 @@
+<Action id="62493" issue="35638" author="scottz" type="comment" created="2019-08-01 02:51:18.0" updateauthor="scottz" updated="2019-08-01 02:51:18.0"> <body><! CDATA Planning to deprecate behave. Node SDK IT tests are responsible for covering these types of scenarios in their lifecycle tests.  ></body> </Action>

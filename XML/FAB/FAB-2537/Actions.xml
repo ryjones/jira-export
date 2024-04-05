@@ -1,0 +1,2 @@
+<Action id="22800" issue="15104" author="kchristidis" type="comment" body="Do you mean may instead of must? The tool uses a default value if the flag is not set." created="2017-04-21 06:03:22.0" updateauthor="kchristidis" updated="2017-04-21 06:03:22.0"/>
+<Action id="22801" issue="15104" author="kchristidis" type="comment" body="At any rate: https://gerrit.hyperledger.org/r/#/c/8341/" created="2017-04-21 06:08:59.0" updateauthor="kchristidis" updated="2017-04-21 06:08:59.0"/>

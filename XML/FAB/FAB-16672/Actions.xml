@@ -1,0 +1,2 @@
+<Action id="63936" issue="42441" author="scottz" type="comment" body="Note: FAB-16395 may be unnecessary if we port the needed patchsets to 1.4." created="2019-09-20 21:14:56.0" updateauthor="scottz" updated="2019-09-20 21:14:56.0"/>
+<Action id="64823" issue="42441" author="bharadwajambati1" type="comment" body=" https://gerrit.hyperledger.org/r/#/c/fabric-test/+/33922/ " created="2019-10-21 16:28:30.0" updateauthor="bharadwajambati1" updated="2019-10-21 16:28:30.0"/>

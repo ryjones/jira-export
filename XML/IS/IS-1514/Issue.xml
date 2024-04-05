@@ -1,0 +1,1 @@
+<Issue id="44474" key="IS-1514" number="1514" project="10401" reporter="sergey.minaev" creator="sergey.minaev" type="10002" summary="Minimal CI/CD pipelines for Indy VDR" description="Use GitHub Actions" priority="3" status="10200" created="2020-03-02 10:58:35.0" updated="2020-03-30 08:49:31.0" votes="0" watches="1" workflowId="58383" archived="N"/>

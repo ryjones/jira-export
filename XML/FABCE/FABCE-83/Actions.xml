@@ -1,0 +1,3 @@
+<Action id="57341" issue="37402" author="guoger" type="comment" body="https://gerrit.hyperledger.org/r/c/29130/" created="2019-02-20 05:12:40.0" updateauthor="guoger" updated="2019-02-20 05:12:40.0"/>
+<Action id="57342" issue="37402" author="guoger" type="comment" body="Let&apos;s keep this JIRA open till comments are addressed in follow-up CR,  this one|https://gerrit.hyperledger.org/r/c/29130/6/fab3/ethservice.go#595  in particular" created="2019-02-20 05:13:26.0" updateauthor="guoger" updated="2019-02-20 05:13:47.0"/>
+<Action id="57994" issue="37402" author="swetharepakula" type="comment" body="https://gerrit.hyperledger.org/r/#/c/29948/" created="2019-03-08 01:43:33.0" updateauthor="swetharepakula" updated="2019-03-08 01:43:33.0"/>

@@ -1,0 +1,3 @@
+<Action id="54772" issue="34154" author="skarim" type="comment" body="Hi  ~baohua , is this something you could look into?" created="2018-12-13 14:50:57.0" updateauthor="skarim" updated="2018-12-13 14:50:57.0"/>
+<Action id="56320" issue="34154" author="guillaumecisco" type="comment" created="2019-01-29 10:03:27.0" updateauthor="guillaumecisco" updated="2019-01-29 10:03:27.0"> <body><! CDATA Just implemented it for the register method. https://jira.hyperledger.org/browse/FABP-184 Can be closed.  ></body> </Action>
+<Action id="56322" issue="34154" author="dexhunter" type="comment" body="yep, thanks  ~GuillaumeCisco " created="2019-01-29 10:09:30.0" updateauthor="dexhunter" updated="2019-01-29 10:09:30.0"/>

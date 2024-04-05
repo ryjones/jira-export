@@ -1,0 +1,1 @@
+<Action id="63634" issue="42190" author="sykesm" type="comment" body="Looks like builds after the chaincode deps were vendored are successful. Should this be closed out?" created="2019-09-09 17:42:02.0" updateauthor="sykesm" updated="2019-09-09 17:42:02.0"/>

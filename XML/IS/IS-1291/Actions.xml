@@ -1,0 +1,3 @@
+<Action id="61076" issue="40534" author="sergey.minaev" type="comment" body="Implemented in PR https://github.com/hyperledger/indy-sdk/pull/1678" created="2019-06-18 10:56:39.0" updateauthor="sergey.minaev" updated="2019-06-18 10:56:39.0"/>
+<Action id="61114" issue="40534" author="sergey.minaev" type="comment" body="build 1.9.0 master 1144" created="2019-06-19 09:54:47.0" updateauthor="sergey.minaev" updated="2019-06-19 09:54:47.0"/>
+<Action id="61155" issue="40534" author="vladimirwork" type="comment" body="It is checked during Indy-SDK demo preparation - flag works as expected." created="2019-06-20 16:21:51.0" updateauthor="vladimirwork" updated="2019-06-20 16:21:51.0"/>

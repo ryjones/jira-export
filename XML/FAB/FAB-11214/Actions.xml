@@ -1,0 +1,2 @@
+<Action id="48460" issue="31998" author="sykesm" type="comment" created="2018-08-06 18:09:13.0" updateauthor="sykesm" updated="2018-08-06 18:09:13.0"> <body><! CDATA There's already a +2'd CR out there.  https://gerrit.hyperledger.org/r/c/25039/  ></body> </Action>
+<Action id="48461" issue="31998" author="wlahti" type="comment" body="My bad. Searched the JIRA number but didn&apos;t find anything. Abandoned my CR." created="2018-08-06 18:13:30.0" updateauthor="wlahti" updated="2018-08-06 18:13:30.0"/>

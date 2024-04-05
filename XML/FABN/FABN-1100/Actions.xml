@@ -1,0 +1,2 @@
+<Action id="58964" issue="36817" author="florianc" type="comment" body="Hi. Just a question for checkpointing: Where is the information stored (which folder)? Will we be able to configure the storage location?" created="2019-04-05 07:09:25.0" updateauthor="florianc" updated="2019-04-05 07:09:48.0"/>
+<Action id="59021" issue="36817" author="14gracel" type="comment" body="By default it is stored in ~/.hlf-checkpoint, but storage is fully customisable" created="2019-04-08 08:13:34.0" updateauthor="14gracel" updated="2019-04-08 08:13:34.0"/>

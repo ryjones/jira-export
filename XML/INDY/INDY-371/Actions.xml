@@ -1,0 +1,1 @@
+<Action id="53116" issue="18890" author="derashe" type="comment" body="In actual version of code, if steward will try to blacklist himself, he will get an error like: &quot;STEWARD cannot update role&quot;" created="2018-11-07 08:13:59.0" updateauthor="derashe" updated="2018-11-07 08:13:59.0"/>

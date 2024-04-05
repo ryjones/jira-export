@@ -1,0 +1,3 @@
+<Action id="29591" issue="20056" author="gudkov" type="comment" created="2017-08-09 10:33:07.0" updateauthor="gudkov" updated="2017-08-09 10:33:07.0"> <body><! CDATA  ~nage   ~danielhardman   ~ashcherbakov   Could you take a look at this issue and provide your opinion?  ></body> </Action>
+<Action id="37948" issue="20056" author="seanbohan_sovrin" type="comment" body="Can this move after the CLI or wallets migrated?" created="2018-01-03 19:14:31.0" updateauthor="seanbohan_sovrin" updated="2018-01-03 19:14:31.0"/>
+<Action id="47858" issue="20056" author="gudkov" type="comment" body="We can consider this as done, especially on indy-sdk side." created="2018-07-26 09:18:20.0" updateauthor="gudkov" updated="2018-07-26 09:18:20.0"/>

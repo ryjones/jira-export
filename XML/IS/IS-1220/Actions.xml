@@ -1,0 +1,1 @@
+<Action id="59060" issue="38796" author="esplinr" type="comment" body="Thank you for pointing out this use case  ~JeromeK . You are correct that we aren&apos;t validating that the DID exists in the wallet. We should consider both client and server side checks." created="2019-04-09 14:24:04.0" updateauthor="esplinr" updated="2019-04-09 14:24:04.0"/>

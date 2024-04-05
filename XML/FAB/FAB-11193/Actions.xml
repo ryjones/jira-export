@@ -1,0 +1,3 @@
+<Action id="49542" issue="31964" author="mbwhite" type="comment" body="FYI, JSDoc based comments are going in with the node-sdk." created="2018-08-29 12:17:32.0" updateauthor="mbwhite" updated="2018-08-29 12:17:32.0"/>
+<Action id="49562" issue="31964" author="edprosser" type="comment" body="Here&apos;s the relevant CR: https://gerrit.hyperledger.org/r/c/25952/" created="2018-08-29 15:30:43.0" updateauthor="edprosser" updated="2018-08-29 15:30:43.0"/>
+<Action id="62110" issue="31964" author="denyeart" type="comment" created="2019-07-25 13:50:01.0" updateauthor="denyeart" updated="2019-07-25 13:50:01.0"> <body><! CDATA Abandoned CR per Matthew's suggestion. Shall we close or is something else is needed now  ~mbwhite  ?  ></body> </Action>

@@ -1,0 +1,1 @@
+<Issue id="38556" key="FAB-14697" number="14697" project="10002" reporter="yacovm" assignee="yacovm" creator="yacovm" type="10002" summary="Make orderer sign the metadata along with the block" priority="3" resolution="10000" status="6" created="2019-03-18 21:02:37.0" updated="2019-03-20 21:32:38.0" resolutiondate="2019-03-20 21:32:38.0" votes="0" watches="1" workflowId="50199"/>

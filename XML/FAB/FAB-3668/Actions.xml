@@ -1,0 +1,1 @@
+<Action id="23394" issue="16337" author="rameshthoomu" type="comment" body="patch has been submitted and merged. Now e2e cli tests work building crypto material dynamically. No more static crypto material." created="2017-05-04 21:24:05.0" updateauthor="rameshthoomu" updated="2017-05-04 21:24:05.0"/>

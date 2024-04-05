@@ -1,0 +1,2 @@
+<Action id="49846" issue="33337" author="dexhunter" type="comment" body=" ~baohua  Hi! I need some intrustructions for the release beside  changelog.sh|https://github.com/hyperledger/fabric-sdk-py/blob/master/scripts/changelog.sh   Thanks!" created="2018-09-04 18:23:13.0" updateauthor="dexhunter" updated="2018-09-04 18:23:49.0"/>
+<Action id="50199" issue="33337" author="baohua" type="comment" body="https://gerrit.hyperledger.org/r/#/c/26111/" created="2018-09-11 01:36:36.0" updateauthor="baohua" updated="2018-09-11 01:36:36.0"/>

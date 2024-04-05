@@ -1,0 +1,2 @@
+<Action id="58461" issue="38406" author="mastersingh24" type="comment" created="2019-03-22 14:38:13.0" updateauthor="mastersingh24" updated="2019-03-22 14:38:13.0"> <body><! CDATA https://gerrit.hyperledger.org/r/30313 https://gerrit.hyperledger.org/r/30315  ></body> </Action>
+<Action id="58820" issue="38406" author="dhuseby" type="comment" body=" ~mastersingh24  this bug was reported through the bug bounty. What severity do you think this is so that I can assign the proper bounty." created="2019-04-02 00:07:08.0" updateauthor="dhuseby" updated="2019-04-02 00:07:08.0"/>

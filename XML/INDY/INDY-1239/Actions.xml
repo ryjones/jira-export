@@ -1,0 +1,1 @@
+<Action id="64439" issue="28885" author="ashcherbakov" type="comment" body="Currently we have configurable auth rules and a lot of tests for them. Default rules are reviewed and accepted." created="2019-10-09 09:12:21.0" updateauthor="ashcherbakov" updated="2019-10-09 09:12:21.0"/>

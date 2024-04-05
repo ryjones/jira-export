@@ -1,0 +1,1 @@
+<Action id="30342" issue="18138" author="krw910" type="comment" body="The ledger eventually all gets in sync. There is no guarantee the read request will go to the same node to get the update to date response immediately.  " created="2017-08-29 21:53:45.0" updateauthor="krw910" updated="2017-08-29 21:53:45.0"/>

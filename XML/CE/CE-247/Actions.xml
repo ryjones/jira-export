@@ -1,0 +1,2 @@
+<Action id="38979" issue="26987" author="harsha544" type="comment" body="Updated PR  https://gerrit.hyperledger.org/r/#/c/17051/ " created="2018-01-22 18:01:35.0" updateauthor="harsha544" updated="2018-01-22 18:01:35.0"/>
+<Action id="39637" issue="26987" author="baohua" type="comment" body="Since this missed the v0.8.0-alpha, let&apos;s target at the coming v0.8.0-beta." created="2018-02-05 04:33:35.0" updateauthor="baohua" updated="2018-02-05 04:33:35.0"/>

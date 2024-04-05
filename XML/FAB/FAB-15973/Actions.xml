@@ -1,0 +1,2 @@
+<Action id="61859" issue="41231" author="vijaypunugubati" type="comment" body="The above bug observed from this commit cf91e228c1372e1ed4a5b94f0520cd5d5304cefa" created="2019-07-16 13:35:51.0" updateauthor="vijaypunugubati" updated="2019-07-16 13:35:51.0"/>
+<Action id="61869" issue="41231" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/c/fabric-samples/+/32353" created="2019-07-16 16:26:03.0" updateauthor="sykesm" updated="2019-07-16 16:26:03.0"/>

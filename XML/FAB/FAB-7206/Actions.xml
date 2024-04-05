@@ -1,0 +1,3 @@
+<Action id="35794" issue="24598" author="rennman" type="comment" body=" CRL generation expire/revoke parms|https://gerrit.hyperledger.org/r/#/c/15915/ " created="2017-12-04 18:23:51.0" updateauthor="rennman" updated="2017-12-04 18:24:08.0"/>
+<Action id="37016" issue="24598" author="rennman" type="comment" body="Blocked by https://gerrit.hyperledger.org/r/#/c/15999/" created="2017-12-12 22:57:34.0" updateauthor="rennman" updated="2017-12-12 22:57:34.0"/>
+<Action id="39887" issue="24598" author="rennman" type="comment" body="This particular task is done, though a new issue was opened for the automation that is currently under review." created="2018-02-08 20:17:17.0" updateauthor="rennman" updated="2018-02-08 20:17:17.0"/>

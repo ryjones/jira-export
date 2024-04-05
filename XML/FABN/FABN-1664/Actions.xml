@@ -1,0 +1,2 @@
+<Action id="70870" issue="46270" author="lesleyannj" type="comment" body="Same coverage of testing and documentation update is required for Java SDK and Gateway Java." created="2020-12-02 11:20:33.0" updateauthor="lesleyannj" updated="2020-12-02 11:20:33.0"/>
+<Action id="70871" issue="46270" author="lesleyannj" type="comment" created="2020-12-02 11:21:15.0" updateauthor="lesleyannj" updated="2020-12-02 11:21:15.0"> <body><! CDATA Mailing list query https://lists.hyperledger.org/g/fabric/message/9349  (Using Fabric Java SDK with v2.3.0 breaks code )   ></body> </Action>

@@ -1,0 +1,1 @@
+<Action id="50268" issue="19214" author="rickr" type="comment" body="Java SDK has a mulithreaded stress test that we routinely run to validate it can handle load as we would expect in Java application. The SDKs purpose is not for stress testing the Fabric" created="2018-09-11 14:52:07.0" updateauthor="rickr" updated="2018-09-11 14:52:07.0"/>

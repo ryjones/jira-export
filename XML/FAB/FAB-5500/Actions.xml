@@ -1,0 +1,2 @@
+<Action id="29533" issue="19527" author="rameshthoomu" type="comment" body="Submitted patch and it&apos;s in review https://gerrit.hyperledger.org/r/#/c/11975/" created="2017-08-08 13:46:12.0" updateauthor="rameshthoomu" updated="2017-08-08 13:46:12.0"/>
+<Action id="29719" issue="19527" author="rameshthoomu" type="comment" body="now release test job triggers tests on 1.0.1 release version." created="2017-08-11 14:00:08.0" updateauthor="rameshthoomu" updated="2017-08-11 14:00:08.0"/>

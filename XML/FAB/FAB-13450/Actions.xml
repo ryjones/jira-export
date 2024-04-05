@@ -1,0 +1,2 @@
+<Action id="55506" issue="36418" author="wlahti" type="comment" body="Hit again here: https://jenkins.hyperledger.org/job/fabric-verify-integration-tests-x86_64/4606/" created="2019-01-10 16:28:59.0" updateauthor="wlahti" updated="2019-01-10 16:28:59.0"/>
+<Action id="55529" issue="36418" author="mne" type="comment" body="Same issue as in FAB-13593 - missing synchronization for the ledger height on all peers. I submitted a patch for FAB-13593." created="2019-01-11 11:24:05.0" updateauthor="mne" updated="2019-01-11 11:24:05.0"/>

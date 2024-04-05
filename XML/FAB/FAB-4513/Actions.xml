@@ -1,0 +1,2 @@
+<Action id="25933" issue="17711" author="christopherferris" type="comment" body="ok, apparently the test cannot be skipped - someone please fix the flakiness or disable the while file. " created="2017-06-09 21:50:02.0" updateauthor="christopherferris" updated="2017-06-09 21:50:02.0"/>
+<Action id="29791" issue="17711" author="yacovm" type="comment" body="This test doesn&apos;t fail in CI in the last months..." created="2017-08-14 08:42:00.0" updateauthor="yacovm" updated="2017-08-14 08:42:00.0"/>

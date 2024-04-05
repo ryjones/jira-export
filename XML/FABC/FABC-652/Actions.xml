@@ -1,0 +1,2 @@
+<Action id="20338" issue="14010" author="smithbk" type="comment" body="We just need to add a field to distinguish between an ecert and tcert.  We&apos;ve already added a field to the cert DB for the enrollment ID so adding another field will be easy." created="2017-01-12 03:03:59.0" updateauthor="smithbk" updated="2017-01-12 03:03:59.0"/>
+<Action id="42331" issue="14010" author="skarim" type="comment" body="Closing out, TCerts will no longer be implemented" created="2018-03-29 15:10:25.0" updateauthor="skarim" updated="2018-03-29 15:10:25.0"/>

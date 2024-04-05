@@ -1,0 +1,1 @@
+<Action id="48129" issue="32084" author="ozheregelya" type="comment" body="The initial problem with timeout errors during connection to the pool was fixed after changing of timeouts on libindy side." created="2018-07-30 16:35:44.0" updateauthor="ozheregelya" updated="2018-07-30 16:35:44.0"/>

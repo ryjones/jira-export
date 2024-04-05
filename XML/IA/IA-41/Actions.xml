@@ -1,0 +1,1 @@
+<Action id="52995" issue="34536" author="dbluhm" type="comment" body="We need to update the docs to include what they need to type in in order to actually communicate with another reference agent instance i.e. http://localhost:port/offer and http://localhost:port/indy" created="2018-11-02 22:08:14.0" updateauthor="dbluhm" updated="2018-11-02 22:09:18.0"/>

@@ -1,0 +1,1 @@
+<Action id="65103" issue="36774" author="heatherp" type="comment" body="I am working through the node sdk backlog with the maintainers and this is not something that we will be prioritizing for the 1.4.0 stream. The new chaincode lifecycle updates in v2.0 invalidate this issue, so closing" created="2019-10-29 15:59:10.0" updateauthor="heatherp" updated="2019-10-29 15:59:10.0"/>

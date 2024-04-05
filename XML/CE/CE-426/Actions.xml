@@ -1,0 +1,2 @@
+<Action id="48092" issue="32391" author="lordgoodman" type="comment" body="This issue is identified by lacking of get_url method, I will fix it as soon as possible." created="2018-07-30 07:34:20.0" updateauthor="lordgoodman" updated="2018-07-30 07:34:20.0"/>
+<Action id="49336" issue="32391" author="lordgoodman" type="comment" body="https://gerrit.hyperledger.org/r/#/c/25391/" created="2018-08-24 09:29:46.0" updateauthor="lordgoodman" updated="2018-08-24 09:29:46.0"/>

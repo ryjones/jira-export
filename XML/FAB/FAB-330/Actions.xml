@@ -1,0 +1,4 @@
+<Action id="18848" issue="12631" author="ryjones" type="comment" body="example issue?" created="2016-09-11 19:51:01.0" updateauthor="ryjones" updated="2016-09-11 19:51:01.0"/>
+<Action id="18850" issue="12631" author="ryjones" type="comment" body="ah ha, I see" created="2016-09-11 20:02:30.0" updateauthor="ryjones" updated="2016-09-11 20:02:30.0"/>
+<Action id="18852" issue="12631" author="christopherferris" type="comment" body="#allofthem :-)" created="2016-09-11 21:03:54.0" updateauthor="christopherferris" updated="2016-09-11 21:03:54.0"/>
+<Action id="18937" issue="12631" author="christopherferris" type="comment" body="I believe I have figured this out. I just transitioned this to in-progress without it setting resolution. There was a checkbox in Kanban view that was ticked that &apos;set resolution&apos;. I unchecked it. Seems to have solved the issue." created="2016-09-19 12:55:36.0" updateauthor="christopherferris" updated="2016-09-19 12:55:36.0"/>

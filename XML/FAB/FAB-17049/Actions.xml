@@ -1,0 +1,1 @@
+<Action id="65453" issue="43280" author="sykesm" type="comment" created="2019-11-11 20:01:07.0" updateauthor="sykesm" updated="2019-11-11 20:01:07.0"> <body><! CDATA https://gerrit.hyperledger.org/r/c/fabric/+/34335 Relocate raft config specific helpers to raft tests   ></body> </Action>

@@ -1,0 +1,1 @@
+<Issue id="44686" key="INDY-2358" number="2358" project="10303" reporter="ashcherbakov" creator="ashcherbakov" type="10002" summary="Move indy-node CI pipeline to GitHub Actions" priority="3" status="10200" created="2020-03-27 08:31:25.0" updated="2020-04-03 00:58:25.0" votes="0" watches="1" workflowId="58604" archived="N"/>

@@ -1,0 +1,2 @@
+<Action id="27219" issue="18073" author="latitiah" type="comment" body="https://gerrit.hyperledger.org/r/11029" created="2017-06-22 19:27:16.0" updateauthor="latitiah" updated="2017-06-22 19:27:16.0"/>
+<Action id="27581" issue="18073" author="latitiah" type="comment" body="After multiple discussions, it is determined that this is not a valid testcase. This scenario as stated can have differing results." created="2017-06-29 00:39:56.0" updateauthor="latitiah" updated="2017-06-29 00:39:56.0"/>

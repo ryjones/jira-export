@@ -1,0 +1,1 @@
+<Action id="44368" issue="28980" author="yacovm" type="comment" created="2018-05-14 20:17:55.0" updateauthor="yacovm" updated="2018-05-14 20:45:57.0"> <body><! CDATA I think I fixed it in https://gerrit.hyperledger.org/r/#/c/20555/    Which addresses FAB-9492  ></body> </Action>

@@ -1,0 +1,4 @@
+<Action id="70584" issue="46253" author="pandrejko" type="comment" body="After this is implemented we need to remove the requirement to set these values from the orderer deployment guide planning checklist." created="2020-10-29 19:53:32.0" updateauthor="pandrejko" updated="2020-10-29 19:53:32.0"/>
+<Action id="70620" issue="46253" author="tsharris" type="comment" body="https://github.com/hyperledger/fabric/pull/2078" created="2020-11-05 20:29:45.0" updateauthor="tsharris" updated="2020-11-05 20:29:45.0"/>
+<Action id="70643" issue="46253" author="wlahti" type="comment" body="Reopening to track backporting to the release-2.2 branch." created="2020-11-09 19:44:15.0" updateauthor="wlahti" updated="2020-11-09 19:44:15.0"/>
+<Action id="70672" issue="46253" author="tsharris" type="comment" body="backport https://github.com/hyperledger/fabric/pull/2119" created="2020-11-13 13:53:40.0" updateauthor="tsharris" updated="2020-11-13 13:53:40.0"/>

@@ -1,0 +1,2 @@
+<Action id="25965" issue="17737" author="c0rwin" type="comment" body="I think this is an improvement rather than bug, so yes I&apos;d agree we need to take care of it, while I think we can do it post v1.0." created="2017-06-10 21:38:28.0" updateauthor="c0rwin" updated="2017-06-10 21:38:28.0"/>
+<Action id="25966" issue="17737" author="yacovm" type="comment" body="Fix / improvement in https://gerrit.hyperledger.org/r/#/c/10441/ " created="2017-06-10 21:46:12.0" updateauthor="yacovm" updated="2017-06-10 21:46:12.0"/>

@@ -1,0 +1,2 @@
+<Action id="32537" issue="22444" author="scottz" type="comment" body="We are adding the two commands to the fabric-test/feature/scripts/install_behave.sh script with fab-6439, so the CI can find them there." created="2017-10-16 22:16:59.0" updateauthor="scottz" updated="2017-10-16 22:16:59.0"/>
+<Action id="62283" issue="22444" author="mastersingh24" type="comment" body="Open 1 year or more with no activity ... time to cleanup" created="2019-07-30 02:41:58.0" updateauthor="mastersingh24" updated="2019-07-30 02:41:58.0"/>

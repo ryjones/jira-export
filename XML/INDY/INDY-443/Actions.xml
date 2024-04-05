@@ -1,0 +1,1 @@
+<Action id="52002" issue="19375" author="toktar" type="comment" body="It happen in the old CLI that deprecated. This problem links with the json format error and should be checked in the indy-sdk level. " created="2018-10-10 13:22:25.0" updateauthor="toktar" updated="2018-10-10 13:22:25.0"/>

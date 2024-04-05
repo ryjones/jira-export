@@ -1,0 +1,2 @@
+<Action id="59523" issue="39529" author="mbwhite" type="comment" body="https://gerrit.hyperledger.org/r/31109  FAB-15289  Forward Port logging updates" created="2019-04-26 11:18:11.0" updateauthor="mbwhite" updated="2019-04-26 11:18:11.0"/>
+<Action id="63798" issue="39529" author="heatherp" type="comment" body="Inadvertently covered by some cherry picking I&apos;ve done here: https://gerrit.hyperledger.org/r/c/fabric-chaincode-node/+/33531" created="2019-09-17 15:25:06.0" updateauthor="heatherp" updated="2019-09-17 15:25:06.0"/>

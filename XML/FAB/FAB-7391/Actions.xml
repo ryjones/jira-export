@@ -1,0 +1,3 @@
+<Action id="37730" issue="24882" author="muralisr" type="comment" body="It makes more sense to make this a subtask of FAB-3621. " created="2017-12-21 19:29:59.0" updateauthor="muralisr" updated="2017-12-21 19:29:59.0"/>
+<Action id="37732" issue="24882" author="denyeart" type="comment" body="https://gerrit.hyperledger.org/r/#/c/16037/" created="2017-12-21 19:39:33.0" updateauthor="denyeart" updated="2017-12-21 19:39:33.0"/>
+<Action id="37922" issue="24882" author="jonathanlevi" type="comment" body="I have updated the Fix Version to be &quot;v1.1&quot; tentatively so that we don&apos;t miss this from the stats - as per the scrum chat today." created="2018-01-03 14:50:24.0" updateauthor="jonathanlevi" updated="2018-01-03 14:50:24.0"/>

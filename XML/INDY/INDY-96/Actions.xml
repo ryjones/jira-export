@@ -1,0 +1,3 @@
+<Action id="24633" issue="17222" author="lovesh" type="comment" body="Need state proofs to be implemented, we don&apos;t them as of now" created="2017-05-30 12:20:11.0" updateauthor="lovesh" updated="2017-05-30 12:20:11.0"/>
+<Action id="36902" issue="17222" author="seanbohan_sovrin" type="comment" body=" ~ashcherbakov  - guessing we already have tests - do we need tests here or can we close this?" created="2017-12-12 18:10:48.0" updateauthor="seanbohan_sovrin" updated="2017-12-12 18:11:03.0"/>
+<Action id="64600" issue="17222" author="ashcherbakov" type="comment" body="We already have similar tests" created="2019-10-11 09:52:36.0" updateauthor="ashcherbakov" updated="2019-10-11 09:52:36.0"/>

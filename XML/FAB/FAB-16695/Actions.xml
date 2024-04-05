@@ -1,0 +1,2 @@
+<Action id="64214" issue="42482" author="denyeart" type="comment" created="2019-09-30 19:34:30.0" updateauthor="denyeart" updated="2019-09-30 19:34:30.0"> <body><! CDATA Merged in release-1.4 and master.  ~jyellick  Please see release note field.  ></body> </Action>
+<Action id="70375" issue="42482" author="mastersingh24" type="comment" body="marking as security issue as submitter has security concerns due to the nature of their business" created="2020-09-24 12:07:57.0" updateauthor="mastersingh24" updated="2020-09-24 12:07:57.0"/>

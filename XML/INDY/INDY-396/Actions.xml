@@ -1,0 +1,3 @@
+<Action id="28164" issue="19123" author="krw910" type="comment" body="Looks like this is tied to or the same as INDY-378" created="2017-07-11 16:17:34.0" updateauthor="krw910" updated="2017-07-11 16:17:34.0"/>
+<Action id="28168" issue="19123" author="devin-fisher" type="comment" created="2017-07-11 17:12:46.0" updateauthor="devin-fisher" updated="2017-07-11 17:12:46.0"> <body><! CDATA *Not* tied to INDY-378  Caused by a typo in a hand edited genesis file. Changes INDY-392 should prevent needing to hand-edit these files.  ></body> </Action>
+<Action id="28188" issue="19123" author="krw910" type="comment" body="My pool_transactions_sandbox file was incorrect." created="2017-07-11 22:25:29.0" updateauthor="krw910" updated="2017-07-11 22:25:29.0"/>

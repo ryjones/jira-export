@@ -1,0 +1,2 @@
+<Action id="19557" issue="13237" author="kchristidis" type="comment" created="2016-10-29 17:45:20.0" updateauthor="kchristidis" updated="2016-10-29 17:45:20.0"> <body><! CDATA Thank you for reporting this.  Just pushed a changeset that updates the vendored version to the one released on 10/16: https://gerrit.hyperledger.org/r/#/c/2099/  ></body> </Action>
+<Action id="19558" issue="13237" author="bcbrock" type="comment" body="Thanks Kostas!" created="2016-10-30 00:07:23.0" updateauthor="bcbrock" updated="2016-10-30 00:07:23.0"/>

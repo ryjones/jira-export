@@ -1,0 +1,3 @@
+<Action id="48001" issue="32224" author="hightall" type="comment" body=" ~baohua  you create the docker type cluster?" created="2018-07-27 02:29:52.0" updateauthor="hightall" updated="2018-07-27 02:29:52.0"/>
+<Action id="48002" issue="32224" author="hightall" type="comment" body=" ~baohua  I test the latest code, create the docker cluster is successfully." created="2018-07-27 02:42:53.0" updateauthor="hightall" updated="2018-07-27 02:42:53.0"/>
+<Action id="48027" issue="32224" author="baohua" type="comment" created="2018-07-27 11:47:02.0" updateauthor="baohua" updated="2018-07-27 11:47:02.0"> <body><! CDATA In the dev mode, need to run `make build-admin-js` before start. This fixed the error logs.  ></body> </Action>

@@ -1,4 +1,0 @@
-<ProjectRole id="10002" name="Administrators" description="A project role that represents administrators in a project"/> 
-<ProjectRole id="10100" name="Developers"/> 
-<ProjectRole id="10200" name="Maintainers" description=""/> 
-<ProjectRole id="10201" name="Test Leads" description=""/> 

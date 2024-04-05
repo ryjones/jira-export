@@ -1,0 +1,1 @@
+<Action id="18756" issue="12596" author="mastersingh24" type="comment" body="The environment variable prefix for membersrvcs is not *CORE* but rather *MEMBERSRVC_CA* " created="2016-09-02 23:34:39.0" updateauthor="mastersingh24" updated="2016-09-02 23:34:53.0"/>

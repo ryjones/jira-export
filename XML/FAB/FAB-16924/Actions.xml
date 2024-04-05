@@ -1,0 +1,1 @@
+<Action id="65061" issue="42964" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/c/fabric/+/34136 UpdateOrdererConfigSession returns without waiting" created="2019-10-28 22:16:38.0" updateauthor="sykesm" updated="2019-10-28 22:16:38.0"/>

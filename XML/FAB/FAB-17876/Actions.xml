@@ -1,0 +1,2 @@
+<Action id="69258" issue="45047" author="mastersingh24" type="comment" body="What are you using to generate the genesis block for your orderer system channel?  Looks like you might not have the correct TLS identities configured for your orderer nodes" created="2020-05-17 08:42:10.0" updateauthor="mastersingh24" updated="2020-05-17 08:42:10.0"/>
+<Action id="71016" issue="45047" author="mastersingh24" type="comment" body="I&apos;m closing this as stale" created="2020-12-26 10:20:33.0" updateauthor="mastersingh24" updated="2020-12-26 10:20:33.0"/>

@@ -1,0 +1,2 @@
+<Action id="43426" issue="29654" author="ashcherbakov" type="comment" created="2018-04-25 16:23:41.0" updateauthor="ashcherbakov" updated="2018-04-25 16:23:41.0"> <body><! CDATA This is because we have 0.2.5 dependency in setup.py and 0.2.4 dependency in build scripts (to build deb packages). Switching to 0.2.4:  PR: https://github.com/hyperledger/indy-plenum/pull/649  ></body> </Action>
+<Action id="43431" issue="29654" author="ashcherbakov" type="comment" body="Fixed in 1.3.387" created="2018-04-25 17:39:53.0" updateauthor="ashcherbakov" updated="2018-04-25 17:39:53.0"/>

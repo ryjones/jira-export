@@ -1,0 +1,1 @@
+<Action id="51886" issue="19756" author="sergey-shilov" type="comment" body="For now NodeZStack is used on the server side only, CLI based on the Client class is deprecated and is going to be removed, this ticket is not relevant and may be closed." created="2018-10-09 08:50:45.0" updateauthor="sergey-shilov" updated="2018-10-09 08:50:45.0"/>

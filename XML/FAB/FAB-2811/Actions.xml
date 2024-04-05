@@ -1,0 +1,2 @@
+<Action id="21552" issue="15384" author="mastersingh24" type="comment" body=" ~bmos299   opened this to figure out how to provide better debug / log info for GRPC issues" created="2017-03-17 13:55:18.0" updateauthor="mastersingh24" updated="2017-03-17 13:55:18.0"/>
+<Action id="24005" issue="15384" author="mastersingh24" type="comment" body=" https://gerrit.hyperledger.org/r/#/c/8835/   handles this " created="2017-05-18 09:38:26.0" updateauthor="mastersingh24" updated="2017-05-18 09:38:26.0"/>

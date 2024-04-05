@@ -1,0 +1,1 @@
+<Action id="57137" issue="37274" author="latitiah" type="comment" body="The plan was to add these tests to ginkgo-based integration tests. Due to timing constraints, the tests have been added to the fabric-test behave-based tests: https://gerrit.hyperledger.org/r/#/c/29350/" created="2019-02-18 14:21:49.0" updateauthor="latitiah" updated="2019-02-18 14:21:49.0"/>

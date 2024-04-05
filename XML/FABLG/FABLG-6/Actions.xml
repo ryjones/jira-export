@@ -1,0 +1,2 @@
+<Action id="60872" issue="39722" author="vijaypunugubati" type="comment" body="The merge job is running as expected, nothing to do now for the above issue,  it&apos;s fixed I guess and i request  ~btl5037  to update the CR link here for reference and close it." created="2019-06-11 14:13:41.0" updateauthor="vijaypunugubati" updated="2019-06-11 14:13:41.0"/>
+<Action id="60914" issue="39722" author="btl5037" type="comment" body="https://gerrit.hyperledger.org/r/c/fabric-lib-go/+/31290" created="2019-06-12 14:49:02.0" updateauthor="btl5037" updated="2019-06-12 14:49:02.0"/>

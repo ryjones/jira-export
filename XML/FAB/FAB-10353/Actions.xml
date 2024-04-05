@@ -1,0 +1,1 @@
+<Action id="45085" issue="30573" author="vadiminshakov" type="comment" body="Problem solved. The docker network was not configured correctly." created="2018-05-24 18:36:20.0" updateauthor="vadiminshakov" updated="2018-05-24 18:36:20.0"/>

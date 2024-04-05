@@ -1,0 +1,1 @@
+<Action id="63599" issue="40883" author="rameshthoomu" type="comment" body="In future we may not use gen_cfgInputs.sh script to use PTE. Closing this based on the recent changes happening around test client https://jira.hyperledger.org/browse/FAB-16240 " created="2019-09-06 15:08:02.0" updateauthor="rameshthoomu" updated="2019-09-06 15:08:02.0"/>

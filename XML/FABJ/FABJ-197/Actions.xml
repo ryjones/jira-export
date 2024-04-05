@@ -1,0 +1,3 @@
+<Action id="28644" issue="19349" author="liuwenliang0632" type="comment" body=" FAB-5178 and FAB-5344" created="2017-07-19 09:51:00.0" updateauthor="liuwenliang0632" updated="2017-07-19 09:55:19.0"/>
+<Action id="28652" issue="19349" author="rickr" type="comment" body="The operation needs to throw an exception as 503 is an indicator of a failure. The user will need to retry the operation." created="2017-07-19 11:35:01.0" updateauthor="rickr" updated="2017-07-19 11:35:01.0"/>
+<Action id="29860" issue="19349" author="rickr" type="comment" body="I think this has been addressed in v1.0.1" created="2017-08-15 15:44:20.0" updateauthor="rickr" updated="2017-08-15 15:44:20.0"/>

@@ -1,0 +1,2 @@
+<Action id="19327" issue="12760" author="smithbk" type="comment" body="cop will not run inside a peer or orderer, so this work is not needed" created="2016-10-21 12:33:38.0" updateauthor="smithbk" updated="2016-10-21 12:33:38.0"/>
+<Action id="22469" issue="12760" author="mastersingh24" type="comment" body="no longer relevant" created="2017-04-14 17:27:05.0" updateauthor="mastersingh24" updated="2017-04-14 17:27:05.0"/>

@@ -1,0 +1,1 @@
+<Action id="40071" issue="27651" author="rennman" type="comment" body="The script was inspecting the root DB twice, instead of checking each DB once, so closing this as user error." created="2018-02-13 17:07:08.0" updateauthor="rennman" updated="2018-02-13 17:07:08.0"/>

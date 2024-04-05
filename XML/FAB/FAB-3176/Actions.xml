@@ -1,0 +1,2 @@
+<Action id="22693" issue="15763" author="elli-androulaki" type="comment" body=" ~vpaprots  and  ~adecaro  can you guys take a look at this?" created="2017-04-19 09:18:12.0" updateauthor="elli-androulaki" updated="2017-04-19 09:18:12.0"/>
+<Action id="22908" issue="15763" author="angelo.decaro" type="comment" body="Addressed sw package in https://gerrit.hyperledger.org/r/#/c/8443/. Thanks :)" created="2017-04-23 15:59:31.0" updateauthor="angelo.decaro" updated="2017-04-23 15:59:31.0"/>

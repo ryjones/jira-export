@@ -1,0 +1,1 @@
+<Action id="23043" issue="16021" author="adnanchoudhury" type="comment" body="Throughput was measured with varying 1) number of chaincodes, 2) no. of parallel transactions, 3) key-value size, 4) batch size 5) no. of total keys. The results are in the attached spreadsheet,  " created="2017-04-26 17:26:41.0" updateauthor="adnanchoudhury" updated="2017-04-26 17:26:41.0"/>

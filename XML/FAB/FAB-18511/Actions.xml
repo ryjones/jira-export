@@ -1,0 +1,2 @@
+<Action id="71911" issue="47009" author="jtonline" type="comment" body="See also https://jira.hyperledger.org/browse/FAB-18420" created="2021-07-01 16:55:44.0" updateauthor="jtonline" updated="2021-07-01 16:55:44.0"/>
+<Action id="71913" issue="47009" author="lesleyannj" type="comment" body="If sample is based on HLF 2.x it there should be annotations if working in 1.4.x" created="2021-07-02 14:26:07.0" updateauthor="lesleyannj" updated="2021-07-02 14:26:07.0"/>

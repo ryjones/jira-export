@@ -1,0 +1,2 @@
+<Action id="55870" issue="36041" author="mastersingh24" type="comment" body="This is no longer an issue as we no longer use fabric-baseimage.  buildenv is now Alpine-based and does not leverage baseimage at all." created="2019-01-20 14:52:10.0" updateauthor="mastersingh24" updated="2019-01-20 14:52:10.0"/>
+<Action id="55871" issue="36041" author="mastersingh24" type="comment" body="No need to do this anymore per my comment so marking as won&apos;t do (for lack of a better option)" created="2019-01-20 14:53:11.0" updateauthor="mastersingh24" updated="2019-01-20 14:53:11.0"/>

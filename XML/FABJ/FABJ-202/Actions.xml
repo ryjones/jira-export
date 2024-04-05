@@ -1,0 +1,4 @@
+<Action id="31602" issue="21021" author="rickr" type="comment" created="2017-10-04 14:31:53.0" updateauthor="rickr" updated="2017-10-04 14:31:53.0"> <body><! CDATA Hi  ~sharad.develop  Are you actively working on this ?   ETA for a patch ?  If not, please unassign  ></body> </Action>
+<Action id="31901" issue="21021" author="sgdev" type="comment" body="Yes working on it." created="2017-10-07 22:22:10.0" updateauthor="sgdev" updated="2017-10-07 22:22:10.0"/>
+<Action id="31902" issue="21021" author="sgdev" type="comment" body="Code is committed. This is my first commit . Let me know if there is anything I missed in the processes." created="2017-10-08 00:37:15.0" updateauthor="sgdev" updated="2017-10-08 00:37:15.0"/>
+<Action id="31910" issue="21021" author="sgdev" type="comment" body="https://gerrit.hyperledger.org/r/#/c/14303/" created="2017-10-08 19:30:34.0" updateauthor="sgdev" updated="2017-10-08 19:30:34.0"/>

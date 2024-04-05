@@ -1,0 +1,2 @@
+<Action id="35376" issue="23850" author="gudkov" type="comment" body="Proposed design can be found here: https://docs.google.com/document/d/17kVWsKQ_lPjz2VprYa44dfjD_ur7k-dACe6VrUKkAqQ/edit#" created="2017-11-23 13:43:27.0" updateauthor="gudkov" updated="2017-11-23 13:43:27.0"/>
+<Action id="35383" issue="23850" author="ashcherbakov" type="comment" created="2017-11-23 15:07:03.0" updateauthor="ashcherbakov" updated="2017-11-23 15:07:03.0"> <body><! CDATA Discussed, updated API a bit, and came to Consensus. Looks good for me.  ></body> </Action>

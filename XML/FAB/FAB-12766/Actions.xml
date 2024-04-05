@@ -1,0 +1,2 @@
+<Action id="53163" issue="35176" author="sykesm" type="comment" body="The default fudge is 1ms but we can clearly differ by 10ms or more so will create a threshold of 100ms." created="2018-11-07 16:53:20.0" updateauthor="sykesm" updated="2018-11-07 16:53:20.0"/>
+<Action id="53168" issue="35176" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/27440  FAB-12766  increase temporal threshold in tests" created="2018-11-07 18:10:29.0" updateauthor="sykesm" updated="2018-11-07 18:10:29.0"/>

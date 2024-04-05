@@ -1,0 +1,2 @@
+<Action id="19547" issue="12850" author="dongming" type="comment" body="Performance Node SDK supports simultaneous invokes and queries transaction on multiple LPARs concurrently. Each LPAR has multiple threads running concurrently." created="2016-10-28 18:54:06.0" updateauthor="dongming" updated="2016-10-28 18:54:06.0"/>
+<Action id="30892" issue="12850" author="dongming" type="comment" body="This is done in FAB-6034: PTE checked into fabric-test" created="2017-09-14 18:38:23.0" updateauthor="dongming" updated="2017-09-14 18:38:23.0"/>

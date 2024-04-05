@@ -1,0 +1,1 @@
+<Action id="33008" issue="20722" author="harrisob@us.ibm.com" type="comment" body="Chaincode must be installed on all peers that will endorse a proposal" created="2017-10-23 18:58:09.0" updateauthor="harrisob@us.ibm.com" updated="2017-10-23 18:58:09.0"/>

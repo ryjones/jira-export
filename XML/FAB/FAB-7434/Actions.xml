@@ -1,0 +1,2 @@
+<Action id="36613" issue="25409" author="mastersingh24" type="comment" body="Packaging chaincode should support &quot;repeatable&quot; builds so I think we should fix this one" created="2017-12-12 09:23:04.0" updateauthor="mastersingh24" updated="2017-12-12 09:23:04.0"/>
+<Action id="36614" issue="25409" author="mastersingh24" type="comment" created="2017-12-12 09:34:52.0" updateauthor="mastersingh24" updated="2017-12-12 09:34:52.0"> <body><! CDATA https://gerrit.hyperledger.org/r/16143  (master) https://gerrit.hyperledger.org/r/16145 (release)  ></body> </Action>

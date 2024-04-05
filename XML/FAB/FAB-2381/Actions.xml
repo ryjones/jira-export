@@ -1,0 +1,1 @@
+<Action id="22164" issue="14944" author="denyeart" type="comment" created="2017-04-11 22:17:56.0" updateauthor="denyeart" updated="2017-04-11 22:17:56.0"> <body><! CDATA Timestamp is an object, to view it you would have to convert it to a string, for example: time.Unix(response.Timestamp.Seconds, int64(response.Timestamp.Nanos)).String())  Closing.  ></body> </Action>

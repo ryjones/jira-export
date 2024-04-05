@@ -1,0 +1,2 @@
+<Action id="40736" issue="27968" author="rameshthoomu" type="comment" body="the fabric-ca is now pointing to 1.9 in `ci.properties` file. As we are claiming 1.1 release supports 1.9.2, it&apos;s better to update go version in fabric-ca to 1.9.2." created="2018-02-24 20:01:48.0" updateauthor="rameshthoomu" updated="2018-02-24 20:01:48.0"/>
+<Action id="40737" issue="27968" author="rameshthoomu" type="comment" body="https://gerrit.hyperledger.org/r/#/c/18349/" created="2018-02-24 20:02:07.0" updateauthor="rameshthoomu" updated="2018-02-24 20:02:07.0"/>

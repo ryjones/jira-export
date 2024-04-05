@@ -1,0 +1,1 @@
+<Action id="27896" issue="18954" author="sudeshrshetty" type="comment" created="2017-07-05 19:15:42.0" updateauthor="sudeshrshetty" updated="2017-07-05 19:15:42.0"> <body><! CDATA Removed 'GetXXX' methods and test coverage improved to 93.5%.  Refer  ^orderer-July4th2017-test-report.html   ></body> </Action>

@@ -1,0 +1,1 @@
+<Action id="66873" issue="40646" author="scottz" type="comment" body="gen_cfgInputs.sh and other scripts, as well as all the test input files in PTE/, are being sunset soon, replaced by operator. No more enhancements." created="2020-01-21 21:16:35.0" updateauthor="scottz" updated="2020-01-21 21:16:35.0"/>

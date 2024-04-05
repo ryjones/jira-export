@@ -1,0 +1,1 @@
+<Action id="58166" issue="37755" author="scottz" type="comment" body="Raft doesn&apos;t care; it treats &quot;duplicate&quot; transactions just like new transactions. Therefore this is same as many other tests that blast lots of transactions." created="2019-03-14 21:20:10.0" updateauthor="scottz" updated="2019-03-14 21:20:10.0"/>

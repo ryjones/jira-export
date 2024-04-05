@@ -1,0 +1,3 @@
+<Action id="68256" issue="44518" author="JIRAUSER19912" type="comment" body="Unsure of how I can get it  to pop up, but I though I&apos;d at least mention my fix here: https://github.com/hyperledger/fabric/pull/814" created="2020-03-09 12:16:13.0" updateauthor="JIRAUSER19912" updated="2020-03-09 12:16:13.0"/>
+<Action id="68264" issue="44518" author="yacovm" type="comment" body="This is by design... look at FAB-5406 for more information" created="2020-03-09 16:38:27.0" updateauthor="yacovm" updated="2020-03-09 16:38:27.0"/>
+<Action id="68292" issue="44518" author="sykesm" type="comment" body="This is working as designed. Please see the conversation on PR #814." created="2020-03-12 14:27:54.0" updateauthor="sykesm" updated="2020-03-12 14:27:54.0"/>

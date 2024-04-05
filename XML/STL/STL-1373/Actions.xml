@@ -1,0 +1,1 @@
+<Action id="52190" issue="32415" author="shresthi" type="comment" created="2018-10-12 19:32:21.0" updateauthor="shresthi" updated="2018-10-12 19:32:21.0"> <body><! CDATA Issue is reproducible in Sawtooth 1.1 release candidate.  !STL1404.png!  Issue similar with  STL-1167, STL-1404 and STL-1450.  ></body> </Action>

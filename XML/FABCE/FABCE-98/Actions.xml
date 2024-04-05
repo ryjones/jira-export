@@ -1,0 +1,2 @@
+<Action id="56120" issue="36884" author="mhbauer" type="comment" body="Does this mean actual deployed for users documentation, or is it handled by the release notes?  https://github.com/hyperledger/fabric-chaincode-evm/blob/release-0.1/release_notes/v0.1.0.md " created="2019-01-23 20:23:06.0" updateauthor="mhbauer" updated="2019-01-23 20:23:06.0"/>
+<Action id="57788" issue="36884" author="swetharepakula" type="comment" body="https://gerrit.hyperledger.org/r/#/c/29752/" created="2019-03-01 20:05:00.0" updateauthor="swetharepakula" updated="2019-03-01 20:05:00.0"/>

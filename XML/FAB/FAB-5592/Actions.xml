@@ -1,0 +1,3 @@
+<Action id="29422" issue="19914" author="liuwenliang0632" type="comment" body="https://gerrit.hyperledger.org/r/#/c/12123/" created="2017-08-04 02:47:39.0" updateauthor="liuwenliang0632" updated="2017-08-04 02:47:39.0"/>
+<Action id="30252" issue="19914" author="mastersingh24" type="comment" body="1.1 candidate" created="2017-08-28 11:31:20.0" updateauthor="mastersingh24" updated="2017-08-28 11:31:20.0"/>
+<Action id="30271" issue="19914" author="jonathanlevi" type="comment" body=" ~liuwenliang0632 : That&apos;s awesome. Yes, we should not have ignored these fields, and I like the tests. Thank you." created="2017-08-28 18:15:26.0" updateauthor="jonathanlevi" updated="2017-08-28 18:15:26.0"/>

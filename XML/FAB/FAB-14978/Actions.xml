@@ -1,0 +1,1 @@
+<Action id="59165" issue="38976" author="denyeart" type="comment" body="We can leave node.js package.json references to ~1.4.0, as this will pull latest 3rd digit releases from npm automatically." created="2019-04-11 17:50:30.0" updateauthor="denyeart" updated="2019-04-11 17:50:30.0"/>

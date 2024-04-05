@@ -1,0 +1,1 @@
+<Action id="49250" issue="32718" author="wlahti" type="comment" body="Instead of using a marshaled GRPC proto as the install package, we have switched to using a tar.gz package format to make it easy to inspect chaincode packages with existing tools. Abandoning this item." created="2018-08-22 15:43:34.0" updateauthor="wlahti" updated="2018-08-22 15:43:34.0"/>

@@ -1,0 +1,2 @@
+<Action id="50004" issue="33157" author="kchristidis" type="comment" body=" ~guoger : Reverted this back to In Progress since I think we&apos;ve abandoned the original CR. LMK if I&apos;m wrong." created="2018-09-06 13:44:58.0" updateauthor="kchristidis" updated="2018-09-06 13:44:58.0"/>
+<Action id="50398" issue="33157" author="guoger" type="comment" body="https://gerrit.hyperledger.org/r/c/25479" created="2018-09-13 09:15:31.0" updateauthor="guoger" updated="2018-09-13 09:15:31.0"/>

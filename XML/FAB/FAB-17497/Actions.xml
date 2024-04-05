@@ -1,0 +1,1 @@
+<Action id="70585" issue="44327" author="JIRAUSER19844" type="comment" created="2020-10-30 11:12:28.0" updateauthor="JIRAUSER19844" updated="2020-10-30 11:12:28.0"> <body><! CDATA I wrote a simple exporter for kubernetes hosted environments:  https://github.com/kantipov/hlf-cert-exporter  May be would be helpful to somebody.  ></body> </Action>

@@ -1,0 +1,1 @@
+<Action id="68155" issue="44448" author="dongming" type="comment" created="2020-02-28 15:27:52.0" updateauthor="dongming" updated="2020-02-28 15:27:52.0"> <body><! CDATA remove transmodes: burst, simple, and mix  remove recHist option   https://github.com/hyperledger/fabric-test/pull/115   ></body> </Action>

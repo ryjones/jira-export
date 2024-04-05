@@ -1,0 +1,2 @@
+<Action id="53111" issue="35122" author="praveen.j" type="comment" body="This functionality is useful for any scenario where one chaincode is to be given trusted privileged access to the functions exposed by another chaincode (e.g., decentralized exchanges, escrows)" created="2018-11-07 05:06:17.0" updateauthor="praveen.j" updated="2018-11-07 05:06:17.0"/>
+<Action id="67346" issue="35122" author="sykesm" type="comment" body="Stale" created="2020-01-22 22:32:17.0" updateauthor="sykesm" updated="2020-01-22 22:32:17.0"/>

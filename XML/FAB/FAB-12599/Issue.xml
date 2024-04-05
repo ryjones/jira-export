@@ -1,0 +1,1 @@
+<Issue id="34872" key="FAB-12599" number="12599" project="10002" reporter="huikang" creator="huikang" type="10004" summary="Unused variable in peer/node/start.go" priority="4" resolution="10000" status="6" created="2018-10-25 01:49:47.0" updated="2018-12-02 21:12:33.0" resolutiondate="2018-12-02 21:12:33.0" votes="0" watches="2" workflowId="46289"/>

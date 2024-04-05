@@ -1,0 +1,2 @@
+<Action id="49021" issue="33009" author="vladimirwork" type="comment" body="All logs/journalctls/validator-infos are in /home/ev/logs/1608.tar.gz." created="2018-08-17 13:41:50.0" updateauthor="vladimirwork" updated="2018-08-17 13:41:50.0"/>
+<Action id="52095" issue="33009" author="ashcherbakov" type="comment" body="INDY-1539 is DONE. Will be re-tested in the scope of the current load testing." created="2018-10-11 12:28:00.0" updateauthor="ashcherbakov" updated="2018-10-11 12:28:00.0"/>

@@ -1,0 +1,1 @@
+<Action id="20208" issue="12899" author="rameshthoomu" type="comment" body="As node-sdk tests are now moved out to it&apos;s own fabric-node-sdk repository. For now will hold on this change as this requires change in CI scripts as well." created="2016-12-27 16:38:23.0" updateauthor="rameshthoomu" updated="2016-12-27 16:38:23.0"/>

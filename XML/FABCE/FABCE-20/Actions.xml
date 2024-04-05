@@ -1,0 +1,1 @@
+<Action id="55415" issue="36453" author="mhbauer" type="comment" created="2019-01-08 19:06:12.0" updateauthor="mhbauer" updated="2019-01-08 19:06:12.0"> <body><! CDATA this would mean a bypass for the check on the fabric version in the integration tests.     Is this also going to be set up to notify us on failure? post to fabric-cahincode-evm channel in chat?  ></body> </Action>

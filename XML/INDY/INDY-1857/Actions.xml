@@ -1,0 +1,2 @@
+<Action id="55120" issue="35447" author="derashe" type="comment" created="2018-12-24 15:15:43.0" updateauthor="derashe" updated="2018-12-24 15:15:43.0"> <body><! CDATA PRs: * plenum https://github.com/hyperledger/indy-plenum/pull/1038 * node https://github.com/hyperledger/indy-node/pull/1111  ></body> </Action>
+<Action id="55122" issue="35447" author="derashe" type="comment" created="2018-12-24 15:19:59.0" updateauthor="derashe" updated="2018-12-24 15:19:59.0"> <body><! CDATA Class diagram  !diagram.png|thumbnail!  ></body> </Action>

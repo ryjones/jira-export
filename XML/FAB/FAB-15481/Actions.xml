@@ -1,0 +1,1 @@
+<Action id="64837" issue="39918" author="guoger" type="comment" body="so we will allow chaincode to invoke peer api directly, instead of via InvokeChaincode?" created="2019-10-22 08:23:13.0" updateauthor="guoger" updated="2019-10-22 08:23:13.0"/>

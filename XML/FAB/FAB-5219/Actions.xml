@@ -1,0 +1,2 @@
+<Action id="39141" issue="19092" author="sanchezl" type="comment" body="You can edit the Vagrantfile for your particular system, but 4096 was determined to be the minimum needed for the devenv." created="2018-01-25 21:28:24.0" updateauthor="sanchezl" updated="2018-01-25 21:29:37.0"/>
+<Action id="42588" issue="19092" author="christopherferris" type="comment" body="closing this since there does need to be a minimum. Note that you can develop natively on Windows without Vagrant." created="2018-04-05 17:21:27.0" updateauthor="christopherferris" updated="2018-04-05 17:21:27.0"/>

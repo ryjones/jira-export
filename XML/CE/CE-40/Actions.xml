@@ -1,0 +1,4 @@
+<Action id="24301" issue="16613" author="qiang0723" type="comment" body="Use  cmoint ( https://github.com/yeasy/cmonit)  implement collect and monitor work-nodes status, " created="2017-05-25 07:59:34.0" updateauthor="qiang0723" updated="2017-05-25 07:59:34.0"/>
+<Action id="27763" issue="16613" author="baohua" type="comment" body="Sure, we can first show some simple collecting methods, and explore more in future." created="2017-07-03 02:06:25.0" updateauthor="baohua" updated="2017-07-03 02:06:25.0"/>
+<Action id="28995" issue="16613" author="baohua" type="comment" body="We should put the gerrit patchset link here if we mark it as `review` status." created="2017-07-26 02:12:46.0" updateauthor="baohua" updated="2017-07-26 02:12:46.0"/>
+<Action id="29074" issue="16613" author="qiang0723" type="comment" body="https://gerrit.hyperledger.org/r/#/c/11965/" created="2017-07-27 06:11:59.0" updateauthor="qiang0723" updated="2017-07-27 06:11:59.0"/>

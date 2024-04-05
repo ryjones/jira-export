@@ -1,0 +1,2 @@
+<Action id="63454" issue="42119" author="caod" type="comment" created="2019-08-30 18:21:23.0" updateauthor="caod" updated="2019-08-30 18:26:14.0"> <body><! CDATA Looks like this is already being worked, moving to in progress.   https://gerrit.hyperledger.org/r/c/fabric-chaincode-node/+/33266   ></body> </Action>
+<Action id="63593" issue="42119" author="sstone1" type="comment" body="Now complete - modules are publishing again." created="2019-09-06 12:54:39.0" updateauthor="sstone1" updated="2019-09-06 12:54:39.0"/>

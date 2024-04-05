@@ -1,0 +1,2 @@
+<Action id="41825" issue="27121" author="troyronda" type="comment" body="https://gerrit.hyperledger.org/r/c/19425/" created="2018-03-20 11:13:15.0" updateauthor="troyronda" updated="2018-03-20 11:13:15.0"/>
+<Action id="41827" issue="27121" author="troyronda" type="comment" body="Merged fix. This fix uses the same filter list as Fabric itself." created="2018-03-20 11:57:15.0" updateauthor="troyronda" updated="2018-03-20 11:57:15.0"/>

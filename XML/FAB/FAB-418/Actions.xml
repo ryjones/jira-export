@@ -1,0 +1,2 @@
+<Action id="19374" issue="12719" author="kchristidis" type="comment" body="Part of this may be covered towards the end of Sprint 4, but let&apos;s set is as Sprint 5 for now." created="2016-10-22 03:46:32.0" updateauthor="kchristidis" updated="2016-10-22 03:46:32.0"/>
+<Action id="19836" issue="12719" author="jyellick" type="comment" body="This was resolved in https://gerrit.hyperledger.org/r/#/c/2075/" created="2016-11-22 15:24:18.0" updateauthor="jyellick" updated="2016-11-22 15:24:18.0"/>

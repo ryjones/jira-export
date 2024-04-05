@@ -1,0 +1,2 @@
+<Action id="27813" issue="18915" author="sergey.minaev" type="comment" body="Actually indy-sdk used libzmq master, so it&apos;s not high-priority task to use release in libzmq-pw." created="2017-07-04 08:59:41.0" updateauthor="sergey.minaev" updated="2017-07-04 08:59:41.0"/>
+<Action id="40284" issue="18915" author="sergey.minaev" type="comment" body="Now zmq-pw isn&apos;t required for SDK, see IS-417. So this task is invalid now." created="2018-02-16 11:19:46.0" updateauthor="sergey.minaev" updated="2018-02-16 11:19:46.0"/>

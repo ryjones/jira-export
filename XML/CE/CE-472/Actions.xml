@@ -1,0 +1,2 @@
+<Action id="51143" issue="33606" author="hightall" type="comment" body="https://gerrit.hyperledger.org/r/26542" created="2018-09-25 05:46:43.0" updateauthor="hightall" updated="2018-09-25 05:46:43.0"/>
+<Action id="52536" issue="33606" author="modood" type="comment" created="2018-10-23 07:47:53.0" updateauthor="modood" updated="2018-10-23 07:47:53.0"> <body><! CDATA Smart contract page should do the same,  and we should allow click to the title and jump to its info too.  https://gerrit.hyperledger.org/r/#/c/27155/  ></body> </Action>

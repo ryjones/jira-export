@@ -1,0 +1,2 @@
+<Action id="38828" issue="23914" author="gudkov" type="comment" created="2018-01-18 07:31:36.0" updateauthor="gudkov" updated="2018-01-18 07:31:36.0"> <body><! CDATA  ~SeanBohan_Sovrin   Seems duplicate for IS-513  ></body> </Action>
+<Action id="64649" issue="23914" author="esplinr" type="comment" body="We have new anoncreds documentation in Ursa-Docs, Ursa-RFCs, Aries-RFCs, and Indy HIPEs. If additional documentation is needed, we can create new issues for the specific changes." created="2019-10-11 12:27:08.0" updateauthor="esplinr" updated="2019-10-11 12:27:08.0"/>

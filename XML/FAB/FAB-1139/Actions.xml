@@ -1,0 +1,2 @@
+<Action id="19774" issue="13471" author="bryanhuang" type="comment" body="Found the root cause is the chaincode, so closing this issue." created="2016-11-17 14:01:58.0" updateauthor="bryanhuang" updated="2016-11-17 14:01:58.0"/>
+<Action id="21245" issue="13471" author="fouad.aberkane" type="comment" created="2017-03-01 15:44:45.0" updateauthor="fouad.aberkane" updated="2017-03-01 15:44:45.0"> <body><! CDATA Hi, I am observing the same issue. What did you do to fix the issue...? Or could you pls provide more information regarding your finding... Thx  ></body> </Action>

@@ -1,0 +1,3 @@
+<Action id="64853" issue="30589" author="heatherp" type="comment" body="Hey  ~aatkddny  - we noticed this was raised last year - is this still relevant?" created="2019-10-22 10:27:28.0" updateauthor="heatherp" updated="2019-10-22 10:27:28.0"/>
+<Action id="64878" issue="30589" author="aatkddny" type="comment" created="2019-10-22 13:10:04.0" updateauthor="aatkddny" updated="2019-10-22 13:10:04.0"> <body><! CDATA No - I can do what I need to with a gateway with SD instead.  FABJ-468 is the one that's (still) problematic for me.   ></body> </Action>
+<Action id="64881" issue="30589" author="heatherp" type="comment" body="Understood - can we close this one off?" created="2019-10-22 14:35:23.0" updateauthor="heatherp" updated="2019-10-22 14:35:23.0"/>

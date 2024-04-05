@@ -1,0 +1,1 @@
+<Action id="71750" issue="39623" author="guoger" type="comment" created="2021-05-11 14:11:22.0" updateauthor="guoger" updated="2021-05-11 14:11:22.0"> <body><! CDATA IMO, this is still worth doing, especially when adding another consensus implementation - author would go through the same pain writing UTs.  adjust priority though, this is not anything urgent.  ></body> </Action>

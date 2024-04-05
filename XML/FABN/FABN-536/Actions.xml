@@ -1,0 +1,2 @@
+<Action id="21416" issue="14968" author="jimthematrix" type="comment" body=" ~jyellick ,  ~vpaprots@ca.ibm.com  I see that orderer.yaml now has a BCCSP section that specifies the hashing parameters among other things, that means it&apos;s configurable now right? " created="2017-03-09 18:26:34.0" updateauthor="jimthematrix" updated="2017-03-09 18:26:58.0"/>
+<Action id="21556" issue="14968" author="jimthematrix" type="comment" body="closing as WONT-FIX per comment above" created="2017-03-17 16:07:24.0" updateauthor="jimthematrix" updated="2017-03-17 16:07:24.0"/>

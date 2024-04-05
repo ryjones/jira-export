@@ -1,0 +1,1 @@
+<Action id="43642" issue="29506" author="mastersingh24" type="comment" body="We state that Docker is required in the prerequisite section of the documentation.  I don&apos;t think we need to nor should provide a script to install Docker.  In any case, this is not a bug." created="2018-04-30 07:30:16.0" updateauthor="mastersingh24" updated="2018-04-30 07:30:16.0"/>

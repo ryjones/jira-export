@@ -1,0 +1,2 @@
+<Action id="24137" issue="16667" author="clayton sims" type="comment" body="The fix version is marked alpha2.   Did this make it into alpha2 or should we change flag to v1.0.0 now?" created="2017-05-22 14:17:44.0" updateauthor="clayton sims" updated="2017-05-22 14:17:44.0"/>
+<Action id="24141" issue="16667" author="skarim" type="comment" body="Didn&apos;t make it into alpha2, changed flag accordingly. " created="2017-05-22 14:52:44.0" updateauthor="skarim" updated="2017-05-22 14:52:44.0"/>

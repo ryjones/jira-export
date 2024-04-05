@@ -1,0 +1,1 @@
+<Action id="27352" issue="17293" author="dsurnin" type="comment" body="The NONCE field is used in Client Disclose txn only, which is not implemented now" created="2017-06-26 12:56:09.0" updateauthor="dsurnin" updated="2017-06-26 12:56:09.0"/>

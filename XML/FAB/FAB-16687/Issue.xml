@@ -1,0 +1,1 @@
+<Issue id="42469" key="FAB-16687" number="16687" project="10002" reporter="guoger" assignee="guoger" creator="guoger" type="10002" summary="Reduce mutex contention in current validator" priority="3" resolution="10000" status="6" created="2019-09-24 11:48:09.0" updated="2019-12-02 16:12:09.0" resolutiondate="2019-12-02 16:12:09.0" votes="0" watches="2" workflowId="55533"/>

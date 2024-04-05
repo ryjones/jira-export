@@ -1,0 +1,1 @@
+<Action id="65484" issue="18130" author="esplinr" type="comment" body="This looks like a good idea, but the problem it is addressing is very unlikely and has a clear recovery by relying on the other nodes in the pool. So we don&apos;t plan on implementing this improvement in the near future." created="2019-11-12 15:24:16.0" updateauthor="esplinr" updated="2019-11-12 15:24:16.0"/>

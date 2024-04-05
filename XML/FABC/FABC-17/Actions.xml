@@ -1,0 +1,2 @@
+<Action id="22709" issue="13169" author="smithbk" type="comment" created="2017-04-19 13:24:18.0" updateauthor="smithbk" updated="2017-04-19 13:24:18.0"> <body><! CDATA This is being done with BCCSP integration. See https://gerrit.hyperledger.org/r/6727  ></body> </Action>
+<Action id="23149" issue="13169" author="christopherferris" type="comment" body="Is this done now?  ~smithbk " created="2017-04-28 12:22:00.0" updateauthor="christopherferris" updated="2017-04-28 12:22:00.0"/>

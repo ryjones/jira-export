@@ -1,0 +1,2 @@
+<Action id="34566" issue="23859" author="mastersingh24" type="comment" body="It turns out that UserDir/tls is already being populated for all node types.  So all that is needed to name the files appropriately depending on the type of node being generated." created="2017-11-12 10:52:11.0" updateauthor="mastersingh24" updated="2017-11-12 10:52:11.0"/>
+<Action id="34567" issue="23859" author="mastersingh24" type="comment" body="https://gerrit.hyperledger.org/r/15407" created="2017-11-12 11:00:28.0" updateauthor="mastersingh24" updated="2017-11-12 11:00:28.0"/>

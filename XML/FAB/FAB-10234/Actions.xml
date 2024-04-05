@@ -1,0 +1,3 @@
+<Action id="46630" issue="30418" author="baohua" type="comment" body="+1, and better with some sample workflow! Thanks!" created="2018-06-27 20:42:48.0" updateauthor="baohua" updated="2018-06-27 20:42:48.0"/>
+<Action id="49821" issue="30418" author="joe-alewine" type="comment" body="Update this in what way?  ~dubovitskaya " created="2018-09-04 14:10:44.0" updateauthor="joe-alewine" updated="2018-09-04 14:10:44.0"/>
+<Action id="50854" issue="30418" author="dubovitskaya" type="comment" created="2018-09-20 15:05:39.0" updateauthor="dubovitskaya" updated="2018-09-20 15:13:41.0"> <body><! CDATA  ~joe-alewine  I thought that Gari meant it with respect to gingko. I just pushed a small update...  https://gerrit.hyperledger.org/r/#/c/26382/  ></body> </Action>

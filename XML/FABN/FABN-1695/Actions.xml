@@ -1,0 +1,2 @@
+<Action id="71293" issue="46503" author="JIRAUSER20631" type="comment" created="2021-01-21 15:11:07.0" updateauthor="JIRAUSER20631" updated="2021-01-21 15:11:07.0"> <body><! CDATA Hi, found out I shoud disconnect the gateway too.  Thanks.  ></body> </Action>
+<Action id="71295" issue="46503" author="bestbeforetoday" type="comment" body="I&apos;ll close as it sounds like you have resolved your issue. Go ahead and reopen if not." created="2021-01-22 09:30:15.0" updateauthor="bestbeforetoday" updated="2021-01-22 09:30:15.0"/>

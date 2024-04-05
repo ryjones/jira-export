@@ -1,0 +1,2 @@
+<Action id="51827" issue="34411" author="rameshthoomu" type="comment" body="go 1.11.1 is installed on x and z nodes. Closing this ticket" created="2018-10-08 01:26:02.0" updateauthor="rameshthoomu" updated="2018-10-08 01:26:02.0"/>
+<Action id="51828" issue="34411" author="rameshthoomu" type="comment" body="https://gerrit.hyperledger.org/r/#/c/26771/" created="2018-10-08 01:26:37.0" updateauthor="rameshthoomu" updated="2018-10-08 01:26:37.0"/>

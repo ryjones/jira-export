@@ -1,0 +1,2 @@
+<Action id="56810" issue="37273" author="latitiah" type="comment" body="This test scenario will be executed using the fabric ginkgo-based integration tests." created="2019-02-08 16:23:06.0" updateauthor="latitiah" updated="2019-02-08 16:23:06.0"/>
+<Action id="57136" issue="37273" author="latitiah" type="comment" body="For now, the tests have been added to the fabric-test behave-based tests: https://gerrit.hyperledger.org/r/#/c/29350/" created="2019-02-18 14:21:03.0" updateauthor="latitiah" updated="2019-02-18 14:21:03.0"/>

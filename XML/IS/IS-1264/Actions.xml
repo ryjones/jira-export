@@ -1,0 +1,2 @@
+<Action id="60417" issue="39899" author="artemkaaas" type="comment" body="Done in PR: https://github.com/hyperledger/indy-sdk/pull/1647" created="2019-05-28 04:55:23.0" updateauthor="artemkaaas" updated="2019-05-28 04:55:23.0"/>
+<Action id="60608" issue="39899" author="sergey.minaev" type="comment" body="Most of cases are covered now. The only one failed scenario will be referenced in separate ticket IS-1283" created="2019-06-03 16:25:32.0" updateauthor="sergey.minaev" updated="2019-06-03 16:25:32.0"/>

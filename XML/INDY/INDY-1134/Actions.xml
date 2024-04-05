@@ -1,0 +1,1 @@
+<Action id="40513" issue="27366" author="anikitindsr" type="comment" created="2018-02-21 15:37:26.0" updateauthor="anikitindsr" updated="2018-02-21 15:37:26.0"> <body><! CDATA Support for REVOC_REG_DEF transactions was added. PR: https://github.com/hyperledger/indy-node/pull/567  ></body> </Action>

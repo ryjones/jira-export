@@ -1,0 +1,2 @@
+<Action id="63927" issue="39417" author="swetharepakula" type="comment" body=" https://gerrit.hyperledger.org/r/#/c/fabric-chaincode-evm/+/33362/ " created="2019-09-20 18:16:15.0" updateauthor="swetharepakula" updated="2019-09-20 18:16:15.0"/>
+<Action id="63928" issue="39417" author="swetharepakula" type="comment" body="Marking this as done, but investigation still necessary to look into why web3.py uses this field." created="2019-09-20 18:16:37.0" updateauthor="swetharepakula" updated="2019-09-20 18:16:51.0"/>

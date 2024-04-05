@@ -1,0 +1,1 @@
+<Action id="68118" issue="44433" author="wlahti" type="comment" body="This is fixed and merged into master via:  https://github.com/hyperledger/fabric/pull/737/files#diff-857c2d241ccd01c0d0e1d3452896e0e8R66  Just needed to colonize the error at what is now line 66 (formerly line 181)." created="2020-02-26 16:27:03.0" updateauthor="wlahti" updated="2020-02-26 16:34:38.0"/>

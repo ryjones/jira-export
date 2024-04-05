@@ -1,0 +1,2 @@
+<Action id="47337" issue="31893" author="chris.elder" type="comment" body="https://gerrit.hyperledger.org/r/#/c/24423/" created="2018-07-14 14:29:49.0" updateauthor="chris.elder" updated="2018-07-14 14:29:49.0"/>
+<Action id="47612" issue="31893" author="scottz" type="comment" body="LTE tests passed yesterday in the daily test suite, after incorporating the solution for FAB-11158. This can be considered fixed/closed/done/resolved." created="2018-07-20 18:16:00.0" updateauthor="scottz" updated="2018-07-20 18:16:00.0"/>

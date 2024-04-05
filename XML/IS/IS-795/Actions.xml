@@ -1,0 +1,2 @@
+<Action id="47896" issue="31345" author="gudkov" type="comment" body="Rc 1.6 is out and we started validation" created="2018-07-26 12:09:37.0" updateauthor="gudkov" updated="2018-07-26 12:09:37.0"/>
+<Action id="48093" issue="31345" author="zhigunenko.dsr" type="comment" created="2018-07-30 07:58:34.0" updateauthor="zhigunenko.dsr" updated="2018-07-30 09:54:47.0"> <body><! CDATA -All artifacts and docs for 1.6.1 are available, excluding IOS artifacts- fixed FYI  ~sergey.minaev   ></body> </Action>

@@ -1,0 +1,1 @@
+<Action id="23353" issue="16196" author="cintel" type="comment" body="The update message should not reference the genesis block. Better wording would be &quot;Block publishing is suspended until new chain head arrives.&quot;" created="2017-05-03 17:48:54.0" updateauthor="cintel" updated="2017-05-03 17:48:54.0"/>

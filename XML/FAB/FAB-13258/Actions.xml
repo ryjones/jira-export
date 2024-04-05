@@ -1,0 +1,2 @@
+<Action id="54769" issue="36118" author="skarim" type="comment" body="https://gerrit.hyperledger.org/r/c/28141/" created="2018-12-13 14:45:24.0" updateauthor="skarim" updated="2018-12-13 14:45:24.0"/>
+<Action id="55381" issue="36118" author="denyeart" type="comment" body="Fabric CA sample has been removed from fabric-samples. A variant of it will be re-introduced as an integration test." created="2019-01-07 19:11:38.0" updateauthor="denyeart" updated="2019-01-07 19:11:38.0"/>

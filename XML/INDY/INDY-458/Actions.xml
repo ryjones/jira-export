@@ -1,0 +1,2 @@
+<Action id="31566" issue="19470" author="krw910" type="comment" body="Moving this into sprint 14 at the request of Daniel. This is based off a discussion on a upgrade issue that occurred." created="2017-10-03 15:39:01.0" updateauthor="krw910" updated="2017-10-03 15:39:01.0"/>
+<Action id="65603" issue="19470" author="ashcherbakov" type="comment" body="Has been done in the scope of https://jira.hyperledger.org/browse/INDY-1251" created="2019-11-18 13:45:33.0" updateauthor="ashcherbakov" updated="2019-11-18 13:45:33.0"/>

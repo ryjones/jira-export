@@ -1,0 +1,1 @@
+<Action id="44884" issue="30497" author="jyellick" type="comment" body="After doing an initial pass of this, it&apos;s too big to be contained in v1.3, many pieces of the code break under it, so changing fix version out to v1.3." created="2018-05-22 18:55:10.0" updateauthor="jyellick" updated="2018-05-22 18:55:10.0"/>

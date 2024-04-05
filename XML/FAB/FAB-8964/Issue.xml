@@ -1,0 +1,1 @@
+<Issue id="28657" key="FAB-8964" number="8964" project="10002" reporter="biljana.lukovic" creator="biljana.lukovic" type="10004" summary="Log warning instead of panic when GRPC closing fails" priority="3" resolution="10000" status="6" created="2018-03-19 16:55:49.0" updated="2018-07-20 14:16:03.0" resolutiondate="2018-03-20 11:58:49.0" votes="0" watches="1" workflowId="41570"/>

@@ -1,0 +1,1 @@
+<Action id="22570" issue="15122" author="jimthematrix" type="comment" body=" ~dshuffma  https://gerrit.hyperledger.org/r/7617 added block decoding. the only portion that remained to be handled is read/write set (FAB-3129). please let us know if the decoded parts work for you." created="2017-04-17 13:41:34.0" updateauthor="jimthematrix" updated="2017-04-17 13:41:34.0"/>

@@ -1,0 +1,2 @@
+<Action id="57836" issue="38148" author="latitiah" type="comment" body="This same issue was seen when using the old chaincode lifecycle." created="2019-03-04 15:54:31.0" updateauthor="latitiah" updated="2019-03-04 15:54:31.0"/>
+<Action id="58072" issue="38148" author="latitiah" type="comment" body="The chaincode was expecting collection1 as the name and did not allow for a dynamic collection name for the run." created="2019-03-11 21:29:58.0" updateauthor="latitiah" updated="2019-03-11 21:29:58.0"/>

@@ -1,0 +1,2 @@
+<Action id="24121" issue="16967" author="muralisr" type="comment" body="This is already fixed by a different CR. moving it to Done/wontfix" created="2017-05-21 21:22:36.0" updateauthor="muralisr" updated="2017-05-21 21:22:36.0"/>
+<Action id="24220" issue="16967" author="aambati" type="comment" body="i saw this same problem in https://jenkins.hyperledger.org/job/fabric-verify-x86_64/12086/consoleFull" created="2017-05-24 04:10:07.0" updateauthor="aambati" updated="2017-05-24 04:10:07.0"/>

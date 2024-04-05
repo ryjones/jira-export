@@ -1,0 +1,2 @@
+<Action id="37002" issue="17089" author="seanbohan_sovrin" type="comment" body=" ~nage  - can we log a new Arch ticket and kill this one?" created="2017-12-12 18:31:04.0" updateauthor="seanbohan_sovrin" updated="2017-12-12 18:31:04.0"/>
+<Action id="37753" issue="17089" author="ashcherbakov" type="comment" body="The task is not valid for indy-client CLI, but meeds to be done for libindy CLI." created="2017-12-22 15:35:04.0" updateauthor="ashcherbakov" updated="2017-12-22 15:35:04.0"/>

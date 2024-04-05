@@ -1,0 +1,2 @@
+<Action id="27921" issue="18848" author="baohua" type="comment" body="Also, the official e2e example can be a good ref, with several updates recently." created="2017-07-06 06:06:05.0" updateauthor="baohua" updated="2017-07-06 06:06:05.0"/>
+<Action id="28365" issue="18848" author="baohua" type="comment" created="2017-07-14 03:23:35.0" updateauthor="baohua" updated="2017-07-14 03:23:35.0"> <body><! CDATA  ~david_dornseifer  has update the images with the official ones.  Let's use that as the future baseline.  ></body> </Action>

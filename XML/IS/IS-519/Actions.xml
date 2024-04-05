@@ -1,0 +1,1 @@
+<Action id="38956" issue="26766" author="sergey.minaev" type="comment" body="Fixed during IS-123 and now expected behavior is returned error code PoolLedgerTimeout = 307" created="2018-01-22 12:57:04.0" updateauthor="sergey.minaev" updated="2018-01-22 12:57:04.0"/>

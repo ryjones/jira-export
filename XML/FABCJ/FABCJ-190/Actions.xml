@@ -1,0 +1,2 @@
+<Action id="54167" issue="35516" author="gennadyl" type="comment" body="This change requires fabric chaincode changes " created="2018-12-02 16:41:41.0" updateauthor="gennadyl" updated="2018-12-02 16:41:41.0"/>
+<Action id="58018" issue="35516" author="gennadyl" type="comment" body="Related to FAB-13238. This CR will include only java cc unit test from now on." created="2019-03-10 11:10:42.0" updateauthor="gennadyl" updated="2019-03-10 11:10:42.0"/>

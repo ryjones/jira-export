@@ -1,0 +1,1 @@
+<Issue id="28617" key="FABG-239" number="239" project="10610" reporter="sudeshrshetty" assignee="sudeshrshetty" creator="sudeshrshetty" type="10002" summary="ensure cert pool is thread safe" priority="3" resolution="10000" status="6" created="2018-03-16 18:33:02.0" updated="2018-07-18 23:52:16.0" resolutiondate="2018-03-19 20:27:33.0" votes="0" watches="1" workflowId="33038"/>

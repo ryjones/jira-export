@@ -1,0 +1,2 @@
+<Action id="23636" issue="15299" author="vpaprots" type="comment" created="2017-05-10 13:42:14.0" updateauthor="vpaprots" updated="2017-05-10 13:42:14.0"> <body><! CDATA nopkcs11 tag was added by Gari. I would like to rework it, since it was more of a stopgap.  Memory hint: this needs to consider pluggable BCCSPs.  ></body> </Action>
+<Action id="62192" issue="15299" author="mastersingh24" type="comment" body="no longer an issue anyway" created="2019-07-27 12:22:21.0" updateauthor="mastersingh24" updated="2019-07-27 12:22:21.0"/>

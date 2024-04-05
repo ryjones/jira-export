@@ -1,0 +1,2 @@
+<Action id="46318" issue="31243" author="ratnakar" type="comment" created="2018-06-20 19:18:58.0" updateauthor="ratnakar" updated="2018-06-20 19:38:58.0"> <body><! CDATA All the tests are passed when changed the channel names to lowercase   ~harrisob@us.ibm.com  Do we need to consider porting the changes to v1.1 as well ?  ></body> </Action>
+<Action id="53424" issue="31243" author="andrew-coleman" type="comment" body="the test was changed - closing" created="2018-11-14 13:51:53.0" updateauthor="andrew-coleman" updated="2018-11-14 13:51:53.0"/>

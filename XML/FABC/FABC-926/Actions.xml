@@ -1,0 +1,1 @@
+<Action id="70624" issue="46297" author="btl5037" type="comment" body="Diagnosed as a timeout issue. Upping the `connection-timeout` config property solves this. Need to get with the SDK team and figure out what the best way to do this under the new programming model is." created="2020-11-06 23:09:08.0" updateauthor="btl5037" updated="2020-11-06 23:09:08.0"/>

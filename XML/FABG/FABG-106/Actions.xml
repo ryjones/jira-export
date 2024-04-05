@@ -1,0 +1,2 @@
+<Action id="18926" issue="12705" author="mastersingh24" type="comment" body="For Java, should we look at Maven?  I believe Maven Central provides some type of stats" created="2016-09-17 09:10:07.0" updateauthor="mastersingh24" updated="2016-09-17 09:10:07.0"/>
+<Action id="25362" issue="12705" author="jimthematrix" type="comment" body="Don&apos;t believe there&apos;s any work related to this item except maybe periodically manually checking the respective registries for usage stats" created="2017-06-05 15:12:24.0" updateauthor="jimthematrix" updated="2017-06-05 15:12:24.0"/>

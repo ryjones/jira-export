@@ -1,0 +1,4 @@
+<Worklog id="10413" issue="18659" author="hightall" body="" created="2017-06-26 14:25:28.0" updateauthor="hightall" updated="2017-06-26 14:25:28.0" startdate="2017-06-26 13:18:11.0" timeworked="4020"/>
+<Worklog id="10414" issue="18659" author="hightall" body="Add network_type in form data, get 500 internal error, but the cluster is created, and the cluster cannot be deleted." created="2017-06-26 14:38:11.0" updateauthor="hightall" updated="2017-06-26 14:38:11.0" startdate="2017-06-26 14:37:21.0" timeworked="60"/>
+<Worklog id="10417" issue="18659" author="hightall" body="" created="2017-06-27 15:43:33.0" updateauthor="hightall" updated="2017-06-27 15:43:33.0" startdate="2017-06-27 14:45:33.0" timeworked="3480"/>
+<Worklog id="10418" issue="18659" author="hightall" body="Fixed create chain failed" created="2017-06-28 15:18:34.0" updateauthor="hightall" updated="2017-06-28 15:18:34.0" startdate="2017-06-28 12:53:30.0" timeworked="8700"/>

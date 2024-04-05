@@ -1,0 +1,1 @@
+<Issue id="29656" key="FAB-9692" number="9692" project="10002" reporter="sykesm" assignee="sykesm" creator="sykesm" type="10003" summary="Extract TransactionContext and add explicit unit tests" priority="3" resolution="10000" status="6" created="2018-04-24 19:42:22.0" updated="2018-07-20 14:16:26.0" resolutiondate="2018-04-26 18:41:05.0" votes="0" watches="1" workflowId="41952"/>

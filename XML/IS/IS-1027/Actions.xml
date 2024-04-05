@@ -1,0 +1,2 @@
+<Action id="51794" issue="34448" author="sergey.minaev" type="comment" body="Fixed in PR https://github.com/hyperledger/indy-sdk/pull/1190" created="2018-10-05 10:05:32.0" updateauthor="sergey.minaev" updated="2018-10-05 10:05:32.0"/>
+<Action id="51969" issue="34448" author="gudkov" type="comment" body="I see passed test." created="2018-10-10 09:11:38.0" updateauthor="gudkov" updated="2018-10-10 09:11:38.0"/>

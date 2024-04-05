@@ -1,0 +1,2 @@
+<Action id="20949" issue="14459" author="kchristidis" type="comment" body="Latitia, what do you suggest as the right output?" created="2017-02-16 19:37:31.0" updateauthor="kchristidis" updated="2017-02-16 19:37:31.0"/>
+<Action id="21595" issue="14459" author="latitiah" type="comment" body="The error message in the log files is sufficient enough for describing that there is a connection problem between the orderer and the kafka brokers/cluster (&quot;Is your cluster reachable?&quot;)" created="2017-03-21 17:23:11.0" updateauthor="latitiah" updated="2017-03-21 17:23:11.0"/>

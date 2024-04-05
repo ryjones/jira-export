@@ -1,0 +1,2 @@
+<Action id="19620" issue="13264" author="kchristidis" type="comment" created="2016-11-02 23:50:33.0" updateauthor="kchristidis" updated="2016-11-02 23:50:33.0"> <body><! CDATA New block: https://gerrit.hyperledger.org/r/2177 Tests: https://gerrit.hyperledger.org/r/2179  ></body> </Action>
+<Action id="19735" issue="13264" author="kchristidis" type="comment" body="Updated to match the latest proto changes (https://gerrit.hyperledger.org/r/#/c/2177/)." created="2016-11-11 08:16:00.0" updateauthor="kchristidis" updated="2016-11-11 08:16:00.0"/>

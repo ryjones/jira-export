@@ -1,0 +1,1 @@
+<Issue id="28775" key="FAB-9060" number="9060" project="10002" reporter="biljana.lukovic" creator="biljana.lukovic" type="10001" summary="Add certificate expiry check to TLS connection" priority="3" resolution="10001" status="6" created="2018-03-22 20:10:29.0" updated="2020-01-22 22:32:27.0" resolutiondate="2020-01-22 22:32:27.0" votes="0" watches="1" workflowId="35637"/>

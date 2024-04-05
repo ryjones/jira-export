@@ -1,0 +1,1 @@
+<Action id="46409" issue="30760" author="rameshthoomu" type="comment" body="on release commit, trigger these jobs fabric-nexus-release-x86_64 and fabric-nexus-release-s390x manually to publish docker images to nexus3." created="2018-06-21 19:13:35.0" updateauthor="rameshthoomu" updated="2018-06-21 19:13:35.0"/>

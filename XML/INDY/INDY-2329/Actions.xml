@@ -1,0 +1,1 @@
+<Action id="67648" issue="44016" author="anikitindsr" type="comment" created="2020-01-24 11:39:25.0" updateauthor="anikitindsr" updated="2020-01-24 11:39:25.0"> <body><! CDATA All the changes was merged in PR for INDY-2326. PRs related to INDY-2326: *  https://github.com/hyperledger/indy-plenum/pull/1465  * https://github.com/hyperledger/indy-plenum/pull/1464  ></body> </Action>

@@ -1,0 +1,1 @@
+<Action id="69457" issue="45198" author="davidkhala" type="comment" body="Is it one of the reason of the problem when I use fabric-network to send tx proposal, it throw `Illegal buffer` error when assembling protobuf message?" created="2020-06-13 02:07:42.0" updateauthor="davidkhala" updated="2020-06-13 02:07:42.0"/>

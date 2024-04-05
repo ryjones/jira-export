@@ -1,0 +1,1 @@
+<Action id="70431" issue="45223" author="manish-sethi" type="comment" body="For the first version, we decided to keep the export format common across leveldb and couchdb. If in the future, we want to improve the import performance, we can revisit this. So, closing this task for now." created="2020-10-05 13:17:17.0" updateauthor="manish-sethi" updated="2020-10-05 13:17:17.0"/>

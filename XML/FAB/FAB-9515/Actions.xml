@@ -1,0 +1,2 @@
+<Action id="42933" issue="29397" author="yacovm" type="comment" body="https://gerrit.hyperledger.org/r/#/c/20559/" created="2018-04-14 00:17:47.0" updateauthor="yacovm" updated="2018-04-14 00:17:47.0"/>
+<Action id="43127" issue="29397" author="yacovm" type="comment" body=" ~mastersingh24  this seems to me like a good candidate for a v1.1.x backport. " created="2018-04-18 18:37:46.0" updateauthor="yacovm" updated="2018-04-18 18:37:46.0"/>

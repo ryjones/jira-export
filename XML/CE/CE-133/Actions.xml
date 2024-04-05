@@ -1,0 +1,3 @@
+<Action id="30662" issue="20662" author="baohua" type="comment" body="https://gerrit.hyperledger.org/r/#/c/13199/" created="2017-09-08 02:40:54.0" updateauthor="baohua" updated="2017-09-08 02:40:54.0"/>
+<Action id="30895" issue="20662" author="tongliofcary" type="comment" body="Need a bit more cleanup for k8s environment." created="2017-09-14 19:51:28.0" updateauthor="tongliofcary" updated="2017-09-14 19:51:28.0"/>
+<Action id="30905" issue="20662" author="tongliofcary" type="comment" created="2017-09-14 22:13:12.0" updateauthor="tongliofcary" updated="2017-09-14 22:13:12.0"> <body><! CDATA More cleaning up work in this patch.  https://gerrit.hyperledger.org/r/#/c/13489/  ></body> </Action>

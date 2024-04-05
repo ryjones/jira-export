@@ -1,0 +1,2 @@
+<Action id="25816" issue="17639" author="baohua" type="comment" created="2017-06-09 01:16:47.0" updateauthor="baohua" updated="2017-06-09 01:16:47.0"> <body><! CDATA It seems in container, the log complain about the docker-py lib.  Need to check the docker-compose version inside is 1.7~1.9.  ></body> </Action>
+<Action id="26248" issue="17639" author="chawlanikhil24" type="comment" body="The final observation is that, outdated version of Cello was being used to deploy fabric. " created="2017-06-14 06:41:18.0" updateauthor="chawlanikhil24" updated="2017-06-14 06:41:18.0"/>

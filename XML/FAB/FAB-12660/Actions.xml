@@ -1,0 +1,1 @@
+<Action id="52833" issue="34990" author="dongming" type="comment" created="2018-10-31 18:05:43.0" updateauthor="dongming" updated="2018-10-31 18:05:43.0"> <body><! CDATA runPTE.sh adds options for chaincode version and chaincode prefix  https://gerrit.hyperledger.org/r/#/c/27263/  ></body> </Action>

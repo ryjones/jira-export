@@ -1,0 +1,1 @@
+<Issue id="38530" key="FAB-14684" number="14684" project="10002" reporter="yacovm" assignee="yacovm" creator="yacovm" type="10002" summary="log payload buffer size in gossip/state" priority="3" resolution="10000" status="6" created="2019-03-16 13:33:57.0" updated="2019-03-16 23:42:21.0" resolutiondate="2019-03-16 13:35:01.0" votes="0" watches="1" workflowId="50173"/>

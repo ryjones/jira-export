@@ -1,0 +1,1 @@
+<Action id="72039" issue="47112" author="bestbeforetoday" type="comment" body="Chaincode container looks to be failing to start on the server side. Not sure if the issue is environmental, the sample chaincode, or Fabric core." created="2021-08-20 08:38:08.0" updateauthor="bestbeforetoday" updated="2021-08-20 08:38:08.0"/>

@@ -1,0 +1,2 @@
+<Action id="60823" issue="40115" author="denyeart" type="comment" created="2019-06-10 11:25:57.0" updateauthor="denyeart" updated="2019-06-10 11:25:57.0"> <body><! CDATA I'm not understanding how the last request would be any different.  Please add minimal recreation steps... e.g. can you recreate with two transactions?  ></body> </Action>
+<Action id="64718" issue="40115" author="heatherp" type="comment" body="Can you re-open this if you&apos;re still seeing it? Thanks" created="2019-10-15 14:34:09.0" updateauthor="heatherp" updated="2019-10-15 14:34:09.0"/>

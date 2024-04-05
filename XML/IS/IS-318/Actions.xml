@@ -1,0 +1,2 @@
+<Action id="30294" issue="20484" author="gudkov" type="comment" body="It isn&apos;t a bug. It is expected behavior. Wallet name must be a unique regardless wallet type. This folder is used to store persistent wallet state (configuration). " created="2017-08-29 08:42:17.0" updateauthor="gudkov" updated="2017-08-29 08:42:17.0"/>
+<Action id="30295" issue="20484" author="srottem" type="comment" body="This has been identified as behavior-by-design but I can&apos;t close the ticket." created="2017-08-29 08:44:47.0" updateauthor="srottem" updated="2017-08-29 08:44:47.0"/>

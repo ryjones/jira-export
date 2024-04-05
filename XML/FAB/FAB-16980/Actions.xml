@@ -1,0 +1,3 @@
+<Action id="65218" issue="43056" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/c/fabric/+/34177" created="2019-10-31 18:39:39.0" updateauthor="sykesm" updated="2019-10-31 18:39:39.0"/>
+<Action id="65219" issue="43056" author="sykesm" type="comment" body="I also noticed this method is essentially dead in master but was never removed." created="2019-10-31 18:40:09.0" updateauthor="sykesm" updated="2019-10-31 18:40:09.0"/>
+<Action id="65221" issue="43056" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/c/fabric/+/34184 Remove UpdateEndpoints - dead code / FAB-16989" created="2019-10-31 19:45:53.0" updateauthor="sykesm" updated="2019-10-31 19:45:53.0"/>

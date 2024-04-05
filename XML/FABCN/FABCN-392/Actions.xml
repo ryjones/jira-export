@@ -1,0 +1,1 @@
+<Action id="68707" issue="44703" author="mbwhite" type="comment" created="2020-04-02 14:19:15.0" updateauthor="mbwhite" updated="2020-04-02 14:19:15.0"> <body><! CDATA The above problem is related to  https://github.com/jhnns/rewire/issues/178      Have set the unit tests to run using node 12.15.0, but the docker container uses 12.16.1 in production  ></body> </Action>

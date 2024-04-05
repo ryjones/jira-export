@@ -1,0 +1,2 @@
+<Action id="53356" issue="35298" author="rameshthoomu" type="comment" body="Be more specific here.. Which project and docker-compose file you are referring here?" created="2018-11-12 19:17:36.0" updateauthor="rameshthoomu" updated="2018-11-12 19:17:36.0"/>
+<Action id="63897" issue="35298" author="mastersingh24" type="comment" body="You can simply re-tag images however you like.  No need to add additional gorp in the already bloated Makefile" created="2019-09-20 10:46:49.0" updateauthor="mastersingh24" updated="2019-09-20 10:46:49.0"/>

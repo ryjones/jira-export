@@ -1,0 +1,3 @@
+<Action id="61745" issue="41118" author="rberg2" type="comment" body="run LR of Bumper + poet. build poet for xenial with the dupe block patch" created="2019-07-12 19:59:28.0" updateauthor="rberg2" updated="2019-07-12 19:59:53.0"/>
+<Action id="62043" issue="41118" author="rberg2" type="comment" body="The 1.1 poet reference network has passed a 7 day test." created="2019-07-23 15:07:22.0" updateauthor="rberg2" updated="2019-07-23 15:07:22.0"/>
+<Action id="62058" issue="41118" author="rberg2" type="comment" body="a new run of chime + poet has been started on lr7a. This network is running  a new patch that may address the forking issue seen in the previous run." created="2019-07-23 19:45:24.0" updateauthor="rberg2" updated="2019-07-23 19:45:24.0"/>

@@ -1,0 +1,2 @@
+<Action id="62811" issue="41623" author="wlahti" type="comment" body="Please use the #fabric or #fabric-orderer channels on Rocketchat ( https://chat.hyperledger.org/home ) to seek troubleshooting help with this issue. " created="2019-08-12 17:58:46.0" updateauthor="wlahti" updated="2019-08-12 17:58:46.0"/>
+<Action id="62812" issue="41623" author="wlahti" type="comment" body="Closing this item as we like to keep Jira focused on bugs, improvements, etc. and not troubleshooting." created="2019-08-12 18:02:18.0" updateauthor="wlahti" updated="2019-08-12 18:02:18.0"/>

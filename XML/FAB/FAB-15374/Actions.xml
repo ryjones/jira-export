@@ -1,0 +1,2 @@
+<Action id="59788" issue="39659" author="vijaypunugubati" type="comment" body=" https://gerrit.hyperledger.org/r/#/c/31248/ " created="2019-05-07 07:49:13.0" updateauthor="vijaypunugubati" updated="2019-05-07 07:49:13.0"/>
+<Action id="62260" issue="39659" author="vijaypunugubati" type="comment" created="2019-07-30 02:24:45.0" updateauthor="vijaypunugubati" updated="2019-07-30 02:24:45.0"> <body><! CDATA For the above test case failures, these tasks FAB-15980,  FAB-15981  cover the scenarios in gossip.feature  ></body> </Action>

@@ -1,0 +1,1 @@
+<Action id="55976" issue="36853" author="vladimirwork" type="comment" body="The issue was caused by 60 seconds timeout for primary disconnection (so VC will trigger only after this interval), so tests are refactored according to this changes." created="2019-01-22 09:04:07.0" updateauthor="vladimirwork" updated="2019-01-22 09:04:07.0"/>

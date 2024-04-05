@@ -1,0 +1,2 @@
+<Action id="64785" issue="42745" author="ivanovv" type="comment" created="2019-10-18 12:20:14.0" updateauthor="ivanovv" updated="2019-10-18 12:20:14.0"> <body><! CDATA Hi David,  I'm curious about your opinion on this (for me) bug.  Best regards,  Venko  ></body> </Action>
+<Action id="70755" issue="42745" author="lesleyannj" type="comment" body="Closing - intended to be addressed under new Fabric Gateway work - see https://github.com/hyperledger/fabric-rfcs/pull/32" created="2020-11-19 15:57:18.0" updateauthor="lesleyannj" updated="2020-11-19 15:57:18.0"/>

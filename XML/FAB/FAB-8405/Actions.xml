@@ -1,0 +1,2 @@
+<Action id="40464" issue="27872" author="dongming" type="comment" created="2018-02-20 21:33:18.0" updateauthor="dongming" updated="2018-02-20 21:33:18.0"> <body><! CDATA add  EnabledNodeOUs: true to cyrpto-config.yaml  V1.1 Capabilities to configtx.yaml  ></body> </Action>
+<Action id="40465" issue="27872" author="dongming" type="comment" body="https://gerrit.hyperledger.org/r/#/c/18109/" created="2018-02-20 21:34:30.0" updateauthor="dongming" updated="2018-02-20 21:34:30.0"/>

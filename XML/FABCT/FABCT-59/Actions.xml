@@ -1,0 +1,1 @@
+<Action id="30928" issue="20540" author="greg.haskins" type="comment" body="Turns out that this may not be necessary.  The GOPATH has the local versions first, and this seems to suitably eclipse the ccenv provided variants.  Closing for now." created="2017-09-15 15:38:50.0" updateauthor="greg.haskins" updated="2017-09-15 15:38:50.0"/>

@@ -1,0 +1,2 @@
+<Action id="27680" issue="18847" author="jkumar" type="comment" body="If sym link is removed, it still refers to file &quot;/home/sovrin/.sovrin/data/nodes/Node1/pool_transactions_sandbox/11&quot; and CLI can perform transactions. Log &quot;Node1_Transaction.log&quot; attached." created="2017-06-30 04:59:17.0" updateauthor="jkumar" updated="2017-06-30 04:59:17.0"/>
+<Action id="53137" issue="18847" author="derashe" type="comment" body="We don&apos;t use vagrant anymore" created="2018-11-07 13:13:06.0" updateauthor="derashe" updated="2018-11-07 13:13:06.0"/>

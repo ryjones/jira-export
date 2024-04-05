@@ -1,0 +1,1 @@
+<Issue id="41226" key="FAB-15969" number="15969" project="10002" reporter="senthil1" assignee="senthil1" creator="senthil1" type="10003" summary="code hygine: replace fmt.Sprintf to fmt.Errorf" priority="3" resolution="10000" status="6" created="2019-07-16 06:31:48.0" updated="2019-07-27 02:50:20.0" resolutiondate="2019-07-26 01:50:10.0" votes="0" watches="1" workflowId="54228"/>

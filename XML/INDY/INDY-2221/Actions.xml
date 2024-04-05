@@ -1,0 +1,1 @@
+<Action id="66539" issue="42115" author="anikitindsr" type="comment" created="2020-01-08 15:22:39.0" updateauthor="anikitindsr" updated="2020-01-08 15:22:39.0"> <body><! CDATA Log level was dropped to DEBUG and available in versions: * sovtokenfees 1.0.7~dev144 * sovtoken 1.0.7~dev144  PR: *  https://github.com/sovrin-foundation/token-plugin/pull/381   ></body> </Action>

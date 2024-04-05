@@ -1,0 +1,2 @@
+<Action id="70799" issue="46334" author="lesleyannj" type="comment" body="PR to master merged.   ~Specia1  please cherry pick to 2.2 branch." created="2020-11-24 13:59:55.0" updateauthor="lesleyannj" updated="2020-11-24 13:59:55.0"/>
+<Action id="70820" issue="46334" author="specia1" type="comment" created="2020-11-25 09:25:31.0" updateauthor="specia1" updated="2020-11-25 09:25:31.0"> <body><! CDATA  ~lesleyannj   Please check my cherry picked PR( https://github.com/hyperledger/fabric-sdk-node/pull/384)   Thank you.  ></body> </Action>

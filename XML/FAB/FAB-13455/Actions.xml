@@ -1,0 +1,4 @@
+<Action id="55610" issue="36431" author="kchristidis" type="comment" body="Creating the puller each time we need one seems like the best approach? Any tradeoffs we&apos;re overlooking?" created="2019-01-14 14:14:28.0" updateauthor="kchristidis" updated="2019-01-14 14:14:28.0"/>
+<Action id="55611" issue="36431" author="yacovm" type="comment" body="I think so, it&apos;s pretty cheap - it just parses a config block and takes out its endpoints and TLS CA certs" created="2019-01-14 14:15:37.0" updateauthor="yacovm" updated="2019-01-14 14:15:37.0"/>
+<Action id="55612" issue="36431" author="kchristidis" type="comment" body="(y)" created="2019-01-14 14:20:56.0" updateauthor="kchristidis" updated="2019-01-14 14:20:56.0"/>
+<Action id="55970" issue="36431" author="guoger" type="comment" body="https://gerrit.hyperledger.org/r/c/28885/" created="2019-01-22 08:09:36.0" updateauthor="guoger" updated="2019-01-22 08:09:36.0"/>

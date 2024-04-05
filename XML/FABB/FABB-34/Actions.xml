@@ -1,0 +1,2 @@
+<Action id="19865" issue="13536" author="sriramasharma" type="comment" body="Have created PR #2803  for review -  https://gerrit.hyperledger.org/r/2803 for " created="2016-11-28 09:33:23.0" updateauthor="sriramasharma" updated="2016-11-28 09:33:23.0"/>
+<Action id="20266" issue="13536" author="sriramasharma" type="comment" body="The patch https://gerrit.hyperledger.org/r/#/c/2803/ which has been merged does fix this issue. Hence marking this as Done." created="2017-01-05 12:00:10.0" updateauthor="sriramasharma" updated="2017-01-05 12:00:10.0"/>

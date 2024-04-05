@@ -1,0 +1,2 @@
+<Action id="69962" issue="45832" author="wlahti" type="comment" body=" https://github.com/hyperledger/fabric/pull/1734 " created="2020-08-15 21:13:28.0" updateauthor="wlahti" updated="2020-08-15 21:13:28.0"/>
+<Action id="69969" issue="45832" author="wlahti" type="comment" body="Abandoning in favor of a higher level approach to determine when the node is active." created="2020-08-17 17:02:11.0" updateauthor="wlahti" updated="2020-08-17 17:02:11.0"/>

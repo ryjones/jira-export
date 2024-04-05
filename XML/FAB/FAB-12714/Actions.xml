@@ -1,0 +1,2 @@
+<Action id="53098" issue="35094" author="skarim" type="comment" body="https://gerrit.hyperledger.org/r/c/27367/" created="2018-11-06 19:40:29.0" updateauthor="skarim" updated="2018-11-06 19:40:29.0"/>
+<Action id="53907" issue="35094" author="sykesm" type="comment" body="The above CR was abandoned after being superseded by work in FAB-12584." created="2018-11-28 14:16:09.0" updateauthor="sykesm" updated="2018-11-28 14:16:09.0"/>

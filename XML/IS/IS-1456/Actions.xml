@@ -1,0 +1,1 @@
+<Action id="66671" issue="43766" author="tmarkovski" type="comment" body="This may be a good time to move the wrapper out of indy-sdk repo and into aries. We can run the unit tests in the existing CI.  ~esplinr  should we proceed with this?" created="2020-01-14 14:26:45.0" updateauthor="tmarkovski" updated="2020-01-14 14:26:45.0"/>

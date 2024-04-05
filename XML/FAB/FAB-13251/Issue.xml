@@ -1,0 +1,1 @@
+<Issue id="36105" key="FAB-13251" number="13251" project="10002" reporter="yacovm" assignee="yacovm" creator="yacovm" type="10004" summary="add nil check in ToGossipMessage" priority="3" resolution="10000" status="6" created="2018-12-12 16:22:48.0" updated="2019-07-15 11:29:45.0" resolutiondate="2018-12-13 12:36:39.0" votes="0" watches="2" workflowId="47620"/>

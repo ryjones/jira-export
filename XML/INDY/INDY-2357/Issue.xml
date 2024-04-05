@@ -1,0 +1,1 @@
+<Issue id="44685" key="INDY-2357" number="2357" project="10303" reporter="ashcherbakov" creator="ashcherbakov" type="10002" summary="Move indy-plenum CI pipeline to GitHub Actions" priority="3" status="10200" created="2020-03-27 08:31:10.0" updated="2020-04-03 00:58:25.0" votes="0" watches="1" workflowId="58603" archived="N"/>

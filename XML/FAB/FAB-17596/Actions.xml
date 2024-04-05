@@ -1,0 +1,2 @@
+<Action id="68262" issue="44526" author="caod" type="comment" body="I talked to  ~jyellick  about this and it looks like it&apos;s dead code so we can go ahead and remove it from our config package. There&apos;s a followup FAB-17597 for removing it in Fabric entirely" created="2020-03-09 16:16:18.0" updateauthor="caod" updated="2020-03-09 16:16:18.0"/>
+<Action id="68267" issue="44526" author="caod" type="comment" body=" https://github.com/hyperledger/fabric/pull/818 " created="2020-03-09 17:39:44.0" updateauthor="caod" updated="2020-03-09 17:39:44.0"/>

@@ -1,0 +1,3 @@
+<Action id="55969" issue="36988" author="bur" type="comment" body="Add `option java_package = &quot;org.hyperledger.fabric.protos.token&quot;;` to transaction.proto" created="2019-01-22 08:07:07.0" updateauthor="bur" updated="2019-01-22 08:07:07.0"/>
+<Action id="56329" issue="36988" author="bur" type="comment" body="WIP https://gerrit.hyperledger.org/r/#/c/29002/" created="2019-01-29 13:52:32.0" updateauthor="bur" updated="2019-01-29 13:52:32.0"/>
+<Action id="67320" issue="36988" author="sykesm" type="comment" body="Stale" created="2020-01-22 22:31:16.0" updateauthor="sykesm" updated="2020-01-22 22:31:16.0"/>

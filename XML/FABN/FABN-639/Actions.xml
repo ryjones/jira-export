@@ -1,0 +1,4 @@
+<Action id="42620" issue="26682" author="n-horiguchi" type="comment" body="uploaded a patch for this issue: https://gerrit.hyperledger.org/r/#/c/20233/" created="2018-04-06 08:21:27.0" updateauthor="n-horiguchi" updated="2018-04-06 08:21:27.0"/>
+<Action id="42684" issue="26682" author="zhaochy" type="comment" body=" ~n-horiguchi  I made comments" created="2018-04-08 08:33:11.0" updateauthor="zhaochy" updated="2018-04-08 08:33:11.0"/>
+<Action id="42698" issue="26682" author="n-horiguchi" type="comment" body=" ~zhaochy  thank you! I updated the gerrit." created="2018-04-09 00:21:02.0" updateauthor="n-horiguchi" updated="2018-04-09 00:21:02.0"/>
+<Action id="59984" issue="26682" author="davidkel" type="comment" body="Closing as fabric-network now provides required capability" created="2019-05-14 06:26:17.0" updateauthor="davidkel" updated="2019-05-14 06:26:17.0"/>

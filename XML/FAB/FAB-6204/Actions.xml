@@ -1,0 +1,1 @@
+<Action id="32806" issue="20889" author="rameshthoomu" type="comment" body="Patch has been submitted and merged. Now we run vulnerability tests for every patch set on fabric-sdk-node repo. If we found vulnerable errors will fail the patch set with -1." created="2017-10-19 16:03:14.0" updateauthor="rameshthoomu" updated="2017-10-19 16:03:14.0"/>

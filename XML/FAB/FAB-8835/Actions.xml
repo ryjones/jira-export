@@ -1,0 +1,1 @@
+<Action id="41516" issue="28468" author="bjwswang" type="comment" body="Modify the Dockerfile in  https://github.com/hyperledger/fabric/blob/release-1.0/images/couchdb/Dockerfile.in  . Change COUCHDB_VERSION from 2.0.0 to 2.1.1 would work. " created="2018-03-13 10:10:06.0" updateauthor="bjwswang" updated="2018-03-13 10:10:06.0"/>

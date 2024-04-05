@@ -1,0 +1,2 @@
+<Action id="65583" issue="41993" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/c/fabric/+/34406" created="2019-11-15 20:18:14.0" updateauthor="sykesm" updated="2019-11-15 20:18:14.0"/>
+<Action id="65584" issue="41993" author="sykesm" type="comment" body="I see this task says &quot;golinter&quot; but it should really be a script executed by {{make basic-checks}} dependencies." created="2019-11-15 20:44:35.0" updateauthor="sykesm" updated="2019-11-15 20:44:35.0"/>

@@ -1,0 +1,2 @@
+<Action id="47163" issue="31749" author="manish-sethi" type="comment" body="For a better reference to the code see - https://gerrit.hyperledger.org/r/#/c/23735/4/core/ledger/kvledger/txmgmt/txmgr/lockbasedtxmgr/helper.go@121" created="2018-07-10 13:24:15.0" updateauthor="manish-sethi" updated="2018-07-10 13:24:15.0"/>
+<Action id="59606" issue="31749" author="sykesm" type="comment" body="The two sub-tasks are closed." created="2019-04-30 14:42:00.0" updateauthor="sykesm" updated="2019-04-30 14:42:00.0"/>

@@ -1,0 +1,1 @@
+<Action id="53315" issue="34454" author="sambhavdutt" type="comment" created="2018-11-12 12:28:27.0" updateauthor="sambhavdutt" updated="2018-11-12 12:28:27.0"> <body><! CDATA The sdk-node-merge tests are working fine from several builds.   *Build Log*  https://jenkins.hyperledger.org/view/fabric-sdk-node/job/fabric-sdk-node-merge-x86_64/34/  ></body> </Action>

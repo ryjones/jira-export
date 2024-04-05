@@ -1,0 +1,2 @@
+<Action id="44295" issue="30139" author="baohua" type="comment" body="https://gerrit.hyperledger.org/r/#/c/21707/" created="2018-05-13 12:59:46.0" updateauthor="baohua" updated="2018-05-13 12:59:46.0"/>
+<Action id="44430" issue="30139" author="tongliofcary" type="comment" created="2018-05-15 13:54:35.0" updateauthor="tongliofcary" updated="2018-05-15 13:54:35.0"> <body><! CDATA https://gerrit.hyperledger.org/r/21815  The previous merged patch on this one does not work in certain conditions. This patch fixed that issue.  ></body> </Action>

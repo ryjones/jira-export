@@ -1,0 +1,1 @@
+<Action id="42690" issue="29117" author="sambhavdutt" type="comment" created="2018-04-08 16:39:06.0" updateauthor="sambhavdutt" updated="2018-04-08 16:39:06.0"> <body><! CDATA The CI jobs are not relying on a hardcoded go version to fetch the binaries or docker images. All changes have been done by  ~rameshthoomu   This change has been merged.   ></body> </Action>

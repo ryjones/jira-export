@@ -1,0 +1,1 @@
+<Issue id="19529" key="FABC-532" number="532" project="10607" reporter="asara" creator="asara" type="10001" summary="Services should support a PID file" description="For purposes of management these services should write a PID file." priority="3" status="10100" created="2017-07-27 14:00:39.0" updated="2019-07-27 14:59:39.0" votes="1" watches="3" workflowId="32714"/>

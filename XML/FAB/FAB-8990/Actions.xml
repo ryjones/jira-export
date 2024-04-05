@@ -1,0 +1,2 @@
+<Action id="41840" issue="28690" author="sykesm" type="comment" created="2018-03-20 17:26:22.0" updateauthor="sykesm" updated="2018-03-26 12:44:42.0"> <body><! CDATA  x  Stop stuttering   x  Export types as appropriate   x  Constructors return implementations   x  Interfaces are defined at use   x  Mocks are generated from the local interfaces     ></body> </Action>
+<Action id="42089" issue="28690" author="wlahti" type="comment" body="https://gerrit.hyperledger.org/r/c/19687/" created="2018-03-23 17:59:54.0" updateauthor="wlahti" updated="2018-03-23 17:59:54.0"/>

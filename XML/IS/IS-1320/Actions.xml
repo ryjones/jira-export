@@ -1,0 +1,3 @@
+<Action id="61988" issue="41298" author="esplinr" type="comment" body="https://github.com/hyperledger/indy-sdk/pull/1741" created="2019-07-19 15:18:49.0" updateauthor="esplinr" updated="2019-07-19 15:18:49.0"/>
+<Action id="62142" issue="41298" author="artemkaaas" type="comment" body="Build version: master-1213" created="2019-07-26 05:21:24.0" updateauthor="artemkaaas" updated="2019-07-26 05:21:24.0"/>
+<Action id="62505" issue="41298" author="vladimirwork" type="comment" body="We can apply sign=false to payment txn (but it has no effect). separate ticket will be reported." created="2019-08-01 11:10:34.0" updateauthor="vladimirwork" updated="2019-08-01 11:13:21.0"/>

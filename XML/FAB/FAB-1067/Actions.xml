@@ -1,0 +1,2 @@
+<Action id="19829" issue="13398" author="dongming" type="comment" body="Completed the initial phase of creating orderer and peers based on a previous composer file." created="2016-11-21 22:18:03.0" updateauthor="dongming" updated="2016-11-21 22:18:03.0"/>
+<Action id="19830" issue="13398" author="dongming" type="comment" body="will continue the wrk with FAB-1178" created="2016-11-21 22:20:58.0" updateauthor="dongming" updated="2016-11-21 22:20:58.0"/>

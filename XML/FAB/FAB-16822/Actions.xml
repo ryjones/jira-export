@@ -1,0 +1,2 @@
+<Action id="64682" issue="42736" author="denyeart" type="comment" body="Note that Kafka support was removed from the master (v2.0.0) sample since the recommendation is to use Raft now." created="2019-10-13 10:06:32.0" updateauthor="denyeart" updated="2019-10-13 10:06:32.0"/>
+<Action id="69060" issue="42736" author="denyeart" type="comment" body="Maintainers have decided to only invest in Raft for samples going forward." created="2020-04-26 04:57:10.0" updateauthor="denyeart" updated="2020-04-26 04:57:10.0"/>

@@ -1,0 +1,1 @@
+<Action id="35940" issue="24565" author="latitiah" type="comment" body="It seems that there were no changes to cryptogen to allow for mutual TLS. The only change was a file name change. There is an outstanding question in FAB-6716 to verify that this is in fact the case." created="2017-12-06 16:21:58.0" updateauthor="latitiah" updated="2017-12-06 16:21:58.0"/>

@@ -1,0 +1,2 @@
+<Action id="47872" issue="27769" author="gudkov" type="comment" body=" ~esplinr   ~ashcherbakov  Do you now something about this? Is this still actual? The ticket seems related to Indy Node, not to Indy SDK." created="2018-07-26 09:37:11.0" updateauthor="gudkov" updated="2018-07-26 09:37:11.0"/>
+<Action id="47885" issue="27769" author="panickervinod" type="comment" body="This has been completed and the script is now available in the Indy Node repo." created="2018-07-26 10:55:20.0" updateauthor="panickervinod" updated="2018-07-26 10:55:20.0"/>

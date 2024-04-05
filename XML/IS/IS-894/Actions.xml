@@ -1,0 +1,2 @@
+<Action id="49223" issue="32873" author="artemkaaas" type="comment" body="Implemented in PR: https://github.com/hyperledger/indy-crypto/pull/125" created="2018-08-22 12:07:28.0" updateauthor="artemkaaas" updated="2018-08-22 12:07:54.0"/>
+<Action id="49633" issue="32873" author="gudkov" type="comment" body="API implemented and tested" created="2018-08-30 16:07:16.0" updateauthor="gudkov" updated="2018-08-30 16:07:16.0"/>

@@ -1,0 +1,3 @@
+<Action id="33600" issue="23200" author="n-horiguchi" type="comment" created="2017-10-31 06:33:29.0" updateauthor="n-horiguchi" updated="2017-10-31 06:33:29.0"> <body><! CDATA Created a CR: https://gerrit.hyperledger.org/r/#/c/14975/   ></body> </Action>
+<Action id="33910" issue="23200" author="jeffgarratt" type="comment" body=" ~n-horiguchi  Your CR failed job builder.  I posted a reverify." created="2017-11-01 15:29:01.0" updateauthor="jeffgarratt" updated="2017-11-01 15:36:11.0"/>
+<Action id="34243" issue="23200" author="jeffgarratt" type="comment" body=" ~n-horiguchi  Finally got CI to pass.  Ready for review and merge.  https://gerrit.hyperledger.org/r/#/c/14975/" created="2017-11-02 14:21:26.0" updateauthor="jeffgarratt" updated="2017-11-02 14:21:41.0"/>

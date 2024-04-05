@@ -1,0 +1,1 @@
+<Action id="64602" issue="24721" author="esplinr" type="comment" body="We have shown adequate performance with a 25 node pool, and have capped the pool at that size for now. We can create new stories for future testing when we have a demonstrated need for better performance or a bigger pool." created="2019-10-11 09:58:17.0" updateauthor="esplinr" updated="2019-10-11 09:58:17.0"/>

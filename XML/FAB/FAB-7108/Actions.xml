@@ -1,0 +1,3 @@
+<Action id="35509" issue="24472" author="yacovm" type="comment" created="2017-11-27 16:11:12.0" updateauthor="yacovm" updated="2017-11-27 16:11:12.0"> <body><! CDATA  ~cbl  not trying to rush you or anything, :)  but is there an ETA for this?   ></body> </Action>
+<Action id="35608" issue="24472" author="cbl" type="comment" body="https://gerrit.hyperledger.org/r/#/c/15801/" created="2017-11-29 04:19:43.0" updateauthor="cbl" updated="2017-11-29 04:19:43.0"/>
+<Action id="67177" issue="24472" author="sykesm" type="comment" body="Stale" created="2020-01-22 22:17:15.0" updateauthor="sykesm" updated="2020-01-22 22:17:15.0"/>

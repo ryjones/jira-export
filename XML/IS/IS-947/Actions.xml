@@ -1,0 +1,2 @@
+<Action id="54561" issue="33774" author="artemkaaas" type="comment" created="2018-12-10 11:27:33.0" updateauthor="artemkaaas" updated="2018-12-10 11:27:33.0"> <body><! CDATA Changes:  The field `wallet_type` was added to vcx_config to specify a type of Libindy Wallet Storage to use. PR: https://github.com/hyperledger/indy-sdk/pull/1342  ></body> </Action>
+<Action id="55019" issue="33774" author="gudkov" type="comment" body="Merged, looks ok" created="2018-12-20 08:39:01.0" updateauthor="gudkov" updated="2018-12-20 08:39:01.0"/>

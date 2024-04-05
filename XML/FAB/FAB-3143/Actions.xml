@@ -1,0 +1,1 @@
+<Action id="23172" issue="15730" author="scottz" type="comment" created="2017-04-28 18:27:21.0" updateauthor="scottz" updated="2017-04-28 18:27:21.0"> <body><! CDATA This subtask is out of the scope of jira 1805, which was indeed completed. Closing 3143 now, and will open another jira issue for this task to update the OTE tool. for the newer Orderer API.  ></body> </Action>

@@ -1,0 +1,1 @@
+<Action id="58971" issue="38972" author="mbwhite" type="comment" created="2019-04-05 12:16:11.0" updateauthor="mbwhite" updated="2019-04-05 12:16:11.0"> <body><! CDATA This CR contains the updates - but as yet there's no Fabric 1.4.1 to test against - hence why I think the first build failed  https://gerrit.hyperledger.org/r/30761  FAB-14974  Release 1.4.1  ></body> </Action>

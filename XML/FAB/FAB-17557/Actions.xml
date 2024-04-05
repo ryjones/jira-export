@@ -1,0 +1,2 @@
+<Action id="68149" issue="44452" author="yacovm" type="comment" body=" ~sykesm " created="2020-02-27 22:50:36.0" updateauthor="yacovm" updated="2020-02-27 22:50:36.0"/>
+<Action id="68159" issue="44452" author="sykesm" type="comment" created="2020-02-28 19:43:01.0" updateauthor="sykesm" updated="2020-02-28 19:43:01.0"> <body><! CDATA The peer should have returned an error during install.  We will wire in a disabled builder that will only return errors when docker is disabled.  ></body> </Action>

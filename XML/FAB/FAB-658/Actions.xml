@@ -1,0 +1,1 @@
+<Action id="19615" issue="12960" author="rameshthoomu" type="comment" body="Now membersrvc.yaml file is supporting for 64 peers.. This change is not existed in current docker images, we will publish this change in next release images." created="2016-11-02 17:29:48.0" updateauthor="rameshthoomu" updated="2016-11-02 17:29:48.0"/>

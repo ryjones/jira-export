@@ -1,0 +1,1 @@
+<Action id="20293" issue="13353" author="muralisr" type="comment" body="moved it to in progress to complete the hook up. The &quot;call gossip from CSCC&quot; is indeed complete. However the gossip needs to be hooked up to the orderer to enable transaction flows." created="2017-01-07 17:17:41.0" updateauthor="muralisr" updated="2017-01-07 17:17:41.0"/>

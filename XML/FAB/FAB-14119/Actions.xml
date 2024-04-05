@@ -1,0 +1,4 @@
+<Action id="57050" issue="37544" author="kchristidis" type="comment" body="Getting a panic on this spec in: https://gerrit.hyperledger.org/r/c/29233/" created="2019-02-14 18:50:35.0" updateauthor="kchristidis" updated="2019-02-14 18:50:35.0"/>
+<Action id="57281" issue="37544" author="guoger" type="comment" body="I think this is fixed by https://gerrit.hyperledger.org/r/c/29340/ and can be closed. Pls chime in  ~yacovm " created="2019-02-19 01:55:46.0" updateauthor="guoger" updated="2019-02-19 01:55:46.0"/>
+<Action id="57494" issue="37544" author="yacovm" type="comment" body="i think so" created="2019-02-23 21:05:44.0" updateauthor="yacovm" updated="2019-02-23 21:05:44.0"/>
+<Action id="57495" issue="37544" author="kchristidis" type="comment" body="If this re-surfaces, we&apos;ll re-open. Let&apos;s also keep an eye out for it it&apos;s listed as new flake under {{flakes}}." created="2019-02-23 21:06:35.0" updateauthor="kchristidis" updated="2019-02-23 21:06:35.0"/>

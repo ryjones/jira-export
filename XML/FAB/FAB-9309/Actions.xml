@@ -1,0 +1,2 @@
+<Action id="43936" issue="29102" author="christopherferris" type="comment" body="Before we document this, we should make it a LOT more consumable. It&apos;s a bit rube goldberg presently" created="2018-05-05 22:47:39.0" updateauthor="christopherferris" updated="2018-05-05 22:47:39.0"/>
+<Action id="66641" issue="29102" author="pandrejko" type="comment" body="Plan to address performance in the documentation using this one https://jira.hyperledger.org/browse/FAB-17043" created="2020-01-13 17:00:19.0" updateauthor="pandrejko" updated="2020-01-13 17:00:19.0"/>

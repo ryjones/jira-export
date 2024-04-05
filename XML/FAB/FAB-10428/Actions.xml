@@ -1,0 +1,1 @@
+<Action id="45323" issue="30698" author="ashahchen" type="comment" created="2018-05-31 03:27:57.0" updateauthor="ashahchen" updated="2018-05-31 05:51:22.0"> <body><! CDATA 1.doc has been updated in fabric/docs/source/build_network.rst  2.set +x means print the commands run in bash script, set -x means stop print.  ></body> </Action>

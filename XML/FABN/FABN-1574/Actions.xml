@@ -1,0 +1,1 @@
+<Action id="70866" issue="45263" author="lesleyannj" type="comment" created="2020-12-01 15:43:37.0" updateauthor="lesleyannj" updated="2020-12-01 15:43:37.0"> <body><! CDATA  Driver for grpc-js in the 1.4 SDK has been removed.       15:41 so no longer required on our end  ></body> </Action>

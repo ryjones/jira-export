@@ -1,0 +1,4 @@
+<Action id="28481" issue="19287" author="lovesh" type="comment" body="Same cause as INDY-420" created="2017-07-17 08:55:38.0" updateauthor="lovesh" updated="2017-07-17 08:55:38.0"/>
+<Action id="28487" issue="19287" author="lovesh" type="comment" body="PR, https://github.com/hyperledger/indy-plenum/pull/283" created="2017-07-17 10:55:07.0" updateauthor="lovesh" updated="2017-07-17 10:55:07.0"/>
+<Action id="28624" issue="19287" author="krw910" type="comment" body="Blocked by INDY438. I am unable to throw a sufficant load at the pool until this ticket has been addressed. Lovesh is looking at the pool." created="2017-07-18 21:37:10.0" updateauthor="krw910" updated="2017-07-18 21:37:10.0"/>
+<Action id="28751" issue="19287" author="krw910" type="comment" body="This appears to be working. The nodes are getting updated with who the current primary node is." created="2017-07-20 20:47:02.0" updateauthor="krw910" updated="2017-07-20 20:47:02.0"/>

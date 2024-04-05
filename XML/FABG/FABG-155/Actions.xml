@@ -1,0 +1,2 @@
+<Action id="41852" issue="24699" author="troyronda" type="comment" body="This is being tracked in: https://jira.hyperledger.org/browse/FAB-7546" created="2018-03-20 20:33:36.0" updateauthor="troyronda" updated="2018-03-20 20:33:36.0"/>
+<Action id="41860" issue="24699" author="troyronda" type="comment" body="v1.0.0-alpha3 of the SDK has been tagged. this version is compatible with both fabric 1.0 and 1.1." created="2018-03-21 03:32:00.0" updateauthor="troyronda" updated="2018-03-21 03:32:00.0"/>

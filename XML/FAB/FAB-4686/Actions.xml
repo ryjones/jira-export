@@ -1,0 +1,2 @@
+<Action id="27198" issue="17968" author="latitiah" type="comment" body="https://gerrit.hyperledger.org/r/11007" created="2017-06-22 14:48:44.0" updateauthor="latitiah" updated="2017-06-22 14:48:44.0"/>
+<Action id="44506" issue="17968" author="scottz" type="comment" body="Reopened this so it appears on our v1.2 systemtest regression list todo." created="2018-05-16 20:38:42.0" updateauthor="scottz" updated="2018-05-16 20:38:42.0"/>

@@ -1,0 +1,1 @@
+<Action id="21945" issue="14777" author="muralisr" type="comment" body="We have removed hard coded configuration. Default configs driven by core.yaml and orderer&apos;s &quot;testchainid&quot; remain for dev/test and purposes. Closing this as done." created="2017-04-07 15:05:05.0" updateauthor="muralisr" updated="2017-04-07 15:05:05.0"/>

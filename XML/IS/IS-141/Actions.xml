@@ -1,0 +1,1 @@
+<Action id="64385" issue="18429" author="esplinr" type="comment" body="As code from the Indy SDK moves to Aries, the threading model is expected to change. So we don&apos;t plan to make this improvement in the current code base." created="2019-10-08 14:43:39.0" updateauthor="esplinr" updated="2019-10-08 14:43:39.0"/>

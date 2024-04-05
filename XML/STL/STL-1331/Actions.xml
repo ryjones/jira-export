@@ -1,0 +1,1 @@
+<Action id="47081" issue="31669" author="thoughtchimp" type="comment" body="The issue was with different state bcoz of using JSON for the payload. We changed that and it got sorted." created="2018-07-09 05:29:30.0" updateauthor="thoughtchimp" updated="2018-07-09 05:29:30.0"/>

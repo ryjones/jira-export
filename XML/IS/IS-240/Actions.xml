@@ -1,0 +1,1 @@
+<Action id="47850" issue="19485" author="gudkov" type="comment" body="I believe we don&apos;t need such functionality. Plugins are much easier to be implemented in native code and to be registered with plugin init function. Closing this as invalid." created="2018-07-26 08:40:41.0" updateauthor="gudkov" updated="2018-07-26 08:40:41.0"/>

@@ -1,0 +1,3 @@
+<Action id="25884" issue="17700" author="aleksey-roldugin" type="comment" body="FYI  ~krw910 ,  ~stevetolman ,  ~jlaw 1 ,  ~ashcherbakov " created="2017-06-09 17:29:36.0" updateauthor="aleksey-roldugin" updated="2017-06-09 17:29:36.0"/>
+<Action id="26173" issue="17700" author="stevetolman" type="comment" body="Please retest." created="2017-06-13 17:01:09.0" updateauthor="stevetolman" updated="2017-06-13 17:01:09.0"/>
+<Action id="26224" issue="17700" author="krw910" type="comment" body="Catch up did happen when a node service was off and started again. There are other issues around a node service being shut off, but when it was started it did catch up correctly." created="2017-06-14 03:28:13.0" updateauthor="krw910" updated="2017-06-14 03:28:13.0"/>

@@ -1,0 +1,1 @@
+<Action id="71180" issue="46451" author="denyeart" type="comment" body=" ~phanitta  I don&apos;t understand the scenario, are you trying to encrypt within chaincode based on a peer&apos;s secret key? Wouldn&apos;t the secret key be different on each peer?" created="2021-01-11 04:05:40.0" updateauthor="denyeart" updated="2021-01-11 04:05:40.0"/>

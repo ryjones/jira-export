@@ -1,0 +1,2 @@
+<Action id="24356" issue="17145" author="smithbk" type="comment" body="This is fixed in  https://gerrit.hyperledger.org/r/#/c/9725/  ... which is not yet merged" created="2017-05-25 17:09:20.0" updateauthor="smithbk" updated="2017-05-25 17:09:20.0"/>
+<Action id="24438" issue="17145" author="mastersingh24" type="comment" body="duplicate of https://jira.hyperledger.org/browse/FAB-4097" created="2017-05-26 12:27:39.0" updateauthor="mastersingh24" updated="2017-05-26 12:27:39.0"/>

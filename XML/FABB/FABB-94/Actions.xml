@@ -1,0 +1,1 @@
+<Action id="44446" issue="24666" author="rameshthoomu" type="comment" body="In the current process, we update BASEIMAGE_RELEASE version in fabric/Makefile after the baseimage is released." created="2018-05-15 20:33:57.0" updateauthor="rameshthoomu" updated="2018-05-15 20:33:57.0"/>

@@ -1,0 +1,1 @@
+<Action id="70558" issue="46238" author="wenjian" type="comment" body="The failure was due to changes in  https://github.com/hyperledger/fabric/pull/2038.  " created="2020-10-24 21:37:44.0" updateauthor="wenjian" updated="2020-10-24 21:37:44.0"/>

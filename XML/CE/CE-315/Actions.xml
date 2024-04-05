@@ -1,0 +1,2 @@
+<Action id="41835" issue="28671" author="hightall" type="comment" body=" https://youtu.be/LVGW1fuZ98c " created="2018-03-20 14:48:36.0" updateauthor="hightall" updated="2018-03-20 14:48:36.0"/>
+<Action id="42454" issue="28671" author="amir-teshome" type="comment" body="Nice video, I think the  the `{{make setup-master}}` command is missed before running `{{make start`}}" created="2018-04-03 08:03:01.0" updateauthor="amir-teshome" updated="2018-04-03 08:03:18.0"/>

@@ -1,0 +1,2 @@
+<Action id="44113" issue="29050" author="christopherferris" type="comment" body="gotools directory and gotools/Makefile were deleted in  https://gerrit.hyperledger.org/r/c/19985/ " created="2018-05-09 12:29:05.0" updateauthor="christopherferris" updated="2018-05-09 12:29:47.0"/>
+<Action id="44117" issue="29050" author="rpjday" type="comment" body="Everything is good now, I submitted that issue quite some time ago so it can be closed." created="2018-05-09 12:32:57.0" updateauthor="rpjday" updated="2018-05-09 12:32:57.0"/>

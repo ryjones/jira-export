@@ -1,0 +1,2 @@
+<Action id="51255" issue="33973" author="rickr" type="comment" body="The sdk used to try and verify proposals even though they were invalid. This has been addressed. The underlying issue here is the propsoal is probably invalid." created="2018-09-27 10:41:19.0" updateauthor="rickr" updated="2018-09-27 10:41:19.0"/>
+<Action id="51257" issue="33973" author="rickr" type="comment" body="https://jira.hyperledger.org/browse/FABJ-346" created="2018-09-27 10:45:07.0" updateauthor="rickr" updated="2018-09-27 10:45:07.0"/>

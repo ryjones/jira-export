@@ -1,0 +1,2 @@
+<Action id="40751" issue="28003" author="mastersingh24" type="comment" body="https://gerrit.hyperledger.org/r/18371" created="2018-02-25 10:53:34.0" updateauthor="mastersingh24" updated="2018-02-25 10:53:34.0"/>
+<Action id="40753" issue="28003" author="rickr" type="comment" created="2018-02-25 12:05:30.0" updateauthor="rickr" updated="2018-02-25 12:05:30.0"> <body><! CDATA The SDK in the past has used "user" as the default role.  Not "peer" or "client".  Should it not match that ?  ~smithbk  ^^  ></body> </Action>

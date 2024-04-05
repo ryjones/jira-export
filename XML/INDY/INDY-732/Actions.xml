@@ -1,0 +1,3 @@
+<Action id="30010" issue="20159" author="stevetolman" type="comment" body="Let&apos;s state the obvious: code errors should not rob the user of their identity." created="2017-08-18 21:04:25.0" updateauthor="stevetolman" updated="2017-08-18 21:04:25.0"/>
+<Action id="37960" issue="20159" author="seanbohan_sovrin" type="comment" body=" ~gudkov  - is still a problem in the SDK? Should it still live in Indy??" created="2018-01-03 19:30:12.0" updateauthor="seanbohan_sovrin" updated="2018-01-03 19:30:12.0"/>
+<Action id="64424" issue="20159" author="ashcherbakov" type="comment" body="We don&apos;t have CLI in Node anymore" created="2019-10-09 08:33:18.0" updateauthor="ashcherbakov" updated="2019-10-09 08:33:18.0"/>

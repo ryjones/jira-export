@@ -1,0 +1,2 @@
+<Action id="67875" issue="31406" author="davidkhala" type="comment" body="what the `local collections` mean? Is it the original private data collection or original State-based Endorsement over private data collection?" created="2020-02-09 06:03:03.0" updateauthor="davidkhala" updated="2020-02-09 06:09:50.0"/>
+<Action id="67994" issue="31406" author="denyeart" type="comment" body=" ~davidkhala  Local collections is a different proposal for the future - see details at FAB-7593." created="2020-02-18 20:48:09.0" updateauthor="denyeart" updated="2020-02-18 20:48:09.0"/>

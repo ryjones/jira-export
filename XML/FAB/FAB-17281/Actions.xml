@@ -1,0 +1,1 @@
+<Action id="66298" issue="43757" author="yacovm" type="comment" body="It will remove it after enough time passes. Give it an hour or so... it obviously doesn&apos;t know it is running in docker and that you deleted it ;) " created="2019-12-17 21:03:02.0" updateauthor="yacovm" updated="2019-12-17 21:03:02.0"/>

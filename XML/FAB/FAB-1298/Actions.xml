@@ -1,0 +1,1 @@
+<Action id="20078" issue="13705" author="jyellick" type="comment" body="Per some feedback from  ~bcbrock  it sounds like we can rely on gRPC to do our windowing for us, so I am repurposing this story for removing the queue and windowing from broadcast." created="2016-12-13 15:35:19.0" updateauthor="jyellick" updated="2016-12-13 15:35:19.0"/>

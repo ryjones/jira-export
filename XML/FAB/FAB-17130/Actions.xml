@@ -1,0 +1,1 @@
+<Action id="66468" issue="43435" author="mastersingh24" type="comment" created="2020-01-04 11:33:08.0" updateauthor="mastersingh24" updated="2020-01-04 11:33:08.0"> <body><! CDATA This is not a bug ... this is simply how things work in 1.4 and earlier. The new lifecycle in 2.0 and later resolves this  ></body> </Action>

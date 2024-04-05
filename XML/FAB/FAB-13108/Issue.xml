@@ -1,0 +1,1 @@
+<Issue id="35798" key="FAB-13108" number="13108" project="10002" reporter="kutenglaoshu" creator="kutenglaoshu" type="10001" summary="conn never return nil" priority="3" resolution="10001" status="6" created="2018-12-03 11:02:09.0" updated="2020-01-22 22:32:40.0" resolutiondate="2020-01-22 22:32:40.0" votes="0" watches="1" workflowId="47296"/>

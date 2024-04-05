@@ -1,0 +1,1 @@
+<Action id="65085" issue="17606" author="esplinr" type="comment" body=" ~SteveGoob : It looks like repo.sovrin.org still saves every master build. Should we have a cron job to remove them after six months?" created="2019-10-29 14:40:50.0" updateauthor="esplinr" updated="2019-10-29 14:40:50.0"/>

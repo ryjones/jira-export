@@ -1,0 +1,2 @@
+<Action id="26149" issue="17825" author="rickr" type="comment" body="This really isn&apos;t part of java sdk building the fabric.  fabric make should have failed rather than complete successfully and have docker images that are not usable." created="2017-06-13 14:31:27.0" updateauthor="rickr" updated="2017-06-13 14:32:37.0"/>
+<Action id="67061" issue="17825" author="sykesm" type="comment" body="Stale" created="2020-01-22 21:50:34.0" updateauthor="sykesm" updated="2020-01-22 21:50:34.0"/>

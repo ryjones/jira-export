@@ -1,0 +1,3 @@
+<Action id="44158" issue="30089" author="harsha544" type="comment" body="Inclusion of libffi-dev should resolve above issue." created="2018-05-10 07:24:30.0" updateauthor="harsha544" updated="2018-05-10 07:24:30.0"/>
+<Action id="44160" issue="30089" author="harsha544" type="comment" body="Added libssl-dev as well." created="2018-05-10 08:45:37.0" updateauthor="harsha544" updated="2018-05-10 08:45:37.0"/>
+<Action id="44161" issue="30089" author="harsha544" type="comment" body="https://gerrit.hyperledger.org/r/21665" created="2018-05-10 08:45:43.0" updateauthor="harsha544" updated="2018-05-10 08:45:43.0"/>

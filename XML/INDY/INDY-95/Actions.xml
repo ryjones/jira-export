@@ -1,0 +1,2 @@
+<Action id="36903" issue="17221" author="seanbohan_sovrin" type="comment" body=" ~alexander.shekhovcov  -  is this still valid? if not pls close" created="2017-12-12 18:12:01.0" updateauthor="seanbohan_sovrin" updated="2017-12-12 18:12:01.0"/>
+<Action id="37750" issue="17221" author="ashcherbakov" type="comment" body="Yes, it&apos;s done. I&apos;m going to unskip the tests in my next PR" created="2017-12-22 15:05:26.0" updateauthor="ashcherbakov" updated="2017-12-22 15:05:26.0"/>

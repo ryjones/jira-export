@@ -1,0 +1,4 @@
+<Action id="28264" issue="18795" author="jimthematrix" type="comment" body="https://gerrit.hyperledger.org/r/#/c/11301" created="2017-07-12 17:54:40.0" updateauthor="jimthematrix" updated="2017-07-12 18:34:46.0"/>
+<Action id="28378" issue="18795" author="mastersingh24" type="comment" body="We should not be adding new APIs in a patch release - the target for this should be 1.1" created="2017-07-14 09:31:14.0" updateauthor="mastersingh24" updated="2017-07-14 09:31:38.0"/>
+<Action id="41050" issue="18795" author="davidkhala" type="comment" created="2018-03-01 02:17:39.0" updateauthor="davidkhala" updated="2018-03-01 02:17:39.0"> <body><! CDATA  ~shumin1027   I would like to cooperate with you on that. Keep posted.  ></body> </Action>
+<Action id="41155" issue="18795" author="harrisob@us.ibm.com" type="comment" body="https://gerrit.hyperledger.org/r/#/c/11609/" created="2018-03-02 20:07:15.0" updateauthor="harrisob@us.ibm.com" updated="2018-03-02 20:07:15.0"/>

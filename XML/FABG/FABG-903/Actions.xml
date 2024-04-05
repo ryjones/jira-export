@@ -1,0 +1,2 @@
+<Action id="63351" issue="42092" author="shitaibin" type="comment" created="2019-08-28 06:59:25.0" updateauthor="shitaibin" updated="2019-08-28 06:59:25.0"> <body><! CDATA it can be fixed using specific version cfssl:    {code:java} github.com/cloudflare/cfssl v0.0.0-20180323000720-5d63dbd981b5 {code}  ></body> </Action>
+<Action id="63352" issue="42092" author="shitaibin" type="comment" body="plz close this issue." created="2019-08-28 07:00:21.0" updateauthor="shitaibin" updated="2019-08-28 07:00:21.0"/>

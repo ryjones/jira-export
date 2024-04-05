@@ -1,0 +1,1 @@
+<Action id="37954" issue="19721" author="ozheregelya" type="comment" created="2018-01-03 19:24:40.0" updateauthor="ozheregelya" updated="2018-01-03 19:24:40.0"> <body><! CDATA The issue is not actual for sovrin-cli (case with stopping/demotion more than f nodes was verified in last acceptance testing). Indy-cli is also works correctly in this case.  ></body> </Action>

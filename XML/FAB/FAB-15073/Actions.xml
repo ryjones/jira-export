@@ -1,0 +1,2 @@
+<Action id="58966" issue="39089" author="mastersingh24" type="comment" body="https://gerrit.hyperledger.org/r/30758" created="2019-04-05 08:30:25.0" updateauthor="mastersingh24" updated="2019-04-05 08:30:25.0"/>
+<Action id="59027" issue="39089" author="troyronda" type="comment" body="FYI - fabric-ca is importing this package. e.g., https://github.com/hyperledger/fabric-ca/blob/master/lib/client/credential/x509/signer.go#L15 (so it will also need to be updated)." created="2019-04-08 14:03:43.0" updateauthor="troyronda" updated="2019-04-08 14:03:43.0"/>

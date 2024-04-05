@@ -1,0 +1,2 @@
+<Action id="20193" issue="13872" author="ashutosh_kumar" type="comment" body="I cannot contain this item within Sprint 8 because of FAB 1372. Moving to Sprint 9 , hence." created="2016-12-23 21:15:41.0" updateauthor="ashutosh_kumar" updated="2016-12-23 21:15:41.0"/>
+<Action id="21920" issue="13872" author="smithbk" type="comment" body="See https://gerrit.hyperledger.org/r/#/c/7471/" created="2017-04-06 13:27:53.0" updateauthor="smithbk" updated="2017-04-06 13:27:53.0"/>

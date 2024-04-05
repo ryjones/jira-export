@@ -1,0 +1,2 @@
+<Action id="49138" issue="31435" author="denyeart" type="comment" body=" ~mastersingh24  I know you&apos;ve got some experience with dep, what do you think?" created="2018-08-21 11:30:42.0" updateauthor="denyeart" updated="2018-08-21 11:30:42.0"/>
+<Action id="49731" issue="31435" author="davidkhala" type="comment" body="Currently, I retry dep init and found the error disappear. Close it for now" created="2018-09-01 03:48:14.0" updateauthor="davidkhala" updated="2018-09-01 03:48:14.0"/>

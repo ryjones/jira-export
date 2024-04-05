@@ -1,0 +1,4 @@
+<Action id="48060" issue="32065" author="ashutosh_kumar" type="comment" body="I have requested Vlad to review the code." created="2018-07-27 20:12:52.0" updateauthor="ashutosh_kumar" updated="2018-07-27 20:12:52.0"/>
+<Action id="48716" issue="32065" author="ashutosh_kumar" type="comment" body="CR https://gerrit.hyperledger.org/r/#/c/24877/" created="2018-08-10 13:40:04.0" updateauthor="ashutosh_kumar" updated="2018-08-10 13:40:04.0"/>
+<Action id="48717" issue="32065" author="ashutosh_kumar" type="comment" body="There are 2 aspects of BCCSP : PKCS11 and SW based. The CR  https://gerrit.hyperledger.org/r/#/c/24877/  is on PKCS11." created="2018-08-10 13:41:38.0" updateauthor="ashutosh_kumar" updated="2018-08-10 13:41:38.0"/>
+<Action id="48909" issue="32065" author="denyeart" type="comment" body=" ~ashutosh_kumar  The auto-transition to done worked!" created="2018-08-16 00:59:58.0" updateauthor="denyeart" updated="2018-08-16 00:59:58.0"/>

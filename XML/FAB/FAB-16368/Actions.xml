@@ -1,0 +1,4 @@
+<Action id="63991" issue="41935" author="jyellick" type="comment" body=" ~manish-sethi  Can you triage?" created="2019-09-23 20:29:14.0" updateauthor="jyellick" updated="2019-09-23 20:29:14.0"/>
+<Action id="64014" issue="41935" author="abel23" type="comment" created="2019-09-24 08:22:22.0" updateauthor="abel23" updated="2019-09-24 08:22:22.0"> <body><! CDATA  ~jyellick  These issues happen only while in docker swarm mode     ></body> </Action>
+<Action id="64085" issue="41935" author="jyellick" type="comment" body="This looks like it might be a duplicate of FAB-16365 ?" created="2019-09-24 17:10:01.0" updateauthor="jyellick" updated="2019-09-24 17:10:01.0"/>
+<Action id="64093" issue="41935" author="jyellick" type="comment" body="Reported as no longer a problem via the above bug." created="2019-09-24 18:30:51.0" updateauthor="jyellick" updated="2019-09-24 18:30:51.0"/>

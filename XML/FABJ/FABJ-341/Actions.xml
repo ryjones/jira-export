@@ -1,0 +1,1 @@
+<Action id="33817" issue="23232" author="rickr" type="comment" body="Idemix as far as I know is optional and SampleStore should not  be made dependent on it for the existing integration testcases." created="2017-11-01 14:30:12.0" updateauthor="rickr" updated="2017-11-01 14:30:12.0"/>

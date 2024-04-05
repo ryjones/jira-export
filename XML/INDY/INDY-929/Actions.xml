@@ -1,0 +1,1 @@
+<Action id="52144" issue="22882" author="ashcherbakov" type="comment" body="This is expected behaviour, since the data for validator_info is dumped every 60 seconds." created="2018-10-12 09:51:50.0" updateauthor="ashcherbakov" updated="2018-10-12 09:51:50.0"/>

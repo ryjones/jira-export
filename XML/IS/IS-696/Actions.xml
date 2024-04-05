@@ -1,0 +1,3 @@
+<Action id="44549" issue="30102" author="artemkaaas" type="comment" body="Implemented in PR: https://github.com/hyperledger/indy-sdk/pull/765" created="2018-05-17 12:07:28.0" updateauthor="artemkaaas" updated="2018-05-17 12:07:52.0"/>
+<Action id="44952" issue="30102" author="artemkaaas" type="comment" body="Build version: master 527 " created="2018-05-23 08:42:46.0" updateauthor="artemkaaas" updated="2018-05-23 08:42:46.0"/>
+<Action id="45033" issue="30102" author="zhigunenko.dsr" type="comment" body="tested on _libnullpay 0.1.0-529_" created="2018-05-24 10:23:15.0" updateauthor="zhigunenko.dsr" updated="2018-05-24 10:23:15.0"/>

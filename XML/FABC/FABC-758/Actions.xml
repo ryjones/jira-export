@@ -1,0 +1,2 @@
+<Action id="54009" issue="35709" author="jamesruan" type="comment" body="https://gerrit.hyperledger.org/r/27812" created="2018-11-29 14:14:05.0" updateauthor="jamesruan" updated="2018-11-29 14:14:05.0"/>
+<Action id="54138" issue="35709" author="mastersingh24" type="comment" body=" ~jamesruan   - please see the section on {{NO_ZERO_DATE}} in the docs:  https://hyperledger-fabric-ca.readthedocs.io/en/latest/users-guide.html#mysql" created="2018-12-01 20:29:53.0" updateauthor="mastersingh24" updated="2018-12-01 20:29:53.0"/>

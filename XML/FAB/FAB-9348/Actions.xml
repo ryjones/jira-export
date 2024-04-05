@@ -1,0 +1,2 @@
+<Action id="44286" issue="29158" author="rameshthoomu" type="comment" body="https://gerrit.hyperledger.org/r/#/c/21725/" created="2018-05-12 20:28:43.0" updateauthor="rameshthoomu" updated="2018-05-12 20:28:43.0"/>
+<Action id="44386" issue="29158" author="rameshthoomu" type="comment" body=" ~ChristopherFerris  patch has been merged and now the fabric-docs has a jenkins docs job. https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-docs-rtd-verify-job/1/html/" created="2018-05-15 01:12:49.0" updateauthor="rameshthoomu" updated="2018-05-15 01:12:49.0"/>

@@ -1,0 +1,1 @@
+<Action id="23090" issue="14049" author="ratnakar" type="comment" created="2017-04-27 18:23:10.0" updateauthor="ratnakar" updated="2017-04-27 18:23:10.0"> <body><! CDATA The chaincode has been included in Performance Traffic Engine (PTE) tool.  Please refer the chaincode here: https://gerrit.hyperledger.org/r/#/c/8111/1/test/tools/PTE/chaincode_sample.go  ></body> </Action>

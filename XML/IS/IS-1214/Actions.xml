@@ -1,0 +1,2 @@
+<Action id="60093" issue="38307" author="artemkaaas" type="comment" created="2019-05-17 07:14:52.0" updateauthor="artemkaaas" updated="2019-05-17 07:14:52.0"> <body><! CDATA  ~theoturner  Seems it has been done in PR: https://github.com/hyperledger/indy-sdk/pull/1521. Can we close the ticket?  ></body> </Action>
+<Action id="60102" issue="38307" author="theoturner" type="comment" created="2019-05-17 08:53:01.0" updateauthor="theoturner" updated="2019-05-17 08:53:01.0"> <body><! CDATA  ~Artemkaaas  Yes  ></body> </Action>

@@ -1,0 +1,3 @@
+<Action id="69446" issue="45239" author="btl5037" type="comment" body="Install and Instantiate parameters need to be updated to the 2.0 Application paramaters as well in the test input file" created="2020-06-11 17:21:13.0" updateauthor="btl5037" updated="2020-06-11 17:25:50.0"/>
+<Action id="69447" issue="45239" author="btl5037" type="comment" body="We also need to verify that every test scenario still works" created="2020-06-11 17:28:16.0" updateauthor="btl5037" updated="2020-06-11 17:28:16.0"/>
+<Action id="69569" issue="45239" author="suryalnvs" type="comment" body="https://github.com/hyperledger/fabric-test/pull/212" created="2020-06-26 15:11:29.0" updateauthor="suryalnvs" updated="2020-06-26 15:11:29.0"/>

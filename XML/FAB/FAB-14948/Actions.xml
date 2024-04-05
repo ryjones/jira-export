@@ -1,0 +1,2 @@
+<Action id="59432" issue="38937" author="denyeart" type="comment" body="TestDifferentMessages in discovery/client/signer_test.go" created="2019-04-23 21:01:26.0" updateauthor="denyeart" updated="2019-04-23 21:01:26.0"/>
+<Action id="59772" issue="38937" author="mhbauer" type="comment" body="Looks like dup of https://jira.hyperledger.org/browse/FAB-15143" created="2019-05-06 21:32:16.0" updateauthor="mhbauer" updated="2019-05-06 21:32:16.0"/>

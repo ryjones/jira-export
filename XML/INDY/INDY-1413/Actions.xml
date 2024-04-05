@@ -1,0 +1,2 @@
+<Action id="45964" issue="31049" author="gudkov" type="comment" body=" ~devin-fisher  Are you sure it is relevant for Indy SDK? Indy Node is managed iunder INDY jira project, not IS" created="2018-06-15 11:35:57.0" updateauthor="gudkov" updated="2018-06-15 11:35:57.0"/>
+<Action id="46011" issue="31049" author="devin-fisher" type="comment" body="Sorry,  ~gudkov  , moved to INDY where it belongs. Thanks for heads up. " created="2018-06-15 20:24:53.0" updateauthor="devin-fisher" updated="2018-06-15 20:24:53.0"/>

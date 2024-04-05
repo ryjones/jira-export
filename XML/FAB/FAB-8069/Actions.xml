@@ -1,0 +1,1 @@
+<Action id="39686" issue="27428" author="troyronda" type="comment" body="FabricProvider API should probably be in fabsdk/api or in apifabclient (rather than apicore)." created="2018-02-05 16:50:32.0" updateauthor="troyronda" updated="2018-02-05 16:50:32.0"/>

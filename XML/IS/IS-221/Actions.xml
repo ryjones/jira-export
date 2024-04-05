@@ -1,0 +1,1 @@
+<Action id="34658" issue="19312" author="sergey.minaev" type="comment" body="Docker image now has built arg to set pool IP. And can be built with 127.0.0.1 to use on MacOS or Windows." created="2017-11-16 11:18:11.0" updateauthor="sergey.minaev" updated="2017-11-16 11:18:11.0"/>

@@ -1,0 +1,1 @@
+<Action id="61019" issue="39389" author="andkononykhin" type="comment" body="This task is not more required for system tests since we got rid of using these dockerfiles for system tests: for now system tests are packed with their own dockerfiles." created="2019-06-14 14:32:31.0" updateauthor="andkononykhin" updated="2019-06-14 14:32:31.0"/>

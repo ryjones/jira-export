@@ -1,0 +1,2 @@
+<Action id="41814" issue="20285" author="troyronda" type="comment" body="CC:  ~bstasyszyn " created="2018-03-19 20:46:33.0" updateauthor="troyronda" updated="2018-03-19 20:46:33.0"/>
+<Action id="41818" issue="20285" author="troyronda" type="comment" body="Should be resolved in the latest SDK. FYI: the event mechanism has been rewritten. Please re-open if you continue to have issues." created="2018-03-19 20:55:57.0" updateauthor="troyronda" updated="2018-03-19 20:55:57.0"/>

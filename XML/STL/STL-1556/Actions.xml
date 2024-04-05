@@ -1,0 +1,2 @@
+<Action id="60207" issue="40016" author="ltseeley" type="comment" body="Verify that a 1.0 Sawtooth network can be upgraded to 1.2 by setting up a 1.0 network and performing an upgrade to 1.2" created="2019-05-21 15:04:06.0" updateauthor="ltseeley" updated="2019-05-21 15:04:06.0"/>
+<Action id="60599" issue="40016" author="ltseeley" type="comment" body="Depends on STL-1552" created="2019-06-03 14:41:18.0" updateauthor="ltseeley" updated="2019-06-03 14:41:18.0"/>

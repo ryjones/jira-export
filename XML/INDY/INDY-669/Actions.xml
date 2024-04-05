@@ -1,0 +1,1 @@
+<Action id="37717" issue="19857" author="ashcherbakov" type="comment" body="We already have it (it&apos;s stored in a separate key-value storages). We have it for Domain ledger only. We have INDY-1068 for pool state support." created="2017-12-21 13:17:59.0" updateauthor="ashcherbakov" updated="2017-12-21 13:17:59.0"/>

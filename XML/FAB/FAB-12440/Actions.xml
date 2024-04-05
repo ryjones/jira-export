@@ -1,0 +1,2 @@
+<Action id="52192" issue="34645" author="kchristidis" type="comment" body="https://gerrit.hyperledger.org/r/c/26960/" created="2018-10-12 20:53:23.0" updateauthor="kchristidis" updated="2018-10-12 20:53:23.0"/>
+<Action id="52374" issue="34645" author="denyeart" type="comment" created="2018-10-17 15:12:59.0" updateauthor="denyeart" updated="2018-10-17 15:12:59.0"> <body><! CDATA goimports has been disabled in back releases and fixed in master:  https://gerrit.hyperledger.org/r/#/q/FAB-12440  ></body> </Action>

@@ -1,0 +1,1 @@
+<Action id="39438" issue="27235" author="sanchezl" type="comment" body=" ~hammerWang  This should already be fixed. When apache retired version v0.9.0.1, we switched to using an apache archive link to download Kafka in FAB-7046. --" created="2018-01-31 16:34:55.0" updateauthor="sanchezl" updated="2018-01-31 16:34:55.0"/>

@@ -1,0 +1,1 @@
+<Issue id="21792" key="FAB-6591" number="6591" project="10002" reporter="wlahti" creator="wlahti" type="10004" summary="Refactor eventhub and channel service to use common event infrastructure" priority="3" resolution="10000" status="6" created="2017-10-11 20:23:50.0" updated="2018-07-20 14:14:39.0" resolutiondate="2017-11-27 04:47:35.0" votes="0" watches="2" workflowId="40256"/>

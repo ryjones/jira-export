@@ -1,0 +1,1 @@
+<Action id="58107" issue="38411" author="nkl199" type="comment" body="That is correct, and intentional. We needed certs to be generated automatically at a known (fixed) level, and 1.4 was chosen." created="2019-03-13 08:47:13.0" updateauthor="nkl199" updated="2019-03-13 08:47:13.0"/>

@@ -1,0 +1,1 @@
+<Action id="68101" issue="44408" author="btl5037" type="comment" created="2020-02-26 02:35:13.0" updateauthor="btl5037" updated="2020-02-26 02:35:13.0"> <body><! CDATA A regression was introduced yesterday, I've reverted that change and once merged should fix the problem:   https://github.com/hyperledger/fabric-samples/pull/131   ></body> </Action>

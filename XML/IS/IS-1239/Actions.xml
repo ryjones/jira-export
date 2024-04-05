@@ -1,0 +1,2 @@
+<Action id="59943" issue="39354" author="artemkaaas" type="comment" created="2019-05-13 07:10:57.0" updateauthor="artemkaaas" updated="2019-05-13 07:10:57.0"> <body><! CDATA Changes: Opened wallets are identified by `id+path`.  Done in PR: https://github.com/hyperledger/indy-sdk/pull/1597  Build version: master-1076  ></body> </Action>
+<Action id="60094" issue="39354" author="artemkaaas" type="comment" created="2019-05-17 07:16:56.0" updateauthor="artemkaaas" updated="2019-05-17 07:16:56.0"> <body><! CDATA  ~danielhardman  Can we close the ticket?  ></body> </Action>

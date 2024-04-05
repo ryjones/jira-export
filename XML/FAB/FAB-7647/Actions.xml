@@ -1,0 +1,2 @@
+<Action id="39737" issue="26656" author="dongming" type="comment" body="https://gerrit.hyperledger.org/r/#/c/17539/" created="2018-02-06 18:40:23.0" updateauthor="dongming" updated="2018-02-06 18:40:23.0"/>
+<Action id="49511" issue="26656" author="scottz" type="comment" body="Test is done. Just need to add this to the CI daily test suite: runPteDailyTestSuite.sh." created="2018-08-28 21:46:01.0" updateauthor="scottz" updated="2018-08-28 21:46:01.0"/>

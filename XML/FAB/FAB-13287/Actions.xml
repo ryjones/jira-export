@@ -1,0 +1,2 @@
+<Action id="54885" issue="36170" author="denyeart" type="comment" created="2018-12-17 18:44:58.0" updateauthor="denyeart" updated="2018-12-17 18:44:58.0"> <body><! CDATA The image version that peer uses can be configured here:   https://github.com/hyperledger/fabric/blob/release-1.4/sampleconfig/core.yaml#L484      Based on this, can we close as not a defect?  ></body> </Action>
+<Action id="67600" issue="36170" author="sykesm" type="comment" body="Stale" created="2020-01-22 22:34:13.0" updateauthor="sykesm" updated="2020-01-22 22:34:13.0"/>

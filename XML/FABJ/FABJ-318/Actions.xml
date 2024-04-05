@@ -1,0 +1,2 @@
+<Action id="21467" issue="14369" author="rickr" type="comment" body="Are we done with this ?" created="2017-03-12 19:27:13.0" updateauthor="rickr" updated="2017-03-12 19:27:13.0"/>
+<Action id="21484" issue="14369" author="tuand" type="comment" created="2017-03-13 13:18:31.0" updateauthor="tuand" updated="2017-03-13 13:18:31.0"> <body><! CDATA have not looked at this. Low priority since CryptoPrimitives.signecdsa() is working with preventMalleability().   I see this as low priority.  ></body> </Action>

@@ -1,0 +1,2 @@
+<Action id="43943" issue="29985" author="sambhavdutt" type="comment" created="2018-05-06 18:07:17.0" updateauthor="sambhavdutt" updated="2018-05-06 18:07:42.0"> <body><! CDATA Submitted patch on Jira, waiting to Merge. https://gerrit.hyperledger.org/r/#/c/21471/  ></body> </Action>
+<Action id="43953" issue="29985" author="rameshthoomu" type="comment" body="Few more changes amended to the patchset. It&apos;s ready to go." created="2018-05-06 23:30:13.0" updateauthor="rameshthoomu" updated="2018-05-06 23:30:13.0"/>

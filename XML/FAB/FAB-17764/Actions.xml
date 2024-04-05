@@ -1,0 +1,4 @@
+<Action id="69124" issue="44825" author="robmurgai" type="comment" body="Is the Acceptance Criteria to have all 9 bullet points doable?" created="2020-04-30 17:04:56.0" updateauthor="robmurgai" updated="2020-04-30 17:04:56.0"/>
+<Action id="69125" issue="44825" author="btl5037" type="comment" body="All 9 points are required to recreate the fork, so I&apos;ve added acceptance criteria for the issue. " created="2020-04-30 17:24:44.0" updateauthor="btl5037" updated="2020-04-30 17:24:44.0"/>
+<Action id="69444" issue="44825" author="btl5037" type="comment" created="2020-06-11 17:06:07.0" updateauthor="btl5037" updated="2020-06-11 17:06:07.0"> <body><! CDATA Pending the update to the operator to support multi-channel operations     ></body> </Action>
+<Action id="69452" issue="44825" author="dongming" type="comment" body="pending the update to the operator to support json query too" created="2020-06-12 14:26:43.0" updateauthor="dongming" updated="2020-06-12 14:26:43.0"/>

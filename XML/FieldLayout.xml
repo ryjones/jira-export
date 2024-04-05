@@ -1,9 +1,0 @@
-<FieldLayout id="10000" name="Default Field Configuration" description="The default field configuration" type="default"/> 
-<FieldLayout id="10200" name="FAB: Bug Field Configuration" description=""/> 
-<FieldLayout id="10201" name="FAB: Epic Field Configuration" description=""/> 
-<FieldLayout id="10202" name="FAB: Story Field Configuration" description=""/> 
-<FieldLayout id="10203" name="FAB: Test Task Field Configuration" description=""/> 
-<FieldLayout id="10204" name="FAB: Task Field Configuration" description=""/> 
-<FieldLayout id="10205" name="FAB: Default Field Configuration" description=""/> 
-<FieldLayout id="10206" name="FAB: Story Field Configuration (SDK Project)" description=""/> 
-<FieldLayout id="10207" name="FAB: Epic Field Configuration (SDK Project)" description=""/> 

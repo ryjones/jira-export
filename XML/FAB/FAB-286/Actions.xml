@@ -1,0 +1,2 @@
+<Action id="18809" issue="12587" author="tdietter" type="comment" body="Any chance this is going to get fixed?  Thanks." created="2016-09-07 15:26:11.0" updateauthor="tdietter" updated="2016-09-07 15:26:11.0"/>
+<Action id="18814" issue="12587" author="holocron" type="comment" created="2016-09-08 14:50:56.0" updateauthor="holocron" updated="2016-09-08 14:50:56.0"> <body><! CDATA This particular problem was resolved yesterday. I'm now running into an issue with openjdk8 that's being tracked here: https://github.ibm.com/IBM-Blockchain/z-dev/issues/303  ></body> </Action>

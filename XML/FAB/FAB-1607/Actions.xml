@@ -1,0 +1,1 @@
+<Action id="21685" issue="14018" author="muralisr" type="comment" body="Actually this was fixed by clean up done in chaincode ... mainly https://jira.hyperledger.org/browse/FAB-2203 (https://gerrit.hyperledger.org/r/#/c/5923). Going to close this." created="2017-03-28 17:07:01.0" updateauthor="muralisr" updated="2017-03-28 17:07:01.0"/>

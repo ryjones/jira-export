@@ -1,0 +1,1 @@
+<Action id="65177" issue="37699" author="harrisob@us.ibm.com" type="comment" body="the new low level takes a list of peers and will attempt each one until a positive response from the connect." created="2019-10-29 23:46:20.0" updateauthor="harrisob@us.ibm.com" updated="2019-10-29 23:46:20.0"/>

@@ -1,0 +1,3 @@
+<Action id="37665" issue="26211" author="c0rwin" type="comment" body="https://gerrit.hyperledger.org/r/16341" created="2017-12-20 13:12:37.0" updateauthor="c0rwin" updated="2017-12-20 13:12:37.0"/>
+<Action id="37991" issue="26211" author="christopherferris" type="comment" body=" ~C0rWin  Is this a bugfix or a story? The patch looks fine." created="2018-01-04 11:46:04.0" updateauthor="christopherferris" updated="2018-01-04 11:46:04.0"/>
+<Action id="37992" issue="26211" author="c0rwin" type="comment" body=" ~ChristopherFerris  this is a bug." created="2018-01-04 11:54:10.0" updateauthor="c0rwin" updated="2018-01-04 11:54:10.0"/>

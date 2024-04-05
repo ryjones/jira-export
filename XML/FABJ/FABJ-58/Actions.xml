@@ -1,0 +1,1 @@
+<Action id="21292" issue="15129" author="tuand" type="comment" created="2017-03-03 14:04:32.0" updateauthor="tuand" updated="2017-03-03 14:04:32.0"> <body><! CDATA Install proposal response and join channel response  messages are not signed by design.  Install and join proposals are not endorsement requests so the responses do not need to be signed.  ></body> </Action>

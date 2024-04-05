@@ -1,0 +1,1 @@
+<Action id="30763" issue="20753" author="rickr" type="comment" created="2017-09-12 14:20:00.0" updateauthor="rickr" updated="2017-09-12 14:21:05.0"> <body><! CDATA Minor fixes:     Orderer wait time overall configurable. Remove dead code CACERTS dir.      https://gerrit.hyperledger.org/r/#/c/13363/   ></body> </Action>

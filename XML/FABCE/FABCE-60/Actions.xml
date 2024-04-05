@@ -1,0 +1,1 @@
+<Action id="54326" issue="35788" author="mhbauer" type="comment" body="with  https://gerrit.hyperledger.org/r/#/c/27870/  merged, I think this is done, and we need to make sure to use these new variables in future tests." created="2018-12-04 22:26:24.0" updateauthor="mhbauer" updated="2018-12-04 22:26:24.0"/>

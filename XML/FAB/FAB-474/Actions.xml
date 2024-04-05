@@ -1,0 +1,2 @@
+<Action id="19013" issue="12775" author="vukolic" type="comment" body="Thanks Simon - we should probably add that this (or a tightly related) component should be responsible for flow control as well. " created="2016-09-27 15:14:57.0" updateauthor="vukolic" updated="2016-09-27 15:14:57.0"/>
+<Action id="61716" issue="12775" author="mastersingh24" type="comment" body="not doing sbft" created="2019-07-12 11:28:44.0" updateauthor="mastersingh24" updated="2019-07-12 11:28:44.0"/>

@@ -1,0 +1,1 @@
+<Action id="21355" issue="13977" author="sriramasharma" type="comment" body="Have pushed CR 6415 - https://gerrit.hyperledger.org/r/6415 to fix this issue and also to update the devenv scripts for Power, system z  and x86_64 platforms." created="2017-03-07 14:39:57.0" updateauthor="sriramasharma" updated="2017-03-07 14:39:57.0"/>

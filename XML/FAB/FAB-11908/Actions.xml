@@ -1,0 +1,3 @@
+<Action id="51401" issue="33582" author="mastersingh24" type="comment" body="https://gerrit.hyperledger.org/r/26686" created="2018-09-30 10:55:08.0" updateauthor="mastersingh24" updated="2018-09-30 10:55:08.0"/>
+<Action id="51427" issue="33582" author="denyeart" type="comment" body=" ~mastersingh24  We can&apos;t close due to the child subtask.  Were you going to look at that as well, or should we assign to somebody else?" created="2018-10-01 14:29:40.0" updateauthor="denyeart" updated="2018-10-01 14:29:40.0"/>
+<Action id="51446" issue="33582" author="mastersingh24" type="comment" body="I&apos;m on it" created="2018-10-01 16:18:23.0" updateauthor="mastersingh24" updated="2018-10-01 16:18:23.0"/>

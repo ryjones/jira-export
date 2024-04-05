@@ -1,0 +1,3 @@
+<Action id="20914" issue="14801" author="angelo.decaro" type="comment" created="2017-02-15 15:05:05.0" updateauthor="angelo.decaro" updated="2017-02-15 15:30:18.0"> <body><! CDATA Isn't it an issue that IDCC does not uniquely identity the pair (CC, OwnCC)? Where is H(CC) actually used?  ></body> </Action>
+<Action id="22301" issue="14801" author="muralisr" type="comment" body="@elli this is a dup of the contents in https://jira.hyperledger.org/browse/FAB-2859 no ? Close this ?" created="2017-04-13 07:21:39.0" updateauthor="muralisr" updated="2017-04-13 07:21:39.0"/>
+<Action id="22309" issue="14801" author="elli-androulaki" type="comment" body="Yes, indeed. Done." created="2017-04-13 07:52:11.0" updateauthor="elli-androulaki" updated="2017-04-13 07:52:11.0"/>

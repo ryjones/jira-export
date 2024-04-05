@@ -1,0 +1,1 @@
+<Action id="39650" issue="27243" author="zhigunenko.dsr" type="comment" created="2018-02-05 09:21:31.0" updateauthor="zhigunenko.dsr" updated="2018-02-05 09:21:31.0"> <body><! CDATA *Environment:* * indy-node 1.2.284-master(git)  *Actual Results:* vagrant@cli01:~$ indy - successful start vagrant@validator01:~$ indy - successful start  ></body> </Action>

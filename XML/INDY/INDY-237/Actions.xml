@@ -1,0 +1,1 @@
+<Action id="30184" issue="18072" author="krw910" type="comment" body="The protocol for view change was rewritten so this scenario is no longer reproducible. " created="2017-08-24 21:21:40.0" updateauthor="krw910" updated="2017-08-24 21:21:40.0"/>

@@ -1,0 +1,1 @@
+<Action id="20801" issue="14428" author="muralisr" type="comment" created="2017-02-09 13:41:37.0" updateauthor="muralisr" updated="2017-02-09 13:41:37.0"> <body><! CDATA the "adding Version" part is complete. Moving the security aspects (and the closely related packaging) to https://jira.hyperledger.org/browse/FAB-2143.  Closing this item as done.  ></body> </Action>

@@ -1,0 +1,1 @@
+<Issue id="26605" key="FABB-60" number="60" project="10608" reporter="guoger" assignee="guoger" creator="guoger" type="10001" summary="Enable Zookeeper autopurge to avoid saturating disk" priority="4" resolution="10000" status="6" created="2018-01-05 05:30:27.0" updated="2019-03-26 10:18:38.0" resolutiondate="2018-01-05 20:30:47.0" votes="0" watches="2" workflowId="32134"/>

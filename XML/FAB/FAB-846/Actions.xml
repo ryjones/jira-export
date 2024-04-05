@@ -1,0 +1,1 @@
+<Action id="19507" issue="13151" author="jiangyaoguo" type="comment" created="2016-10-26 13:17:01.0" updateauthor="jiangyaoguo" updated="2016-10-26 13:17:01.0"> <body><! CDATA Start with https://gerrit.hyperledger.org/r/#/c/2035/ IIUC, REST API server will be build to a independent target like "apiserver", not included in peer.  ></body> </Action>

@@ -1,0 +1,4 @@
+<Action id="56886" issue="37597" author="yacovm" type="comment" body="https://gerrit.hyperledger.org/r/#/c/29247/" created="2019-02-11 21:09:51.0" updateauthor="yacovm" updated="2019-02-11 21:09:51.0"/>
+<Action id="56899" issue="37597" author="guoger" type="comment" body="Is this issue the one we talked about before?  ~yacovm  How come we reached the conclusion that was a false alert..." created="2019-02-12 02:04:15.0" updateauthor="guoger" updated="2019-02-12 02:04:15.0"/>
+<Action id="56905" issue="37597" author="yacovm" type="comment" body="yes. i reproduced it. " created="2019-02-12 08:18:14.0" updateauthor="yacovm" updated="2019-02-12 08:18:14.0"/>
+<Action id="57008" issue="37597" author="kchristidis" type="comment" body="Thanks for this fix!" created="2019-02-13 22:13:30.0" updateauthor="kchristidis" updated="2019-02-13 22:13:30.0"/>

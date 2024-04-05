@@ -1,0 +1,3 @@
+<Action id="42054" issue="28789" author="zhaochy" type="comment" body=" ~harrisob@us.ibm.com  what&apos;s your opinion?" created="2018-03-23 11:09:07.0" updateauthor="zhaochy" updated="2018-03-23 11:09:07.0"/>
+<Action id="42091" issue="28789" author="harrisob@us.ibm.com" type="comment" body="I agree we should not have the node_modules included." created="2018-03-23 18:43:34.0" updateauthor="harrisob@us.ibm.com" updated="2018-03-23 18:43:34.0"/>
+<Action id="42106" issue="28789" author="zhaochy" type="comment" body=" https://gerrit.hyperledger.org/r/19715 " created="2018-03-24 07:57:00.0" updateauthor="zhaochy" updated="2018-03-24 07:57:00.0"/>

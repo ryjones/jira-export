@@ -1,0 +1,1 @@
+<Issue id="42996" key="INDY-2272" number="2272" project="10303" reporter="ashcherbakov" creator="ashcherbakov" type="10002" summary="Change performance thresholds so that the pool is more sensitive to performance degradation" priority="3" status="10200" created="2019-10-25 12:22:38.0" updated="2019-10-25 12:22:40.0" votes="0" watches="1" workflowId="56099"/>

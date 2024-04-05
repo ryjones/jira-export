@@ -1,0 +1,4 @@
+<Action id="20947" issue="14743" author="markparz" type="comment" body="Dependent on Java SDK completion FAB-759" created="2017-02-16 19:15:25.0" updateauthor="markparz" updated="2017-02-16 19:17:31.0"/>
+<Action id="29500" issue="14743" author="christopherferris" type="comment" body="Is this still relevant  ~nickgaski   ~markparz ? If not, please close  ~Clayton Sims " created="2017-08-07 16:52:36.0" updateauthor="christopherferris" updated="2017-08-07 16:52:36.0"/>
+<Action id="29504" issue="14743" author="nickgaski" type="comment" body="can be closed" created="2017-08-07 16:58:41.0" updateauthor="nickgaski" updated="2017-08-07 16:58:41.0"/>
+<Action id="29506" issue="14743" author="clayton sims" type="comment" created="2017-08-07 17:02:36.0" updateauthor="clayton sims" updated="2017-08-07 17:02:36.0"> <body><! CDATA closing.  any one can close ;)     ></body> </Action>

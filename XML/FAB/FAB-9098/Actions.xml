@@ -1,0 +1,1 @@
+<Action id="42539" issue="28820" author="muralisr" type="comment" body="Per discussion with  ~greg.haskins  will allow a &quot;META-INF&quot; folder (as that&apos;s the data model used by fabric) at the project root so users can add metadata the same way they do for the golang platform." created="2018-04-04 21:48:06.0" updateauthor="muralisr" updated="2018-04-04 21:48:06.0"/>

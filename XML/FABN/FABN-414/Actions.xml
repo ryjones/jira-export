@@ -1,0 +1,2 @@
+<Action id="22604" issue="15756" author="pmullaney" type="comment" body="Added user2.js which creates a new client during each peer loop iteration. Unfortunately this also fails to pull from the new state store." created="2017-04-17 19:42:26.0" updateauthor="pmullaney" updated="2017-04-17 19:42:26.0"/>
+<Action id="22847" issue="15756" author="jimthematrix" type="comment" body="https://gerrit.hyperledger.org/r/#/c/8129" created="2017-04-21 21:00:54.0" updateauthor="jimthematrix" updated="2017-04-21 21:00:54.0"/>

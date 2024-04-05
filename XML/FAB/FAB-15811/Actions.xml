@@ -1,0 +1,2 @@
+<Action id="61249" issue="40793" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/c/fabric/+/32067  FAB-15811  remove unreferenced mspManager field" created="2019-06-25 15:24:02.0" updateauthor="sykesm" updated="2019-06-25 15:24:02.0"/>
+<Action id="61250" issue="40793" author="sykesm" type="comment" body="1.4 cherry pick: https://gerrit.hyperledger.org/r/c/fabric/+/32069" created="2019-06-25 15:25:21.0" updateauthor="sykesm" updated="2019-06-25 15:25:21.0"/>

@@ -1,0 +1,3 @@
+<Action id="44411" issue="29674" author="artemkaaas" type="comment" body="Implemented in PR: https://github.com/hyperledger/indy-sdk/pull/750" created="2018-05-15 10:04:12.0" updateauthor="artemkaaas" updated="2018-05-15 10:04:12.0"/>
+<Action id="44565" issue="29674" author="artemkaaas" type="comment" created="2018-05-17 14:23:12.0" updateauthor="artemkaaas" updated="2018-05-17 14:23:12.0"> <body><! CDATA Implemented in PR:  https://github.com/hyperledger/indy-sdk/pull/750  Build version: master 517   ></body> </Action>
+<Action id="44722" issue="29674" author="gudkov" type="comment" body="Implementation seems ok for me" created="2018-05-21 12:40:03.0" updateauthor="gudkov" updated="2018-05-21 12:40:03.0"/>

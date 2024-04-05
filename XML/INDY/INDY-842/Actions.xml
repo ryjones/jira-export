@@ -1,0 +1,1 @@
+<Action id="51883" issue="20802" author="sergey-shilov" type="comment" body="Several fixes were made for view change procedure. Also the test timeouts were reviewed and tuned, so this issue is not reproduced any more and may be closed." created="2018-10-09 08:26:13.0" updateauthor="sergey-shilov" updated="2018-10-09 08:26:13.0"/>

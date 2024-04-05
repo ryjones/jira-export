@@ -1,0 +1,4 @@
+<Action id="59679" issue="39591" author="sstone1" type="comment" body="This happens with the latest Fabric v2.0 SDK." created="2019-05-02 14:58:53.0" updateauthor="sstone1" updated="2019-05-02 14:58:53.0"/>
+<Action id="59697" issue="39591" author="davidkhala" type="comment" body="thanks  ~simonstone1   I can follow up" created="2019-05-03 02:23:24.0" updateauthor="davidkhala" updated="2019-05-03 02:23:24.0"/>
+<Action id="59912" issue="39591" author="davidkhala" type="comment" created="2019-05-10 11:05:09.0" updateauthor="davidkhala" updated="2019-05-10 11:05:09.0"> <body><! CDATA https://gerrit.hyperledger.org/r/#/c/31319/ in progress  ></body> </Action>
+<Action id="64261" issue="39591" author="bestbeforetoday" type="comment" body="I made a sticking-plaster fix as part of FABN-1353. A better fix should appear as part of a refactor of low-level API in FABN-1347." created="2019-10-02 13:21:16.0" updateauthor="bestbeforetoday" updated="2019-10-02 13:21:16.0"/>

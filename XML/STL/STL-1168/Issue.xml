@@ -1,0 +1,1 @@
+<Issue id="29426" key="STL-1168" number="1168" project="10001" reporter="adamludvik" assignee="drozd" creator="adamludvik" type="10005" summary="Implement sawtooth_validator.server.cli in Rust" priority="3" status="10100" created="2018-04-16 15:50:27.0" updated="2019-05-21 14:33:47.0" votes="0" watches="1" workflowId="29431"/>

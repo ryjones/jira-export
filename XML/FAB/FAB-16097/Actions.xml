@@ -1,0 +1,2 @@
+<Action id="63119" issue="41435" author="denyeart" type="comment" body=" ~suryalnvs   ~rameshthoomu  Looks like channel id mismatch. Please work together to clarify doc for v1.3.0 to v1.4.2 update vs v1.4.0 to v1.4.2 upgrade." created="2019-08-20 19:51:11.0" updateauthor="denyeart" updated="2019-08-20 19:51:11.0"/>
+<Action id="63136" issue="41435" author="joe-alewine" type="comment" body="https://gerrit.hyperledger.org/r/#/c/fabric/+/32864/" created="2019-08-21 14:26:59.0" updateauthor="joe-alewine" updated="2019-08-21 14:26:59.0"/>

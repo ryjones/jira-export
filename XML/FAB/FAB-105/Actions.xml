@@ -1,0 +1,2 @@
+<Action id="23398" issue="12404" author="khutpidor" type="comment" created="2017-05-05 04:35:04.0" updateauthor="khutpidor" updated="2017-05-05 04:35:04.0"> <body><! CDATA It solved or not yet ? Thank  ></body> </Action>
+<Action id="23602" issue="12404" author="markparz" type="comment" body="Not resolved, see FAB-1228 as noted above. Changed priority to low" created="2017-05-09 15:19:01.0" updateauthor="markparz" updated="2017-05-09 15:19:38.0"/>

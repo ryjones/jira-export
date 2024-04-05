@@ -1,0 +1,1 @@
+<Action id="62500" issue="41350" author="artemkaaas" type="comment" created="2019-08-01 07:39:34.0" updateauthor="artemkaaas" updated="2019-08-01 07:39:34.0"> <body><! CDATA `upload_debs.py` support --distro flag. Updated CD pipeline to specify either xenial or bionic release chanel  ></body> </Action>

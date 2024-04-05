@@ -1,0 +1,2 @@
+<Action id="40274" issue="27757" author="pschwarz" type="comment" body="This is a symptom of the same problem caused by unscheduled transactions that return an {{InternalError}}" created="2018-02-15 21:18:24.0" updateauthor="pschwarz" updated="2018-02-15 21:18:24.0"/>
+<Action id="40276" issue="27757" author="pschwarz" type="comment" body="A commit was added that removed that problem, so now it is isolated to just high volume" created="2018-02-15 22:23:04.0" updateauthor="pschwarz" updated="2018-02-15 22:23:04.0"/>

@@ -1,0 +1,1 @@
+<Action id="20353" issue="13822" author="kchristidis" type="comment" created="2017-01-15 02:34:31.0" updateauthor="kchristidis" updated="2017-01-15 02:34:31.0"> <body><! CDATA This got merged already  1  but broke the Kafka orderer-related Docker Compose files.   FAB-1656  will fix the errors that came up.   1  https://gerrit.hyperledger.org/r/#/c/3923/1  ></body> </Action>

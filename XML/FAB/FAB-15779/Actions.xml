@@ -1,0 +1,1 @@
+<Action id="62495" issue="40739" author="scottz" type="comment" created="2019-08-01 03:03:47.0" updateauthor="scottz" updated="2019-08-08 15:52:04.0"> <body><! CDATA This was tested in v1.4.2 and passed.  Opened a clone to automate in v2.0 system test suite with k8s.  ></body> </Action>

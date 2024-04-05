@@ -1,0 +1,2 @@
+<Action id="41034" issue="27782" author="harrisob@us.ibm.com" type="comment" body="https://gerrit.hyperledger.org/r/#/c/18551/" created="2018-02-28 20:09:43.0" updateauthor="harrisob@us.ibm.com" updated="2018-02-28 20:09:43.0"/>
+<Action id="41040" issue="27782" author="harrisob@us.ibm.com" type="comment" body="Ramesh added code to the build to handle. Unable able to do this from the gulp test as it is running as the wrong user" created="2018-02-28 22:44:10.0" updateauthor="harrisob@us.ibm.com" updated="2018-02-28 22:44:10.0"/>

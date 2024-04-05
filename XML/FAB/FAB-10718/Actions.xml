@@ -1,0 +1,2 @@
+<Action id="46229" issue="31185" author="sykesm" type="comment" body="grabbing the config variables out of newClient (instead of when the backoff policy is being used) works around the race without refactoring the code for config injection." created="2018-06-19 20:04:05.0" updateauthor="sykesm" updated="2018-06-19 20:04:05.0"/>
+<Action id="46230" issue="31185" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/23341" created="2018-06-19 20:08:19.0" updateauthor="sykesm" updated="2018-06-19 20:08:19.0"/>

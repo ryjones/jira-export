@@ -1,0 +1,2 @@
+<Action id="23727" issue="16610" author="rickr" type="comment" created="2017-05-11 11:06:21.0" updateauthor="rickr" updated="2017-05-11 11:07:21.0"> <body><! CDATA End2endJavaChaincodeIT.java,  is not running at the moment. Please see the README.md on how to run the integration tests.  I plan on removing that shortly  ></body> </Action>
+<Action id="23728" issue="16610" author="mcdulltan" type="comment" body=" ~rickr  Thanks a lot！I will try again:D" created="2017-05-11 11:12:28.0" updateauthor="mcdulltan" updated="2017-05-11 11:12:28.0"/>

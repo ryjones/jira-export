@@ -1,0 +1,1 @@
+<Action id="69475" issue="37614" author="bestbeforetoday" type="comment" body="I think this has become a non-issue now the v2 SDK doesn&apos;t support chaincode deployment. There are no tests for this, tape or otherwise." created="2020-06-16 08:55:15.0" updateauthor="bestbeforetoday" updated="2020-06-16 08:55:15.0"/>

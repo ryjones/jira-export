@@ -1,0 +1,3 @@
+<Action id="69832" issue="45722" author="JIRAUSER20406" type="comment" body=" https://github.com/hyperledger/fabric-chaincode-node/pull/190 " created="2020-07-30 09:08:14.0" updateauthor="JIRAUSER20406" updated="2020-07-30 09:08:14.0"/>
+<Action id="69877" issue="45722" author="lesleyannj" type="comment" body=" ~calanais     Can this be closed?  Is it required on any other branches?" created="2020-08-07 08:47:27.0" updateauthor="lesleyannj" updated="2020-08-07 08:48:21.0"/>
+<Action id="70306" issue="45722" author="JIRAUSER20406" type="comment" body="To clarify that this is not required post-1.4 as 1.4 uses the native version of grpc.  other releases use the grpc-js library" created="2020-09-11 07:45:02.0" updateauthor="JIRAUSER20406" updated="2020-09-11 07:45:02.0"/>

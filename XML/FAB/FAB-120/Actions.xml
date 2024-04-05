@@ -1,0 +1,1 @@
+<Action id="21796" issue="12419" author="mastersingh24" type="comment" body="We no longer have deploy transactions but rather install and instantiate.  This makes things more efficient execution wise (although a little more complicated process-wise)" created="2017-04-02 12:33:58.0" updateauthor="mastersingh24" updated="2017-04-02 12:33:58.0"/>

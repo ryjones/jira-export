@@ -1,0 +1,2 @@
+<Action id="53396" issue="35322" author="vladimirvujovic" type="comment" body="Ticket will be done as part of following backlog: https://evernym.atlassian.net/browse/ON-21" created="2018-11-13 16:41:06.0" updateauthor="vladimirvujovic" updated="2018-11-13 16:41:06.0"/>
+<Action id="60358" issue="35322" author="sergey.minaev" type="comment" body="Done in PR  https://github.com/hyperledger/indy-sdk/pull/1605 " created="2019-05-24 13:58:11.0" updateauthor="sergey.minaev" updated="2019-05-24 13:58:11.0"/>

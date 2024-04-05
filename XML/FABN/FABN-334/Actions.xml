@@ -1,0 +1,1 @@
+<Action id="21070" issue="14945" author="cdaughtr" type="comment" body="I can see that the code added to CouchDBKeyValueStore to support cloudant is no longer there and needs to be restored." created="2017-02-20 23:03:04.0" updateauthor="cdaughtr" updated="2017-02-20 23:03:04.0"/>

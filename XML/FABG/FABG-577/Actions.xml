@@ -1,0 +1,1 @@
+<Action id="41815" issue="19293" author="troyronda" type="comment" created="2018-03-19 20:48:31.0" updateauthor="troyronda" updated="2018-03-19 20:48:31.0"> <body><! CDATA The latest SDK returns full responses. See  https://godoc.org/github.com/hyperledger/fabric-sdk-go/pkg/client/channel#Client.Execute      ></body> </Action>

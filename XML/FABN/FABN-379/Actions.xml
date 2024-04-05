@@ -1,0 +1,1 @@
+<Action id="21411" issue="14716" author="cdaughtr" type="comment" body="We&apos;ve cleaned up the tests and have removed chain-fabriccop-tests.  Now fabric-ca-services-tests is used to test enrollment." created="2017-03-09 15:22:44.0" updateauthor="cdaughtr" updated="2017-03-09 15:22:44.0"/>

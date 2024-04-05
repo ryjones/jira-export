@@ -1,0 +1,2 @@
+<Action id="52695" issue="34923" author="dongming" type="comment" body="This is caused by missing adminPrivateKey in the connection profile." created="2018-10-26 17:42:14.0" updateauthor="dongming" updated="2018-10-26 17:42:14.0"/>
+<Action id="52750" issue="34923" author="dongming" type="comment" body="https://gerrit.hyperledger.org/r/#/c/27263/" created="2018-10-29 21:17:09.0" updateauthor="dongming" updated="2018-10-29 21:17:09.0"/>

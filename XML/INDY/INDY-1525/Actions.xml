@@ -1,0 +1,1 @@
+<Action id="64619" issue="32231" author="esplinr" type="comment" body="The current Jenkins builds are sufficiently reliable, though we still see intermittent test failures. We expect to transition away from Jenkins toward a solution like GitLab CI soon." created="2019-10-11 10:22:46.0" updateauthor="esplinr" updated="2019-10-11 10:22:46.0"/>

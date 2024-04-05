@@ -1,0 +1,1 @@
+<Action id="31082" issue="16657" author="adnanchoudhury" type="comment" body="marking as done, contributed in the fabric-test repo ( https://github.com/hyperledger/fabric-test/blob/master/regression/daily/ledger_lte.py)  and being run by CI" created="2017-09-21 19:04:59.0" updateauthor="adnanchoudhury" updated="2017-09-21 19:04:59.0"/>

@@ -1,0 +1,2 @@
+<Action id="27228" issue="18517" author="rameshthoomu" type="comment" body="fix has been submitted. https://gerrit.hyperledger.org/r/#/c/10913/" created="2017-06-22 21:46:11.0" updateauthor="rameshthoomu" updated="2017-06-22 21:46:11.0"/>
+<Action id="27266" issue="18517" author="mastersingh24" type="comment" created="2017-06-23 13:25:43.0" updateauthor="mastersingh24" updated="2017-06-23 13:25:43.0"> <body><! CDATA Everything works for me - who is going to close this?  ~ChristopherFerris   ~rameshthoomu  ?  Need to close FAB-4908 as well  ></body> </Action>

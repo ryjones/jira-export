@@ -1,0 +1,2 @@
+<Action id="51248" issue="32153" author="artemkaaas" type="comment" body="Fixed in PR: https://github.com/hyperledger/indy-sdk/pull/1153" created="2018-09-27 08:18:20.0" updateauthor="artemkaaas" updated="2018-09-27 08:18:20.0"/>
+<Action id="51347" issue="32153" author="artemkaaas" type="comment" body="Updated CI and CD pipelienes to run unit and interaction tests on Android emulator." created="2018-09-28 12:36:33.0" updateauthor="artemkaaas" updated="2018-09-28 12:36:33.0"/>

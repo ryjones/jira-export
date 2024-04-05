@@ -1,0 +1,3 @@
+<Action id="35494" issue="24475" author="mastersingh24" type="comment" body="Troy - please reassign as you see fit" created="2017-11-27 14:15:55.0" updateauthor="mastersingh24" updated="2017-11-27 14:15:55.0"/>
+<Action id="35580" issue="24475" author="troyronda" type="comment" body="Ok - got it. Thanks!" created="2017-11-28 16:57:47.0" updateauthor="troyronda" updated="2017-11-28 16:57:47.0"/>
+<Action id="35633" issue="24475" author="troyronda" type="comment" body="Included in merged patch: https://gerrit.hyperledger.org/r/c/15621/" created="2017-11-29 14:41:31.0" updateauthor="troyronda" updated="2017-11-29 14:41:31.0"/>

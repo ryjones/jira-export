@@ -1,0 +1,1 @@
+<Action id="39310" issue="20592" author="sanchezl" type="comment" created="2018-01-29 16:24:15.0" updateauthor="sanchezl" updated="2018-01-29 16:26:37.0"> <body><! CDATA I posted a patch set at  https://gerrit.hyperledger.org/r/c/17295/ .  I need to think a bit more about what should happen when current build is a release build.  ></body> </Action>

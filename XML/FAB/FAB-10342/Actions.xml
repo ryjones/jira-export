@@ -1,0 +1,2 @@
+<Action id="45698" issue="30560" author="kchristidis" type="comment" created="2018-06-08 13:26:04.0" updateauthor="kchristidis" updated="2018-06-08 13:26:04.0"> <body><! CDATA Per Artem, this should be taken care of by  https://gerrit.hyperledger.org/r/c/20591/   If you keep seeing this, please update the JIRA accordingly.  ></body> </Action>
+<Action id="45699" issue="30560" author="c0rwin" type="comment" body="Taken care in FAB-9100" created="2018-06-08 13:30:19.0" updateauthor="c0rwin" updated="2018-06-08 13:30:19.0"/>

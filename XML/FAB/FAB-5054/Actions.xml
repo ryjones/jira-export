@@ -1,0 +1,2 @@
+<Action id="27506" issue="18747" author="rameshthoomu" type="comment" body=" ~ChristopherFerris  could you please provide your inputs please?" created="2017-06-28 14:44:32.0" updateauthor="rameshthoomu" updated="2017-06-28 14:44:32.0"/>
+<Action id="46896" issue="18747" author="rameshthoomu" type="comment" body="In the current process, CI runs byfn, eyfn as part of smoke tests and e2e_cli tests long with byfn, eyfn runs for every merge." created="2018-07-04 03:55:05.0" updateauthor="rameshthoomu" updated="2018-07-04 03:55:05.0"/>

@@ -1,0 +1,1 @@
+<Action id="63483" issue="42156" author="paranjan" type="comment" created="2019-09-02 12:09:28.0" updateauthor="paranjan" updated="2019-09-02 12:09:28.0"> <body><! CDATA Here is the link to the CR:  https://gerrit.hyperledger.org/r/c/fabric-sdk-java/+/33333   Its very interesting to see CI build failing on removing eclipse configuration file.  ></body> </Action>

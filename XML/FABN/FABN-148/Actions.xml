@@ -1,0 +1,2 @@
+<Action id="21742" issue="15437" author="mastersingh24" type="comment" body="this seems odd to me - we use other packages which require native code and compilation - e.g. the grpc package" created="2017-03-29 19:52:48.0" updateauthor="mastersingh24" updated="2017-03-29 19:52:48.0"/>
+<Action id="24165" issue="15437" author="jimthematrix" type="comment" body="http://gerrit.hyperledger.org/r/9681" created="2017-05-23 03:04:26.0" updateauthor="jimthematrix" updated="2017-05-23 03:04:26.0"/>

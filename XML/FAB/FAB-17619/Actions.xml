@@ -1,0 +1,2 @@
+<Action id="68328" issue="44569" author="caod" type="comment" body="Shadow with state before changing" created="2020-03-16 14:15:23.0" updateauthor="caod" updated="2020-03-16 14:15:23.0"/>
+<Action id="68538" issue="44569" author="tsharris" type="comment" body=" https://github.com/hyperledger/fabric/pull/880 " created="2020-03-24 14:18:31.0" updateauthor="tsharris" updated="2020-03-24 14:18:31.0"/>

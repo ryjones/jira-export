@@ -1,0 +1,4 @@
+<Action id="21683" issue="14851" author="markparz" type="comment" body="Transaction model is good, need to review fabric model" created="2017-03-28 16:03:12.0" updateauthor="markparz" updated="2017-03-28 16:03:12.0"/>
+<Action id="22251" issue="14851" author="christopherferris" type="comment" body="link to CR? Or, is this Done?" created="2017-04-12 18:22:26.0" updateauthor="christopherferris" updated="2017-04-12 18:22:26.0"/>
+<Action id="22890" issue="14851" author="christopherferris" type="comment" body=" ~markparz  is this still needed? done? in progress?" created="2017-04-23 13:48:42.0" updateauthor="christopherferris" updated="2017-04-23 13:48:42.0"/>
+<Action id="22979" issue="14851" author="markparz" type="comment" body="No, this is complete.. updated in the models, and glossary address the comments. closing" created="2017-04-25 15:32:12.0" updateauthor="markparz" updated="2017-04-25 15:32:49.0"/>

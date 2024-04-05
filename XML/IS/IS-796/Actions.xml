@@ -1,0 +1,2 @@
+<Action id="47358" issue="31403" author="gudkov" type="comment" body="We also consider this as a problem" created="2018-07-16 14:16:53.0" updateauthor="gudkov" updated="2018-07-16 14:16:53.0"/>
+<Action id="47810" issue="31403" author="gudkov" type="comment" created="2018-07-25 14:47:17.0" updateauthor="gudkov" updated="2018-07-25 14:47:17.0"> <body><! CDATA Implemented in PRs:  https://github.com/hyperledger/indy-sdk/pull/986/files https://github.com/hyperledger/indy-crypto/pull/119  ></body> </Action>

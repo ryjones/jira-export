@@ -1,0 +1,5 @@
+<Action id="42929" issue="29358" author="seanbohan_sovrin" type="comment" body=" ~nage  - thoughts?" created="2018-04-13 21:24:46.0" updateauthor="seanbohan_sovrin" updated="2018-04-13 21:24:46.0"/>
+<Action id="43180" issue="29358" author="esplinr" type="comment" body="We spoke with Nathan. We agree with Mike&apos;s assessment, and will look to address this in an upcoming release of the SDK." created="2018-04-19 21:23:22.0" updateauthor="esplinr" updated="2018-04-19 21:23:22.0"/>
+<Action id="45328" issue="29358" author="gudkov" type="comment" body="It is closely related to IS-2" created="2018-05-31 07:28:38.0" updateauthor="gudkov" updated="2018-05-31 07:28:38.0"/>
+<Action id="49279" issue="29358" author="artemkaaas" type="comment" body="Implemented in PR: https://github.com/hyperledger/indy-sdk/pull/1069" created="2018-08-23 12:18:32.0" updateauthor="artemkaaas" updated="2018-08-23 12:18:32.0"/>
+<Action id="49681" issue="29358" author="gudkov" type="comment" body="By default now logs are hidden" created="2018-08-31 09:02:49.0" updateauthor="gudkov" updated="2018-08-31 09:02:49.0"/>

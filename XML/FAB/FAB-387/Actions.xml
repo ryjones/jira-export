@@ -1,0 +1,2 @@
+<Action id="19001" issue="12688" author="tuand" type="comment" body="sprint 1 closed today. Move to sprint 2 while work is continuing" created="2016-09-26 21:13:05.0" updateauthor="tuand" updated="2016-09-26 21:13:05.0"/>
+<Action id="19057" issue="12688" author="kchristidis" type="comment" created="2016-09-30 03:53:10.0" updateauthor="kchristidis" updated="2016-09-30 03:53:22.0"> <body><! CDATA  !Screen Shot 2016-09-29 at 23.23.16.png|thumbnail!   All tests pass but FAB-540 needs to be resolved.  ></body> </Action>

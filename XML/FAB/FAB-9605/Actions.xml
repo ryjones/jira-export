@@ -1,0 +1,2 @@
+<Action id="43187" issue="29535" author="kchristidis" type="comment" body="I will hold off on implementing this until we settle down on the right approach to export default configs, see discussion in FAB-9521." created="2018-04-20 00:33:27.0" updateauthor="kchristidis" updated="2018-04-20 00:33:27.0"/>
+<Action id="43211" issue="29535" author="kchristidis" type="comment" body="https://gerrit.hyperledger.org/r/c/20815/" created="2018-04-20 13:48:56.0" updateauthor="kchristidis" updated="2018-04-20 13:48:56.0"/>

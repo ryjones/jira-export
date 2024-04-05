@@ -1,0 +1,1 @@
+<Action id="46668" issue="31094" author="anton.betsun" type="comment" created="2018-06-28 12:48:10.0" updateauthor="anton.betsun" updated="2018-06-28 12:48:10.0"> <body><! CDATA problem was in empty dependencies in protobuf. i used {code:java} transactionHeader.dependencies =  "" {code} instead of  {code:java} transactionHeader.dependencies =    {code}  ></body> </Action>

@@ -1,0 +1,2 @@
+<Action id="56684" issue="37439" author="vladimirwork" type="comment" body="Also after 2 test runs (2-5) Node 2 has Node 3 as backup primary but all other nodes have Node 2 as backup primary: !VC_wrong_backup_primary_at_1_node.PNG|thumbnail! " created="2019-02-05 14:16:51.0" updateauthor="vladimirwork" updated="2019-02-05 14:16:51.0"/>
+<Action id="64995" issue="37439" author="ashcherbakov" type="comment" body="PBFT View Change is implemented to address the issue" created="2019-10-25 12:06:56.0" updateauthor="ashcherbakov" updated="2019-10-25 12:06:56.0"/>

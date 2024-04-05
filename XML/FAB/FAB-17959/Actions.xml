@@ -1,0 +1,2 @@
+<Action id="69403" issue="45211" author="wlahti" type="comment" body=" https://github.com/hyperledger/fabric-config/pull/28 " created="2020-06-05 20:44:15.0" updateauthor="wlahti" updated="2020-06-05 20:44:15.0"/>
+<Action id="69404" issue="45211" author="yacovm" type="comment" body="What&apos;s so special about anchor peers though? Don&apos;t we have a bunch of maps in the config anyway?" created="2020-06-05 23:17:44.0" updateauthor="yacovm" updated="2020-06-05 23:17:44.0"/>

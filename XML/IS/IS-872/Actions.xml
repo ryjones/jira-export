@@ -1,0 +1,2 @@
+<Action id="48504" issue="32634" author="artemkaaas" type="comment" body="Fixed in PR: https://github.com/hyperledger/indy-sdk/pull/1047" created="2018-08-07 15:46:19.0" updateauthor="artemkaaas" updated="2018-08-07 15:46:19.0"/>
+<Action id="49431" issue="32634" author="fabienpe" type="comment" body="FYI: With the code update in PR 1047  I do not experience the issue anymore. Thanks!" created="2018-08-27 15:05:55.0" updateauthor="fabienpe" updated="2018-08-27 15:05:55.0"/>

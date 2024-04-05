@@ -1,0 +1,1 @@
+<Issue id="39500" key="INDY-2079" number="2079" project="10303" reporter="ashcherbakov" creator="ashcherbakov" type="10004" summary="A txn with existing DID without role and verkey can override existing NYM" priority="3" status="10200" created="2019-04-25 07:30:01.0" updated="2020-03-27 13:09:21.0" votes="0" watches="1" workflowId="52380"/>

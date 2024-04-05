@@ -1,0 +1,1 @@
+<Action id="50059" issue="33460" author="zhigunenko.dsr" type="comment" created="2018-09-07 07:49:50.0" updateauthor="zhigunenko.dsr" updated="2018-09-07 07:49:50.0"> <body><! CDATA *Reason to Close:* Acceptance criteria 04-04 updated: Node promotion requires indy-node service restart  ></body> </Action>

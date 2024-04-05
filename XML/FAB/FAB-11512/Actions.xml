@@ -1,0 +1,2 @@
+<Action id="65889" issue="32658" author="denyeart" type="comment" created="2019-12-02 12:29:15.0" updateauthor="denyeart" updated="2019-12-02 12:29:15.0"> <body><! CDATA Need to revive https://gerrit.hyperledger.org/r/#/c/fabric/+/25243/  ></body> </Action>
+<Action id="70840" issue="32658" author="manish-sethi" type="comment" body="The ledger code is refactored a lot in the recent past and this is no longer an issue." created="2020-11-30 16:13:50.0" updateauthor="manish-sethi" updated="2020-11-30 16:13:50.0"/>

@@ -1,0 +1,2 @@
+<Action id="20347" issue="12496" author="denyeart" type="comment" created="2017-01-13 12:29:24.0" updateauthor="denyeart" updated="2017-01-13 12:29:24.0"> <body><! CDATA  ~Senthil1  Binh has actually started working on this, implemented as a system chaincode.   ~binhn  Could you link in the relevant Jira and Gerrit work items.  ></body> </Action>
+<Action id="20350" issue="12496" author="senthil1" type="comment" body="I see. Do we have any pending issues which I can look into?" created="2017-01-14 03:59:51.0" updateauthor="senthil1" updated="2017-01-14 03:59:51.0"/>

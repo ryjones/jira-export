@@ -1,0 +1,2 @@
+<Action id="46940" issue="31036" author="gudkov" type="comment" body="https://github.com/hyperledger/indy-sdk/pull/925/files" created="2018-07-05 11:08:20.0" updateauthor="gudkov" updated="2018-07-05 11:08:20.0"/>
+<Action id="46997" issue="31036" author="gudkov" type="comment" body="Solution implemented, covered by tests and artifacts produced." created="2018-07-06 12:11:28.0" updateauthor="gudkov" updated="2018-07-06 12:11:28.0"/>

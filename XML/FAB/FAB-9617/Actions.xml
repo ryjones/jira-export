@@ -1,0 +1,3 @@
+<Action id="43296" issue="29555" author="latitiah" type="comment" body="This is failing because the &quot;Query Result:&quot; has been removed from the output." created="2018-04-23 16:48:51.0" updateauthor="latitiah" updated="2018-04-23 16:48:51.0"/>
+<Action id="43297" issue="29555" author="nnao" type="comment" body="This JIRA seems to be same as FAB-9650" created="2018-04-23 16:53:45.0" updateauthor="nnao" updated="2018-04-23 16:53:45.0"/>
+<Action id="43578" issue="29555" author="sambhavdutt" type="comment" created="2018-04-27 18:51:23.0" updateauthor="sambhavdutt" updated="2018-04-27 18:51:23.0"> <body><! CDATA The bootstrap tests have passed successfully in the smoke tests after this update.  https://gerrit.hyperledger.org/r/c/20903/  ></body> </Action>

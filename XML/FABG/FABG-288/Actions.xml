@@ -1,0 +1,1 @@
+<Action id="44982" issue="30386" author="sambhavdutt" type="comment" created="2018-05-23 13:34:40.0" updateauthor="sambhavdutt" updated="2018-05-23 13:34:40.0"> <body><! CDATA The fabric-sdk-go tests are passing now without the integration errors.  *Build Log* https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-tests-merge-x86_64/680/  ></body> </Action>

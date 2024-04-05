@@ -1,0 +1,3 @@
+<Action id="58825" issue="38934" author="guoger" type="comment" body="https://gerrit.hyperledger.org/r/c/30621/" created="2019-04-02 05:02:44.0" updateauthor="guoger" updated="2019-04-02 05:02:44.0"/>
+<Action id="60806" issue="38934" author="jyellick" type="comment" body="I saw this was abandoned, is there a plan here?" created="2019-06-10 01:45:31.0" updateauthor="jyellick" updated="2019-06-10 01:45:31.0"/>
+<Action id="60807" issue="38934" author="guoger" type="comment" body=" ~jyellick  this task should be abandoned, as we can not introduce stricter check into config process w/o new capability. We could add a check to configtxgen though if it adds value." created="2019-06-10 01:53:14.0" updateauthor="guoger" updated="2019-06-10 01:53:23.0"/>

@@ -1,0 +1,2 @@
+<Action id="48103" issue="30687" author="sergey.minaev" type="comment" body="Should be fixed from 1.5.0 - master 619. Re-check with latest version please." created="2018-07-30 12:19:18.0" updateauthor="sergey.minaev" updated="2018-07-30 12:19:18.0"/>
+<Action id="48241" issue="30687" author="zhigunenko.dsr" type="comment" created="2018-08-01 11:14:37.0" updateauthor="zhigunenko.dsr" updated="2018-08-01 11:14:37.0"> <body><! CDATA *Environment:* indy-cli 1.6.1~659  *Actual results:* Unavailable nodes are marked  ></body> </Action>

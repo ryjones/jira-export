@@ -1,0 +1,2 @@
+<Action id="43323" issue="29131" author="artemkaaas" type="comment" body="Implemented in PR: https://github.com/hyperledger/indy-sdk/pull/660" created="2018-04-24 07:23:06.0" updateauthor="artemkaaas" updated="2018-04-24 07:23:06.0"/>
+<Action id="43330" issue="29131" author="gudkov" type="comment" created="2018-04-24 07:28:04.0" updateauthor="gudkov" updated="2018-04-24 07:28:04.0"> <body><! CDATA - PR merged to https://github.com/hyperledger/indy-sdk/tree/feature/wallet_storage_integration - Code looks ok - It should help Darko's team in integration  ></body> </Action>

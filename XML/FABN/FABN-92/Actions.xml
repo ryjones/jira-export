@@ -1,0 +1,1 @@
+<Action id="21117" issue="13527" author="jimthematrix" type="comment" body="in fabric-sdk-node we don&apos;t make use of UUID so closing this task" created="2017-02-22 19:48:26.0" updateauthor="jimthematrix" updated="2017-02-22 19:48:26.0"/>

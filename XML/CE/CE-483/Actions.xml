@@ -1,0 +1,2 @@
+<Action id="52489" issue="34694" author="baohua" type="comment" created="2018-10-21 06:40:38.0" updateauthor="baohua" updated="2018-10-21 06:41:15.0"> <body><! CDATA  ~fnst_zhangxin , seems we should update the version, as we are using compose v2 API now. Would you like to help update?  ></body> </Action>
+<Action id="52971" issue="34694" author="baohua" type="comment" body="https://gerrit.hyperledger.org/r/27331" created="2018-11-02 13:46:28.0" updateauthor="baohua" updated="2018-11-02 13:46:28.0"/>

@@ -1,0 +1,1 @@
+<Action id="49527" issue="32694" author="ashcherbakov" type="comment" body="It looks like the spikes were caused by Validator Info dumps. It was fixed in INDY-1603." created="2018-08-29 07:26:08.0" updateauthor="ashcherbakov" updated="2018-08-29 07:26:08.0"/>

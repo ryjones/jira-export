@@ -1,0 +1,4 @@
+<Action id="57369" issue="37844" author="yacovm" type="comment" body="Make sense to me... thanks for this!" created="2019-02-20 16:54:46.0" updateauthor="yacovm" updated="2019-02-20 16:54:46.0"/>
+<Action id="57458" issue="37844" author="sstone1" type="comment" body="https://gerrit.hyperledger.org/r/#/c/29481/" created="2019-02-22 14:42:05.0" updateauthor="sstone1" updated="2019-02-22 14:42:05.0"/>
+<Action id="57465" issue="37844" author="denyeart" type="comment" body=" ~sstone1  Merged. I assume you tested with SDK client :). Do you want to cherry pick to release-1.4 as well, since that&apos;s the target for current users?" created="2019-02-22 16:18:37.0" updateauthor="denyeart" updated="2019-02-22 16:19:35.0"/>
+<Action id="57509" issue="37844" author="sstone1" type="comment" body="Cherry picked and merged into release-1.4: https://gerrit.hyperledger.org/r/#/c/29496/" created="2019-02-24 10:16:23.0" updateauthor="sstone1" updated="2019-02-24 10:16:23.0"/>

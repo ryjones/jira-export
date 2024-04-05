@@ -1,0 +1,1 @@
+<Issue id="36705" key="FAB-13643" number="13643" project="10002" reporter="yacovm" assignee="yacovm" creator="yacovm" type="10002" summary="Etcdraft leader crash and failover integration test" priority="3" resolution="10000" status="6" created="2019-01-11 20:36:19.0" updated="2019-03-01 13:35:49.0" resolutiondate="2019-01-14 19:43:57.0" votes="0" watches="1" workflowId="48257"/>

@@ -1,0 +1,3 @@
+<Action id="28895" issue="19413" author="rameshthoomu" type="comment" body="ci-check has to trigger **linter**, **license**, **unit-tests**" created="2017-07-24 13:22:49.0" updateauthor="rameshthoomu" updated="2017-07-24 13:22:49.0"/>
+<Action id="42654" issue="19413" author="christopherferris" type="comment" body=" ~rameshthoomu  is this still relevant? If not, let&apos;s mark it Invalid. Thanks." created="2018-04-06 23:44:21.0" updateauthor="christopherferris" updated="2018-04-06 23:44:21.0"/>
+<Action id="44119" issue="19413" author="christopherferris" type="comment" body="closing this as duplicate of enable_ci_only_tests. reopen if still relevant" created="2018-05-09 12:37:43.0" updateauthor="christopherferris" updated="2018-05-09 12:38:02.0"/>

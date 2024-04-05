@@ -1,0 +1,1 @@
+<Action id="56377" issue="36782" author="sergey.minaev" type="comment" created="2019-01-30 11:22:24.0" updateauthor="sergey.minaev" updated="2019-01-31 13:59:07.0"> <body><! CDATA Recommendation for validation: verify that new API is available in wrappers of libindy and marked everywhere as experimental  ></body> </Action>

@@ -1,0 +1,1 @@
+<Action id="49984" issue="26500" author="davidkel" type="comment" body="Sorry, still think the best approach is to use a mocking library such as sinon. " created="2018-09-06 12:22:12.0" updateauthor="davidkel" updated="2018-09-06 12:22:12.0"/>

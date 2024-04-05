@@ -1,0 +1,1 @@
+<Action id="58584" issue="37749" author="bharadwajambati1" type="comment" created="2019-03-26 17:47:05.0" updateauthor="bharadwajambati1" updated="2019-03-26 17:47:05.0"> <body><! CDATA Tested   ~jyellick  fix for bug FAB-14735. Now it allows updating a channel with a new ordererorg. No errors.  Version: 1.4.1 Commit SHA: dce0e5d     ></body> </Action>

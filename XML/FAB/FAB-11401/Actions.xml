@@ -1,0 +1,3 @@
+<Action id="48137" issue="32416" author="pandrejko" type="comment" body="Problem was introduced when I updated the anchors for each step of the tutorial to create the TOC.  Fixed the broken link." created="2018-07-30 19:00:43.0" updateauthor="pandrejko" updated="2018-07-30 19:00:43.0"/>
+<Action id="48139" issue="32416" author="pandrejko" type="comment" created="2018-07-30 19:34:40.0" updateauthor="pandrejko" updated="2018-07-30 19:34:40.0"> <body><! CDATA  https://gerrit.hyperledger.org/r/#/c/24949/   and  https://gerrit.hyperledger.org/r/#/c/24953/  ></body> </Action>
+<Action id="48140" issue="32416" author="pandrejko" type="comment" body=" ~jtclark " created="2018-07-30 19:35:15.0" updateauthor="pandrejko" updated="2018-07-30 19:35:15.0"/>

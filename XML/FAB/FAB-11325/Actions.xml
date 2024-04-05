@@ -1,0 +1,2 @@
+<Action id="47911" issue="32232" author="yacovm" type="comment" body="https://gerrit.hyperledger.org/r/#/c/24813/" created="2018-07-26 14:55:28.0" updateauthor="yacovm" updated="2018-07-26 14:55:28.0"/>
+<Action id="48197" issue="32232" author="kchristidis" type="comment" body="This is great — I wasn&apos;t aware of the {{VerifyPeerCertificate}} function in the {{tls}} package." created="2018-07-31 15:42:28.0" updateauthor="kchristidis" updated="2018-07-31 15:42:28.0"/>

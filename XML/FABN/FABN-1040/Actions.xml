@@ -1,0 +1,2 @@
+<Action id="54027" issue="35722" author="harrisob@us.ibm.com" type="comment" body="see https://jira.hyperledger.org/browse/FABN-922 ... see Git Commits for the code to reverse" created="2018-11-29 20:29:55.0" updateauthor="harrisob@us.ibm.com" updated="2018-11-29 20:29:55.0"/>
+<Action id="54028" issue="35722" author="harrisob@us.ibm.com" type="comment" body="We will need to decide if we want to revert the change that pulled out the dependencies." created="2018-11-29 20:30:40.0" updateauthor="harrisob@us.ibm.com" updated="2018-11-29 20:30:40.0"/>

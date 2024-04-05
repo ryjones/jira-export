@@ -1,0 +1,3 @@
+<Action id="29531" issue="19939" author="rameshthoomu" type="comment" body="Sandeep, I see daily tests are still failing with this error.. Could you please check this and update the status pls." created="2017-08-08 13:42:03.0" updateauthor="rameshthoomu" updated="2017-08-08 13:42:03.0"/>
+<Action id="29575" issue="19939" author="sandp125" type="comment" body="Added a patch for this https://gerrit.hyperledger.org/r/#/c/12275/" created="2017-08-09 03:14:34.0" updateauthor="sandp125" updated="2017-08-09 03:14:34.0"/>
+<Action id="29715" issue="19939" author="rameshthoomu" type="comment" body="After patch is merged this issue is fixed." created="2017-08-11 13:50:51.0" updateauthor="rameshthoomu" updated="2017-08-11 13:50:51.0"/>

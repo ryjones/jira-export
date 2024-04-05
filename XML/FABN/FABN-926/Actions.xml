@@ -1,0 +1,1 @@
+<Action id="53661" issue="33938" author="bestbeforetoday" type="comment" body="There is passing integration test covering this scenario. Looking more closely at the output, it might be possible to make the error output and logging clearer and more robust. I&apos;ll take a look." created="2018-11-20 19:43:16.0" updateauthor="bestbeforetoday" updated="2018-11-20 19:43:16.0"/>

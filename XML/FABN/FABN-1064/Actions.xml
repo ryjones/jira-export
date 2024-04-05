@@ -1,0 +1,3 @@
+<Action id="54724" issue="36101" author="davidkhala" type="comment" body="https://gerrit.hyperledger.org/r/#/c/28115/" created="2018-12-12 15:52:47.0" updateauthor="davidkhala" updated="2018-12-12 15:52:47.0"/>
+<Action id="64968" issue="36101" author="heatherp" type="comment" body="Hi  ~davidkhala  - does this issue still need to be open? I can see you abdandoned the gerrit change?" created="2019-10-24 15:44:24.0" updateauthor="heatherp" updated="2019-10-24 15:44:24.0"/>
+<Action id="69347" issue="36101" author="davidkhala" type="comment" body=" ~heatherp  Dear Heather, since this concept has been included in 2.x design, I will mark it as duplicated. " created="2020-05-28 02:39:41.0" updateauthor="davidkhala" updated="2020-05-28 02:39:41.0"/>

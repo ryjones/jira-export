@@ -1,0 +1,3 @@
+<Action id="26308" issue="17922" author="aleksey-roldugin" type="comment" body="FYI  ~krw910 ,  ~stevetolman ,  ~danielhardman ,  ~ashcherbakov " created="2017-06-14 17:39:56.0" updateauthor="aleksey-roldugin" updated="2017-06-14 17:39:56.0"/>
+<Action id="37963" issue="17922" author="ozheregelya" type="comment" body="Impossible to retest with indy-cli because of IS-502." created="2018-01-03 19:32:56.0" updateauthor="ozheregelya" updated="2018-01-03 19:32:56.0"/>
+<Action id="51896" issue="17922" author="derashe" type="comment" body="For actual moment of time, sdk won&apos;t connect to node added with empty service field." created="2018-10-09 11:36:10.0" updateauthor="derashe" updated="2018-11-06 14:56:12.0"/>

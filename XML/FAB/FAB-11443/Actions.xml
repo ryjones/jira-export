@@ -1,0 +1,2 @@
+<Action id="48301" issue="32484" author="dongming" type="comment" body="The failure is caused by the sdk node renames the `FabricClientCAImpl` to match the export name `FabricClientServices` in fabric-sdk-node commit `b7e528d23ffc0e58cf356068808aadd4911bac44`" created="2018-08-02 15:11:07.0" updateauthor="dongming" updated="2018-08-02 15:11:07.0"/>
+<Action id="48302" issue="32484" author="dongming" type="comment" body="https://gerrit.hyperledger.org/r/#/c/25061/" created="2018-08-02 15:16:21.0" updateauthor="dongming" updated="2018-08-02 15:16:21.0"/>

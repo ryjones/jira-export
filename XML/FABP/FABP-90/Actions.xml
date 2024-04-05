@@ -1,0 +1,3 @@
+<Action id="39909" issue="27562" author="sudheesh001" type="comment" body="Requesting review: https://gerrit.hyperledger.org/r/17721" created="2018-02-09 07:58:12.0" updateauthor="sudheesh001" updated="2018-02-09 07:58:12.0"/>
+<Action id="40007" issue="27562" author="sudheesh001" type="comment" created="2018-02-12 03:25:59.0" updateauthor="sudheesh001" updated="2018-02-12 03:25:59.0"> <body><! CDATA Updated commit change:   https://gerrit.hyperledger.org/r/17779   Build Success:  https://jenkins.hyperledger.org/job/fabric-sdk-py-verify-x86_64/332/    ></body> </Action>
+<Action id="40013" issue="27562" author="baohua" type="comment" body="https://gerrit.hyperledger.org/r/#/c/17779/" created="2018-02-12 07:15:51.0" updateauthor="baohua" updated="2018-02-12 07:15:51.0"/>

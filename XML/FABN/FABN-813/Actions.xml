@@ -1,0 +1,4 @@
+<Action id="41545" issue="28416" author="mastersingh24" type="comment" body="will target this for v1.2" created="2018-03-13 17:12:36.0" updateauthor="mastersingh24" updated="2018-03-13 17:12:36.0"/>
+<Action id="41546" issue="28416" author="mastersingh24" type="comment" body=" ~davidkhala  - once you submit a CR for review, please make sure you update the status of the JIRA to &quot;In Review&quot; and add the CR link in a comment" created="2018-03-13 17:15:47.0" updateauthor="mastersingh24" updated="2018-03-13 17:15:47.0"/>
+<Action id="41547" issue="28416" author="mastersingh24" type="comment" body="https://gerrit.hyperledger.org/r/19087" created="2018-03-13 17:16:00.0" updateauthor="mastersingh24" updated="2018-03-13 17:16:00.0"/>
+<Action id="41566" issue="28416" author="davidkhala" type="comment" body=" ~mastersingh24  gari, thanks for you reminds" created="2018-03-14 00:54:09.0" updateauthor="davidkhala" updated="2018-03-14 00:54:09.0"/>

@@ -1,0 +1,2 @@
+<Action id="49219" issue="32865" author="artemkaaas" type="comment" body="Implemented in PR: https://github.com/hyperledger/indy-sdk/pull/1069" created="2018-08-22 12:06:40.0" updateauthor="artemkaaas" updated="2018-08-22 12:06:40.0"/>
+<Action id="49636" issue="32865" author="gudkov" type="comment" body="API implemented and tested" created="2018-08-30 16:08:29.0" updateauthor="gudkov" updated="2018-08-30 16:08:29.0"/>

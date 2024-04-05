@@ -1,0 +1,2 @@
+<Action id="35304" issue="23882" author="rameshthoomu" type="comment" body="Chris started working on the related task https://jira.hyperledger.org/browse/FAB-7045" created="2017-11-21 14:00:09.0" updateauthor="rameshthoomu" updated="2017-11-21 14:00:09.0"/>
+<Action id="66637" issue="23882" author="rameshthoomu" type="comment" body="Nexus is out scope. Azure Pipelines installing tagged softwares for every build and go tools are versioned." created="2020-01-13 16:05:01.0" updateauthor="rameshthoomu" updated="2020-01-13 16:05:01.0"/>

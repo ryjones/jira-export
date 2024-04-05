@@ -1,0 +1,4 @@
+<Action id="20022" issue="13146" author="kchristidis" type="comment" body="Is this covered by FAB-1300?" created="2016-12-07 23:52:25.0" updateauthor="kchristidis" updated="2016-12-07 23:52:25.0"/>
+<Action id="21697" issue="13146" author="kchristidis" type="comment" body="Marking it as Done assuming it&apos;s covered by FAB-1300. If not, please re-open." created="2017-03-28 19:09:42.0" updateauthor="kchristidis" updated="2017-03-28 19:09:42.0"/>
+<Action id="21718" issue="13146" author="scottz" type="comment" body="OK, I added a note to FAB-1300 to reference this one, and I accept closure of this as a duplicate." created="2017-03-29 14:03:54.0" updateauthor="scottz" updated="2017-03-29 14:03:54.0"/>
+<Action id="21722" issue="13146" author="kchristidis" type="comment" body="Got it, thanks Scott." created="2017-03-29 14:50:14.0" updateauthor="kchristidis" updated="2017-03-29 14:50:14.0"/>

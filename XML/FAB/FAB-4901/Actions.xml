@@ -1,0 +1,3 @@
+<Action id="27106" issue="18505" author="c0rwin" type="comment" body="https://gerrit.hyperledger.org/r/#/c/10897/" created="2017-06-21 08:02:32.0" updateauthor="c0rwin" updated="2017-06-21 08:02:32.0"/>
+<Action id="27160" issue="18505" author="c0rwin" type="comment" body="Lowering severity to medium since related to UT failures only." created="2017-06-21 18:35:57.0" updateauthor="c0rwin" updated="2017-06-21 18:35:57.0"/>
+<Action id="27398" issue="18505" author="c0rwin" type="comment" body="Re-opening due to: https://jenkins.hyperledger.org/job/fabric-verify-x86_64/13810/console  " created="2017-06-26 22:28:35.0" updateauthor="c0rwin" updated="2017-06-26 22:28:35.0"/>

@@ -1,0 +1,1 @@
+<Action id="22482" issue="12524" author="mastersingh24" type="comment" body="marking this as done as fabric-ca actually supports multiple enrollments based on the max enrollments parameter / settings" created="2017-04-14 18:09:53.0" updateauthor="mastersingh24" updated="2017-04-14 18:09:53.0"/>

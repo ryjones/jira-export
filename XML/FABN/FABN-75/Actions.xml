@@ -1,0 +1,1 @@
+<Action id="18998" issue="12692" author="pmullaney" type="comment" body="Unit tests for chaincode events were added. See sdk/node/test/unit/event-tests.js" created="2016-09-26 19:11:08.0" updateauthor="pmullaney" updated="2016-09-26 19:11:08.0"/>

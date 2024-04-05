@@ -1,0 +1,2 @@
+<Action id="67893" issue="43746" author="denyeart" type="comment" created="2020-02-10 20:03:49.0" updateauthor="denyeart" updated="2020-02-10 20:06:00.0"> <body><! CDATA https://github.com/hyperledger/fabric/pull/429 merged into master for v2.0.  This bug fix looks important and low risk enough for a backport to v1.4.5.  ></body> </Action>
+<Action id="67907" issue="43746" author="denyeart" type="comment" body="Merged in release-1.4 for v1.4.5." created="2020-02-11 16:46:54.0" updateauthor="denyeart" updated="2020-02-11 16:46:54.0"/>

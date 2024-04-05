@@ -1,0 +1,1 @@
+<Action id="39383" issue="26724" author="boydjohnson" type="comment" body="So set_least_batch_id is part of the fail fast mechanism. I have written a unit test that fails with the same keyerror. https://github.com/boydjohnson/sawtooth-core/tree/STL-987.unit.test" created="2018-01-30 19:50:18.0" updateauthor="boydjohnson" updated="2018-01-30 19:50:18.0"/>

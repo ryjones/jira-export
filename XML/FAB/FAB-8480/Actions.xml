@@ -1,0 +1,2 @@
+<Action id="40755" issue="27962" author="latitiah" type="comment" created="2018-02-25 12:54:47.0" updateauthor="latitiah" updated="2018-02-25 12:54:47.0"> <body><! CDATA Reinstate using "orgN.example.com" as the MSPID in the following files: * configs/configtx.yaml * docker-compose/docker-compose-*.yml * steps/endorser_util.py   ></body> </Action>
+<Action id="40832" issue="27962" author="latitiah" type="comment" body="https://gerrit.hyperledger.org/r/#/c/18375/" created="2018-02-26 15:58:28.0" updateauthor="latitiah" updated="2018-02-26 15:58:28.0"/>

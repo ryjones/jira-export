@@ -1,0 +1,2 @@
+<Action id="58013" issue="38320" author="yacovm" type="comment" body="https://gerrit.hyperledger.org/r/#/c/29971/" created="2019-03-09 00:16:22.0" updateauthor="yacovm" updated="2019-03-09 00:16:22.0"/>
+<Action id="58189" issue="38320" author="bharadwajambati1" type="comment" created="2019-03-15 13:34:22.0" updateauthor="bharadwajambati1" updated="2019-03-15 13:34:22.0"> <body><! CDATA Re-tested  ~yacovm  fix for bug FAB-14557 and it didn't allow to add duplicate orderers to the channel     ></body> </Action>

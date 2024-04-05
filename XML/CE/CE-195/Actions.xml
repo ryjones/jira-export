@@ -1,0 +1,2 @@
+<Action id="37090" issue="25733" author="hightall" type="comment" body="It&apos;s because currently user-dashboard is not ready, and only start in debug mode, this is running in production mode, and the dist is not built out. I will fix it after user-dashboard is ready" created="2017-12-14 13:36:00.0" updateauthor="hightall" updated="2017-12-14 13:36:00.0"/>
+<Action id="39636" issue="25733" author="baohua" type="comment" body=" ~hightall  is the bug fixed?" created="2018-02-05 04:31:28.0" updateauthor="baohua" updated="2018-02-05 04:31:28.0"/>

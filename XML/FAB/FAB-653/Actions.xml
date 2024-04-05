@@ -1,0 +1,1 @@
+<Action id="19208" issue="12955" author="latitiah" type="comment" body="Docker compose files are complete. This will all get pushed with behave push in FAB-572. (There are tests that are using code written under that issue.)" created="2016-10-11 22:12:32.0" updateauthor="latitiah" updated="2016-10-11 22:12:32.0"/>

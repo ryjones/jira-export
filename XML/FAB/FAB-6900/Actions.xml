@@ -1,0 +1,1 @@
+<Action id="34646" issue="23822" author="divyank" type="comment" body="Workaround was a compiler patch while building plugins until Go 1.10 comes along with the fix." created="2017-11-15 16:04:26.0" updateauthor="divyank" updated="2017-11-15 16:04:26.0"/>

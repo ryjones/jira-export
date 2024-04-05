@@ -1,0 +1,4 @@
+<Action id="39225" issue="27109" author="jaredcorduan" type="comment" body="I am no longer seeing this issue on v1.0.0rc7." created="2018-01-27 17:11:30.0" updateauthor="jaredcorduan" updated="2018-01-27 17:11:30.0"/>
+<Action id="39605" issue="27109" author="pschwarz" type="comment" body="Closing this, as it is reported resolved." created="2018-02-02 20:16:58.0" updateauthor="pschwarz" updated="2018-02-02 20:16:58.0"/>
+<Action id="39606" issue="27109" author="jaredcorduan" type="comment" body="sounds good, thank you" created="2018-02-02 20:21:56.0" updateauthor="jaredcorduan" updated="2018-02-02 20:21:56.0"/>
+<Action id="39690" issue="27109" author="boydjohnson" type="comment" body=" https://github.com/hyperledger/sawtooth-core/pull/1382  Commenting to add context. I think this PR was what solved this issue." created="2018-02-05 18:28:27.0" updateauthor="boydjohnson" updated="2018-02-05 18:28:27.0"/>

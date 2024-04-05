@@ -1,0 +1,1 @@
+<Action id="53842" issue="35329" author="denyeart" type="comment" created="2018-11-27 14:58:49.0" updateauthor="denyeart" updated="2018-11-27 14:58:49.0"> <body><! CDATA https://gerrit.hyperledger.org/r/#/c/27538/   ~diizuka  Please see the review comment.  I will lower to Medium since cryptogen is not a runtime component.  ></body> </Action>

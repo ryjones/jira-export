@@ -1,0 +1,2 @@
+<Action id="59638" issue="37580" author="gennadyl" type="comment" body="It was flake in downloading dependencies from plugins.gradle.org during build. Not java shim issue. I would like to close it" created="2019-05-01 07:53:10.0" updateauthor="gennadyl" updated="2019-05-01 07:53:57.0"/>
+<Action id="59640" issue="37580" author="gennadyl" type="comment" body="As I said in comment, it is not integration test issue, it happens during downloading gradle dependencies from plugins.gradle.org" created="2019-05-01 07:59:14.0" updateauthor="gennadyl" updated="2019-05-01 07:59:14.0"/>

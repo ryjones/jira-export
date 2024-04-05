@@ -1,0 +1,2 @@
+<Action id="26532" issue="18033" author="rameshthoomu" type="comment" body="This is working as expected after install xmlstarlet facter packages in all builds nodes. Closing this issue" created="2017-06-16 13:22:54.0" updateauthor="rameshthoomu" updated="2017-06-16 13:22:54.0"/>
+<Action id="26533" issue="18033" author="rameshthoomu" type="comment" body="https://gerrit.hyperledger.org/r/#/c/10621/" created="2017-06-16 13:23:25.0" updateauthor="rameshthoomu" updated="2017-06-16 13:23:25.0"/>

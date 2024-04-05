@@ -1,0 +1,2 @@
+<Action id="37540" issue="24885" author="mastersingh24" type="comment" body="I&apos;ll fix this in master.  Not sure it&apos;s worth a backport to the release branch" created="2017-12-16 13:23:37.0" updateauthor="mastersingh24" updated="2017-12-16 13:23:37.0"/>
+<Action id="37541" issue="24885" author="mastersingh24" type="comment" body="https://gerrit.hyperledger.org/r/16247" created="2017-12-16 13:28:59.0" updateauthor="mastersingh24" updated="2017-12-16 13:28:59.0"/>

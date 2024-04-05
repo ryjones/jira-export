@@ -1,0 +1,1 @@
+<Action id="30410" issue="20535" author="rameshthoomu" type="comment" body="Configured *verify* and *merge* jobs runs on any branch based on the request come in.. https://jenkins.hyperledger.org/view/fabric-sdk-rest/" created="2017-08-31 12:54:40.0" updateauthor="rameshthoomu" updated="2017-08-31 12:54:40.0"/>

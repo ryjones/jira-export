@@ -1,0 +1,2 @@
+<Action id="42272" issue="28323" author="aambati" type="comment" body=" ~smithbk  do we still need this JIRA, can we close it?" created="2018-03-28 18:48:37.0" updateauthor="aambati" updated="2018-03-28 18:48:37.0"/>
+<Action id="42777" issue="28323" author="dubovitskaya" type="comment" body="I think this is covered by FAB-9243 and FAB-9244 and the epic itself, therefore, I am closing it." created="2018-04-10 15:42:08.0" updateauthor="dubovitskaya" updated="2018-04-10 15:42:08.0"/>

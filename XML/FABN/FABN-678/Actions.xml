@@ -1,0 +1,2 @@
+<Action id="46493" issue="31250" author="harrisob@us.ibm.com" type="comment" body="Internal objects have changed ... old test case is invalid with new code" created="2018-06-25 16:32:57.0" updateauthor="harrisob@us.ibm.com" updated="2018-06-25 16:32:57.0"/>
+<Action id="53426" issue="31250" author="andrew-coleman" type="comment" body="resolved with test change" created="2018-11-14 13:54:50.0" updateauthor="andrew-coleman" updated="2018-11-14 13:54:50.0"/>

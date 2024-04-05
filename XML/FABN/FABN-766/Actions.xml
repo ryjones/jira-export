@@ -1,0 +1,1 @@
+<Action id="20103" issue="13787" author="inatatsu" type="comment" body="Is this because the latest peer expects a SignedProposal but the SDK still sends a plain Proposal?" created="2016-12-15 07:14:32.0" updateauthor="inatatsu" updated="2016-12-15 07:14:32.0"/>

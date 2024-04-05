@@ -1,0 +1,2 @@
+<Action id="57452" issue="37830" author="ashcherbakov" type="comment" body="Validation will be done in the scope of INDY-2002" created="2019-02-22 12:48:12.0" updateauthor="ashcherbakov" updated="2019-02-22 12:48:12.0"/>
+<Action id="57453" issue="37830" author="anikitindsr" type="comment" created="2019-02-22 12:55:28.0" updateauthor="anikitindsr" updated="2019-02-22 12:55:28.0"> <body><! CDATA PR into indy-node:  https://github.com/hyperledger/indy-node/pull/1179      ></body> </Action>

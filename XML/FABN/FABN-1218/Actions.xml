@@ -1,0 +1,1 @@
+<Action id="60272" issue="39544" author="harrisob@us.ibm.com" type="comment" body="certificates are stored with the block, so I do not think this will work, however this issue should be presented to the FAB project as the client side does not have any say in this matter." created="2019-05-22 21:00:19.0" updateauthor="harrisob@us.ibm.com" updated="2019-05-22 21:00:19.0"/>

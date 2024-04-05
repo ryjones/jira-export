@@ -1,0 +1,2 @@
+<Action id="44878" issue="30501" author="rameshthoomu" type="comment" body="https://gerrit.hyperledger.org/r/#/c/22155/" created="2018-05-22 18:18:49.0" updateauthor="rameshthoomu" updated="2018-05-22 18:18:49.0"/>
+<Action id="45535" issue="30501" author="sambhavdutt" type="comment" created="2018-06-05 18:06:41.0" updateauthor="sambhavdutt" updated="2018-06-05 18:06:41.0"> <body><! CDATA After merge, the GoAST weekly tests are working as expected. https://gerrit.hyperledger.org/r/#/c/22155/  ></body> </Action>

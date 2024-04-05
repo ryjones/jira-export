@@ -1,0 +1,2 @@
+<Action id="46466" issue="30989" author="dongming" type="comment" created="2018-06-22 19:03:04.0" updateauthor="dongming" updated="2018-06-22 19:03:04.0"> <body><! CDATA add a user configurable timeout parameter, grpc-wait-for-ready-timeout, to timeoutOpt and  add setConfigSetting('grpc-wait-for-ready-timeout', new value);  default is 3000 ms  ></body> </Action>
+<Action id="46552" issue="30989" author="dongming" type="comment" body="https://gerrit.hyperledger.org/r/#/c/23661/" created="2018-06-26 16:01:32.0" updateauthor="dongming" updated="2018-06-26 16:01:32.0"/>

@@ -1,0 +1,2 @@
+<Action id="25843" issue="17689" author="yacovm" type="comment" created="2017-06-09 12:40:53.0" updateauthor="yacovm" updated="2017-06-09 12:40:53.0"> <body><! CDATA the source of the panic is test code. This shouldn't be high.  ></body> </Action>
+<Action id="25981" issue="17689" author="yacovm" type="comment" body="https://gerrit.hyperledger.org/r/#/c/10447/" created="2017-06-11 10:38:24.0" updateauthor="yacovm" updated="2017-06-11 10:38:24.0"/>

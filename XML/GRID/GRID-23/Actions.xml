@@ -1,0 +1,2 @@
+<Action id="61255" issue="39939" author="pschwarz" type="comment" body="The data that backs this REST API will be populated in the DB via GRID-21" created="2019-06-25 21:10:40.0" updateauthor="pschwarz" updated="2019-06-25 21:10:40.0"/>
+<Action id="63336" issue="39939" author="mattp" type="comment" body="We believe this is awaiting a PR review.   https://github.com/hyperledger/grid/pull/115 " created="2019-08-27 16:24:58.0" updateauthor="mattp" updated="2019-08-27 16:24:58.0"/>

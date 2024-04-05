@@ -1,0 +1,1 @@
+<Action id="39042" issue="24490" author="adnanchoudhury" type="comment" created="2018-01-23 20:21:59.0" updateauthor="adnanchoudhury" updated="2018-01-23 20:21:59.0"> <body><! CDATA Notes: Are there logs present when each time a index gets created and/or used?  Are there logs when peer uses leveldb but the index is attached with the CC?  ></body> </Action>

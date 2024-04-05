@@ -1,0 +1,1 @@
+<Issue id="38686" key="FAB-14777" number="14777" project="10002" reporter="sykesm" assignee="sykesm" creator="sykesm" type="10004" summary="Remove some dead vars and exports from Makefile" priority="3" resolution="10000" status="6" created="2019-03-22 16:07:54.0" updated="2019-03-25 17:31:23.0" resolutiondate="2019-03-23 19:24:11.0" votes="0" watches="1" workflowId="50331"/>

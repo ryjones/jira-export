@@ -1,0 +1,1 @@
+<Issue id="46378" key="FAB-18363" number="18363" project="10002" reporter="btl5037" creator="btl5037" type="10002" summary="Bump Protobuf to 1.4.3" description="Update protobuf dependency. See comment." priority="3" status="10000" created="2020-12-02 22:12:40.0" updated="2021-09-29 20:46:27.0" votes="0" watches="3" workflowId="60547" archived="N"/>

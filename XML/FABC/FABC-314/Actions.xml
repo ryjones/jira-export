@@ -1,0 +1,2 @@
+<Action id="26703" issue="18282" author="mastersingh24" type="comment" body="We should be consistent and do this for the fabric-ca similar to FAB-4848 for the fabric runtime(s)" created="2017-06-18 21:01:18.0" updateauthor="mastersingh24" updated="2017-06-18 21:01:18.0"/>
+<Action id="26732" issue="18282" author="mastersingh24" type="comment" body="https://gerrit.hyperledger.org/r/10775" created="2017-06-19 13:35:34.0" updateauthor="mastersingh24" updated="2017-06-19 13:35:34.0"/>

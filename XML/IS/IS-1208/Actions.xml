@@ -1,0 +1,1 @@
+<Action id="64534" issue="38247" author="esplinr" type="comment" created="2019-10-10 12:11:31.0" updateauthor="esplinr" updated="2019-10-10 12:11:31.0"> <body><! CDATA The timeout is now configurable and documented here:  https://github.com/hyperledger/indy-sdk/blob/master/docs/configuration.md  ></body> </Action>

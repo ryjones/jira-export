@@ -1,0 +1,1 @@
+<Action id="35524" issue="24477" author="pschwarz" type="comment" body="This has been fixed in  https://github.com/hyperledger/sawtooth-core/pull/1134 . It probably should be verified against the criteria above." created="2017-11-27 18:54:47.0" updateauthor="pschwarz" updated="2017-11-27 18:54:47.0"/>

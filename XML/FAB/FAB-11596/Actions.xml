@@ -1,0 +1,2 @@
+<Action id="49476" issue="32845" author="angelo.decaro" type="comment" body="https://gerrit.hyperledger.org/r/#/c/25565/" created="2018-08-28 08:34:26.0" updateauthor="angelo.decaro" updated="2018-08-28 08:34:26.0"/>
+<Action id="53193" issue="32845" author="angelo.decaro" type="comment" body="The validation has been moved to the transaction processing directly." created="2018-11-08 09:21:46.0" updateauthor="angelo.decaro" updated="2018-11-08 09:21:46.0"/>

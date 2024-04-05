@@ -1,0 +1,2 @@
+<Action id="20173" issue="13751" author="smithbk" type="comment" body="Allen, please add openldap server to this." created="2016-12-21 12:43:21.0" updateauthor="smithbk" updated="2016-12-21 12:43:21.0"/>
+<Action id="20174" issue="13751" author="smithbk" type="comment" body="See the fabric-cop/scripts/run_ldap_tests script to help" created="2016-12-21 12:45:08.0" updateauthor="smithbk" updated="2016-12-21 12:45:08.0"/>

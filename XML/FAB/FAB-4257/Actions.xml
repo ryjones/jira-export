@@ -1,0 +1,2 @@
+<Action id="24999" issue="17289" author="muralisr" type="comment" body=" ~nnao  any update on this ? Thanks!" created="2017-06-01 19:15:47.0" updateauthor="muralisr" updated="2017-06-01 19:15:47.0"/>
+<Action id="25002" issue="17289" author="nnao" type="comment" created="2017-06-01 19:46:06.0" updateauthor="nnao" updated="2017-06-01 19:46:06.0"> <body><! CDATA I sent the patch. Thanks! https://gerrit.hyperledger.org/r/#/c/9995/  ></body> </Action>

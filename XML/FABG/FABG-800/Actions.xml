@@ -1,0 +1,1 @@
+<Action id="53991" issue="35651" author="gotoxu" type="comment" body="I think we should unify the way the OSN configuration is obtained, so that we can make the fabric-sdk-go configuration file more concise." created="2018-11-29 07:16:54.0" updateauthor="gotoxu" updated="2018-11-29 07:16:54.0"/>

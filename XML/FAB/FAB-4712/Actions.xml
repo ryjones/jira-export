@@ -1,0 +1,2 @@
+<Action id="44497" issue="17994" author="scottz" type="comment" body="For v1.2 and afterwards, rerun this testcase as is, or else just make sure at least one PTE testcase uses 100 or more channels, and another uses minimum 10 chaincodes." created="2018-05-16 18:48:59.0" updateauthor="scottz" updated="2018-05-16 18:48:59.0"/>
+<Action id="62302" issue="17994" author="mastersingh24" type="comment" body="Open 1 year or more with no activity ... time to cleanup" created="2019-07-30 02:42:03.0" updateauthor="mastersingh24" updated="2019-07-30 02:42:03.0"/>

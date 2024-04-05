@@ -1,0 +1,1 @@
+<Issue id="22826" key="STL-806" number="806" project="10001" reporter="agunde" assignee="agunde" creator="agunde" type="10005" summary="Implement ability to pass in an error handler function with a TransactionHandler" priority="3" status="10100" created="2017-10-24 21:10:09.0" updated="2019-05-21 14:33:46.0" votes="0" watches="1" workflowId="22826"/>

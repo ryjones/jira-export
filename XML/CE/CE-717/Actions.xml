@@ -1,0 +1,4 @@
+<Action id="65064" issue="43027" author="davidkhala" type="comment" body=" ~baohua  ~hightall " created="2019-10-29 07:22:54.0" updateauthor="davidkhala" updated="2019-10-29 07:22:54.0"/>
+<Action id="65173" issue="43027" author="baohua" type="comment" body="Working on a new guideline at  https://github.com/hyperledger/cello/wiki/Contribution-Process ." created="2019-10-29 21:33:40.0" updateauthor="baohua" updated="2019-10-29 21:33:40.0"/>
+<Action id="65192" issue="43027" author="davidkhala" type="comment" body="I see Hub tool is used and install guideline provided for MacOS, is it available for other *nix ?" created="2019-10-30 15:54:06.0" updateauthor="davidkhala" updated="2019-10-30 15:54:06.0"/>
+<Action id="65200" issue="43027" author="baohua" type="comment" body="Certainly:  https://hub.github.com/ ." created="2019-10-30 18:54:13.0" updateauthor="baohua" updated="2019-10-30 18:54:13.0"/>

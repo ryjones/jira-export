@@ -1,0 +1,2 @@
+<Action id="63185" issue="41969" author="sykesm" type="comment" body="James, if you want this, please put it on your backlog to implement." created="2019-08-22 13:06:42.0" updateauthor="sykesm" updated="2019-08-22 13:06:42.0"/>
+<Action id="63194" issue="41969" author="jtonline" type="comment" body="Will do. As discussed, this and FAB-16388 will essentially be CI work on the new protos repo, fabric-protos, some time after work has been completed for go." created="2019-08-22 15:09:15.0" updateauthor="jtonline" updated="2019-08-22 15:09:15.0"/>

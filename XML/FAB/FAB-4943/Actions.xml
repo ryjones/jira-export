@@ -1,0 +1,2 @@
+<Action id="27234" issue="18584" author="shimos" type="comment" body="CR: https://gerrit.hyperledger.org/r/11035" created="2017-06-23 00:39:19.0" updateauthor="shimos" updated="2017-06-23 00:39:19.0"/>
+<Action id="27376" issue="18584" author="shimos" type="comment" body="Seems to be fixed by https://jira.hyperledger.org/browse/FAB-4961 (https://gerrit.hyperledger.org/r/#/c/11075/)" created="2017-06-26 18:33:43.0" updateauthor="shimos" updated="2017-06-26 18:33:43.0"/>

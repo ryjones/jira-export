@@ -1,0 +1,2 @@
+<Action id="19756" issue="13457" author="joshhus" type="comment" body="Got it, thanks. We could build a &quot;What&apos;s New in 1.0&quot; topic right into the existing Hyperledger RTD TOC. ... This could be one example sub-topic." created="2016-11-14 22:30:21.0" updateauthor="joshhus" updated="2016-11-14 22:30:21.0"/>
+<Action id="20657" issue="13457" author="joshhus" type="comment" body="There are two distinct types of queries. Query of chaincode and query of the ledger. " created="2017-02-01 23:52:24.0" updateauthor="joshhus" updated="2017-02-01 23:52:24.0"/>

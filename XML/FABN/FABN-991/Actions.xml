@@ -1,0 +1,2 @@
+<Action id="52868" issue="35034" author="zhaochy" type="comment" body="This is a bug at version 1.3.0, however the master branch seems already fixed this." created="2018-11-01 02:05:50.0" updateauthor="zhaochy" updated="2018-11-01 02:05:50.0"/>
+<Action id="52871" issue="35034" author="zhaochy" type="comment" body="fix for release-1.3 branch: https://gerrit.hyperledger.org/r/#/c/27298/" created="2018-11-01 07:29:45.0" updateauthor="zhaochy" updated="2018-11-01 07:29:45.0"/>

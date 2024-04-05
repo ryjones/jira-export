@@ -1,0 +1,2 @@
+<Action id="59580" issue="39333" author="sykesm" type="comment" body=" ~dereckluo  I added a comment to the CR asking for a rename of the DH field to something more meaningful. That can be done as a separate commit on the top of the stack." created="2019-04-29 18:18:14.0" updateauthor="sykesm" updated="2019-04-29 18:18:14.0"/>
+<Action id="59581" issue="39333" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/31128  FAB-15194  deliverevents: s/DH/DeliverHandler/" created="2019-04-29 18:40:19.0" updateauthor="sykesm" updated="2019-04-29 18:40:19.0"/>

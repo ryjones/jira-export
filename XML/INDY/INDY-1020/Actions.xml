@@ -1,0 +1,1 @@
+<Action id="37704" issue="24839" author="ashcherbakov" type="comment" body="This is not the case anymore. The expected seed length with the current EC is 32 bytes." created="2017-12-21 09:28:27.0" updateauthor="ashcherbakov" updated="2017-12-21 09:28:27.0"/>

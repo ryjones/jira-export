@@ -1,0 +1,2 @@
+<Action id="47119" issue="24002" author="christopherferris" type="comment" body=" ~rameshthoomu  is this still valid? If so please add to Future release." created="2018-07-09 18:06:46.0" updateauthor="christopherferris" updated="2018-07-09 18:06:46.0"/>
+<Action id="59459" issue="24002" author="rameshthoomu" type="comment" body="The change has been updated in fabric-test repo. https://github.com/hyperledger/fabric-test/blob/master/scripts/pre_setup.sh Closing this now." created="2019-04-24 14:52:30.0" updateauthor="rameshthoomu" updated="2019-04-24 14:52:30.0"/>

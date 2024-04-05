@@ -1,0 +1,5 @@
+<Action id="40590" issue="27886" author="rennman" type="comment" body=" CR18217:Update cluster doc for migration|https://gerrit.hyperledger.org/r/#/c/18217/ " created="2018-02-22 19:39:18.0" updateauthor="rennman" updated="2018-02-22 19:39:18.0"/>
+<Action id="40785" issue="27886" author="denyeart" type="comment" body=" ~rennman   ~aambati  Could you upload a final patch?" created="2018-02-26 11:42:57.0" updateauthor="denyeart" updated="2018-02-26 11:42:57.0"/>
+<Action id="40797" issue="27886" author="christopherferris" type="comment" body="This is doc, should it hold up RC1? Also, not a bug but an improvement." created="2018-02-26 12:48:40.0" updateauthor="christopherferris" updated="2018-02-26 12:49:17.0"/>
+<Action id="40952" issue="27886" author="denyeart" type="comment" body="Thanks for the final patch Allen.  Ready for final reviews." created="2018-02-27 18:34:10.0" updateauthor="denyeart" updated="2018-02-27 18:34:10.0"/>
+<Action id="40970" issue="27886" author="clayton sims" type="comment" body="https://gerrit.hyperledger.org/r/c/18217/" created="2018-02-27 22:05:34.0" updateauthor="clayton sims" updated="2018-02-27 22:05:34.0"/>

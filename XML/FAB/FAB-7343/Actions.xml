@@ -1,0 +1,2 @@
+<Action id="35941" issue="24827" author="holocron" type="comment" body="The deliver clients used in this test will retrieve full blocks, not filtered blocks. Compare this to &lt;&lt; MISSING FAB &gt;&gt; which will retrieve filtered blocks." created="2017-12-06 17:08:02.0" updateauthor="holocron" updated="2017-12-06 17:08:02.0"/>
+<Action id="67187" issue="24827" author="sykesm" type="comment" body="Stale" created="2020-01-22 22:18:39.0" updateauthor="sykesm" updated="2020-01-22 22:18:39.0"/>

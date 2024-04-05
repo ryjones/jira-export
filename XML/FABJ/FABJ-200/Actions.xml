@@ -1,0 +1,2 @@
+<Action id="21694" issue="14888" author="rickr" type="comment" created="2017-03-28 18:51:09.0" updateauthor="rickr" updated="2017-03-28 18:51:22.0"> <body><! CDATA Dev mode is not supported. at this point  ></body> </Action>
+<Action id="21695" issue="14888" author="rickr" type="comment" body="reopen once we support devmode and it still fails" created="2017-03-28 18:52:20.0" updateauthor="rickr" updated="2017-03-28 18:52:20.0"/>

@@ -1,0 +1,2 @@
+<Action id="26859" issue="18421" author="jeffgarratt" type="comment" created="2017-06-20 15:14:03.0" updateauthor="jeffgarratt" updated="2017-06-20 15:14:03.0"> <body><! CDATA Created new CR  https://gerrit.hyperledger.org/r/#/c/10841/      Waiting for jobbuilder and reviews.  Once completed and merged  ~adc  can rebase and pass behave.  ></body> </Action>
+<Action id="26889" issue="18421" author="jeffgarratt" type="comment" body="Merged.  Closing." created="2017-06-20 19:31:40.0" updateauthor="jeffgarratt" updated="2017-06-20 19:31:40.0"/>

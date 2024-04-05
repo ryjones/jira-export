@@ -1,0 +1,1 @@
+<Action id="35579" issue="24433" author="troyronda" type="comment" created="2017-11-28 16:54:39.0" updateauthor="troyronda" updated="2017-11-28 17:01:36.0"> <body><! CDATA  ~bstasyszyn ,  ~aleksandar.likic@gmail.com   Some of the utilities in the CLI example may be useful in the SDK itself.  Perhaps underneath a new package path such as pkg/<fabric-fmt?>/...  ></body> </Action>

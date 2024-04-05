@@ -1,0 +1,1 @@
+<Action id="68873" issue="42292" author="denyeart" type="comment" created="2020-04-19 04:54:02.0" updateauthor="denyeart" updated="2020-04-19 04:54:02.0"> <body><! CDATA You can do write-only transaction to avoid mvcc checks... latest ordered write would overwrite prior writes. Alternatively, use separate keys.  ></body> </Action>

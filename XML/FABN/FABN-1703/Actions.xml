@@ -1,0 +1,1 @@
+<Action id="72040" issue="46605" author="bestbeforetoday" type="comment" body="Unfortunately the gRPC APIs used by the client to make connections to Fabric nodes require both the client certificate and private key in order to create TLS connections." created="2021-08-20 08:58:58.0" updateauthor="bestbeforetoday" updated="2021-08-20 08:58:58.0"/>

@@ -1,0 +1,2 @@
+<Action id="19766" issue="13203" author="yacovm" type="comment" body="I can&apos;t continue this until https://gerrit.hyperledger.org/r/#/c/2353/ is merged" created="2016-11-16 08:45:53.0" updateauthor="yacovm" updated="2016-11-16 08:45:53.0"/>
+<Action id="19771" issue="13203" author="yacovm" type="comment" body="Working now on integrating leveraging https://gerrit.hyperledger.org/r/#/c/2353/ into gossip code, before I can continue with this one." created="2016-11-17 12:14:21.0" updateauthor="yacovm" updated="2016-11-17 12:14:21.0"/>

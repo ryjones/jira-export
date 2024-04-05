@@ -1,0 +1,2 @@
+<Action id="52034" issue="34504" author="christopherferris" type="comment" body="This needs to have the description updated to explain what is to be done. Delete which unused parameter?" created="2018-10-10 16:34:36.0" updateauthor="christopherferris" updated="2018-10-10 16:34:36.0"/>
+<Action id="52036" issue="34504" author="kutenglaoshu" type="comment" body="https://gerrit.hyperledger.org/r/#/c/26881/" created="2018-10-10 16:39:24.0" updateauthor="kutenglaoshu" updated="2018-10-10 16:39:24.0"/>

@@ -1,0 +1,4 @@
+<Action id="55436" issue="36602" author="kithat" type="comment" created="2019-01-09 13:06:58.0" updateauthor="kithat" updated="2019-01-09 13:06:58.0"> <body><! CDATA Example of a log with CLI failure: https://ci.evernym.com/job/Indy%20SDK%20CD/job/master/917/execution/node/1395/log/?consoleFull  ></body> </Action>
+<Action id="55488" issue="36602" author="kithat" type="comment" body="Made in PR: https://github.com/hyperledger/indy-sdk/pull/1394" created="2019-01-10 11:07:19.0" updateauthor="kithat" updated="2019-01-10 11:07:19.0"/>
+<Action id="55670" issue="36602" author="gudkov" type="comment" body="PR merged, changes look fine" created="2019-01-15 11:29:56.0" updateauthor="gudkov" updated="2019-01-15 11:29:56.0"/>
+<Action id="55702" issue="36602" author="kithat" type="comment" body="available in master #930" created="2019-01-16 08:08:57.0" updateauthor="kithat" updated="2019-01-16 08:08:57.0"/>

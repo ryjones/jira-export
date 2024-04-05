@@ -1,0 +1,2 @@
+<Action id="61060" issue="40631" author="yoheiueda" type="comment" body="My CR is: https://gerrit.hyperledger.org/r/c/fabric/+/31945" created="2019-06-17 16:42:05.0" updateauthor="yoheiueda" updated="2019-06-17 16:42:05.0"/>
+<Action id="61072" issue="40631" author="yoheiueda" type="comment" created="2019-06-18 09:12:35.0" updateauthor="yoheiueda" updated="2019-06-18 09:12:35.0"> <body><! CDATA  https://gerrit.hyperledger.org/r/c/fabric/+/31944#message-ff6b4fe3_10f0d90f   According to this comment, we need to use broadcasting, instead of caching.  ></body> </Action>

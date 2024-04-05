@@ -1,0 +1,2 @@
+<Action id="69972" issue="45776" author="wlahti" type="comment" body="This scenario is nearly identical to https://jira.hyperledger.org/browse/FAB-18031 with the only difference being that we join the 3rd node with an updated config block and not the genesis block for the channel." created="2020-08-17 19:39:27.0" updateauthor="wlahti" updated="2020-08-17 19:39:27.0"/>
+<Action id="70167" issue="45776" author="tsharris" type="comment" body="https://github.com/hyperledger/fabric/pull/1861" created="2020-09-09 12:30:03.0" updateauthor="tsharris" updated="2020-09-09 12:30:03.0"/>

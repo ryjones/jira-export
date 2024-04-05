@@ -1,0 +1,4 @@
+<Action id="68546" issue="44568" author="btl5037" type="comment" body="Removed the existing clusters, storage volumes, LogDNA and SysDig instances." created="2020-03-24 17:55:10.0" updateauthor="btl5037" updated="2020-03-24 17:55:25.0"/>
+<Action id="68547" issue="44568" author="btl5037" type="comment" body="Created a new Kubernetes cluster in the IBM Cloud, `community-test`." created="2020-03-24 17:56:38.0" updateauthor="btl5037" updated="2020-03-24 17:56:38.0"/>
+<Action id="68548" issue="44568" author="btl5037" type="comment" body="Deployed LogDNA" created="2020-03-24 17:56:46.0" updateauthor="btl5037" updated="2020-03-24 17:56:46.0"/>
+<Action id="68549" issue="44568" author="btl5037" type="comment" body="Deployed Prometheus and Grafana backed by MySQL" created="2020-03-24 17:57:08.0" updateauthor="btl5037" updated="2020-03-24 17:57:08.0"/>

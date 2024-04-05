@@ -1,0 +1,1 @@
+<Action id="38425" issue="26738" author="rameshthoomu" type="comment" body="patch has been submitted  https://gerrit.hyperledger.org/r/#/c/16765/   . This disables Java SDK and Node SDK e2e tests in both verify and merge e2e jobs." created="2018-01-11 12:37:41.0" updateauthor="rameshthoomu" updated="2018-01-11 12:37:41.0"/>

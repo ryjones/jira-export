@@ -1,0 +1,3 @@
+<Action id="68142" issue="44429" author="sykesm" type="comment" body="MSP is hard." created="2020-02-27 15:55:49.0" updateauthor="sykesm" updated="2020-02-27 15:55:49.0"/>
+<Action id="68237" issue="44429" author="dereckluo" type="comment" created="2020-03-05 15:42:06.0" updateauthor="dereckluo" updated="2020-03-05 15:42:06.0"> <body><! CDATA https://github.com/hyperledger/fabric/pull/795   ></body> </Action>
+<Action id="68239" issue="44429" author="wlahti" type="comment" body="Split the validation portion of this story into a separate JIRA: https://jira.hyperledger.org/browse/FAB-17587" created="2020-03-05 15:42:48.0" updateauthor="wlahti" updated="2020-03-05 15:42:57.0"/>

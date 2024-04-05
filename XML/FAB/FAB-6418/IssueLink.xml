@@ -1,0 +1,6 @@
+<IssueLink id="16443" linktype="10000" source="21261" destination="20120"/>
+<IssueLink id="16552" linktype="10000" source="21261" destination="21378"/>
+<IssueLink id="17409" linktype="10100" source="21261" destination="22411" sequence="0"/>
+<IssueLink id="17411" linktype="10100" source="21261" destination="22412" sequence="1"/>
+<IssueLink id="17413" linktype="10100" source="21261" destination="22413" sequence="2"/>
+<IssueLink id="17415" linktype="10100" source="21261" destination="22414" sequence="3"/>

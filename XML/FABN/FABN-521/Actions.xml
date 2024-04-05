@@ -1,0 +1,2 @@
+<Action id="20756" issue="13796" author="jimthematrix" type="comment" body="This only happens when not running the test at the project root folder. help-wanted label added" created="2017-02-08 13:25:46.0" updateauthor="jimthematrix" updated="2017-02-08 13:25:46.0"/>
+<Action id="21365" issue="13796" author="jimthematrix" type="comment" body="taken care of because we are using `gulp test-headless` to launch headless tests now" created="2017-03-08 04:51:36.0" updateauthor="jimthematrix" updated="2017-03-08 04:51:36.0"/>

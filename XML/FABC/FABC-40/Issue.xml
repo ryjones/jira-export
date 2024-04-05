@@ -1,0 +1,1 @@
+<Issue id="26783" key="FABC-40" number="40" project="10607" reporter="skarim" creator="skarim" type="10002" summary="Add unit-tests cases for the lib/dbutil package" description="Unit-tests are needed for the lib/dbutil package" priority="3" status="10000" created="2018-01-12 19:18:35.0" updated="2019-07-27 14:59:50.0" votes="0" watches="2" workflowId="32220"/>

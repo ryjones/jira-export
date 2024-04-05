@@ -1,0 +1,3 @@
+<Action id="42626" issue="29123" author="gudkov" type="comment" body="Design was provided in PR: https://github.com/hyperledger/indy-sdk/pull/564" created="2018-04-06 12:04:53.0" updateauthor="gudkov" updated="2018-04-06 12:04:53.0"/>
+<Action id="42627" issue="29123" author="gudkov" type="comment" body=" ~dkulic  Could you review the design?" created="2018-04-06 12:05:11.0" updateauthor="gudkov" updated="2018-04-06 12:05:11.0"/>
+<Action id="43338" issue="29123" author="gudkov" type="comment" created="2018-04-24 08:33:38.0" updateauthor="gudkov" updated="2018-04-24 08:33:38.0"> <body><! CDATA - Design  was merged to master - Darko approved this design  ></body> </Action>

@@ -1,0 +1,2 @@
+<Action id="59781" issue="39656" author="vijaypunugubati" type="comment" body=" https://gerrit.hyperledger.org/r/#/c/31245/ " created="2019-05-07 03:45:29.0" updateauthor="vijaypunugubati" updated="2019-05-07 03:45:29.0"/>
+<Action id="62381" issue="39656" author="vijaypunugubati" type="comment" body="*FAB-4808,FAB-3937,**FAB-3938* : covered in fabric/orderer/*/*_test.go. The raft tests look thorough." created="2019-07-30 03:03:15.0" updateauthor="vijaypunugubati" updated="2019-07-30 03:03:15.0"/>

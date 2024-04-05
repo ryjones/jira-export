@@ -1,0 +1,5 @@
+<Action id="18616" issue="12470" author="corecode" type="comment" body="How would this make sure that all endorsers have the same idea of time?" created="2016-08-22 11:40:39.0" updateauthor="corecode" updated="2016-08-22 11:40:39.0"/>
+<Action id="18636" issue="12470" author="smithbk" type="comment" body="Endorsers would query clockSCC.getTime() which will return the same value of time since it is in world state.  Is there some reason this would not work in the new architecure?" created="2016-08-23 00:52:40.0" updateauthor="smithbk" updated="2016-08-23 00:52:40.0"/>
+<Action id="20003" issue="12470" author="smithbk" type="comment" body="Lowering severity" created="2016-12-06 21:44:26.0" updateauthor="smithbk" updated="2016-12-06 21:44:26.0"/>
+<Action id="50336" issue="12470" author="elli-androulaki" type="comment" body="Isn&apos;t this covered to some extend by FAB-3678?" created="2018-09-12 09:55:34.0" updateauthor="elli-androulaki" updated="2018-09-12 09:55:34.0"/>
+<Action id="66908" issue="12470" author="sykesm" type="comment" body="Stale" created="2020-01-22 18:37:49.0" updateauthor="sykesm" updated="2020-01-22 18:37:49.0"/>

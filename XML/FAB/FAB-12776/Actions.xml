@@ -1,0 +1,2 @@
+<Action id="53644" issue="35190" author="wenjian" type="comment" created="2018-11-20 14:13:42.0" updateauthor="wenjian" updated="2018-11-20 14:13:42.0"> <body><! CDATA CR:  https://gerrit.hyperledger.org/r/#/c/27447/      ></body> </Action>
+<Action id="66628" issue="35190" author="sykesm" type="comment" body="Removed token from 2.0" created="2020-01-13 14:36:46.0" updateauthor="sykesm" updated="2020-01-13 14:36:46.0"/>

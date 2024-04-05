@@ -1,0 +1,2 @@
+<Action id="51215" issue="34114" author="nirro" type="comment" body="https://gerrit.hyperledger.org/r/26604" created="2018-09-26 15:36:46.0" updateauthor="nirro" updated="2018-09-26 15:36:46.0"/>
+<Action id="54158" issue="34114" author="c0rwin" type="comment" body="Once CR is merged need to close FAB-11329 as well." created="2018-12-02 13:00:01.0" updateauthor="c0rwin" updated="2018-12-02 13:00:01.0"/>

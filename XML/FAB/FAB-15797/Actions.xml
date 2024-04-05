@@ -1,0 +1,1 @@
+<Action id="62498" issue="40767" author="scottz" type="comment" created="2019-08-01 03:15:10.0" updateauthor="scottz" updated="2019-08-01 03:17:24.0"> <body><! CDATA Passed in v1.4.2. We will open a different one to automate and rerun rollback tests in v2.0 as part of system test suite in k8s.  ></body> </Action>

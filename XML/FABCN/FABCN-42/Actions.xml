@@ -1,0 +1,1 @@
+<Action id="66479" issue="40234" author="mbwhite" type="comment" created="2020-01-06 09:26:18.0" updateauthor="mbwhite" updated="2020-01-06 09:26:18.0"> <body><! CDATA The requirement here will be resolved by the implementation of the Ledger API.   Please do comment on the RFC    https://github.com/hyperledger/fabric-rfcs/pull/16   ></body> </Action>

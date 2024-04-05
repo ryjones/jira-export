@@ -1,0 +1,1 @@
+<Action id="18744" issue="12449" author="jyellick" type="comment" body="This can optionally be a shared component for orderers, it can be prototyped against Solo while PBFT/SimpleBFT stabilizes." created="2016-09-01 16:59:34.0" updateauthor="jyellick" updated="2016-09-01 16:59:34.0"/>

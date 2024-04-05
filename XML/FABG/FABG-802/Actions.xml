@@ -1,0 +1,1 @@
+<Action id="66472" issue="35853" author="yakumioto" type="comment" created="2020-01-05 14:23:41.0" updateauthor="yakumioto" updated="2020-01-05 14:23:41.0"> <body><! CDATA Hi, I have implemented it, but not in fabric-sdk-go.  See:  https://github.com/yakumioto/hlf-deploy   ></body> </Action>

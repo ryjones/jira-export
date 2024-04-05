@@ -1,0 +1,2 @@
+<Action id="53092" issue="35134" author="harrisob@us.ibm.com" type="comment" body="https://gerrit.hyperledger.org/r/#/c/27395/" created="2018-11-06 16:28:02.0" updateauthor="harrisob@us.ibm.com" updated="2018-11-06 16:28:02.0"/>
+<Action id="53144" issue="35134" author="sambhavdutt" type="comment" created="2018-11-07 14:15:31.0" updateauthor="sambhavdutt" updated="2018-11-07 14:15:31.0"> <body><! CDATA I see that the recent chaincode-node jobs passing without NPM error,   ~harrisob@us.ibm.com  Thanks for the fix  ></body> </Action>

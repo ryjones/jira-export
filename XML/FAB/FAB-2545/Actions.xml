@@ -1,0 +1,1 @@
+<Action id="23994" issue="15112" author="guoger" type="comment" created="2017-05-18 02:49:07.0" updateauthor="guoger" updated="2017-05-18 02:49:07.0"> <body><! CDATA Shouldn't this line  https://github.com/hyperledger/fabric/blob/master/common/tools/cryptogen/main.go#L260  be `  err = renderOrgSpec(&orgSpec, "orderer")`?  ></body> </Action>

@@ -1,0 +1,2 @@
+<Action id="68852" issue="44836" author="JIRAUSER20023" type="comment" body="PR:  https://github.com/hyperledger/fabric-sdk-node/pull/217 " created="2020-04-18 08:37:39.0" updateauthor="JIRAUSER20023" updated="2020-04-18 08:37:39.0"/>
+<Action id="69114" issue="44836" author="bestbeforetoday" type="comment" body="I think your PR resolved this issue. If there is any more still to be done, go ahead and reopen it." created="2020-04-29 11:46:07.0" updateauthor="bestbeforetoday" updated="2020-04-29 11:46:07.0"/>

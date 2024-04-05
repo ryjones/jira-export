@@ -1,0 +1,25 @@
+<IssueLink id="28192" linktype="10001" source="35802" destination="34045"/>
+<IssueLink id="28193" linktype="10100" source="35802" destination="35803" sequence="0"/>
+<IssueLink id="28194" linktype="10100" source="35802" destination="35804" sequence="1"/>
+<IssueLink id="28195" linktype="10100" source="35802" destination="35805" sequence="2"/>
+<IssueLink id="28196" linktype="10100" source="35802" destination="35806" sequence="3"/>
+<IssueLink id="28197" linktype="10100" source="35802" destination="35807" sequence="4"/>
+<IssueLink id="28200" linktype="10100" source="35802" destination="35810" sequence="5"/>
+<IssueLink id="28201" linktype="10100" source="35802" destination="35811" sequence="6"/>
+<IssueLink id="28202" linktype="10100" source="35802" destination="35812" sequence="7"/>
+<IssueLink id="28203" linktype="10100" source="35802" destination="35813" sequence="14"/>
+<IssueLink id="28204" linktype="10100" source="35802" destination="35814" sequence="15"/>
+<IssueLink id="28205" linktype="10100" source="35802" destination="35815" sequence="16"/>
+<IssueLink id="28206" linktype="10100" source="35802" destination="35816" sequence="17"/>
+<IssueLink id="28207" linktype="10100" source="35802" destination="35817" sequence="18"/>
+<IssueLink id="28208" linktype="10100" source="35802" destination="35818" sequence="19"/>
+<IssueLink id="28209" linktype="10100" source="35802" destination="35819" sequence="20"/>
+<IssueLink id="28211" linktype="10003" source="35802" destination="35820"/>
+<IssueLink id="28213" linktype="10003" source="35802" destination="35821"/>
+<IssueLink id="28215" linktype="10003" source="35802" destination="35822"/>
+<IssueLink id="28217" linktype="10003" source="35802" destination="35823"/>
+<IssueLink id="28220" linktype="10003" source="35802" destination="35825"/>
+<IssueLink id="28221" linktype="10003" source="35802" destination="35824"/>
+<IssueLink id="28387" linktype="10100" source="35802" destination="36056" sequence="11"/>
+<IssueLink id="28395" linktype="10100" source="35802" destination="36058" sequence="10"/>
+<IssueLink id="28439" linktype="10100" source="35802" destination="36116" sequence="21"/>

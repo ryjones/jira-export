@@ -1,0 +1,2 @@
+<Action id="24872" issue="17284" author="xixuejia" type="comment" body="https://gerrit.hyperledger.org/r/#/c/9991/" created="2017-06-01 00:34:55.0" updateauthor="xixuejia" updated="2017-06-01 00:34:55.0"/>
+<Action id="24878" issue="17284" author="xixuejia" type="comment" body="As  ~jiangyaoguo  pointed out, https://gerrit.hyperledger.org/r/#/c/9213/13 tracked by https://jira.hyperledger.org/browse/FAB-3560 would cover this requirement. This issue is duplicated and should be closed." created="2017-06-01 02:54:27.0" updateauthor="xixuejia" updated="2017-06-01 02:54:27.0"/>

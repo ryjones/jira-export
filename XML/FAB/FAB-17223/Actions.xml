@@ -1,0 +1,2 @@
+<Action id="66791" issue="43639" author="denyeart" type="comment" created="2020-01-20 04:25:05.0" updateauthor="denyeart" updated="2020-01-20 04:25:05.0"> <body><! CDATA https://github.com/hyperledger/fabric/pull/498 merged LTE to fabric repo. Now LTE can be removed from fabric-test.   ></body> </Action>
+<Action id="67658" issue="43639" author="scottz" type="comment" created="2020-01-24 21:53:18.0" updateauthor="scottz" updated="2020-01-24 21:53:18.0"> <body><! CDATA  https://github.com/hyperledger/fabric-test/pull/71      ></body> </Action>

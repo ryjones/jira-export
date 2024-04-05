@@ -1,0 +1,3 @@
+<Action id="27920" issue="18889" author="baohua" type="comment" body="We can safely use the rc1 version until the newer release." created="2017-07-06 06:05:09.0" updateauthor="baohua" updated="2017-07-06 06:05:09.0"/>
+<Action id="29070" issue="18889" author="baohua" type="comment" body="Currently, we already use the latest farbci-1.0.0 image." created="2017-07-27 03:37:18.0" updateauthor="baohua" updated="2017-07-27 03:37:18.0"/>
+<Action id="31298" issue="18889" author="baohua" type="comment" body="https://gerrit.hyperledger.org/r/#/c/11765/" created="2017-09-30 06:46:07.0" updateauthor="baohua" updated="2017-09-30 06:46:07.0"/>

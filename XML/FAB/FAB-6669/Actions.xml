@@ -1,0 +1,4 @@
+<Action id="33264" issue="22479" author="jeffgarratt" type="comment" body=" ~ales  let me know if any issues." created="2017-10-26 19:49:56.0" updateauthor="jeffgarratt" updated="2017-10-26 19:49:56.0"/>
+<Action id="33302" issue="22479" author="ales" type="comment" created="2017-10-27 14:31:16.0" updateauthor="ales" updated="2017-10-27 14:31:16.0"> <body><! CDATA none, the CR is ready https://gerrit.hyperledger.org/r/14631 Thx!  ></body> </Action>
+<Action id="34220" issue="22479" author="jeffgarratt" type="comment" body=" ~ales  Closing as https://gerrit.hyperledger.org/r/14631 has been merged." created="2017-11-01 22:28:45.0" updateauthor="jeffgarratt" updated="2017-11-01 22:28:45.0"/>
+<Action id="34236" issue="22479" author="ales" type="comment" body="(y) thx!" created="2017-11-02 10:46:01.0" updateauthor="ales" updated="2017-11-02 10:46:01.0"/>

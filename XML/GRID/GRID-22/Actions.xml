@@ -1,0 +1,3 @@
+<Action id="61254" issue="39938" author="pschwarz" type="comment" body="This requires GRID-23 (The REST API endpoints)" created="2019-06-25 21:08:35.0" updateauthor="pschwarz" updated="2019-06-25 21:08:35.0"/>
+<Action id="63337" issue="39938" author="mattp" type="comment" body="We believe this is waiting on PR review -  https://github.com/hyperledger/grid/pull/114  " created="2019-08-27 16:25:46.0" updateauthor="mattp" updated="2019-08-27 16:25:46.0"/>
+<Action id="63665" issue="39938" author="patrick-erichsen" type="comment" created="2019-09-10 19:49:40.0" updateauthor="patrick-erichsen" updated="2019-09-10 19:49:40.0"> <body><! CDATA PR this is waiting on -  https://github.com/hyperledger/grid/pull/114      ></body> </Action>

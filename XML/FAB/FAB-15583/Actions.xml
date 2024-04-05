@@ -1,0 +1,2 @@
+<Action id="60535" issue="40215" author="yacovm" type="comment" body="oh... oops. I meant to say that the ServerPrivateKey and ServerCertificate are inherited from the general section if unset" created="2019-05-30 20:15:20.0" updateauthor="yacovm" updated="2019-05-30 20:15:20.0"/>
+<Action id="60536" issue="40215" author="yacovm" type="comment" body="https://gerrit.hyperledger.org/r/#/c/fabric/+/31637/" created="2019-05-30 20:24:18.0" updateauthor="yacovm" updated="2019-05-30 20:24:18.0"/>

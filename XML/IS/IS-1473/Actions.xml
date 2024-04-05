@@ -1,0 +1,2 @@
+<Action id="67711" issue="44163" author="artemkaaas" type="comment" body="Indy-CLI of version 1.14.1 and later already shows `digest` on `pool connect` and `pool show-taa` commands as `text` and `version`." created="2020-01-29 09:27:02.0" updateauthor="artemkaaas" updated="2020-01-29 09:27:02.0"/>
+<Action id="67740" issue="44163" author="esplinr" type="comment" body="To show the Digest, you have to be connected to a pool running Indy Node 1.12.1 or newer." created="2020-01-30 14:11:10.0" updateauthor="esplinr" updated="2020-01-30 14:11:10.0"/>

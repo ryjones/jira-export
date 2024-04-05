@@ -1,0 +1,2 @@
+<Action id="47691" issue="31343" author="artemkaaas" type="comment" created="2018-07-24 05:29:49.0" updateauthor="artemkaaas" updated="2018-07-24 05:29:49.0"> <body><! CDATA Changes: Removed EXPERIMENTAL notice from endpoints. Build version: master-643  ></body> </Action>
+<Action id="47700" issue="31343" author="gudkov" type="comment" body="Verification: EXPERIMENTAL comments removed. Corresponded info added to release notes." created="2018-07-24 10:32:36.0" updateauthor="gudkov" updated="2018-07-24 10:32:36.0"/>

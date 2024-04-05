@@ -1,0 +1,1 @@
+<Action id="52838" issue="35016" author="burdettadam" type="comment" created="2018-10-31 18:46:49.0" updateauthor="burdettadam" updated="2018-10-31 18:46:49.0"> <body><! CDATA amber-zhang commented on Feb 5 it has been solved after run these two commands. so closing it. pip install python3-indy pip install pytest-xdist  ></body> </Action>

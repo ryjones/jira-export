@@ -1,0 +1,1 @@
+<Action id="48944" issue="32438" author="vladimirwork" type="comment" created="2018-08-16 16:11:40.0" updateauthor="vladimirwork" updated="2018-08-16 16:12:29.0"> <body><! CDATA https://github.com/VladimirWork/tests/blob/master/test_acceptance.py  Client connections count was checked against 4 nodes docker and 25 nodes AWS pool.  ></body> </Action>

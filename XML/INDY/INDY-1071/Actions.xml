@@ -1,0 +1,2 @@
+<Action id="38741" issue="26264" author="ashcherbakov" type="comment" body="I haven&apos;t seen it failing recently., Let&apos;s keep it in the backlog for a while and monitor." created="2018-01-17 09:26:03.0" updateauthor="ashcherbakov" updated="2018-01-17 09:26:03.0"/>
+<Action id="52112" issue="26264" author="spivachuk" type="comment" body="This test stably passes now. So close this ticket." created="2018-10-11 17:37:14.0" updateauthor="spivachuk" updated="2018-10-11 17:37:14.0"/>

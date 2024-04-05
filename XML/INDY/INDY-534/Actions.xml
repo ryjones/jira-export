@@ -1,0 +1,1 @@
+<Action id="29954" issue="19722" author="vladimirwork" type="comment" body="The issue is not reproducing on the latest master (1.0.110) - there is a validation constraint. !INDY-534.PNG|thumbnail! " created="2017-08-17 13:25:21.0" updateauthor="vladimirwork" updated="2017-08-17 13:25:39.0"/>

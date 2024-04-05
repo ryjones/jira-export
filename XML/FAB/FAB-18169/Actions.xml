@@ -1,0 +1,2 @@
+<Action id="69974" issue="45836" author="dereckluo" type="comment" body=" https://github.com/hyperledger/fabric/pull/1688 " created="2020-08-17 20:42:58.0" updateauthor="dereckluo" updated="2020-08-17 20:42:58.0"/>
+<Action id="70094" issue="45836" author="wlahti" type="comment" body="Merged into master. Determining if we should backport this along with the devmode integration test to release-2.2 before closing." created="2020-08-27 17:37:27.0" updateauthor="wlahti" updated="2020-08-27 17:37:27.0"/>

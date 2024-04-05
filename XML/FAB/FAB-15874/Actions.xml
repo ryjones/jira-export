@@ -1,0 +1,2 @@
+<Action id="62511" issue="40914" author="dongming" type="comment" body="This requires PTE supports marbles02_private chaincode" created="2019-08-01 13:43:59.0" updateauthor="dongming" updated="2019-08-01 13:43:59.0"/>
+<Action id="66871" issue="40914" author="scottz" type="comment" body="gen_cfgInputs.sh and other scripts, as well as all the test input files in PTE/, are being sunset soon, replaced by operator. No more enhancements." created="2020-01-21 21:16:11.0" updateauthor="scottz" updated="2020-01-21 21:16:11.0"/>

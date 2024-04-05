@@ -1,0 +1,2 @@
+<Action id="63431" issue="41468" author="harrisob@us.ibm.com" type="comment" body="The new low level will return consistent results" created="2019-08-30 10:54:27.0" updateauthor="harrisob@us.ibm.com" updated="2019-08-30 10:54:27.0"/>
+<Action id="63543" issue="41468" author="davidkel" type="comment" body=" ~harrisob@us.ibm.com This is more around what the fabric-network is doing, not the low level api." created="2019-09-04 10:30:33.0" updateauthor="davidkel" updated="2019-09-04 10:30:33.0"/>

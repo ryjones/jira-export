@@ -1,0 +1,2 @@
+<Action id="50656" issue="33674" author="denyeart" type="comment" body=" ~kirin  Please summarize problem and whether there is a defect for Fabric to fix." created="2018-09-19 12:57:14.0" updateauthor="denyeart" updated="2018-09-19 12:57:14.0"/>
+<Action id="53236" issue="33674" author="kirin" type="comment" body="Thank you for help , I have already solved the problem.Disable kubernetes condition monitoring fix it. " created="2018-11-09 00:50:30.0" updateauthor="kirin" updated="2018-11-09 00:50:30.0"/>

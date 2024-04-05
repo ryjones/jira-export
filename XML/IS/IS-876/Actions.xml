@@ -1,0 +1,1 @@
+<Action id="54558" issue="32640" author="artemkaaas" type="comment" created="2018-12-10 10:49:11.0" updateauthor="artemkaaas" updated="2018-12-10 10:49:11.0"> <body><! CDATA Updated CI Pipeline to tun Libvcx test on MacOS.  CD pipeline wasn't updated because we don't test other artifacts on MacOS. Done in PR: https://github.com/hyperledger/indy-sdk/pull/1343  ></body> </Action>

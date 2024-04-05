@@ -1,0 +1,2 @@
+<Action id="41606" issue="18533" author="zhigunenko.dsr" type="comment" body=" ~krw910  what do you mean by that?" created="2018-03-14 12:48:03.0" updateauthor="zhigunenko.dsr" updated="2018-03-14 12:48:03.0"/>
+<Action id="64353" issue="18533" author="ashcherbakov" type="comment" created="2019-10-08 12:05:38.0" updateauthor="ashcherbakov" updated="2019-10-08 12:05:38.0"> <body><! CDATA We do have a lot of metrics and graphs now, including RAM, GC metrics, queue size, etc. This is checked on a regular basis in load tests  ></body> </Action>

@@ -1,0 +1,2 @@
+<Action id="23980" issue="16781" author="amundson" type="comment" body="Does this follow an established pattern in common use by another API which could serve as an example?" created="2017-05-17 22:04:41.0" updateauthor="amundson" updated="2017-05-17 22:04:41.0"/>
+<Action id="71488" issue="16781" author="pschwarz" type="comment" body="Duplicated of https://github.com/hyperledger/sawtooth-core/issues/2361" created="2021-03-01 21:12:14.0" updateauthor="pschwarz" updated="2021-03-01 21:12:14.0"/>

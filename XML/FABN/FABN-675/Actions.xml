@@ -1,0 +1,1 @@
+<Action id="21883" issue="15561" author="jimthematrix" type="comment" body=" ~dshuffma  you can use the HFC_LOGGING={&quot;error&quot;:&quot;console or a file&quot;} to control that. you can also set the logger to any of winston, log4js and bunyan in Client.setLogger()." created="2017-04-05 18:57:33.0" updateauthor="jimthematrix" updated="2017-04-05 18:57:33.0"/>

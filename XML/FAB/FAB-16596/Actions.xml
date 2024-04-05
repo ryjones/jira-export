@@ -1,0 +1,1 @@
+<Action id="65063" issue="42348" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/c/fabric/+/34137 Use idiomatic matchers for error assertions" created="2019-10-29 00:20:14.0" updateauthor="sykesm" updated="2019-10-29 00:20:14.0"/>

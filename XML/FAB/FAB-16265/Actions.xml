@@ -1,0 +1,2 @@
+<Action id="62772" issue="41711" author="scottz" type="comment" body="https://gerrit.hyperledger.org/r/c/fabric-test/+/32816" created="2019-08-09 20:00:50.0" updateauthor="scottz" updated="2019-08-09 20:00:50.0"/>
+<Action id="62774" issue="41711" author="scottz" type="comment" body="Removing the old replaced tests (along with many others that are unneeded) that were associated with these jira tasks being used to add tests to the fabric IT suite." created="2019-08-09 20:13:37.0" updateauthor="scottz" updated="2019-08-09 20:13:37.0"/>

@@ -1,0 +1,1 @@
+<Action id="44823" issue="30387" author="sergey.khoroshavin" type="comment" body="It turned out that {code}node.viewchanger.on_master_degradation(){code} can be used for this purpose" created="2018-05-22 11:12:06.0" updateauthor="sergey.khoroshavin" updated="2018-05-22 11:12:06.0"/>

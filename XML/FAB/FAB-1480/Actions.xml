@@ -1,0 +1,1 @@
+<Action id="22336" issue="13889" author="christopherferris" type="comment" body="The bddtests are no longer broken. See the README.md in the bddtests folder for complete setup instructions for running behave tests. " created="2017-04-13 12:55:13.0" updateauthor="christopherferris" updated="2017-04-13 12:55:13.0"/>

@@ -1,0 +1,5 @@
+<Action id="24199" issue="16801" author="christopherferris" type="comment" body="https://gerrit.hyperledger.org/r/#/c/9441/" created="2017-05-23 20:11:05.0" updateauthor="christopherferris" updated="2017-05-23 20:11:05.0"/>
+<Action id="24200" issue="16801" author="yacovm" type="comment" body=" ~adc  what is your take on the subject?" created="2017-05-23 20:12:01.0" updateauthor="yacovm" updated="2017-05-23 20:12:01.0"/>
+<Action id="24201" issue="16801" author="christopherferris" type="comment" body="I favor removing unused code" created="2017-05-23 20:12:23.0" updateauthor="christopherferris" updated="2017-05-23 20:12:23.0"/>
+<Action id="24469" issue="16801" author="binhn" type="comment" body="This CR listed on this one has already been merged. Should this item be done or still more work?" created="2017-05-26 15:47:17.0" updateauthor="binhn" updated="2017-05-26 15:47:17.0"/>
+<Action id="24470" issue="16801" author="christopherferris" type="comment" body="my bad, didn&apos;t realize that I had tagged this one. I should have added a -2" created="2017-05-26 15:51:03.0" updateauthor="christopherferris" updated="2017-05-26 15:51:03.0"/>

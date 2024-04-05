@@ -1,0 +1,2 @@
+<Action id="67797" issue="44043" author="wlahti" type="comment" body=" https://github.com/hyperledger/fabric/pull/625 " created="2020-02-03 19:06:20.0" updateauthor="wlahti" updated="2020-02-03 19:06:20.0"/>
+<Action id="67863" issue="44043" author="wlahti" type="comment" body="There was some miscommunication on the need for this in 1.4.x. Closing for now." created="2020-02-07 17:25:25.0" updateauthor="wlahti" updated="2020-02-07 17:25:25.0"/>

@@ -1,0 +1,2 @@
+<Action id="19233" issue="12956" author="scottz" type="comment" body="obcsdk/automation/run_largeNetworkSmokeTests.sh" created="2016-10-14 18:40:42.0" updateauthor="scottz" updated="2016-10-14 18:40:42.0"/>
+<Action id="19254" issue="12956" author="scottz" type="comment" created="2016-10-17 22:07:27.0" updateauthor="scottz" updated="2016-10-17 22:07:27.0"> <body><! CDATA Tests in the script (API tests and basic consensus tests) passed in local docker environment with  N    F 10   3 10   1 16   5 16   3   ></body> </Action>

@@ -1,0 +1,1 @@
+<Action id="55714" issue="36257" author="sykesm" type="comment" body="As important as zookeeper is to the kafka based ordering system, Fabric doesn&apos;t interact with it directly; it&apos;s a dependency of kafka. That means we shouldn&apos;t be doing anything with zk directly." created="2019-01-16 14:55:34.0" updateauthor="sykesm" updated="2019-01-16 14:55:34.0"/>

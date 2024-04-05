@@ -1,0 +1,3 @@
+<Action id="27710" issue="18857" author="danielhardman" type="comment" body="Apparently this is failing in the master branch." created="2017-06-30 15:17:50.0" updateauthor="danielhardman" updated="2017-06-30 15:17:50.0"/>
+<Action id="27757" issue="18857" author="lovesh" type="comment" body="https://github.com/hyperledger/indy-plenum/pull/247" created="2017-07-02 20:03:39.0" updateauthor="lovesh" updated="2017-07-02 20:03:39.0"/>
+<Action id="27826" issue="18857" author="aleksey-roldugin" type="comment" created="2017-07-04 12:13:44.0" updateauthor="aleksey-roldugin" updated="2017-07-04 12:13:44.0"> <body><! CDATA h6. BUILD python3-plenum 0.4.13  h6. VERIFICATION plenum/testConnectWithoutKeySharingFails is enabled.  ></body> </Action>

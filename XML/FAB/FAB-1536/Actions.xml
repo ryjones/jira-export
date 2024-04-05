@@ -1,0 +1,1 @@
+<Action id="20460" issue="13946" author="rameshthoomu" type="comment" body="Implemented FIT  job in Production and Sandbox. In production, FIT jobs runs for every 24 hrs and in Sandbox, FIT jobs runs for every 6 hrs and publish images to rameshthoomu dockerhub account temporarily." created="2017-01-21 03:50:16.0" updateauthor="rameshthoomu" updated="2017-01-21 03:50:16.0"/>

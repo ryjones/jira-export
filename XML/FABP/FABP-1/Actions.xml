@@ -1,0 +1,2 @@
+<Action id="19169" issue="12927" author="baohua" type="comment" body="Sure, and suggest the ci utilize existing tox checking." created="2016-10-08 11:46:51.0" updateauthor="baohua" updated="2016-10-08 11:46:51.0"/>
+<Action id="19396" issue="12927" author="genggjh" type="comment" created="2016-10-23 10:51:01.0" updateauthor="genggjh" updated="2016-10-23 10:51:36.0"> <body><! CDATA https://gerrit.hyperledger.org/r/#/c/1831/ has been merged.  https://gerrit.hyperledger.org/r/#/q/topic:fab-625  ></body> </Action>

@@ -1,0 +1,3 @@
+<Action id="67701" issue="43934" author="tsharris" type="comment" created="2020-01-28 18:54:46.0" updateauthor="tsharris" updated="2020-01-28 18:54:46.0"> <body><! CDATA  https://github.com/hyperledger/fabric/pull/572    https://github.com/hyperledger/fabric/pull/571   ></body> </Action>
+<Action id="67872" issue="43934" author="denyeart" type="comment" body="This was merged in release-1.4 for v1.4.5, and master for v2.1." created="2020-02-07 19:18:06.0" updateauthor="denyeart" updated="2020-02-07 19:18:06.0"/>
+<Action id="68066" issue="43934" author="denyeart" type="comment" body="Unfortunately, this caused a regression in master - FAB-17525." created="2020-02-24 05:39:03.0" updateauthor="denyeart" updated="2020-02-24 05:42:40.0"/>

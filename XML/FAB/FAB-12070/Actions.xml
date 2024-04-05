@@ -1,0 +1,3 @@
+<Action id="54096" issue="33942" author="manish-sethi" type="comment" body=" ~manxiaqu  - thanks for catching this. Would you prefer to submit a fix?" created="2018-11-30 17:28:56.0" updateauthor="manish-sethi" updated="2018-11-30 17:28:56.0"/>
+<Action id="54113" issue="33942" author="manxiaqu" type="comment" body=" ~manish-sethi  Sorry, i don&apos;t have the plan to do this since i&apos;m a little busy recently.  Any others want to correct this can assign the issue." created="2018-12-01 04:08:47.0" updateauthor="manxiaqu" updated="2018-12-01 04:09:10.0"/>
+<Action id="54206" issue="33942" author="manish-sethi" type="comment" body="https://jira.hyperledger.org/browse/FAB-12070" created="2018-12-03 16:41:55.0" updateauthor="manish-sethi" updated="2018-12-03 16:41:55.0"/>

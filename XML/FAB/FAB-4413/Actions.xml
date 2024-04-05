@@ -1,0 +1,2 @@
+<Action id="25494" issue="17554" author="mastersingh24" type="comment" body="One could argue this is an improvement, but given the series of updates to the tools and orderer, the peer not being consistent in behavior is now a bug IMHO" created="2017-06-06 12:13:02.0" updateauthor="mastersingh24" updated="2017-06-06 12:13:02.0"/>
+<Action id="25506" issue="17554" author="mastersingh24" type="comment" body="http://gerrit.hyperledger.org/r/10213" created="2017-06-06 13:34:04.0" updateauthor="mastersingh24" updated="2017-06-06 13:34:04.0"/>

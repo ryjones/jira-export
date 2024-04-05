@@ -1,0 +1,1 @@
+<Action id="30054" issue="19639" author="jyellick" type="comment" body="This CR has been abandoned because some crypto frameworks like identity mixer require that the signature be present to verify an identity, so decoupling them is unfortunately not possible." created="2017-08-21 19:35:53.0" updateauthor="jyellick" updated="2017-08-21 19:35:53.0"/>

@@ -1,0 +1,2 @@
+<Action id="48933" issue="32720" author="wlahti" type="comment" body="Temporarily blocked waiting for some of the other lifecycle changes related to the new &quot;.tar.gz&quot; chaincode package. Returning this to &quot;to do.&quot;" created="2018-08-16 14:41:32.0" updateauthor="wlahti" updated="2018-08-16 14:41:32.0"/>
+<Action id="49100" issue="32720" author="wlahti" type="comment" body="https://gerrit.hyperledger.org/r/c/25703/" created="2018-08-20 15:51:08.0" updateauthor="wlahti" updated="2018-08-20 15:51:08.0"/>

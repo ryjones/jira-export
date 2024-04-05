@@ -1,0 +1,1 @@
+<Action id="27475" issue="17872" author="ashcherbakov" type="comment" created="2017-06-28 08:17:15.0" updateauthor="ashcherbakov" updated="2017-06-28 08:17:15.0"> <body><! CDATA  ~danielhardman   ~lovesh   ~andrey.goncharov   ~alexander.shekhovcov  As we incresed write consensus in the scope of INDY-185 to `n-f`, there is no need to increase read consensus.  ></body> </Action>

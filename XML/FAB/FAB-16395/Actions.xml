@@ -1,0 +1,1 @@
+<Action id="65675" issue="41989" author="suryalnvs" type="comment" body="We cannot launch 1.4 network with master because of nodeenv and javaenv images. In order to launch 1.4 network, user should checkout to 1.4 branch which has versions updated." created="2019-11-20 20:33:54.0" updateauthor="suryalnvs" updated="2019-11-20 20:33:54.0"/>

@@ -1,0 +1,1 @@
+<Action id="62175" issue="41426" author="wlahti" type="comment" body="When this CR is merged, we should also make sure to merge  https://gerrit.hyperledger.org/r/c/fabric-samples/+/32549  quickly as well to update fabric-samples." created="2019-07-26 18:31:00.0" updateauthor="wlahti" updated="2019-07-26 18:31:00.0"/>

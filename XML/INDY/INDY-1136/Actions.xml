@@ -1,0 +1,1 @@
+<Action id="40997" issue="27368" author="anikitindsr" type="comment" created="2018-02-28 12:48:26.0" updateauthor="anikitindsr" updated="2018-02-28 12:48:26.0"> <body><! CDATA Implemented support for REVOC_REG_ENTRY. PR: https://github.com/hyperledger/indy-node/pull/576  ></body> </Action>

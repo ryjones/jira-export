@@ -1,0 +1,3 @@
+<Action id="53325" issue="35252" author="artemkaaas" type="comment" body="Done in PR: https://github.com/hyperledger/indy-sdk/pull/1280" created="2018-11-12 14:34:30.0" updateauthor="artemkaaas" updated="2018-11-12 14:34:30.0"/>
+<Action id="53579" issue="35252" author="artemkaaas" type="comment" body="Build version: master-850" created="2018-11-19 08:32:52.0" updateauthor="artemkaaas" updated="2018-11-19 08:32:52.0"/>
+<Action id="53712" issue="35252" author="sergey.minaev" type="comment" body="CI/CD successfully use dummy agent for VCX testing" created="2018-11-22 09:33:42.0" updateauthor="sergey.minaev" updated="2018-11-22 09:33:42.0"/>

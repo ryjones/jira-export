@@ -1,0 +1,1 @@
+<Action id="62640" issue="40223" author="esplinr" type="comment" created="2019-08-06 14:01:32.0" updateauthor="esplinr" updated="2019-08-06 14:01:32.0"> <body><! CDATA /etc/supervisor is used by Docker.  This part of the script was added in PR 588 https://github.com/hyperledger/indy-node/pull/588   ~smithbk  Can you look at it?  ></body> </Action>

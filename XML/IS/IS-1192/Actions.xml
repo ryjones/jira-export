@@ -1,0 +1,1 @@
+<Action id="65765" issue="37929" author="sergey.minaev" type="comment" body="libVCX is able to pass existing tests in Aries Test Suite. The lack of architecture in Test Suite is detected, more RFC discussions are required." created="2019-11-25 14:04:54.0" updateauthor="sergey.minaev" updated="2019-11-25 14:04:54.0"/>

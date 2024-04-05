@@ -1,0 +1,1 @@
+<Action id="22785" issue="15876" author="rhegde" type="comment" created="2017-04-21 01:36:06.0" updateauthor="rhegde" updated="2017-04-21 01:36:06.0"> <body><! CDATA After further discussion with Bin, Gari, found stale images of the user-chaincode that were picked up and caused the instantiation failure.   This issue can be closed. Thanks    ></body> </Action>

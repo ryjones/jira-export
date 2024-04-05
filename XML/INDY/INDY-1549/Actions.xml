@@ -1,0 +1,1 @@
+<Action id="48888" issue="32529" author="ashcherbakov" type="comment" created="2018-08-15 13:27:31.0" updateauthor="ashcherbakov" updated="2018-08-15 13:27:31.0"> <body><! CDATA PR:  https://github.com/hyperledger/indy-plenum/pull/853   https://github.com/hyperledger/indy-plenum/pull/855    That was tested in the scope of testing 1.6 and INDY-1343.  ></body> </Action>

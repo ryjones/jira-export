@@ -1,0 +1,2 @@
+<Action id="48937" issue="32310" author="elli-androulaki" type="comment" body="https://gerrit.hyperledger.org/r/#/c/25267/" created="2018-08-16 14:53:28.0" updateauthor="elli-androulaki" updated="2018-08-16 14:53:28.0"/>
+<Action id="49202" issue="32310" author="elli-androulaki" type="comment" body="This CR was decided to be dropped, as there is no need for proto messages." created="2018-08-22 06:18:47.0" updateauthor="elli-androulaki" updated="2018-08-22 06:18:47.0"/>

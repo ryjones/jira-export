@@ -1,0 +1,1 @@
+<Issue id="40608" key="FAB-15731" number="15731" project="10002" reporter="guoger" creator="guoger" type="10003" summary="attempt leader transfer before halt, if leader is being removed" priority="3" resolution="10000" status="6" created="2019-06-17 09:19:10.0" updated="2019-07-09 14:05:59.0" resolutiondate="2019-07-09 14:05:59.0" votes="0" watches="1" workflowId="53558"/>

@@ -1,0 +1,2 @@
+<Action id="25604" issue="17601" author="baohua" type="comment" body="https://gerrit.hyperledger.org/r/#/c/10255/" created="2017-06-07 05:53:27.0" updateauthor="baohua" updated="2017-06-07 05:53:27.0"/>
+<Action id="25749" issue="17601" author="kchristidis" type="comment" created="2017-06-08 15:03:49.0" updateauthor="kchristidis" updated="2017-06-08 15:03:49.0"> <body><! CDATA Thanks for submitting this.  Please let's make sure we classify this accurately though.  This is neither a bug, nor of high priority.  ></body> </Action>

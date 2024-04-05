@@ -1,0 +1,3 @@
+<Action id="20292" issue="13870" author="smithbk" type="comment" body="See https://gerrit.hyperledger.org/r/#/c/3735/" created="2017-01-07 15:07:30.0" updateauthor="smithbk" updated="2017-01-07 15:07:30.0"/>
+<Action id="20299" issue="13870" author="smithbk" type="comment" body="See CFSSL pull request at https://github.com/cloudflare/cfssl/pull/712" created="2017-01-08 19:11:58.0" updateauthor="smithbk" updated="2017-01-08 19:11:58.0"/>
+<Action id="21906" issue="13870" author="smithbk" type="comment" body="This is handled under https://jira.hyperledger.org/browse/FAB-2601 so closing this" created="2017-04-06 01:50:10.0" updateauthor="smithbk" updated="2017-04-06 01:50:10.0"/>

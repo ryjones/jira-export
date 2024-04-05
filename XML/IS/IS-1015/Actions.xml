@@ -1,0 +1,2 @@
+<Action id="29323" issue="19523" author="danielhardman" type="comment" body=" ~gudkov  Is this an SDK ticket?" created="2017-08-02 03:31:18.0" updateauthor="danielhardman" updated="2017-08-02 03:31:18.0"/>
+<Action id="29335" issue="19523" author="gudkov" type="comment" created="2017-08-02 07:00:38.0" updateauthor="gudkov" updated="2017-08-02 07:00:38.0"> <body><! CDATA  ~danielhardman    > Is this an SDK ticket?  Yes, It describes potential problem in java wrapper for libindy  ></body> </Action>

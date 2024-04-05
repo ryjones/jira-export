@@ -1,0 +1,2 @@
+<Action id="63600" issue="41470" author="scottz" type="comment" body="Could we send SIGTERM to the cc container?" created="2019-09-06 15:42:18.0" updateauthor="scottz" updated="2019-09-06 15:42:18.0"/>
+<Action id="64187" issue="41470" author="dereckluo" type="comment" body="https://gerrit.hyperledger.org/r/c/fabric/+/33797/1" created="2019-09-27 17:34:12.0" updateauthor="dereckluo" updated="2019-09-27 17:34:12.0"/>

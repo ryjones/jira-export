@@ -1,0 +1,2 @@
+<Action id="22924" issue="15956" author="baohua" type="comment" body="parent issue: https://jira.hyperledger.org/browse/FAB-2969" created="2017-04-24 03:31:31.0" updateauthor="baohua" updated="2017-04-24 03:31:31.0"/>
+<Action id="26353" issue="15956" author="baohua" type="comment" body="We may use the admin user to install/instantiate/invoke the chaincode for the first step, to avoid the potential permission issues." created="2017-06-15 02:33:46.0" updateauthor="baohua" updated="2017-06-15 02:33:46.0"/>

@@ -1,0 +1,1 @@
+<Action id="39189" issue="27105" author="pschwarz" type="comment" body="See  https://stackoverflow.com/a/1481512|https://stackoverflow.com/a/1481512 for information on why it should not use the destructor." created="2018-01-26 16:42:17.0" updateauthor="pschwarz" updated="2018-01-26 16:42:17.0"/>

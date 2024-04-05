@@ -1,0 +1,2 @@
+<Action id="43007" issue="29386" author="sambhavdutt" type="comment" body="This issue is still going on with the CouchDB indexing tests in fabric-test-daily" created="2018-04-16 13:50:52.0" updateauthor="sambhavdutt" updated="2018-04-16 13:50:52.0"/>
+<Action id="43241" issue="29386" author="sambhavdutt" type="comment" body="The CouchDB indexing tests have passed the last 6 builds." created="2018-04-20 21:09:25.0" updateauthor="sambhavdutt" updated="2018-04-20 21:09:25.0"/>

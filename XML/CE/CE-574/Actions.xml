@@ -1,0 +1,2 @@
+<Action id="57996" issue="38295" author="y-arai" type="comment" body="https://gerrit.hyperledger.org/r/#/c/29953/" created="2019-03-08 06:16:54.0" updateauthor="y-arai" updated="2019-03-08 06:16:54.0"/>
+<Action id="57997" issue="38295" author="baohua" type="comment" body="Wrong project, it should be the fabric-sdk-py." created="2019-03-08 06:22:09.0" updateauthor="baohua" updated="2019-03-08 06:22:09.0"/>

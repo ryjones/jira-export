@@ -1,0 +1,4 @@
+<Action id="47563" issue="28302" author="wlahti" type="comment" body=" ~suzetreacy  Why was this epic moved from Fabric to Fabric SDK Node?" created="2018-07-19 18:59:57.0" updateauthor="wlahti" updated="2018-07-19 18:59:57.0"/>
+<Action id="47564" issue="28302" author="suzetreacy" type="comment" body=" ~wlahti  - apologies, we have been migrating issues to new projects. Moved back." created="2018-07-19 19:04:03.0" updateauthor="suzetreacy" updated="2018-07-19 19:04:03.0"/>
+<Action id="49290" issue="28302" author="denyeart" type="comment" body="Defer to v2.0 to expose, although server-side foundation code is being merged in v1.3.0 and v1.4.0." created="2018-08-23 14:43:22.0" updateauthor="denyeart" updated="2019-01-11 15:57:35.0"/>
+<Action id="49303" issue="28302" author="rickr" type="comment" body="subtask exist for JSDK so does not need to be components." created="2018-08-23 17:14:24.0" updateauthor="rickr" updated="2018-08-23 17:14:24.0"/>

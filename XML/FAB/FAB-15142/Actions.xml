@@ -1,0 +1,1 @@
+<Action id="59134" issue="39226" author="sykesm" type="comment" created="2019-04-11 14:29:40.0" updateauthor="sykesm" updated="2019-04-11 14:29:40.0"> <body><! CDATA remote:   https://gerrit.hyperledger.org/r/30880  FAB-15142  move IsCodeExist to caller remote:   https://gerrit.hyperledger.org/r/30881  FAB-15142  kill dead hashing code in platform  ></body> </Action>

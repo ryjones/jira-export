@@ -1,0 +1,2 @@
+<Action id="64735" issue="42103" author="yacovm" type="comment" body="What part of it isn&apos;t external? The discover CLI uses the client too... so you should be able to use it too, no?" created="2019-10-15 19:28:08.0" updateauthor="yacovm" updated="2019-10-15 19:28:08.0"/>
+<Action id="64736" issue="42103" author="yacovm" type="comment" body="Or do you mean to move it to fabric commons?" created="2019-10-15 19:29:56.0" updateauthor="yacovm" updated="2019-10-15 19:29:56.0"/>

@@ -1,0 +1,2 @@
+<Action id="29733" issue="20134" author="mzk-vct" type="comment" body="Be careful, removal of RegistryPoolManager breaks tests" created="2017-08-11 15:46:32.0" updateauthor="mzk-vct" updated="2017-08-11 15:46:32.0"/>
+<Action id="64551" issue="20134" author="ashcherbakov" type="comment" body="We&apos;ve done a lot of refactorings and improvements in the scope of PBFT View Change protocol." created="2019-10-10 14:59:52.0" updateauthor="ashcherbakov" updated="2019-10-10 14:59:52.0"/>

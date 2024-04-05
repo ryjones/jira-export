@@ -1,0 +1,2 @@
+<Action id="28728" issue="19292" author="sujeeban" type="comment" body="Should starting the CA server be an option of the byfn script ? Or should we just add CA server to the BYFN sample ?" created="2017-07-20 14:59:20.0" updateauthor="sujeeban" updated="2017-07-20 14:59:20.0"/>
+<Action id="35915" issue="19292" author="christopherferris" type="comment" body="We have added a fabric-ca sample that achieves the objective here." created="2017-12-06 10:54:03.0" updateauthor="christopherferris" updated="2017-12-06 10:54:03.0"/>

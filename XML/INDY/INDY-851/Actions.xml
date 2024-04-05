@@ -1,0 +1,2 @@
+<Action id="30938" issue="20841" author="krw910" type="comment" body="I need to get more information about this plugin to find out if it installs as a part of indy-node or separately. In either case we need to be upgrading the sovrin package when performing an upgrade." created="2017-09-15 21:56:05.0" updateauthor="krw910" updated="2017-09-15 21:56:05.0"/>
+<Action id="49816" issue="20841" author="ashcherbakov" type="comment" body="Done in INDY-1471" created="2018-09-04 13:51:52.0" updateauthor="ashcherbakov" updated="2018-09-04 13:51:52.0"/>

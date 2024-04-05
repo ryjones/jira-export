@@ -1,0 +1,2 @@
+<Action id="38333" issue="26404" author="mastersingh24" type="comment" body="Marking as future / 1.2" created="2018-01-09 10:18:42.0" updateauthor="mastersingh24" updated="2018-01-09 10:18:42.0"/>
+<Action id="48246" issue="26404" author="denyeart" type="comment" body="Per  ~elli-androulaki , this should be deferred until dual x509/Idemix is supported, deferring to v1.4.0." created="2018-08-01 12:20:04.0" updateauthor="denyeart" updated="2018-08-01 12:20:04.0"/>

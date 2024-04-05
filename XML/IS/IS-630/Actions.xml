@@ -1,0 +1,2 @@
+<Action id="43401" issue="29212" author="artemkaaas" type="comment" body="Implemented in PR: https://github.com/hyperledger/indy-sdk/pull/677" created="2018-04-25 11:58:53.0" updateauthor="artemkaaas" updated="2018-04-25 11:58:53.0"/>
+<Action id="43408" issue="29212" author="gudkov" type="comment" body="PR merged to wallet_storage_integration branch. The solution looks ok for me and corresponds the design." created="2018-04-25 12:31:54.0" updateauthor="gudkov" updated="2018-04-25 12:31:54.0"/>

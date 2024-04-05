@@ -1,0 +1,2 @@
+<Action id="37768" issue="26125" author="mastersingh24" type="comment" created="2017-12-22 20:15:20.0" updateauthor="mastersingh24" updated="2017-12-22 20:15:20.0"> <body><! CDATA The  {code:java} peer channel ... peer chaincode instantiate ... {code} commands fail as well  ></body> </Action>
+<Action id="37968" issue="26125" author="mastersingh24" type="comment" body="https://gerrit.hyperledger.org/r/16555" created="2018-01-03 20:12:50.0" updateauthor="mastersingh24" updated="2018-01-03 20:12:50.0"/>

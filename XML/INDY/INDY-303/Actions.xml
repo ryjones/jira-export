@@ -1,0 +1,2 @@
+<Action id="38609" issue="18536" author="krw910" type="comment" body=" ~VladimirWork  I did early testing on this which showed poor performance. Once we have stability issues fixed this should be tried again to see what the network can tolerate." created="2018-01-15 03:46:25.0" updateauthor="krw910" updated="2018-01-15 03:46:25.0"/>
+<Action id="49925" issue="18536" author="ozheregelya" type="comment" body="See results here: INDY-1253" created="2018-09-05 20:12:55.0" updateauthor="ozheregelya" updated="2018-09-05 20:12:55.0"/>

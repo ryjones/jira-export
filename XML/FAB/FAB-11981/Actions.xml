@@ -1,0 +1,2 @@
+<Action id="51810" issue="33718" author="kchristidis" type="comment" body=" ~yacovm : Looks like FAB-11982 and FAB-11983 are taken care of in the same CR?" created="2018-10-05 22:08:27.0" updateauthor="kchristidis" updated="2018-10-05 22:08:27.0"/>
+<Action id="51814" issue="33718" author="yacovm" type="comment" body="Yeah in  https://gerrit.hyperledger.org/r/#/c/26297/ " created="2018-10-06 07:35:11.0" updateauthor="yacovm" updated="2018-10-06 07:35:11.0"/>

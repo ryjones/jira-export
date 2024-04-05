@@ -1,0 +1,1 @@
+<Action id="63633" issue="42245" author="sykesm" type="comment" created="2019-09-09 17:26:29.0" updateauthor="sykesm" updated="2019-09-09 17:26:29.0"> <body><! CDATA https://gerrit.hyperledger.org/r/c/fabric-test/+/33413 FAB-16545 re-enable PTE in smoke tests  Depends on temporary workaround FAB-16538/ https://gerrit.hyperledger.org/r/c/fabric/+/33411  ></body> </Action>

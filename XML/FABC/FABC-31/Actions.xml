@@ -1,0 +1,1 @@
+<Action id="20422" issue="14149" author="smithbk" type="comment" body="Let&apos;s remove the &apos;homeDir&apos; from the client config as the home directory will always be the directory of the config file." created="2017-01-18 19:54:16.0" updateauthor="smithbk" updated="2017-01-18 19:54:16.0"/>

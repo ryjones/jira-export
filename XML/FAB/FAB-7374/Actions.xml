@@ -1,0 +1,2 @@
+<Action id="39855" issue="24862" author="scottz" type="comment" body="Is this covered by UnitTest? If so, I would like to close this." created="2018-02-08 14:26:22.0" updateauthor="scottz" updated="2018-02-08 14:26:22.0"/>
+<Action id="39869" issue="24862" author="jyellick" type="comment" body="Yes, this is covered by unit test.  I see limited value in it." created="2018-02-08 17:42:24.0" updateauthor="jyellick" updated="2018-02-08 17:42:24.0"/>

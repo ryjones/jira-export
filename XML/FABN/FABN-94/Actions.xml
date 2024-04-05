@@ -1,0 +1,2 @@
+<Action id="30367" issue="20350" author="rameshthoomu" type="comment" body="Created  jobs for both 6.9.5 and 8.4.0 in fabric-sdk-node and 8.4.0 in fabric-chaincode-node." created="2017-08-30 13:53:38.0" updateauthor="rameshthoomu" updated="2017-08-30 13:53:38.0"/>
+<Action id="30368" issue="20350" author="rameshthoomu" type="comment" created="2017-08-30 13:54:03.0" updateauthor="rameshthoomu" updated="2017-08-30 13:54:03.0"> <body><! CDATA  https://jenkins.hyperledger.org/view/fabric-sdk-node/  https://jenkins.hyperledger.org/view/fabric-chaincode-node/  ></body> </Action>

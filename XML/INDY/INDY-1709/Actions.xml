@@ -1,0 +1,2 @@
+<Action id="50935" issue="33979" author="derashe" type="comment" body="Test that reproduce this problem: https://github.com/hyperledger/indy-node/pull/948" created="2018-09-21 12:06:07.0" updateauthor="derashe" updated="2018-09-21 12:06:07.0"/>
+<Action id="60103" issue="33979" author="ashcherbakov" type="comment" body="Fixed in the scope of https://jira.hyperledger.org/browse/INDY-1757" created="2019-05-17 08:57:45.0" updateauthor="ashcherbakov" updated="2019-05-17 08:57:45.0"/>

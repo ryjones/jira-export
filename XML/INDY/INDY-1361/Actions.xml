@@ -1,0 +1,1 @@
+<Action id="64581" issue="30535" author="esplinr" type="comment" body="After considering this suggestion, we decided that the current information exposed by validator-info is sufficient. Admins can send over their journalctl when they need help with additional debugging." created="2019-10-11 09:25:40.0" updateauthor="esplinr" updated="2019-10-11 09:25:40.0"/>

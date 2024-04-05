@@ -1,0 +1,4 @@
+<Action id="57478" issue="37924" author="jyellick" type="comment" body="- ~sykesm  I&apos;m guessing this is related to the proto movement work you&apos;ve been doing? Any thoughts?- Looks like that hasn&apos;t merged" created="2019-02-22 20:47:55.0" updateauthor="jyellick" updated="2019-02-22 20:51:07.0"/>
+<Action id="57480" issue="37924" author="sykesm" type="comment" body="Yeah, I was going to say nothing has been merged..." created="2019-02-22 21:09:50.0" updateauthor="sykesm" updated="2019-02-22 21:09:50.0"/>
+<Action id="57524" issue="37924" author="jyellick" type="comment" body="In review via https://gerrit.hyperledger.org/r/29528" created="2019-02-25 01:57:34.0" updateauthor="jyellick" updated="2019-02-25 01:57:34.0"/>
+<Action id="57603" issue="37924" author="rameshthoomu" type="comment" body="Change has been merged and byfn tests are working as expected" created="2019-02-26 18:17:15.0" updateauthor="rameshthoomu" updated="2019-02-26 18:17:15.0"/>

@@ -1,0 +1,1 @@
+<Action id="64364" issue="39190" author="esplinr" type="comment" body="LibVCX should use the same methods to get fees as everyone else, rather than interpreting the authrules directly. See ST-561 and ST-562." created="2019-10-08 13:14:28.0" updateauthor="esplinr" updated="2019-10-08 13:14:28.0"/>

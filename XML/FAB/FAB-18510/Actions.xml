@@ -1,0 +1,2 @@
+<Action id="71909" issue="47003" author="JIRAUSER21494" type="comment" body="https://github.com/hyperledger/fabric/pull/2727" created="2021-07-01 02:00:40.0" updateauthor="JIRAUSER21494" updated="2021-07-01 02:00:40.0"/>
+<Action id="72031" issue="47003" author="denyeart" type="comment" created="2021-08-17 02:54:11.0" updateauthor="denyeart" updated="2021-08-17 02:54:11.0"> <body><! CDATA  ~wuqiaomin  It looks like PR closed with intention to continue discussion here.  Can you provide panic stack trace and your suggestion?  ></body> </Action>

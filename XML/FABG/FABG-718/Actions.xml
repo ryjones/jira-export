@@ -1,0 +1,1 @@
+<Action id="48807" issue="32805" author="sudeshrshetty" type="comment" created="2018-08-13 20:42:07.0" updateauthor="sudeshrshetty" updated="2018-08-13 20:42:07.0"> <body><! CDATA pkg/fab/events/deliverclient/deliverclient.go  for new connection, seek.Newest to be avoided.  ></body> </Action>

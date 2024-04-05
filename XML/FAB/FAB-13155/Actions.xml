@@ -1,0 +1,2 @@
+<Action id="54293" issue="35865" author="rameshthoomu" type="comment" body="https://gerrit.hyperledger.org/r/#/c/27917/" created="2018-12-04 16:32:06.0" updateauthor="rameshthoomu" updated="2018-12-04 16:32:06.0"/>
+<Action id="55858" issue="35865" author="rameshthoomu" type="comment" body="The patch has been merged in master and release-1.4 branches. I don&apos;t think this is required now in release-1.4 branch." created="2019-01-19 16:25:39.0" updateauthor="rameshthoomu" updated="2019-01-19 16:26:33.0"/>

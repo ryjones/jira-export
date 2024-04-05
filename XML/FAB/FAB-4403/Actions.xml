@@ -1,0 +1,1 @@
+<Action id="50294" issue="17536" author="rickr" type="comment" body="This is a function that is done I think with GO. The java sdk does not have this api. I don&apos;t think this should be a requirement for the Java SDK.  Users need to Vendorize their dependences. " created="2018-09-11 17:08:17.0" updateauthor="rickr" updated="2018-09-11 17:08:17.0"/>

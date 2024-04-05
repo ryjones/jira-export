@@ -1,0 +1,2 @@
+<Action id="22839" issue="15675" author="christopherferris" type="comment" body="I cannot find a CR that references this JIRA. Not sure what is in review.  ~denyeart " created="2017-04-21 19:27:13.0" updateauthor="christopherferris" updated="2017-04-21 19:27:13.0"/>
+<Action id="22842" issue="15675" author="denyeart" type="comment" body="This is fixed as a byproduct of FAB-3094.  Closing as dup." created="2017-04-21 20:01:05.0" updateauthor="denyeart" updated="2017-04-21 20:01:05.0"/>

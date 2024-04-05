@@ -1,0 +1,1 @@
+<Action id="52499" issue="34599" author="davidkel" type="comment" body="In fact, from experience I think we need to include not only the txid, but also the channel id and the function being invoked. " created="2018-10-21 08:12:48.0" updateauthor="davidkel" updated="2018-10-21 08:12:48.0"/>

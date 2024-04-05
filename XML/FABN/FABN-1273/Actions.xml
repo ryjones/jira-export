@@ -1,0 +1,2 @@
+<Action id="63430" issue="40557" author="harrisob@us.ibm.com" type="comment" body="This has been done" created="2019-08-30 10:53:13.0" updateauthor="harrisob@us.ibm.com" updated="2019-08-30 10:53:13.0"/>
+<Action id="64164" issue="40557" author="davidkel" type="comment" body="re-opening to ensure that when moved to azure pipelines that either node 10 or node 12 is used for the build. However looking at the merge build in jenkins, the master branch is still using node 8." created="2019-09-26 15:56:43.0" updateauthor="davidkel" updated="2019-09-26 15:56:43.0"/>

@@ -1,0 +1,2 @@
+<Action id="49927" issue="20610" author="esplinr" type="comment" body="reset_client should no longer be used. We should remove the script and test cases." created="2018-09-05 20:20:39.0" updateauthor="esplinr" updated="2018-09-05 20:20:39.0"/>
+<Action id="53058" issue="20610" author="derashe" type="comment" body="PR: https://github.com/hyperledger/indy-node/pull/1010" created="2018-11-06 07:07:00.0" updateauthor="derashe" updated="2018-11-06 07:07:00.0"/>

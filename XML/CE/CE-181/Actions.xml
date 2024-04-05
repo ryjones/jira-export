@@ -1,0 +1,3 @@
+<Action id="35618" issue="24593" author="harsha544" type="comment" body="  https://gerrit.hyperledger.org/r/15807  ." created="2017-11-29 11:48:45.0" updateauthor="harsha544" updated="2017-11-29 11:48:45.0"/>
+<Action id="35670" issue="24593" author="baohua" type="comment" body="Seems u just comment out the DOCKER_BASE_s390x=s390x/debian:jessie? U mean we wanna temporarily disable it, right? " created="2017-11-30 14:32:39.0" updateauthor="baohua" updated="2017-11-30 14:32:39.0"/>
+<Action id="35672" issue="24593" author="harsha544" type="comment" body="That&apos;s right. Temporarily disable else this would break on s390x." created="2017-11-30 14:40:53.0" updateauthor="harsha544" updated="2017-11-30 14:40:53.0"/>

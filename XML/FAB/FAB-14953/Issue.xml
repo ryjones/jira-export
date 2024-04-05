@@ -1,0 +1,1 @@
+<Issue id="38945" key="FAB-14953" number="14953" project="10002" reporter="yacovm" assignee="yacovm" creator="yacovm" type="10004" summary="gracefully close channel in unit test" priority="3" resolution="10000" status="6" created="2019-04-02 12:17:26.0" updated="2019-04-02 13:23:42.0" resolutiondate="2019-04-02 13:23:42.0" votes="0" watches="1" workflowId="51803"/>

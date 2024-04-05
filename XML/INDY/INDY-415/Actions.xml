@@ -1,0 +1,2 @@
+<Action id="28322" issue="19233" author="vladimirwork" type="comment" body="FYI  ~krw910 ,  ~stevetolman ,  ~danielhardman ,  ~ashcherbakov " created="2017-07-13 15:11:56.0" updateauthor="vladimirwork" updated="2017-07-13 15:11:56.0"/>
+<Action id="28380" issue="19233" author="vladimirwork" type="comment" body="Cannot reproduce on sovrin 0.2.9. Now there is an issue with performing pool upgrade command, it will be reported in another bug." created="2017-07-14 09:46:24.0" updateauthor="vladimirwork" updated="2017-07-14 09:46:24.0"/>

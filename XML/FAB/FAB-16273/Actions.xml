@@ -1,0 +1,2 @@
+<Action id="62777" issue="41725" author="denyeart" type="comment" body="Even though the Epic likely won&apos;t be done until v2.1, tasks/subtasks like this can be merged into v2.0. Updated FixVersion as such." created="2019-08-10 13:05:11.0" updateauthor="denyeart" updated="2019-08-10 13:05:11.0"/>
+<Action id="62778" issue="41725" author="denyeart" type="comment" body="https://gerrit.hyperledger.org/r/#/c/fabric/+/32838/" created="2019-08-10 13:06:17.0" updateauthor="denyeart" updated="2019-08-10 13:06:17.0"/>

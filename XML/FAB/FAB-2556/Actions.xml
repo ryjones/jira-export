@@ -1,0 +1,3 @@
+<Action id="21230" issue="15123" author="grapebaba" type="comment" body="+1(y)" created="2017-03-01 02:07:51.0" updateauthor="grapebaba" updated="2017-03-01 02:07:51.0"/>
+<Action id="41327" issue="15123" author="sheehan" type="comment" body=" ~rameshthoomu  would this have any impact on CI?" created="2018-03-07 16:17:24.0" updateauthor="sheehan" updated="2018-03-07 16:17:24.0"/>
+<Action id="41332" issue="15123" author="rameshthoomu" type="comment" body=" ~sheehan  no impact on CI as we don&apos;t run `make all` target." created="2018-03-07 17:14:34.0" updateauthor="rameshthoomu" updated="2018-03-07 17:14:34.0"/>

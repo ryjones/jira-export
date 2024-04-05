@@ -1,0 +1,1 @@
+<Action id="52683" issue="34917" author="dshuffma" type="comment" created="2018-10-26 13:37:23.0" updateauthor="dshuffma" updated="2018-10-26 13:39:20.0"> <body><! CDATA fyi its a simple change.  in my testing we only need to touch these 3 lines:  !screenshot-1.png|thumbnail!   and imported   {code:java} "github.com/gorilla/handlers" {code}  ></body> </Action>

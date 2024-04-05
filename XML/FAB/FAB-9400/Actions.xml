@@ -1,0 +1,2 @@
+<Action id="48385" issue="29239" author="sanchezl" type="comment" body="We might be able to specify hard-coded UID:GID as part of FABB-1 in the v1.3.0 timeframe." created="2018-08-03 15:06:09.0" updateauthor="sanchezl" updated="2018-08-03 15:06:09.0"/>
+<Action id="58549" issue="29239" author="mastersingh24" type="comment" body="This will not be fixed on the 1.0.x release line" created="2019-03-26 11:03:50.0" updateauthor="mastersingh24" updated="2019-03-26 11:03:50.0"/>

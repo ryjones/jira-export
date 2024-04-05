@@ -1,0 +1,2 @@
+<Action id="45371" issue="30781" author="sykesm" type="comment" body="This isn&apos;t really a race. The runner simply isn&apos;t waiting for the container to exit before it returns from run." created="2018-05-31 19:28:58.0" updateauthor="sykesm" updated="2018-05-31 19:28:58.0"/>
+<Action id="45374" issue="30781" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/22651" created="2018-05-31 19:36:36.0" updateauthor="sykesm" updated="2018-05-31 19:36:36.0"/>

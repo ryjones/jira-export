@@ -1,0 +1,1 @@
+<Action id="55027" issue="29507" author="gudkov" type="comment" body="Now we have different behavior. Libindy always return Success and provides Node response to user. As result this ticket is invalid for the moment." created="2018-12-20 10:12:53.0" updateauthor="gudkov" updated="2018-12-20 10:12:53.0"/>

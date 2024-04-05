@@ -1,0 +1,2 @@
+<Action id="45286" issue="30699" author="artemkaaas" type="comment" body="Implemented in https://github.com/hyperledger/indy-sdk/pull/806" created="2018-05-30 14:00:41.0" updateauthor="artemkaaas" updated="2018-05-30 14:00:41.0"/>
+<Action id="45444" issue="30699" author="zhigunenko.dsr" type="comment" body="Dependencies have been checked on libindy 1.4.0~547" created="2018-06-04 08:22:13.0" updateauthor="zhigunenko.dsr" updated="2018-06-04 08:22:13.0"/>

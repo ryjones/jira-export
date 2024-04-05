@@ -1,0 +1,2 @@
+<Action id="52497" issue="33898" author="dexhunter" type="comment" body="https://gerrit.hyperledger.org/r/#/c/27116/" created="2018-10-21 07:34:45.0" updateauthor="dexhunter" updated="2018-10-21 07:34:45.0"/>
+<Action id="57396" issue="33898" author="baohua" type="comment" created="2019-02-21 02:11:29.0" updateauthor="baohua" updated="2019-02-21 02:11:29.0"> <body><! CDATA It's already there if you run `make venv` today. See the Makefile. And it is also described in the documentation.  ></body> </Action>

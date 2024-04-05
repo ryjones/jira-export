@@ -1,0 +1,2 @@
+<Action id="21633" issue="15315" author="clayton sims" type="comment" body="Murali - this came up on the CLS call,  can you take a look." created="2017-03-24 18:50:46.0" updateauthor="clayton sims" updated="2017-03-24 18:50:46.0"/>
+<Action id="21649" issue="15315" author="muralisr" type="comment" body="Fixed in https://gerrit.hyperledger.org/r/#/c/7453/" created="2017-03-27 03:06:17.0" updateauthor="muralisr" updated="2017-03-27 03:06:17.0"/>

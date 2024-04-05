@@ -1,0 +1,1 @@
+<Issue id="45074" key="FAB-17896" number="17896" project="10002" reporter="senthil1" assignee="senthil1" creator="senthil1" type="10003" summary="fix db/statedb variables in kv_ledger.go" priority="3" status="10000" created="2020-05-14 16:30:08.0" updated="2020-05-14 16:30:08.0" votes="0" watches="1" workflowId="58982" archived="N"/>

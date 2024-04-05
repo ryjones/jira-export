@@ -1,0 +1,3 @@
+<Action id="44548" issue="30103" author="artemkaaas" type="comment" body="Implemented in PR: https://github.com/hyperledger/indy-sdk/pull/765" created="2018-05-17 12:07:07.0" updateauthor="artemkaaas" updated="2018-05-17 12:08:06.0"/>
+<Action id="44991" issue="30103" author="zhigunenko.dsr" type="comment" created="2018-05-23 15:38:26.0" updateauthor="zhigunenko.dsr" updated="2018-05-23 15:38:26.0"> <body><! CDATA *Environment:* libnullpay 0.1.0~527  *Actual results:* deb package is not contains libnullpay.so  ></body> </Action>
+<Action id="45029" issue="30103" author="zhigunenko.dsr" type="comment" body="Fixed in 0.1.0~529" created="2018-05-24 08:45:04.0" updateauthor="zhigunenko.dsr" updated="2018-05-24 08:45:04.0"/>

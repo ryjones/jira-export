@@ -1,0 +1,1 @@
+<Issue id="40988" key="FAB-15921" number="15921" project="10002" reporter="wlahti" assignee="wlahti" creator="wlahti" type="10001" summary="Remove dead LoggingSetLevel struct from nwo" priority="3" resolution="10000" status="6" created="2019-07-10 19:10:51.0" updated="2019-07-15 18:22:33.0" resolutiondate="2019-07-15 18:22:33.0" votes="0" watches="1" workflowId="53961"/>

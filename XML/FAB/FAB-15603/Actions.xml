@@ -1,0 +1,1 @@
+<Action id="62134" issue="40263" author="zrich" type="comment" created="2019-07-26 00:51:00.0" updateauthor="zrich" updated="2019-07-26 00:51:00.0"> <body><! CDATA This change is to update the required package versions for supporting multi-language documentation.  Sphinx update to 2.0.1 as 1.x has bugs. Python version upgraded to 3.6.   ></body> </Action>

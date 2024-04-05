@@ -1,0 +1,1 @@
+<Action id="51337" issue="34187" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/26658  FAB-12217  fix data race in kafka logger test" created="2018-09-28 09:36:49.0" updateauthor="sykesm" updated="2018-09-28 09:36:49.0"/>

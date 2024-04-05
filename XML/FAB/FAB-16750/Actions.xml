@@ -1,0 +1,2 @@
+<Action id="65261" issue="42583" author="heatherp" type="comment" body="This will be revisited when I&apos;ve heard from the fabric test team on their plans to refactor fabric&apos;s integration test suite" created="2019-11-04 16:16:12.0" updateauthor="heatherp" updated="2019-11-04 16:16:12.0"/>
+<Action id="65816" issue="42583" author="heatherp" type="comment" body="Based on discussions with the interop team, I don&apos;t think this is relevant, so closing. Will revisit if needed" created="2019-11-27 14:26:42.0" updateauthor="heatherp" updated="2019-11-27 14:26:42.0"/>

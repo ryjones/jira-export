@@ -1,0 +1,2 @@
+<Action id="49475" issue="33267" author="ping40" type="comment" body="https://gerrit.hyperledger.org/r/#/c/25919/" created="2018-08-28 08:30:30.0" updateauthor="ping40" updated="2018-08-28 08:30:30.0"/>
+<Action id="50639" issue="33267" author="ping40" type="comment" created="2018-09-19 08:24:01.0" updateauthor="ping40" updated="2018-09-19 08:24:01.0"> <body><! CDATA the old testcase is no wrong.     there is no need to increase test scope.,  ></body> </Action>

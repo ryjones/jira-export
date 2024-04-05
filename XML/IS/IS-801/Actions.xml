@@ -1,0 +1,2 @@
+<Action id="62535" issue="31603" author="ignisvulpis" type="comment" body="This is already done, see https://github.com/hyperledger/indy-sdk/blob/master/libindy/src/api/mod.rs#L28" created="2019-08-02 08:22:10.0" updateauthor="ignisvulpis" updated="2019-08-02 08:22:10.0"/>
+<Action id="62536" issue="31603" author="ignisvulpis" type="comment" created="2019-08-02 08:23:11.0" updateauthor="ignisvulpis" updated="2019-08-02 08:23:11.0"> <body><! CDATA This was done  https://github.com/hyperledger/indy-sdk/blob/master/libindy/src/api/mod.rs#L28  ></body> </Action>

@@ -1,0 +1,2 @@
+<Action id="41944" issue="28762" author="joe-alewine" type="comment" body="https://gerrit.hyperledger.org/r/c/19599/" created="2018-03-22 20:34:02.0" updateauthor="joe-alewine" updated="2018-03-22 20:34:02.0"/>
+<Action id="43251" issue="28762" author="joe-alewine" type="comment" created="2018-04-21 14:13:04.0" updateauthor="joe-alewine" updated="2018-04-21 14:13:34.0"> <body><! CDATA +1  Not seeing this until now. Totally on board with abandoning the CR and deleting this directory instead of the disclaimer.  ></body> </Action>

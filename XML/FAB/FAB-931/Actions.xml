@@ -1,0 +1,1 @@
+<Action id="19613" issue="13262" author="sanchezl" type="comment" created="2016-11-02 17:12:27.0" updateauthor="sanchezl" updated="2016-11-02 17:12:27.0"> <body><! CDATA I intend to create the needed docker-compose resources to start an environment with: * A ZooKeeper instance in a container. * Three Kafka instances, each in it's own container.   ></body> </Action>

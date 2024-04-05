@@ -1,0 +1,2 @@
+<Action id="46752" issue="28886" author="sykesm" type="comment" body="Appears this race is in the production code and was introduced with FAB-5969 at SHA #0c028df008b73aa606abbe0ee06b37a4f9854210. Looking into how to address without changing things too substantially." created="2018-06-29 14:53:51.0" updateauthor="sykesm" updated="2018-06-29 14:53:51.0"/>
+<Action id="46768" issue="28886" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/23885" created="2018-06-29 17:37:05.0" updateauthor="sykesm" updated="2018-06-29 17:37:05.0"/>

@@ -1,0 +1,4 @@
+<Action id="43445" issue="29703" author="kchristidis" type="comment" body="My suggestion in FAB-9716 is to just remove these decode hooks altogether and have {{Kafka.TLS}} works _exactly_ like {{General.TLS}}." created="2018-04-25 22:22:29.0" updateauthor="kchristidis" updated="2018-04-25 22:22:29.0"/>
+<Action id="50204" issue="29703" author="denyeart" type="comment" body=" ~kchristidis  Do you want this one deferred to v1.4.0 or Future?" created="2018-09-11 03:56:31.0" updateauthor="denyeart" updated="2018-09-11 03:56:31.0"/>
+<Action id="50501" issue="29703" author="kchristidis" type="comment" body="Deferring." created="2018-09-16 10:45:43.0" updateauthor="kchristidis" updated="2018-09-16 10:45:43.0"/>
+<Action id="59491" issue="29703" author="mastersingh24" type="comment" body="With the move to Raft don&apos;t think we need to deal with this" created="2019-04-25 10:20:23.0" updateauthor="mastersingh24" updated="2019-04-25 10:20:23.0"/>

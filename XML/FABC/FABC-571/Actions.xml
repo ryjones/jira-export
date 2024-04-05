@@ -1,0 +1,1 @@
+<Action id="61469" issue="31450" author="mastersingh24" type="comment" created="2019-07-04 11:26:23.0" updateauthor="mastersingh24" updated="2019-07-04 11:26:23.0"> <body><! CDATA Not going to couple Fabric and Fabric CA. We need to provide a set of user-linkable Fabric packages such that people can build their own tools for simplified channel mgmt  ></body> </Action>

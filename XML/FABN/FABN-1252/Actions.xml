@@ -1,0 +1,1 @@
+<Action id="60275" issue="39973" author="harrisob@us.ibm.com" type="comment" body="use the ChannelEventHub and a block listener with startBlock: 0 to see all blocks and transactions" created="2019-05-22 21:36:27.0" updateauthor="harrisob@us.ibm.com" updated="2019-05-22 21:36:27.0"/>

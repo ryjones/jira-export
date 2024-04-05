@@ -1,0 +1,4 @@
+<Action id="44712" issue="30425" author="artemkaaas" type="comment" body="Fixed in PR: https://github.com/hyperledger/indy-sdk/pull/774" created="2018-05-21 07:52:45.0" updateauthor="artemkaaas" updated="2018-05-21 07:52:45.0"/>
+<Action id="44728" issue="30425" author="artemkaaas" type="comment" body="Build version: master 522" created="2018-05-21 13:11:20.0" updateauthor="artemkaaas" updated="2018-05-21 13:11:20.0"/>
+<Action id="44967" issue="30425" author="gudkov" type="comment" body=" ~sklump  Are you satisfied with this fix?" created="2018-05-23 10:46:21.0" updateauthor="gudkov" updated="2018-05-23 10:46:21.0"/>
+<Action id="44970" issue="30425" author="sklump" type="comment" body=" ~gudkov  It looks good to me, thanks." created="2018-05-23 12:19:57.0" updateauthor="sklump" updated="2018-05-23 12:19:57.0"/>

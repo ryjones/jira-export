@@ -1,0 +1,1 @@
+<Action id="48576" issue="32673" author="sudeshrshetty" type="comment" created="2018-08-08 16:12:18.0" updateauthor="sudeshrshetty" updated="2018-08-08 16:12:18.0"> <body><! CDATA New feature in `certificateAuthorities` config section.  Also needs to be added for `entityMatchers.certificateAuthority`  ></body> </Action>

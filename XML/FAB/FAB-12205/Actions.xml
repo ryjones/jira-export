@@ -1,0 +1,2 @@
+<Action id="51295" issue="34165" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/26643  FAB-12205  fix data race creating fs blocksItr" created="2018-09-27 18:51:41.0" updateauthor="sykesm" updated="2018-09-27 18:51:41.0"/>
+<Action id="51333" issue="34165" author="baohua" type="comment" body="Will this be back-ported to v1.1, v1.2 and v1.3?" created="2018-09-28 02:14:04.0" updateauthor="baohua" updated="2018-11-19 07:00:29.0"/>

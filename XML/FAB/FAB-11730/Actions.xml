@@ -1,0 +1,3 @@
+<Action id="50013" issue="33214" author="scottz" type="comment" body="Trial runs have been started, to debug test code. Plan to start the Long run shortly." created="2018-09-06 15:06:11.0" updateauthor="scottz" updated="2018-09-06 15:06:11.0"/>
+<Action id="50615" issue="33214" author="latitiah" type="comment" body="Long running test executed for 72-hours successfully as well as 1 week successfully." created="2018-09-18 17:21:41.0" updateauthor="latitiah" updated="2018-09-18 17:21:41.0"/>
+<Action id="53876" issue="33214" author="scottz" type="comment" body="Test harness was hacked; we cannot automate or rerun this in future releases." created="2018-11-27 23:46:06.0" updateauthor="scottz" updated="2018-11-27 23:46:21.0"/>

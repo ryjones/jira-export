@@ -1,0 +1,1 @@
+<Action id="58747" issue="38878" author="denyeart" type="comment" created="2019-03-30 03:36:19.0" updateauthor="denyeart" updated="2019-03-30 03:37:08.0"> <body><! CDATA Will be done for final v1.4.1, not v1.4.1-rc1.  Tag v1.4.1-rc1 has been applied however, so that download script checks out the correct version of fabric-samples.  ></body> </Action>

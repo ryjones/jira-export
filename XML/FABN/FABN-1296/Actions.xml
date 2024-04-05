@@ -1,0 +1,2 @@
+<Action id="66314" issue="40868" author="bestbeforetoday" type="comment" body="Only used by mock-couch for unit testing for the CouchDB key-value store, so should be resolved by refactor work that removes the key-value stores." created="2019-12-19 09:52:57.0" updateauthor="bestbeforetoday" updated="2019-12-19 09:52:57.0"/>
+<Action id="66356" issue="40868" author="heatherp" type="comment" body="Still an issue, I&apos;ll fix it under FABN-1039" created="2019-12-20 15:18:43.0" updateauthor="heatherp" updated="2019-12-20 15:18:43.0"/>

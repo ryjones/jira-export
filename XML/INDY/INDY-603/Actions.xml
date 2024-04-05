@@ -1,0 +1,1 @@
+<Action id="35909" issue="19791" author="ashcherbakov" type="comment" created="2017-12-06 08:10:46.0" updateauthor="ashcherbakov" updated="2017-12-06 08:10:46.0"> <body><! CDATA SCHEMA and ISSUER_KEY are already stored in state trie. We don't have REVOC_REG txn yet.  ></body> </Action>

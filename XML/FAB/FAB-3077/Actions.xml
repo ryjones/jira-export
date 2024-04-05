@@ -1,0 +1,4 @@
+<Action id="22706" issue="15658" author="jimthematrix" type="comment" body="hi Troy the server change was merged earlier this morning, the SDK needs to be updated to replace &quot;api/v1/cfssl/&quot; API root with simply &quot;/&quot;" created="2017-04-19 12:35:07.0" updateauthor="jimthematrix" updated="2017-04-19 12:35:07.0"/>
+<Action id="22738" issue="15658" author="troyronda" type="comment" body=" ~jimthematrix  sure - got it" created="2017-04-20 01:21:25.0" updateauthor="troyronda" updated="2017-04-20 01:21:25.0"/>
+<Action id="29675" issue="15658" author="smithbk" type="comment" body="Can this be marked &quot;Done&quot;?" created="2017-08-11 07:53:55.0" updateauthor="smithbk" updated="2017-08-11 07:53:55.0"/>
+<Action id="29717" issue="15658" author="aleksandar.likic" type="comment" body="Yes, just did it." created="2017-08-11 13:57:28.0" updateauthor="aleksandar.likic" updated="2017-08-11 13:57:28.0"/>

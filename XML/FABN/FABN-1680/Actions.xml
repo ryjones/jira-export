@@ -1,0 +1,1 @@
+<Action id="70974" issue="46431" author="denyeart" type="comment" created="2020-12-16 03:18:09.0" updateauthor="denyeart" updated="2020-12-16 03:19:17.0"> <body><! CDATA Same thing reported here:   https://github.com/hyperledger/fabric-sdk-node/security/dependabot/fabric-client/package-lock.json/bl/open   , along with several others.  ></body> </Action>

@@ -1,0 +1,2 @@
+<Action id="52241" issue="30277" author="jonathanlevi" type="comment" body="Not sure why Hyperledger&apos;s JIRA allows a ticket to be &quot;In Progress&quot; without an Assignee. Either way, moving to 1.4.0" created="2018-10-15 10:12:58.0" updateauthor="jonathanlevi" updated="2018-10-15 10:12:58.0"/>
+<Action id="67605" issue="30277" author="sykesm" type="comment" body="Stale" created="2020-01-22 22:34:46.0" updateauthor="sykesm" updated="2020-01-22 22:34:46.0"/>

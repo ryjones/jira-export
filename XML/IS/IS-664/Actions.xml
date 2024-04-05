@@ -1,0 +1,2 @@
+<Action id="62054" issue="29675" author="dbluhm" type="comment" body="Sorry, accidentally took ownership. Is this issue still relevant?" created="2019-07-23 18:35:43.0" updateauthor="dbluhm" updated="2019-07-23 18:35:43.0"/>
+<Action id="64643" issue="29675" author="esplinr" type="comment" body="Publishing to ReadTheDocs.io works, but there is additional work that should be done in separate tickets." created="2019-10-11 12:12:04.0" updateauthor="esplinr" updated="2019-10-11 12:12:04.0"/>

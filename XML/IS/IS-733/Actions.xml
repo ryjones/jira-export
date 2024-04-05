@@ -1,0 +1,2 @@
+<Action id="45527" issue="30685" author="zhigunenko.dsr" type="comment" body="Implemented in https://github.com/hyperledger/indy-sdk/pull/811" created="2018-06-05 13:04:34.0" updateauthor="zhigunenko.dsr" updated="2018-06-05 13:04:34.0"/>
+<Action id="45532" issue="30685" author="zhigunenko.dsr" type="comment" body="&quot;rekey=&quot; has been checked on indy-cli 1.4.0~550" created="2018-06-05 15:06:47.0" updateauthor="zhigunenko.dsr" updated="2018-06-05 15:06:47.0"/>

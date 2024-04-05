@@ -1,0 +1,1 @@
+<Issue id="33398" key="IS-918" number="918" project="10401" reporter="gudkov" creator="gudkov" type="10004" summary="wallet_open crashes if libindy is linked with the latest libsodium" priority="3" resolution="10000" status="10001" created="2018-08-31 09:00:14.0" updated="2018-09-13 12:09:52.0" resolutiondate="2018-09-13 12:09:52.0" votes="0" watches="2" workflowId="51522"/>

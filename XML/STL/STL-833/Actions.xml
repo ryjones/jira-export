@@ -1,0 +1,1 @@
+<Action id="38872" issue="22911" author="dan.middleton@intel.com" type="comment" created="2018-01-18 20:04:15.0" updateauthor="dan.middleton@intel.com" updated="2018-01-18 20:04:15.0"> <body><! CDATA Fix in   https://github.com/hyperledger/sawtooth-core/pull/1349   commit 26c6eee904697b0ddf1dfaca5bfd15578148de15 by  ~ibansalankit   ></body> </Action>

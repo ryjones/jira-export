@@ -1,0 +1,2 @@
+<Action id="24408" issue="16154" author="christopherferris" type="comment" body=" ~ales  this needs a much better description, it is unactionable as written." created="2017-05-26 06:33:08.0" updateauthor="christopherferris" updated="2017-05-26 06:33:08.0"/>
+<Action id="24740" issue="16154" author="ales" type="comment" body="&quot;type ChaincodeInstance struct&quot; was defined in two places. The redundant definition has been removed and so this FAB can be removed" created="2017-05-31 09:54:51.0" updateauthor="ales" updated="2017-05-31 09:54:51.0"/>

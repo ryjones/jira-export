@@ -1,0 +1,2 @@
+<Action id="50430" issue="33735" author="dubovitskaya" type="comment" body="https://gerrit.hyperledger.org/r/26291" created="2018-09-13 17:35:40.0" updateauthor="dubovitskaya" updated="2018-09-13 17:35:40.0"/>
+<Action id="50583" issue="33735" author="dubovitskaya" type="comment" body=" ~rickr  All tests pass now since fabric-ca and fabric CRs are merged" created="2018-09-18 08:36:02.0" updateauthor="dubovitskaya" updated="2018-09-18 08:36:35.0"/>

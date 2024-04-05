@@ -1,0 +1,2 @@
+<Action id="53318" issue="35278" author="rameshthoomu" type="comment" body="https://gerrit.hyperledger.org/r/#/c/27506/" created="2018-11-12 13:35:33.0" updateauthor="rameshthoomu" updated="2018-11-12 13:35:33.0"/>
+<Action id="54042" issue="35278" author="rameshthoomu" type="comment" body="So far no update on IN-39 from LF team.  ~rickr  rejected the above patch and he is looking for resolution on IN-39. I am closing this bug as this is invalid or rejected by sdk-java maintainer." created="2018-11-30 04:36:46.0" updateauthor="rameshthoomu" updated="2018-11-30 04:36:46.0"/>

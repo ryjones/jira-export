@@ -1,0 +1,2 @@
+<Action id="22845" issue="15908" author="c0rwin" type="comment" body="I&apos;d say, that sounds reasonable.  ~yacovm " created="2017-04-21 20:43:08.0" updateauthor="c0rwin" updated="2017-04-21 20:43:08.0"/>
+<Action id="22861" issue="15908" author="yacovm" type="comment" created="2017-04-22 09:31:05.0" updateauthor="yacovm" updated="2017-04-22 09:31:05.0"> <body><! CDATA While the commit that disabled the tests is merged I think it would make sense to keep this JIRA item "TODO" to revisit next week. Or should we open a new JIRA?  ></body> </Action>

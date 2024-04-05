@@ -1,0 +1,2 @@
+<Action id="62831" issue="41679" author="artemkaaas" type="comment" created="2019-08-13 09:20:14.0" updateauthor="artemkaaas" updated="2019-08-13 09:20:14.0"> <body><! CDATA Changes:  extended `vcx` config to accept `pool_config` parameter.  Done in PR: https://github.com/hyperledger/indy-sdk/pull/1809  ></body> </Action>
+<Action id="62880" issue="41679" author="artemkaaas" type="comment" body="Build version: master-1254" created="2019-08-14 13:09:18.0" updateauthor="artemkaaas" updated="2019-08-14 13:09:18.0"/>

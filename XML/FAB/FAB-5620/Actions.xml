@@ -1,0 +1,1 @@
+<Action id="52916" issue="19960" author="wlahti" type="comment" body="This has been addressed via FAB-12357 which updates the peer and orderer to use a logging specification for the peer." created="2018-11-01 18:10:55.0" updateauthor="wlahti" updated="2018-11-01 18:10:55.0"/>

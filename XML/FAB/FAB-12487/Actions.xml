@@ -1,0 +1,2 @@
+<Action id="52342" issue="34715" author="skarim" type="comment" body="https://gerrit.hyperledger.org/r/c/27042/" created="2018-10-16 20:48:28.0" updateauthor="skarim" updated="2018-10-16 20:48:28.0"/>
+<Action id="52480" issue="34715" author="scottz" type="comment" body="This will have a big impact on network operators and all users. Let&apos;s provide a good release note, please." created="2018-10-20 23:11:14.0" updateauthor="scottz" updated="2018-10-20 23:11:14.0"/>

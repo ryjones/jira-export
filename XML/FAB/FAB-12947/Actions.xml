@@ -1,0 +1,7 @@
+<Action id="53624" issue="35489" author="denyeart" type="comment" body=" ~C0rWin   ~yacovm  FYI, if possible in v1.4 timeframe..." created="2018-11-20 04:55:34.0" updateauthor="denyeart" updated="2018-11-20 04:55:34.0"/>
+<Action id="53954" issue="35489" author="denyeart" type="comment" body=" ~joe-alewine   ~pandrejko  FYI" created="2018-11-28 18:40:25.0" updateauthor="denyeart" updated="2018-11-28 18:40:25.0"/>
+<Action id="53972" issue="35489" author="joe-alewine" type="comment" body="I&apos;ll take this one." created="2018-11-28 23:02:21.0" updateauthor="joe-alewine" updated="2018-11-29 14:03:38.0"/>
+<Action id="54010" issue="35489" author="joe-alewine" type="comment" body=" https://gerrit.hyperledger.org/r/c/27810/2 " created="2018-11-29 14:21:33.0" updateauthor="joe-alewine" updated="2018-11-29 14:21:33.0"/>
+<Action id="54029" issue="35489" author="joe-alewine" type="comment" body=" https://gerrit.hyperledger.org/r/c/27810/2 " created="2018-11-29 21:02:05.0" updateauthor="joe-alewine" updated="2018-11-29 21:02:05.0"/>
+<Action id="54175" issue="35489" author="denyeart" type="comment" body="I added some more comments to https://gerrit.hyperledger.org/r/#/c/27810/ that can be addressed in a subsequent CR." created="2018-12-03 06:18:51.0" updateauthor="denyeart" updated="2018-12-03 06:18:51.0"/>
+<Action id="54218" issue="35489" author="joe-alewine" type="comment" created="2018-12-03 20:12:59.0" updateauthor="joe-alewine" updated="2018-12-03 20:12:59.0"> <body><! CDATA New CR:  https://gerrit.hyperledger.org/r/c/27892/      ></body> </Action>

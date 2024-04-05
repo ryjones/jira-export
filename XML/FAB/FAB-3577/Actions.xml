@@ -1,0 +1,2 @@
+<Action id="23787" issue="16188" author="angelo.decaro" type="comment" body="So, https://jira.hyperledger.org/browse/FAB-3540 is taking care of the bccsp package :)" created="2017-05-12 08:04:26.0" updateauthor="angelo.decaro" updated="2017-05-12 08:04:26.0"/>
+<Action id="23790" issue="16188" author="jonathanlevi" type="comment" body="Thanks.  ~angelo.decaro , we should have had linked FAB-3577 and FAB-3540. Done." created="2017-05-12 10:17:08.0" updateauthor="jonathanlevi" updated="2017-05-12 10:22:09.0"/>

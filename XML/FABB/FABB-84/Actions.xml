@@ -1,0 +1,2 @@
+<Action id="42309" issue="28797" author="mastersingh24" type="comment" body=" ~rameshthoomu  - any ETA on this one?" created="2018-03-29 13:14:49.0" updateauthor="mastersingh24" updated="2018-03-29 13:14:49.0"/>
+<Action id="42340" issue="28797" author="rameshthoomu" type="comment" created="2018-03-29 16:19:20.0" updateauthor="rameshthoomu" updated="2018-03-29 16:19:20.0"> <body><! CDATA x86_64, s390x build nodes are ready with go1.10 along with go1.7.5 and go 1.9.2  https://gerrit.hyperledger.org/r/#/q/FAB-9079     ></body> </Action>

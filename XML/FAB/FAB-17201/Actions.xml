@@ -1,0 +1,2 @@
+<Action id="66496" issue="43605" author="mbwhite" type="comment" body="https://github.com/hyperledger/fabric/pull/371" created="2020-01-07 13:40:43.0" updateauthor="mbwhite" updated="2020-01-07 13:40:43.0"/>
+<Action id="66624" issue="43605" author="heatherp" type="comment" body="As discussed with Pam, this work is going to be covered by fabric docs updates that her team is doing, so closing this one" created="2020-01-13 14:19:47.0" updateauthor="heatherp" updated="2020-01-13 14:19:47.0"/>

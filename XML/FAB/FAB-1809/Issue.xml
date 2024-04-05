@@ -1,0 +1,1 @@
+<Issue id="14310" key="FAB-1809" number="1809" project="10002" reporter="sanchezl" assignee="sanchezl" creator="sanchezl" type="10002" summary="Enable TLS connection from orderer to kafka" priority="3" resolution="10000" status="6" created="2017-01-23 20:27:40.0" updated="2018-07-20 14:11:19.0" resolutiondate="2017-02-05 01:27:35.0" votes="0" watches="1" workflowId="37147"/>

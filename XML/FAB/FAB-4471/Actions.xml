@@ -1,0 +1,2 @@
+<Action id="25891" issue="17651" author="mastersingh24" type="comment" body="http://gerrit.hyperledger.org/r/10409" created="2017-06-09 17:43:40.0" updateauthor="mastersingh24" updated="2017-06-09 17:43:40.0"/>
+<Action id="25895" issue="17651" author="christopherferris" type="comment" body="I was going to close this as WONTFIX because it actually is used on line 35." created="2017-06-09 17:53:43.0" updateauthor="christopherferris" updated="2017-06-09 17:53:43.0"/>

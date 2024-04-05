@@ -1,0 +1,2 @@
+<Action id="40421" issue="16634" author="latitiah" type="comment" body="https://gerrit.hyperledger.org/r/#/c/18083/" created="2018-02-20 15:26:56.0" updateauthor="latitiah" updated="2018-02-20 15:26:56.0"/>
+<Action id="48726" issue="16634" author="latitiah" type="comment" body="Due to hardware/memory limitations, the test case was changed to now verify 1K number of 1K size payloads instead of 1K number of 2M sized payloads." created="2018-08-10 15:43:18.0" updateauthor="latitiah" updated="2018-08-10 15:43:18.0"/>

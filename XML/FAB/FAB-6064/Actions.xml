@@ -1,0 +1,2 @@
+<Action id="35303" issue="20659" author="kaichiasjtu" type="comment" body="The Docker images of fabric are up to 1.1.0, I change it from 1.0.0-beta to 1.1.0-preview?" created="2017-11-21 13:46:03.0" updateauthor="kaichiasjtu" updated="2017-11-21 13:46:03.0"/>
+<Action id="67126" issue="20659" author="sykesm" type="comment" body="Stale" created="2020-01-22 22:04:50.0" updateauthor="sykesm" updated="2020-01-22 22:04:50.0"/>

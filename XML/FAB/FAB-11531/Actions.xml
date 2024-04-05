@@ -1,0 +1,2 @@
+<Action id="48737" issue="32717" author="wlahti" type="comment" body="Going to rework https://gerrit.hyperledger.org/r/c/25443. We will be using a tar.gz chaincode package format instead of the ChaincodeInstallPackage. Starting on a new package CLI CR." created="2018-08-10 19:47:26.0" updateauthor="wlahti" updated="2018-08-22 15:27:43.0"/>
+<Action id="49248" issue="32717" author="wlahti" type="comment" body="https://gerrit.hyperledger.org/r/c/25443/" created="2018-08-22 15:27:51.0" updateauthor="wlahti" updated="2018-08-22 15:27:51.0"/>

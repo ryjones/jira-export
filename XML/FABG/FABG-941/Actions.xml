@@ -1,0 +1,1 @@
+<Action id="69364" issue="43858" author="andrew-coleman" type="comment" body="Based on experience with this programming model in node/java, the ability to disable discovery is less useful, so is being withdrawn from this epic.  We could revisit this in the future if required." created="2020-06-01 14:54:37.0" updateauthor="andrew-coleman" updated="2020-06-01 14:54:37.0"/>

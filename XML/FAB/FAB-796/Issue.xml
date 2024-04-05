@@ -1,0 +1,1 @@
+<Issue id="13101" key="FAB-796" number="796" project="10002" reporter="pmullaney" creator="pmullaney" type="10003" summary="Peer Event producer needs to add current block number to events" priority="3" resolution="10001" status="6" created="2016-10-20 17:56:32.0" updated="2019-07-12 11:30:05.0" resolutiondate="2019-07-12 11:30:04.0" votes="0" watches="1" workflowId="42868"/>

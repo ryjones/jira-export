@@ -1,0 +1,2 @@
+<Action id="25522" issue="17510" author="scottz" type="comment" body="This looks like a duplicate of FAB-4081, for which a solution is in review: https://gerrit.hyperledger.org/r/#/c/10175/1" created="2017-06-06 15:31:02.0" updateauthor="scottz" updated="2017-06-06 15:31:02.0"/>
+<Action id="25542" issue="17510" author="yuki-kon" type="comment" body="Thank you, Scott. As you pointed out, this issue is duplicated. I added duplicate tag." created="2017-06-06 16:14:50.0" updateauthor="yuki-kon" updated="2017-06-06 16:14:50.0"/>

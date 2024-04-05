@@ -1,0 +1,2 @@
+<Action id="59823" issue="37464" author="muralisr" type="comment" body="https://gerrit.hyperledger.org/r/#/c/31120/" created="2019-05-07 21:52:34.0" updateauthor="muralisr" updated="2019-05-07 21:52:34.0"/>
+<Action id="65969" issue="37464" author="muralisr" type="comment" body="This is not needed in the new external builder model" created="2019-12-02 23:48:56.0" updateauthor="muralisr" updated="2019-12-02 23:48:56.0"/>

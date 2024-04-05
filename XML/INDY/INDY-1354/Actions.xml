@@ -1,0 +1,3 @@
+<Action id="52137" issue="30494" author="ashcherbakov" type="comment" body="This is already fixed." created="2018-10-12 09:32:08.0" updateauthor="ashcherbakov" updated="2018-10-12 09:32:08.0"/>
+<Action id="52157" issue="30494" author="brentzundel" type="comment" body="I am not sure I understand. I still see an exec() function in setup.py" created="2018-10-12 12:17:59.0" updateauthor="brentzundel" updated="2018-10-12 12:17:59.0"/>
+<Action id="52158" issue="30494" author="ashcherbakov" type="comment" body="Yes, sorry, it&apos;s not fixed yet, thanks for the notice." created="2018-10-12 12:49:05.0" updateauthor="ashcherbakov" updated="2018-10-12 12:49:05.0"/>

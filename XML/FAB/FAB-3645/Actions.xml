@@ -1,0 +1,2 @@
+<Action id="23428" issue="16307" author="muralisr" type="comment" body="LSCC return ChaincodeData. ChaincodeData.Data contains chaincode bytes instead of hash." created="2017-05-05 23:04:14.0" updateauthor="muralisr" updated="2017-05-05 23:04:14.0"/>
+<Action id="23435" issue="16307" author="mastersingh24" type="comment" body="https://gerrit.hyperledger.org/r/#/c/9031/" created="2017-05-06 08:36:49.0" updateauthor="mastersingh24" updated="2017-05-06 08:36:49.0"/>

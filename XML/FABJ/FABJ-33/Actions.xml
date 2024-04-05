@@ -1,0 +1,3 @@
+<Action id="22583" issue="15518" author="rickr" type="comment" body="Really removing a Peer requires a configuration change on the chain" created="2017-04-17 14:54:50.0" updateauthor="rickr" updated="2017-04-17 14:54:50.0"/>
+<Action id="22690" issue="15518" author="zerppen" type="comment" body=" ~rickr  u mean set a mark for Peers u wanner remove? " created="2017-04-19 07:06:53.0" updateauthor="zerppen" updated="2017-04-19 07:06:53.0"/>
+<Action id="41777" issue="15518" author="rickr" type="comment" body="Peer can be removed but not unjoined" created="2018-03-17 17:15:43.0" updateauthor="rickr" updated="2018-03-17 17:15:43.0"/>

@@ -1,0 +1,2 @@
+<Action id="29502" issue="14895" author="christopherferris" type="comment" body="more important that we have some working examples of how to use the fabric-ca components. The docs we have now are not useful to someone actually using the service.  ~keithsmith   ~markparz " created="2017-08-07 16:57:42.0" updateauthor="christopherferris" updated="2017-08-07 16:58:00.0"/>
+<Action id="63254" issue="14895" author="mastersingh24" type="comment" body="Operators guide underway" created="2019-08-25 22:48:19.0" updateauthor="mastersingh24" updated="2019-08-25 22:48:19.0"/>

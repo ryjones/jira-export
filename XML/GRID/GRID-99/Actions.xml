@@ -1,0 +1,2 @@
+<Action id="63919" issue="41622" author="agunde" type="comment" body="Was this closed by  https://github.com/hyperledger/grid/pull/120 " created="2019-09-20 15:41:21.0" updateauthor="agunde" updated="2019-09-20 15:41:21.0"/>
+<Action id="64097" issue="41622" author="agunde" type="comment" body="Through offline discussion, it was decided there is not a business use case for creating an empty ProductList so we can close this issue" created="2019-09-24 20:52:35.0" updateauthor="agunde" updated="2019-09-24 20:52:35.0"/>

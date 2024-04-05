@@ -1,0 +1,2 @@
+<Action id="18733" issue="12586" author="jimthematrix" type="comment" body=" ~smithbk  FYI" created="2016-08-31 14:58:40.0" updateauthor="jimthematrix" updated="2016-08-31 14:58:40.0"/>
+<Action id="18764" issue="12586" author="smithbk" type="comment" body="This has been submitted to version 0.6 under http://gerrit.hyperledger.org/r/899 Add support for dynamically registering a user with attributes" created="2016-09-03 20:24:30.0" updateauthor="smithbk" updated="2016-09-03 20:24:30.0"/>

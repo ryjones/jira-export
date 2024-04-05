@@ -1,0 +1,3 @@
+<Action id="68775" issue="44756" author="denyeart" type="comment" created="2020-04-08 20:58:47.0" updateauthor="denyeart" updated="2020-04-08 20:59:19.0"> <body><! CDATA I see the same thing.  ~dereckluo  It looks like it broke as of this PR: https://github.com/hyperledger/fabric/pull/758    ></body> </Action>
+<Action id="68808" issue="44756" author="dereckluo" type="comment" body="https://github.com/hyperledger/fabric/pull/1071" created="2020-04-13 01:29:51.0" updateauthor="dereckluo" updated="2020-04-13 01:29:51.0"/>
+<Action id="68810" issue="44756" author="denyeart" type="comment" body="Merged in all three branches... luckily this was caught before any release included it." created="2020-04-13 18:44:53.0" updateauthor="denyeart" updated="2020-04-13 18:44:53.0"/>

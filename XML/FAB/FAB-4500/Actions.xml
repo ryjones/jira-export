@@ -1,0 +1,2 @@
+<Action id="25866" issue="17693" author="kchristidis" type="comment" body="Make sure to edit those in examples/cluster/config/orderer.yaml as well." created="2017-06-09 14:41:19.0" updateauthor="kchristidis" updated="2017-06-09 14:41:19.0"/>
+<Action id="25868" issue="17693" author="baohua" type="comment" body="https://gerrit.hyperledger.org/r/#/c/10399/" created="2017-06-09 14:54:20.0" updateauthor="baohua" updated="2017-06-09 14:54:20.0"/>

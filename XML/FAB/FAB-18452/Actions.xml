@@ -1,0 +1,2 @@
+<Action id="71719" issue="46704" author="denyeart" type="comment" body=" ~talaal  What is the behavior that you&apos;d expect?" created="2021-04-25 23:18:54.0" updateauthor="denyeart" updated="2021-04-25 23:18:54.0"/>
+<Action id="71728" issue="46704" author="JIRAUSER21675" type="comment" body=" ~denyeart  the application channel denied blocks due to wrong mspid, could the system channel also deny those blocks?" created="2021-04-29 15:05:12.0" updateauthor="JIRAUSER21675" updated="2021-04-29 15:05:12.0"/>

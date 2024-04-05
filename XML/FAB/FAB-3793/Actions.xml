@@ -1,0 +1,1 @@
+<Action id="34481" issue="16564" author="nishi" type="comment" created="2017-11-08 21:13:10.0" updateauthor="nishi" updated="2017-11-08 21:13:10.0"> <body><! CDATA This task item was when we had e2e cli tests in bash wrapped as python tests.  Now we are using behave test framework new JIRA number : https://jira.hyperledger.org/browse/FAB-5791  ></body> </Action>

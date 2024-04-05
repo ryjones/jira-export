@@ -1,0 +1,3 @@
+<Action id="61833" issue="39767" author="guoger" type="comment" body="A bit out-of-date, re-open if this surfaces again" created="2019-07-15 16:35:06.0" updateauthor="guoger" updated="2019-07-15 16:35:06.0"/>
+<Action id="61929" issue="39767" author="jyellick" type="comment" body="Just hit this again here: https://jenkins.hyperledger.org/job/fabric-verify-unit-tests-x86_64/13725/console" created="2019-07-18 03:40:14.0" updateauthor="jyellick" updated="2019-07-18 03:40:14.0"/>
+<Action id="61933" issue="39767" author="guoger" type="comment" body="https://gerrit.hyperledger.org/r/c/fabric/+/32386" created="2019-07-18 07:39:03.0" updateauthor="guoger" updated="2019-07-18 07:39:03.0"/>

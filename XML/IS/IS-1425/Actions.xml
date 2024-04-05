@@ -1,0 +1,1 @@
+<Action id="66690" issue="43307" author="artemkaaas" type="comment" created="2020-01-15 06:44:56.0" updateauthor="artemkaaas" updated="2020-01-15 06:44:56.0"> <body><! CDATA Changes:  Removed onboarding and peer-to-peer interaction parts of guide in favor of Aries project PR:  https://github.com/hyperledger/indy-sdk/pull/2037    ></body> </Action>

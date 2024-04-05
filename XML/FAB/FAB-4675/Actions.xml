@@ -1,0 +1,2 @@
+<Action id="31587" issue="17957" author="adnanchoudhury" type="comment" body="https://gerrit.hyperledger.org/r/#/c/13377/" created="2017-10-03 19:49:32.0" updateauthor="adnanchoudhury" updated="2017-10-03 19:49:32.0"/>
+<Action id="44526" issue="17957" author="scottz" type="comment" body="Reopening this for execution in v1.2 system test." created="2018-05-16 22:32:26.0" updateauthor="scottz" updated="2018-05-16 22:32:26.0"/>

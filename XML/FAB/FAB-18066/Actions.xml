@@ -1,0 +1,3 @@
+<Action id="69685" issue="45599" author="wlahti" type="comment" body="https://github.com/hyperledger/fabric/pull/1598" created="2020-07-13 20:35:44.0" updateauthor="wlahti" updated="2020-07-13 20:35:44.0"/>
+<Action id="69738" issue="45599" author="wlahti" type="comment" body="Leaving this open until I&apos;m sure the docs/release notes are correctly updated to reflect this change." created="2020-07-21 12:50:11.0" updateauthor="wlahti" updated="2020-07-21 12:50:11.0"/>
+<Action id="69753" issue="45599" author="wlahti" type="comment" body="Release notes updated and merged. " created="2020-07-21 22:18:27.0" updateauthor="wlahti" updated="2020-07-21 22:18:27.0"/>

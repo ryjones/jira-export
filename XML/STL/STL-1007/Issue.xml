@@ -1,0 +1,1 @@
+<Issue id="26863" key="STL-1007" number="1007" project="10001" reporter="adamludvik" creator="adamludvik" type="10006" summary="Implement command to prune the merkle database from state not related to any block in the block store" priority="4" status="10100" created="2018-01-16 19:53:31.0" updated="2019-05-24 15:02:08.0" votes="0" watches="1" workflowId="26863"/>

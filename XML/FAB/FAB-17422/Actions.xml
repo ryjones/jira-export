@@ -1,0 +1,2 @@
+<Action id="67830" issue="44047" author="tsharris" type="comment" body=" https://github.com/hyperledger/fabric/pull/601 " created="2020-02-05 21:05:23.0" updateauthor="tsharris" updated="2020-02-05 21:05:23.0"/>
+<Action id="67896" issue="44047" author="denyeart" type="comment" created="2020-02-11 05:31:46.0" updateauthor="denyeart" updated="2020-02-11 05:31:46.0"> <body><! CDATA https://github.com/hyperledger/fabric/pull/651 separates peer and orderer metrics - merged.   ></body> </Action>

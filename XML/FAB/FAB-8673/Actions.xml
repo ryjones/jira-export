@@ -1,0 +1,1 @@
+<Action id="43534" issue="28244" author="davidkhala" type="comment" body="fabcar is just a use case of fabric, it is not designed to be generic. I think hard code is OK for that." created="2018-04-27 06:29:28.0" updateauthor="davidkhala" updated="2018-04-27 06:29:28.0"/>

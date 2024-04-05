@@ -1,0 +1,1 @@
+<Action id="32300" issue="18797" author="denyeart" type="comment" body="Implemented as core.yaml config option transientstoreMaxBlockRetention. Done in FAB-5091." created="2017-10-15 21:33:35.0" updateauthor="denyeart" updated="2017-10-15 21:33:35.0"/>

@@ -1,0 +1,1 @@
+<Action id="54513" issue="35991" author="sykesm" type="comment" created="2018-12-07 23:45:45.0" updateauthor="sykesm" updated="2018-12-07 23:45:45.0"> <body><! CDATA The health check handler is already doing the right thing.  https://gerrit.hyperledger.org/r/28011  ></body> </Action>

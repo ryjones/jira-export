@@ -1,0 +1,1 @@
+<Action id="65904" issue="43208" author="anikitindsr" type="comment" created="2019-12-02 16:05:24.0" updateauthor="anikitindsr" updated="2019-12-02 16:05:24.0"> <body><! CDATA PR with simulation tests: *  https://github.com/hyperledger/indy-plenum/pull/1409   Added NODE txn ordering with mixed domain transactions and manually VC forcing.     ></body> </Action>

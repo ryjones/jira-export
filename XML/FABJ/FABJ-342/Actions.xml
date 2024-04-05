@@ -1,0 +1,2 @@
+<Action id="50291" issue="30308" author="rickr" type="comment" body="No longer any commits for Java SDK for Idemix in v1.3.  Some details on who, when and what needs to be done to close for v1.3.  " created="2018-09-11 17:04:41.0" updateauthor="rickr" updated="2018-09-11 17:04:41.0"/>
+<Action id="50848" issue="30308" author="dubovitskaya" type="comment" body=" ~latitiah  Do we need to test anything else before we close this?" created="2018-09-20 14:45:23.0" updateauthor="dubovitskaya" updated="2018-09-20 14:45:23.0"/>

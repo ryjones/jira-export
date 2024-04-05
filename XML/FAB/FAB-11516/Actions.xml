@@ -1,0 +1,1 @@
+<Action id="48857" issue="32670" author="sambhavdutt" type="comment" created="2018-08-14 15:36:04.0" updateauthor="sambhavdutt" updated="2018-08-14 15:36:04.0"> <body><! CDATA The pte tests have been passing from several builds https://jenkins.hyperledger.org/view/fabric-test/job/fabric-test-daily-pte-release-1.2-x86_64/  ></body> </Action>

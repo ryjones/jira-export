@@ -1,0 +1,1 @@
+<Action id="62737" issue="41707" author="wlahti" type="comment" body="An initial attempt, which defines the new service/functions and copies the Args/Result protos from lifecycle.proto:  https://gerrit.hyperledger.org/r/c/fabric/+/32802 " created="2019-08-08 19:35:28.0" updateauthor="wlahti" updated="2019-08-08 19:35:28.0"/>

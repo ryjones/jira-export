@@ -1,0 +1,2 @@
+<Action id="29332" issue="19653" author="danielhardman" type="comment" created="2017-08-02 03:44:31.0" updateauthor="danielhardman" updated="2017-08-02 03:44:31.0"> <body><! CDATA What is the priority of this relative to simplifying view change and introducing state machines?  I would do this in conjunction with implementing a state machine for catchup.  ></body> </Action>
+<Action id="51300" issue="19653" author="esplinr" type="comment" body="Closing as duplicate of INDY-1384" created="2018-09-27 21:32:58.0" updateauthor="esplinr" updated="2018-09-27 21:32:58.0"/>

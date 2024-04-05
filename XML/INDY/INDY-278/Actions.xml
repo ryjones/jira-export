@@ -1,0 +1,1 @@
+<Action id="29279" issue="18361" author="vladimirwork" type="comment" created="2017-08-01 10:59:48.0" updateauthor="vladimirwork" updated="2017-08-01 10:59:48.0"> <body><! CDATA Things tried: Start and stop nodes and during load scripts run on one/several nodes (with various number of clients and transactions) to check catchups.  Findings: INDY-475  ></body> </Action>

@@ -1,0 +1,1 @@
+<Action id="63692" issue="42313" author="sykesm" type="comment" body="https://gerrit.hyperledger.org/r/c/fabric/+/33469 Stop referencing GOPATH in compile_protos.sh" created="2019-09-11 21:01:57.0" updateauthor="sykesm" updated="2019-09-11 21:01:57.0"/>

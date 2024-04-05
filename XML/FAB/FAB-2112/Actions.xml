@@ -1,0 +1,3 @@
+<Action id="20736" issue="14615" author="joshhus" type="comment" body="Title also - chaincode isn&apos;t limited to those 2 things right." created="2017-02-07 23:14:06.0" updateauthor="joshhus" updated="2017-02-07 23:14:06.0"/>
+<Action id="25214" issue="14615" author="mastersingh24" type="comment" body=" ~nickgaski  - I know there is work on documenting chaincode - can you update / close this when appropriate?" created="2017-06-03 09:47:26.0" updateauthor="mastersingh24" updated="2017-06-03 09:47:26.0"/>
+<Action id="41899" issue="14615" author="joe-alewine" type="comment" body="Closing this. Have two docs on chaincode now." created="2018-03-21 22:01:09.0" updateauthor="joe-alewine" updated="2018-03-21 22:01:09.0"/>

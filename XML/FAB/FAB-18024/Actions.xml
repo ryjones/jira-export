@@ -1,0 +1,1 @@
+<Action id="70143" issue="45465" author="denyeart" type="comment" body="We decided not to pursue a backup scenario where peers are rolled back, closing." created="2020-09-04 19:21:43.0" updateauthor="denyeart" updated="2020-09-04 19:21:43.0"/>

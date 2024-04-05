@@ -1,0 +1,2 @@
+<Action id="42298" issue="28415" author="ashcherbakov" type="comment" body="A first run of tests is run, multiple issues were found and fixed in the scope of INDY-1180." created="2018-03-29 09:23:00.0" updateauthor="ashcherbakov" updated="2018-03-29 09:23:00.0"/>
+<Action id="42303" issue="28415" author="ashcherbakov" type="comment" body="Further testing will be done in the scope of INDY-1208." created="2018-03-29 10:31:30.0" updateauthor="ashcherbakov" updated="2018-03-29 10:31:30.0"/>

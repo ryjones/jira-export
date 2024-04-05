@@ -1,0 +1,1 @@
+<Action id="34622" issue="23856" author="rameshthoomu" type="comment" body="Seems this patch has been fixed the nvm build failures.  https://gerrit.hyperledger.org/r/#/c/15395/.  Closing this issue now, Please create a new bug if you see this error again." created="2017-11-14 14:16:45.0" updateauthor="rameshthoomu" updated="2017-11-14 14:16:45.0"/>

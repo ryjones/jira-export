@@ -1,0 +1,2 @@
+<Action id="22464" issue="15753" author="mastersingh24" type="comment" body="this is marked as both 1.1 and Future since it is likely that the entire set of features cannot be contained in single release" created="2017-04-14 17:02:08.0" updateauthor="mastersingh24" updated="2017-04-14 17:02:08.0"/>
+<Action id="32707" issue="15753" author="rickr" type="comment" body="Removing jsdk I think it&apos;s covered with FAB-6584" created="2017-10-19 14:39:53.0" updateauthor="rickr" updated="2017-10-19 14:39:53.0"/>

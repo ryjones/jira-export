@@ -1,0 +1,1 @@
+<Action id="47279" issue="29085" author="tongliofcary" type="comment" body="This has been fixed in other patch sets. For some reason this one was not used. At present, connection profiles will be generated when certs get generated. This is finished." created="2018-07-12 14:22:29.0" updateauthor="tongliofcary" updated="2018-07-12 14:22:29.0"/>

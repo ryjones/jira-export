@@ -1,0 +1,3 @@
+<Action id="30474" issue="20088" author="mastersingh24" type="comment" body="This is not technically a bug so marking as an improvement" created="2017-09-03 12:40:29.0" updateauthor="mastersingh24" updated="2017-09-03 12:40:29.0"/>
+<Action id="30545" issue="20088" author="chawlanikhil24" type="comment" body="Yupp!. Agree with the improvement, but I suggest, you must mark it high on the priority so that other platforms such as Kubernetes could support." created="2017-09-06 05:15:56.0" updateauthor="chawlanikhil24" updated="2017-09-06 05:15:56.0"/>
+<Action id="67102" issue="20088" author="sykesm" type="comment" body="Stale" created="2020-01-22 21:59:50.0" updateauthor="sykesm" updated="2020-01-22 21:59:50.0"/>

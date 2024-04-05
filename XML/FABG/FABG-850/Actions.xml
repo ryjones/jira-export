@@ -1,0 +1,1 @@
+<Action id="59032" issue="39147" author="troyronda" type="comment" created="2019-04-08 15:45:12.0" updateauthor="troyronda" updated="2019-04-08 15:45:12.0"> <body><! CDATA A follow-up CR should refactor the directory structure to remove _go and testdata conventions. Additionally should consider removing GitHub.com from example_cc and example_pvt_cc.  ></body> </Action>

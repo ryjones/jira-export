@@ -1,0 +1,1 @@
+<Action id="21473" issue="14160" author="rickr" type="comment" body="I think  the SDK should being stateless.   I see the embedding application of the SDK should provide state.  This is the most flexible solution for the application.  " created="2017-03-12 20:09:36.0" updateauthor="rickr" updated="2017-03-12 20:09:36.0"/>

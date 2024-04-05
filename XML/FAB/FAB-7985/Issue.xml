@@ -1,0 +1,1 @@
+<Issue id="27266" key="FAB-7985" number="7985" project="10002" reporter="jyellick" creator="jyellick" type="10004" summary="TimeWindow default for orderer config is not applied if unset" priority="3" resolution="10000" status="6" created="2018-01-31 14:39:02.0" updated="2018-07-20 14:15:35.0" resolutiondate="2018-01-31 14:41:06.0" votes="0" watches="1" workflowId="41092"/>

@@ -1,0 +1,1 @@
+<Action id="23961" issue="16814" author="jeffgarratt" type="comment" created="2017-05-17 19:28:57.0" updateauthor="jeffgarratt" updated="2017-05-17 19:28:57.0"> <body><! CDATA # channel/Admins, channe/orderer/admins, channel/application/admins #  channelCreationPolicy => rational default of 'ruleAll'  ></body> </Action>

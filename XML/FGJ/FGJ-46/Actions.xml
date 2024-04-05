@@ -1,0 +1,1 @@
+<Action id="64266" issue="42489" author="andrew-coleman" type="comment" created="2019-10-02 15:18:22.0" updateauthor="andrew-coleman" updated="2019-10-02 15:18:22.0"> <body><! CDATA Released  <dependency> <groupId>org.hyperledger.fabric</groupId> <artifactId>fabric-gateway-java</artifactId> <version>1.4.0</version> </dependency>  ></body> </Action>

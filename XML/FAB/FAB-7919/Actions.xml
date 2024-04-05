@@ -1,0 +1,1 @@
+<Action id="62489" issue="27086" author="scottz" type="comment" body="We&apos;ve done this; and are redoing again, with other issues, to remove the behave tests (replace with fabric UT/IT and sdk IT tests) and likely removing python driver." created="2019-08-01 02:38:29.0" updateauthor="scottz" updated="2019-08-01 02:38:29.0"/>

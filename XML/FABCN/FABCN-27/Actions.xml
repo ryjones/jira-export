@@ -1,0 +1,1 @@
+<Action id="44507" issue="30131" author="davidkel" type="comment" body="How are you packaging your chaincode ? the fabric-sdk-node packager honours the contents of the .npmignore file to only package necessary files for example." created="2018-05-16 22:29:14.0" updateauthor="davidkel" updated="2018-05-16 22:29:14.0"/>

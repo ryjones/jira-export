@@ -1,0 +1,2 @@
+<Action id="28522" issue="19302" author="mastersingh24" type="comment" body="Is this a bug or is this fixing the current design?" created="2017-07-17 19:42:48.0" updateauthor="mastersingh24" updated="2017-07-17 19:42:48.0"/>
+<Action id="28523" issue="19302" author="rickr" type="comment" body="Both – wasn&apos;t handling 503 response for all request. Instead of duplicating code cleaned it up to have a common method." created="2017-07-17 19:45:34.0" updateauthor="rickr" updated="2017-07-17 19:46:09.0"/>

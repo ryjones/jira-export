@@ -1,0 +1,1 @@
+<Action id="35960" issue="24723" author="rameshthoomu" type="comment" body="Patch has been submitted and merged. Common cleanup script is now configured in all hyperledger Jenkins jobs. This patch has been removed all the duplicated scripts from jenkins CI configurations." created="2017-12-07 01:33:29.0" updateauthor="rameshthoomu" updated="2017-12-07 01:33:29.0"/>

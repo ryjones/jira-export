@@ -1,0 +1,1 @@
+<Action id="64392" issue="37927" author="esplinr" type="comment" body="We decided that LibIndy should not support message protocols, but instead those should be handled by language libraries in Aries." created="2019-10-08 14:57:27.0" updateauthor="esplinr" updated="2019-10-08 14:57:27.0"/>

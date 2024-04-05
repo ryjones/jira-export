@@ -1,0 +1,1 @@
+<Action id="27338" issue="17228" author="lovesh" type="comment" body="This test is not applicable, since now we start view change as soon as a quorum of `INSTANCE_CHANGE` messages are received" created="2017-06-26 09:41:12.0" updateauthor="lovesh" updated="2017-06-26 09:41:12.0"/>

@@ -1,0 +1,4 @@
+<Action id="24391" issue="17153" author="jimthematrix" type="comment" body="https://gerrit.hyperledger.org/r/#/c/9271/" created="2017-05-26 02:17:50.0" updateauthor="jimthematrix" updated="2017-05-26 02:17:50.0"/>
+<Action id="24393" issue="17153" author="yuki-kon" type="comment" created="2017-05-26 02:26:33.0" updateauthor="yuki-kon" updated="2017-05-26 02:26:33.0"> <body><! CDATA Hello Jim. This problem is happening after merging CR above. I'm writing patch to fix problem.  Could you change status to "In Progress"?   ></body> </Action>
+<Action id="24394" issue="17153" author="yuki-kon" type="comment" body="The patch set is here.  https://gerrit.hyperledger.org/r/#/c/9855/ " created="2017-05-26 02:38:12.0" updateauthor="yuki-kon" updated="2017-05-26 02:38:12.0"/>
+<Action id="24448" issue="17153" author="jimthematrix" type="comment" body="thanks  ~yuki-kon  " created="2017-05-26 13:37:53.0" updateauthor="jimthematrix" updated="2017-05-26 13:37:53.0"/>

@@ -1,0 +1,2 @@
+<Action id="60893" issue="39763" author="vijaypunugubati" type="comment" body="The nodeenv image is available for s390x in nexus repository, and the latest image published was on May 24, 2019, closing this bug as it is invalid now." created="2019-06-11 19:09:09.0" updateauthor="vijaypunugubati" updated="2019-06-11 19:09:09.0"/>
+<Action id="60894" issue="39763" author="vijaypunugubati" type="comment" body="Working as expected." created="2019-06-11 19:09:35.0" updateauthor="vijaypunugubati" updated="2019-06-11 19:09:35.0"/>

@@ -1,0 +1,2 @@
+<Action id="37838" issue="26295" author="mastersingh24" type="comment" body="I&apos;ll fix this as part of the CLI rework required in order for mutual TLS to work" created="2017-12-29 10:28:38.0" updateauthor="mastersingh24" updated="2017-12-29 10:28:38.0"/>
+<Action id="38221" issue="26295" author="mastersingh24" type="comment" body="https://gerrit.hyperledger.org/r/16555  should have fixed this" created="2018-01-05 10:06:41.0" updateauthor="mastersingh24" updated="2018-01-05 10:06:41.0"/>

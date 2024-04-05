@@ -1,0 +1,2 @@
+<Action id="43576" issue="22488" author="scottz" type="comment" body="Still waiting for 6271 and 6387 (and others) to be fixed, before we can reenable these tests and close this." created="2018-04-27 18:50:16.0" updateauthor="scottz" updated="2018-04-27 18:50:16.0"/>
+<Action id="44883" issue="22488" author="nnao" type="comment" body="https://gerrit.hyperledger.org/r/c/16781/" created="2018-05-22 18:37:07.0" updateauthor="nnao" updated="2018-05-22 18:37:07.0"/>

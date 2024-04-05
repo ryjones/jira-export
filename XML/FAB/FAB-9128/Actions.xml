@@ -1,0 +1,1 @@
+<Action id="54933" issue="28856" author="sykesm" type="comment" body="Closing as gossip is the only component that does not get tested with the race detector. FAB-10969 covers that work." created="2018-12-18 18:15:20.0" updateauthor="sykesm" updated="2018-12-18 18:15:20.0"/>

@@ -1,0 +1,1 @@
+<Issue id="31420" key="FABG-305" number="305" project="10610" reporter="troyronda" creator="troyronda" type="10004" summary="Add license to pkcs11helper README" description="/fabric-sdk-go/scripts/_go/src/pkcs11helper/cmd/pkcs11helper/README.md" priority="3" status="10000" created="2018-06-27 17:51:02.0" updated="2019-03-20 14:15:21.0" votes="0" watches="1" workflowId="33104"/>

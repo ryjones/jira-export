@@ -1,0 +1,2 @@
+<Action id="70144" issue="44942" author="denyeart" type="comment" body="We decided not to pursue a backup scenario where peers are rolled back, closing." created="2020-09-04 19:22:21.0" updateauthor="denyeart" updated="2020-09-04 19:22:21.0"/>
+<Action id="70148" issue="44942" author="JIRAUSER19888" type="comment" body=" ~denyeart  is there an alternative strategy for backup/restore that&apos;s available or in the works?" created="2020-09-04 21:54:05.0" updateauthor="JIRAUSER19888" updated="2020-09-04 21:54:05.0"/>

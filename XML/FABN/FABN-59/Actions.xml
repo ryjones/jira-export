@@ -1,0 +1,1 @@
+<Action id="21088" issue="14953" author="rameshthoomu" type="comment" body="I have observed errors while running sdk tests in power builds..@jim suggested me to enable sdk-node builds on Z nodes only as we don&apos;t see any need of implementing sdk on power platforms." created="2017-02-21 21:11:03.0" updateauthor="rameshthoomu" updated="2017-02-21 21:11:03.0"/>

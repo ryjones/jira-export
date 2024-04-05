@@ -1,0 +1,1 @@
+<Action id="64304" issue="42623" author="jyellick" type="comment" body="We did fuzz testing in 0.5/0.6, and it did catch a few things.  Sounds like a good idea generally.  We can export the non-instance function in test only, I don&apos;t see that as a barrier." created="2019-10-04 14:52:27.0" updateauthor="jyellick" updated="2019-10-04 14:52:27.0"/>

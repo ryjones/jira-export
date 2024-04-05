@@ -1,0 +1,2 @@
+<Action id="22262" issue="15619" author="christopherferris" type="comment" body="Link to Gerrit CR that closed this?  ~adc " created="2017-04-12 18:47:33.0" updateauthor="christopherferris" updated="2017-04-12 18:47:33.0"/>
+<Action id="22614" issue="15619" author="elli-androulaki" type="comment" created="2017-04-18 07:40:26.0" updateauthor="elli-androulaki" updated="2017-04-18 07:40:26.0"> <body><! CDATA Hi  ~ChristopherFerris , this is the CR that closed this: https://gerrit.hyperledger.org/r/#/c/7705/  ></body> </Action>

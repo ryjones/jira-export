@@ -1,0 +1,2 @@
+<Action id="22114" issue="13859" author="kchristidis" type="comment" body="There is no reason for this to be tagged with v1.0.0 since sbft is not a valid option for v1.0.0 to begin with." created="2017-04-11 18:18:17.0" updateauthor="kchristidis" updated="2017-04-11 18:18:17.0"/>
+<Action id="22404" issue="13859" author="christopherferris" type="comment" body=" ~kchristidis  that may have been me. If sbft is for v1.1 then please mark as affects v1.1 and fixVersion v1.1." created="2017-04-14 00:39:57.0" updateauthor="christopherferris" updated="2017-04-14 00:39:57.0"/>

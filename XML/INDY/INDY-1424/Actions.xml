@@ -1,0 +1,1 @@
+<Action id="46613" issue="31289" author="zhigunenko.dsr" type="comment" created="2018-06-27 14:35:01.0" updateauthor="zhigunenko.dsr" updated="2018-06-27 14:35:01.0"> <body><! CDATA *Environment:* indy-node 1.3.375 -> 1.4.482 *Actual Results:* Migration has been successfully finished without seq_no_db data corruption  ></body> </Action>

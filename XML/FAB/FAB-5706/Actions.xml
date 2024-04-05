@@ -1,0 +1,2 @@
+<Action id="30600" issue="20097" author="wl6g11li" type="comment" body="If you finish the section of *Install prerequisites*, you can find this file in the *fabric-samples\first-network* file." created="2017-09-07 03:00:55.0" updateauthor="wl6g11li" updated="2017-09-07 03:00:55.0"/>
+<Action id="33235" issue="20097" author="markparz" type="comment" body="Yes, this was resolved with adding the cd first-network as mentioned ^^^above^^^ going to close this out." created="2017-10-26 16:20:25.0" updateauthor="markparz" updated="2017-10-26 16:20:25.0"/>

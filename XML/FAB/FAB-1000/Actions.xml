@@ -1,0 +1,1 @@
+<Action id="19800" issue="13331" author="kchristidis" type="comment" body="No longer relevant, I have a design (and finishing a changeset) that uses common components (for both the solo and kafka packages) to take care of that. Setting to 0 points and marking as done." created="2016-11-19 16:12:06.0" updateauthor="kchristidis" updated="2016-11-19 16:12:06.0"/>

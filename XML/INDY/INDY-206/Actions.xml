@@ -1,0 +1,3 @@
+<Action id="28185" issue="17815" author="stevetolman" type="comment" body="This is time boxed to 30 minutes. " created="2017-07-11 21:17:37.0" updateauthor="stevetolman" updated="2017-07-11 21:17:37.0"/>
+<Action id="28400" issue="17815" author="spivachuk" type="comment" body="This bug must have been fixed in scope of INDY-97 which duplicates this ticket." created="2017-07-14 14:35:44.0" updateauthor="spivachuk" updated="2017-07-14 14:35:44.0"/>
+<Action id="29017" issue="17815" author="vladimirwork" type="comment" body="Fixed in INDY-97, retested on 1.0.67. !Screenshot.PNG|thumbnail! " created="2017-07-26 09:20:56.0" updateauthor="vladimirwork" updated="2017-07-26 09:20:56.0"/>

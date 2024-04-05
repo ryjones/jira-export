@@ -1,0 +1,1 @@
+<Action id="51523" issue="30511" author="sstone1" type="comment" body=" ~varadatibm  you can specify a package created by &quot;peer chaincode package&quot; using the &quot;chaincodePackage&quot; argument to Client.installChaincode. " created="2018-10-02 14:51:32.0" updateauthor="sstone1" updated="2018-10-02 14:51:32.0"/>

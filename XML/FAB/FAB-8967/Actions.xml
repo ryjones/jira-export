@@ -1,0 +1,1 @@
+<Action id="41801" issue="28660" author="dongming" type="comment" created="2018-03-19 18:31:33.0" updateauthor="dongming" updated="2018-03-19 18:31:33.0"> <body><! CDATA PTE will access orderer admin in following order: 1. global admin_cert, 2. local admin_cert, 3. global adminPath, 4. local adminPath     https://gerrit.hyperledger.org/r/#/c/19405/  ></body> </Action>

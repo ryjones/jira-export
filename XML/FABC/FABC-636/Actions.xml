@@ -1,0 +1,2 @@
+<Action id="20176" issue="13869" author="smithbk" type="comment" body="This is a duplicate of https://jira.hyperledger.org/browse/FAB-763 but don&apos;t see option to cancel this or return as a dup." created="2016-12-21 13:57:50.0" updateauthor="smithbk" updated="2016-12-21 13:57:50.0"/>
+<Action id="20177" issue="13869" author="ashutosh_kumar" type="comment" body="This is dup of 1372. Going to close this one as marked done." created="2016-12-21 15:54:51.0" updateauthor="ashutosh_kumar" updated="2016-12-21 15:54:51.0"/>

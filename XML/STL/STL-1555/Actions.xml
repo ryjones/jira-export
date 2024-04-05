@@ -1,0 +1,2 @@
+<Action id="60205" issue="40015" author="ltseeley" type="comment" body="Investigate the potential performance regression between 1.1 and master using callgrind" created="2019-05-21 15:01:41.0" updateauthor="ltseeley" updated="2019-05-21 15:01:41.0"/>
+<Action id="60567" issue="40015" author="pschwarz" type="comment" body="Fixed in https://github.com/hyperledger/sawtooth-core/pull/2129" created="2019-05-31 21:02:36.0" updateauthor="pschwarz" updated="2019-05-31 21:02:36.0"/>

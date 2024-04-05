@@ -1,0 +1,1 @@
+<Action id="38855" issue="26726" author="harrisob@us.ibm.com" type="comment" body="The GRPC close has been added to the disconnect call in v1.1" created="2018-01-18 15:16:01.0" updateauthor="harrisob@us.ibm.com" updated="2018-01-18 15:16:01.0"/>

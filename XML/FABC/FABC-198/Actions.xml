@@ -1,0 +1,2 @@
+<Action id="28124" issue="19128" author="smithbk" type="comment" body="https://gerrit.hyperledger.org/r/#/c/11487/" created="2017-07-11 03:35:44.0" updateauthor="smithbk" updated="2017-07-11 03:35:44.0"/>
+<Action id="28648" issue="19128" author="mastersingh24" type="comment" body="This seems small enough and worth including in a patch release so setting to 1.0.1 for now" created="2017-07-19 10:11:24.0" updateauthor="mastersingh24" updated="2017-07-19 10:11:24.0"/>

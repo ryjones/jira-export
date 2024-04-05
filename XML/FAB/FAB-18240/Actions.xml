@@ -1,0 +1,3 @@
+<Action id="70397" issue="46146" author="JIRAUSER20881" type="comment" body="Have you solved it? I got the same problem..." created="2020-09-29 12:41:24.0" updateauthor="JIRAUSER20881" updated="2020-09-29 12:41:24.0"/>
+<Action id="70488" issue="46146" author="JIRAUSER20850" type="comment" body=" ~rany  Not now" created="2020-10-12 06:42:26.0" updateauthor="JIRAUSER20850" updated="2020-10-12 06:42:26.0"/>
+<Action id="70489" issue="46146" author="JIRAUSER20881" type="comment" body="it&apos;s a bug from skd-go, here is a  solution|https://stackoverflow.com/q/62927393/14361586 " created="2020-10-12 07:57:19.0" updateauthor="JIRAUSER20881" updated="2020-10-12 07:57:19.0"/>

@@ -1,0 +1,2 @@
+<Action id="50187" issue="33070" author="harrisob@us.ibm.com" type="comment" body="Triage comment Sept 10: This issue will be worked on shortly, this is a code/API issue that is a missing optional parameter that the other API&apos;s have." created="2018-09-10 19:23:04.0" updateauthor="harrisob@us.ibm.com" updated="2018-09-10 19:23:04.0"/>
+<Action id="50370" issue="33070" author="harrisob@us.ibm.com" type="comment" body="https://gerrit.hyperledger.org/r/#/c/26255/" created="2018-09-12 16:31:01.0" updateauthor="harrisob@us.ibm.com" updated="2018-09-12 16:31:01.0"/>

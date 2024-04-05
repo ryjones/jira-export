@@ -1,0 +1,5 @@
+<Label id="32010" issue="33510" label="CrossChannel"/>
+<Label id="32011" issue="33510" label="InvokeChaincode"/>
+<Label id="32012" issue="33510" label="chaincode"/>
+<Label id="32013" issue="33510" label="getHistoryForKey"/>
+<Label id="32014" issue="33510" label="stale-item"/>

@@ -1,0 +1,4 @@
+<Action id="35891" issue="24804" author="scottz" type="comment" body="This testcase uses filtered blocks. Compare results with FAB-7329, same but with unfiltered blocks." created="2017-12-05 23:33:32.0" updateauthor="scottz" updated="2017-12-05 23:33:32.0"/>
+<Action id="39156" issue="24804" author="scottz" type="comment" body="https://gerrit.hyperledger.org/r/#/c/17159/" created="2018-01-26 03:13:16.0" updateauthor="scottz" updated="2018-01-26 03:13:16.0"/>
+<Action id="45663" issue="24804" author="suryalnvs" type="comment" body="Tested at Commit level 186ae9f" created="2018-06-07 19:12:29.0" updateauthor="suryalnvs" updated="2018-06-07 19:12:29.0"/>
+<Action id="49514" issue="24804" author="scottz" type="comment" body="Hmmm. I reopened this one by mistake. Close it now. We need to add a different one to the daily test suite." created="2018-08-28 21:52:09.0" updateauthor="scottz" updated="2018-08-30 23:27:18.0"/>

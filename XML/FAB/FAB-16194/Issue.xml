@@ -1,0 +1,1 @@
+<Issue id="41597" key="FAB-16194" number="16194" project="10002" reporter="manish-sethi" creator="manish-sethi" type="10003" summary="Modify statedb/historydb/blockstore index recovery code to take into account the separate metadata store" priority="3" status="10000" created="2019-08-02 03:21:17.0" updated="2019-12-02 12:15:15.0" votes="0" watches="1" workflowId="54614"/>

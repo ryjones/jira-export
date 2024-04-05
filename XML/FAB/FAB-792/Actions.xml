@@ -1,0 +1,3 @@
+<Action id="22305" issue="13097" author="muralisr" type="comment" body=" ~pmullaney  doesn&apos;t sound it&apos;ll fit v1.0 ? Can we move this to v1.0 in the Fix Version field please ?" created="2017-04-13 07:32:38.0" updateauthor="muralisr" updated="2017-04-13 07:32:38.0"/>
+<Action id="22355" issue="13097" author="pmullaney" type="comment" body="I moved it to v1.0. I hope that was right." created="2017-04-13 15:38:06.0" updateauthor="pmullaney" updated="2017-04-13 15:38:06.0"/>
+<Action id="59619" issue="13097" author="mastersingh24" type="comment" body="Event Hub has been replaced with Channel Event Hub" created="2019-04-30 17:35:14.0" updateauthor="mastersingh24" updated="2019-04-30 17:35:14.0"/>

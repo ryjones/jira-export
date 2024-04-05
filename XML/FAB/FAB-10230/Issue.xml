@@ -1,0 +1,1 @@
+<Issue id="30414" key="FAB-10230" number="10230" project="10002" reporter="yacovm" assignee="yacovm" creator="yacovm" type="10003" summary="Add self-signed TLS cert generation for java-sdk" priority="3" resolution="10000" status="6" created="2018-05-19 16:29:34.0" updated="2020-06-11 15:30:43.0" resolutiondate="2018-05-22 17:43:35.0" votes="0" watches="1" workflowId="42243"/>

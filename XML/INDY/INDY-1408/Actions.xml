@@ -1,0 +1,2 @@
+<Action id="64423" issue="31014" author="esplinr" type="comment" body="We are now running Flake8 on  Jenkins and LGTM on GitHub PRs." created="2019-10-09 08:25:41.0" updateauthor="esplinr" updated="2019-10-09 08:25:41.0"/>
+<Action id="64569" issue="31014" author="stevegoob" type="comment" body="This ticket is concerned with *Code Coverage,* not static analysis, and Flake8 is not a code coverage tool. Moving back to open" created="2019-10-10 23:44:00.0" updateauthor="stevegoob" updated="2019-10-10 23:44:00.0"/>

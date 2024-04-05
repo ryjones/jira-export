@@ -1,0 +1,1 @@
+<Issue id="42347" key="FAB-16595" number="16595" project="10002" reporter="sykesm" assignee="sykesm" creator="sykesm" type="10002" summary="Move orderer and idexmixgen main packages under cmd/" priority="4" resolution="10000" status="6" created="2019-09-13 14:05:37.0" updated="2019-12-02 16:32:28.0" resolutiondate="2019-12-02 16:32:28.0" votes="0" watches="1" workflowId="55402"/>

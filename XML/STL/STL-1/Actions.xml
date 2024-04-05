@@ -1,0 +1,3 @@
+<Action id="18619" issue="10000" author="mfford" type="comment" body="Linked to NML-1053" created="2016-08-22 14:25:08.0" updateauthor="mfford" updated="2016-08-22 14:25:08.0"/>
+<Action id="18620" issue="10000" author="toddojala" type="comment" body="Made code change that seems to work. Will make sure, then create appropriate commits." created="2016-08-22 14:39:00.0" updateauthor="toddojala" updated="2016-08-22 14:39:00.0"/>
+<Action id="18745" issue="10000" author="toddojala" type="comment" body="https://github.intel.com/maiden-lane/sawtooth-core/pull/262" created="2016-09-01 19:35:16.0" updateauthor="toddojala" updated="2016-09-01 19:35:16.0"/>

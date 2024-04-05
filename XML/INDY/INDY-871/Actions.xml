@@ -1,0 +1,2 @@
+<Action id="37941" issue="20968" author="ozheregelya" type="comment" body="Impossible to retest this issue in indy-cli because of IS-502." created="2018-01-03 18:53:04.0" updateauthor="ozheregelya" updated="2018-01-03 18:53:04.0"/>
+<Action id="49926" issue="20968" author="esplinr" type="comment" body="This issue is against the deprecated CLI." created="2018-09-05 20:13:30.0" updateauthor="esplinr" updated="2018-09-05 20:13:30.0"/>

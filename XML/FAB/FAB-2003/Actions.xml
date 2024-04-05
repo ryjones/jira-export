@@ -1,0 +1,2 @@
+<Action id="20659" issue="14505" author="jeffgarratt" type="comment" body="So far focusing on orderer.feature and bootstrap.feature.  The endorser.feature will fail due to v1 updates and will be addressed asap." created="2017-02-02 16:32:15.0" updateauthor="jeffgarratt" updated="2017-02-02 16:32:15.0"/>
+<Action id="21421" issue="14505" author="jeffgarratt" type="comment" body="Reworked behave features.  Endorser feature is currently not used.  May soon be removed." created="2017-03-09 22:47:48.0" updateauthor="jeffgarratt" updated="2017-03-09 22:47:48.0"/>

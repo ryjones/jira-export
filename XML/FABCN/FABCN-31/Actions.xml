@@ -1,0 +1,2 @@
+<Action id="65795" issue="42705" author="jtonline" type="comment" body="Pausing this for now but note that a single chaincode may not be possible due to cross chaincode tests" created="2019-11-27 11:06:55.0" updateauthor="jtonline" updated="2019-11-27 11:06:55.0"/>
+<Action id="70715" issue="42705" author="JIRAUSER20406" type="comment" body="ok  ~jtonline ?" created="2020-11-18 09:39:13.0" updateauthor="JIRAUSER20406" updated="2020-11-18 09:39:13.0"/>

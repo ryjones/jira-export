@@ -1,0 +1,1 @@
+<Action id="69381" issue="45150" author="btl5037" type="comment" body="I&apos;ve tested this, there is no failure. You aren&apos;t expected to run the unit test script directly, do you encounter the error when running `make unit-test`?" created="2020-06-03 02:48:28.0" updateauthor="btl5037" updated="2020-06-03 02:48:28.0"/>

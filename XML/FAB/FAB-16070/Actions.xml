@@ -1,0 +1,2 @@
+<Action id="63067" issue="41402" author="rameshthoomu" type="comment" body="This is blocked with PTE bug as it is not reading multiple orgs connection profile. Blocked by FAB-16330" created="2019-08-19 18:48:17.0" updateauthor="rameshthoomu" updated="2019-08-19 18:48:17.0"/>
+<Action id="63343" issue="41402" author="rameshthoomu" type="comment" body="https://gerrit.hyperledger.org/r/#/c/fabric-test/+/33212/" created="2019-08-27 19:40:25.0" updateauthor="rameshthoomu" updated="2019-08-27 19:40:25.0"/>

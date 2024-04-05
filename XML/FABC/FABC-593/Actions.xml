@@ -1,0 +1,1 @@
+<Action id="21910" issue="12365" author="smithbk" type="comment" body="It is now possible to have multiple trusted CAs via MSP in fabric, and multiple instances of fabric-ca-server with an HA DB." created="2017-04-06 02:01:43.0" updateauthor="smithbk" updated="2017-04-06 02:02:39.0"/>

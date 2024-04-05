@@ -1,0 +1,1 @@
+<Action id="24040" issue="16639" author="cdaughtr" type="comment" body="getRoles needs to be removed from Peer.  So with this issue, I will remove getRoles and several other functions that are no longer applicable to Peer." created="2017-05-18 18:06:02.0" updateauthor="cdaughtr" updated="2017-05-18 18:06:02.0"/>

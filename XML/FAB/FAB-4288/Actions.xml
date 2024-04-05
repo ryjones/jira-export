@@ -1,0 +1,2 @@
+<Action id="29678" issue="17345" author="elli-androulaki" type="comment" body="This would not be required for the application level encryption library, so i would label this to be post-v1.1." created="2017-08-11 08:52:02.0" updateauthor="elli-androulaki" updated="2017-08-11 08:52:02.0"/>
+<Action id="41583" issue="17345" author="elli-androulaki" type="comment" body="Closing this as it is no longer relevant." created="2018-03-14 11:15:47.0" updateauthor="elli-androulaki" updated="2018-03-14 11:15:47.0"/>

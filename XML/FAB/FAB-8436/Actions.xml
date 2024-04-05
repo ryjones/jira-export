@@ -1,0 +1,4 @@
+<Action id="40677" issue="27905" author="denyeart" type="comment" body=" ~ChristopherFerris  Do you intend to fix in 1.1 or defer to 1.2?" created="2018-02-23 19:29:10.0" updateauthor="denyeart" updated="2018-02-23 19:29:10.0"/>
+<Action id="44774" issue="27905" author="kchristidis" type="comment" body="Bumping this up.  ~ChristopherFerris : please update when you get a moment." created="2018-05-21 18:40:34.0" updateauthor="kchristidis" updated="2018-05-21 18:40:34.0"/>
+<Action id="45892" issue="27905" author="christopherferris" type="comment" body="This is low priority and bumping to post 1.2 as there is more than just the error message that need changing to expunge the &apos;chain&apos; concept." created="2018-06-13 16:22:58.0" updateauthor="christopherferris" updated="2018-06-13 16:22:58.0"/>
+<Action id="67240" issue="27905" author="sykesm" type="comment" body="Stale" created="2020-01-22 22:27:36.0" updateauthor="sykesm" updated="2020-01-22 22:27:36.0"/>

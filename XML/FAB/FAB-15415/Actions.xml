@@ -1,0 +1,2 @@
+<Action id="62113" issue="39753" author="scottz" type="comment" created="2019-07-25 14:21:08.0" updateauthor="scottz" updated="2019-07-25 14:21:08.0"> <body><! CDATA Look in section `Serviceability and operations improvements` of https://hyperledger-fabric.readthedocs.io/en/release-1.4/whatsnew.html   ></body> </Action>
+<Action id="62693" issue="39753" author="scottz" type="comment" body="https://gerrit.hyperledger.org/r/c/fabric-test/+/32685" created="2019-08-07 17:39:13.0" updateauthor="scottz" updated="2019-08-07 17:39:13.0"/>

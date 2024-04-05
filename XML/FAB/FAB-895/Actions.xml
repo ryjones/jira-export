@@ -1,0 +1,2 @@
+<Action id="19614" issue="13226" author="jimthematrix" type="comment" body="moving this to Bret since he&apos;s been investigating the query path with chaincode since yesterday" created="2016-11-02 17:22:37.0" updateauthor="jimthematrix" updated="2016-11-02 17:22:37.0"/>
+<Action id="19649" issue="13226" author="jimthematrix" type="comment" body="resolved by changeset https://gerrit.hyperledger.org/r/#/c/2255/" created="2016-11-04 19:32:51.0" updateauthor="jimthematrix" updated="2016-11-04 19:32:51.0"/>

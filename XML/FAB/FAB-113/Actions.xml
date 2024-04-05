@@ -1,0 +1,2 @@
+<Action id="18602" issue="12412" author="christopherferris" type="comment" body="What does this even mean? " created="2016-08-21 16:14:29.0" updateauthor="christopherferris" updated="2016-08-21 16:14:29.0"/>
+<Action id="18609" issue="12412" author="genggjh" type="comment" created="2016-08-22 06:34:45.0" updateauthor="genggjh" updated="2016-08-22 06:34:45.0"> <body><! CDATA The CA is single point of failur currently, we only have one CA service running in fabric network.  We can consider to write a system chaincode to replace the membership server roles.  ></body> </Action>

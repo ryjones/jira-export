@@ -1,0 +1,3 @@
+<Action id="43280" issue="29559" author="sambhavdutt" type="comment" body="This Orderer tests are still failing in the fabric-test smoke CI jobs , daily, verify &amp; merge, due to same reason detailed above." created="2018-04-23 13:44:51.0" updateauthor="sambhavdutt" updated="2018-04-23 13:44:51.0"/>
+<Action id="43304" issue="29559" author="nnao" type="comment" body="https://gerrit.hyperledger.org/r/c/20909/" created="2018-04-23 18:51:54.0" updateauthor="nnao" updated="2018-04-23 18:51:54.0"/>
+<Action id="43314" issue="29559" author="nnao" type="comment" body="Maybe This patch needs to merge FAB-9650" created="2018-04-23 20:53:14.0" updateauthor="nnao" updated="2018-04-23 20:53:14.0"/>

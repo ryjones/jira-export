@@ -1,0 +1,2 @@
+<Action id="70623" issue="46210" author="wlahti" type="comment" created="2020-11-06 15:52:50.0" updateauthor="wlahti" updated="2020-11-06 15:52:50.0"> <body><! CDATA Scenario 1: https://github.com/hyperledger/fabric/pull/2082   ></body> </Action>
+<Action id="70663" issue="46210" author="wlahti" type="comment" body="Split the other scenario into FAB-18337." created="2020-11-11 16:40:03.0" updateauthor="wlahti" updated="2020-11-11 16:40:03.0"/>

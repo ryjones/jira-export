@@ -1,0 +1,1 @@
+<Issue id="37710" key="FAB-14198" number="14198" project="10002" reporter="sykesm" creator="sykesm" type="10003" summary="Move gossip&apos;s ConnectionInfo and AuthInfo out out protos" priority="3" resolution="10000" status="6" created="2019-02-15 15:51:36.0" updated="2019-03-01 21:48:21.0" resolutiondate="2019-03-01 21:48:16.0" votes="0" watches="1" workflowId="49325"/>

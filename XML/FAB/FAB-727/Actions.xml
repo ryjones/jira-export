@@ -1,0 +1,1 @@
+<Action id="19416" issue="13031" author="nishi" type="comment" body="After updating logs to write only when critical we observed docker &quot;/dev/sda1&quot; was not being used as earlier when we had logs@debug level" created="2016-10-24 15:36:31.0" updateauthor="nishi" updated="2016-10-24 15:36:31.0"/>

@@ -1,0 +1,2 @@
+<Action id="38440" issue="26672" author="smithbk" type="comment" body="https://gerrit.hyperledger.org/r/#/c/16709/" created="2018-01-11 15:06:36.0" updateauthor="smithbk" updated="2018-01-11 15:06:36.0"/>
+<Action id="38527" issue="26672" author="nishi" type="comment" body="Tested migration using sqllite3 as DB on commit level: *12adae3f7c5d27ccfeb06e9d819694e1d1c1df64* successfully." created="2018-01-12 21:31:03.0" updateauthor="nishi" updated="2018-01-12 21:31:03.0"/>

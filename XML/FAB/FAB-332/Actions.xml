@@ -1,0 +1,1 @@
+<Action id="19023" issue="12633" author="mastersingh24" type="comment" body="The guarantee is that all transactions will be processed in the same order by all well-behaving nodes.  There is no order guaranteed in terms of when the transaction was submitted" created="2016-09-28 10:56:54.0" updateauthor="mastersingh24" updated="2016-09-28 10:56:54.0"/>

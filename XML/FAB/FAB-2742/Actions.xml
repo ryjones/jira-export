@@ -1,0 +1,1 @@
+<Action id="22067" issue="15310" author="ratnakar" type="comment" created="2017-04-11 03:34:21.0" updateauthor="ratnakar" updated="2017-04-11 03:34:21.0"> <body><! CDATA This has been implemented with another Jira  issue, https://jira.hyperledger.org/browse/FAB-2745  Gerrit changes : https://gerrit.hyperledger.org/r/#/c/7141/  ></body> </Action>

@@ -1,0 +1,2 @@
+<Action id="50685" issue="33860" author="burdettadam" type="comment" created="2018-09-19 15:52:25.0" updateauthor="burdettadam" updated="2018-09-19 15:52:25.0"> <body><! CDATA added pull request #1138 ( https://github.com/hyperledger/indy-sdk/pull/1138 ) regarding this  ></body> </Action>
+<Action id="50917" issue="33860" author="gudkov" type="comment" body="Duplicates IS-963" created="2018-09-21 10:16:08.0" updateauthor="gudkov" updated="2018-09-21 10:16:08.0"/>

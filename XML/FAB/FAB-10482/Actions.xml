@@ -1,0 +1,2 @@
+<Action id="45346" issue="30766" author="nirro" type="comment" created="2018-05-31 14:17:09.0" updateauthor="nirro" updated="2018-05-31 14:17:09.0"> <body><! CDATA added additional step: 6. make sure Org2 still has access to private data that was created before it was removed from collection.  ></body> </Action>
+<Action id="45347" issue="30766" author="nirro" type="comment" body="https://gerrit.hyperledger.org/r/#/c/22703/" created="2018-05-31 14:17:15.0" updateauthor="nirro" updated="2018-07-12 12:32:24.0"/>

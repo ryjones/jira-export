@@ -1,0 +1,1 @@
+<Action id="69506" issue="44680" author="bestbeforetoday" type="comment" body="PR was closed by raiser since in CouchDB 3.0.0 all databases are created by default as admin-only so this change is no longer necessary" created="2020-06-19 10:15:10.0" updateauthor="bestbeforetoday" updated="2020-06-19 10:15:10.0"/>

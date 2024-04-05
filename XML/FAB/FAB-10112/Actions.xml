@@ -1,0 +1,2 @@
+<Action id="49066" issue="30256" author="mastersingh24" type="comment" created="2018-08-19 12:58:52.0" updateauthor="mastersingh24" updated="2018-08-19 12:58:52.0"> <body><! CDATA This seems more like a documentation issue with the Node SDK than something we should do with the balance transfer application.   ></body> </Action>
+<Action id="58492" issue="30256" author="mastersingh24" type="comment" body="we are removing this sample anyway" created="2019-03-24 12:11:16.0" updateauthor="mastersingh24" updated="2019-03-24 12:11:16.0"/>

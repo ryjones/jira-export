@@ -1,0 +1,2 @@
+<Action id="63890" issue="42423" author="rameshthoomu" type="comment" body="https://gerrit.hyperledger.org/r/#/c/fabric/+/33615/" created="2019-09-19 17:26:08.0" updateauthor="rameshthoomu" updated="2019-09-19 17:26:08.0"/>
+<Action id="63905" issue="42423" author="rameshthoomu" type="comment" body="Observed that above said issue is working as expected on the latest 2.0.0 images." created="2019-09-20 13:41:20.0" updateauthor="rameshthoomu" updated="2019-09-20 13:41:20.0"/>

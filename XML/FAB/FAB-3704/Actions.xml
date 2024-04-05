@@ -1,0 +1,1 @@
+<Action id="23928" issue="16417" author="grapebaba" type="comment" created="2017-05-17 09:07:28.0" updateauthor="grapebaba" updated="2017-05-17 09:07:28.0"> <body><! CDATA common/config/standardvalues_test.go:47:2: field msg is unused (U1000)   This field cannot delete since it will read config to this field, if deleted test will failed.  ></body> </Action>

@@ -1,0 +1,1 @@
+<Action id="55917" issue="36830" author="rickr" type="comment" created="2019-01-21 14:28:06.0" updateauthor="rickr" updated="2019-01-21 14:28:06.0"> <body><! CDATA seems to be working now that we've gone to 2.0   https://gerrit.hyperledger.org/r/#/c/28665/  ></body> </Action>

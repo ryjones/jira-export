@@ -1,0 +1,5 @@
+<Action id="50131" issue="33597" author="guoger" type="comment" body="CR https://gerrit.hyperledger.org/r/c/26178" created="2018-09-09 09:41:33.0" updateauthor="guoger" updated="2018-09-09 09:41:33.0"/>
+<Action id="52387" issue="33597" author="kchristidis" type="comment" created="2018-10-17 19:08:13.0" updateauthor="kchristidis" updated="2018-10-17 19:08:13.0"> <body><! CDATA  ~guoger : Thanks for the write-up.  Committed then means: we have a quorum, but I didn't get a chance to apply them to my state machine yet?  ></body> </Action>
+<Action id="52451" issue="33597" author="guoger" type="comment" body=" ~kchristidis  yes" created="2018-10-19 12:08:50.0" updateauthor="guoger" updated="2018-10-19 12:08:50.0"/>
+<Action id="52719" issue="33597" author="kchristidis" type="comment" body="https://gerrit.hyperledger.org/r/c/27108/" created="2018-10-28 21:53:31.0" updateauthor="kchristidis" updated="2018-10-28 21:53:31.0"/>
+<Action id="52735" issue="33597" author="kchristidis" type="comment" body="https://gerrit.hyperledger.org/r/c/27249/" created="2018-10-29 14:30:29.0" updateauthor="kchristidis" updated="2018-10-29 14:30:29.0"/>

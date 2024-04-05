@@ -1,0 +1,4 @@
+<Action id="19119" issue="12779" author="corecode" type="comment" body="partially addressed in https://gerrit.hyperledger.org/r/#/c/1467" created="2016-10-05 10:46:17.0" updateauthor="corecode" updated="2016-10-05 10:46:17.0"/>
+<Action id="19121" issue="12779" author="corecode" type="comment" body="future directions: store hello message and use in FAB-603 and FAB-604." created="2016-10-05 11:02:10.0" updateauthor="corecode" updated="2016-10-05 11:02:10.0"/>
+<Action id="19531" issue="12779" author="corecode" type="comment" body="mostly addressed in https://gerrit.hyperledger.org/r/#/c/2061/" created="2016-10-27 09:35:54.0" updateauthor="corecode" updated="2016-10-27 09:35:54.0"/>
+<Action id="19580" issue="12779" author="corecode" type="comment" body="fully addressed in https://gerrit.hyperledger.org/r/#/c/2117/" created="2016-11-01 10:03:06.0" updateauthor="corecode" updated="2016-11-01 10:03:06.0"/>

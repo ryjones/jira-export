@@ -1,0 +1,2 @@
+<Action id="50593" issue="33646" author="wenjian" type="comment" created="2018-09-18 12:16:38.0" updateauthor="wenjian" updated="2018-09-18 12:16:38.0"> <body><! CDATA CR:  https://gerrit.hyperledger.org/r/#/c/26361/      ></body> </Action>
+<Action id="50976" issue="33646" author="wenjian" type="comment" body="Added TxSubmitter client and e2e test in a separate CR:  https://gerrit.hyperledger.org/r/#/c/26461/" created="2018-09-21 17:59:11.0" updateauthor="wenjian" updated="2018-09-21 17:59:11.0"/>

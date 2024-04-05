@@ -1,0 +1,2 @@
+<Action id="52483" issue="34431" author="davidkhala" type="comment" created="2018-10-21 03:22:24.0" updateauthor="davidkhala" updated="2018-10-21 03:22:24.0"> <body><! CDATA Does this log appear in https://jenkins.hyperledger.org/job/fabric-sdk-node8-verify-master-x86_64/599/artifact/debug.log   ></body> </Action>
+<Action id="52511" issue="34431" author="davidkhala" type="comment" body="CR for this: https://gerrit.hyperledger.org/r/#/c/27144/" created="2018-10-22 03:38:31.0" updateauthor="davidkhala" updated="2018-10-22 03:38:31.0"/>
